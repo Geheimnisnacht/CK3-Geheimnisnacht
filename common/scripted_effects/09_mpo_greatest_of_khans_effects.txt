@@ -6,7 +6,7 @@ form_the_greatest_khan_empire_effect = {
 		if = {
 			limit = {
 				#culture = culture:mongol
-				always =  no #WH
+				always =  no #WHG
 			}
 			# #Create the title
 			# create_title_and_vassal_change = {
@@ -142,7 +142,7 @@ form_the_greatest_khan_empire_effect = {
 spawn_gok_troops_effect = {
 	#Cultural MaA armies
 	random_list = {
-		#Mangudai armies
+		#Mangudai armies #WHG
 		# 2 = {
 		# 	trigger = {
 		# 		trigger_if = {
@@ -215,7 +215,7 @@ spawn_gok_troops_effect = {
 		# 	}
 		# }
 		#Cataphract archers armies
-		# 2 = { #WH
+		# 2 = { #WHG
 		# 	trigger = {
 		# 		trigger_if = {
 		# 			limit = {
@@ -287,7 +287,7 @@ spawn_gok_troops_effect = {
 		# 	}
 		# }
 		#Maturkan warriors armies
-		# 1 = {
+		# 1 = { #WHG
 		# 	trigger = {
 		# 		trigger_if = {
 		# 			limit = {
@@ -304,7 +304,7 @@ spawn_gok_troops_effect = {
 		# 		}
 				
 		# 	}
-		# 	spawn_army = {
+		# 	spawn_army = { #WHG
 		# 		uses_supply = no
 		# 		inheritable = yes
 		# 		name = gok_event_troops
@@ -512,10 +512,10 @@ spawn_gok_troops_effect = {
 					}
 					domicile.domicile_culture = {
 						NOR = {
-							# has_cultural_parameter = unlock_maa_mangudai #WH
-							# has_cultural_parameter = unlock_maa_cataphract_archers #WH
-							# has_cultural_parameter = unlock_maa_maturkan_warriors #WH
-							# has_cultural_parameter = unlock_maa_mulaththamun #WH
+							# has_cultural_parameter = unlock_maa_mangudai #WHG
+							# has_cultural_parameter = unlock_maa_cataphract_archers
+							# has_cultural_parameter = unlock_maa_maturkan_warriors
+							# has_cultural_parameter = unlock_maa_mulaththamun
 							has_innovation = innovation_war_camels
 						}
 					}
@@ -523,10 +523,10 @@ spawn_gok_troops_effect = {
 				trigger_else = {
 					culture = {
 						NOR = {
-							# has_cultural_parameter = unlock_maa_mangudai #WH
-							# has_cultural_parameter = unlock_maa_cataphract_archers #WH
-							# has_cultural_parameter = unlock_maa_maturkan_warriors #WH
-							# has_cultural_parameter = unlock_maa_mulaththamun #WH
+							# has_cultural_parameter = unlock_maa_mangudai #WHG
+							# has_cultural_parameter = unlock_maa_cataphract_archers
+							# has_cultural_parameter = unlock_maa_maturkan_warriors
+							# has_cultural_parameter = unlock_maa_mulaththamun
 							has_innovation = innovation_war_camels
 						}
 					}
@@ -1603,7 +1603,7 @@ gok_spawn_subjugated_siege_army_effect = {
 		#TGP Cannon
 		if = {
 			limit = {#Bombards
-		#		OR = {
+		#		OR = { #WHG
 		#			$CHARACTER$.culture = {
 		#				has_innovation = innovation_gunpowder
 		#				OR = {
@@ -1621,7 +1621,7 @@ gok_spawn_subjugated_siege_army_effect = {
 		#				}
 		#			}
 		#		}
-				always = no #WH
+				always = no #WHG
 			}
 		#	random_list = {
 		#		#Heavy Infantry
@@ -2164,7 +2164,7 @@ gok_spawn_subjugated_siege_army_effect = {
 		#Siege Towers
 		else_if = {
 			limit = {
-				#OR = { #WH
+				#OR = { #WHG
 				#	$CHARACTER$.culture = {
 				#		has_innovation = innovation_trebuchet
 				#		OR = {
@@ -2182,7 +2182,7 @@ gok_spawn_subjugated_siege_army_effect = {
 				#		}
 				#	}
 				#}
-				always = no #WH
+				always = no #LotR
 			}
 			random_list = {
 				#Heavy Infantry
@@ -2725,7 +2725,7 @@ gok_spawn_subjugated_siege_army_effect = {
 		#Cloud Ladder
 		else_if = {
 			limit = {
-				#OR = { #WH
+				#OR = { #WHG
 				#	$CHARACTER$.culture = {
 				#		has_innovation = innovation_mangonel
 				#		OR = {
@@ -2743,7 +2743,7 @@ gok_spawn_subjugated_siege_army_effect = {
 				#		}
 				#	}
 				#}
-				always = no #WH
+				always = no #WHG
 			}
 			random_list = {
 				#Heavy Infantry
@@ -3286,7 +3286,7 @@ gok_spawn_subjugated_siege_army_effect = {
 		#Ballista - but not the Byz one
 		else_if = {
 			limit = {
-				#OR = { #WH
+				#OR = { #WHG
 				#	$CHARACTER$.culture = {
 				#		OR = {
 				#			has_cultural_pillar = heritage_chinese
@@ -3302,7 +3302,7 @@ gok_spawn_subjugated_siege_army_effect = {
 				#		}
 				#	}
 				#}
-				always = no #WH
+				always = no #WHG
 			}
 			random_list = {
 				#Heavy Infantry
@@ -3834,7 +3834,7 @@ gok_spawn_subjugated_siege_army_effect = {
 	}
 }
 
-gok_spawn_subjugated_quality_army_effect = { #WH
+gok_spawn_subjugated_quality_army_effect = { #WHG
 	$CHARACTER$ = {
 		save_scope_as = army_giver
 	}
@@ -3852,7 +3852,7 @@ gok_spawn_subjugated_quality_army_effect = { #WH
 	# 		save_scope_as = army_origin_realm
 	# 	}
 	# }
-	# hidden_effect = { #WH
+	# hidden_effect = { #LotR
 	# 	random_list = {
 	# 		#Paiks
 	# 		200 = {
@@ -7204,7 +7204,7 @@ mpo_gok_civilian_slaughter_totalling_effect = {
 	}
 }
 
-gok_retribution_cleanup_effect = { #WH
+gok_retribution_cleanup_effect = { #WHG
 	# if = {	
 	# 	limit = {
 	# 		exists = scope:khans_retribution_target
@@ -7228,7 +7228,7 @@ gok_retribution_cleanup_effect = { #WH
 	# }
 }
 
-gok_world_conquest_generic_rewards_effect = { #WH
+gok_world_conquest_generic_rewards_effect = { #WHG
 	# custom_tooltip = gok_gain_hegemony
 	# hidden_effect = {
 	# 	#CENGIZ KHAGANATE
@@ -7517,7 +7517,7 @@ gok_world_conquest_generic_rewards_effect = { #WH
 	# 		name = gok_empire_crumble_date
 	# 		value = global_var:gok_empire_crumble_date
 	# 	}
-	# }
+	# } #WHG
 		
 	# #Give the GoK hegemony all of the steppe as de jure
 	# hidden_effect = {
@@ -7548,7 +7548,7 @@ gok_world_conquest_generic_rewards_effect = { #WH
 	# 		}
 	# 		set_de_jure_liege_title = scope:gok_hegemony
 	# 	}
-	# }
+	# } #WHG
 	
 	# if = {
 	# 	limit = {
@@ -7642,7 +7642,7 @@ gok_world_conquest_generic_rewards_effect = { #WH
 	# }
 	# else = {
 	# 	add_trait = shrewd
-	# }
+	# } #WHG
 }
 
 gok_upgrade_realm_and_government_effect = {
@@ -7899,7 +7899,7 @@ gok_final_decision_list_setup = {
 			limit = {
 				OR = {
 					has_trait = nomadic_philosophy
-					# culture = { #WH
+					# culture = { #LotR
 					# 	has_cultural_tradition = tradition_horse_lords
 					# }
 					culture = {
@@ -8116,7 +8116,7 @@ gok_war_target_evaluation_and_declaration_effect = {
 		
 	# 							# Standard conditions
 	# 							NOT = { is_at_war_with = scope:mongol_emperor }
-	# 							# NOT = { #WH
+	# 							# NOT = { #LotR
 	# 							# 	is_in_list = has_been_sent_subjugation_offer
 	# 							# }
 	# 							save_temporary_scope_as = truce_check
@@ -8169,7 +8169,7 @@ gok_war_target_evaluation_and_declaration_effect = {
 	# }
 }
 
-mpo_add_golden_lineage_effect = { #WH
+mpo_add_golden_lineage_effect = {
 	add_trait = golden_lineage
 	if = {
 		limit = {
