@@ -1,248 +1,308 @@
 ﻿byzantine = {
 	trigger = {
-		# WHG TODO
-		always = no
-		#NOT = {
-		#	government_has_flag = government_is_nomadic
-		#}
-		#has_ep3_dlc_trigger = yes
-		#OR = {
-		#	capital_county ?= title:c_byzantion
-		#	primary_title ?= title:e_byzantium
-		#	primary_title ?= title:h_eastern_roman_empire
-		#	AND = {
-		#		primary_title ?= title:h_roman_empire
-		#		title:h_roman_empire = {
-		#			has_variable = rome_was_restored_by_byzantium
-		#		}
-		#	}
-		#}
-		#trigger_if = {
-		#	limit = {
-		#		has_tgp_dlc_trigger = yes
-		#		NOT = {
-		#			government_has_flag = government_is_nomadic
-		#		}
-		#		tgp_is_ceremonial_regent_trigger = no
-		#	}
-		#	NOT = { primary_title ?= title:h_china }
-		#}
+		# NOT = { #WHG
+		# 	government_has_flag = government_is_nomadic
+		# }
+		# has_ep3_dlc_trigger = yes #WHG
+		# OR = { #WHG
+		# 	capital_county ?= title:c_byzantion
+		# 	primary_title ?= title:e_byzantium
+		# 	primary_title ?= title:h_eastern_roman_empire
+		# 	AND = {
+		# 		primary_title ?= title:h_roman_empire
+		# 		title:h_roman_empire = {
+		# 			has_variable = rome_was_restored_by_byzantium
+		# 		}
+		# 	}
+		# }
+		# trigger_if = { #WHG
+		# 	limit = {
+		# 		has_tgp_dlc_trigger = yes
+		# 		NOT = {
+		# 			government_has_flag = government_is_nomadic
+		# 		}
+		# 		tgp_is_ceremonial_regent_trigger = no
+		# 	}
+		# 	NOT = { primary_title ?= title:h_china }
+		# }
+		# NOR = { #WHG
+		# 	culture = culture:kharadunaim
+		# 	culture = culture:bellanarud
+		# 	culture = culture:bellakarani
+		# 	culture = culture:bellakaze
+		# 	culture = culture:felayan
+		# 	culture = culture:mardrukan
+		# 	culture = culture:tanturaki
+		# 	culture = culture:umbarean
+		# 	culture = culture:anbalukkhori
+		# 	culture = culture:black_numenorean
+		# }
+		# has_adunai_court_illustration_trigger = yes #WHG
+		always = no #WHG
 	}
 }
 
 mediterranean = {
 	trigger = {
-		# WHG TODO
-		always = no
-		#NOT = {
-		#	government_has_flag = government_is_nomadic
-		#}
-		#capital_county ?= {
-		#	OR = {
-		#		culture = { has_graphical_mediterranean_culture_group_trigger = yes }
-		#		AND = {
-		#			culture = { has_graphical_iberian_culture_group_trigger = yes }
-		#			NOT = { religion = religion:islam_religion }
-		#		}
-		#		title_province = { steppe_building_gfx_use_mediterranean_trigger = yes }
-		#	}
-		#}
-		#trigger_if = { # Byzantine Trigger
-		#	limit = {
-		#		has_ep3_dlc_trigger = yes
-		#	}
-		#	NOR = {
-		#		capital_county ?= title:c_byzantion
-		#		primary_title ?= title:e_byzantium
-		#		primary_title ?= title:h_eastern_roman_empire
-		#		AND = {
-		#			primary_title ?= title:h_roman_empire
-		#			title:h_roman_empire = {
-		#				has_variable = rome_was_restored_by_byzantium
-		#			}
-		#		}
-		#	}
-		#}
-		#trigger_if = { # China trigger
-		#	limit = {
-		#		has_tgp_dlc_trigger = yes
-		#		NOT = {
-		#			government_has_flag = government_is_nomadic
-		#		}
-		#		tgp_is_ceremonial_regent_trigger = no
-		#	}
-		#	NOT = { primary_title ?= title:h_china }
-		#}
+		NOT = {
+			government_has_flag = government_is_nomadic
+		}
+		capital_county ?= {
+			OR = {
+				culture = { has_graphical_mediterranean_culture_group_trigger = yes }
+				AND = {
+					culture = { has_graphical_iberian_culture_group_trigger = yes }
+					#NOT = { religion = religion:islam_religion } #WHG
+				}
+				title_province = { steppe_building_gfx_use_mediterranean_trigger = yes }
+			}
+			NOR = { #WHG TODO expand?
+				culture = { has_cultural_pillar = heritage_strygan }
+			}
+		}
+		# trigger_if = { # Byzantine Trigger #WHG
+		# 	limit = {
+		# 		has_ep3_dlc_trigger = yes
+		# 	}
+		# 	NOR = {
+		# 		capital_county ?= title:c_byzantion
+		# 		primary_title ?= title:e_byzantium
+		# 		primary_title ?= title:h_eastern_roman_empire
+		# 		AND = {
+		# 			primary_title ?= title:h_roman_empire
+		# 			title:h_roman_empire = {
+		# 				has_variable = rome_was_restored_by_byzantium
+		# 			}
+		# 		}
+		# 	}
+		# }
+		# trigger_if = { # China trigger #WHG
+		# 	limit = {
+		# 		has_tgp_dlc_trigger = yes
+		# 		NOT = {
+		# 			government_has_flag = government_is_nomadic
+		# 		}
+		# 		tgp_is_ceremonial_regent_trigger = no
+		# 	}
+		# 	NOT = { primary_title ?= title:h_china }
+		# }
+		#lotr_has_throne_room_trigger = no #WHG TODO
 	}
 }
 
 steppe = {
 	trigger = {
-		# WHG TODO
-		always = no
-		#has_mpo_dlc_trigger = yes
-		#OR = {
-		#	government_has_flag = government_is_nomadic
-		#	capital_county ?= {
-		#		culture = {
-		#			has_graphical_steppe_culture_group_trigger = yes
-		#		}
-		#		title_province ?= {
-		#			has_holding = yes
-		#			OR = {
-		#				has_holding_type = nomad_holding
-		#				has_holding_type = tribal_holding
-		#			}
-		#		}
-		#	}
-		#	#For tribal northerns... this is better than a big feudal western castle, right?
-		#	capital_county ?= {
-		#		culture = {
-		#			OR = {
-		#				has_graphical_steppe_culture_group_trigger = yes
-		#				has_graphical_western_culture_group_trigger = yes
-		#			}
-		#			OR = {
-		#				has_cultural_pillar = heritage_ugro_permian
-		#				has_cultural_pillar = heritage_volga_finnic
-		#				has_cultural_pillar = heritage_balto_finnic
-		#			}
-		#		}
-		#		title_province ?= {
-		#			has_holding = yes
-		#			OR = {
-		#				has_holding_type = nomad_holding
-		#				has_holding_type = tribal_holding
-		#			}
-		#		}
-		#	}
-		#}
-		#trigger_if = {
-		#	limit = {
-		#		has_tgp_dlc_trigger = yes
-		#		NOT = {
-		#			government_has_flag = government_is_nomadic
-		#		}
-		#		tgp_is_ceremonial_regent_trigger = no
-		#	}
-		#	NOT = { primary_title ?= title:h_china }
-		#}
+		has_mpo_dlc_trigger = yes
+		OR = {
+			government_has_flag = government_is_nomadic
+			capital_county ?= {
+				culture = {
+					has_graphical_steppe_culture_group_trigger = yes
+				}
+				title_province ?= {
+					has_holding = yes
+					OR = {
+						has_holding_type = nomad_holding
+						#has_holding_type = tribal_holding #WHG
+					}
+				}
+			}
+			#For tribal northerns... this is better than a big feudal western castle, right?
+			capital_county ?= {
+				culture = {
+					OR = {
+						has_graphical_steppe_culture_group_trigger = yes
+						#has_graphical_western_culture_group_trigger = yes #WHG
+					}
+					# OR = { #WHG
+					# 	has_cultural_pillar = heritage_ugro_permian
+					# 	has_cultural_pillar = heritage_volga_finnic
+					# 	has_cultural_pillar = heritage_balto_finnic
+					# }
+				}
+				title_province ?= {
+					has_holding = yes
+					OR = {
+						has_holding_type = nomad_holding
+						#has_holding_type = tribal_holding #WHG
+					}
+				}
+			}
+		}
+		# trigger_if = { #WHG
+		# 	limit = {
+		# 		has_tgp_dlc_trigger = yes
+		# 		NOT = {
+		# 			government_has_flag = government_is_nomadic
+		# 		}
+		# 		tgp_is_ceremonial_regent_trigger = no
+		# 	}
+		# 	NOT = { primary_title ?= title:h_china }
+		# }
+		#lotr_has_throne_room_trigger = no #WHG TODO
 	}
 }
 
 mena = {
 	trigger = {
-		# WHG TODO
-		always = no
-		#trigger_if = {
-		#	limit = {
-		#		has_mpo_dlc_trigger = no            
-		#	}
-		#	exists = capital_county
-		#	capital_county = {
-		#		OR = {
-		#			culture = {
-		#				OR = {
-		#					has_graphical_mena_culture_group_trigger = yes
-		#					has_graphical_iranian_culture_group_trigger = yes
-		#					has_graphical_african_culture_group_trigger = yes
-		#					AND = {
-		#						has_graphical_iberian_culture_group_trigger  = yes
-		#						prev.religion = religion:islam_religion
-		#					}
-		#				}
-		#			}
-		#			AND = {
-		#				culture = {
-		#					has_graphical_steppe_culture_group_trigger = yes
-		#				}
-		#				title_province = {
-		#					steppe_building_gfx_use_mediterranean_trigger = no
-		#					steppe_building_gfx_use_indian_trigger = no
-		#					steppe_building_gfx_use_western_trigger = no
-		#					steppe_building_gfx_use_east_asian_trigger = no
-		#					steppe_building_gfx_use_japanese_trigger = no
-		#					steppe_building_gfx_use_southeast_asian_trigger = no
-		#				}
-		#			}
-		#		}
-		#	}
-		#}
-		#trigger_else = {
-		#	NOT = {
-		#		government_has_flag = government_is_nomadic
-		#	}
-		#	exists = capital_county
-		#	OR = {
-		#		capital_county = {
-		#			culture = { has_graphical_steppe_culture_group_trigger = yes }
-		#			title_province = {
-		#				steppe_building_gfx_use_mediterranean_trigger = no
-		#				steppe_building_gfx_use_indian_trigger = no
-		#				steppe_building_gfx_use_western_trigger = no
-		#				steppe_building_gfx_use_east_asian_trigger = no
-		#				steppe_building_gfx_use_japanese_trigger = no
-		#				steppe_building_gfx_use_southeast_asian_trigger = no
-		#			}
-		#			title_province ?= {
-		#				has_holding = yes
-		#				NOT = {
-		#					has_holding_type = tribal_holding
-		#				}
-		#			}
-		#		}
-		#		capital_county.culture = {
-		#			OR = {
-		#				has_graphical_mena_culture_group_trigger = yes
-		#				has_graphical_iranian_culture_group_trigger = yes
-		#				has_graphical_african_culture_group_trigger = yes               
-		#				AND = {
-		#					has_graphical_iberian_culture_group_trigger  = yes
-		#					prev.religion = religion:islam_religion
-		#				}
-		#			}
-		#		}
-		#	}
-		#}
-		#trigger_if = {
-		#	limit = {
-		#		has_tgp_dlc_trigger = yes
-		#		NOT = {
-		#			government_has_flag = government_is_nomadic
-		#		}
-		#		tgp_is_ceremonial_regent_trigger = no
-		#	}
-		#	NOT = { primary_title ?= title:h_china }
-		#}
+		trigger_if = {
+			limit = {
+				has_mpo_dlc_trigger = no            
+			}
+			exists = capital_county
+			capital_county = {
+				OR = {
+					culture = {
+						OR = {
+							has_graphical_mena_culture_group_trigger = yes
+							has_graphical_iranian_culture_group_trigger = yes
+							has_graphical_african_culture_group_trigger = yes
+							# AND = { #WHG
+							# 	has_graphical_iberian_culture_group_trigger  = yes
+							# 	prev.religion = religion:islam_religion
+							# }
+						}
+						# NOR = { #WHG TODO remove?
+						# 	AND = {
+						# 		has_ep3_dlc_trigger = yes
+						# 		OR = { #WHG TODO
+						# 			this = culture:tanturaki
+						# 		}
+						# 	} #WHG TODO
+						# 	this = culture:gargath
+						# 	this = culture:logath
+						# }
+					}
+					AND = {
+						culture = {
+							has_graphical_steppe_culture_group_trigger = yes
+							NOR = { #WHG TODO
+								AND = {
+									has_ep3_dlc_trigger = yes
+									OR = {
+										this = culture:tanturaki
+									}
+								}
+								this = culture:gargath
+								this = culture:logath
+							}
+						}
+						title_province = {
+							steppe_building_gfx_use_mediterranean_trigger = no
+							steppe_building_gfx_use_indian_trigger = no
+							#steppe_building_gfx_use_western_trigger = no #WHG
+							steppe_building_gfx_use_east_asian_trigger = no
+							steppe_building_gfx_use_japanese_trigger = no
+							steppe_building_gfx_use_southeast_asian_trigger = no
+						}
+					}
+				}
+			}
+		}
+		trigger_else = {
+			NOT = {
+				government_has_flag = government_is_nomadic
+			}
+			exists = capital_county
+			OR = {
+				capital_county = {
+					culture = { 
+						has_graphical_steppe_culture_group_trigger = yes 
+						NOR = { #WHG TODO
+							AND = {
+								has_ep3_dlc_trigger = yes
+								OR = {
+									this = culture:tanturaki
+									this = culture:kharadunaim
+									this = culture:anarikean
+									this = culture:south_adunai_colonial
+									this = culture:east_adunai_colonial
+									this = culture:umbarean
+									this = culture:old_umbarean
+									this = culture:black_numenorean
+								}
+							}
+							this = culture:gargath
+							this = culture:logath
+						}
+					}
+					title_province = {
+						steppe_building_gfx_use_mediterranean_trigger = no
+						steppe_building_gfx_use_indian_trigger = no
+						#steppe_building_gfx_use_western_trigger = no #WHG
+						steppe_building_gfx_use_east_asian_trigger = no
+						steppe_building_gfx_use_japanese_trigger = no
+						steppe_building_gfx_use_southeast_asian_trigger = no
+					}
+					# title_province ?= { #WHG
+					# 	has_holding = yes
+					# 	NOT = {
+					# 		has_holding_type = tribal_holding
+					# 	}
+					# }
+				}
+				capital_county.culture = {
+					OR = {
+						has_graphical_mena_culture_group_trigger = yes
+						has_graphical_iranian_culture_group_trigger = yes
+						has_graphical_african_culture_group_trigger = yes       
+						# AND = { #WHG
+						# 	has_graphical_iberian_culture_group_trigger  = yes
+						# 	prev.religion = religion:islam_religion
+						# }
+					}
+					NOR = { #WHG TODO
+						AND = {
+							has_ep3_dlc_trigger = yes
+							OR = {
+								this = culture:tanturaki
+							}
+						}
+						this = culture:gargath
+						this = culture:logath
+					}
+				}
+			}
+		}
+		# trigger_if = { #WHG
+		# 	limit = {
+		# 		has_tgp_dlc_trigger = yes
+		# 		NOT = {
+		# 			government_has_flag = government_is_nomadic
+		# 		}
+		# 		tgp_is_ceremonial_regent_trigger = no
+		# 	}
+		# 	NOT = { primary_title ?= title:h_china }
+		# }
+		#lotr_has_throne_room_trigger = no #WHG TODO
 	}
 }
 
 indian = {
 	trigger = {
-		# WHG TODO
-		always = no
-		#NOT = {
-		#	government_has_flag = government_is_nomadic
-		#}
-		#exists = capital_county
-		#capital_county = {
-		#	OR = {
-		#		culture = { has_building_gfx = indian_building_gfx }
-		#		culture = { has_building_gfx = tibetan_building_gfx }
-		#		title_province = { steppe_building_gfx_use_indian_trigger = yes }
-		#		title_province = { steppe_building_gfx_use_southeast_asian_trigger = yes }
-		#	}
-		#}
-		#trigger_if = {
-		#	limit = {
-		#		has_tgp_dlc_trigger = yes
-		#		NOT = {
-		#			government_has_flag = government_is_nomadic
-		#		}
-		#		tgp_is_ceremonial_regent_trigger = no
-		#	}
-		#	NOT = { primary_title ?= title:h_china }
-		#}
+		NOT = {
+			government_has_flag = government_is_nomadic
+		}
+		exists = capital_county
+		capital_county = {
+			OR = {
+				culture = { has_building_gfx = indian_building_gfx }
+				culture = { has_building_gfx = tibetan_building_gfx }
+				title_province = { steppe_building_gfx_use_indian_trigger = yes }
+				title_province = { steppe_building_gfx_use_southeast_asian_trigger = yes }
+			}
+		}
+		# trigger_if = { #WHG
+		# 	limit = {
+		# 		has_tgp_dlc_trigger = yes
+		# 		NOT = {
+		# 			government_has_flag = government_is_nomadic
+		# 		}
+		# 		tgp_is_ceremonial_regent_trigger = no
+		# 	}
+		# 	NOT = { primary_title ?= title:h_china }
+		# }
+		#lotr_has_throne_room_trigger = no #WHG TODO
 	}
 }
 
@@ -256,100 +316,105 @@ western = {
 			OR = {
 				culture = { has_graphical_western_culture_group_trigger = yes }
 				culture = { has_graphical_norse_culture_group_trigger = yes }
-				title_province = { steppe_building_gfx_use_western_trigger = yes }
+				#title_province = { steppe_building_gfx_use_western_trigger = yes } #WHG
 			}
-		}
-		trigger_if = {
-			limit = {
-				has_tgp_dlc_trigger = yes
-				NOT = {
-					government_has_flag = government_is_nomadic
+			NOR = { #WHG TODO
+				culture = {
+					this = culture:gargath
+					this = culture:logath
 				}
-				tgp_is_ceremonial_regent_trigger = no
-			}
-			#NOT = { primary_title ?= title:h_china } # WHG TODO
+			}	
+			#NOT = { culture = { has_cultural_tradition = tradition_the_people_of_the_plains_old } } #WHG TODO
 		}
+		# trigger_if = { #WHG
+		# 	limit = {
+		# 		has_tgp_dlc_trigger = yes
+		# 		NOT = {
+		# 			government_has_flag = government_is_nomadic
+		# 		}
+		# 		tgp_is_ceremonial_regent_trigger = no
+		# 	}
+		# 	NOT = { primary_title ?= title:h_china }
+		# }
+		#lotr_has_throne_room_trigger = no #WHG TODO
 	}
 }
 
 chinese = {
 	trigger = {
-		# WHG TODO
-		always = no
-		#NOT = {
-		#	government_has_flag = government_is_nomadic
-		#}
-		#OR = {
-		#	capital_county ?= {
-		#		OR = {
-		#			culture = { has_graphical_chinese_culture_group_trigger = yes }
-		#			culture = { has_graphical_japanese_culture_group_trigger = yes }
-		#			AND = {
-		#				title_province = { steppe_building_gfx_use_east_asian_trigger = yes }
-		#				title_province = { steppe_building_gfx_use_japanese_trigger = no }
-		#			}
-		#		}
-		#	}
-		#	primary_title ?= title:h_china
-		#}
-		# Is a Japanese Ceremonial Liege or indepedent ruler
-		#trigger_if = {
-		#	limit = {
-		#		tgp_realm_has_ceremonial_liege_trigger = yes
-		#		capital_county ?= {
-		#			OR = {
-		#				culture = { has_graphical_japanese_culture_group_trigger = yes }
-		#				title_province = { steppe_building_gfx_use_japanese_trigger = yes }
-		#			}
-		#		}
-		#	}
-		#	tgp_has_ceremonial_liege_title_trigger = yes
-		#}
+		# NOT = { #WHG
+		# 	government_has_flag = government_is_nomadic
+		# }
+		# OR = {
+		# 	capital_county ?= {
+		# 		OR = {
+		# 			culture = { has_graphical_chinese_culture_group_trigger = yes }
+		# 			culture = { has_graphical_japanese_culture_group_trigger = yes }
+		# 			AND = {
+		# 				title_province = { steppe_building_gfx_use_east_asian_trigger = yes }
+		# 				title_province = { steppe_building_gfx_use_japanese_trigger = no }
+		# 			}
+		# 		}
+		# 	}
+		# 	primary_title ?= title:h_china
+		# }
+		# # Is a Japanese Ceremonial Liege or indepedent ruler
+		# trigger_if = {
+		# 	limit = {
+		# 		tgp_realm_has_ceremonial_liege_trigger = yes
+		# 		capital_county ?= {
+		# 			OR = {
+		# 				culture = { has_graphical_japanese_culture_group_trigger = yes }
+		# 				title_province = { steppe_building_gfx_use_japanese_trigger = yes }
+		# 			}
+		# 		}
+		# 	}
+		# 	tgp_has_ceremonial_liege_title_trigger = yes
+		# }
+		always = no #WHG
 	}
 }
 
 japanese = {
 	trigger = {
-		# WHG TODO
-		always = no
-		#NOT = {
-		#	government_has_flag = government_is_nomadic
-		#}
-		#capital_county ?= {
-		#	OR = {
-		#		culture = { has_graphical_japanese_culture_group_trigger = yes }
-		#		title_province = { steppe_building_gfx_use_japanese_trigger = yes }
-		#	}
-		#}
-		# Is not Ceremonial Liege
-		#tgp_realm_has_ceremonial_liege_trigger = yes
-		#tgp_has_ceremonial_liege_title_trigger = no
-		#trigger_if = {
-		#	limit = {
-		#		has_tgp_dlc_trigger = yes
-		#		NOT = {
-		#			government_has_flag = government_is_nomadic
-		#		}
-		#		tgp_is_ceremonial_regent_trigger = no
-		#	}
-		#	NOT = { primary_title ?= title:h_china }
-		#}
+		# NOT = { #WHG
+		# 	government_has_flag = government_is_nomadic
+		# }
+		# capital_county ?= {
+		# 	OR = {
+		# 		culture = { has_graphical_japanese_culture_group_trigger = yes }
+		# 		title_province = { steppe_building_gfx_use_japanese_trigger = yes }
+		# 	}
+		# }
+		# # Is not Ceremonial Liege
+		# tgp_realm_has_ceremonial_liege_trigger = yes
+		# tgp_has_ceremonial_liege_title_trigger = no
+		# trigger_if = {
+		# 	limit = {
+		# 		has_tgp_dlc_trigger = yes
+		# 		NOT = {
+		# 			government_has_flag = government_is_nomadic
+		# 		}
+		# 		tgp_is_ceremonial_regent_trigger = no
+		# 	}
+		# 	NOT = { primary_title ?= title:h_china }
+		# }
+		always = no #WHG
 	}
 }
 
 southeast_asia = {
 	trigger = {
-		# WHG TODO
-		always = no
-		#NOT = {
-		#	government_has_flag = government_is_nomadic
-		#}
-		#capital_county ?= {
-		#	OR = {
-		#		title_province = { steppe_building_gfx_use_southeast_asian_trigger = yes }
-		#		culture = { has_building_gfx = southeast_asian_building_gfx }
-		#	}
-		#}
+		# NOT = { #WHG
+		# 	government_has_flag = government_is_nomadic
+		# }
+		# capital_county ?= {
+		# 	OR = {
+		# 		title_province = { steppe_building_gfx_use_southeast_asian_trigger = yes }
+		# 		culture = { has_building_gfx = southeast_asian_building_gfx }
+		# 	}
+		# }
+		always = no #WHG
 	}
 }
 
