@@ -3513,20 +3513,20 @@ special_genes = {
 					
 			       ##########################################################						
 					####han_chinese_royalty 				
-					2 = male_headgear_secular_chinese_royalty_01	
+					# 2 = male_headgear_secular_chinese_royalty_01	
 					1 = m_headgear_sec_tgp_chinese_roy_01
 					
 			       ##########################################################						
 					####han_chinese_imperial 
 					1 = m_headgear_sec_tgp_chinese_imp_02 # Tang crown era 1	
 					1 = m_headgear_sec_tgp_chinese_imp_01 # Tongtianguan crown of Song era	
-					1 = male_headgear_secular_chinese_imperial_01 # Song crown era 2
-					1 = male_headgear_secular_chinese_nobility_01 # Ming headwear era 4					
+					# 1 = male_headgear_secular_chinese_imperial_01 # Song crown era 2
+					# 1 = male_headgear_secular_chinese_nobility_01 # Ming headwear era 4					
 					
 			       ##########################################################						
 					####han_chinese_war			
-					1 = m_headgear_sec_chin_war_nob_01_lo
-					1 = m_headgear_sec_chin_war_nob_01_hi
+					# 1 = m_headgear_sec_chin_war_nob_01_lo
+					# 1 = m_headgear_sec_chin_war_nob_01_hi
 				    1 = m_headgear_sec_tgp_chinese_war_nob_01_lo
 				    1 = m_headgear_sec_tgp_chinese_war_nob_01_hi									
 				    2 = m_headgear_sec_tgp_chinese_war_nob_02
@@ -3567,9 +3567,9 @@ special_genes = {
 			       ##########################################################						
 					####han_chinese_high_nobility era1 	# Tang Dynasty				
                     1 = empty
-                    1 = female_headgear_secular_chinese_nobility_01					
-                    1 = female_headgear_secular_chinese_nobility_01a
-                    1 = female_headgear_secular_chinese_nobility_01b	
+                    # 1 = female_headgear_secular_chinese_nobility_01					
+                    # 1 = female_headgear_secular_chinese_nobility_01a
+                    # 1 = female_headgear_secular_chinese_nobility_01b	
 
 			       ##########################################################						
 					####han_chinese_high_nobility era4 	# Ming Dynasty				
@@ -3593,8 +3593,8 @@ special_genes = {
 
 			       ##########################################################						
 					####han_chinese_war			
-					1 = f_headgear_sec_chin_war_nob_01_lo
-					1 = f_headgear_sec_chin_war_nob_01_hi
+					# 1 = f_headgear_sec_chin_war_nob_01_lo
+					# 1 = f_headgear_sec_chin_war_nob_01_hi
 					1 = f_headgear_sec_tgp_chinese_war_nob_01_lo
 				    1 = f_headgear_sec_tgp_chinese_war_nob_01_hi
 					2 = f_headgear_sec_tgp_chinese_war_nob_02

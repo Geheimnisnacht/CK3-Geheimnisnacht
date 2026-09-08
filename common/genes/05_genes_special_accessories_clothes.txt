@@ -881,7 +881,7 @@
 					1 = m_clothes_sec_byzantine_war_nob_01_lo
 					1 = m_clothes_sec_byzantine_war_nob_01_hi
 					1 = m_clothes_sec_byzantine_war_nob_01_roy	
-					1 = m_clothes_sec_byzantine_war_nob_01_imp	
+					# 1 = m_clothes_sec_byzantine_war_nob_01_imp #WHG
 					
 			       ##########################################################						
 					####Early medieval Byzantine(Era 1)				   
@@ -940,8 +940,8 @@
 					   #######vanilla 
 					1 = f_clothes_sec_byzantine_war_nob_01_lo
 					1 = f_clothes_sec_byzantine_war_nob_01_hi
-					1 = f_clothes_sec_byzantine_war_nob_01_roy	
-					1 = f_clothes_sec_byzantine_war_nob_01_imp	
+					# 1 = f_clothes_sec_byzantine_war_nob_01_roy #WHG	
+					# 1 = f_clothes_sec_byzantine_war_nob_01_imp	
 					
 			       ##########################################################						
 					####Early medieval Byzantine(Era 1)				   
@@ -1519,7 +1519,7 @@
 					 1 = male_clothes_secular_dde_abbasid_nobility_01_high
 					1 = male_clothes_secular_dde_abbasid_nobility_02_high
 					1 = male_clothes_secular_dde_abbasid_nobility_03_high
-					1 = male_clothes_secular_dde_abbasid_nobility_04_high					
+					# 1 = male_clothes_secular_dde_abbasid_nobility_04_high			#WHG		
 				}
 
 				female = {
@@ -2200,7 +2200,7 @@
 					1 = m_clothes_sec_ep2_western_era1_war_nob_01_hi
 					1 = m_clothes_sec_ep2_western_era1_war_nob_02_lo
 					1 = m_clothes_sec_ep2_western_era1_war_nob_02_hi
-					1 = m_clothes_sec_ep2_western_era1_war_nob_03_lo				
+					# 1 = m_clothes_sec_ep2_western_era1_war_nob_03_lo				#WHG
 				}
 
 				female = {
@@ -2208,7 +2208,7 @@
 				 	1 = f_clothes_sec_ep2_western_era1_war_nob_01_hi
 				 	1 = f_clothes_sec_ep2_western_era1_war_nob_02_lo
 				 	1 = f_clothes_sec_ep2_western_era1_war_nob_02_hi
-					1 = f_clothes_sec_ep2_western_era1_war_nob_03_lo			
+					# 1 = f_clothes_sec_ep2_western_era1_war_nob_03_lo		#WHG	
 				}
 
 				boy = male
@@ -3707,10 +3707,10 @@
 				male = {
 			       ##########################################################				
 					####ccp9_lia_nob_01_clothes					
-					2 = m_clothes_epe_ccp9_lia_lo_nob_01
-					2 = m_clothes_epe_ccp9_lia_hi_nob_01
-					2 = m_clothes_epe_ccp9_lia_roy_01	
-					2 = m_clothes_epe_ccp9_lia_imp_01
+					# 2 = m_clothes_epe_ccp9_lia_lo_nob_01
+					# 2 = m_clothes_epe_ccp9_lia_hi_nob_01
+					# 2 = m_clothes_epe_ccp9_lia_roy_01	
+					# 2 = m_clothes_epe_ccp9_lia_imp_01
 					
 			       ##########################################################				
 					####ccp9_dal_nob_01_clothes					
@@ -3754,10 +3754,10 @@
 				female = {
 			       ##########################################################				
 					####ccp9_lia_nob_01_clothes					
-					2 = f_clothes_epe_ccp9_lia_lo_nob_01
-					2 = f_clothes_epe_ccp9_lia_hi_nob_01
-					2 = f_clothes_epe_ccp9_lia_roy_01	
-					2 = f_clothes_epe_ccp9_lia_roy_01					
+					# 2 = f_clothes_epe_ccp9_lia_lo_nob_01
+					# 2 = f_clothes_epe_ccp9_lia_hi_nob_01
+					# 2 = f_clothes_epe_ccp9_lia_roy_01	
+					# 2 = f_clothes_epe_ccp9_lia_roy_01					
 
 			       ##########################################################				
 					####ccp9_dal_nob_01_clothes					
@@ -3766,24 +3766,24 @@
 
 			       ##########################################################				
 					####ccp9_epe_sino_iranian_lo_nob_01_clothes		Khotanese			
-					2 = f_clothes_ccp9_epe_sino_iranian_lo_nob_01
+					# 2 = f_clothes_ccp9_epe_sino_iranian_lo_nob_01
 
 			       ##########################################################				
 					####ccp9_epe_sino_iranian_hi_nob_01_clothes		Khotanese						
-					2 = f_clothes_ccp9_epe_sino_iranian_hi_nob_01
-					2 = f_clothes_ccp9_epe_sino_iranian_hi_nob_01b
+					# 2 = f_clothes_ccp9_epe_sino_iranian_hi_nob_01
+					# 2 = f_clothes_ccp9_epe_sino_iranian_hi_nob_01b
 
 			       ##########################################################				
 					####ccp9_uyg_lo_nob_01_clothes					
-					2 = f_clothes_ccp9_epe_uyghur_lo_nob_01
+					# 2 = f_clothes_ccp9_epe_uyghur_lo_nob_01
 
 			       ##########################################################				
 					####ccp9_uyg_hi_nob_01_clothes					
-					2 = f_clothes_ccp9_epe_uyghur_hi_nob_01
+					# 2 = f_clothes_ccp9_epe_uyghur_hi_nob_01
 
 			       ##########################################################				
 					####ccp9_uyg_roy_01_clothes					
-					2 = f_clothes_ccp9_epe_uyghur_roy_nob_01
+					# 2 = f_clothes_ccp9_epe_uyghur_roy_nob_01
 
 			       ##########################################################				
 					####ccp9_tan_nob_01_clothes					
