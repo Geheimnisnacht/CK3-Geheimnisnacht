@@ -1,5 +1,5 @@
 ﻿
-	17421 = {
+17421 = {
 	name = Hanef
 	dynasty = 57001
 	dna = fkagojjonpi
@@ -19,5 +19,5 @@
 	}
 	6511.8.29 = {
 		death = yes
-		}
 	}	
+}	

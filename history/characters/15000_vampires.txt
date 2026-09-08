@@ -60,7 +60,7 @@
 	3500.1.1 = { 
 		give_nickname = nick_the_ancient
 		effect = {
-			add_rival = 15003
+			set_relation_rival = { target = character:15003 reason = rival_historical }
 		}
 	}
 	#133.1.5 = {

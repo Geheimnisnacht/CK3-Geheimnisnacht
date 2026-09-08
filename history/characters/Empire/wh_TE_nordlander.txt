@@ -1,7 +1,7 @@
 ﻿52000 = {
 	name = Karl
 	dynasty = dynasty_Salzon
-	dna = 52000_ec_karl_salzon
+	#dna = 52000_ec_karl_salzon
 	culture = nordlander
 	religion = sigmarite
 	martial = 8

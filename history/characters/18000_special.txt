@@ -3,7 +3,7 @@
 	dynasty = 9000
 	culture = unberogen
 	religion = ulrican
-	dna = 18000_e_sigmar_unberogen
+	#dna = 18000_e_sigmar_unberogen #WHG TODO
 	martial = 21
 	diplomacy = 19
 	stewardship = 6
