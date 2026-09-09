@@ -41,16 +41,16 @@ epe_clothes_sickness = {
 	never_epe_clothes_sickness = {}
 }
 
-#EPE RULES#
-agot_balding = {
+# #EPE RULES#
+# agot_balding = {
 
-	categories = {
-		expanded_mod_series
-	}
-	default = agot_vanilla_balding
-	agot_vanilla_balding = {}
-	agot_no_balding = {}
-}
+# 	categories = {
+# 		expanded_mod_series
+# 	}
+# 	default = agot_vanilla_balding
+# 	agot_vanilla_balding = {}
+# 	agot_no_balding = {}
+# }
 
 
 epe_ruler_designer_clothes = {

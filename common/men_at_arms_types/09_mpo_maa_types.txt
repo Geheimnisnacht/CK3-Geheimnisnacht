@@ -56,7 +56,6 @@ torch_bearers = {
 	siege_tier = 1
 	siege_value = 0.1
 
-	access_through_subject = { lotr_orc_can_recruit_from_subject = no } #LotR
     can_recruit = {
 		government_has_flag = government_is_nomadic
 	}
@@ -331,7 +330,6 @@ cataphract_archers = { #LOTR replaced with hillmen_light_cavalry to fix THEBUG
 		taiga = { damage = 18 screen = 8 }
 	}
 
-	access_through_subject = { lotr_orc_can_recruit_from_subject = no } #LotR
     can_recruit = {
 		culture = {
 			OR = {
@@ -390,7 +388,6 @@ maturkan_warriors = {
 		normal_winter = { toughness = 4 screen = 8 }
 	}
 
-	access_through_subject = { lotr_orc_can_recruit_from_subject = no } #LotR
     can_recruit = {
 		valid_for_maa_trigger = { PARAMETER = unlock_maa_maturkan_warriors }
 	}
