@@ -10,5 +10,5 @@
 	destroy_if_invalid_heir = yes
 	disable_regnal_numbers = yes
 
-	ai_primary_priority = { add = @never_primary_score }
+	#ai_primary_priority = { add = @never_primary_score }
 }

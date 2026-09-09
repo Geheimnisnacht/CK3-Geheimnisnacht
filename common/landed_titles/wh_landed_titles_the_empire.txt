@@ -854,8 +854,8 @@ e_the_empire = {
 				color = { 224 238 34 }
 
 				cultural_names = {
-					dwarf_norse_name_list = cn_haz_drazh_kadrin
-					dwarf_chaos_name_list = cn_haz_drazh_kadrin
+					#dwarf_norse_name_list = cn_haz_drazh_kadrin #WHG TODO
+					#dwarf_chaos_name_list = cn_haz_drazh_kadrin
 				}
 				
 				b_vossheim = {
@@ -2319,7 +2319,7 @@ e_the_empire = {
 					westerlander_name_list = cn_frostmark
 					middenlander_name_list = cn_frostmark
 					ostlander_name_list = cn_frostmark
-					eonir_name_list = cn_frostmark
+					# eonir_name_list = cn_frostmark #WHG TODO
 				}
 				
 				b_demst = {
