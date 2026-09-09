@@ -516,7 +516,7 @@ InspirationArtisanType = {
 		localization_key = inspiration_artisan_type_icon
 	}
 
-	# text = { #LotR
+	# text = { #WHG
 	# 	trigger = {
 	# 		var:artifact_artisan_type = flag:artisan_type_armillary_sphere
 	# 	}
@@ -570,12 +570,6 @@ InspirationSmithType = {
 	localization_key = inspiration_smith_type_incense_burner_sculpture
 	}
 	
-	text = { #
-	trigger = {
-		var:artifact_smith_type = flag:smith_type_crafting_tools
-	}
-	localization_key = inspiration_smith_type_crafting_tools
-	}
 }
 
 InspirationTapestryScene = {
@@ -1942,10 +1936,6 @@ InspirationSmithBaseType = {
 		localization_key = inspiration_smith_base_type_goblet
 	}
 	
-	text = {
-		trigger = { var:artifact_smith_type = flag:smith_type_crafting_tools }
-		localization_key = inspiration_smith_base_type_crafting_tools
-	}
 }
 
 InspirationArtisanToolType = {
@@ -2323,54 +2313,6 @@ GetTargetCourtPositionDesc = {
 	text = {
 		trigger = { var:target_court_position ?= flag:court_jester }
 		localization_key = court_position_desc_court_jester
-	}
-
-	######################
-	### LOTR ADDITIONS ###
-	######################
-	text = {
-		trigger = { var:target_court_position ?= flag:overseer_of_the_mines }
-		localization_key = court_position_desc_overseer_of_the_mines
-	}
-	text = {
-		trigger = { var:target_court_position ?= flag:stone_singer }
-		localization_key = court_position_desc_stone_singer
-	}
-	text = {
-		trigger = { var:target_court_position ?= flag:raven_keeper }
-		localization_key = court_position_desc_raven_keeper
-	}
-	text = {
-		trigger = { var:target_court_position ?= flag:first_axe }
-		localization_key = first_axe_court_position
-	}
-	text = {
-		trigger = { var:target_court_position ?= flag:taskmaster }
-		localization_key = taskmaster_court_position
-	}
-	text = {
-		trigger = { var:target_court_position ?= flag:second_marshal_of_rohan }
-		localization_key = court_position_desc_second_marshal_of_rohan
-	}
-	text = {
-		trigger = { var:target_court_position ?= flag:third_marshal_of_rohan }
-		localization_key = court_position_desc_third_marshal_of_rohan
-	}
-	text = {
-		trigger = { var:target_court_position ?= flag:marshal_of_the_westmark }
-		localization_key = court_position_desc_marshal_of_the_westmark
-	}
-	text = {
-		trigger = { var:target_court_position ?= flag:marshal_of_the_eastmark }
-		localization_key = court_position_desc_marshal_of_the_eastmark
-	}
-	text = {
-		trigger = { var:target_court_position ?= flag:warden_of_the_keys }
-		localization_key = court_position_desc_warden_of_the_keys
-	}
-	text = {
-		trigger = { var:target_court_position ?= flag:butler }
-		localization_key = butler_court_position
 	}
 }
 

@@ -822,7 +822,6 @@ HistoricalCharacterJobDesc = {
 	text = {
 		trigger = {
 			has_trait = lifestyle_poet
-			NOT = { is_berserker = yes } # LOTR
 		}
 		localization_key = historical_character.poet
 	}
@@ -830,7 +829,6 @@ HistoricalCharacterJobDesc = {
 	text = {
 		trigger = {
 			has_trait = lifestyle_poet
-			is_berserker = yes #LOTR
 		}
 		localization_key = historical_character.warrior_poet
 	}
