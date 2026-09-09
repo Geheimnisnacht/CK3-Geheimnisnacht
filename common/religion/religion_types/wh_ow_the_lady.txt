@@ -63,9 +63,9 @@
 		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 ibadi_custom muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1
 	}
 
-	holy_order_names = {
-		{ name = "" }
-	}
+	# holy_order_names = {
+	# 	{ name = "" }
+	# }
 
 	holy_order_maa = { bret_questing }
 	holy_order_maa = { battle_pilgrims }
@@ -239,9 +239,10 @@
 		GHWName = ghw_great_holy_war
 		GHWNamePlural = ghw_great_holy_wars
 	}
+	
 	faiths = {
 		bloody_grail = {
-			color = { 0.2 0.7 0.9 }
+			color = { 161 48 48 }
 			icon = "bloody_grail.dds"
 			#religious_head = 
 
