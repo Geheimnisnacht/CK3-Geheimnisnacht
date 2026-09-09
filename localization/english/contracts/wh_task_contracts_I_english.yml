@@ -1,0 +1,7 @@
+﻿l_english:
+ 
+
+
+
+ treasure_hunting_contract_decision_option_search_old_world_empire: "[GetGeographicalRegion('world_old_world_empire').GetNameNoTooltip]"
+ search_old_world_empire_tooltip: "$search_region_tooltip$ [GetGeographicalRegion('world_old_world_empire').GetName]"
