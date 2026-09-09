@@ -681,8 +681,7 @@ cultural_festival.2001 = {
 # Follow up: The person gives you a reward for your kindness
 
 scripted_trigger cultural_festival_2002_valid_secret_owner = {
-	#is_adult = yes
-	is_lotr_adult = yes
+	is_adult = yes
 	is_ai = yes
 	this != ROOT
 	any_secret = {
@@ -1200,7 +1199,7 @@ cultural_festival.2020 = {
 	desc = {
 		desc = cultural_festival.2020.desc.intro
 		first_valid = {
-			# triggered_desc = { #Christmas #LotR
+			# triggered_desc = { #Christmas #WHG
 			# 	trigger = {
 			# 		location.faith.religion = religion:christianity_religion
 			# 		OR = { #we take the broader Christmaside season
@@ -1211,7 +1210,7 @@ cultural_festival.2020 = {
 			# 	}
 			# 	desc = cultural_festival.2020.desc.christmas
 			# }
-			# triggered_desc = { #Eid al-Fitr #LotR
+			# triggered_desc = { #Eid al-Fitr #WHG
 			# 	trigger = {
 			# 		location.faith.religion = religion:islam_religion
 			# 		OR = {
@@ -1225,7 +1224,7 @@ cultural_festival.2020 = {
 			triggered_desc = { #Regular Summer Solstice
 				trigger = {
 					NOT = {
-						location.culture = { has_cultural_pillar = heritage_northron } #LotR
+						location.culture = { has_cultural_pillar = heritage_reiklander } #WHG TODO
 					}
 					OR = {
 						current_month = 5
@@ -1346,8 +1345,7 @@ cultural_festival.2020 = {
 		name = {
 			trigger = {
 				drinks_alcohol_trigger = yes
-				#is_adult = yes
-				is_lotr_adult = yes
+				is_adult = yes
 				scope:stop_host_scope = {
 					drinks_alcohol_trigger = yes
 				}
@@ -1928,10 +1926,8 @@ cultural_festival.2050 = {
 		}
 		cultural_festival_2050_modest_trigger = yes #you're not
 		# Probably best not for kids to be involved in this event at all
-		#scope:stop_host_scope = { is_adult = yes
-		scope:stop_host_scope = { is_lotr_adult = yes }
-		#scope:visiting_liege = { is_adult = yes
-		scope:visiting_liege = { is_lotr_adult = yes }
+		scope:stop_host_scope = { is_adult = yes }
+		scope:visiting_liege = { is_adult = yes }
 	}
 	
 	immediate = {
@@ -2198,7 +2194,7 @@ cultural_festival.2060 = {
 				NOR = {
 					AND = { 
 						has_variable = ring_of_power
-						sauron_is_alive = yes
+						
 					}
 					has_variable = silmaril	
 				}
@@ -2217,7 +2213,7 @@ cultural_festival.2060 = {
 				NOR = {
 					AND = { 
 						has_variable = ring_of_power
-						sauron_is_alive = yes
+						
 					}
 					has_variable = silmaril	
 				}
@@ -2236,7 +2232,7 @@ cultural_festival.2060 = {
 				NOR = {
 					AND = { 
 						has_variable = ring_of_power
-						sauron_is_alive = yes
+						
 					}
 					has_variable = silmaril	
 				}
@@ -2255,7 +2251,7 @@ cultural_festival.2060 = {
 				NOR = {
 					AND = { 
 						has_variable = ring_of_power
-						sauron_is_alive = yes
+						
 					}
 					has_variable = silmaril	
 				}
@@ -2718,7 +2714,7 @@ cultural_festival.2070 = {
 scripted_trigger cultural_festival_2080_merchant = {
 	is_ai = yes
 	#is_adult = yes
-	is_lotr_adult = yes
+	is_adult = yes
 	is_landed_or_landless_administrative = no
 	is_lowborn = yes
 	is_councillor = no
@@ -2957,8 +2953,7 @@ cultural_festival.2080 = {
 
 scripted_trigger cultural_festival_2090_peasant = {
 	is_ai = yes
-	#is_adult = yes
-	is_lotr_adult = yes
+	is_adult = yes
 	is_landed_or_landless_administrative = no
 	is_lowborn = yes
 	is_councillor = no
@@ -3227,8 +3222,7 @@ cultural_festival.2090 = {
 
 scripted_trigger cultural_festival_2100_courtier = {
 	is_ai = yes
-	#is_adult = yes
-	is_lotr_adult = yes
+	is_adult = yes
 	is_courtier_of = root
 }
 
@@ -3473,15 +3467,13 @@ cultural_festival.2110 = {
 		if = {
 			limit = {
 				any_child = {
-					#is_adult = no
-					is_lotr_adult = no
+					is_adult = no
 					is_ai = yes
 				}
 			}
 			random_child = {
 				limit = {
-					#is_adult = no
-					is_lotr_adult = no
+					is_adult = no
 					is_ai = yes
 				}
 				save_scope_as = my_heir
@@ -4438,14 +4430,12 @@ cultural_festival.3010 = {
 		if = { #if you have children they love this
 			limit = {
 				any_child = {
-					#is_adult = no
-					is_lotr_adult = no
+					is_adult = no
 					count > 0
 				}
 			}
 			every_child = {
-				#limit = { is_adult = no }
-				limit = { is_lotr_adult = no }
+				limit = { is_adult = no }
 				add_opinion = {
 					modifier = impressed_opinion
 					target = root
@@ -6046,8 +6036,7 @@ cultural_festival.3060 = {
 	
 	trigger = {
 		OR = { # Only for adults and teenagers
-			#is_adult = yes
-			is_lotr_adult = yes
+			is_adult = yes
 			# Pre-pubescent children are considered asexual, but adult asexuals should be allowed to get this event
 			NOT = { has_sexuality = asexual }
 		}
@@ -6476,13 +6465,12 @@ cultural_festival.3070 = {
 	cooldown = { years = 2 }
 	
 	trigger = {
-		# religion = religion:christianity_religion #this is a deeply Christian thing #LotR
+		# religion = religion:christianity_religion #this is a deeply Christian thing #WHG
 		location = {
 			any_character_in_location = {
 				this != scope:visiting_liege
 				num_sinful_traits >= 1
-				#is_adult = yes
-				is_lotr_adult = yes
+				is_adult = yes
 				save_temporary_scope_as = jester_1
 			}
 			any_character_in_location = {
@@ -6619,8 +6607,7 @@ cultural_festival.3070 = {
 			random_character_in_location = {
 				limit = {
 					num_sinful_traits >= 1
-					#is_adult = yes
-					is_lotr_adult = yes
+					is_adult = yes
 					this != scope:rival_jester 
 					this != scope:visiting_liege
 				}
@@ -7153,10 +7140,10 @@ cultural_festival.3071 = {
 
 scripted_trigger unknown_language_character_trigger = { #pick someone you don't understand
 	is_physically_able_ai_adult = yes
-	trigger_if = { #LotR
+	trigger_if = { #WHG
 		limit = { exists = location.county }
 		culture = location.county.culture
-	} trigger_else = { #LotR
+	} trigger_else = { #WHG
 		culture = location.culture
 	}
 	NOT = { knows_language_of_culture = scope:visiting_liege.culture }

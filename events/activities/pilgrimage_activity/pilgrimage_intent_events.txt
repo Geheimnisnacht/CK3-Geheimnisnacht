@@ -1592,7 +1592,7 @@ pilgrimage_intent.1060 = { #WHG TODO
 					}
 				}
 			desc = pilgrimage_intent.1060.desc.mid.fallback
-			}
+			
 		}
 		desc = pilgrimage_intent.1060.desc.outro
 	}
