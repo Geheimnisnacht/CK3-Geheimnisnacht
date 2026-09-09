@@ -17,16 +17,3 @@ decrease_variable = { # From Tobbzn
         subtract = $AMOUNT$
     }
 }
-
-
-test_ai_colonization = {
-	every_ruler = {
-		trigger_event = wastelands.0006
-		every_held_county = {
-			limit = { any_county_province = { has_holding_type = settlement_holding } }
-			holder = { add_gold = 200 }
-			save_scope_as = curr_county
-			lotr_upgrade_settlement_to_full_holding_effect = { COUNTY = scope:curr_county }
-		}
-	}
-}

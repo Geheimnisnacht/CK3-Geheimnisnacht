@@ -41,7 +41,7 @@ on_guest_arrived_from_pool = {
 	events = {
 		courtier_guest_management.1001 #Guest arriving, development effect, message if they're great
 		court_events.1001 #adds opinion of greatest court holder if guest visited them and got special event
-		# wastelands.0005 # If a guest arrives to wilderness, we will send them to somewhere else
+		wastelands.0005 # If a guest arrives to wilderness, we will send them to somewhere else
 	}
 }
 

@@ -1,11 +1,11 @@
 ﻿lotr_yearly_global_pulse = {
 	effect =  {
-		every_unplayable_race = {
-			trigger_event = {
-				id = race.0001
-				days = 1
-			}
-		}
+		# every_unplayable_race = {
+		# 	trigger_event = {
+		# 		id = race.0001
+		# 		days = 1
+		# 	}
+		# }
 		every_settlement_county = { # Colony Blocker Cleanup
 			limit = { title_province = { has_building_with_flag = obstacle_cleared } }
 			title_province = { remove_cleaned_blockers_effect = yes }
@@ -17,10 +17,10 @@
 					title_province ?= { has_building = settlement_03 }
 					development_level >= 3
 				}
-				if = {
-					limit = { title_province = { terrain = halls } }
-					title_province = { set_holding_type = dwarven_holding }
-				}
+				# if = {
+				# 	limit = { title_province = { terrain = halls } }
+				# 	title_province = { set_holding_type = dwarven_holding }
+				# }
 				if = {
 					limit = { 
 						OR = {
@@ -32,19 +32,22 @@
 						limit = { title_province = { has_holding_type = settlement_holding } }
 						title_province = { set_holding_type = castle_holding }
 					}
-				} else_if = {
+				} 
+				else_if = {
 					limit = { holder = { government_has_flag = government_is_tribal } }
 					if = {
 						limit = { title_province = { has_holding_type = settlement_holding } }
 						title_province = { set_holding_type = tribal_holding }
 					}
-				} else_if = {
-					limit = { holder = { government_has_flag = government_is_elven } }
-					if = {
-						limit = { title_province = { has_holding_type = settlement_holding } }
-						title_province = { set_holding_type = elven_holding }
-					}
-				} else_if = {
+				} 
+				# else_if = { #WHG TODO
+				# 	limit = { holder = { government_has_flag = government_is_elven } }
+				# 	if = {
+				# 		limit = { title_province = { has_holding_type = settlement_holding } }
+				# 		title_province = { set_holding_type = elven_holding }
+				# 	}
+				# } 
+				else_if = { #WHG 
 					limit = { holder = { government_has_flag = government_is_halfling } }
 					if = {
 						limit = { title_province = { has_holding_type = settlement_holding } }
@@ -53,402 +56,103 @@
 				}
 			}
 		}
-
-		faith:faith_nurn_slave = {
-			every_faith_character = {
-				limit = {
-					is_from_ruler_designer = no
-					culture = culture:nurnoth
-					NOT = {
-						any_secret = { secret_type = secret_crypto_religionist }
-						exists = secret_faith
-						secret_faith = faith:faith_nurn_good
-					}
-				}
-				trigger_event = {
-					id = nurnoth.0001
-					days = 1
-				}
-			}
-		}
 		
-		every_independent_ruler = {
-			limit = {
-				any_realm_county = {
-					has_county_modifier = royal_road_rebuilt_province_modifier
-				}
-			}
-			add_character_modifier = {
-				modifier = royal_road_rebuilt_modifier
-				years = 1
-			}
-		}
-		
-		# Foundations of Stone / Deepest Darkness Stress events
-		every_ruler = { 
-			every_held_county = {
-				limit = {
-					has_county_modifier = foundations_of_stone_county_modifier
-				}
-				holder = {
-					random_list = {
-						20 = {
-							add_character_modifier = {
-								modifier = foundations_of_stone_character_modifier
-								years = 1
-							}
-							trigger_event = goblins.1000
-						}
-						80 = {
-							add_character_modifier = {
-								modifier = foundations_of_stone_character_modifier
-								years = 1
-							}
-						}
-					}
-				}
-			}
-		}
-		
-		every_independent_ruler = {
-			limit = {
-				any_realm_province = {
-					has_province_modifier = rhun_road_province_modifier
-				}
-			}
-			if = {
-				limit = { 
-					any_realm_province = {
-						count = 53
-						has_province_modifier = rhun_road_province_modifier
-					}
-				}
-				add_character_modifier = {
-					modifier = rhun_road_income_character_modifier_10
-					years = 1
-				}
-			}
-			else_if = {
-				limit = { 
-					any_realm_province = {
-						count > 45
-						has_province_modifier = rhun_road_province_modifier
-					}
-				}
-				add_character_modifier = {
-					modifier = rhun_road_income_character_modifier_9
-					years = 1
-				}
-			}
-			else_if = {
-				limit = { 
-					any_realm_province = {
-						count > 40
-						has_province_modifier = rhun_road_province_modifier
-					}
-				}
-				add_character_modifier = {
-					modifier = rhun_road_income_character_modifier_8
-					years = 1
-				}
-			}
-			else_if = {
-				limit = { 
-					any_realm_province = {
-						count > 35
-						has_province_modifier = rhun_road_province_modifier
-					}
-				}
-				add_character_modifier = {
-					modifier = rhun_road_income_character_modifier_7
-					years = 1
-				}
-			}
-			else_if = {
-				limit = { 
-					any_realm_province = {
-						count > 30
-						has_province_modifier = rhun_road_province_modifier
-					}
-				}
-				add_character_modifier = {
-					modifier = rhun_road_income_character_modifier_6
-					years = 1
-				}
-			}
-			else_if = {
-				limit = { 
-					any_realm_province = {
-						count > 25
-						has_province_modifier = rhun_road_province_modifier
-					}
-				}
-				add_character_modifier = {
-					modifier = rhun_road_income_character_modifier_5
-					years = 1
-				}
-			}
-			else_if = {
-				limit = { 
-					any_realm_province = {
-						count > 20
-						has_province_modifier = rhun_road_province_modifier
-					}
-				}
-				add_character_modifier = {
-					modifier = rhun_road_income_character_modifier_4
-					years = 1
-				}
-			}
-			else_if = {
-				limit = { 
-					any_realm_province = {
-						count > 15
-						has_province_modifier = rhun_road_province_modifier
-					}
-				}
-				add_character_modifier = {
-					modifier = rhun_road_income_character_modifier_3
-					years = 1
-				}
-			}
-			else_if = {
-				limit = { 
-					any_realm_province = {
-						count > 10
-						has_province_modifier = rhun_road_province_modifier
-					}
-				}
-				add_character_modifier = {
-					modifier = rhun_road_income_character_modifier_2
-					years = 1
-				}
-			}
-			else_if = {
-				limit = { 
-					any_realm_province = {
-						count > 5
-						has_province_modifier = rhun_road_province_modifier
-					}
-				}
-				add_character_modifier = {
-					modifier = rhun_road_income_character_modifier_1
-					years = 1
-				}
-			}
-		}
-	}
-}
-
-lotr_yearly_playable_pulse = {
-	effect = {
-		### Moria Struggle Catalyst ###
-		if = { # Struggle Catalyst
-			limit = {
-				any_county_in_region = {
-					region = middleearth_mountains_misty_balrog_struggle_region
-					OR = {
-						holder = { is_vassal_or_below_of = root }
-						holder = root
-					}
-					OR = {
-						holder = {
-							any_character_struggle = {
-								involvement = interloper
-								phase_has_catalyst = catalyst_controls_too_large_area_moria
-							}
-						}
-						holder = {
-							any_character_struggle = {
-								involvement = involved
-								phase_has_catalyst = catalyst_controls_too_large_area_moria
-							}
-						}
-					}
-					percent >= 0.5
-				}
-			}
-			every_character_struggle = {
-				activate_struggle_catalyst = {
-					catalyst = catalyst_controls_too_large_area_moria
-					character = root
-				}
-			}
-		}
-
-		if = { # Struggle Catalyst
-			limit = {
-				struggle:balrog_struggle ?= {
-					any_involved_ruler = {
-						any_held_county = { title_province = { has_building_or_higher = dwarven_depths_04 } }
-					}
-				}
-			}
-			struggle:balrog_struggle ?= {
-				every_involved_ruler = {
-					limit = {
-						any_held_county = { title_province = { has_building_or_higher = dwarven_depths_04 } }
-						NOT = { has_variable = catalyst_fired }
-					}
-					set_variable = {
-						name = catalyst_fired
-						months = 11
-					}
-					every_character_struggle = {
-						activate_struggle_catalyst = {
-							catalyst = catalyst_delved_too_deep
-							character = prev
-						}
-					}
-				}
-			}
-		}	
-
-		if = { # Struggle Catalyst
-			limit = {
-				struggle:balrog_struggle ?= {
-					any_involved_ruler = {
-						has_character_modifier = lotr_balrog_hiding_realm
-					}
-				}
-			}
-			struggle:balrog_struggle ?= {
-				every_involved_ruler = {
-					limit = {
-						has_character_modifier = lotr_balrog_hiding_realm
-						NOT = { has_variable = catalyst_fired }
-					}
-					set_variable = {
-						name = catalyst_fired
-						months = 11
-					}
-					every_character_struggle = {
-						activate_struggle_catalyst = {
-							catalyst = catalyst_hiding_realm
-							character = prev
-						}
-					}
-				}
-			}
-		}
-
-
-		
-		### Thani-Hazad Struggle Catalysts ###
-		if = { # Struggle Catalyst
-			limit = {
-				any_county_in_region = {
-					region = middleearth_thani_hazad_struggle_region
-					OR = {
-						holder = { is_vassal_or_below_of = root }
-						holder = root
-					}
-					OR = {
-						holder = {
-							any_character_struggle = {
-								involvement = interloper
-								phase_has_catalyst = catalyst_controls_too_large_area 
-							}
-						}
-						holder = {
-							any_character_struggle = {
-								involvement = involved
-								phase_has_catalyst = catalyst_controls_too_large_area 
-							}
-						}
-					}
-					percent >= 0.5
-				}
-			}
-			every_character_struggle = {
-				activate_struggle_catalyst = {
-					catalyst = catalyst_controls_too_large_area
-					character = root
-				}
-			}
-		}
-		if = { # Struggle Catalyst
-			limit = {
-				struggle:thani_hazad_struggle ?= {
-					any_involved_ruler = {
-						exists = dynasty
-						dynasty ?= { has_dynasty_modifier = old_order_triumphant_th_struggle_modifier }
-						is_landed = yes
-					}
-				}
-			}
-			struggle:thani_hazad_struggle ?= {
-				every_involved_ruler = {
-					limit = {
-						exists = dynasty
-						dynasty ?= { has_dynasty_modifier = old_order_triumphant_th_struggle_modifier }
-						is_landed = yes
-						NOT = { has_variable = catalyst_fired }
-					}
-					set_variable = {
-						name = catalyst_fired
-						months = 6
-					}
-					every_character_struggle = {
-						activate_struggle_catalyst = {
-							catalyst = catalyst_has_confederation_modifier
-							character = prev
-						}
-					}
-				}
-			}
-		}
-
-		### If wastelands tracker is wrong, correct the count
-		# if = {
+		# every_independent_ruler = { #WHG TODO CHECK
 		# 	limit = {
-		# 		any_held_title = { title_province ?= { has_holding_type = settlement_holding } }
+		# 		any_realm_county = {
+		# 			has_county_modifier = royal_road_rebuilt_province_modifier
+		# 		}
 		# 	}
-		# 	if = {
-		# 		limit = { has_variable = correct_settlement_count }
-		# 		remove_variable = correct_settlement_count
+		# 	add_character_modifier = {
+		# 		modifier = royal_road_rebuilt_modifier
+		# 		years = 1
 		# 	}
-		# 	every_held_title = {
-		# 		limit = { title_province ?= { has_holding_type = settlement_holding } }
+		# }
+		
+		# Foundations of Stone / Deepest Darkness Stress events #WHG TODO CHECK
+		# every_ruler = { 
+		# 	every_held_county = {
+		# 		limit = {
+		# 			has_county_modifier = foundations_of_stone_county_modifier
+		# 		}
 		# 		holder = {
-		# 			increase_variable = {
-		# 				NAME = correct_settlement_count
-		# 				AMOUNT = 1
+		# 			random_list = {
+		# 				20 = {
+		# 					add_character_modifier = {
+		# 						modifier = foundations_of_stone_character_modifier
+		# 						years = 1
+		# 					}
+		# 					trigger_event = goblins.1000
+		# 				}
+		# 				80 = {
+		# 					add_character_modifier = {
+		# 						modifier = foundations_of_stone_character_modifier
+		# 						years = 1
+		# 					}
+		# 				}
 		# 			}
 		# 		}
 		# 	}
-		# 	set_variable = {
-		# 		name = correct_settlement_count
-		# 		value = var:correct_settlement_count.div2
-		# 	}
-		# 	if = {
-		# 		limit = { NOT = { var:num_settled_wilderness = var:correct_settlement_count } }
-		# 		set_variable = {
-		# 			name = num_settled_wilderness
-		# 			value = var:correct_settlement_count
-		# 		}
-		# 	}
-		# 	remove_variable = correct_settlement_count
-		# 	remove_upkeep_modifier = yes
-		# 	trigger_event = wastelands.0007
-		# }
-		# else_if = { # Remove the upkeep modifier in-case 
-		# 	limit = {
-		# 		has_variable = num_settled_wilderness
-		# 		NOT = {
-		# 			any_held_title = { title_province ?= { has_holding_type = settlement_holding } }
-		# 		}
-		# 	}
-		# 	remove_variable = num_settled_wilderness
-		# 	remove_upkeep_modifier = yes
 		# }
 	}
 }
 
+# lotr_yearly_playable_pulse = { #WHG disabled for now, as it is not used in the game
+# 	effect = {
+# 		### If wastelands tracker is wrong, correct the count
+# 		# if = {
+# 		# 	limit = {
+# 		# 		any_held_title = { title_province ?= { has_holding_type = settlement_holding } }
+# 		# 	}
+# 		# 	if = {
+# 		# 		limit = { has_variable = correct_settlement_count }
+# 		# 		remove_variable = correct_settlement_count
+# 		# 	}
+# 		# 	every_held_title = {
+# 		# 		limit = { title_province ?= { has_holding_type = settlement_holding } }
+# 		# 		holder = {
+# 		# 			increase_variable = {
+# 		# 				NAME = correct_settlement_count
+# 		# 				AMOUNT = 1
+# 		# 			}
+# 		# 		}
+# 		# 	}
+# 		# 	set_variable = {
+# 		# 		name = correct_settlement_count
+# 		# 		value = var:correct_settlement_count.div2
+# 		# 	}
+# 		# 	if = {
+# 		# 		limit = { NOT = { var:num_settled_wilderness = var:correct_settlement_count } }
+# 		# 		set_variable = {
+# 		# 			name = num_settled_wilderness
+# 		# 			value = var:correct_settlement_count
+# 		# 		}
+# 		# 	}
+# 		# 	remove_variable = correct_settlement_count
+# 		# 	remove_upkeep_modifier = yes
+# 		# 	trigger_event = wastelands.0007
+# 		# }
+# 		# else_if = { # Remove the upkeep modifier in-case 
+# 		# 	limit = {
+# 		# 		has_variable = num_settled_wilderness
+# 		# 		NOT = {
+# 		# 			any_held_title = { title_province ?= { has_holding_type = settlement_holding } }
+# 		# 		}
+# 		# 	}
+# 		# 	remove_variable = num_settled_wilderness
+# 		# 	remove_upkeep_modifier = yes
+# 		# }
+# 	}
+# }
+
 lotr_three_year_playable_pulse = {
 	effect = {
+		title:k_wastelands.holder = {
+			remove_short_term_gold = gold
+		}
 	}
 }
+
 
 lotr_five_year_playable_pulse = {
 	effect = {
@@ -472,14 +176,14 @@ lotr_five_year_playable_pulse = {
 							count = 0 
 						}
 					}
-					if = {
-						limit = { terrain = halls }
-						set_holding_type = dwarven_holding
-					}
-					else_if = {
-						limit = { root = { government_has_flag = government_is_elven } }
-						set_holding_type = elven_holding
-					}
+					# if = { #WHG TODO
+					# 	limit = { terrain = halls }
+					# 	set_holding_type = dwarven_holding
+					# }
+					# else_if = {
+					# 	limit = { root = { government_has_flag = government_is_elven } }
+					# 	set_holding_type = elven_holding
+					# }
 					else_if = {
 						limit = { root = { government_has_flag = government_is_tribal } }
 						set_holding_type = tribal_holding
@@ -500,16 +204,14 @@ lotr_five_year_playable_pulse = {
 			}
 		}
 	}
-	on_actions = {
-		delay = { days = { 8 288 } }
-		trans_haradric_trade_yearly_pulse
-	}
+	# on_actions = {
+	# 	delay = { days = { 8 288 } }
+	# 	trans_haradric_trade_yearly_pulse
+	# }
 }
 
-lotr_quarterly_playable_pulse = {
+lotr_quarterly_playable_pulse = { #WHG disabled
 	trigger = { is_wastelands = no } #LotR
-	effect = {
-	}
 }
 
 lotr_random_yearly_playable_pulse = {
@@ -530,199 +232,165 @@ lotr_random_yearly_playable_pulse = {
 	}
 }
 
-lotr_random_yearly_everyone_pulse = {
-	effect = {
+# lotr_random_yearly_everyone_pulse = {
+# 	effect = {
 
-	}
-}
+# 	}
+# }
 
-lotr_five_year_everyone_pulse = {
-	effect = {
-		root = {
+# lotr_five_year_everyone_pulse = { #WHG TODO CHECK currently disabled
+# 	effect = {
+# 		root = {
 
-			if = { # LotR Elf Barons should have a chance to have children
-				limit = {
-					is_ai = yes
-					highest_held_title_tier = tier_barony
-					is_married = yes
-					is_elf = yes
-					primary_spouse = { is_elf = yes }
-					sex_opposite_of = primary_spouse
-					primary_spouse = { is_ai = yes }
-					NOR = { 
-						has_character_flag = elf_childbirth_ongoing
-						has_character_modifier = elf_child_limit_modifier
-						primary_spouse = { has_character_modifier = elf_child_limit_modifier }
-					}
-				}
-				random = {
-					chance = 20
-					trigger_event = elven_racial.0001
-					add_character_flag = elf_childbirth_ongoing
-					primary_spouse = { add_character_flag = elf_childbirth_ongoing }
-				}
-			}
-			if = {
-				limit = {
-					has_title = title:c_valinor_1
-				}
-				title:c_valinor_1.holder = { trigger_event = lotr_war_events.0006 }
-			}
-		}
+# 			# if = { # LotR Elf Barons should have a chance to have children
+# 			# 	limit = {
+# 			# 		is_ai = yes
+# 			# 		highest_held_title_tier = tier_barony
+# 			# 		is_married = yes
+# 			# 		is_elf = yes
+# 			# 		primary_spouse = { is_elf = yes }
+# 			# 		sex_opposite_of = primary_spouse
+# 			# 		primary_spouse = { is_ai = yes }
+# 			# 		NOR = { 
+# 			# 			has_character_flag = elf_childbirth_ongoing
+# 			# 			has_character_modifier = elf_child_limit_modifier
+# 			# 			primary_spouse = { has_character_modifier = elf_child_limit_modifier }
+# 			# 		}
+# 			# 	}
+# 			# 	random = {
+# 			# 		chance = 20
+# 			# 		trigger_event = elven_racial.0001
+# 			# 		add_character_flag = elf_childbirth_ongoing
+# 			# 		primary_spouse = { add_character_flag = elf_childbirth_ongoing }
+# 			# 	}
+# 			# }
+# 			# if = {
+# 			# 	limit = {
+# 			# 		has_title = title:c_valinor_1
+# 			# 	}
+# 			# 	title:c_valinor_1.holder = { trigger_event = lotr_war_events.0006 }
+# 			# }
+# 		}
 
-		### Achievements ###
+# 		### Achievements ###
 
-	}
-}
+# 	}
+# }
 
-lotr_three_year_pool_pulse = {
-	effect = {
+# lotr_three_year_pool_pulse = {
+# 	effect = {
 		
-	}
-}
+# 	}
+# }
 
-lotr_prison_maintenance_pulse = {
-	effect = {
+# lotr_prison_maintenance_pulse = {
+# 	effect = {
 		
-	}
-}
+# 	}
+# }
 
-lotr_ai_character_pulse = {
-	effect = {
+# lotr_ai_character_pulse = {
+# 	effect = {
 		
-	}
-}
+# 	}
+# }
 
-lotr_culture_hybridization_emergence_events = {
-	effect = {
+# lotr_culture_hybridization_emergence_events = {
+# 	effect = {
 		
-	}
-}
+# 	}
+# }
 
-lotr_culture_divergence_emergence_events = {
-	effect = {
+# lotr_culture_divergence_emergence_events = {
+# 	effect = {
 		
-	}
-}
+# 	}
+# }
 
-lotr_on_yearly_common_events = {
-	effect = {
-		
-	}
-	random_events = {
-		chance_to_happen = 65
+# lotr_on_yearly_common_events = {
+# 	effect = {
+# 	}
+# 	random_events = {
+# 		chance_to_happen = 65
+# 	}
+# }
 
-		#Rohan events 
-		100 = rohan.2100 # King in the Golden Hall event chain
+# lotr_accolades_three_year_playable_pulse = {
+# 	effect = {
+		
+# 	}
+# }
 
-		### Khyan Flavour Events ###
-		100 = lotr_khy.0001 #Vision Under the Noon Sun
-		100 = lotr_khy.0002 #The Quiet Heretic
-		100 = lotr_khy.0003 #The Forgotten Scroll
-		100 = lotr_khy.0004 #Rider’s Rite of the Mountain Paths
-		100 = lotr_khy.0005 #The Painted Mare
-		100 = lotr_khy.0006 #The Lost Studbook
-		# 100 = lotr_khy.0007 #TBD
-		100 = lotr_khy.0008 #The Warden’s Penance
-		100 = lotr_khy.0009 #Sackcloth and Statues
-		# 100 = lotr_khy.0010 #TBD
-		100 = lotr_khy.0011 #Tide of Foreigners
-		100 = lotr_khy.0012 #Salt in the Citadel
-		# 100 = lotr_khy.0013 #TBD
-		100 = lotr_khy.0014 #The Sun’s Reflection
+# lotr_on_yearly_invisible_events = {
+# 	effect = {
 		
-		### Arnor Flavor Events ###
-		100 = arnor.2001 #Orc Raid
-		100 = arnor.2002 #Bandit Raid
-		
-		### Abrakhan Flavor Events ###
-		100 = abrakhan.0010 # The Mirror of Fire
-		100 = abrakhan.0011 # The Pust Tribes
-		100 = abrakhan.0025 # Desert Amber Expedition
-	}
-}
+# 	}
+# }
 
-lotr_accolades_three_year_playable_pulse = {
-	effect = {
+# lotr_on_yearly_events = {
+# 	events = {
+# 	}
+# 	effect = {
 		
-	}
-}
+# 	}
+# }
 
-lotr_on_yearly_invisible_events = {
-	effect = {
+# trans_haradric_trade_yearly_pulse = { # Trans-Saharan merchant system adapted from RICE
+# 	trigger = {
+# 		is_landed = yes
+# 		highest_held_title_tier > tier_barony
+# 		is_available_adult = yes
+# 		is_wastelands = no
 		
-	}
-}
+# 	}
+# 	random_events = {
+# 		chance_of_no_event = {
+# 			value = 30
+# 		}
+		
+# 		1000 = 0
+		
+# 		# Trans-Haradric Merchant offers services
+# 		50 = harad.0601		# Near Harad Merchant
+# 		50 = harad.0602		# Far Harad Merchant
+# 		50 = harad.0603		# Khy Merchant
+# 		50 = harad.0604		# Sirayn Merchant
+# 	}
+# }
 
-lotr_on_yearly_events = {
-	events = {
-		orcs.0001 # Coming of Age
-		orcs.1001 # Flesh Feast
-		orcs.3001 # Rise of The Berserker
-		#orc_challenge.0101 # Guest Challenge
-		# gondor.2950
-	}
-	effect = {
-		
-	}
-}
+# lotr_orc_rivalry_and_nemesis_additional_events = {
+# 	trigger = { 
+# 		is_orc = yes
+# 		is_landed = yes
+# 	}
+# 	random_events = {
+# 		chance_of_no_event = { value = 50 }
 
-trans_haradric_trade_yearly_pulse = { # Trans-Saharan merchant system adapted from RICE
-	trigger = {
-		is_landed = yes
-		highest_held_title_tier > tier_barony
-		is_available_adult = yes
-		is_wastelands = no
+# 		200 = 0
 		
-	}
-	random_events = {
-		chance_of_no_event = {
-			value = 30
-		}
-		
-		1000 = 0
-		
-		# Trans-Haradric Merchant offers services
-		50 = harad.0601		# Near Harad Merchant
-		50 = harad.0602		# Far Harad Merchant
-		50 = harad.0603		# Khy Merchant
-		50 = harad.0604		# Sirayn Merchant
-	}
-}
-
-lotr_orc_rivalry_and_nemesis_additional_events = {
-	trigger = { 
-		is_orc = yes
-		is_landed = yes
-	}
-	random_events = {
-		chance_of_no_event = { value = 50 }
-
-		200 = 0
-		
-		### Events to start a rivalry between orcs ###
-		200 = goblin_yearly.0100 # Broken Spoils
-		200 = goblin_yearly.0101 # Feast Insult
-		200 = goblin_yearly.0102 # Duel Turned Sour
-		200 = goblin_yearly.0103 # Council Mockery
-		200 = goblin_yearly.0104 # Beast Fight
-		200 = goblin_yearly.0105 # Stolen Glory
-		200 = goblin_yearly.0106 # Training Accident
-		200 = goblin_yearly.0107 # Raid Sabotage
-		200 = goblin_yearly.0108 # Tribute Refusal
-		200 = goblin_yearly.0109 # Training Humiliation
+# 		### Events to start a rivalry between orcs ###
+# 		200 = goblin_yearly.0100 # Broken Spoils
+# 		200 = goblin_yearly.0101 # Feast Insult
+# 		200 = goblin_yearly.0102 # Duel Turned Sour
+# 		200 = goblin_yearly.0103 # Council Mockery
+# 		200 = goblin_yearly.0104 # Beast Fight
+# 		200 = goblin_yearly.0105 # Stolen Glory
+# 		200 = goblin_yearly.0106 # Training Accident
+# 		200 = goblin_yearly.0107 # Raid Sabotage
+# 		200 = goblin_yearly.0108 # Tribute Refusal
+# 		200 = goblin_yearly.0109 # Training Humiliation
 
 		
-		### Events to start a nemesis relation between orcs ###
-		50 = goblin_yearly.0131 # Bloodied Banner
-		50 = goblin_yearly.0132 # Insult at the Feast
-		50 = goblin_yearly.0133 # Desecrated Grave
-		50 = goblin_yearly.0134 # The Broken Blade
-		50 = goblin_yearly.0135 # Whispers of Weakness
-		50 = goblin_yearly.0136 # Stolen Trophies
-		50 = goblin_yearly.0137 # Mockery of the Hunt
-		50 = goblin_yearly.0138 # Defied in Council
-		50 = goblin_yearly.0139 # Spilled Blood in Sport
-		50 = goblin_yearly.0140 # Scorned Kin
-	}
-}
+# 		### Events to start a nemesis relation between orcs ###
+# 		50 = goblin_yearly.0131 # Bloodied Banner
+# 		50 = goblin_yearly.0132 # Insult at the Feast
+# 		50 = goblin_yearly.0133 # Desecrated Grave
+# 		50 = goblin_yearly.0134 # The Broken Blade
+# 		50 = goblin_yearly.0135 # Whispers of Weakness
+# 		50 = goblin_yearly.0136 # Stolen Trophies
+# 		50 = goblin_yearly.0137 # Mockery of the Hunt
+# 		50 = goblin_yearly.0138 # Defied in Council
+# 		50 = goblin_yearly.0139 # Spilled Blood in Sport
+# 		50 = goblin_yearly.0140 # Scorned Kin
+# 	}
+# }

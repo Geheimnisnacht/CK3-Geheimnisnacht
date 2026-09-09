@@ -259,7 +259,7 @@ wastelands.0006 = {
 					every_title_to_title_neighboring_and_across_water_county = {
 						limit = {
 							is_wastelands = yes
-							is_underground_county = no
+							# is_underground_county = no #WHG TODO
 
 							NOR = {
 								has_county_modifier = block_settlement_ability
@@ -271,41 +271,42 @@ wastelands.0006 = {
 			}
 
 
-			### DWARF ###
-			else_if = { ## COUNTIES AVAILABLE FOR DWARF AI ##
-				limit = { is_dwarf = yes}
-				debug_log = "Wastelands.0006: Dwarves List Made"
-				every_sub_realm_county = {
-					every_title_to_title_neighboring_and_across_water_county = {
-						limit = {
-							is_wastelands = yes
+			# ### DWARF ###
+			# else_if = { ## COUNTIES AVAILABLE FOR DWARF AI ## #WHG TODO
+			# 	limit = { is_dwarf = yes}
+			# 	debug_log = "Wastelands.0006: Dwarves List Made"
+			# 	every_sub_realm_county = {
+			# 		every_title_to_title_neighboring_and_across_water_county = {
+			# 			limit = {
+			# 				is_wastelands = yes
 
-							NOR = {
-								has_county_modifier = block_settlement_ability							}
-							OR = {
-								county_has_province_with_terrain = {
-									terrain = mountains
-									terrain = desert_mountains
-									# terrain = halls
-								}
-								AND = {
-									any_county_province = {
-										terrain = hills
-										any_neighboring_province = {
-											OR = {
-												terrain = desert_mountains
-												# terrain = halls
-												terrain = mountains
-											}
-										}
-									}
-								}
-							}
-						}
-						add_to_list = adjacent_wastelands
-					}
-				}
-			}
+			# 				NOR = {
+			# 					has_county_modifier = block_settlement_ability							
+			# 				}
+			# 				OR = {
+			# 					county_has_province_with_terrain = {
+			# 						terrain = mountains
+			# 						terrain = desert_mountains
+			# 						# terrain = halls
+			# 					}
+			# 					AND = {
+			# 						any_county_province = {
+			# 							terrain = hills
+			# 							any_neighboring_province = {
+			# 								OR = {
+			# 									terrain = desert_mountains
+			# 									# terrain = halls
+			# 									terrain = mountains
+			# 								}
+			# 							}
+			# 						}
+			# 					}
+			# 				}
+			# 			}
+			# 			add_to_list = adjacent_wastelands
+			# 		}
+			# 	}
+			# }
 
 
 			### ORC ###
@@ -350,7 +351,7 @@ wastelands.0006 = {
 								terrain = steppe
 								terrain = forest
 								terrain = desert_mountains
-								terrain = halls
+								# terrain = halls
 								terrain = hills
 								terrain = mountains
 							}
@@ -1479,7 +1480,7 @@ wastelands.0100 = {
 
 ### Settling Wastelands as Laamp, leaving a courtier in charge
 wastelands.0200 = {
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.0200.t
 	desc = wastelands.0200.desc
@@ -1645,7 +1646,7 @@ wastelands.0200 = {
 ##############
 
 wastelands.1001 = { # Clearing out the Wolves
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.1001.t
 	desc = wastelands.1001.desc
@@ -1884,7 +1885,7 @@ wastelands.1001 = { # Clearing out the Wolves
 }
 
 wastelands.1002 = { # Surrounded
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.1002.t
 	desc = wastelands.1002.desc
@@ -2018,7 +2019,7 @@ wastelands.1002 = { # Surrounded
 }
 
 wastelands.1003 = { # Wolf-mother
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.1003.t
 	desc = wastelands.1003.desc
@@ -2139,7 +2140,7 @@ wastelands.1003 = { # Wolf-mother
 }
 
 wastelands.1004 = { # Wolf-Dogs
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.1004.t
 	desc = wastelands.1004.desc
@@ -2262,7 +2263,7 @@ wastelands.1004 = { # Wolf-Dogs
 }
 
 wastelands.1005 = { # The Vanished
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.1005.t
 	desc = wastelands.1005.desc
@@ -2293,7 +2294,7 @@ wastelands.1005 = { # The Vanished
 				send_interface_toast = {
 					left_icon = root
 					title = wastelands.1005.success.toast.t
-					#scope:obstacle_province = { remove_building = wolf_den_cleared }
+					scope:obstacle_province = { remove_building = wolf_den_cleared }
 				}
 			}
 			30 = {
@@ -2306,7 +2307,7 @@ wastelands.1005 = { # The Vanished
 				send_interface_toast = {
 					left_icon = root
 					title = wastelands.1005.failure.toast.t
-					#hidden_effect = { scope:obstacle_province = { remove_building = wolf_den_cleared } }
+					hidden_effect = { scope:obstacle_province = { remove_building = wolf_den_cleared } }
 					scope:obstacle_province = { add_building = wolf_den }
 					make_settlement_county_wilderness = {
 						COUNTY = scope:obstacle_province.county
@@ -2332,7 +2333,7 @@ wastelands.1005 = { # The Vanished
 				send_interface_toast = {
 					left_icon = root
 					title = wastelands.1005.success.toast.t
-					#scope:obstacle_province = { remove_building = wolf_den_cleared }
+					scope:obstacle_province = { remove_building = wolf_den_cleared }
 				}
 			}
 			30 = {
@@ -2345,7 +2346,7 @@ wastelands.1005 = { # The Vanished
 				send_interface_toast = {
 					left_icon = root
 					title = wastelands.1005.failure.toast.t
-					#hidden_effect = { scope:obstacle_province = { remove_building = wolf_den_cleared } }
+					hidden_effect = { scope:obstacle_province = { remove_building = wolf_den_cleared } }
 					scope:obstacle_province = { add_building = wolf_den }
 					make_settlement_county_wilderness = {
 						COUNTY = scope:obstacle_province.county
@@ -2358,13 +2359,13 @@ wastelands.1005 = { # The Vanished
 	option = { # These are the risks...
 		name = wastelands.1005.c
 		add_prestige = medium_prestige_loss
-		#hidden_effect = { scope:obstacle_province = { remove_building = wolf_den_cleared } }
+		hidden_effect = { scope:obstacle_province = { remove_building = wolf_den_cleared } }
 		scope:obstacle_province = { add_building = wolf_den }
 	}
 }
 
 wastelands.1006 = { # Hunted
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.1006.t
 	desc = wastelands.1006.desc
@@ -2568,7 +2569,7 @@ wastelands.1007 = { # Howls from the Hills
 }
 
 wastelands.1008 = { # Hunting Clubs
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.1008.t
 	desc = wastelands.1008.desc
@@ -2648,7 +2649,7 @@ wastelands.1008 = { # Hunting Clubs
 }
 
 wastelands.1009 = { # Howls in the night
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.1009.t
 	desc = wastelands.1009.desc
@@ -2857,7 +2858,7 @@ wastelands.1009 = { # Howls in the night
 ##############
 
 wastelands.1201 = { # Yoh-gi
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.1201.t
 	desc = wastelands.1201.desc
@@ -2990,23 +2991,23 @@ wastelands.1201 = { # Yoh-gi
 }
 
 wastelands.1202 = { # Beargild
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.1202.t
 	desc = {
 		desc = wastelands.1202.desc.1
-		triggered_desc = { # Evil response to bear cub
-			trigger = {
-				faith_is_evil = yes
-			}
-			desc = wastelands.1202.desc.2.evil
-		}
-		triggered_desc = { # Non-evil response to bear cub
-			trigger = {
-				faith_is_evil = no
-			}
-			desc = wastelands.1202.desc.2.good
-		}
+		# triggered_desc = { # Evil response to bear cub #WHG TODO 
+		# 	trigger = {
+		# 		faith_is_evil = yes
+		# 	}
+		# 	desc = wastelands.1202.desc.2.evil
+		# }
+		# triggered_desc = { # Non-evil response to bear cub
+		# 	trigger = {
+		# 		faith_is_evil = no
+		# 	}
+		# 	desc = wastelands.1202.desc.2.good
+		# }
 	}
 	theme = hunting
 
@@ -3093,7 +3094,7 @@ wastelands.1202 = { # Beargild
 }
 
 wastelands.1203 = { # The Raid
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.1203.t
 	desc = wastelands.1203.desc
@@ -3195,7 +3196,7 @@ wastelands.1203 = { # The Raid
 }
 
 wastelands.1204 = { # Mushroom Bear
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.1204.t
 	desc = wastelands.1204.desc
@@ -3340,7 +3341,7 @@ wastelands.1204 = { # Mushroom Bear
 }
 
 wastelands.1205 = { # More than meets the eye
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.1205.t
 	desc = wastelands.1205.desc
@@ -3464,7 +3465,7 @@ wastelands.1205 = { # More than meets the eye
 }
 
 wastelands.1206 = { # The Man-Eater
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.1206.t
 	desc = wastelands.1206.desc
@@ -3572,7 +3573,7 @@ wastelands.1206 = { # The Man-Eater
 }
 
 wastelands.1207 = { # Hated enemies
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.1207.t
 	desc = wastelands.1207.desc
@@ -3583,17 +3584,7 @@ wastelands.1207 = { # Hated enemies
 		animation = personality_bold
 	}
 
-	trigger = {
-		scope:obstacle_province = {
-			OR = {
-				empire = title:e_anduin_vale
-				kingdom = title:k_high_pass
-				kingdom = title:k_gundabad
-				kingdom = title:k_grey_mountains
-			}
-		}
-		faith_is_evil = yes
-	}
+
 
 	immediate = {
 		scope:obstacle_province = { remove_cleaned_blockers_effect = yes }
@@ -3733,12 +3724,7 @@ wastelands.1208 = { # Bear-Baiting
 			callous = medium_stress_loss
 			sadistic = medium_stress_loss
 		}
-		if = {
-			limit = {
-				faith_is_evil = yes # not sure if we want doubling effects
-			}
-			add_stress = -30
-		}
+
 	}
 
 	option = {
@@ -3795,7 +3781,7 @@ wastelands.1208 = { # Bear-Baiting
 }
 
 wastelands.1209 = { # Sloth and savagery
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.1209.t
 	desc = wastelands.1209.desc
@@ -3961,7 +3947,7 @@ wastelands.1209 = { # Sloth and savagery
 #################
 
 wastelands.1401 = { # The Great Web
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.1401.t
 	desc = wastelands.1401.desc
@@ -4095,7 +4081,7 @@ wastelands.1401 = { # The Great Web
 }
 
 wastelands.1402 = { # Attercop
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.1402.t
 	desc = wastelands.1402.desc
@@ -4195,7 +4181,7 @@ wastelands.1402 = { # Attercop
 }
 
 wastelands.1403 = { # Saved from the Lair
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.1403.t
 	desc = wastelands.1403.desc
@@ -4269,9 +4255,9 @@ wastelands.1403 = { # Saved from the Lair
 			highest_held_title_tier > tier_county
 			scope:obstacle_province = {
 				NOT = {
-					#terrain = mountains
+					terrain = mountains
 					# terrain = halls
-					#terrain = desert_mountains
+					terrain = desert_mountains
 				}
 			}
 		}
@@ -4430,7 +4416,7 @@ wastelands.1403 = { # Saved from the Lair
 #################
 
 wastelands.1501 = { # Rooting out the Giant Scorpions
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.1501.t
 	desc = wastelands.1501.desc
@@ -4590,7 +4576,7 @@ wastelands.1501 = { # Rooting out the Giant Scorpions
 }
 
 wastelands.1502 = { # Stingers
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.1502.t
 	desc = wastelands.1502.desc
@@ -4680,7 +4666,7 @@ wastelands.1502 = { # Stingers
 }
 
 wastelands.1503 = { # Can They Be... Tamed?
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.1503.t
 	desc = wastelands.1503.desc
@@ -4766,7 +4752,7 @@ wastelands.1503 = { # Can They Be... Tamed?
 #############
 
 wastelands.1601 = { # The Outcasts
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.1601.t
 	desc = {
@@ -5061,7 +5047,7 @@ wastelands.1601 = { # The Outcasts
 }
 
 wastelands.1602 = { # The Corral
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.1602.t
 	desc = {
@@ -5220,7 +5206,7 @@ wastelands.1602 = { # The Corral
 }
 
 wastelands.1603 = { # The Brotherhood
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.1603.t
 	desc = wastelands.1603.desc
@@ -5346,7 +5332,7 @@ wastelands.1603 = { # The Brotherhood
 }
 
 wastelands.1604 = { # Tribes of the North
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.1604.t
 	desc = wastelands.1604.desc
@@ -5482,7 +5468,7 @@ wastelands.1604 = { # Tribes of the North
 }
 
 wastelands.1605 = { # The Traitor
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.1605.t
 	desc = wastelands.1605.desc
@@ -5622,7 +5608,7 @@ wastelands.1605 = { # The Traitor
 }
 
 wastelands.1606 = { # The Cunning Brigand
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.1606.t
 	desc = wastelands.1606.desc
@@ -5700,16 +5686,16 @@ wastelands.1606 = { # The Cunning Brigand
 					}
 				}
 				#scope:obstacle_province = { remove_building = bandits_cleared }
-				if = {
-					limit = {
-						scope:obstacle_province = {
-							# terrain = halls
-						}
-					}
-					scope:obstacle_province = {
-						set_holding_type = dwarven_holding
-					}
-				}
+				# if = {
+				# 	# limit = {
+				# 	# 	scope:obstacle_province = {
+				# 	# 		# terrain = halls
+				# 	# 	}
+				# 	# }
+				# 	scope:obstacle_province = {
+				# 		set_holding_type = dwarven_holding
+				# 	}
+				# }
 				else_if = {
 					limit = {
 						has_government = tribal_government
@@ -5787,9 +5773,9 @@ wastelands.1606 = { # The Cunning Brigand
 						limit = {
 							scope:obstacle_province = {
 								OR = {
-									#terrain = mountains
+									terrain = mountains
 									# terrain = halls
-									#terrain = desert_mountains
+									terrain = desert_mountains
 								}
 							}
 						}
@@ -5855,9 +5841,9 @@ wastelands.1606 = { # The Cunning Brigand
 				limit = {
 					scope:obstacle_province = {
 						OR = {
-							#terrain = mountains
+							terrain = mountains
 							# terrain = halls
-							#terrain = desert_mountains
+							terrain = desert_mountains
 						}
 					}
 				}
@@ -5946,7 +5932,7 @@ wastelands.1606 = { # The Cunning Brigand
 #################
 
 wastelands.1701 = { # Lost in the Forest
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.1701.t
 	desc = wastelands.1701.desc
@@ -6149,7 +6135,7 @@ wastelands.1701 = { # Lost in the Forest
 }
 
 wastelands.1702 = { # Yield of the Forest
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.1702.t
 	desc = wastelands.1702.desc
@@ -6238,7 +6224,7 @@ wastelands.1702 = { # Yield of the Forest
 }
 
 wastelands.1703 = { # The Ancient Ruin
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.1703.t
 	desc = wastelands.1703.desc
@@ -6310,9 +6296,6 @@ wastelands.1703 = { # The Ancient Ruin
 
 	option = { # Tear it all down for materials
 		name = wastelands.1703.d
-		trigger = {
-			faith_is_evil = yes
-		}
 		scope:obstacle_province.county = {
 			change_development_progress = 50
 		}
@@ -6322,7 +6305,7 @@ wastelands.1703 = { # The Ancient Ruin
 }
 
 wastelands.1704 = { # Nature's Retribution
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.1704.t
 	desc = wastelands.1704.desc
@@ -6413,7 +6396,7 @@ wastelands.1704 = { # Nature's Retribution
 ############
 
 wastelands.1801 = { # Life Finds a Way
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.1801.t
 	desc = wastelands.1801.desc
@@ -6519,7 +6502,7 @@ wastelands.1801 = { # Life Finds a Way
 }
 
 wastelands.1802 = { # Drakes’ Nest
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.1802.t
 	desc = wastelands.1802.desc
@@ -6708,7 +6691,7 @@ wastelands.1802 = { # Drakes’ Nest
 }
 
 wastelands.1803 = { # The Worm
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.1803.t
 	desc = wastelands.1803.desc
@@ -6817,7 +6800,7 @@ wastelands.1803 = { # The Worm
 }
 
 wastelands.1804 = { # The Drake-slayer
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.1804.t
 	desc = wastelands.1804.desc
@@ -6944,7 +6927,7 @@ wastelands.1804 = { # The Drake-slayer
 #############
 
 wastelands.1901 = { # The Orcish leader
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.1901.t
 	desc = wastelands.1901.desc
@@ -7183,7 +7166,7 @@ wastelands.1901 = { # The Orcish leader
 }
 
 wastelands.1902 = { # Loot left behind
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.1902.t
 	desc = wastelands.1902.desc
@@ -7229,7 +7212,7 @@ wastelands.1902 = { # Loot left behind
 }
 
 wastelands.1903 = { # More Orcs arrive
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.1903.t
 	desc = wastelands.1903.desc
@@ -7299,7 +7282,7 @@ wastelands.1903 = { # More Orcs arrive
 }
 
 wastelands.1904 = { # The Crafty Goblin
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.1904.t
 	desc = wastelands.1904.desc
@@ -7633,7 +7616,7 @@ wastelands.1904 = { # The Crafty Goblin
 }
 
 wastelands.1905 = { # Orcish Weapons
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.1905.t
 	desc = wastelands.1905.desc
@@ -7671,9 +7654,6 @@ wastelands.1905 = { # Orcish Weapons
 
 	option = { # Pick the best weapon for yourself
 		name = wastelands.1905.d
-		trigger = {
-			faith_is_evil = yes
-		}
 		#scope:obstacle_province = { remove_building = wild_orcs_cleared }
 		add_dread = medium_dread_gain
 	}
@@ -7684,7 +7664,7 @@ wastelands.1905 = { # Orcish Weapons
 ###################
 
 wastelands.2001 = { # Ditch and Drain
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.2001.t
 	desc = wastelands.2001.desc
@@ -7771,7 +7751,7 @@ wastelands.2001 = { # Ditch and Drain
 }
 
 wastelands.2002 = { # Marsh Fever
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.2002.t
 	desc = wastelands.2002.desc
@@ -7884,7 +7864,7 @@ wastelands.2002 = { # Marsh Fever
 }
 
 wastelands.2003 = { # Treasure in the Glade
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.2003.t
 	desc = wastelands.2003.desc
@@ -7947,7 +7927,7 @@ wastelands.2003 = { # Treasure in the Glade
 }
 
 wastelands.2004 = { # Flash Flood
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.2004.t
 	desc = wastelands.2004.desc
@@ -8035,7 +8015,7 @@ wastelands.2004 = { # Flash Flood
 #############################
 
 wastelands.2101 = { # SpoOooOOoky sightings
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.2101.t
 	desc = wastelands.2101.desc
@@ -8182,7 +8162,7 @@ wastelands.2101 = { # SpoOooOOoky sightings
 }
 
 wastelands.2102 = { # Turns out it was a "prank"
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.2102.t
 	desc = wastelands.2102.desc
@@ -8271,7 +8251,7 @@ wastelands.2102 = { # Turns out it was a "prank"
 }
 
 wastelands.2103 = { # Discover a desecrated burial site nearby
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.2103.t
 	desc = wastelands.2103.desc
@@ -8323,7 +8303,7 @@ wastelands.2103 = { # Discover a desecrated burial site nearby
 }
 
 wastelands.2104 = { #Clearing Barrow Wights
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.2104.t
 	desc = wastelands.2104.desc
@@ -8436,7 +8416,7 @@ wastelands.2104 = { #Clearing Barrow Wights
 ########################
 
 wastelands.2201 = { # Further Cave-Ins
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.2201.t
 	desc = wastelands.2201.desc
@@ -8532,7 +8512,7 @@ wastelands.2201 = { # Further Cave-Ins
 }
 
 wastelands.2202 = { # Unexpected Treasure
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.2202.t
 	desc = wastelands.2202.desc
@@ -8594,7 +8574,7 @@ wastelands.2202 = { # Unexpected Treasure
 }
 
 wastelands.2203 = { # Fossil Findings
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.2203.t
 	desc = wastelands.2203.desc
@@ -8731,7 +8711,7 @@ wastelands.2203 = { # Fossil Findings
 ###################
 
 wastelands.2301 = { # The Hot Springs
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.2301.t
 	desc = {
@@ -8842,7 +8822,7 @@ wastelands.2301 = { # The Hot Springs
 }
 
 wastelands.2302 = { # The Frozen Tomb
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.2302.t
 	desc = wastelands.2302.desc
@@ -8881,9 +8861,6 @@ wastelands.2302 = { # The Frozen Tomb
 
 	option = { # Desecrate the village
 		name = wastelands.2302.c
-		trigger = {
-			faith_is_evil = yes
-		}
 		#scope:obstacle_province = { remove_building = frozen_ground_cleared }
 		scope:obstacle_province.county = {
 			change_development_progress_with_overflow = 100
@@ -8893,7 +8870,7 @@ wastelands.2302 = { # The Frozen Tomb
 }
 
 wastelands.2303 = { # The North Grove
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.2303.t
 	desc = wastelands.2303.desc
@@ -8947,7 +8924,7 @@ wastelands.2303 = { # The North Grove
 }
 
 wastelands.2304 = { # Avalanche!
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.2304.t
 	desc = wastelands.2304.desc
@@ -8989,7 +8966,7 @@ wastelands.2304 = { # Avalanche!
 ################
 
 wastelands.2401 = { # Toxic Leak!
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.2401.t
 	desc = wastelands.2401.desc
@@ -9110,7 +9087,7 @@ wastelands.2401 = { # Toxic Leak!
 }
 
 wastelands.2402 = { # Reclaiming the Dead
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.2402.t
 	desc = wastelands.2402.desc
@@ -9174,7 +9151,7 @@ wastelands.2402 = { # Reclaiming the Dead
 }
 
 wastelands.2403 = { # Bad 'shrooms'
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.2403.t
 	desc = wastelands.2403.desc
@@ -9327,7 +9304,7 @@ wastelands.2403 = { # Bad 'shrooms'
 ##############
 
 wastelands.2601 = { # The Trolls (icy, ispanets)
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.2601.t
 	desc = wastelands.2601.desc
@@ -9464,7 +9441,7 @@ wastelands.2601 = { # The Trolls (icy, ispanets)
 }
 
 wastelands.2602 = { # A beast from the Dark (icy, ispanets)
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.2602.t
 	desc = wastelands.2602.desc
@@ -9607,7 +9584,7 @@ wastelands.2602 = { # A beast from the Dark (icy, ispanets)
 }
 
 wastelands.2603 = { # A Bargain (icy, ispanets)
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.2603.t
 	desc = wastelands.2603.desc
@@ -9716,7 +9693,7 @@ wastelands.2603 = { # A Bargain (icy, ispanets)
 }
 
 wastelands.2604 = { # Too much trolling (icy, ispanets)
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.2604.t
 	desc = wastelands.2604.desc
@@ -9833,7 +9810,7 @@ wastelands.2604 = { # Too much trolling (icy, ispanets)
 
 # Triggered randomly if the blocker is present (before being removed)
 wastelands.2801 = { # A Haunted Place by ispanets
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.2801.t
 	desc = wastelands.2801.desc
@@ -9939,7 +9916,7 @@ wastelands.2801 = { # A Haunted Place by ispanets
 }
 
 wastelands.2802 = { # Midnight Whispers
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.2802.t
 	desc = wastelands.2802.desc
@@ -10090,7 +10067,7 @@ wastelands.2802 = { # Midnight Whispers
 
 # Haunted Eregion Ruins - BLOCKER CLEARANCE
 wastelands.2803 = { # Noises and Shadows
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.2803.t
 	desc = wastelands.2803.desc
@@ -10254,7 +10231,7 @@ wastelands.2803 = { # Noises and Shadows
 }
 
 wastelands.2804 = { # Artifacts of old
-	content_source = realms_dlc
+	content_source = dlc_Geheimnisnacht
 	type = character_event
 	title = wastelands.2804.t
 	desc = wastelands.2804.desc

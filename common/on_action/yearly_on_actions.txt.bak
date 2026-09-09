@@ -513,7 +513,7 @@ yearly_global_pulse = {
 		# 		value = yes
 		# 	}
 		# }
-		#WHG
+		#LotR
 		# #Grant latin emperor a de jure kingdom after 100 years, if they've failed to grab any de jure lands yet
 		# if = {
 		# 	limit = {
@@ -545,7 +545,7 @@ yearly_global_pulse = {
 		# 		trigger_event = ep3_frankokratia_events.0140
 		# 	}
 		# }
-		#WHG
+		#LotR
 		# #Greek anarchy CB becomes unavailable when things are settled
 		# if = {
 		# 	limit = {
@@ -1937,7 +1937,7 @@ yearly_playable_pulse = {
 	events = {
 		court_maintenance.0012 # Dynasty banner improves with renown
 		court_maintenance.0013 # Remove duplicate dynasty banners
-		wastelands.0020 #WHG
+		wastelands.0020 #LotR
 	}
 	on_actions = {
 		ai_character_pulse
@@ -1945,7 +1945,7 @@ yearly_playable_pulse = {
 		delay = { days = 75 }
 
 		pagan_conversion_pulse
-		colonisation_random_events #WHG
+		colonisation_random_events #LotR
 
 
 		delay = { days = { 1 180 } }
@@ -1956,11 +1956,11 @@ yearly_playable_pulse = {
 # Called from code once every three years for "playable" (count+) characters.
 # Root is the character
 three_year_playable_pulse = {
-	trigger = { is_wastelands = no } #WHG
+	trigger = { is_wastelands = no } #LotR
 	events = {
 		adultery.0001 #Suspected spouse/soulmate of cheating (increased chance when there is a lover, but can also trigger otherwise)
 	}
-	on_actions = { #WHG
+	on_actions = { #LotR
 		lotr_three_year_playable_pulse
 	}
 	random_events = {
@@ -2632,7 +2632,7 @@ random_yearly_playable_pulse = {
 		}
 	}
 	on_actions = {
-		lotr_random_yearly_playable_pulse #WHG
+		lotr_random_yearly_playable_pulse #LotR
 		delay = { days = { 45 75 } }
 		on_yearly_common_events
 		delay = { days = { 50 80 } }
@@ -2849,7 +2849,7 @@ three_year_pool_pulse = {
 prison_maintenance_pulse = {
 	trigger = {
 		any_prisoner = { }
-		is_wastelands = no #WHG
+		is_wastelands = no #LotR
 	}
 	on_actions = {
 		#Set up quarterly pulses
@@ -2868,7 +2868,7 @@ prison_maintenance_pulse = {
 #Pulse for various AI stuff
 ai_character_pulse = {
 	trigger = {
-		is_wastelands = no #WHG
+		is_wastelands = no #LotR
 		is_ai = yes
 	}
 	random_events = {
@@ -2936,7 +2936,7 @@ on_yearly_invisible_events = {
 }
 
 on_yearly_events = {
-	trigger = { is_wastelands = no } #WHG
+	trigger = { is_wastelands = no } #LotR
 
 	random_events = {
 		chance_to_happen = 25
@@ -3100,7 +3100,7 @@ on_yearly_events = {
 		100 = trait_specific_ongoing.1010 # You love your warhorse
 		100 = trait_specific_ongoing.1011 # Force your court to be naked
 		20 = trait_specific_ongoing.1012 # Ravings
-		#100 = trait_specific_ongoing.0014 # WHG
+		#100 = trait_specific_ongoing.0014 # LotR: The sea comes for the Ar-Adûnâim
 		100 = trait_specific_ongoing.1015 # Paranoid delusions
 		#possessed
 		100 = trait_specific_ongoing.2001 # Witchy or divine visions?
@@ -3350,7 +3350,7 @@ on_yearly_events = {
 		# 150 = fp2_yearly.3001 	# Choosing your epitaph
 		# 150 = fp2_yearly.3002 	# And They Were Roommates
 		# 150 = fp2_yearly.3003 	# A Flavorful Evening
-		#180 = fp2_struggle.2003 # Band of Lost Birds #WHG
+		#180 = fp2_struggle.2003 # Band of Lost Birds #LotR
 
 		#BP1 Events
 		100 = bp1_yearly.1000 # Best friend introduces you to a new hobby
@@ -3592,7 +3592,7 @@ on_yearly_events = {
 		250 = fp3_clan.8000 # Usury against Unity, by Ola Jentzsch
 		250 = fp3_clan.8001 # Clan Quarrel, by Ola Jentzsch
 		250 = fp3_clan.8002 # Bonds of Faith, by Ola Jentzsch
-		#250 = fp3_clan.8003 # The Power of a Name, by Ola Jentzsch
+		250 = fp3_clan.8003 # The Power of a Name, by Ola Jentzsch
 		250 = fp3_clan.8004 # Bonds of Fear, by Ola Jentzsch
 		250 = fp3_clan.8005 # A Proper Position, by Ola Jentzsch
  		250 = fp3_clan.8006 # Small Spies, by Ola Jentzsch
@@ -3616,22 +3616,22 @@ on_yearly_events = {
 		500 = fp3_yearly.2040 # Commander of the Faithful
 
 		# EP3 - Byzantine Events
-		# 500 = ep3_emperor_yearly.2010 # Courtiers grumble about you sending an imperial prince/princess to marry abroad among barbarians #WHG
+		500 = ep3_emperor_yearly.2010 # Courtiers grumble about you sending an imperial prince/princess to marry abroad among barbarians
 		250 = ep3_emperor_yearly.2140 # Plunder imperial graves if in debt
-		# 250 = ep3_emperor_yearly.2150 # Stylite saint: is he for real or just faking it? #WHG
+		250 = ep3_emperor_yearly.2150 # Stylite saint: is he for real or just faking it?
 		250 = ep3_emperor_yearly.2160 # Pressure from bordering nomads
-		# 250 = ep3_emperor_yearly.2170 # Use or disband the tunnels from a low-control county? #WHG
+		250 = ep3_emperor_yearly.2170 # Use or disband the tunnels from a low-control county?
 		200 = ep3_emperor_yearly.2190 # Landowner (estate owner) has been hoarding grain
 		250 = ep3_emperor_yearly.2200 # Governor can embezzle taxes
 		250 = ep3_emperor_yearly.2210 # Landless vassal present a prophecy to increase succession score
 		200 = ep3_emperor_yearly.2220 # Monks complain about roaming shepherds
 		250 = ep3_emperor_yearly.2230 # Riots against foreign merchants
-		# 250 = ep3_emperor_yearly.2240 # Annoying "scholar" keeps quoting the Classics out of place #WHG
+		250 = ep3_emperor_yearly.2240 # Annoying "scholar" keeps quoting the Classics out of place
 		250 = ep3_emperor_yearly.2320 # HoF helps you change state faith
 		250 = ep3_emperor_yearly.8000 # Shortage of people in imperial capital
 		250 = ep3_emperor_yearly.8010 # Fake imperial letter of introduction
 		250 = ep3_emperor_yearly.8020 # Selling purple rights
-		# 25 = ep3_emperor_yearly.8030 # Porphyrios strikes back - rare #WHG
+		25 = ep3_emperor_yearly.8030 # Porphyrios strikes back - rare
 		150 = ep3_emperor_yearly.8040 # Embrace Iconoclasm
 		250 = ep3_emperor_yearly.8050 # Northern raider ransom
 		250 = ep3_emperor_yearly.8060 # Border governor defects
@@ -3828,7 +3828,7 @@ on_yearly_events = {
 		# ACH - yearly councillor events
 		25 = ach_yearly_events.1001
 		25 = ach_yearly_events.1002
-		# 25 = ach_yearly_events.1003 Vanilla bug - that event shouldn't be fire there
+		25 = ach_yearly_events.1003
 		25 = ach_yearly_events.1004
 
 		# TGP - Ceremonial Liege Events

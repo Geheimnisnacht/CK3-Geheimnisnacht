@@ -55,7 +55,6 @@ make_settlement_county_wilderness = {
 			set_county_faith = faith:faith_wastelands_pagan
 			set_county_culture = culture:wastelands
 
-			#lotr_reset_or_generate_coa = yes
 		}
 		every_county_province = {
 			limit = {
@@ -149,15 +148,6 @@ empty_foreign_visitors_to_wastelands_effect = {
 	}
 }
 
-#lotr_reset_or_generate_coa = {
-#	if = {
-#		limit = { has_user_set_coa = yes }
-#		reset_coa = yes
-#	}
-#	else = {
-#		generate_coa = yes
-#	}
-#}
 
 # Colonise a wastelands county
 ai_colonisation_effect = {
@@ -526,7 +516,7 @@ lotr_upgrade_settlement_to_full_holding_effect = {
 
 	scope:target_county = {
 		#if = {
-		#	limit = { holder = { is_elf = yes } }
+		#	limit = { holder = { is_elf = yes } } #WHG TODO
 		#	title_province = { set_holding_type = elven_holding }
 		#}
 		#else_if = {

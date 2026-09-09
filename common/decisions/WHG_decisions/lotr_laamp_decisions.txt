@@ -228,14 +228,14 @@ settle_wilderness_county_or_duchy_decision = {
 						33 = { change_development_level = 3 }
 						33 = { change_development_level = 4 }
 					}
-					if = {
-						limit = { root = { is_elf = yes } }
-						title_province = { set_holding_type = elven_holding }
-					} 
-					else_if = {
-						limit = { root.location = { terrain = halls } }
-						title_province = { set_holding_type = dwarven_holding }
-					} 
+					# if = {
+					# 	limit = { root = { is_elf = yes } }
+					# 	title_province = { set_holding_type = elven_holding }
+					# } 
+					# else_if = {
+					# 	limit = { root.location = { terrain = halls } }
+					# 	title_province = { set_holding_type = dwarven_holding }
+					# } 
 					else_if = {
 						limit = { root = { is_halfling = yes } }
 						title_province = { set_holding_type = city_holding }
