@@ -1269,43 +1269,43 @@ colonisation_random.1005 = { # [Orc Lands] The Ruins
 		reference = fp1_tribal_corridor
 	}
 
-	trigger = {
-		NOT = { has_character_flag = had_event_colonisation_random_1005 }
-		any_directly_owned_province = {
-			has_holding_type = settlement_holding
-			OR = {
-				duchy = title:d_men_i_naugrim
-				duchy = title:d_grey_mountain_narrows
-				duchy = title:d_drakkenvast
-				kingdom = title:k_langwell
-				kingdom = title:k_brownlands
-				kingdom = title:k_anduin_vale
-			}
-		}
-		NOT = { is_orc = yes }
-		NOT = { religion = { is_in_family = rf_forcesofevil } }
-	}
+	# trigger = {
+	# 	NOT = { has_character_flag = had_event_colonisation_random_1005 }
+	# 	any_directly_owned_province = {
+	# 		has_holding_type = settlement_holding
+	# 		OR = {
+	# 			duchy = title:d_men_i_naugrim
+	# 			duchy = title:d_grey_mountain_narrows
+	# 			duchy = title:d_drakkenvast
+	# 			kingdom = title:k_langwell
+	# 			kingdom = title:k_brownlands
+	# 			kingdom = title:k_anduin_vale
+	# 		}
+	# 	}
+	# 	NOT = { is_orc = yes }
+	# 	NOT = { religion = { is_in_family = rf_forcesofevil } }
+	# }
 
 	immediate = {
 		add_character_flag = {
 			flag = had_event_colonisation_random_1005
 			years = 20
 		}
-		random_directly_owned_province = {
-			limit = { 
-				has_holding_type = settlement_holding
-				OR = {
-					duchy = title:d_men_i_naugrim
-					duchy = title:d_grey_mountain_narrows
-					duchy = title:d_drakkenvast
-					kingdom = title:k_langwell
-					kingdom = title:k_brownlands
-					kingdom = title:k_anduin_vale
-				}
-			}
-			save_scope_as = colony_province
-			county = { save_scope_as = colony_county }
-		}
+		# random_directly_owned_province = {
+		# 	limit = { 
+		# 		has_holding_type = settlement_holding
+		# 		OR = {
+		# 			duchy = title:d_men_i_naugrim
+		# 			duchy = title:d_grey_mountain_narrows
+		# 			duchy = title:d_drakkenvast
+		# 			kingdom = title:k_langwell
+		# 			kingdom = title:k_brownlands
+		# 			kingdom = title:k_anduin_vale
+		# 		}
+		# 	}
+		# 	save_scope_as = colony_province
+		# 	county = { save_scope_as = colony_county }
+		# }
 		create_character = {
 			template = peasant_character
 			dynasty = none

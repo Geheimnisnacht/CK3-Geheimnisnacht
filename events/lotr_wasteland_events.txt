@@ -326,7 +326,7 @@ wastelands.0006 = {
 					every_title_to_title_neighboring_and_across_water_county = {
 						limit = {
 							is_wastelands = yes
-							is_underground_county = no
+							# is_underground_county = no
 							NOR = {
 								has_county_modifier = block_settlement_ability
 							}
@@ -385,7 +385,7 @@ wastelands.0006 = {
 					every_title_to_title_neighboring_and_across_water_county = {
 						limit = {
 							is_wastelands = yes
-							is_underground_county = no
+							# is_underground_county = no
 							NOT = { has_county_modifier = block_settlement_ability }
 						}
 						add_to_list = adjacent_wastelands
@@ -3028,7 +3028,7 @@ wastelands.1202 = { # Beargild
 		if = {
 			limit = {
 				OR = {
-					faith_is_good = yes
+					# faith_is_good = yes
 					faith = { has_doctrine = tenet_sanctity_of_nature }
 				}
 			}
@@ -3078,7 +3078,7 @@ wastelands.1202 = { # Beargild
 		if = {
 			limit = {
 				OR = {
-					faith_is_good = yes
+					# faith_is_good = yes
 					faith = { has_doctrine = tenet_sanctity_of_nature }
 				}
 			}
@@ -3365,7 +3365,7 @@ wastelands.1205 = { # More than meets the eye
 				always = no
 			}
 		}
-		faith_is_good = yes
+		# faith_is_good = yes
 	}
 
 	immediate = {
@@ -7654,7 +7654,7 @@ wastelands.1905 = { # Orcish Weapons
 	option = { # Make a monument out of them
 		name = wastelands.1905.c
 		trigger = {
-			faith_is_good = yes
+			# faith_is_good = yes
 		}
 		#scope:obstacle_province = { remove_building = wild_orcs_cleared }
 		add_piety = major_piety_gain
@@ -8258,57 +8258,57 @@ wastelands.2102 = { # Turns out it was a "prank"
 	}
 }
 
-wastelands.2103 = { # Discover a desecrated burial site nearby
-	content_source = dlc_Geheimnisnacht
-	type = character_event
-	title = wastelands.2103.t
-	desc = wastelands.2103.desc
-	theme = intrigue
-	left_portrait = {
-		character = root
-		animation = worry
-	}
-	immediate = {
-		scope:obstacle_province = { remove_cleaned_blockers_effect = yes }
-	}
+# wastelands.2103 = { # Discover a desecrated burial site nearby
+# 	content_source = dlc_Geheimnisnacht
+# 	type = character_event
+# 	title = wastelands.2103.t
+# 	desc = wastelands.2103.desc
+# 	theme = intrigue
+# 	left_portrait = {
+# 		character = root
+# 		animation = worry
+# 	}
+# 	immediate = {
+# 		scope:obstacle_province = { remove_cleaned_blockers_effect = yes }
+# 	}
 
-	option = { #Let the dead rip in peace
-		name = wastelands.2103.a
-		trigger = {
-			OR = {
-				faith_is_good = yes
-				faith_is_neutral = yes
-			}
-		}
-		#hidden_effect = { scope:obstacle_province = { remove_building = ghosts_cleared } }
-		add_prestige = minor_piety_gain
-	}
-	option = { #Clear out the graveyard
-		name = wastelands.2103.b
-		#hidden_effect = { scope:obstacle_province = { remove_building = ghosts_cleared } }
-		add_piety = medium_piety_loss
-		stress_impact = {
-			base = minor_stress_gain
-			cynical = medium_stress_loss
-			paranoid = major_stress_gain
-			forgiving = medium_stress_gain
-			compassionate = medium_stress_gain
-			zealous = major_stress_gain
-			impatient = medium_stress_loss
-		}
-	}
-	option = { #Desecrate it further!
-		name = wastelands.2103.c
-		#hidden_effect = { scope:obstacle_province = { remove_building = ghosts_cleared } }
-		add_dread = medium_dread_gain
-	}
-	option = { #Hire someone to guide the spirits away
-		name = wastelands.2102.d
-		remove_short_term_gold = minor_gold_value
-		#hidden_effect = { scope:obstacle_province = { remove_building = ghosts_cleared } }
-		add_prestige = minor_prestige_loss
-	}
-}
+# 	option = { #Let the dead rip in peace
+# 		name = wastelands.2103.a
+# 		trigger = {
+# 			OR = {
+# 				# faith_is_good = yes
+# 				faith_is_neutral = yes
+# 			}
+# 		}
+# 		#hidden_effect = { scope:obstacle_province = { remove_building = ghosts_cleared } }
+# 		add_prestige = minor_piety_gain
+# 	}
+# 	option = { #Clear out the graveyard
+# 		name = wastelands.2103.b
+# 		#hidden_effect = { scope:obstacle_province = { remove_building = ghosts_cleared } }
+# 		add_piety = medium_piety_loss
+# 		stress_impact = {
+# 			base = minor_stress_gain
+# 			cynical = medium_stress_loss
+# 			paranoid = major_stress_gain
+# 			forgiving = medium_stress_gain
+# 			compassionate = medium_stress_gain
+# 			zealous = major_stress_gain
+# 			impatient = medium_stress_loss
+# 		}
+# 	}
+# 	option = { #Desecrate it further!
+# 		name = wastelands.2103.c
+# 		#hidden_effect = { scope:obstacle_province = { remove_building = ghosts_cleared } }
+# 		add_dread = medium_dread_gain
+# 	}
+# 	option = { #Hire someone to guide the spirits away
+# 		name = wastelands.2102.d
+# 		remove_short_term_gold = minor_gold_value
+# 		#hidden_effect = { scope:obstacle_province = { remove_building = ghosts_cleared } }
+# 		add_prestige = minor_prestige_loss
+# 	}
+# }
 
 wastelands.2104 = { #Clearing Barrow Wights
 	content_source = dlc_Geheimnisnacht
