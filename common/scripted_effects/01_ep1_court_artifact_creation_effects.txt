@@ -5062,7 +5062,6 @@ create_artifact_book_effect = {
 						}
 						OR = {
 							scope:topic = flag:dynasty
-							scope:topic = flag:thani_hazad
 						}
 					}
 					trigger_else = {

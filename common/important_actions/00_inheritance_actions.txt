@@ -5,7 +5,6 @@
 
 		if = {
 			limit = {
-				realm_law_use_orcish_government_authority = no #LotR
 				NOT = {
 					any_held_title = {
 						tier > tier_barony
@@ -97,7 +96,6 @@ action_primary_heir_wrong_dynasty_no_replacement_exists = {
 					}
 				}
 				NOT = { government_allows = administrative } # Admin doesn't care if primary heir is of another dynasty, as long as they have a player heir.
-				realm_law_use_orcish_government_authority = no #LotR
 			}
 			try_create_important_action = {
 				important_action_type = action_primary_heir_wrong_dynasty_no_replacement_exists

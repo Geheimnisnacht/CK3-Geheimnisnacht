@@ -42,11 +42,6 @@ artifact_can_be_gift_base_trigger = {
 		has_variable = ungiftable
 		has_variable = is_tribute_mission_artifact
 		has_variable = artifact_prevent_transfer # not enforced in all script but make life easier for modders.
-
-		AND = { #So the AI doesn't hand out certain artifacts
-			has_variable = ai_ungiftable
-			artifact_owner = { is_ai = yes }
-		}
 	}
 }
 # e.g. a formal tribute gift 
@@ -57,8 +52,6 @@ artifact_can_be_gift_advance_trigger = {
 		has_variable = banner_house
 		has_variable = bunga_mas_created_by
 		var:artifact_succession_title ?= { is_title_created = yes }
-		#LotR
-		var:heirloom_of_title ?= { is_title_created = yes }
 	}
 }
 
@@ -112,18 +105,6 @@ artifact_can_be_gift_to_trigger = {
 			OR = {
 				var:artifact_succession_title.holder = $RECIPIENT$
 				var:artifact_succession_title.holder != artifact_owner
-			}
-		}
-		trigger_if = { #LotR
-			limit = {
-				var:heirloom_of_title ?= { is_title_created = yes }
-			}
-			# either its title destroyed, or recipient is rightfully owner, or you are not the title's holder
-			OR = {
-				var:heirloom_of_title.holder = $RECIPIENT$
-				var:heirloom_of_title.holder.player_heir = $RECIPIENT$
-				var:heirloom_of_title.holder != artifact_owner
-				var:heirloom_of_title.holder.player_heir != artifact_owner
 			}
 		}
 	}
@@ -375,18 +356,18 @@ artifact_use_western_unit_visuals_trigger = {
 }
 
 artifact_use_chinese_unit_visuals_trigger = {
-	# culture ?= { has_unit_gfx = chinese_unit_gfx } #LotR
-	always = no #LotR
+	# culture ?= { has_unit_gfx = chinese_unit_gfx } #WHG
+	always = no #WHG
 }
 
 artifact_use_japanese_unit_visuals_trigger = {
-	# culture ?= { has_unit_gfx = japanese_unit_gfx } #LotR
-	always = no #LotR
+	# culture ?= { has_unit_gfx = japanese_unit_gfx } #WHG
+	always = no #WHG
 }
 
 artifact_use_southeast_asian_unit_visuals_trigger = {
-	# culture ?= { has_unit_gfx = southeast_asian_unit_gfx } #LotR
-	always = no #LotR
+	# culture ?= { has_unit_gfx = southeast_asian_unit_gfx } #WHG
+	always = no #WHG
 }
 
 artifact_use_iberian_muslim_unit_visuals_trigger = {
@@ -415,24 +396,21 @@ artifact_use_indian_building_visuals_trigger = {
 	culture ?= {
 		OR = {
 			has_building_gfx = indian_building_gfx
-			# has_building_gfx = southeast_asian_building_gfx #LotR
-			#has_building_gfx = nafarati_building_gfx # LOTR
+			has_building_gfx = southeast_asian_building_gfx
+			has_building_gfx = tibetan_building_gfx
 		}
 	}
 }
 
 artifact_use_mena_building_visuals_trigger = {
-	OR = { # LOTR
-		culture ?= { has_building_gfx = mena_building_gfx }
-		#culture ?= { has_building_gfx = ray_building_gfx } # LOTR
-	}
+	culture ?= { has_building_gfx = mena_building_gfx }
 }
 
 artifact_use_mediterranean_building_visuals_trigger = {
 	culture ?= {
 		OR = {
 			has_building_gfx = mediterranean_building_gfx
-			has_building_gfx = byzantine_building_gfx  
+			has_building_gfx = byzantine_building_gfx
 			has_building_gfx = caucasian_building_gfx  
 		}
 	}
@@ -448,23 +426,16 @@ artifact_use_byzantine_building_visuals_trigger = {
 }
 
 artifact_use_iberian_building_visuals_trigger = {
-	#culture ?= { has_building_gfx = iberian_building_gfx } #LotR
-	always = no #LotR
+	#culture ?= { has_building_gfx = iberian_building_gfx } #WHG
+	always = no #WHG
 }
 
 artifact_use_western_building_visuals_trigger = {
-	OR = {
-		culture ?= { has_building_gfx = western_building_gfx }
-	}
+	culture ?= { has_building_gfx = western_building_gfx }
 }
 
 artifact_use_norse_building_visuals_trigger = {
-	exists = culture
-	culture = { 
-		OR = {
-			has_building_gfx = norse_building_gfx 
-		}
-	}
+	culture ?= { has_building_gfx = norse_building_gfx }
 }
 
 artifact_use_steppe_building_visuals_trigger = {
@@ -480,25 +451,24 @@ artifact_use_berber_building_visuals_trigger = {
 }
 
 artifact_use_chinese_building_visuals_trigger = {
-	# culture ?= { has_building_gfx = chinese_building_gfx } #LotR
-	always = no #LotR
+	# culture ?= { has_building_gfx = chinese_building_gfx } #WHG
+	always = no #WHG
 }
 
 artifact_use_japanese_building_visuals_trigger = {
-	# culture ?= { has_building_gfx = japanese_building_gfx } #LotR
-	always = no #LotR
+	# culture ?= { has_building_gfx = japanese_building_gfx } #WHG
+	always = no #WHG
 }
 
 artifact_use_southeast_asian_building_visuals_trigger = {
-	# culture ?= { has_building_gfx = southeast_asian_building_gfx } #LotR
-	always = no #LotR
+	# culture ?= { has_building_gfx = southeast_asian_building_gfx } #WHG
+	always = no #WHG
 }
 
 artifact_use_korean_clothing_visuals_trigger = {
-	# culture ?= { has_clothing_gfx = korean_clothing_gfx } #LotR
-	always = no #LotR
+	# culture ?= { has_clothing_gfx = korean_clothing_gfx } #WHG
+	always = no #WHG
 }
-
 
 # GFX Trigger-picker
 
@@ -582,19 +552,6 @@ portrait_should_wield_hammer_trigger = {
 	trigger_else = {
 		has_variable = signature_weapon
 		var:signature_weapon = flag:hammer
-	}
-}
-portrait_should_wield_longaxe_trigger = {
-	trigger_if = {
-		limit = {
-			any_equipped_character_artifact = { artifact_slot_type = primary_armament }
-			NOT = { has_variable = temporary_signature_weapon }
-		}
-		any_equipped_character_artifact = { artifact_type = longaxe }
-	}
-	trigger_else = {
-		has_variable = signature_weapon
-		var:signature_weapon = flag:longaxe
 	}
 }
 portrait_should_wield_mace_trigger = {
@@ -854,75 +811,74 @@ artifact_feature_wood_palm_trigger = {
 # nanmu
 artifact_feature_wood_nanmu_trigger = {
 	artifact_value_trigger = { VALUE = scope:wealth MIN = 10 MAX = 90 }
-	# artifact_region_trigger = { CHARACTER = scope:owner REGION = material_woods_asia_east } #LotR
-	always = no #LotR
+	# artifact_region_trigger = { CHARACTER = scope:owner REGION = material_woods_asia_east } #WHG
+	always = no #WHG
 }
 
 # boxwood
 artifact_feature_wood_boxwood_trigger = {
 	artifact_value_trigger = { VALUE = scope:wealth MIN = 10 MAX = 90 }
-	# artifact_region_trigger = { CHARACTER = scope:owner REGION = material_woods_asia_east } #LotR
-	always = no #LotR
+	# artifact_region_trigger = { CHARACTER = scope:owner REGION = material_woods_asia_east } #WHG
+	always = no #WHG
 }
 
 # paulownia
 artifact_feature_wood_paulownia_trigger = {
 	artifact_value_trigger = { VALUE = scope:wealth MIN = 10 MAX = 90 }
-	# artifact_region_trigger = { CHARACTER = scope:owner REGION = material_woods_asia_east } #LotR
-	always = no #LotR
+	# artifact_region_trigger = { CHARACTER = scope:owner REGION = material_woods_asia_east } #WHG
+	always = no #WHG
 }
 
 # camphorwood
 artifact_feature_wood_camphorwood_trigger = {
 	artifact_value_trigger = { VALUE = scope:wealth MIN = 10 MAX = 90 }
-	# artifact_region_trigger = { CHARACTER = scope:owner REGION = material_woods_asia_east } #LotR
-	always = no #LotR
+	# artifact_region_trigger = { CHARACTER = scope:owner REGION = material_woods_asia_east } #WHG
+	always = no #WHG
 }
 
 # Southeast Asia
 # narra
 artifact_feature_wood_narra_trigger = {
 	artifact_value_trigger = { VALUE = scope:wealth MIN = 10 MAX = 90 }
-	# artifact_region_trigger = { CHARACTER = scope:owner REGION = material_woods_asia_southeast } #LotR
-	always = no #LotR
+	# artifact_region_trigger = { CHARACTER = scope:owner REGION = material_woods_asia_southeast } #WHG
+	always = no #WHG
 }
 
 # toona sureni
 artifact_feature_wood_toona_sureni_trigger = {
 	artifact_value_trigger = { VALUE = scope:wealth MIN = 10 MAX = 90 }
-	# artifact_region_trigger = { CHARACTER = scope:owner REGION = material_woods_asia_southeast } #LotR
-	always = no #LotR
+	# artifact_region_trigger = { CHARACTER = scope:owner REGION = material_woods_asia_southeast } #WHG
+	always = no #WHG
 }
 
 # agarwood
 artifact_feature_wood_agarwood_trigger = {
 	artifact_value_trigger = { VALUE = scope:wealth MIN = 10 MAX = 90 }
-	# artifact_region_trigger = { CHARACTER = scope:owner REGION = material_woods_asia_southeast } #LotR
-	always = no #LotR
+	# artifact_region_trigger = { CHARACTER = scope:owner REGION = material_woods_asia_southeast } #WHG
+	always = no #WHG
 }
 
 # sandalwood
 artifact_feature_wood_sandalwood_trigger = {
 	artifact_value_trigger = { VALUE = scope:wealth MIN = 10 MAX = 90 }
-	# artifact_region_trigger = { CHARACTER = scope:owner REGION = material_woods_asia_southeast } #LotR
-	always = no #LotR
+	# artifact_region_trigger = { CHARACTER = scope:owner REGION = material_woods_asia_southeast } #WHG
+	always = no #WHG
 }
 
 # Northeast Asia
 # birch
 artifact_feature_wood_birch_trigger = {
 	artifact_value_trigger = { VALUE = scope:wealth MIN = 10 MAX = 90 }
-	# artifact_region_trigger = { CHARACTER = scope:owner REGION = material_woods_asia_northeast } #LotR
-	always = no #LotR
+	# artifact_region_trigger = { CHARACTER = scope:owner REGION = material_woods_asia_northeast } #WHG
+	always = no #WHG
 }
 
 # linden
 artifact_feature_wood_linden_trigger = {
 	artifact_value_trigger = { VALUE = scope:wealth MIN = 10 MAX = 90 }
-	# artifact_region_trigger = { CHARACTER = scope:owner REGION = material_woods_asia_northeast } #LotR
-	always = no #LotR
+	# artifact_region_trigger = { CHARACTER = scope:owner REGION = material_woods_asia_northeast } #WHG
+	always = no #WHG
 }
-
 
 ##########################################
 # Cloths 
@@ -999,7 +955,7 @@ artifact_feature_cloth_fustian_trigger = {
 	exists = scope:wealth
 	artifact_value_trigger = { VALUE = scope:wealth MIN = 40 MAX = 70 }
 	artifact_region_trigger = { CHARACTER = scope:owner REGION = material_cloth_linen }
-	# NOT = { scope:owner.religion = religion:judaism_religion } #LotR
+	# NOT = { scope:owner.religion = religion:judaism_religion } #WHG
 }		
 
 
@@ -1134,6 +1090,10 @@ artifact_feature_animal_lion_trigger = {
 				terrain = oasis
 				terrain = desert_mountains
 			}
+			# NOT = { geographical_region = world_europe } #WHG
+			NOR = {
+				geographical_region = world_old_world #WHG
+			}
 		}
 	}
 }
@@ -1143,7 +1103,9 @@ artifact_feature_animal_tiger_trigger = {
 	trigger_if = {
 		limit = { exists = scope:location }
 		scope:location = {
-			terrain = jungle
+				terrain = jungle
+
+				geographical_region = world_india #WHG TODO
 		}
 	}
 }
@@ -1160,13 +1122,12 @@ artifact_feature_animal_bear_trigger = {
 artifact_feature_animal_aurochs_trigger = {
 	trigger_if = {
 		limit = { exists = scope:location }
-		scope:location = { geographical_region = hunt_animal_aurochs_region } #WHG
-		# scope:location = {
-		# 	NOR = {
-		# 		geographical_region = world_africa
-		# 		geographical_region = world_india
-		# 	}
-		# }
+		scope:location = {
+			NOR = {
+
+				geographical_region = world_india #WHG TODO
+			}
+		}
 	}
 }
 
@@ -1175,13 +1136,11 @@ artifact_feature_animal_lynx_trigger = {
 	trigger_if = {
 		limit = { exists = scope:location }
 		scope:location = {
-					terrain = forest
-					geographical_region = world_old_world_southern_realms #WHG
-					# geographical_region = world_europe
+			terrain = forest
+			geographical_region = world_europe
 		}
 	}
 }
-
 
 # leopard
 artifact_feature_animal_leopard_trigger = {
@@ -1218,7 +1177,7 @@ artifact_feature_pattern_wolf_trigger = {
 		faith = {
 			NOR = {
 				has_doctrine = tenet_aniconism
-				# religion = religion:islam_religion #LotR
+				# religion = religion:islam_religion #WHG
 			}
 		}
 	}
@@ -1230,7 +1189,7 @@ artifact_feature_pattern_animals_trigger = {
 		faith = {
 			NOR = {
 				has_doctrine = tenet_aniconism
-				# religion = religion:islam_religion #LotR
+				# religion = religion:islam_religion #WHG
 			}
 		}
 	}
@@ -1242,7 +1201,7 @@ artifact_feature_pattern_local_animal_trigger = {
 		faith = {
 			NOR = {
 				has_doctrine = tenet_aniconism
-				# religion = religion:islam_religion #LotR
+				# religion = religion:islam_religion #WHG
 			}
 		}
 	}
@@ -1254,7 +1213,7 @@ artifact_feature_pattern_beasts_trigger = {
 		faith = {
 			NOR = {
 				has_doctrine = tenet_aniconism
-				# religion = religion:islam_religion #LotR
+				# religion = religion:islam_religion #WHG
 			}
 		}
 	}
@@ -1266,7 +1225,7 @@ artifact_feature_pattern_bird_trigger = {
 		faith = {
 			NOR = {
 				has_doctrine = tenet_aniconism
-				# religion = religion:islam_religion #LotR
+				# religion = religion:islam_religion #WHG
 			}
 		}
 	}
@@ -1311,7 +1270,7 @@ artifact_feature_pattern_religion_trigger = {
 		faith = {
 			NOR = {
 				has_doctrine = tenet_aniconism
-				# religion = religion:islam_religion #LotR
+				# religion = religion:islam_religion #WHG
 			}
 		}
 	}
@@ -1334,7 +1293,7 @@ artifact_feature_pattern_eschatology_trigger = {
 		faith = {
 			NOR = {
 				has_doctrine = tenet_aniconism
-				# religion = religion:islam_religion #LotR
+				# religion = religion:islam_religion #WHG
 			}
 		}
 	}
@@ -1357,7 +1316,7 @@ artifact_feature_pattern_religious_symbol_trigger = {
 		faith = {
 			NOR = {
 				has_doctrine = tenet_aniconism
-				# religion = religion:islam_religion #LotR
+				# religion = religion:islam_religion #WHG
 			}
 		}
 	}
@@ -1561,6 +1520,7 @@ artifact_feature_metal_bulat_steel_trigger = {
 	artifact_region_trigger = { CHARACTER = scope:owner REGION = material_metal_bulat }
 }
 
+# Decorative Materials
 # gold
 artifact_feature_metal_gold_trigger = {
 	exists = scope:wealth
@@ -1634,17 +1594,17 @@ artifact_feature_metal_copper_trigger = {
 
 # clay
 artifact_feature_earthware_clay_trigger = {
-		always = yes
+	always = yes
 }
 
 # terracotta
 artifact_feature_earthware_terracotta_trigger = {
-		always = yes
+	always = yes
 }
 
 # stone
 artifact_feature_earthware_stone_trigger = {
-	# trigger_if = { #LotR
+	# trigger_if = { #WHG
 	# 	limit = { exists = scope:potter }
 	# 	scope:potter.culture = { has_cultural_pillar = heritage_chinese }
 	# }
@@ -1662,7 +1622,7 @@ artifact_feature_earthware_stone_trigger = {
 
 # porcelain
 artifact_feature_earthware_porcelain_trigger = {
-	# trigger_if = { #LotR
+	# trigger_if = { #WHG
 	# 	limit = { exists = scope:potter }
 	# 	scope:potter.culture = { has_cultural_pillar = heritage_chinese }
 	# }
@@ -1763,51 +1723,47 @@ artifact_feature_gem_ruby_trigger = {
 artifact_feature_gem_flourite_trigger = {
 	exists = scope:wealth
 	artifact_value_trigger = { VALUE = scope:wealth MIN = 20 MAX = 60 }
-	artifact_region_trigger = { CHARACTER = scope:owner REGION = middleearth_west_rohan }
-#	artifact_region_trigger = { CHARACTER = scope:owner REGION = world_europe_west_britannia }	
+	artifact_region_trigger = { CHARACTER = scope:owner REGION = world_old_world_bretonnia }
+#	artifact_region_trigger = { CHARACTER = scope:owner REGION = world_europe_west_britannia }	 #WHG
 }		
 
 # adventurine
 artifact_feature_gem_adventurine_trigger = {
 	exists = scope:wealth
 	artifact_value_trigger = { VALUE = scope:wealth MIN = 20 MAX = 60 }
-	artifact_region_trigger = { CHARACTER = scope:owner REGION = middleearth_harad_near_harondor }
-#	artifact_region_trigger = { CHARACTER = scope:owner REGION = world_europe_west_iberia }	
+	artifact_region_trigger = { CHARACTER = scope:owner REGION = world_old_world_southern_realms }
+#	artifact_region_trigger = { CHARACTER = scope:owner REGION = world_europe_west_iberia }	 #WHG
 }		
 
 # amethyst
 artifact_feature_gem_amethyst_trigger = {
 	artifact_value_trigger = { VALUE = scope:wealth MIN = 20 MAX = 60 }
-	artifact_region_trigger = { CHARACTER = scope:owner REGION = middleearth_west_gondor }
-#	artifact_region_trigger = { CHARACTER = scope:owner REGION = world_europe_west_francia }
+	artifact_region_trigger = { CHARACTER = scope:owner REGION = world_old_world_empire }
+#	artifact_region_trigger = { CHARACTER = scope:owner REGION = world_europe_west_francia } #WHG
 }	
 
 # amber
 artifact_feature_gem_amber_trigger = {
 	exists = scope:wealth
 	artifact_value_trigger = { VALUE = scope:wealth MIN = 20 MAX = 70 }
-	artifact_region_trigger = { CHARACTER = scope:owner REGION = middleearth_west_rhovanion}
-#	artifact_region_trigger = { CHARACTER = scope:owner REGION = custom_eastern_baltic}
-}	
+	artifact_region_trigger = { CHARACTER = scope:owner REGION = world_old_world_ostermark}
+#	artifact_region_trigger = { CHARACTER = scope:owner REGION = custom_eastern_baltic} #WHG
+}	 
 
 # moonstone
 artifact_feature_gem_moonstone_trigger = {
 	exists = scope:wealth
 	artifact_value_trigger = { VALUE = scope:wealth MIN = 20 MAX = 70 }
-	artifact_region_trigger = { CHARACTER = scope:owner REGION = custom_bayoftulwang }
-#	artifact_region_trigger = { CHARACTER = scope:owner REGION = world_india }
+	artifact_region_trigger = { CHARACTER = scope:owner REGION = world_india } #WHG TODO
 }
 
 # turquoise
 artifact_feature_gem_turquoise_trigger = {
-	AND = { 
-		exists = scope:wealth
-		artifact_value_trigger = { VALUE = scope:wealth MIN = 20 MAX = 70 }
-		artifact_region_trigger = { CHARACTER = scope:owner REGION = middleearth_harad_near_umbar }
-#		OR = {
-#			artifact_region_trigger = { CHARACTER = scope:owner REGION = world_asia_minor }
-#			artifact_region_trigger = { CHARACTER = scope:owner REGION = world_middle_east_persia }
-#		}
+	exists = scope:wealth
+	artifact_value_trigger = { VALUE = scope:wealth MIN = 20 MAX = 70 }
+	OR = {
+		artifact_region_trigger = { CHARACTER = scope:owner REGION = world_asia_minor } #WHG TODO
+		artifact_region_trigger = { CHARACTER = scope:owner REGION = world_middle_east_persia }
 	}
 }
 
@@ -1816,7 +1772,7 @@ artifact_feature_gem_carnelian_trigger = {
 	AND = { 
 		exists = scope:wealth
 		artifact_value_trigger = { VALUE = scope:wealth MIN = 20 MAX = 70 }
-		artifact_region_trigger = { CHARACTER = scope:owner REGION = middleearth_west_rhovanion_brownlands }
+		artifact_region_trigger = { CHARACTER = scope:owner REGION = world_old_world_empire_north } #WHG
 #		OR = {
 #			artifact_region_trigger = { CHARACTER = scope:owner REGION = world_europe_west_germania }
 #			artifact_region_trigger = { CHARACTER = scope:owner REGION = world_europe_north }
@@ -1830,47 +1786,35 @@ artifact_feature_gem_carnelian_trigger = {
 artifact_feature_gem_peridot_trigger = {
 	exists = scope:wealth
 	artifact_value_trigger = { VALUE = scope:wealth MIN = 40 MAX = 80 }
-	artifact_region_trigger = { CHARACTER = scope:owner REGION = custom_bayoftulwang }
-#	artifact_region_trigger = { CHARACTER = scope:owner REGION = world_india_deccan }
+	artifact_region_trigger = { CHARACTER = scope:owner REGION = world_india_deccan } #WHG TODO
 }	
 
 # lapis_lazuli
 artifact_feature_gem_lapis_lazuli_trigger = {
 	exists = scope:wealth
 	artifact_value_trigger = { VALUE = scope:wealth MIN = 40 MAX = 90 }
-	artifact_region_trigger = { CHARACTER = scope:owner REGION = middleearth_harad_near_harondor }
-#	artifact_region_trigger = { CHARACTER = scope:owner REGION = world_middle_east_persia }
+	artifact_region_trigger = { CHARACTER = scope:owner REGION = world_middle_east_persia } #WHG TODO
 }
 
 # opal
 artifact_feature_gem_opal_trigger = {
 	exists = scope:wealth
 	artifact_value_trigger = { VALUE = scope:wealth MIN = 40 MAX = 90 }
-	artifact_region_trigger = { CHARACTER = scope:owner REGION = middleearth_harad_far_bellakar_bayoffelaya }
-#	artifact_region_trigger = { CHARACTER = scope:owner REGION = world_africa_east }
+	artifact_region_trigger = { CHARACTER = scope:owner REGION = world_africa_east } #WHG TODO
 }		
 
 # spinel
 artifact_feature_gem_spinel_trigger = {
 	exists = scope:wealth
 	artifact_value_trigger = { VALUE = scope:wealth MIN = 40 MAX = 90 }
-	artifact_region_trigger = { CHARACTER = scope:owner REGION = custom_bayoftulwang }
-#	artifact_region_trigger = { CHARACTER = scope:owner REGION = world_india_deccan }
+	artifact_region_trigger = { CHARACTER = scope:owner REGION = world_india_deccan } #WHG TODO
 }
 
 # jade
 artifact_feature_gem_jade_trigger = {
 	exists = scope:wealth
 	artifact_value_trigger = { VALUE = scope:wealth MIN = 40 MAX = 90 }
-	artifact_region_trigger = { CHARACTER = scope:owner REGION = middleearth_harad_dunesea_abrakhan }
-#	artifact_region_trigger = { CHARACTER = scope:owner REGION = world_india_bengal }
-}
-
-# elven
-artifact_feature_gem_elven_trigger = {
-	exists = scope:wealth
-	artifact_value_trigger = { VALUE = scope:wealth MIN = 60 MAX = 999 }
-	artifact_region_trigger = { CHARACTER = scope:owner REGION = adventure_elvenlands }
+	artifact_region_trigger = { CHARACTER = scope:owner REGION = world_india_bengal } #WHG TODO
 }
 
 ##########################################
@@ -2195,7 +2139,7 @@ saintly_bones_faith_trigger = { # christianity is of the right kind
 	#		faith = faith:insular_celtic
 	#	}
 	#}
-	always = no
+	always = no #WHG
 }
 
 #Used after setting local animal to determine if a skull artifact/trophy can be made from that animal.
@@ -2225,6 +2169,8 @@ axe_unique_gfx_trigger = {
 sword_unique_gfx_trigger = {
 	OR = {
 		portrait_northern_proxy_clothing_spouse_trigger = yes
+		portrait_bellakari_clothing_spouse_trigger = yes
+		portrait_north_haradrim_clothing_spouse_trigger = yes
 		portrait_steppe_proxy_clothing_spouse_trigger = yes
 		portrait_byzantine_proxy_clothing_spouse_trigger = yes
 		portrait_indian_proxy_clothing_spouse_trigger = yes
@@ -2237,6 +2183,8 @@ sword_unique_gfx_trigger = {
 spear_unique_gfx_trigger = {
 	OR = {
 		portrait_northern_proxy_clothing_spouse_trigger = yes
+		portrait_bellakari_clothing_spouse_trigger = yes
+		portrait_north_haradrim_clothing_spouse_trigger = yes
 		portrait_mena_proxy_clothing_spouse_trigger = yes
 		portrait_indian_proxy_clothing_spouse_trigger = yes
 		portrait_african_proxy_clothing_spouse_trigger = yes
@@ -2248,6 +2196,8 @@ spear_unique_gfx_trigger = {
 dagger_unique_gfx_trigger = {
 	OR = {
 		portrait_northern_proxy_clothing_spouse_trigger = yes
+		portrait_bellakari_clothing_spouse_trigger = yes
+        portrait_north_haradrim_clothing_spouse_trigger = yes
 		portrait_steppe_proxy_clothing_spouse_trigger = yes
 		portrait_mena_proxy_clothing_spouse_trigger = yes
 		portrait_african_proxy_clothing_spouse_trigger = yes
@@ -2273,13 +2223,13 @@ eligible_for_scientific_apparatus_armillary_sphere_trigger = {
 		culture = { has_innovation = innovation_armilary_sphere }
 		OR = {
 			# Wide spread in the Arabic world fairly early.
-			#knows_language = language_arabic #LotR
+			#knows_language = language_arabic #WHG
 			# Becomes commonplace towards the end of the period.
 			culture = { has_cultural_era_or_later = culture_era_late_medieval }
 			trigger_if = {
 				limit = { has_royal_court = yes }
 				OR = {
-					# has_court_language = language_arabic #LotR
+					# has_court_language = language_arabic #WHG
 					# Nerds can import the knowledge.
 					has_court_type = court_scholarly
 				}
@@ -2300,6 +2250,7 @@ relic_war_valid_religious_artefact_trigger = {
 			can_benefit_from_artifact = prev
 		}
 	}
+	NOT = { has_variable = artifact_prevent_transfer }
 }
 
 relic_war_valid_struggle_artefact_trigger = {
@@ -2314,7 +2265,7 @@ relic_war_valid_struggle_artefact_trigger = {
 		# }
 	}
 	NOT = { scope:attacker.faith = scope:defender.faith }
-	always = no #LotR
+	always = no #WHG
 }
 
 relic_war_valid_against_defender_trigger = {
@@ -2352,7 +2303,7 @@ relic_war_valid_against_defender_trigger = {
 
 relic_war_valid_against_defender_vassal_trigger = {
 	any_vassal_or_below = {
-		NOT = {
+		NOT = { #WHG
 			faith = scope:attacker.faith
 		}
 		any_character_artifact = {
@@ -2371,7 +2322,7 @@ relic_war_valid_against_defender_vassal_trigger = {
 				}
 				# # Struggle relics.
 				# ## The Bells of Santiago de Compostela.
-				# AND = {
+				# AND = { #WHG
 				# 	var:relic = flag:iberian_struggle
 				# 	scope:attacker = {
 				# 		any_character_struggle = { is_struggle_type = iberian_struggle }
@@ -2402,7 +2353,7 @@ portrait_should_wield_longbow_trigger = {
 			any_equipped_character_artifact = { artifact_type = longbow }
 			any_equipped_character_artifact = {
 				artifact_type = bow
-				creator ?= { artifact_use_elven_unit_visuals_trigger = yes }
+				creator ?= { artifact_use_indian_unit_visuals_trigger = yes }
 			}
 		}
 	}
@@ -2410,7 +2361,8 @@ portrait_should_wield_longbow_trigger = {
 		culture = {
 			OR = {
 				has_cultural_tradition = tradition_longbow_competitions
-			}
+				has_clothing_gfx = indian_clothing_gfx
+			}	
 		}
 	}
 }

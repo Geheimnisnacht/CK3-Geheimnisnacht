@@ -3226,7 +3226,7 @@ tgp_japan_decision.9960 = {
 }
 #winner follow up
 tgp_japan_decision.9961 = {
-	orphan = yes #LotR
+	orphan = yes #WHG
 	type = character_event
 	window = big_event_window
 	title = tgp_japan_decision.9961.t
