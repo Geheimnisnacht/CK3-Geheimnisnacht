@@ -4753,7 +4753,7 @@ colonisation_random.2020 = { # The Treasure Chest
 	option = { # We must investigate as soon as possible
 		name = colonisation_random.2020.a
 		add_gold = major_gold_value
-		# TODO: WARHAMMER_ADAPTATION - create_metal_gem_artifact/set_metal_gem_variable come from LOTR's lotr_artifact_crafting_scripted_effects.txt (not ported to WH); also needs artifact_iron_name/artifact_diamond_name loc + "iron"/"diamond" artifact visual templates before it can be re-enabled
+		# WHG TODO - create_metal_gem_artifact/set_metal_gem_variable come from LOTR's lotr_artifact_crafting_scripted_effects.txt (not ported to WH); also needs artifact_iron_name/artifact_diamond_name loc + "iron"/"diamond" artifact visual templates before it can be re-enabled
 		# create_metal_gem_artifact = {
 		# 	METAL = iron
 		# 	MODIFIER = artifact_monthly_minor_prestige_1_modifier

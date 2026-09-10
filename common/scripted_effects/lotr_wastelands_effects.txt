@@ -501,7 +501,7 @@ remove_cleaned_blockers_effect = { # Immediately remove any cleared blockers in 
 			dead_marshes_cleared = { remove_building = dead_marshes_cleared }
 			frozen_ground_cleared = { remove_building = frozen_ground_cleared }
 			pirate_remnants_cleared = { remove_building = pirate_remnants_cleared }
-			# TODO: WARHAMMER_ADAPTATION - shadow_of_mordor_cleared is LOTR-specific (Mordor/Sauron lore), no Warhammer equivalent building defined
+			# WHG TODO - shadow_of_mordor_cleared is LOTR-specific (Mordor/Sauron lore), no Warhammer equivalent building defined
 			# shadow_of_mordor_cleared = { remove_building = shadow_of_mordor_cleared }
 			collapsed_ceiling_cleared = { remove_building = collapsed_ceiling_cleared }
 			flooded_tunnels_cleared = { remove_building = flooded_tunnels_cleared }
