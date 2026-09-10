@@ -24,7 +24,7 @@
 
 		# # Minorities
 		# sephardi 
-		gondorian # LotR Dummy
+		astur # WHG Dummy
 	}
 	faiths = {
 		# Christian
@@ -32,11 +32,11 @@
 
 		# # Islamic
 		# ashari muwalladi
-		faith_druedain # LotR Dummy
+		myrmidian_western # WHG Dummy
 	}
 	regions = { 
 		# world_europe_west_iberia
-		middleearth_forodwaith # LotR Dummy
+		world_old_world_southern_realms_estalia_north # WHG Dummy
 	}
 
 	# A culture or faith becomes involved if 80% of the total number of counties belonging to it are inside the struggle region.
@@ -129,7 +129,7 @@
 					claims_in_region_cost_prestige_not_gold_for_involved_parties = yes
 					involved_or_interloper_wars_in_struggle_region_cheaper_prestige_costs = yes
 					unlocks_border_raid_casus_belli = yes
-					# unlocks_contract_assistance_interaction = yes #LotR
+					# unlocks_contract_assistance_interaction = yes #WHG
 					# For UX reasons, struggles using this should also be added to struggle_can_access_unlocks_bargain_fealty_interaction_trigger.
 					unlocks_bargain_fealty_interaction = yes
 				}

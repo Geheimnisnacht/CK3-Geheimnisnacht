@@ -138,19 +138,19 @@ portrait_mena_beards_clothes_modifier = {
 }
 
 
-portrait_scottish_unique_haircut = {
-	modifier = {
-		add = 60
-		culture ?= culture:scottish
-	}
-}
+# portrait_scottish_unique_haircut = {
+# # 	modifier = {
+# # 		add = 60
+# # 		culture ?= culture:scottish
+# # 	}
+# # }
 
-portrait_frankish_unique_haircut = {
-	modifier = {
-		add = 60
-		culture ?= { has_cultural_pillar = heritage_frankish }
-	}
-}
+# portrait_frankish_unique_haircut = {
+# 	modifier = {
+# 		add = 60
+# 		culture ?= { has_cultural_pillar = heritage_frankish }
+# 	}
+# }
 
 
 

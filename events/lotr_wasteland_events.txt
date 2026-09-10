@@ -2668,7 +2668,7 @@ wastelands.1009 = { # Howls in the night
 	trigger = {
 		scope:obstacle_province = {
 			OR = {
-				# TODO: WARHAMMER_ADAPTATION - Middle-earth kingdoms (Angmar/Forochel/High Pass/Gundabad), no Warhammer equivalent mapped yet
+				# WHG TODO- Middle-earth kingdoms (Angmar/Forochel/High Pass/Gundabad)
 				# kingdom = title:k_angmar
 				# kingdom = title:k_forochel
 				# kingdom = title:k_high_pass
@@ -3357,8 +3357,7 @@ wastelands.1205 = { # More than meets the eye
 	trigger = {
 		scope:obstacle_province = {
 			OR = {
-				# TODO: WARHAMMER_ADAPTATION - Middle-earth realms (Anduin Vale/High Pass/Gundabad/Grey Mountains), no Warhammer equivalent mapped yet
-				# empire = title:e_anduin_vale
+				# WHG TODO - Middle-earth realms (Anduin Vale/High Pass/Gundabad/Grey Mountains), 
 				# kingdom = title:k_high_pass
 				# kingdom = title:k_gundabad
 				# kingdom = title:k_grey_mountains
@@ -3804,7 +3803,7 @@ wastelands.1209 = { # Sloth and savagery
 	trigger = {
 		scope:obstacle_province = {
 			OR = {
-				# TODO: WARHAMMER_ADAPTATION - Middle-earth duchies (Dagorlad/Brown Lands region), no Warhammer equivalent mapped yet
+				# WHG TODO - Middle-earth duchies (Dagorlad/Brown Lands region)
 				# duchy = title:d_dagorlad
 				# duchy = title:d_brown_lands
 				# duchy = title:d_cormalthen
@@ -5355,7 +5354,7 @@ wastelands.1604 = { # Tribes of the North
 	trigger = {
 		scope:obstacle_province = {
 			OR = {
-				# TODO: WARHAMMER_ADAPTATION - Middle-earth kingdoms/duchy (Angmar/Forochel/Gundabad/Iron Hills/Belegost/Arthedain/Dweorad), no Warhammer equivalent mapped yet
+				# WHG TODO - Middle-earth kingdoms/duchy (Angmar/Forochel/Gundabad/Iron Hills/Belegost/Arthedain/Dweorad),
 				# kingdom = title:k_angmar
 				# kingdom = title:k_forochel
 				# kingdom = title:k_gundabad
@@ -10494,7 +10493,7 @@ wastelands.2804 = { # Artifacts of old
 			}
 			50 = {
 				desc = wastelands.2804.d.duel_success
-				# TODO: WARHAMMER_ADAPTATION - all 6 create_artifact_*_effect below are LOTR elvish-artifact rewards (rope/brooch/Noldorin tools/Eregion gem/cape/miruvor) from lotr_artifact_crafting_scripted_effects.txt, not ported to WH; toasts kept, artifact creation disabled
+				# WHG TODO - all 6 create_artifact_*_effect below are LOTR elvish-artifact rewards (rope/brooch/Noldorin tools/Eregion gem/cape/miruvor) from lotr_artifact_crafting_scripted_effects.txt, not ported to WH; toasts kept, artifact creation disabled
 				random_list = {
 					2 = {
 						send_interface_toast = {
