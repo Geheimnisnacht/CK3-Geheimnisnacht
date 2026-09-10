@@ -1831,7 +1831,7 @@ hairstyles = {
 						template = hair_curly_no_beard
 					}
 				}
-				culture = { has_cultural_pillar = heritage_frankish }
+				# culture = { has_cultural_pillar = heritage_frankish }
 			}
 		}
 	}

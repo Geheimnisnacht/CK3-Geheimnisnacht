@@ -42,7 +42,6 @@ hair_situational = {
 				#scope:age < 25 
 				OR = {
 					scope:age < 25 
-					has_game_rule = agot_no_balding
 				}
 			}
 			modifier = {

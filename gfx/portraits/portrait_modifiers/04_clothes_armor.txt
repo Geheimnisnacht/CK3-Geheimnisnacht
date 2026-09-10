@@ -521,34 +521,34 @@
         }
     }
 
-    western_crusades = {
-        dna_modifiers = {
-            accessory = {
-                mode = add
-                gene = clothes
-                template = western_crusades
-                range = { 0 1 } # For the randomness to work correctly
-            }
-        }
-        outfit_tags = { military_outfit }
-        weight = {
-            base = 0
-            modifier = {
-                add = 110
-                portrait_western_crusades_trigger = yes
-            }
-            modifier = {
-                add = 21        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
-                portrait_armored_priest_trigger = {
-                    RELIGION = christianity_religion
-                }
-            }
-            modifier = {
-                factor = 0       # Should NOT show up if EP2 is active and we're in the early era
-                has_ep2_dlc_trigger = yes   
-            }
-        }
-    }
+    # western_crusades = {
+    #     dna_modifiers = {
+    #         accessory = {
+    #             mode = add
+    #             gene = clothes
+    #             template = western_crusades
+    #             range = { 0 1 } # For the randomness to work correctly
+    #         }
+    #     }
+    #     outfit_tags = { military_outfit }
+    #     weight = {
+    #         base = 0
+    #         modifier = {
+    #             add = 110
+    #             portrait_western_crusades_trigger = yes
+    #         }
+    #         modifier = {
+    #             add = 21        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+    #             portrait_armored_priest_trigger = {
+    #                  RELIGION = christianity_religion
+    #             }
+    #         }
+    #         modifier = {
+    #             factor = 0       # Should NOT show up if EP2 is active and we're in the early era
+    #             has_ep2_dlc_trigger = yes   
+    #         }
+    #     }
+    # }
 
     ## Byzantine ##
 

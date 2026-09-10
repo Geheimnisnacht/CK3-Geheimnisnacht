@@ -42,7 +42,7 @@
 			modifier = {
 				add = 200
 				portrait_religious_head_trigger = yes
-				faith = faith:orthodox
+				# faith = faith:orthodox
 			}
 		}
 	}

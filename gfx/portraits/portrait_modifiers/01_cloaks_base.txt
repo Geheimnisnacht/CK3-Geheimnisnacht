@@ -274,7 +274,7 @@ cloaks = {
 								}  
 								NOR = {
 									government_has_flag = government_is_tribal
-									religion = religion:germanic_religion
+									# religion = religion:germanic_religion
 								}
 							}
 						}

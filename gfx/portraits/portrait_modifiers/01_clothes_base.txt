@@ -4207,7 +4207,7 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
 			}
 			modifier = {
 				add = 1000
-				has_title = title:k_chrysanthemum_throne
+				# has_title = title:k_chrysanthemum_throne #WHG
 				portrait_imperial_nobles_headgear_trigger = {
 					CULTURE_INPUT = japanese
 				}
