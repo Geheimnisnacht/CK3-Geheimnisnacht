@@ -1336,34 +1336,7 @@ task_fabricate_claim = {
 				desc = "COURT_CHAPLAIN_FABRICATE_CLAIM_VASSAL_COUNTY"
 			}
 		}
-		# Misc Bonuses
-		if = { # FP3
-			limit = {
-				scope:councillor_liege = {
-					any_character_struggle = {
-						#is_struggle_type = thani_hazad_struggle
-						#is_struggle_phase = struggle_persia_phase_unrest
-					}
-				}
-			}
-			add = { # +25% of total
-				value = scope:councillor.court_chaplain_fabricate_claim_base_total
-				divide = 4
-				desc = FABRICATE_CLAIM_ANY_STRUGGLE_BONUS
-			}
-		}
-		# if = { #LotR
-		# 	limit = {
-		# 		scope:councillor_liege = {
-		# 			has_title = title:c_byzantion
-		# 			title:c_byzantion = { has_county_modifier = pandidakterion_university_modifier }
-		# 		}
-		# 	}
-		# 	multiply = {
-		# 		value = 1.3
-		# 		desc = pandidakterion_university_modifier
-		# 	}
-		# }
+
 	}
 
 	potential_county = {
@@ -1379,14 +1352,7 @@ task_fabricate_claim = {
 				}
 			}
 		}
-		NOT = { scope:county.holder = title:k_wastelands.holder } #LotR
-		trigger_if = { #LotR
-			limit = { scope:county = { title_province = { terrain = halls } } }
-			OR = {
-				scope:councillor_liege = { is_orc = yes }
-				scope:councillor_liege = { is_dwarf = yes }
-			}
-		}
+		NOT = { scope:county.holder = title:k_wastelands.holder } #WHG
 	}
 
 	on_start_task_county = {

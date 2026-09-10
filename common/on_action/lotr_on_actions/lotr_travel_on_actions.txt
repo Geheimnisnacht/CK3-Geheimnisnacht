@@ -110,10 +110,10 @@ lotr_travel_danger_events_on_action = {
 			}
 		}
 		#Lotr Danger Events
-		100 = lotr_travel_events.0002 # Danger! Giant Scorpion Attack - Dune Sea and surrounding desert Only
-		100 = lotr_travel_events.0003 # Danger! Sandstorm! - Desert/ Dune Sea Only
-		10 = lotr_travel_events.0011 # Danger! Troll Attack!
-		300 = lotr_travel_events.0017 # Danger! Earthquake in Mordor - Gorgoroth, Volcanic Plains only 
+		# 100 = lotr_travel_events.0002 # Danger! Giant Scorpion Attack - Dune Sea and surrounding desert Only
+		# 100 = lotr_travel_events.0003 # Danger! Sandstorm! - Desert/ Dune Sea Only
+		# 10 = lotr_travel_events.0011 # Danger! Troll Attack!
+		# 300 = lotr_travel_events.0017 # Danger! Earthquake in Mordor - Gorgoroth, Volcanic Plains only 
 		#20 = lotr_travel_events.0021 # Danger ! Orc Encounter
 		#20 = lotr_travel_events.0022 # You paid the orc
 		#20 = lotr_travel_events.0023 # You killed the orc (Cheats Death)

@@ -253,37 +253,37 @@ lotr_laamp_colonisation_effect = {
 		# 	change_government = orcish_government
 		# }
 		# else = {
-			if = {
-				limit = {
-					exists = culture.culture_head
-					culture.culture_head = { has_government = feudal_government }
-				}
-				change_government = feudal_government
+		if = {
+			limit = {
+				exists = culture.culture_head
+				culture.culture_head = { has_government = feudal_government }
 			}
-			else_if = {
-				limit = {
-					exists = culture.culture_head
-					culture.culture_head = { has_government = clan_government }
-				}
-				change_government = clan_government
+			change_government = feudal_government
+		}
+		else_if = {
+			limit = {
+				exists = culture.culture_head
+				culture.culture_head = { has_government = clan_government }
 			}
-			else_if = {
-				limit = {
-					exists = culture.culture_head
-					culture.culture_head = { has_government = wanua_government }
-				}
-				change_government = wanua_government
+			change_government = clan_government
+		}
+		else_if = {
+			limit = {
+				exists = culture.culture_head
+				culture.culture_head = { has_government = wanua_government }
 			}
-			else_if = {
-				limit = {
-					exists = culture.culture_head
-					culture.culture_head = { has_government = tribal_government }
-				}
-				change_government = tribal_government
+			change_government = wanua_government
+		}
+		else_if = {
+			limit = {
+				exists = culture.culture_head
+				culture.culture_head = { has_government = tribal_government }
 			}
-			else = {
-				change_government = feudal_government
-			}
+			change_government = tribal_government
+		}
+		else = {
+			change_government = feudal_government
+		}
 		#}
 		scope:target_county = {
 			random_list = {
@@ -304,18 +304,18 @@ lotr_laamp_colonisation_effect = {
 			# 	title_province = { set_holding_type = city_holding }
 			# }
 			# else = {
-				if = {
-					limit = {
-						OR = {
-							root = { has_government = tribal_government }
-							root = { has_government = wanua_government }
-						}
+			if = {
+				limit = {
+					OR = {
+						root = { has_government = tribal_government }
+						root = { has_government = wanua_government }
 					}
-					title_province = { set_holding_type = tribal_holding }
 				}
-				else = {
-					title_province = { set_holding_type = castle_holding }
-				}
+				title_province = { set_holding_type = tribal_holding }
+			}
+			else = {
+				title_province = { set_holding_type = castle_holding }
+			}
 			#}
 		}
 
