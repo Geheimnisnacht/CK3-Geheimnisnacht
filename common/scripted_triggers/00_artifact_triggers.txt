@@ -2169,7 +2169,7 @@ axe_unique_gfx_trigger = {
 sword_unique_gfx_trigger = {
 	OR = {
 		portrait_northern_proxy_clothing_spouse_trigger = yes
-		# TODO: WARHAMMER_ADAPTATION - portrait_bellakari_clothing_spouse_trigger is never defined anywhere and "bellakari" matches no culture or heritage in the mod (orphaned reference)
+		# WHG TODO - portrait_bellakari_clothing_spouse_trigger is never defined anywhere and "bellakari" matches no culture or heritage in the mod (orphaned reference)
 		# portrait_bellakari_clothing_spouse_trigger = yes
 		portrait_north_haradrim_clothing_spouse_trigger = yes
 		portrait_steppe_proxy_clothing_spouse_trigger = yes
@@ -2184,7 +2184,7 @@ sword_unique_gfx_trigger = {
 spear_unique_gfx_trigger = {
 	OR = {
 		portrait_northern_proxy_clothing_spouse_trigger = yes
-		# TODO: WARHAMMER_ADAPTATION - portrait_bellakari_clothing_spouse_trigger is never defined anywhere and "bellakari" matches no culture or heritage in the mod (orphaned reference)
+		# WHG TODO - portrait_bellakari_clothing_spouse_trigger is never defined anywhere and "bellakari" matches no culture or heritage in the mod (orphaned reference)
 		# portrait_bellakari_clothing_spouse_trigger = yes
 		portrait_north_haradrim_clothing_spouse_trigger = yes
 		portrait_mena_proxy_clothing_spouse_trigger = yes
@@ -2198,7 +2198,7 @@ spear_unique_gfx_trigger = {
 dagger_unique_gfx_trigger = {
 	OR = {
 		portrait_northern_proxy_clothing_spouse_trigger = yes
-		# TODO: WARHAMMER_ADAPTATION - portrait_bellakari_clothing_spouse_trigger is never defined anywhere and "bellakari" matches no culture or heritage in the mod (orphaned reference)
+		# WHG TODO - portrait_bellakari_clothing_spouse_trigger is never defined anywhere and "bellakari" matches no culture or heritage in the mod (orphaned reference)
 		# portrait_bellakari_clothing_spouse_trigger = yes
         portrait_north_haradrim_clothing_spouse_trigger = yes
 		portrait_steppe_proxy_clothing_spouse_trigger = yes

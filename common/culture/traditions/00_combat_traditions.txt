@@ -702,7 +702,7 @@ tradition_jungle_warriors = {
 				}
 			}
 		}
-		# TODO: WARHAMMER_ADAPTATION - tradition_annammonnil is a LOTR regional tradition (lotr_regional_traditions.txt), never ported to WH.
+		# WHG TODO - tradition_annammonnil is a LOTR regional tradition (lotr_regional_traditions.txt), never ported to WH.
 		# Was crashing has_cultural_tradition with "target tradition was null" on every can_pick check for this tradition.
 	}
 	parameters = {

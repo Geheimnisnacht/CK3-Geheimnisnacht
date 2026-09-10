@@ -3801,7 +3801,7 @@
 		environment = "environment_frontend_tribal_main"
 		ambience = "event:/SFX/Events/Backgrounds/throneroom_tribal_pagan"
 	}
-	# TODO: WARHAMMER_ADAPTATION - all 3 heritage_* pillars this background's trigger depends on (northern/southern_adunaic = LOTR Numenorean, bellakari = orphaned)
+	# WHG TODO - all 3 heritage_* pillars this background's trigger depends on (northern/southern_adunaic = LOTR Numenorean, bellakari = orphaned)
 	# are undefined in WH's common/culture/pillars, so the whole trigger was dead (always false). Commented out rather than guessing a WH heritage to gate this on.
 	# background = { # Byzanntium
 	# 	trigger = {

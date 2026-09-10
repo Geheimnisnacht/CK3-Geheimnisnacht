@@ -2851,7 +2851,7 @@ sword_court = {
 
 bow_court = {
 	default_type = pedestal
-	icon = "artifact_bow_and_arrow.dds" # WARHAMMER_ADAPTATION: WH-added block referenced a nonexistent bare "artifact_bow.dds"; vanilla only ships regional variants, using the generic one
+	icon = "artifact_bow_and_arrow.dds" # WHG: WH-added block referenced a nonexistent bare "artifact_bow.dds"; vanilla only ships regional variants, using the generic one
 
 	# Indian
 	asset = {

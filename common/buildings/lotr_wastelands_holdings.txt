@@ -657,7 +657,7 @@ settlement_03 = {
 
 	on_complete = {
 		hidden_effect = {
-			# TODO: WARHAMMER_ADAPTATION - upgrade_colony_holding_struggle_catalyst_effect is LOTR's "Balrog Struggle" catalyst (lotr_wastelands_effects.txt); WH has no custom Struggle defined (only inherited vanilla iberian/persian struggles), no equivalent to port yet
+			# WHG TODO - upgrade_colony_holding_struggle_catalyst_effect is LOTR's "Balrog Struggle" catalyst (lotr_wastelands_effects.txt); WH has no custom Struggle defined (only inherited vanilla iberian/persian struggles), no equivalent to port yet
 			# upgrade_colony_holding_struggle_catalyst_effect = yes
 		}
 	}

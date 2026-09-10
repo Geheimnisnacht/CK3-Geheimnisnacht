@@ -1186,7 +1186,7 @@ NCulture = {
 }
 
 #LotR: Increased merc levels. Reduced merc range to 25%. Same culture is unchanged.
-# WARHAMMER_ADAPTATION: LEVELS reverted from LOTR's {0 3 9} to vanilla's {0 7 14}. With WH's common/men_at_arms_types/00_cultural_maa_types.txt
+# WHG: LEVELS reverted from LOTR's {0 3 9} to vanilla's {0 7 14}. With WH's common/men_at_arms_types/00_cultural_maa_types.txt
 # and 00_regional_maa_types.txt both empty (vanilla has 1433 combined lines there) and only 72 WH MAA types total (vanilla has 110), the lower
 # LOTR threshold let many of WH's 103 cultures (including small Bretonnian sub-cultures with as few as 3 counties) spawn mercenary companies
 # with no valid regiment type available, producing repeated "could not find a regiment type for a mercenary regiment" (mercenary_company.cpp:274)

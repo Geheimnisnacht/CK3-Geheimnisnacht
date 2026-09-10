@@ -1,4 +1,4 @@
-
+﻿
 # Follows vanilla's own dynamic_coa pattern (see game/common/coat_of_arms/dynamic_definitions/00_dynamic_coas.txt, e.g. e_north_sea):
 # "holder = title:X.holder" means "this title's holder is the same character as title X's holder" - no separate named trigger needed.
 #
@@ -71,7 +71,7 @@ e_bretonnia = {
 		trigger = { holder = title:k_bastonne.holder }
 		coat_of_arms = e_bretonnia_bastonne
 	 }
-	 # TODO: WARHAMMER_ADAPTATION - no d_herrimault or k_herrimault exists anywhere in the mod, even though the
+	 # WHG TODO - no d_herrimault or k_herrimault exists anywhere in the mod, even though the
 	 # e_bretonnia_herrimault coat_of_arms itself exists. Cannot wire up a holder-equality check without a title.
 	 # item = {
 	 # 	trigger = { holder = title:k_herrimault.holder }
@@ -81,7 +81,7 @@ e_bretonnia = {
 
 
 #Metla COAS#
-# TODO: WARHAMMER_ADAPTATION - coa_switch_to_pirate_trigger was never defined. Checked in depth: this isn't an isolated gap - the ENTIRE
+# WHG TODO - coa_switch_to_pirate_trigger was never defined. Checked in depth: this isn't an isolated gap - the ENTIRE
 # WH custom government system (common/governments/wh_government_types.txt, wh_elven_governments.txt, wh_imperial_types.txt, and the six
 # wh_use_*_government triggers in common/scripted_triggers/WH_triggers/wh_government_triggers.txt, including pirate_government itself and
 # its government_is_pirate flag) has been fully commented out since commit da5d3fad ("some bug fix purging", long before this session) -

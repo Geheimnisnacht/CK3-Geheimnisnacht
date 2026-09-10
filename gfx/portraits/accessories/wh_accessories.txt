@@ -1,5 +1,5 @@
 ﻿
-# TODO: WARHAMMER_ADAPTATION - no .mesh/entity asset was ever created for this accessory (no gfx/models/portraits/female_accessories/wh_* folder exists);
+# WHG TODO - no .mesh/entity asset was ever created for this accessory (no gfx/models/portraits/female_accessories/wh_* folder exists);
 # the gene that would assign it (common/genes/.../06_genes_special_accessories_headgear.notxt) is already disabled, but this bare declaration still
 # logged "could not find entity [female_accessories_wh_vamp_collar_entity]" at startup. Commented until the actual model is made.
 # female_accessories_wh_vamp_collar = {

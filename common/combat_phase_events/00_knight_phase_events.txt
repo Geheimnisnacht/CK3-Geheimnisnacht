@@ -1552,7 +1552,7 @@ knight_qualify_for_accolade = {
 							is_unit_type = archers
 							NOR = {
 								is_maa_type = crossbowmen
-								# TODO: WARHAMMER_ADAPTATION - shenbigong and accolade_maa_crossbowers not ported to WH (real-world/vanilla-only content, not restored per project decision)
+								# WHG TODO - shenbigong and accolade_maa_crossbowers not ported to WH (real-world/vanilla-only content, not restored per project decision)
 								# is_maa_type = shenbigong
 								# is_maa_type = accolade_maa_crossbowers
 							}
@@ -1588,7 +1588,7 @@ knight_qualify_for_accolade = {
 						any_army_maa_regiment = {
 							OR = {
 								is_maa_type = crossbowmen
-								# TODO: WARHAMMER_ADAPTATION - shenbigong and accolade_maa_crossbowers not ported to WH (real-world/vanilla-only content, not restored per project decision)
+								# WHG TODO - shenbigong and accolade_maa_crossbowers not ported to WH (real-world/vanilla-only content, not restored per project decision)
 								# is_maa_type = shenbigong
 								# is_maa_type = accolade_maa_crossbowers
 							}

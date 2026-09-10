@@ -878,7 +878,7 @@ gunpowder_raise_limit_existing_gunpowder_units = {
 			is_personal_maa_regiment = yes
 			OR = {
 				is_maa_type = handgunners
-				# TODO: WARHAMMER_ADAPTATION - fire_lancers not ported to WH (real-world/vanilla-only content, not restored per project decision)
+				# WHG TODO - fire_lancers not ported to WH (real-world/vanilla-only content, not restored per project decision)
 				# is_maa_type = fire_lancers
 			}
 		}

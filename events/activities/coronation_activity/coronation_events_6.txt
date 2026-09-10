@@ -2098,7 +2098,7 @@ coronation_events.6011 = {
 					check_can_recruit = no
 					size = 2
 				}
-				# TODO: WARHAMMER_ADAPTATION - horse_archers not ported to WH (real-world/vanilla-only content, not restored per project decision)
+				# WHG TODO - horse_archers not ported to WH (real-world/vanilla-only content, not restored per project decision)
 				# create_maa_regiment = {
 				# 	type = horse_archers
 				# 	check_can_recruit = no
@@ -2547,7 +2547,7 @@ scripted_effect coronation_events_6020_mass_mobilization_effect = {
 		scope:supporter = {
 			spawn_army = {
 				levies = 0
-				# TODO: WARHAMMER_ADAPTATION - horse_archers not ported to WH (real-world/vanilla-only content, not restored per project decision)
+				# WHG TODO - horse_archers not ported to WH (real-world/vanilla-only content, not restored per project decision)
 				# men_at_arms = {
 				# 	type = horse_archers
 				# 	stacks = {
@@ -2665,7 +2665,7 @@ scripted_effect coronation_events_6020_mass_mobilization_effect = {
 			}
 		}
 	}
-	# TODO: WARHAMMER_ADAPTATION - this whole branch's reward (horse_archers) was not ported to WH (real-world/vanilla-only content, not
+	# WHG TODO - this whole branch's reward (horse_archers) was not ported to WH (real-world/vanilla-only content, not
 	# restored per project decision); no substitute type picked, so the branch is disabled and falls through to the next else_if/else instead.
 	# else_if = {
 	# 	limit = {

@@ -3890,7 +3890,7 @@ ep3_governor_yearly.3040 = {
 		# 		size = 1
 		# 	}
 		# }
-			# TODO: WARHAMMER_ADAPTATION - horse_archers not ported to WH (real-world/vanilla-only content, not restored per project decision)
+			# WHG TODO - horse_archers not ported to WH (real-world/vanilla-only content, not restored per project decision)
 # 		else_if = {
 # 			limit = {
 # 				OR = {
@@ -4301,7 +4301,7 @@ ep3_governor_yearly.3040 = {
 		# 		size = 2
 		# 	}
 		# }
-			# TODO: WARHAMMER_ADAPTATION - horse_archers not ported to WH (real-world/vanilla-only content, not restored per project decision)
+			# WHG TODO - horse_archers not ported to WH (real-world/vanilla-only content, not restored per project decision)
 # 		else_if = {
 # 			limit = {
 # 				OR = {
