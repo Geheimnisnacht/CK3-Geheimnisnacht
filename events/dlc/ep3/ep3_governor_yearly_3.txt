@@ -3890,19 +3890,20 @@ ep3_governor_yearly.3040 = {
 		# 		size = 1
 		# 	}
 		# }
-		else_if = {
-			limit = {
-				OR = {
-					culture = { culture_has_archer_cavalry_maa = yes }
-					has_trait = nomadic_philosophy
-				}	
-			}
-			create_maa_regiment = {
-				type = horse_archers
-				check_can_recruit = no
-				size = 1
-			}
-		}
+			# TODO: WARHAMMER_ADAPTATION - horse_archers not ported to WH (real-world/vanilla-only content, not restored per project decision)
+# 		else_if = {
+# 			limit = {
+# 				OR = {
+# 					culture = { culture_has_archer_cavalry_maa = yes }
+# 					has_trait = nomadic_philosophy
+# 				}	
+# 			}
+# 			create_maa_regiment = {
+# 				type = horse_archers
+# 				check_can_recruit = no
+# 				size = 1
+# 			}
+# 		}
 		# else_if = { #LotR
 		# 	limit = {
 		# 		culture = {
@@ -4300,20 +4301,21 @@ ep3_governor_yearly.3040 = {
 		# 		size = 2
 		# 	}
 		# }
-		else_if = {
-			limit = {
-				OR = {
-					culture = { culture_has_archer_cavalry_maa = yes }
-					has_trait = nomadic_philosophy
-				}
-			}
-			create_maa_regiment = {
-				type = horse_archers
-				check_can_recruit = no
-				title = root.primary_title
-				size = 2
-			}
-		}
+			# TODO: WARHAMMER_ADAPTATION - horse_archers not ported to WH (real-world/vanilla-only content, not restored per project decision)
+# 		else_if = {
+# 			limit = {
+# 				OR = {
+# 					culture = { culture_has_archer_cavalry_maa = yes }
+# 					has_trait = nomadic_philosophy
+# 				}
+# 			}
+# 			create_maa_regiment = {
+# 				type = horse_archers
+# 				check_can_recruit = no
+# 				title = root.primary_title
+# 				size = 2
+# 			}
+# 		}
 		# else_if = { #LotR
 		# 	limit = {
 		# 		culture = {

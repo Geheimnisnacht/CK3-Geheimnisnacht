@@ -2098,11 +2098,12 @@ coronation_events.6011 = {
 					check_can_recruit = no
 					size = 2
 				}
-				create_maa_regiment = {
-					type = horse_archers
-					check_can_recruit = no
-					size = 2
-				}
+				# TODO: WARHAMMER_ADAPTATION - horse_archers not ported to WH (real-world/vanilla-only content, not restored per project decision)
+				# create_maa_regiment = {
+				# 	type = horse_archers
+				# 	check_can_recruit = no
+				# 	size = 2
+				# }
 			}
 			else_if = {
 				limit = {
@@ -2546,14 +2547,15 @@ scripted_effect coronation_events_6020_mass_mobilization_effect = {
 		scope:supporter = {
 			spawn_army = {
 				levies = 0
-				men_at_arms = {
-					type = horse_archers
-					stacks = {
-						value = var:mass_mobilitization_total
-						multiply = -1
-						min = 1
-					}
-				}
+				# TODO: WARHAMMER_ADAPTATION - horse_archers not ported to WH (real-world/vanilla-only content, not restored per project decision)
+				# men_at_arms = {
+				# 	type = horse_archers
+				# 	stacks = {
+				# 		value = var:mass_mobilitization_total
+				# 		multiply = -1
+				# 		min = 1
+				# 	}
+				# }
 				men_at_arms = {
 					type = nomadic_riders
 					stacks = {
@@ -2663,35 +2665,37 @@ scripted_effect coronation_events_6020_mass_mobilization_effect = {
 			}
 		}
 	}
-	else_if = {
-		limit = {
-			scope:supporter.capital_county = {
-				culture ={ culture_specializes_in_archer_cavalry_maa = yes }
-			}
-		}
-		scope:supporter = {
-			spawn_army = {
-				levies = {
-					value = var:mass_mobilitization_total
-					multiply = -600
-					min = 100
-				}
-				men_at_arms = {
-					type = horse_archers
-					stacks = {
-						value = var:mass_mobilitization_total
-						multiply = -1
-						min = 1
-					}
-				}
-				location = scope:supporter.capital_province
-				origin = scope:supporter.capital_province
-				inheritable = no
-				uses_supply = yes
-				name = coronation_mobilized_army_name
-			}
-		}
-	}
+	# TODO: WARHAMMER_ADAPTATION - this whole branch's reward (horse_archers) was not ported to WH (real-world/vanilla-only content, not
+	# restored per project decision); no substitute type picked, so the branch is disabled and falls through to the next else_if/else instead.
+	# else_if = {
+	# 	limit = {
+	# 		scope:supporter.capital_county = {
+	# 			culture ={ culture_specializes_in_archer_cavalry_maa = yes }
+	# 		}
+	# 	}
+	# 	scope:supporter = {
+	# 		spawn_army = {
+	# 			levies = {
+	# 				value = var:mass_mobilitization_total
+	# 				multiply = -600
+	# 				min = 100
+	# 			}
+	# 			men_at_arms = {
+	# 				type = horse_archers
+	# 				stacks = {
+	# 					value = var:mass_mobilitization_total
+	# 					multiply = -1
+	# 					min = 1
+	# 				}
+	# 			}
+	# 			location = scope:supporter.capital_province
+	# 			origin = scope:supporter.capital_province
+	# 			inheritable = no
+	# 			uses_supply = yes
+	# 			name = coronation_mobilized_army_name
+	# 		}
+	# 	}
+	# }
 	else_if = {
 		limit = {
 			scope:supporter.capital_county.culture = { culture_specializes_in_pikemen_maa = yes }

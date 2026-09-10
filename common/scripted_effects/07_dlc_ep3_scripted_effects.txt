@@ -8868,12 +8868,13 @@ ep3_create_random_maa_regiment_effect = {
 			# 		SIZE = $SIZE$
 			# 	}
 			# }
-			flag:horse_archers = {	
-				create_maa_or_upgrade_regiment_effect = {
-					TYPE = horse_archers
-					SIZE = $SIZE$
-				}
-			}
+			# TODO: WARHAMMER_ADAPTATION - horse_archers MAA type not ported to WH (real-world/vanilla-only content, not restored per project decision - see other #LotR entries above/below for the same pattern)
+# 			flag:horse_archers = {	
+# 				create_maa_or_upgrade_regiment_effect = {
+# 					TYPE = horse_archers
+# 					SIZE = $SIZE$
+# 				}
+# 			}
 			# flag:ayyar = { #LotR
 			# 	create_maa_or_upgrade_regiment_effect = {
 			# 		TYPE = ayyar
@@ -9000,132 +9001,152 @@ ep3_create_random_maa_regiment_effect = {
 					SIZE = $SIZE$
 				}
 			}
-			flag:accolade_maa_archers = {	
-				create_maa_or_upgrade_regiment_effect = {
-					TYPE = accolade_maa_archers
-					SIZE = $SIZE$
-				}
-			}
-			flag:accolade_maa_skirmishers = {	
-				create_maa_or_upgrade_regiment_effect = {
-					TYPE = accolade_maa_skirmishers
-					SIZE = $SIZE$
-				}
-			}
-			flag:accolade_maa_pikes = {	
-				create_maa_or_upgrade_regiment_effect = {
-					TYPE = accolade_maa_pikes
-					SIZE = $SIZE$
-				}
-			}
-			flag:accolade_maa_outriders = {	
-				create_maa_or_upgrade_regiment_effect = {
-					TYPE = accolade_maa_outriders
-					SIZE = $SIZE$
-				}
-			}
-			flag:accolade_maa_vanguards = {	
-				create_maa_or_upgrade_regiment_effect = {
-					TYPE = accolade_maa_vanguards
-					SIZE = $SIZE$
-				}
-			}
-			flag:accolade_maa_lancers = {	
-				create_maa_or_upgrade_regiment_effect = {
-					TYPE = accolade_maa_lancers
-					SIZE = $SIZE$
-				}
-			}
-			flag:accolade_maa_crossbowers = {	
-				create_maa_or_upgrade_regiment_effect = {
-					TYPE = accolade_maa_crossbowers
-					SIZE = $SIZE$
-				}
-			}
-			flag:accolade_maa_cameliers = {	
-				create_maa_or_upgrade_regiment_effect = {
-					TYPE = accolade_maa_cameliers
-					SIZE = $SIZE$
-				}
-			}
-			flag:accolade_maa_elephantiers = {	
-				create_maa_or_upgrade_regiment_effect = {
-					TYPE = accolade_maa_elephantiers
-					SIZE = $SIZE$
-				}
-			}
-			flag:accolade_maa_horse_archers = {	
-				create_maa_or_upgrade_regiment_effect = {
-					TYPE = accolade_maa_horse_archers
-					SIZE = $SIZE$
-				}
-			}
-			flag:vigmen = {	
-				create_maa_or_upgrade_regiment_effect = {
-					TYPE = vigmen
-					SIZE = $SIZE$
-				}
-			}
-			flag:bondi = {	
-				create_maa_or_upgrade_regiment_effect = {
-					TYPE = bondi
-					SIZE = $SIZE$
-				}
-			}
-			flag:varangian_veterans = {	
-				create_maa_or_upgrade_regiment_effect = {
-					TYPE = varangian_veterans
-					SIZE = $SIZE$
-				}
-			}
-			flag:ayrudzi = {	
-				create_maa_or_upgrade_regiment_effect = {
-					TYPE = ayrudzi
-					SIZE = $SIZE$
-				}
-			}
+			# TODO: WARHAMMER_ADAPTATION - accolade_maa_archers MAA type not ported to WH (real-world/vanilla-only content, not restored per project decision - see other #LotR entries above/below for the same pattern)
+# 			flag:accolade_maa_archers = {	
+# 				create_maa_or_upgrade_regiment_effect = {
+# 					TYPE = accolade_maa_archers
+# 					SIZE = $SIZE$
+# 				}
+# 			}
+			# TODO: WARHAMMER_ADAPTATION - accolade_maa_skirmishers MAA type not ported to WH (real-world/vanilla-only content, not restored per project decision - see other #LotR entries above/below for the same pattern)
+# 			flag:accolade_maa_skirmishers = {	
+# 				create_maa_or_upgrade_regiment_effect = {
+# 					TYPE = accolade_maa_skirmishers
+# 					SIZE = $SIZE$
+# 				}
+# 			}
+			# TODO: WARHAMMER_ADAPTATION - accolade_maa_pikes MAA type not ported to WH (real-world/vanilla-only content, not restored per project decision - see other #LotR entries above/below for the same pattern)
+# 			flag:accolade_maa_pikes = {	
+# 				create_maa_or_upgrade_regiment_effect = {
+# 					TYPE = accolade_maa_pikes
+# 					SIZE = $SIZE$
+# 				}
+# 			}
+			# TODO: WARHAMMER_ADAPTATION - accolade_maa_outriders MAA type not ported to WH (real-world/vanilla-only content, not restored per project decision - see other #LotR entries above/below for the same pattern)
+# 			flag:accolade_maa_outriders = {	
+# 				create_maa_or_upgrade_regiment_effect = {
+# 					TYPE = accolade_maa_outriders
+# 					SIZE = $SIZE$
+# 				}
+# 			}
+			# TODO: WARHAMMER_ADAPTATION - accolade_maa_vanguards MAA type not ported to WH (real-world/vanilla-only content, not restored per project decision - see other #LotR entries above/below for the same pattern)
+# 			flag:accolade_maa_vanguards = {	
+# 				create_maa_or_upgrade_regiment_effect = {
+# 					TYPE = accolade_maa_vanguards
+# 					SIZE = $SIZE$
+# 				}
+# 			}
+			# TODO: WARHAMMER_ADAPTATION - accolade_maa_lancers MAA type not ported to WH (real-world/vanilla-only content, not restored per project decision - see other #LotR entries above/below for the same pattern)
+# 			flag:accolade_maa_lancers = {	
+# 				create_maa_or_upgrade_regiment_effect = {
+# 					TYPE = accolade_maa_lancers
+# 					SIZE = $SIZE$
+# 				}
+# 			}
+			# TODO: WARHAMMER_ADAPTATION - accolade_maa_crossbowers MAA type not ported to WH (real-world/vanilla-only content, not restored per project decision - see other #LotR entries above/below for the same pattern)
+# 			flag:accolade_maa_crossbowers = {	
+# 				create_maa_or_upgrade_regiment_effect = {
+# 					TYPE = accolade_maa_crossbowers
+# 					SIZE = $SIZE$
+# 				}
+# 			}
+			# TODO: WARHAMMER_ADAPTATION - accolade_maa_cameliers MAA type not ported to WH (real-world/vanilla-only content, not restored per project decision - see other #LotR entries above/below for the same pattern)
+# 			flag:accolade_maa_cameliers = {	
+# 				create_maa_or_upgrade_regiment_effect = {
+# 					TYPE = accolade_maa_cameliers
+# 					SIZE = $SIZE$
+# 				}
+# 			}
+			# TODO: WARHAMMER_ADAPTATION - accolade_maa_elephantiers MAA type not ported to WH (real-world/vanilla-only content, not restored per project decision - see other #LotR entries above/below for the same pattern)
+# 			flag:accolade_maa_elephantiers = {	
+# 				create_maa_or_upgrade_regiment_effect = {
+# 					TYPE = accolade_maa_elephantiers
+# 					SIZE = $SIZE$
+# 				}
+# 			}
+			# TODO: WARHAMMER_ADAPTATION - accolade_maa_horse_archers MAA type not ported to WH (real-world/vanilla-only content, not restored per project decision - see other #LotR entries above/below for the same pattern)
+# 			flag:accolade_maa_horse_archers = {	
+# 				create_maa_or_upgrade_regiment_effect = {
+# 					TYPE = accolade_maa_horse_archers
+# 					SIZE = $SIZE$
+# 				}
+# 			}
+			# TODO: WARHAMMER_ADAPTATION - vigmen MAA type not ported to WH (real-world/vanilla-only content, not restored per project decision - see other #LotR entries above/below for the same pattern)
+# 			flag:vigmen = {	
+# 				create_maa_or_upgrade_regiment_effect = {
+# 					TYPE = vigmen
+# 					SIZE = $SIZE$
+# 				}
+# 			}
+			# TODO: WARHAMMER_ADAPTATION - bondi MAA type not ported to WH (real-world/vanilla-only content, not restored per project decision - see other #LotR entries above/below for the same pattern)
+# 			flag:bondi = {	
+# 				create_maa_or_upgrade_regiment_effect = {
+# 					TYPE = bondi
+# 					SIZE = $SIZE$
+# 				}
+# 			}
+			# TODO: WARHAMMER_ADAPTATION - varangian_veterans MAA type not ported to WH (real-world/vanilla-only content, not restored per project decision - see other #LotR entries above/below for the same pattern)
+# 			flag:varangian_veterans = {	
+# 				create_maa_or_upgrade_regiment_effect = {
+# 					TYPE = varangian_veterans
+# 					SIZE = $SIZE$
+# 				}
+# 			}
+			# TODO: WARHAMMER_ADAPTATION - ayrudzi MAA type not ported to WH (real-world/vanilla-only content, not restored per project decision - see other #LotR entries above/below for the same pattern)
+# 			flag:ayrudzi = {	
+# 				create_maa_or_upgrade_regiment_effect = {
+# 					TYPE = ayrudzi
+# 					SIZE = $SIZE$
+# 				}
+# 			}
 			flag:steppe_raiders = {
 				create_maa_or_upgrade_regiment_effect = {
 					TYPE = steppe_raiders
 					SIZE = $SIZE$
 				}
 			}
-			flag:conrois = {	
-				create_maa_or_upgrade_regiment_effect = {
-					TYPE = conrois
-					SIZE = $SIZE$
-				}
-			}
-			flag:akritai = {	
-				create_maa_or_upgrade_regiment_effect = {
-					TYPE = akritai
-					SIZE = $SIZE$
-				}
-			}
-			flag:ballistrai = {	
-				create_maa_or_upgrade_regiment_effect = {
-					TYPE = ballistrai
-					SIZE = $SIZE$
-				}
-			}
-			flag:skoutatoi = {	
-				create_maa_or_upgrade_regiment_effect = {
-					TYPE = skoutatoi
-					SIZE = $SIZE$
-				}
-			}
-			flag:varangian_guards = {	
-				create_maa_or_upgrade_regiment_effect = {
-					TYPE = varangian_guards
-					SIZE = $SIZE$
-				}
-			}
-			flag:handpicked_faithful = {	
-				create_maa_or_upgrade_regiment_effect = {
-					TYPE = handpicked_faithful
-					SIZE = $SIZE$
-				}
-			}
+			# TODO: WARHAMMER_ADAPTATION - conrois MAA type not ported to WH (real-world/vanilla-only content, not restored per project decision - see other #LotR entries above/below for the same pattern)
+# 			flag:conrois = {	
+# 				create_maa_or_upgrade_regiment_effect = {
+# 					TYPE = conrois
+# 					SIZE = $SIZE$
+# 				}
+# 			}
+			# TODO: WARHAMMER_ADAPTATION - akritai MAA type not ported to WH (real-world/vanilla-only content, not restored per project decision - see other #LotR entries above/below for the same pattern)
+# 			flag:akritai = {	
+# 				create_maa_or_upgrade_regiment_effect = {
+# 					TYPE = akritai
+# 					SIZE = $SIZE$
+# 				}
+# 			}
+			# TODO: WARHAMMER_ADAPTATION - ballistrai MAA type not ported to WH (real-world/vanilla-only content, not restored per project decision - see other #LotR entries above/below for the same pattern)
+# 			flag:ballistrai = {	
+# 				create_maa_or_upgrade_regiment_effect = {
+# 					TYPE = ballistrai
+# 					SIZE = $SIZE$
+# 				}
+# 			}
+			# TODO: WARHAMMER_ADAPTATION - skoutatoi MAA type not ported to WH (real-world/vanilla-only content, not restored per project decision - see other #LotR entries above/below for the same pattern)
+# 			flag:skoutatoi = {	
+# 				create_maa_or_upgrade_regiment_effect = {
+# 					TYPE = skoutatoi
+# 					SIZE = $SIZE$
+# 				}
+# 			}
+			# TODO: WARHAMMER_ADAPTATION - varangian_guards MAA type not ported to WH (real-world/vanilla-only content, not restored per project decision - see other #LotR entries above/below for the same pattern)
+# 			flag:varangian_guards = {	
+# 				create_maa_or_upgrade_regiment_effect = {
+# 					TYPE = varangian_guards
+# 					SIZE = $SIZE$
+# 				}
+# 			}
+			# TODO: WARHAMMER_ADAPTATION - handpicked_faithful MAA type not ported to WH (real-world/vanilla-only content, not restored per project decision - see other #LotR entries above/below for the same pattern)
+# 			flag:handpicked_faithful = {	
+# 				create_maa_or_upgrade_regiment_effect = {
+# 					TYPE = handpicked_faithful
+# 					SIZE = $SIZE$
+# 				}
+# 			}
 		}
 	}
 }

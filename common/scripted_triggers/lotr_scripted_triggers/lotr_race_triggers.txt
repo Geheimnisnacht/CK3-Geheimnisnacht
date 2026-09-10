@@ -296,3 +296,11 @@ is_nazgul = { #TODO WH remove references
 is_nazgul_culture = { #TODO WH remove references
 	always = no
 }
+
+lotr_orc_can_recruit_from_subject = {
+	trigger_if = {
+		limit = { is_orc = yes }
+		always = yes
+	}
+	trigger_else = { always = no }
+}
