@@ -19,8 +19,9 @@ fp2_urbanism_legacy_track = {
 										has_cultural_tradition = tradition_city_keepers
 										has_cultural_tradition = tradition_parochialism
 										has_cultural_tradition = tradition_republican_legacy
-										has_cultural_tradition = tradition_abrakhan_magic_cities
-										has_cultural_tradition = tradition_bellakarean_cities
+										# TODO: WARHAMMER_ADAPTATION - tradition_abrakhan_magic_cities and tradition_bellakarean_cities are LOTR traditions, never ported to WH.
+										# has_cultural_tradition = tradition_abrakhan_magic_cities
+										# has_cultural_tradition = tradition_bellakarean_cities
 									}
 								}
 							}

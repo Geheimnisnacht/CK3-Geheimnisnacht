@@ -1,83 +1,103 @@
-﻿
- e_bretonnia = {
+
+# Follows vanilla's own dynamic_coa pattern (see game/common/coat_of_arms/dynamic_definitions/00_dynamic_coas.txt, e.g. e_north_sea):
+# "holder = title:X.holder" means "this title's holder is the same character as title X's holder" - no separate named trigger needed.
+#
+# Tier note: an EARLIER draft of this fix (and the original coa_bretonnia_*_trigger names) pointed at duchy-tier (d_X) titles.
+# That was corrected after finding events/coat_of_arms/coa_events.txt: a never-activated but fully-written companion mechanism
+# (commit 05766a8c "[fix] resolved all Bretonnia errors.", written already-commented, so never proven working - restored once
+# by mistake in b2a45006 while still commented) that drives this exact same e_bretonnia CoA switch off KINGDOM-tier titles
+# (has_title = title:k_quenelles etc.), not duchies. That's also the structurally correct tier here: Bretonnia's emperor is
+# elected from among the 14 kingdom-tier rulers (k_bastonne, k_couronne, ...), each of which de jure contains a same-named
+# duchy that is normally held by a VASSAL duke, not the emperor personally - so checking d_X.holder would usually be false
+# even when the emperor genuinely IS "of House X". Checking k_X.holder matches how the title tree is actually structured.
+# All 15 e_bretonnia_* coat_of_arms below are confirmed to exist in common/coat_of_arms/coat_of_arms/wh_dynamic_coa.txt, and
+# all 14 k_X kingdom titles below are confirmed to exist in common/landed_titles/wh_landed_titles_bretonnia.txt.
+# Neither d_herrimault nor k_herrimault exists anywhere in the mod (checked both tiers), so e_bretonnia_herrimault - which
+# does exist as a CoA asset - has no title to hook a holder-equality check to; left commented rather than guessed.
+e_bretonnia = {
 	 item = {
-		 trigger = {coa_bretonnia_herrimault_trigger = yes}
-		 coat_of_arms = e_bretonnia_herrimault
-	 }
-	 item = {
-		 trigger = {coa_bretonnia_couronne_trigger = yes}
+		 trigger = { holder = title:k_couronne.holder }
 		 coat_of_arms = e_bretonnia_couronne
 	 }
 	 item = {
-		 trigger = {coa_bretonnia_montfort_trigger = yes}
+		 trigger = { holder = title:k_montfort.holder }
 		 coat_of_arms = e_bretonnia_montfort
 	 }
 	 item = {
-		 trigger = {coa_bretonnia_languille_trigger = yes}
+		 trigger = { holder = title:k_languille.holder }
 		 coat_of_arms = e_bretonnia_languille
 	 }
 	 item = {
-		 trigger = {coa_bretonnia_carcassonne_trigger = yes}
+		 trigger = { holder = title:k_carcassonne.holder }
 		 coat_of_arms = e_bretonnia_carcassone
 	 }
 	 item = {
-		 trigger = {coa_bretonnia_parravon_trigger = yes}
+		 trigger = { holder = title:k_parravon.holder }
 		 coat_of_arms = e_bretonnia_parravon
 	 }
 	 item = {
-		 trigger = {coa_bretonnia_aquitaine_trigger = yes}
+		 trigger = { holder = title:k_aquitaine.holder }
 		 coat_of_arms = e_bretonnia_aquitaine
 	 }
 	 item = {
-		 trigger = {coa_bretonnia_bordelaux_trigger = yes}
+		 trigger = { holder = title:k_bordeleaux.holder }
 		 coat_of_arms = e_bretonnia_bordelaux
 	 }
 	 item = {
-		 trigger = {coa_bretonnia_quenelle_trigger = yes}
+		 trigger = { holder = title:k_quenelles.holder }
 		 coat_of_arms = e_bretonnia_quenelle
 	 }
 	 item = {
-		 trigger = {coa_bretonnia_gisoreux_trigger = yes}
+		 trigger = { holder = title:k_gisoreux.holder }
 		 coat_of_arms = e_bretonnia_gisoreux
 	 }
 	 item = {
-		 trigger = {coa_bretonnia_brionne_trigger = yes}
+		 trigger = { holder = title:k_brionne.holder }
 		 coat_of_arms = e_bretonnia_brionne
 	 }
 	 item = {
-		 trigger = {coa_bretonnia_mousillon_trigger = yes}
+		 trigger = { holder = title:k_mousillon.holder }
 		 coat_of_arms = e_bretonnia_mousillon
 	 }
 	 item = {
-		 trigger = {coa_bretonnia_lyonesse_trigger = yes}
+		 trigger = { holder = title:k_lyonesse.holder }
 		 coat_of_arms = e_bretonnia_lyonesse
 	 }
 	 item = {
-		 trigger = {coa_bretonnia_artois_trigger = yes}
+		 trigger = { holder = title:k_artois.holder }
 		 coat_of_arms = e_bretonnia_artois
 	 }
 	 item = {
-		trigger = {coa_bretonnia_bastonne_trigger = yes}
+		trigger = { holder = title:k_bastonne.holder }
 		coat_of_arms = e_bretonnia_bastonne
 	 }
-
-	
+	 # TODO: WARHAMMER_ADAPTATION - no d_herrimault or k_herrimault exists anywhere in the mod, even though the
+	 # e_bretonnia_herrimault coat_of_arms itself exists. Cannot wire up a holder-equality check without a title.
+	 # item = {
+	 # 	trigger = { holder = title:k_herrimault.holder }
+	 # 	coat_of_arms = e_bretonnia_herrimault
+	 # }
  }
 
 
-
-
 #Metla COAS#
-d_metla = {
-	item = {
-		trigger = {coa_switch_to_pirate_trigger = yes}
-		coat_of_arms = d_pirate_metla
-	}
-}
+# TODO: WARHAMMER_ADAPTATION - coa_switch_to_pirate_trigger was never defined. Checked in depth: this isn't an isolated gap - the ENTIRE
+# WH custom government system (common/governments/wh_government_types.txt, wh_elven_governments.txt, wh_imperial_types.txt, and the six
+# wh_use_*_government triggers in common/scripted_triggers/WH_triggers/wh_government_triggers.txt, including pirate_government itself and
+# its government_is_pirate flag) has been fully commented out since commit da5d3fad ("some bug fix purging", long before this session) -
+# a deliberate, long-standing, pre-existing state, not something broken by recent work. Base governments (feudal/administrative/etc.) still
+# work fine because common/governments is NOT in descriptor.mod's replace_path, so vanilla's own definitions remain active underneath.
+# Re-enabling pirate CoA switching requires re-enabling the whole pirate_government subsystem first - out of scope here, left preserved below.
+# d_metla = {
+# 	item = {
+# 		trigger = {coa_switch_to_pirate_trigger = yes}
+# 		coat_of_arms = d_pirate_metla
+# 	}
+# }
 
-c_metla = {
-	item = {
-		trigger = {coa_switch_to_pirate_trigger = yes}
-		coat_of_arms = c_pirate_metla
-	}
-}
+# c_metla = {
+# 	item = {
+# 		trigger = {coa_switch_to_pirate_trigger = yes}
+# 		coat_of_arms = c_pirate_metla
+# 	}
+# }

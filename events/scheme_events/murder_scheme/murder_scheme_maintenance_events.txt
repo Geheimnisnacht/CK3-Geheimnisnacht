@@ -430,12 +430,13 @@ murder_scheme_maintenance.1 = {
 						}
 					}
 				}
-				modifier = { #LotR - Intricate Plotters
-					factor = 100
-					root.culture = {
-						has_cultural_tradition = tradition_intricate_plotters
-					}
-				}
+				# TODO: WARHAMMER_ADAPTATION - tradition_intricate_plotters is a LOTR tradition (lotr_societal_traditions.txt), never ported to WH; dead modifier.
+				# modifier = { #LotR - Intricate Plotters
+				# 	factor = 100
+				# 	root.culture = {
+				# 		has_cultural_tradition = tradition_intricate_plotters
+				# 	}
+				# }
 				root = {
 					start_scheme = {
 						type = murder

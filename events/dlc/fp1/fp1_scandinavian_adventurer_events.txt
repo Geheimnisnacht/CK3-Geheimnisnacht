@@ -1188,10 +1188,11 @@ scripted_effect scandi_adventurers_grab_famous_character_effect = {
 							}
 							
 						}
-						AND = {	#Corsairs
-							has_game_rule = southern_orcs_no_invade
-							culture = { has_cultural_tradition = tradition_corsairs_of_umbar }					
-						}
+						# TODO: WARHAMMER_ADAPTATION - tradition_corsairs_of_umbar is a LOTR tradition, never ported to WH; this whole AND is a dead branch.
+						# AND = {	#Corsairs
+						# 	has_game_rule = southern_orcs_no_invade
+						# 	culture = { has_cultural_tradition = tradition_corsairs_of_umbar }
+						# }
 				}
 				# culture = { has_cultural_pillar = heritage_north_germanic }
 				NOR = {
@@ -1280,10 +1281,11 @@ scripted_effect scandi_adventurers_grab_famous_character_effect = {
 							}
 							
 						}
-						AND = {	#Corsairs
-							has_game_rule = southern_orcs_no_invade
-							culture = { has_cultural_tradition = tradition_corsairs_of_umbar }					
-						}
+						# TODO: WARHAMMER_ADAPTATION - tradition_corsairs_of_umbar is a LOTR tradition, never ported to WH; this whole AND is a dead branch.
+						# AND = {	#Corsairs
+						# 	has_game_rule = southern_orcs_no_invade
+						# 	culture = { has_cultural_tradition = tradition_corsairs_of_umbar }
+						# }
 					}
 				}
 				add_to_global_variable_list = {

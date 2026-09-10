@@ -123,7 +123,10 @@ tradition_chivalry = {
 	}
 	
 	is_shown = {
-		NOT = { has_cultural_tradition = tradition_belfalathrim_chivalry }
+		# TODO: WARHAMMER_ADAPTATION - tradition_belfalathrim_chivalry is LOTR's Dunedain-only regional variant of this tradition (never ported,
+		# gated on heritage_dunedain which doesn't exist in WH). Was crashing has_cultural_tradition with "target tradition was null" on every
+		# is_shown check. No WH culture could ever hold it anyway, so this always evaluated true in intent - now made explicit and safe.
+		always = yes
 	}
 	#	OR = {
 	#		has_cultural_pillar = heritage_brythonic
@@ -719,11 +722,13 @@ tradition_hunters = {
 	}
 
 	is_shown = {
-		NOT = { has_cultural_tradition = tradition_wanderers_of_the_wild }
+		# TODO: WARHAMMER_ADAPTATION - tradition_wanderers_of_the_wild is LOTR's Dunedain-only regional variant of this tradition (never ported,
+		# gated on heritage_dunedain which doesn't exist in WH). Was crashing has_cultural_tradition with "target tradition was null".
+		always = yes
 	}
-	
+
 	can_pick = {
-		NOT = { has_cultural_tradition = tradition_wanderers_of_the_wild }
+		# TODO: WARHAMMER_ADAPTATION - same missing tradition_wanderers_of_the_wild as is_shown above
 		culture_not_pacifistic_trigger = yes
 		custom_tooltip = {
 			text = cannot_have_tradition_vegetarianism
@@ -2796,7 +2801,9 @@ tradition_practiced_pirates = {
 		4 = battle.dds
 	}
 	is_shown = {
-		NOT = { has_cultural_tradition = tradition_corsairs_of_umbar }
+		# TODO: WARHAMMER_ADAPTATION - tradition_corsairs_of_umbar is LOTR's regional variant of this tradition, gated on the Middle-earth-only
+		# geographical_region middleearth_harad_near_umbar (never ported). Was crashing has_cultural_tradition with "target tradition was null".
+		always = yes
 	}
 	can_pick = {
 		custom_description = {
@@ -2806,7 +2813,6 @@ tradition_practiced_pirates = {
 				has_coastal_province = yes
 			}
 		}
-		NOT = { has_cultural_tradition = tradition_corsairs_of_umbar }
 		custom_tooltip = {
 			text = cultrad_not_nomadic_government_type
 			scope:character = {

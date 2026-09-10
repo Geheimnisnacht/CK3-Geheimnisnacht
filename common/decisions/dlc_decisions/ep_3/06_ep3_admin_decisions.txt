@@ -873,17 +873,20 @@ convert_to_administrative_decision = {
 				dynasty = { has_dynasty_perk = law_legacy_5 }
 			}
 		}
-		trigger_if = { #LOTR
-			limit = {
-				culture = {
-					has_cultural_tradition = tradition_variag_succession
-				}
-			}
-			custom_tooltip = {
-                text = cant_have_variag_succession
-                NOT = { culture = { has_cultural_tradition = tradition_variag_succession } } #To prevent bordergore
-            }
-		}
+		# TODO: WARHAMMER_ADAPTATION - tradition_variag_succession is a LOTR tradition (lotr_combat_traditions.txt), never ported to WH.
+		# No WH culture can ever hold it, so this whole #LOTR trigger_if's limit was always false anyway (dead branch) - was crashing
+		# has_cultural_tradition with "target tradition was null" instead of just evaluating false.
+		# trigger_if = { #LOTR
+		# 	limit = {
+		# 		culture = {
+		# 			has_cultural_tradition = tradition_variag_succession
+		# 		}
+		# 	}
+		# 	custom_tooltip = {
+		#             text = cant_have_variag_succession
+		#             NOT = { culture = { has_cultural_tradition = tradition_variag_succession } } #To prevent bordergore
+		#         }
+		# }
 	}
 	
 	is_valid_showing_failures_only = {

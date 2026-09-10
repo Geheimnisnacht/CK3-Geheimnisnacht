@@ -1,4 +1,9 @@
-﻿#  #namespace = coa
+﻿# NOTE: this whole file was never active (already fully commented in the commit that introduced it, 05766a8c "[fix] resolved
+# all Bretonnia errors."). The same e_bretonnia dynamic-CoA-by-kingdom-tier logic drafted here is now implemented properly in
+# common/coat_of_arms/dynamic_definitions/WH_dynamic_coas.txt using vanilla's proven dynamic_coa item/holder pattern instead
+# of this event+on_action approach, so this file's mechanism is superseded - left commented for reference, don't reactivate
+# both at once (would double-apply / fight over set_coa).
+#  #namespace = coa
 #  #scripted_trigger can_event_change_coa_trigger = {
 # 	holder = root
 # 	has_user_set_coa = no

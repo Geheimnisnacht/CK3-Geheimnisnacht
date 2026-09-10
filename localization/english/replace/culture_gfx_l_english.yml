@@ -46,6 +46,8 @@
  norse_building_gfx:0 "Norscan"
  norse_coa_gfx:0 "Norscan"
  norse_unit_gfx:0 "Norscan"
+ rhun_building_gfx:0 "Rhûnnic"
+ tribal_clothing_gfx:0 "Tribal"
  
  frankish_group_coa_gfx:0 "Bretonni"
  french_coa_gfx:0 "Bretonnian"
