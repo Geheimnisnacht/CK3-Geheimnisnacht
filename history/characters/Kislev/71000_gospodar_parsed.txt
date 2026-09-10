@@ -1638,11 +1638,11 @@
     6492.6.14 = { 
         add_spouse = 71022 
         } 
-    6492.6.14 = { 
-        effect = { 
-            set_relation_lover = character:71022 
-            } 
-        } 
+    # 6492.6.14 = { 
+    #     effect = { 
+    #         set_relation_lover = character:71022 
+    #     } 
+    # } 
     6552.3.19 = { 
         death = yes 
         } 
