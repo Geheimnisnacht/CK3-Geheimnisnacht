@@ -19,6 +19,7 @@
 
  wastelands_holding_concept_key: "[wilderness|E]"
  wastelands_holding: "Wilderness"
+ not_wastelands: "This Character is not part of the Wastelands"
 
 
 

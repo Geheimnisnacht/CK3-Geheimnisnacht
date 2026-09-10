@@ -3,34 +3,33 @@
 ### CULTURAL AND RELIGIOUS GROUPS ###
 #####################################
 
-##TODO WH
-#faith_is_good = {
-#	custom_description = {
-#		text = faith_is_good
-#		OR = {
-#			religion = { is_in_family = rf_order }
-#			religion = { is_in_family = rf_old_ones }
-#		}
-#	}
-#}
-#faith_is_evil = {
-#	custom_description = {
-#		text = faith_is_evil
-#		OR = {
-#			religion = { is_in_family = rf_chaos }
-#			religion = { is_in_family = rf_necromantic }
-#		}
-#	}
-#}
+faith_is_good = {
+	custom_description = {
+		text = faith_is_good
+		OR = {
+			religion = { is_in_family = rf_order }
+			religion = { is_in_family = rf_old_ones }
+		}
+	}
+}
+faith_is_evil = {
+	custom_description = {
+		text = faith_is_evil
+		OR = {
+			religion = { is_in_family = rf_chaos }
+			religion = { is_in_family = rf_necromantic }
+		}
+	}
+}
 
-#faith_is_neutral = {
-#	custom_description = {
-#		text = faith_is_neutral
-#		OR = {
-#			religion = { is_in_family = rf_destruction } # I just want to krump for gork's sake
-#		}
-#	}
-#}
+faith_is_neutral = {
+	custom_description = {
+		text = faith_is_neutral
+		OR = {
+			religion = { is_in_family = rf_destruction } # I just want to krump for gork's sake
+		}
+	}
+}
 
 
 lotr_can_be_activity_guest = {

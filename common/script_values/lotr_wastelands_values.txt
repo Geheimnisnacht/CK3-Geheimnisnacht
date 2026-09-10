@@ -1,4 +1,7 @@
-﻿lotr_WAC_gold_limit_value = {
+﻿@elven_slow_construction_time_base = 8760
+elven_slow_construction_time = @[elven_slow_construction_time_base] # Ported from LOTR (00_building_values.txt); used by dead_marshes_cleared - name is a LOTR leftover but the value itself is generic
+
+lotr_WAC_gold_limit_value = {
 	value = 0
 
 	if = {

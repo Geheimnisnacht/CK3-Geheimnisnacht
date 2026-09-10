@@ -1,0 +1,6 @@
+excess_wasteland_character = {
+	base = living_character
+	conditions = {
+		culture = culture:wastelands
+	}
+}

@@ -223,6 +223,13 @@ lotr_at_settlement_limit = {
 	}
 }
 
+# TODO: WARHAMMER_ADAPTATION - original LOTR logic entirely keyed on title:d_andunaloni (Andúnië island duchy), which does not exist in Warhammer.
+# Since no WH character can ever hold a nonexistent title, the original condition ("not on the Andunaloni island region") is vacuously always true here.
+# Kept as `always = yes` so the 5 callers in lotr_script_values.txt (island colonisation cost) resolve instead of erroring; revisit if WH ever adds its own "distant island" region mechanic.
+not_has_county_on_island_region = {
+	always = yes
+}
+# Original LOTR logic preserved below for future reference:
 # not_has_county_on_island_region = { #WHG TODO CHECK IF REMOVE
 # 	OR = {
 # 		NOR = {
@@ -260,11 +267,11 @@ lotr_at_settlement_limit = {
 # 	}
 # }
 
-# is_underground_county = {
-# 	any_county_province = {
-# 		terrain = halls
-# 	}
-# }
+is_underground_county = {
+	any_county_province = {
+		terrain = halls
+	}
+}
 
 can_construct_tribal_settlement_building = {
 	OR = {

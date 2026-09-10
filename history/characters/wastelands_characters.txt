@@ -8,6 +8,7 @@
 
 k_wastelands_holder = {
 	name = "taal"
+	dynasty = dynasty_karnos
 	culture = wastelands
 	religion = faith_wastelands_pagan
 	disallow_random_traits = yes

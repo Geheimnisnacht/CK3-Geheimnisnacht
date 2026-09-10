@@ -89,8 +89,10 @@ ettenmoors_events = {
 		# Attacks in Rhudaur (including the Angle) and Imladris
 		any_directly_owned_province = {
 			OR = {
-				kingdom = title:k_troll_country
+				# TODO: WARHAMMER_ADAPTATION - k_troll_country exists but is fully commented out in common/landed_titles/wh_landed_titles_kislev.txt (not yet activated); k_imladris is LOTR-only (Rivendell), no Warhammer equivalent
+				# kingdom = title:k_troll_country
 				#kingdom = title:k_imladris
+				always = no
 			}
 		}
 		# Only if Ettenmoors is wilderness and has the Ettenmoors wonder intact
