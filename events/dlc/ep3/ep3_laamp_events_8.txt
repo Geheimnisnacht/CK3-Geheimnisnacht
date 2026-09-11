@@ -42,7 +42,6 @@ ep3_laamps.8000 = {
 
 	trigger = {
 		has_government = landless_adventurer_government
-		is_adult = yes
 		is_available_allow_travelling = yes
 		any_memory = {
 			memory_type = lost_title_memory
@@ -317,7 +316,6 @@ ep3_laamps.8020 = {
 			}
 		}
 		has_government = landless_adventurer_government
-		is_adult = yes
 		is_available_allow_travelling = yes
 		location.county.holder ?= {
 			is_ai = yes
@@ -454,7 +452,6 @@ ep3_laamps.8030 = {
 
 	trigger = {
 		has_government = landless_adventurer_government
-		is_adult = yes
 		is_available_allow_travelling = yes
 		employs_court_position = armorer_camp_officer
 		any_equipped_character_artifact = {
@@ -634,7 +631,6 @@ ep3_laamps.8040 = {
 
 	trigger = {
 		has_government = landless_adventurer_government
-		is_adult = yes
 		is_available_allow_travelling = yes
 		location = {
 			is_wooded_trigger = yes
@@ -957,7 +953,6 @@ ep3_laamps.8050 = {
 
 	trigger = {
 		has_government = landless_adventurer_government
-		is_adult = yes
 		is_available_allow_travelling = yes
 		is_location_valid_for_travel_event_on_land = yes
 		OR = {
@@ -998,7 +993,7 @@ ep3_laamps.8050 = {
 				}
 				weight = {
 					base = 1
-					# modifier = { #WHG
+					# modifier = { #LotR
 					# 	add = 2
 					# 	OR = {
 					# 		# Smaller religions unlikely to have a *homeland* to return to
@@ -1021,7 +1016,7 @@ ep3_laamps.8050 = {
 					}
 					weight = {
 						base = 1
-						# modifier = { #WHG
+						# modifier = { #LotR
 						# 	add = 2
 						# 	OR = {
 						# 		# Smaller religions unlikely to have a *homeland* to return to
@@ -1174,7 +1169,6 @@ ep3_laamps.8060 = {
 
 	trigger = {
 		has_government = landless_adventurer_government
-		is_adult = yes
 		is_available_allow_travelling = yes
 		domicile ?= {
 			domicile_location = {
@@ -1211,10 +1205,6 @@ ep3_laamps.8060 = {
 				modifier = {
 					add = 50
 					has_trait = physique_bad
-				}
-				modifier = {
-					factor = 0
-					is_adult = no
 				}
 			}
 			save_scope_as = idiot
@@ -1449,7 +1439,6 @@ ep3_laamps.8070 = {
 
 	trigger = {
 		has_government = landless_adventurer_government
-		is_adult = yes
 		is_available_allow_travelling = yes
 		location = { is_sea_province = no }
 		domicile ?= {
@@ -1562,13 +1551,14 @@ ep3_laamps.8070 = {
 # You find Tom Baker sitting at a bar missing most of his body parts
 # 8080
 scripted_trigger valid_weird_sailor = {
-	is_adult = yes
+	is_lotr_adult = yes
 	has_trait = eccentric
 	has_any_high_skill_rating = yes
 	would_be_valid_for_court_position = {
 		court_position = quartermaster_camp_officer
 		employer = root
 	}
+	root = { lotr_can_recruit = { CHARACTER = prev } } #LotR
 }
 ep3_laamps.8080 = {
 	type = character_event
@@ -1604,7 +1594,7 @@ ep3_laamps.8080 = {
 
 	trigger = {
 		has_government = landless_adventurer_government
-		is_adult = yes
+		is_lotr_adult = yes
 		is_available_allow_travelling = yes
 		location = {
 			OR = {
@@ -1656,7 +1646,7 @@ ep3_laamps.8080 = {
 			limit = {
 				NOT = { exists = scope:sailor }
 			}
-			if = { #WHG
+			if = { #LotR
 				limit = {
 					NOT = { scope:sailor_home.culture = culture:wastelands }
 				}
@@ -1830,7 +1820,7 @@ ep3_laamps.8090 = {
 	title = ep3_laamps.8090.t
 	desc = {
 		desc = ep3_laamps.8090.desc.intro
-		first_valid = { #WHG
+		first_valid = { #LotR
 			triggered_desc = {
 				trigger = {
 					root.domicile.domicile_location = {
@@ -1838,7 +1828,7 @@ ep3_laamps.8090 = {
 						# 	geographical_region = world_europe
 						# 	geographical_region = world_asia_minor
 						# }
-						geographical_region = world_old_world
+						geographical_region = middleearth_west
 					}
 				}
 				desc = ep3_laamps.8090.desc.world_europe
@@ -1849,7 +1839,7 @@ ep3_laamps.8090 = {
 						# geographical_region = world_middle_east
 						OR = {
 							geographical_region = middleearth_harad_dunesea
-
+							geographical_region = middleearth_harad_near
 						}
 					}
 				}
@@ -1866,7 +1856,7 @@ ep3_laamps.8090 = {
 			triggered_desc = {
 				trigger = {
 					root.domicile.domicile_location = {
-						# geographical_region = world_africa #WHG TODO
+						# geographical_region = world_africa
 						geographical_region = middleearth_uttersouth
 					}
 				}
@@ -1875,7 +1865,7 @@ ep3_laamps.8090 = {
 			triggered_desc = {
 				trigger = {
 					root.domicile.domicile_location = {
-						# geographical_region = world_steppe #WHG TODO
+						# geographical_region = world_steppe
 						geographical_region = middleearth_rhun
 					}
 				}
@@ -1905,7 +1895,7 @@ ep3_laamps.8090 = {
 		# 		}
 		# 		desc = ep3_laamps.8090.desc.world_asia_china
 		# 	}
-			triggered_desc = { #WHG TODO
+			triggered_desc = {
 				trigger = {
 					root.domicile.domicile_location = {
 						# geographical_region = world_asia_japan
@@ -1917,7 +1907,7 @@ ep3_laamps.8090 = {
 			triggered_desc = {
 				trigger = {
 					root.domicile.domicile_location = {
-						# geographical_region = world_asia_korea #WHG TODo
+						# geographical_region = world_asia_korea
 						geographical_region = middleearth_mountains
 					}
 				}
@@ -1946,7 +1936,7 @@ ep3_laamps.8090 = {
 
 	trigger = {
 		has_government = landless_adventurer_government
-		is_adult = yes
+		is_lotr_adult = yes
 		is_available_allow_travelling = yes
 		is_location_valid_for_travel_event_on_land = yes
 		root.domicile.domicile_location.county.culture = { #LotR - appropriate culture
@@ -3774,7 +3764,6 @@ ep3_laamps.8200 = {
 				has_domicile_parameter = camp_recruit_locals_events
 			}
 		}
-		NOT = { location.culture = culture:wastelands } #WHG
 	}
 
 	weight_multiplier = {
@@ -3911,6 +3900,7 @@ ep3_laamps.8200 = {
 					add = 25
 				}
 				save_scope_as = new_person
+
 			}
 
 			hidden_effect = {

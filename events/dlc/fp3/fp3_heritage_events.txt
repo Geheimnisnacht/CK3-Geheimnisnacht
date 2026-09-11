@@ -16,7 +16,7 @@
 	#fp3_yearly.8031 - Grateful Letter (letter event, follow-up)
 #fp3_yearly.8032 - The Ten Days of Death, by Ola Jentzsch
 #fp3_yearly.8033 - Frozen Delights, by Ola Jentzsch
-#fp3_yearly.8034 - The Hephthalite Hoard, by Ola Jentzsch 
+#fp3_yearly.8034 - The Hephthalite Hoard, by Ola Jentzsch -> The Balchoth Hoard
 #fp3_yearly.8035 - The Heart and the Creator, by Ola Jentzsch 
 #fp3_yearly.8036 - The City of the Mouthless, by Ola Jentzsch 
 
@@ -28,7 +28,7 @@ scripted_trigger fp3_hateful_ruler_trigger = {
 	is_ai = yes 
 	NOR = {
 		target_is_liege_or_above = root 
-		# faith = { has_doctrine = special_doctrine_is_gnostic_faith } #WHG
+		# faith = { has_doctrine = special_doctrine_is_gnostic_faith }
 		faith = { has_doctrine = doctrine_pluralism_pluralistic }
 		has_trait = compassionate
 		has_trait = forgiving
@@ -41,12 +41,13 @@ scripted_trigger fp3_hateful_ruler_trigger = {
 		has_trait = sadistic
 		has_trait = paranoid 
 		faith = { has_doctrine = doctrine_pluralism_fundamentalist }
+		faith = { has_doctrine = doctrine_pluralism_chosen_people }
 	}
 }
 
 fp3_yearly.8019 = {
 	type = character_event  
-	orphan = yes #WHG 
+	orphan = yes
 	title = fp3_yearly.8019.t
 	desc = fp3_yearly.8019.desc	
 	theme = faith 
@@ -68,7 +69,7 @@ fp3_yearly.8019 = {
 	trigger = { 
 		is_ai = no
 		#standard sanity checks
-		# has_fp3_dlc_trigger = yes #WHG
+		# has_fp3_dlc_trigger = yes
 		# is_ruler = yes
 		# is_available_healthy_adult = yes
 	
@@ -79,7 +80,7 @@ fp3_yearly.8019 = {
 		# 		geographical_region = world_persian_empire 
 		# 		geographical_region = world_steppe
 		# 	}
-		# } #WHG
+		# }
 		# NOR = { 
 		# 	has_title = title:k_mesopotamia 
 		# 	has_title = title:k_jazira 
@@ -88,7 +89,7 @@ fp3_yearly.8019 = {
 		#checking for a ruler that would persecute the Manicheans in Mesopotamia. Ideally the caliph, but any ruler would do. 
 		# any_independent_ruler = {
 			# in_diplomatic_range = root 
-			# any_realm_province = { # WHG
+			# any_realm_province = { # LotR
 			# 	OR = {
 			# 		geographical_region = world_mesopotamia #this is where the Manichean communities were originally concentrated
 			# 		geographical_region = world_jazira
@@ -99,7 +100,7 @@ fp3_yearly.8019 = {
 
 		# any_held_county = { }
 		
-		always = no  # WHG
+		always = no  # LotR
 	}
 
 	cooldown = { years = 100 }
@@ -110,7 +111,7 @@ fp3_yearly.8019 = {
 			limit = {
 				in_diplomatic_range = root 
 				# any_realm_province = {
-				# 	OR = { #WHG
+				# 	OR = {
 				# 		geographical_region = world_mesopotamia 
 				# 		geographical_region = world_jazira
 				# 	}
@@ -123,7 +124,7 @@ fp3_yearly.8019 = {
 					any_held_title = { is_head_of_faith = yes }
 				}
 				# modifier = {
-				# 	factor = 20 #WHG
+				# 	factor = 20
 				# 	has_title = title:k_mesopotamia 
 				# }
 				# modifier = {
@@ -151,7 +152,7 @@ fp3_yearly.8019 = {
 				# 			is_holy_site_of = faith:manichean #This will typically be Samarkand 
 				# 		}
 				# 	}
-				# } #WHG
+				# }
 				# modifier = {
 				# 	factor = 50
 				# 	faith = faith:manichean
@@ -191,7 +192,7 @@ fp3_yearly.8019 = {
 				# }
 				# else = {
 					add = 50
-				# } #WHG
+				# }
 			}
 			save_scope_as = manichean_leader	
 		}	
@@ -256,7 +257,7 @@ fp3_yearly.8019 = {
 				AND = {
 					#OR = {
 						has_doctrine = tenet_tax_nonbelievers
-					#	has_doctrine = special_doctrine_jizya #WHG
+					#	has_doctrine = special_doctrine_jizya
 					#}
 					#NOT = { has_doctrine = special_doctrine_is_gnostic_faith }
 				}
@@ -316,7 +317,7 @@ fp3_yearly.8019 = {
    		}
 
    		ai_chance = { #zealous-cruel AI goes for this option
-			base = 10
+         base = 10
         	ai_value_modifier = {
             	ai_zeal = 0.8 
             	ai_vengefulness = 0.8
@@ -361,6 +362,7 @@ scripted_trigger fp3_zealous_caliph_trigger = {
 		has_trait = sadistic
 		has_trait = paranoid 
 		faith = { has_doctrine = doctrine_pluralism_fundamentalist }
+		faith = { has_doctrine = doctrine_pluralism_chosen_people }
 	}
 }
 
@@ -394,7 +396,7 @@ scripted_trigger fp3_zoroastrian_holy_sites_province_trigger = {
 		# is_holy_site_of = faith:khurramism
 		# is_holy_site_of = faith:mazdakism
 		# is_holy_site_of = faith:urartuism
-		always = no #WHG
+		always = no
 	}
 }
 
@@ -403,6 +405,7 @@ fp3_yearly.8020 = {
 	title = fp3_yearly.8020.t
 	desc = fp3_yearly.8020.desc	
 	theme = faith 
+	orphan = yes
 
 	left_portrait = {
 		character = root
@@ -423,26 +426,26 @@ fp3_yearly.8020 = {
 	trigger = {
 
 		#standard sanity checks
-		# has_fp3_dlc_trigger = yes #WHG
+		# has_fp3_dlc_trigger = yes
 		# is_ruler = yes
 		# is_available_healthy_adult = yes
 
 		#premise checks - we need ROOT's faith to not have been reformed into a matriarchal faith for this historical context 
-		# OR = { #WHG
+		# OR = {
 		# 	has_religion = religion:islam_religion
 		# 	has_religion = religion:christianity_religion
 		# }
 
-		# has_game_rule = default_gender_equality #this triggers an error. Suspected code issue. #WHG
+		# has_game_rule = default_gender_equality #this triggers an error. Suspected code issue.
 
 		# NOT = {
 			# faith = { has_doctrine = doctrine_gender_female_dominated } 
-		# } #WHG
+		# }
 
 		#checking for approppriate county 
 		# any_held_county = {
 			# OR = {
-				# this = title:c_rayy # WHG
+				# this = title:c_rayy # LotR
 				# any_county_province = { 
 					# barony = { fp3_zoroastrian_holy_sites_province_trigger = yes }	
 				# }
@@ -458,7 +461,7 @@ fp3_yearly.8020 = {
 			# fp3_zealous_caliph_trigger = yes
 			# checking that his Islam hasn't been reformed into something that'd make the event's premise weird
 			# faith = { 
-				# NOT = { #WHG
+				# NOT = {
 					# has_doctrine = doctrine_gender_female_dominated 
 				# }	
 			# }	
@@ -469,7 +472,7 @@ fp3_yearly.8020 = {
 			# any_spouse = { 
 				# fp3_bibi_shahrbanu_devotee_trigger = yes
 			# }
-			# any_concubine = {  #WHG
+			# any_concubine = { 
 				# fp3_bibi_shahrbanu_devotee_trigger = yes
 			# }
 			# any_child = {
@@ -488,9 +491,9 @@ fp3_yearly.8020 = {
 
 		
 		#Saving relevant historical characters and faiths as scopes
-		# character:180638 = { save_scope_as = bibi_shahrbanu } #WHG
+		# character:180638 = { save_scope_as = bibi_shahrbanu } #LotR
 
-		# character:33912 = { save_scope_as = imam_husayn } #WHG
+		# character:33912 = { save_scope_as = imam_husayn } #LotR
 
 		# religion:zoroastrianism_religion = { save_scope_as = anahita_faith }
 
@@ -510,7 +513,7 @@ fp3_yearly.8020 = {
 		}
 
 		# random_held_county = {
-		# 	limit = { this = title:c_rayy } #WHG
+		# 	limit = { this = title:c_rayy }
 		# 	save_scope_as = temple_county
 		# }
 
@@ -764,7 +767,12 @@ fp3_yearly.8020 = {
 ###################################
 scripted_trigger fp3_not_super_relevant_yet_suitable_person_trigger = {
 	is_ai = yes
-	is_adult = yes 
+	#is_adult = yes
+	is_lotr_adult = yes
+	OR = {
+		is_human = yes
+		is_dwarf = yes 
+	}
 	OR = {
 		has_lifestyle = learning_lifestyle 
 		learning > 4
@@ -815,7 +823,11 @@ fp3_yearly.8021 = {
 		has_fp3_dlc_trigger = yes
 		is_ruler = yes
 		is_available_healthy_adult = yes
-		#root.capital_province = { geographical_region = world_persian_empire } #WHG
+		OR = {
+			is_human = yes
+			is_dwarf = yes
+		}
+		# root.capital_province = { geographical_region = world_persian_empire } # LotR
 
 		#checking for a vassal with an appropriate relation 
 		any_powerful_vassal = {
@@ -901,7 +913,7 @@ fp3_yearly.8021 = {
 		}
 		else = {
 			create_character = {
-				age = { 32 50 }
+				age = { young_age middle_age }
 			 	location = root.capital_province
 			 	template = scholar_character
 			 	trait = education_learning_3
@@ -1233,7 +1245,7 @@ fp3_yearly.8022 = {
 			limit = {
 				faith = {
 					OR = {
-						# has_doctrine = tenet_dharmic_pacifism #WHG
+						# has_doctrine = tenet_dharmic_pacifism
 						has_doctrine = tenet_pacifism
 					}
 				}
@@ -1422,7 +1434,7 @@ scripted_trigger non_zoroastrian_faith_trigger = {
 }
 
 scripted_trigger dakhma_nostalgic_trigger = {
-	# culture = { has_cultural_pillar = heritage_iranian } #WHG
+	# culture = { has_cultural_pillar = heritage_iranian }
 	OR = {
 		faith = { has_doctrine_parameter = sky_burials_active }
 		has_trait = stubborn
@@ -1488,7 +1500,7 @@ fp3_yearly.8024 = {
 		has_fp3_dlc_trigger = yes
 		is_ruler = yes
 		is_available_adult = yes
-		# root.capital_province = { geographical_region = world_persian_empire } #WHG
+		# root.capital_province = { geographical_region = world_persian_empire }
 
 		NOT = {
 			faith = { has_doctrine_parameter = sky_burials_active }
@@ -1511,7 +1523,7 @@ fp3_yearly.8024 = {
 		random_consort = { #we need a dying consort
 			limit = {
 				is_ai = yes
-				faith = { has_doctrine_parameter = sky_burials_active } #WHG
+				faith = { has_doctrine_parameter = sky_burials_active }
 				OR = {
 					health <= death_chance_dying_health
 					has_trait = infirm
@@ -1822,7 +1834,7 @@ scripted_trigger fp3_rich_foreign_ruler_trigger = {
 		}
 	}
 	OR = {
-		# culture = { has_cultural_pillar = heritage_iranian } #WHG
+		# culture = { has_cultural_pillar = heritage_iranian }
 		# knows_language_of_culture = culture:persian
 		dynasty = { has_dynasty_perk = fp3_khvarenah_legacy_2 }
 	}
@@ -1832,7 +1844,7 @@ fp3_yearly.8027 = {
 	type = character_event  
 	title = fp3_yearly.8027.t
 	desc = fp3_yearly.8027.desc	
-	theme = crown #WHG
+	theme = crown
 	orphan = yes
 
 	left_portrait = {
@@ -1870,7 +1882,7 @@ fp3_yearly.8027 = {
 
 		# any_neighboring_top_liege_realm_owner = { fp3_rich_foreign_ruler_trigger = yes }
 		
-		always = no # WHG
+		always = no # LotR
 	}
 
 	weight_multiplier = {
@@ -1913,8 +1925,8 @@ fp3_yearly.8027 = {
 				location = root.capital_province
 				template = writer_character
 				gender_female_chance = root_faith_dominant_gender_female_chance
-				#faith = faith:maturidi #WHG
-				#culture = culture:persian #WHG
+				#faith = faith:maturidi #LotR
+				#culture = culture:persian #LotR
 				trait = lifestyle_poet 
 				trait = shrewd 
 				save_scope_as = snubbed_poet 	
@@ -2321,18 +2333,33 @@ fp3_yearly.8032 = {
 
 		is_available_adult = yes
 		OR = {
-			culture = { has_cultural_pillar = heritage_arabyan }  #WHG TODO CHECK IF APPLICABLE
+			culture = { 
+				OR = {
+					has_cultural_pillar = heritage_north_khailuza 
+					has_cultural_pillar = heritage_south_khailuza 
+				}
+			}
 			AND = {
 				any_consort = {
-					culture = { has_cultural_pillar = heritage_arabyan }
+					culture = { 
+						OR = {
+							has_cultural_pillar = heritage_north_khailuza 
+							has_cultural_pillar = heritage_south_khailuza 
+						}
+					}
 				}
-				#root.capital_province = { geographical_region = world_persian_empire } #WHG TODO ARABY
+				root.capital_province = { geographical_region = middleearth_harad_bayoformal_khy }
 			}
 		}
 
 		any_consort = {
 			is_ai = yes 
-			culture = { has_cultural_pillar = heritage_arabyan } #WHG TODO CHECK
+			culture = { 
+				OR = {
+					has_cultural_pillar = heritage_north_khailuza 
+					has_cultural_pillar = heritage_south_khailuza 
+				}
+			}
 			NOR = {
 				has_trait = arrogant
 				has_trait = cynical
@@ -2356,7 +2383,12 @@ fp3_yearly.8032 = {
 		random_consort = {
 			limit = {
 				is_ai = yes 
-				culture = { has_cultural_pillar = heritage_arabyan } #WHG TODO CHECK
+				culture = { 
+					OR = {
+						has_cultural_pillar = heritage_north_khailuza 
+						has_cultural_pillar = heritage_south_khailuza 
+					}
+				}
 				NOR = {
 					has_trait = arrogant
 					has_trait = cynical
@@ -2387,9 +2419,9 @@ fp3_yearly.8032 = {
 		name = fp3_yearly.8032.a
 
 		trigger = {
-			OR = {
-				has_religion = religion:arabyan_religion #WHG
-				has_religion = religion:the_lady_religion
+			NOR = {
+				has_religion = religion:ormalbay_religion
+				faith = { has_doctrine = tenet_ancestor_worship }
 			}
 		}
 
@@ -2420,13 +2452,17 @@ fp3_yearly.8032 = {
 			}
 			NOR = {
 				AND = {
-					#has_religion = religion:islam_religion
-					has_religion = religion:araby_religion #WHG 
+					OR = {
+						has_religion = religion:ormalbay_religion
+						faith = { has_doctrine = tenet_ancestor_worship }
+					}
 					has_trait = zealous 
 				}
 				AND = {
-					#has_religion = religion:christianity_religion
-					has_religion = religion:the_lady_religion #WHG
+					OR = {
+						has_religion = religion:ormalbay_religion
+						faith = { has_doctrine = tenet_ancestor_worship }
+					}
 					has_trait = zealous
 				}
 			}
@@ -2539,7 +2575,7 @@ fp3_yearly.8033 = {
 		is_ruler = yes
 		is_available = yes 
 		is_healthy = yes 
-		root.capital_province = { geographical_region = world_persian_empire } #WHG TODO ARABY
+		root.capital_province = { geographical_region = middleearth_harad_bayoformal }
 
 		#checking that we have an interesting character that would fit the scope
 		OR = { 
@@ -2562,7 +2598,7 @@ fp3_yearly.8033 = {
 
 		any_held_county = {
 			any_county_province = {
-				geographical_region = world_persian_empire #WHG TODO ARABY
+				geographical_region = middleearth_harad_bayoformal
 				OR = {
 					terrain = desert
 					terrain = drylands
@@ -2630,7 +2666,7 @@ fp3_yearly.8033 = {
 		random_held_county = {
 			limit = {
 				any_county_province = {
-					geographical_region = world_persian_empire #WHG TODO ARABY
+					geographical_region = middleearth_harad_bayoformal
 					OR = {
 						terrain = desert
 						terrain = drylands
@@ -2793,14 +2829,14 @@ fp3_yearly.8033 = {
 # The Hephthalite Hoard - by Ola Jentzsch
 ###############################################################
 scripted_trigger hypothetical_hephthalite_heritage_trigger = {
-	OR = {
-		has_culture = culture:saka #WHG TODO STEPPE stuff
-
+	OR = { # LotR
+		lotr_steppe_cultures_trigger = yes
+		has_culture = culture:dorwinionrim
 	}
 }
 
 scripted_trigger hephthalite_hoard_province_trigger = {
-	OR = { # WHG TODO
+	OR = { # LotR
 		geographical_region = middleearth_rhun
 	}
 }
@@ -3103,7 +3139,7 @@ fp3_yearly.8035 = {
 
 	trigger = {
 
-		#standard sanity checks #WHG
+		#standard sanity checks
 		# has_fp3_dlc_trigger = yes
 		# is_available_healthy_adult = yes 
 		# learning >= average_skill_level
@@ -3129,7 +3165,7 @@ fp3_yearly.8035 = {
 			# }
 		# }
 		
-		always = no #WHG
+		always = no #LotR
 	}
 
 	weight_multiplier = {
@@ -3363,14 +3399,20 @@ fp3_yearly.8036 = {
 		has_fp3_dlc_trigger = yes
 		is_available_healthy_adult = yes 
 		is_ruler = yes 
-		root.capital_province = { geographical_region = world_persian_empire } #WHG TODO CHECK
+		is_druedain = no
+		# root.capital_province = { geographical_region = world_persian_empire }
 
 		any_councillor = {	superstitious_coward_trigger = yes	}
 
-		any_held_county = {
-			OR = {
-				this = title:c_ardabil
-				development_level <= medium_development_level
+		any_sub_realm_county = { #Regions where Pukel Men are likely to be found
+			any_province = {
+				OR = {
+					AND = {
+						geographical_region = dlc_fp3_region_pukel_men
+						terrain = mountains
+					}
+					geographical_region = middleearth_west_enedhwaith
+				}
 			}
 		}
 	}
@@ -3384,17 +3426,19 @@ fp3_yearly.8036 = {
 			save_scope_as = superstitious_councillor
 		}
 
-		random_held_county = { #WHG TODO CHECK
-			if = {
-				limit = { this = title:c_ardabil }
-				save_scope_as = spooky_county
-			}
-			else_if = {
-				limit = { 
-					development_level < medium_development_level
+		random_realm_county = {
+			limit = {
+				any_province = {
+					OR = {
+						AND = {
+							geographical_region = dlc_fp3_region_pukel_men
+							terrain = mountains
+						}
+						geographical_region = middleearth_west_enedhwaith
+					}
 				}
-				save_scope_as = spooky_county
 			}
+			save_scope_as = spooky_county
 		}
 	}
 
