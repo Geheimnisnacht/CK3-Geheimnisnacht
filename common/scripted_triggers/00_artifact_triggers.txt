@@ -2171,7 +2171,6 @@ sword_unique_gfx_trigger = {
 		portrait_northern_proxy_clothing_spouse_trigger = yes
 		# WHG TODO - portrait_bellakari_clothing_spouse_trigger is never defined anywhere and "bellakari" matches no culture or heritage in the mod (orphaned reference)
 		# portrait_bellakari_clothing_spouse_trigger = yes
-		portrait_north_haradrim_clothing_spouse_trigger = yes
 		portrait_steppe_proxy_clothing_spouse_trigger = yes
 		portrait_byzantine_proxy_clothing_spouse_trigger = yes
 		portrait_indian_proxy_clothing_spouse_trigger = yes
@@ -2186,7 +2185,6 @@ spear_unique_gfx_trigger = {
 		portrait_northern_proxy_clothing_spouse_trigger = yes
 		# WHG TODO - portrait_bellakari_clothing_spouse_trigger is never defined anywhere and "bellakari" matches no culture or heritage in the mod (orphaned reference)
 		# portrait_bellakari_clothing_spouse_trigger = yes
-		portrait_north_haradrim_clothing_spouse_trigger = yes
 		portrait_mena_proxy_clothing_spouse_trigger = yes
 		portrait_indian_proxy_clothing_spouse_trigger = yes
 		portrait_african_proxy_clothing_spouse_trigger = yes
@@ -2200,7 +2198,6 @@ dagger_unique_gfx_trigger = {
 		portrait_northern_proxy_clothing_spouse_trigger = yes
 		# WHG TODO - portrait_bellakari_clothing_spouse_trigger is never defined anywhere and "bellakari" matches no culture or heritage in the mod (orphaned reference)
 		# portrait_bellakari_clothing_spouse_trigger = yes
-        portrait_north_haradrim_clothing_spouse_trigger = yes
 		portrait_steppe_proxy_clothing_spouse_trigger = yes
 		portrait_mena_proxy_clothing_spouse_trigger = yes
 		portrait_african_proxy_clothing_spouse_trigger = yes
