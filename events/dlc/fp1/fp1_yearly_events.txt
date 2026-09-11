@@ -1,6 +1,6 @@
 ﻿namespace = fp1_yearly
 
-# WHG - remove real world references
+# LOTR - remove real world references
 
 ##################################################
 # #Standard Yearlies
@@ -95,7 +95,7 @@ fp1_yearly.0001 = {
 		can_raid_trigger = yes
 		#Should be North Germanic, or the flavour won't make sense.
 		OR = {
-			culture = { has_cultural_pillar = heritage_norscan } #WHG
+			culture = { has_cultural_pillar = heritage_norscan }
 		}
 		#Needs a knight for scapegoating.
 		any_knight = {
@@ -542,7 +542,7 @@ fp1_yearly.0001 = {
 #		#Must have at least one suitable courtier.
 #		any_courtier = { offensive_courtier_candidate_trigger = yes }
 #		#Both yourself and your capital must be Germanic Pagans.
-#		religion = religion:gwathuirim_religion #WHG
+#		religion = religion:gwathuirim_religion #LotR
 #		capital_county.religion = religion:gwathuirim_religion
 ##		religion = religion:germanic_religion
 ##		capital_county.religion = religion:germanic_religion
@@ -956,14 +956,15 @@ fp1_yearly.0021 = {
 		is_landed = yes
 		#Must be North Germanic.
 		OR = {
-			culture = { has_cultural_pillar = heritage_norscan } #WHG
-			#culture = { has_cultural_pillar = heritage_north_germanic }
+			culture = { has_cultural_pillar = heritage_daen_lintis }
+			culture = { has_cultural_pillar = heritage_eotheod }
+			culture = { has_cultural_pillar = heritage_northron }
 		}
 #		culture = { has_cultural_pillar = heritage_north_germanic }
 		#Holmgangs must still be in fashion.
-		#NOT = { #WHG
+		#NOT = {
 		#	culture = { has_cultural_era_or_later = culture_era_late_medieval }
-		#	culture = { has_cultural_era_or_later = culture_era_high_medieval }
+#		#	culture = { has_cultural_era_or_later = culture_era_high_medieval }
 		#}
 		#Must have at least two knights available who can get into a dispute.
 		any_knight = {
@@ -986,13 +987,17 @@ fp1_yearly.0021 = {
 		capital_barony = { save_scope_as = capital_barony }
 		##Grab the first knight.
 		random_knight = {
-			limit = { suitable_knight_for_dispute_trigger = yes }
+			limit = { 
+				suitable_knight_for_dispute_trigger = yes
+				cannot_be_killed = no
+			}
 			save_scope_as = first_knight
 		}
 		##Grab the second knight.
 		random_knight = {
 			limit = {
 				suitable_knight_for_dispute_trigger = yes
+				cannot_be_killed = no
 				this != scope:first_knight
 			}
 			save_scope_as = second_knight
@@ -1154,18 +1159,18 @@ fp1_yearly.0021 = {
 				}
 			}
 			# #Dispute over a stolen pig.
-			# 125 = { # WHG
+			# 125 = { # LotR
 			# 	trigger = {
 			# 		#Exempt faiths that don't eat pork: technically the pig could be as a pet or for non-edible purposes, but it scans best if we just don't bring this up.
-			# 		NOR = { # WHG
+			# 		NOR = { # LotR
 			# 			scope:first_knight = {
-			# 				OR = { # WHG
+			# 				OR = { # LotR
 			# 					religion = religion:judaism_religion
 			# 					religion = religion:islam_religion
 			# 				}
 			# 			}
 			# 			scope:second_knight = {
-			# 				OR = { # WHG
+			# 				OR = { # LotR
 			# 					religion = religion:judaism_religion
 			# 					religion = religion:islam_religion
 			# 				}
@@ -1592,14 +1597,14 @@ fp1_yearly.0031 = {
 		NOT = { has_character_flag = had_event_fp1_yearly_0031 }
 		is_landed = yes
 		#Must be some form of North Germanic culture.
-		OR = {	#WHG
+		OR = {
 			culture = { has_cultural_pillar = heritage_norscan }
 		}
-		#culture = { has_cultural_pillar = heritage_north_germanic }
+#		culture = { has_cultural_pillar = heritage_north_germanic }
 		#And that culture must not be too advanced.
 		#culture = {
 		#	NOT = { has_cultural_era_or_later = culture_era_late_medieval }
-		#	NOT = { has_cultural_era_or_later = culture_era_high_medieval }
+#		#	NOT = { has_cultural_era_or_later = culture_era_high_medieval }
 		#}
 	}
 
@@ -1623,7 +1628,7 @@ fp1_yearly.0031 = {
 		#Create our actual lie.
 		##Six options for roughly 16.6% chance apiece.
 		random_list = {
-			#WHG: removed ocean tales.
+			#LotR: removed ocean tales.
 			#Swam home after their longboat sank from too much plunder.
 #			166 = {
 #				#Fallback: always available.
@@ -1658,7 +1663,7 @@ fp1_yearly.0031 = {
 				}
 			}
 			#Averted giant holmgang that would have sunk Iceland.
-#			166 = { #WHG
+#			166 = {
 #				trigger = {
 #					#Must not have any counties in Iceland, as the news'd travel otherwise.
 #					NOT = {
@@ -1931,44 +1936,7 @@ fp1_yearly.0031 = {
 ##################################################
 
 scripted_trigger suitable_islamic_realm_trigger = {
-	#First off, we need people who will consider root a savage.
-	NOR = {
-		government_has_flag = government_is_tribal
-		government_has_flag = government_is_nomadic
-	}
-	#Next, filter down to the correct religion.
-	OR = {
-		religion = religion:arabyan_religion #WHG
-	}
-	#religion = religion:islam_religion
-	#Making sure to only grab rulers from the Middle East.
-	capital_province = {
-		OR = {
-			geographical_region = middleearth_harad
-#			geographical_region = world_asia_minor
-#			geographical_region = world_middle_east_jerusalem
-#			geographical_region = world_middle_east_arabia
-#			geographical_region = world_middle_east_persia
-#			geographical_region = world_india_rajastan
-		}
-	}
-	#And then misc checks to make sure that the tone is correct.
-	top_liege = {
-		NOR = {
-			#Such as the liege not having much contact with Germanic Paganism.
-			religion = religion:gwathuirim_religion
-#			religion = religion:germanic_religion
-			any_vassal_or_below = { religion = religion:gwathuirim_religion }
-#			any_vassal_or_below = { religion = religion:germanic_religion }
-			#The realm not being positioned next door to root.
-			character_is_realm_neighbor = root.top_liege
-			#And the realm generally not being inside the same (admittedly large) area.
-			any_realm_county = {
-				title_province = { geographical_region = world_old_world_empire_north } #WHG TODO change to kislev
-#				title_province = { geographical_region = dlc_fp1_region_russian_steppe }
-			}
-		}
-	}
+	always = no
 }
 
 #	An Islamic explorer stops by for a visit.
@@ -1988,38 +1956,48 @@ fp1_yearly.0041 = {
 	override_background = { reference = throne_room }
 
 	trigger = {
-		#DLC check.
-		has_fp1_dlc_trigger = yes
-		#Standard checks.
-		is_available_even_at_war_adult = yes
-		NOT = { has_character_flag = had_event_fp1_yearly_0041 }
-		is_landed = yes
-		#Must be a Norse pagan tribal.
-		government_has_flag = government_is_tribal
-		OR = {
-			culture = { has_cultural_pillar = heritage_norscan } #WHG
-		}
-		#religion = religion:gwathuirim_religion
-		#religion = religion:germanic_religion
-		#With a capital in the steppe/Russia.
+	always = no # 		#DLC check.
+# 		has_fp1_dlc_trigger = yes
+# 		#Standard checks.
+# 		is_available_even_at_war_adult = yes
+# 		NOT = { has_character_flag = had_event_fp1_yearly_0041 }
+# 		is_landed = yes
+# 		#Must be a Norse pagan tribal.
+# 		government_has_flag = government_is_tribal
+# 		OR = {
+# 			culture = { has_cultural_pillar = heritage_daen_lintis }
+# 			culture = { has_cultural_pillar = heritage_eotheod }
+# 			culture = { has_cultural_pillar = heritage_northron }
+# 		}
+# 		#religion = religion:gwathuirim_religion
+# #		religion = religion:germanic_religion
+# 		#With a capital in the steppe/Russia.
 		
-		#capital_province = { geographical_region = world_old_world_empire_north } #WHG TODO change to kislev
-#		capital_province = { geographical_region = dlc_fp1_region_russian_steppe }
-		#Just for good measure, you should probably be a small-ish realm.
-		realm_size <= medium_realm_size
-		#No same-realm Muslims.
-		top_liege = {
-			NOR = {
-				religion = religion:arabyan_religion
-				any_vassal_or_below = { religion = religion:arabyan_religion }
-				# religion = religion:islam_religion # WHG
-				# any_vassal_or_below = { religion = religion:islam_religion }
-			}
-		}
-		#A suitable Islamic realm for the explorer to have come from must exists.
-		any_kingdom = {
-			holder ?= { suitable_islamic_realm_trigger = yes }
-		}
+# 		#capital_province = { geographical_region = middleearth_west_enedhwaith }
+# #		capital_province = { geographical_region = dlc_fp1_region_russian_steppe }
+# 		#Just for good measure, you should probably be a small-ish realm.
+# 		realm_size <= medium_realm_size
+# 		#No same-realm Muslims.
+# 		top_liege = {
+# 			NOR = {
+# 				OR = {
+# 					religion = religion:far_harad_religion #LotR
+# 						religion = religion:harad_religion
+# 				}
+# 				any_vassal_or_below = {
+# 					OR = {
+# 						religion = religion:far_harad_religion #LotR
+# 						religion = religion:harad_religion
+# 					}
+# 				}
+# 				# religion = religion:islam_religion # LotR
+# 				# any_vassal_or_below = { religion = religion:islam_religion }
+# 			}
+# 		}
+# 		#A suitable Islamic realm for the explorer to have come from must exists.
+# 		any_kingdom = {
+# 			holder ?= { suitable_islamic_realm_trigger = yes }
+# 		}
 	}
 
 	weight_multiplier = {
@@ -2128,8 +2106,8 @@ fp1_yearly.0041 = {
 			}
 		}
 	}
-
-	#Invite them to stay and convert you.
+	
+	#Invite them to stay and convert you.	#lotr: invite them to stay and teach you knowledge
 	option = {
 		name = fp1_yearly.0041.b
 		#Prohibit the AI from converting to far-away religions unless they're genuinely very interested in scope:explorer's faith.
@@ -2296,12 +2274,12 @@ fp1_yearly.0051 = {
 		#Must have a draugr candidate ready; this is set on the on_death on_action.
 		has_variable = potential_draugr
 		#Must be a tribal...
-		government_has_flag = government_is_tribal
-		#With a rural, North Germanic capital.
-		capital_county = {
-			#Checking the capital, not the character, since it's a local superstition rather than something ye're insisiting on.
+		#government_has_flag = government_is_tribal
+		#With a rural county in Cardolan.
+		any_sub_realm_county = {
+			#Checking the county, not the character, since it's a local superstition rather than something ye're insisiting on.
+			title_province = { geographical_region = middleearth_west_arnor_cardolan }
 			#culture = { has_cultural_pillar = heritage_north_germanic }
-			culture = { has_cultural_pillar = heritage_norscan } #WHG
 			development_level <= terrible_development_level
 		}
 	}
@@ -2362,6 +2340,13 @@ fp1_yearly.0051 = {
 				100 = {
 					trigger_event = {
 						id = fp1_yearly.0065
+						months = 1
+					}
+				}
+				#LotR: The draugr!
+				100 = {
+					trigger_event = {
+						id = fp1_yearly.0066
 						months = 1
 					}
 				}
@@ -3220,6 +3205,7 @@ fp1_yearly.0064 = {
 				count = 0
 				is_alive = yes
 			}
+			lotr_can_adopt = { ADOPTED = scope:draugr_orphan }
 		}
 
 		#One shiny new child for you.
@@ -3334,6 +3320,130 @@ fp1_yearly.0065 = {
 	}
 }
 
+#	LotR: The draugr was a draugr!
+fp1_yearly.0066 = {
+	type = character_event
+	title = fp1_yearly.0066.t
+	desc = fp1_yearly.0066.desc
+	theme = martial
+	left_portrait = {
+		character = root
+		animation = shock
+	}
+	override_background = { reference = wilderness }
+
+	trigger = {
+		is_available_even_at_war_adult = yes
+	}
+
+	#Fight the draugr.
+	option = {
+		name = fp1_yearly.0066.a
+
+		#You meet the draugr's challenge!
+		duel = {
+			skill = prowess
+			value = high_skill_rating
+			#You kill the draugr!
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				desc = fp1_yearly.0066.a.tt_success
+				send_interface_toast = {
+					title = fp1_yearly.0066.a.tt_success
+					left_icon = root
+					capital_county = {
+						add_county_modifier = {
+							modifier = draugr_remedies_succeeded_fp1_modifier
+							years = 10
+						}
+					}
+					add_prestige = medium_prestige_gain
+				}
+			}
+			#You only just escape with your life!
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				desc = fp1_yearly.0066.a.tt_failure
+				send_interface_toast = {	
+					title = fp1_yearly.0066.a.tt_failure
+					left_icon = root
+					capital_county = {
+						add_county_modifier = {
+							modifier = draugr_monstrous_draugr_fp1_modifier
+							years = 10
+						}
+					}
+					increase_wounds_effect = { REASON = draugr }
+#					increase_wounds_effect = { REASON = bear }
+				}
+			}
+		}
+
+		stress_impact = {
+			brave = major_stress_impact_loss
+			craven = major_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_boldness = 0.5
+				ai_honor = 0.25
+			}
+			modifier = {	#Weight up for stress.
+				add = 30
+				has_trait = brave
+			}
+			modifier = {	#Weight down for stress.
+				add = -30
+				has_trait = craven
+			}
+		}
+	}
+	
+	#Retreat!
+	option = {
+		name = fp1_yearly.0066.b
+
+		#The bear will be eating people for some time to come.
+		capital_county = {
+			add_county_modifier = {
+				modifier = draugr_monstrous_draugr_fp1_modifier
+				years = 10
+			}
+		}
+		#And e'eryone knows why.
+		add_prestige = medium_prestige_loss
+
+		stress_impact = {
+			craven = major_stress_impact_loss
+			brave = major_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_honor = -0.25
+				ai_boldness = -0.5
+			}
+			modifier = {	#Weight up for stress.
+				add = 30
+				has_trait = craven
+			}
+			modifier = {	#Weight down for stress.
+				add = -30
+				has_trait = brave
+			}
+		}
+	}
+}
+
 ##################################################
 # The Deep Places of the World
 # by Ewan Cowhig Croft
@@ -3379,7 +3489,7 @@ fp1_yearly.0071 = {
 				trigger = { scope:troll_type = flag:wolf }
 				desc = fp1_yearly.0071.desc.troll_type.wolf
 			}
-			# A colossal wolverine.
+			# A colossal wolverine. #LotR - Its actually a real troll!
 			triggered_desc = {
 				trigger = { scope:troll_type = flag:wolverine }
 				desc = fp1_yearly.0071.desc.troll_type.wolverine
@@ -3432,7 +3542,7 @@ fp1_yearly.0071 = {
 		capital_county = {
 			# Checking the capital, not the character, since it's a local superstition rather than something ye're insisiting on.
 			OR = {
-				title_province = { geographical_region = middleearth_west_arnor_cardolan } #WHG TODO kislev and northern empire adjacent
+				title_province = { geographical_region = middleearth_west_arnor_cardolan }
 				title_province = { geographical_region = middleearth_forodwaith_angmar }
 			}
 			#fp1_is_norse_or_easterling = yes
@@ -3475,7 +3585,7 @@ fp1_yearly.0071 = {
 					value = flag:wolf
 				}
 			}
-			# A colossal wolverine.
+			# A colossal wolverine. #LotR - Its actually a real troll!
 			200 = {
 				save_scope_value_as = {
 					name = troll_type
@@ -3525,6 +3635,10 @@ fp1_yearly.0071 = {
 	option = {
 		name = fp1_yearly.0071.a
 
+		trigger = {
+			cannot_be_killed = no
+		}
+
 		# Inform root that they'll get a follow-up event.
 		custom_tooltip = fp1_yearly.0071.a.tt
 		# Calc which event to send out.
@@ -3544,7 +3658,7 @@ fp1_yearly.0071 = {
 				days = 14
 			}
 		}
-		## A colossal wolverine.
+		## A colossal wolverine. #LotR: Its Actually a troll!
 		else_if = {
 			limit = { scope:troll_type = flag:wolverine }
 			trigger_event = {
@@ -3780,7 +3894,12 @@ scripted_effect fp1_0081_troll_duel_effect = {
 				# Capital_county is unhappy.
 				fp1_0071_apply_hungry_troll_modifier_effect = yes
 				# The beast kills you.
-				death = { death_reason = $REASON$ }
+				if = {
+					limit = {
+						cannot_be_killed = no
+					}
+					death = { death_reason = $REASON$ }
+				}
 			}
 		}
 	}
@@ -3850,7 +3969,7 @@ fp1_yearly.0081 = {
 		# Standard checks.
 		is_available_even_at_war_adult = yes
 		is_landed = yes
-#		# Must be a tribal... #WHG
+#		# Must be a tribal...
 #		government_has_flag = government_is_tribal
 #		# With a rural, North Germanic capital.
 #		capital_county = {
@@ -3868,9 +3987,7 @@ fp1_yearly.0081 = {
 	# Charge in, blade swinging.
 	option = {
 		name = fp1_yearly.0081.a
-		trigger = {
-			NOT = { has_trait = berserker }
-		}
+		trigger = { NOT = { has_trait = berserker } }
 
 		# Risky prowess duel.
 		fp1_0081_troll_duel_effect = {
@@ -3910,8 +4027,9 @@ fp1_yearly.0081 = {
 	# (Berserker) Auto-win due to Hulkery.
 	option = {
 		name = fp1_yearly.0081.b
-		trigger = { has_trait = berserker }
-		trait = berserker
+		trigger = {
+			has_trait = berserker
+		}
 
 		# Explain what's happening.
 		custom_tooltip = fp1_yearly.0081.b.tt
@@ -4009,7 +4127,7 @@ fp1_yearly.0082 = {
 		# Standard checks.
 		is_available_even_at_war_adult = yes
 		is_landed = yes
-#		# Must be a tribal... #WHG
+#		# Must be a tribal...
 #		government_has_flag = government_is_tribal
 #		# With a rural, North Germanic capital.
 #		capital_county = {
@@ -4028,7 +4146,9 @@ fp1_yearly.0082 = {
 	option = {
 		name = fp1_yearly.0082.a
 		trigger = {
-			NOT = { has_trait = berserker }
+			NOT = {
+				has_trait = berserker
+			}
 		}
 
 		# Risky prowess duel.
@@ -4069,8 +4189,9 @@ fp1_yearly.0082 = {
 	# (Berserker) Auto-win due to Hulkery.
 	option = {
 		name = fp1_yearly.0082.b
-		trigger = { has_trait = berserker }
-		trait = berserker
+		trigger = {
+			has_trait = berserker
+		}
 
 		# Explain what's happening.
 		custom_tooltip = fp1_yearly.0082.b.tt
@@ -4151,7 +4272,7 @@ fp1_yearly.0082 = {
 	}
 }
 
-#	Troll: colossal wolverine.
+#	Troll: colossal wolverine. # LotR - Its actually a real Troll!
 fp1_yearly.0083 = {
 	type = character_event
 	title = fp1_yearly.0083.t
@@ -4161,6 +4282,10 @@ fp1_yearly.0083 = {
 		character = root
 		animation = shock
 	}
+	right_portrait = { # LOTR
+		character = scope:troll
+		animation = anger
+	}
 
 	trigger = {
 		# DLC check.
@@ -4168,7 +4293,7 @@ fp1_yearly.0083 = {
 		# Standard checks.
 		is_available_even_at_war_adult = yes
 		is_landed = yes
-#		# Must be a tribal... #WHG
+#		# Must be a tribal...
 #		government_has_flag = government_is_tribal
 #		# With a rural, North Germanic capital.
 #		capital_county = {
@@ -4181,13 +4306,25 @@ fp1_yearly.0083 = {
 
 	on_trigger_fail = { fp1_0081_invalidation_toast_effect = yes }
 
-	immediate = { play_music_cue = "mx_cue_combat_stinger" }
+	immediate = {
+		play_music_cue = "mx_cue_combat_stinger"
+			create_character = { # LOTR
+				# Juke note: Only hill trolls for now, too lazy to do region-appropriate ones for such a minor event
+				template = troll_character
+				gender = male
+				dynasty = none
+				location = root.capital_province
+				culture = culture:hill_troll
+				faith = faith:way_of_strength
+				save_scope_as = troll
+			}
+	}
 
 	# Charge in, blade swinging.
 	option = {
 		name = fp1_yearly.0083.a
 		trigger = {
-			NOT = { has_trait = berserker }
+			has_trait = berserker
 		}
 
 		# Risky prowess duel.
@@ -4228,8 +4365,9 @@ fp1_yearly.0083 = {
 	# (Berserker) Auto-win due to Hulkery.
 	option = {
 		name = fp1_yearly.0083.b
-		trigger = { has_trait = berserker }
-		trait = berserker
+		trigger = {
+			has_trait = berserker
+		}
 
 		# Explain what's happening.
 		custom_tooltip = fp1_yearly.0083.b.tt
@@ -4308,6 +4446,17 @@ fp1_yearly.0083 = {
 			}
 		}
 	}
+
+	after = { # LOTR
+		hidden_effect = { # Dont want troll courtiers runnin around
+			scope:troll = {
+				if = {
+					limit = { is_alive = yes }
+					silent_disappearance_effect = yes
+				}
+			}
+		}
+	}
 }
 
 #	Troll: stealthy lynx.
@@ -4327,7 +4476,7 @@ fp1_yearly.0084 = {
 		# Standard checks.
 		is_available_even_at_war_adult = yes
 		is_landed = yes
-#		# Must be a tribal... #WHG
+#		# Must be a tribal...
 #		government_has_flag = government_is_tribal
 #		# With a rural, North Germanic capital.
 #		capital_county = {
@@ -4357,7 +4506,7 @@ fp1_yearly.0084 = {
 			REASON = death_lynx
 		}
 
-		#We need to check that they didn't die - if we apply stress to a dead character the error-log complains
+		#We need to check that they didn't die - if we apply stress to a dead character the error-log complains 
 		if = {
 			limit = {
 				is_alive = yes
@@ -4387,8 +4536,9 @@ fp1_yearly.0084 = {
 	# (Berserker) Auto-win due to Hulkery.
 	option = {
 		name = fp1_yearly.0084.b
-		trigger = { has_trait = berserker }
-		trait = berserker
+		trigger = {
+			has_trait = berserker
+		}
 
 		# Explain what's happening.
 		custom_tooltip = fp1_yearly.0084.b.tt
@@ -4499,7 +4649,7 @@ fp1_yearly.0085 = {
 		# Standard checks.
 		is_available_even_at_war_adult = yes
 		is_landed = yes
-#		# Must be a tribal... #WHG
+#		# Must be a tribal...
 #		government_has_flag = government_is_tribal
 #		# With a rural, North Germanic capital.
 #		capital_county = {
@@ -4518,7 +4668,9 @@ fp1_yearly.0085 = {
 	option = {
 		name = fp1_yearly.0085.a
 		trigger = {
-			NOT = { has_trait = berserker }
+			NOT = {
+				has_trait = berserker
+			}
 		}
 
 		# Risky prowess duel.
@@ -4559,8 +4711,9 @@ fp1_yearly.0085 = {
 	# (Berserker) Auto-win due to Hulkery.
 	option = {
 		name = fp1_yearly.0085.b
-		trigger = { has_trait = berserker }
-		trait = berserker
+		trigger = {
+			has_trait = berserker
+		}
 
 		# Explain what's happening.
 		custom_tooltip = fp1_yearly.0085.b.tt
@@ -4648,7 +4801,7 @@ fp1_yearly.0085 = {
 ##################################################
 
 #	Commissioning a Longship for Yourself
-#fp1_yearly.0091 = { #WHG
+#fp1_yearly.0091 = {
 #	type = character_event
 #	title = fp1_yearly.0091.t
 #	desc = fp1_yearly.0091.desc
@@ -4903,7 +5056,9 @@ fp1_yearly.0101 = {
 		NOT = { has_character_flag = had_event_fp1_yearly_0101 }
 		is_landed = yes
 		# Valid for North Germanics only.
-		culture = { has_cultural_pillar = heritage_norscan } #WHG
+		
+		fp1_is_norse_or_easterling = yes
+#		culture = { has_cultural_pillar = heritage_north_germanic }
 		# Has a valid courtier/guest who can quiz you.
 		any_courtier_or_guest = { fp1_valid_riddler_at_court_trigger = yes }
 		# Doesn't have an established extreme hatred of riddles.
@@ -5305,7 +5460,8 @@ scripted_trigger fp1_0111_superstitious_courtier_trigger = {
 	is_available_ai_adult = yes
 	OR = {
 		fp1_is_norse = yes
-		religion = religion:germanic_religion #WHG TODO set religion for norscans?
+		#religion = religion:gwathuirim_religion
+#		religion = religion:germanic_religion
 	}
 	# Rule out a few key traits.
 	NOR = {
@@ -5339,7 +5495,8 @@ scripted_trigger fp1_0111_suspicious_courtier_trigger = {
 	this != scope:accursed
 	OR = {
 		fp1_is_norse = yes
-		religion = religion:germanic_religion #WHG TODO set religion for norscans?
+		#religion = religion:gwathuirim_religion
+#		religion = religion:germanic_religion
 	}
 	# Would-be sorcerers need to either know what they're doing, or else have absolutely no clue.
 	OR = {
@@ -5394,7 +5551,8 @@ scripted_trigger fp1_0111_discountable_courtier_trigger = {
 	this != scope:accursed
 	OR = {
 		fp1_is_norse = yes
-		religion = religion:germanic_religion #WHG TODO set religion for norscans?
+		#religion = religion:gwathuirim_religion
+#		religion = religion:germanic_religion
 	}
 	# Discountables must not meet minimum requirements to be suspicious.
 	fp1_0111_suspicious_courtier_trigger = no
@@ -5558,7 +5716,7 @@ scripted_effect fp1_0111_select_accusation_effect = {
 	}
 }
 
-#	Nithing Pole Raised Against Courtier
+#	Nithing Pole Raised Against Courtier	#lotr: its a more generic "totem of dark sorcery"
 fp1_yearly.0111 = {
 	type = character_event
 	title = fp1_yearly.0111.t
@@ -6464,7 +6622,7 @@ scripted_effect fp1_pick_outdoorsy_child_for_winter_effect = {
 ##################################################
 
 #	You encounter a distressed raiding vessel whilst out sailing.
-# fp1_yearly.0501 = { #WHG - too similar to existing sailing event
+# fp1_yearly.0501 = { #LotR - too similar to existing sailing event
 # 	type = character_event
 # 	title = fp1_yearly.0501.t
 # 	desc = fp1_yearly.0501.desc
@@ -6778,8 +6936,10 @@ fp1_yearly.0511 = {
 		NOT = { has_character_flag = had_event_fp1_yearly_0511 }
 		is_landed = yes
 		# Filter to flavour-appropriate characters.
-		fp1_is_norse_tribal = yes #WHG TODO CHECK?
-		fp1_is_in_scandinavia_or_colonies = yes
+	#	fp1_is_norse_tribal = yes
+	#	fp1_is_in_scandinavia_or_colonies = yes
+		
+		fp1_is_norse_or_easterling = yes
 		# Must have a suitable random courtier.
 		any_courtier = { fp1_keeps_stinking_hunting_trophy = yes }
 	}
@@ -6944,8 +7104,9 @@ fp1_yearly.0511 = {
 	# (Berserker) root SMASH!
 	option = {
 		name = fp1_yearly.0511.c
-		trigger = { has_trait = berserker }
-		trait = berserker
+		trigger = {
+			has_trait = berserker
+		}
 
 		# Scope:stinker is incredibly upset.
 		reverse_add_opinion = {
@@ -7002,7 +7163,9 @@ fp1_yearly.0511 = {
 		# Elite hunters who don't fly off the handle.
 		trigger = {
 			has_trait = lifestyle_hunter
-			NOT = { has_trait = berserker }
+			NOT = {
+				has_trait = berserker
+			}
 		}
 		trait = lifestyle_hunter
 
@@ -7421,9 +7584,9 @@ fp1_yearly.0521 = {
 	# (Berserker) RRRAAAAARRRGGGHHH!
 	option = {
 		name = fp1_yearly.0521.e
-		trigger = { has_trait = berserker }
-		trait = berserker
-
+		trigger = {
+			has_trait = berserker
+		}
 		# The snowball triggers your berserk rage.
 		custom_tooltip = fp1_yearly.0521.e.tt
 		# Berserkergang relieves stress.
@@ -7816,8 +7979,9 @@ fp1_yearly.0541 = {
 		NOT = { has_character_flag = had_event_fp1_yearly_0541 }
 		is_landed = yes
 		# Intended for Norse-ish tribals.
-		fp1_is_norse_tribal = yes #WHG TODO
-		fp1_is_in_scandinavia_or_colonies = yes
+	#	fp1_is_norse_tribal = yes
+	#	fp1_is_in_scandinavia_or_colonies = yes
+		fp1_is_norse = yes
 		# Has a valid child.
 		any_child = { fp1_0541_valid_child_prankster_trigger = yes }
 		# Has a valid courtier.
@@ -8139,8 +8303,9 @@ fp1_yearly.0551 = {
 		NOT = { has_character_flag = had_event_fp1_yearly_0551 }
 		is_landed = yes
 		# Filter to flavour-appropriate characters.
-		fp1_is_norse_tribal = yes
-		fp1_is_in_scandinavia = yes #WHG TODO
+	#	fp1_is_norse_tribal = yes
+	#	fp1_is_in_scandinavia = yes
+		fp1_is_norse_or_easterling = yes
 		# Has a suitable courtier.
 		any_courtier = { fp1_0551_appropriately_smelly_courtier_trigger = yes }
 	}
@@ -8585,7 +8750,7 @@ fp1_yearly.0561 = {
 		NOT = { has_character_flag = had_event_fp1_yearly_0561 }
 		is_landed = yes
 		# Filter to flavour-appropriate characters.
-		fp1_is_norse_tribal = yes
+		fp1_is_norse_or_easterling = yes
 		# Has an appropriate available knight.
 		any_knight = { fp1_0561_is_friendly_knight_trigger = yes }
 		# Must be a suitable challengee.
@@ -9829,7 +9994,7 @@ fp1_yearly.0591 = {
 		NOT = { has_character_flag = had_event_fp1_yearly_0591 }
 		is_landed_or_landless_administrative = yes
 		# Filter to flavour-appropriate characters.
-		#culture = { has_innovation = innovation_all_things } #WHG TODO CHECK
+		#culture = { has_innovation = innovation_all_things }
 		# Ensure you have at least two counties that can fight with each other.
 		any_held_title = { fp1_0591_fighting_counties_at_thing_trigger = yes }
 	}
@@ -10053,7 +10218,7 @@ fp1_yearly.0601 = {
 		NOT = { has_character_flag = had_event_fp1_yearly_0601 }
 		is_landed = yes
 		# Filter to flavour-appropriate characters.
-	#	culture = { has_innovation = innovation_all_things } #WHG TODO CHECK
+	#	culture = { has_innovation = innovation_all_things }
 		any_held_title = { fp1_0601_valid_county_for_things_trigger = yes }
 	}
 
@@ -10379,6 +10544,7 @@ fp1_yearly.0601 = {
 				limit = {
 					is_ai = no
 					has_any_nickname = no
+					lotr_gets_nicknames_trigger = yes
 				}
 				random = {
 					chance = 1
@@ -10472,6 +10638,10 @@ fp1_yearly.0611 = {
 			has_trait = berserker
 			has_trait = adventurer
 			has_character_flag = has_recently_performed_raid
+			has_trait = reaver
+			has_trait = education_martial_3
+			has_trait = education_martial_4
+			has_trait = lifestyle_mariner
 		}
 		# Gotta have one child who qualifies as the aggressor.
 		any_child = { fp1_0611_aggressive_child_candidate_trigger = yes }
@@ -10494,6 +10664,10 @@ fp1_yearly.0611 = {
 		modifier = {
 			add = 0.25
 			has_trait = adventurer
+		}
+		modifier = {
+			add = 0.25
+			has_trait = lifestyle_mariner
 		}
 	}
 
@@ -11227,7 +11401,7 @@ fp1_yearly.0632 = {
 # 0641 - 0650
 ##################################################
 
-#scripted_trigger fp1_0641_raider_with_longships_trigger = { #WHG
+#scripted_trigger fp1_0641_raider_with_longships_trigger = {
 #	can_raid_trigger = yes
 #	culture = { has_innovation = innovation_longboats }
 #	any_sub_realm_county = { is_coastal_county = yes }
@@ -11563,7 +11737,7 @@ fp1_yearly.0632 = {
 ##################################################
 
 #	You're out sailing when you spot a whale.
-#fp1_yearly.0651 = { #WHG
+#fp1_yearly.0651 = {
 #	type = character_event
 #	title = fp1_yearly.0651.t
 #	desc = fp1_yearly.0651.desc
@@ -13036,7 +13210,7 @@ fp1_yearly.0692 = {
 # 1001 - 1030
 ##################################################
 
-#scripted_trigger valid_germanic_faith_trigger = { #WHG
+#scripted_trigger valid_germanic_faith_trigger = {
 #	#Small enough that it probably doesn't need a trigger, but might need to be more complex in future.
 #	religion = religion:gwathuirim_religion
 ##	religion = religion:germanic_religion
@@ -15023,7 +15197,8 @@ fp1_yearly.1061 = {
 		# DLC check.
 		has_fp1_dlc_trigger = yes
 		# Germanic faith.
-		religion = religion:germanic_religion #WHG TODO 
+		#religion = religion:gwathuirim_religion
+#		religion = religion:germanic_religion
 		# Shouldn't ever happen, but just in case, exempt sky burials so that the character is never buried twice.
 		NOR = {
 			faith = { has_doctrine_parameter = sky_burials_active }
@@ -16531,7 +16706,7 @@ fp1_yearly.1071 = {
 ##################################################
 
 #	An explorer of the Atlantic wishes to share their tales with you.
-#fp1_yearly.1081 = { #WHG
+#fp1_yearly.1081 = { #LotR
 # 	type = character_event
 # 	title = fp1_yearly.1081.t
 # 	desc = {
