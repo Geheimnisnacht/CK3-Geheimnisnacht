@@ -83,12 +83,13 @@ portrait_wear_no_headgear_trigger = {
 				activity_tournament_shirtless_trigger = yes
 			}
 
-			NOR = { # Exceptions for dukes, kings, popes
-				highest_held_title_tier >= tier_duchy # Should wear ducal or royal crown instead.
-				portrait_religious_head_popes_trigger = yes
-				culture = { has_cultural_pillar = heritage_japonic } # Showing the top of your head is shameful
-				culture = { has_cultural_pillar = heritage_chinese } # Showing the top of your head is shameful
-			}	
+			# WHG TODO - heritage_japonic/heritage_chinese cultural pillars do not exist in WHG
+			#NOR = { # Exceptions for dukes, kings, popes
+			#	highest_held_title_tier >= tier_duchy # Should wear ducal or royal crown instead.
+			#	portrait_religious_head_popes_trigger = yes
+				# culture = { has_cultural_pillar = heritage_japonic } # Showing the top of your head is shameful
+				# culture = { has_cultural_pillar = heritage_chinese } # Showing the top of your head is shameful
+			#}	
 		}
 
 		AND = { # No headgear for vanity characters with the no_headgear flag, unless they are dukes or higher
@@ -468,18 +469,20 @@ portrait_wear_no_crown_trigger = { # Rulers should be coronated to wear a crown 
 }
 
 portrait_wear_christian_holy_order_trigger = { # Christian holy order members/vassals should wear different armor
-	OR = {
-		AND = { # Is a Christian holy order member
-			religion = religion:christianity_religion
-			government_has_flag = government_is_holy_order
-		}
-		AND = { # Is a Christian holy order vassal
-			religion = religion:christianity_religion
-			is_playable_character = no
-			portrait_wear_armor_trigger = yes
-			liege ?= {  government_has_flag = government_is_holy_order }
-		}
-	}
+	always = no #WHG TODO
+	# WHG TODO - christianity_religion does not exist in WHG
+	# OR = {
+	# 	AND = { # Is a Christian holy order member
+	# 		religion = religion:christianity_religion
+	# 		government_has_flag = government_is_holy_order
+	# 	}
+	# 	AND = { # Is a Christian holy order vassal
+	# 		religion = religion:christianity_religion
+	# 		is_playable_character = no
+	# 		portrait_wear_armor_trigger = yes
+	# 		liege ?= {  government_has_flag = government_is_holy_order }
+	# 	}
+	# }
 }
 
 portrait_has_trait_trigger = {
@@ -3416,5 +3419,5 @@ portrait_shared_makeup_trigger = {
 
 use_longsword_default_trigger = {
 	always = no #WHG TODO
-	culture = { has_cultural_pillar = heritage_japonic }
+	# culture = { has_cultural_pillar = heritage_japonic }
 }
