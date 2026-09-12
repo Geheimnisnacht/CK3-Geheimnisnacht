@@ -1,6 +1,7 @@
 ﻿d_laamp_sotamies = { # Supersotamies
 	color = { 100 100 100 }
-	capital = c_zamak_spanyenya
+	#capital = c_zamak_spanyenya
+	capital = c_bohsenfels #temporally is in ostland until kislev gets readded.
 
 	definite_form = yes
 	landless = yes
