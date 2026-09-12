@@ -1,4 +1,4 @@
-﻿ep3_frankokratia_save_financier_effect = { #WH
+﻿ep3_frankokratia_save_financier_effect = { #WHG
 	#Start with Venice, then any Italian republic
 	# title:e_italy = {
 	# 	random_in_de_jure_hierarchy = {
@@ -172,7 +172,7 @@
 	# }
 }
 
-ep3_frankokratia_story_setup_save_vars_effect = { #WH
+ep3_frankokratia_story_setup_save_vars_effect = { #WHG
 	#save variables for the story
 	# set_variable = {
 	# 	name = ghw_sponsor
@@ -192,7 +192,7 @@ ep3_frankokratia_story_setup_save_vars_effect = { #WH
 	# }
 }
 
-ep3_frankokratia_remove_pledged_attackers_effect = { #WH
+ep3_frankokratia_remove_pledged_attackers_effect = { #WHG
 	# global_var:byz_claimant_champion ?= {
 	# 	#save neeeded scopes
 	# 	save_scope_as = byz_claimant_champion
@@ -300,7 +300,7 @@ ep3_frankokratia_remove_pledged_attackers_effect = { #WH
 	# }
 }
 
-ep3_frankokratia_save_financier_sate_lands_effect = { #WH
+ep3_frankokratia_save_financier_sate_lands_effect = { #WHG
 	# if = {
 	# 	limit = {
 	# 		any_realm_county = {
@@ -863,7 +863,7 @@ ep3_frankokratia_save_financier_sate_lands_effect = { #WH
 	# }
 }
 
-ep3_frankokratia_give_financier_sate_lands_effect = { #WH
+ep3_frankokratia_give_financier_sate_lands_effect = { #WHG
 	#If there's a duchy to give, give all titles in it
 	# if = {
 	# 	limit = {
@@ -913,7 +913,7 @@ ep3_frankokratia_give_financier_sate_lands_effect = { #WH
 	# }
 }
 
-ep3_frankokratia_gather_governor_funds_effect = { #WH
+ep3_frankokratia_gather_governor_funds_effect = { #WHG
 	# if = {
 	# 	limit = {
 	# 		any_vassal = {
@@ -991,7 +991,7 @@ ep3_frankokratia_gather_governor_funds_effect = { #WH
 	# }
 }
 
-ep3_frankokratia_capital_sacking_effect = { #WH
+ep3_frankokratia_capital_sacking_effect = { #WHG
 	# custom_tooltip = latin_empire_creation_tooltip
 	# custom_tooltip = latin_empire_land_distribution_tooltip
 	# add_dread = massive_dread_gain
@@ -1137,7 +1137,7 @@ ep3_frankokratia_capital_sacking_effect = { #WH
 	# trigger_event = ep3_frankokratia_events.0042
 }
 
-ep3_frankokratia_kill_byzantines_effect = { #WH
+ep3_frankokratia_kill_byzantines_effect = { #WHG
 	# #Byzantines (and misc locals) are slaughtered in the taking of the city
 	# title:e_byzantium.holder = {
 	# 	#Courtiers of emperor
@@ -1284,7 +1284,7 @@ ep3_frankokratia_kill_byzantines_effect = { #WH
 	# }
 }
 
-ep3_frankokratia_paying_off_latins_effect = { #WH
+ep3_frankokratia_paying_off_latins_effect = { #WHG
 	#If crusader state exists - all troops go to crusader king and crusaders get piety
 	# if = {
 	# 	limit = {
@@ -1433,7 +1433,7 @@ ep3_frankokratia_paying_off_latins_effect = { #WH
 	# }
 }
 
-ep3_frankokratia_designate_latin_empire_effect = { #WH
+ep3_frankokratia_designate_latin_empire_effect = { #WHG
 	# #GO FOR CONSTANTINOPLE/THESSALONIKA AS CAPITAL KINGDOM FIRST
 	# if = {
 	# 	limit = {
@@ -1804,7 +1804,7 @@ ep3_frankokratia_designate_latin_empire_effect = { #WH
 	# }
 }
 
-ep3_latin_empire_designate_financier_lands_effect = { #WH
+ep3_latin_empire_designate_financier_lands_effect = { #WHG
 	# #First, give aegean islands counties
 	# title:e_byzantium.holder = {
 	# 	if = {
@@ -1958,7 +1958,7 @@ ep3_latin_empire_designate_financier_lands_effect = { #WH
 	# }
 }
 
-ep3_frankokratia_grant_latin_empire_effect = { #WH
+ep3_frankokratia_grant_latin_empire_effect = { #WHG
 	# #Make it less likely frankokratia will happen again
 	# set_global_variable = {
 	# 	name = frankokratia_occurred 
@@ -2354,7 +2354,7 @@ ep3_frankokratia_grant_latin_empire_effect = { #WH
 	# }
 }
 
-ep3_frankokratia_clear_old_lands_change_capital_effect = { #WH
+ep3_frankokratia_clear_old_lands_change_capital_effect = { #WHG
 	# if = {
 	# 	limit = {
 	# 		ep3_frankokratia_discard_old_lands_trigger = yes
@@ -2486,7 +2486,7 @@ ep3_frankokratia_clear_old_lands_change_capital_effect = { #WH
 	# }
 }
 
-ep3_frankokratia_distribute_lands_to_crusaders_effect = { #WH
+ep3_frankokratia_distribute_lands_to_crusaders_effect = { #WHG
 
 	# #save a list of all titles there are to give out
 	# #Counties in latin kingdom
@@ -2878,7 +2878,7 @@ ep3_frankokratia_distribute_lands_to_crusaders_effect = { #WH
 	# }
 }
 
-ep3_frankokratia_grant_latin_lands_effect = { #WH
+ep3_frankokratia_grant_latin_lands_effect = { #WHG
 	# root = {
 	# 	var:latin_county = {
 	# 		add_to_list = my_latin_titles
@@ -2946,7 +2946,7 @@ ep3_frankokratia_grant_latin_lands_effect = { #WH
 	# }
 }
 
-ep3_latin_empire_grant_financier_lands_effect = { #WH
+ep3_latin_empire_grant_financier_lands_effect = { #WHG
 	# add_to_list = gained_latin_emp_titles
 	# #Title switch
 	# create_title_and_vassal_change = {
@@ -2966,7 +2966,7 @@ ep3_latin_empire_grant_financier_lands_effect = { #WH
 	# resolve_title_and_vassal_change = scope:title_change
 }
 
-ep3_frankokratia_pick_emperor_beneficiary_effect = { #WH
+ep3_frankokratia_pick_emperor_beneficiary_effect = { #WHG
 	# save_scope_as = frankokratia_crusader
 	# #SET FIRST emp_beneficiary VARIABLE
 	# #Dominant gender close family
@@ -3513,7 +3513,7 @@ ep3_frankokratia_pick_emperor_beneficiary_effect = { #WH
 	# }
 }
 
-ep3_frankokratia_pick_crusader_beneficiary_effect = { #WH
+ep3_frankokratia_pick_crusader_beneficiary_effect = { #WHG
 	# save_scope_as = frankokratia_crusader
 	# #SET FIRST BENEFICIARY VARIABLE
 	# #Dominant gender close family
@@ -4047,7 +4047,7 @@ ep3_frankokratia_pick_crusader_beneficiary_effect = { #WH
 	# }
 }
 
-ep3_frankokratia_form_byzantine_kingdoms_effect = { #WH
+ep3_frankokratia_form_byzantine_kingdoms_effect = { #WHG
 	# every_vassal = {
 	# 	limit = {
 	# 		is_landless_ruler = yes
@@ -4816,7 +4816,7 @@ ep3_frankokratia_form_byzantine_kingdoms_effect = { #WH
 	# }
 }
 
-ep3_frankokratia_byzantine_independence_effect = { #WH
+ep3_frankokratia_byzantine_independence_effect = { #WHG
 	# every_vassal_or_below = {
 	# 	limit = {
 	# 		is_landed = yes
@@ -4929,7 +4929,7 @@ ep3_frankokratia_byzantine_independence_effect = { #WH
 	# }
 }
 
-ep3_frankokratia_vassalize_latin_counts_effect = { #WH
+ep3_frankokratia_vassalize_latin_counts_effect = { #WHG
 	# #Move de jure neighbour vassals into kingdoms
 	# if = {
 	# 	limit = {
@@ -5040,7 +5040,7 @@ ep3_frankokratia_vassalize_latin_counts_effect = { #WH
 	# }
 }
 
-ep3_frankokratia_end_story_effect = { #WH
+ep3_frankokratia_end_story_effect = { #WHG
 	# global_var:byz_claimant_champion = {
 	# 	remove_character_modifier = prepared_for_daring_deeds_modifier
 	# 	remove_character_flag = pope_condemned_crusader_claim
@@ -5087,7 +5087,7 @@ ep3_frankokratia_end_story_effect = { #WH
 	# }
 }
 
-greek_anarchy_army_spawn_effect = { #WH
+greek_anarchy_army_spawn_effect = { #WHG
 	# random_list = {
 	# 	5 = {
 	# 		trigger = {
@@ -6821,7 +6821,7 @@ greek_anarchy_army_spawn_effect = { #WH
 	# }
 }
 
-expunge_latin_dominion_effect = { #WH
+expunge_latin_dominion_effect = { #WHG
 	# if = {
 	# 	limit = {
 	# 		OR = {
@@ -6842,7 +6842,7 @@ expunge_latin_dominion_effect = { #WH
 	# }
 }
 
-frankokratia_latin_emp_end_msg_effect = { #WH
+frankokratia_latin_emp_end_msg_effect = { #WHG
 	# save_scope_as = latin_emp
 	# faith = {
 	# 	every_faith_ruler = {
@@ -6926,7 +6926,7 @@ frankokratia_latin_emp_end_msg_effect = { #WH
 	# }
 }
 
-frankokratia_remove__war_leader_var_effect = {  #WH
+frankokratia_remove__war_leader_var_effect = {  #WHG
 	# if = {
 	# 	limit = {
 	# 		any_character_war = {
