@@ -126,7 +126,7 @@ war_end_legitimacy_effect = {
 	# Special rewards for Temüjin vs Jamukha
 	if = {
 		limit = {
-			# scope:attacker = { #LotR
+			# scope:attacker = { #WHG
 			# 	OR = {
 			# 		this = character:125501
 			# 		this = character:mpo_mongol_1
@@ -139,7 +139,7 @@ war_end_legitimacy_effect = {
 			# 		this = character:mpo_mongol_1
 			# 	}
 			# }
-			always = no #LotR
+			always = no #WHG
 		}
 		scope:attacker = {
 			add_legitimacy = 500
@@ -249,7 +249,7 @@ war_end_legitimacy_effect = {
 							multiply = 3
 						}
 						
-						# if = { # We give you extra Legitimacy for special On Start Wars #LotR
+						# if = { # We give you extra Legitimacy for special On Start Wars #WHG
 						# 	limit = {
 						# 		root.war ?= {
 						# 			OR = {
@@ -272,7 +272,7 @@ war_end_legitimacy_effect = {
 				}
 			}
 			# Special extra Legitimacy gain for Byzantine rulers since their procedence didn't matter as much, to prevent them from always having 0 Legitimacy basically
-			# hidden_effect = { #LotR
+			# hidden_effect = { #WHG
 			# 	if = {
 			# 		limit = {
 			# 			exists = scope:target_title
