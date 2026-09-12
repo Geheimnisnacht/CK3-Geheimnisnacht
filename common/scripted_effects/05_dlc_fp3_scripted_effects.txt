@@ -4,7 +4,7 @@
 
 ##### Struggle Ending #####
 fp3_end_persian_struggle_effect = {
-	# if = { # LotR
+	# if = { # WHG
 	# 	limit = {
 	# 		exists = title:e_arabia.holder
 	# 		title:e_arabia.holder = { has_character_modifier = fp3_struggle_caliph_super_suspicious_modifier }
@@ -57,7 +57,7 @@ fp3_ending_effects_assertion = {
 
 	dynasty ?= { add_dynasty_prestige = 10000 }
 	
-	# if = { # LotR
+	# if = { # WHG
 	# 	limit = {
 	# 		NOT = { title:e_arabia.holder.dynasty ?= dynasty }
 	# 	}
@@ -68,7 +68,7 @@ fp3_ending_effects_assertion = {
 	custom_tooltip = fp3_struggle_assertion_caliphal_muslim_faction_protection_tt
 
 	hidden_effect = {
-		# destroy_title = title:e_persia # LotR
+		# destroy_title = title:e_persia # WHG
 		# title:d_sunni = {
 		# 	set_variable = {
 		# 		name = dar_al_islam
@@ -81,7 +81,7 @@ fp3_ending_effects_assertion = {
 				value = yes
 			}
 		}
-		# title:e_arabia.holder.house = { # LotR
+		# title:e_arabia.holder.house = { # WHG
 		# 	set_variable = {
 		# 		name = subjugations_expanded
 		# 		value = yes
@@ -89,7 +89,7 @@ fp3_ending_effects_assertion = {
 		# }
 	}
 
-	# struggle:persian_struggle = { # LotR
+	# struggle:persian_struggle = { # WHG
 	# 	title:e_arabia.holder = {
 	# 		add_prestige = 5000
 	# 		custom_tooltip = fp3_struggle_assertion_caliph_detractor_tt
@@ -162,7 +162,7 @@ fp3_ending_effects_assertion = {
 	# 		every_involved_ruler = {
 	# 			limit = { has_trait = fp3_struggle_detractor }
 	# 			custom = every_detractor
-	# 			title:e_arabia.holder = { # LotR
+	# 			title:e_arabia.holder = { # WHG
 	# 				add_opinion = {
 	# 					modifier = caliphal_authority
 	# 					target = prev
@@ -220,7 +220,7 @@ fp3_ending_effects_assertion = {
 		# Propagate the Caliph's Faith in the struggle region
 		custom_tooltip = {
 			text = fp3_struggle_assertion_spread_faith_through_struggle_region_tt
-			# struggle:persian_struggle = { # LotR
+			# struggle:persian_struggle = { # WHG
 			# 	every_involved_county = {
 			# 		limit = {
 			# 			NOT = { faith = root.faith }
@@ -273,7 +273,7 @@ fp3_struggle_ending_shia_caliphate_effects = {
 		save_scope_as = title_change
 		add_claim_on_loss = no
 	}
-	# title:e_persia = { #LotR
+	# title:e_persia = { #WHG
 		change_title_holder = {
 			holder = root
 			change = scope:title_change
@@ -338,7 +338,7 @@ fp3_struggle_ending_shia_caliphate_effects = {
 		# Propagate the Caliph's Faith in the struggle region
 		custom_tooltip = {
 			text = fp3_struggle_ending_shia_caliphate_spread_faith_through_struggle_region_tt
-			# struggle:persian_struggle = { # LotR
+			# struggle:persian_struggle = { # WHG
 			# 	every_involved_county = {
 			# 		limit = {
 			# 			NOT = { faith = root.faith }
@@ -380,20 +380,20 @@ fp3_struggle_ending_vassalize_caliph_effects = {
 		type = usurped
 		save_scope_as = change
 	}
-	# title:e_arabia.holder = { # LotR
+	# title:e_arabia.holder = { # WHG
 	# 	every_vassal = {
 	# 		add_to_list = vassals_to_transfer
 	# 	}
 	# 	add_to_list = vassals_to_transfer
 	# }
-	# title:e_arabia = { # LotR
+	# title:e_arabia = { # WHG
 	#  	change_title_holder_include_vassals = {
 	#  		holder = root
 	# 		change = scope:change
 	# 	}
 	# 	save_scope_as = title_e_arabia
 	# }
-	# title:d_sunni.holder = { # LotR
+	# title:d_sunni.holder = { # WHG
 	# 	change_liege = {
 	# 		liege = root
 	# 		change = scope:change
@@ -689,7 +689,7 @@ remove_any_education_traits_effect = { # Looks ugly but performance is better th
 	remove_trait = education_martial_prowess_2
 	remove_trait = education_martial_prowess_3
 	remove_trait = education_martial_prowess_4
-	remove_trait = education_martial_prowess_5 #LOTR
+	remove_trait = education_martial_prowess_5 #WHG
 	remove_trait = education_learning_1
 	remove_trait = education_learning_2
 	remove_trait = education_learning_3
@@ -716,7 +716,7 @@ fp3_struggle_ending_concession_effects = {
 	# All the involved independent rulers get a white peace
 	custom_tooltip = {
 		text = fp3_concession_white_peace_tt 
-		# struggle:persian_struggle = { # LotR
+		# struggle:persian_struggle = { # WHG
 		# 	every_involved_ruler = {
 		# 		limit = {
 		# 			is_independent_ruler = yes
@@ -752,7 +752,7 @@ fp3_struggle_ending_concession_effects = {
 	# All the involved independent rulers gain truces with each other
 	custom_tooltip = {
 		text = fp3_concession_truce_tt
-		# struggle:persian_struggle = { # LotR
+		# struggle:persian_struggle = { # WHG
 		# 	every_involved_ruler = {
 		# 		limit = {
 		# 			is_independent_ruler = yes
@@ -785,7 +785,7 @@ fp3_struggle_ending_concession_effects = {
 	# All involved rulers, independent or not, lose all their claims
 	custom_tooltip = {
 		text = fp3_concession_lose_claim_tt
-		# struggle:persian_struggle = { # LotR
+		# struggle:persian_struggle = { # WHG
 		# 	every_involved_ruler = {
 		# 		save_scope_as = claim_loser
 		# 		every_claim = {
@@ -797,7 +797,7 @@ fp3_struggle_ending_concession_effects = {
 
 	custom_tooltip = {
 		text = fp3_concession_rebuilding_efforts_tt
-		# struggle:persian_struggle = { # LotR
+		# struggle:persian_struggle = { # WHG
 		# 	every_involved_ruler = {
 		# 		limit = {
 		# 			has_trait = fp3_struggle_supporter
@@ -818,7 +818,7 @@ fp3_struggle_ending_concession_effects = {
 
 	custom_tooltip = {
 		text = fp3_concession_frontier_ambitions_tt
-		# struggle:persian_struggle = { # LotR
+		# struggle:persian_struggle = { # WHG
 		# 	every_involved_ruler = {
 		# 		limit = {
 		# 			has_trait = fp3_struggle_detractor
@@ -847,7 +847,7 @@ fp3_struggle_rekindle_iran_effects = {
 		save_scope_as = title_change
 		add_claim_on_loss = no
 	}
-	# title:e_persia = { #LotR
+	# title:e_persia = { #WHG
 		change_title_holder = {
 			holder = root
 			change = scope:title_change
@@ -864,7 +864,7 @@ fp3_struggle_rekindle_iran_effects = {
 				type = asawira
 				stacks = 5
 			}
-			# men_at_arms = { # LotR
+			# men_at_arms = { # WHG
 			# 	type = ayyar
 			# 	stacks = 10
 			# }
@@ -878,7 +878,7 @@ fp3_struggle_rekindle_iran_effects = {
 				type = asawira
 				stacks = 5
 			}
-			# men_at_arms = { # LotR
+			# men_at_arms = { # WHG
 			# 	type = ayyar
 			# 	stacks = 10
 			# }
@@ -897,7 +897,7 @@ fp3_struggle_rekindle_iran_effects = {
 		add_dynasty_prestige = 10000
 	}
 
-	# if = { # LotR
+	# if = { # WHG
 	# 	limit = {
 	# 		scope:struggle_persia_ending_rekindle_iran_decision_option_secret_faith = yes
 	# 	}
@@ -910,7 +910,7 @@ fp3_struggle_rekindle_iran_effects = {
 	faith = {
 		custom_tooltip = {
 			text = fp3_iranian_faith_for_rekindle_persia_spread_to_fellow_iranians_tt
-			# struggle:persian_struggle = { # LotR
+			# struggle:persian_struggle = { # WHG
 			# 	every_involved_county = {
 			# 		limit = {
 			# 			culture = { has_cultural_pillar = heritage_iranian }
@@ -938,7 +938,7 @@ fp3_struggle_rekindle_iran_effects = {
 		}
 	}
 
-	# struggle:persian_struggle = {# LotR
+	# struggle:persian_struggle = {# WHG
 	# 	every_involved_ruler = {
 	# 		limit = { culture = { has_cultural_pillar = heritage_iranian } }
 	# 		# Add a character modifiers for the Iranian to help them rise!
@@ -959,7 +959,7 @@ fp3_struggle_rekindle_iran_effects = {
 	# 			}
 	# 			spawn_army = {
 	# 				name = persian_warriors
-	# 				# men_at_arms = { # LotR
+	# 				# men_at_arms = { # WHG
 	# 				# 	type = ayyar
 	# 				# 	stacks = 4
 	# 				# }
@@ -1024,7 +1024,7 @@ fp3_struggle_rekindle_iran_effects = {
 			text = fp3_rekindle_iran_cultural_acceptance_tt
 			every_culture_global = {
 				limit = {
-					# has_cultural_pillar = heritage_iranian # LotR
+					# has_cultural_pillar = heritage_iranian # WHG
 					NOT = { this = root.culture }
 				}
 				change_cultural_acceptance = {
@@ -1116,7 +1116,7 @@ fp3_sundered_caliphate_effects = {
 			}
 		}
 		custom_tooltip = destroys_caliph_titles_caliph_tt
-		# if = { # LotR
+		# if = { # WHG
 		# 	limit = {title:e_arabia.holder = scope:the_caliph }
 		# 	custom_tooltip = destroys_caliph_titles_arabia_tt
 		# }
@@ -1135,7 +1135,7 @@ fp3_sundered_caliphate_effects = {
 			}
 			trigger_event = fp3_struggle.0192
 		}
-		# scope:the_caliph = { # LotR
+		# scope:the_caliph = { # WHG
 		# 	destroy_title = title:d_sunni
 		# 	if = {
 		# 		limit = { has_title = title:e_arabia }
@@ -1234,7 +1234,7 @@ fp3_challenge_house_head_duel_challenger_loss_effect = {
 
 # Saves Sunni holder, or the last one
 fp3_save_sunni_caliph_or_previous_effect = {
-	# if = { # LotR
+	# if = { # WHG
 	# 	limit = { exists = title:d_sunni.holder }
 	# 	title:d_sunni.holder = { save_scope_as = struggle_liege }
 	# }
@@ -1244,7 +1244,7 @@ fp3_save_sunni_caliph_or_previous_effect = {
 }
 
 fp3_struggle_apply_catalyst_interloper_uninvolved_gain_struggle_titles = {
-	# if = { #LotR
+	# if = { #WHG
 	# 	limit = {
 	# 		scope:war = {
 	# 			var:struggle_scope_defender ?= struggle:persian_struggle

@@ -1859,13 +1859,13 @@ save_general_accolade_successor_culture_effect = {
 save_varangian_successor_culture_effect = {
 	if = {
 		limit = {
-			# current_date < 1400 #LotR
+			# current_date < 1400 #WHG
 			# scope:owner = {
 			# 	has_title = title:e_byzantium
 			# }
-			always = no #LotR
+			always = no #WHG
 		}
-		random_culture_global = { #LotR
+		random_culture_global = { #WHG
 			limit = {
 				OR = {
 					has_cultural_parameter = unlock_maa_huscarls
@@ -1894,7 +1894,7 @@ save_varangian_successor_culture_effect = {
 save_turkic_successor_culture_effect = {
 	if = {
 		limit = {
-			# scope:owner = { #LotR
+			# scope:owner = { #WHG
 			# 	faith.religion = religion:islam_religion
 			# 	capital_county.title_province ?= {
    			# 		OR = {
@@ -1912,12 +1912,12 @@ save_turkic_successor_culture_effect = {
 			# 	}
 			# 	highest_held_title_tier >= tier_kingdom
 			# }
-			always = no #LotR
+			always = no #WHG
 		}
 		random_culture_global = {
 			limit = {
 				culture_has_archer_cavalry_maa = yes
-				#has_cultural_pillar = heritage_turkic #LotR
+				#has_cultural_pillar = heritage_turkic #WHG
 				culture_number_of_counties > 0
 				any_culture_county = {
 					holder = {
@@ -2032,7 +2032,7 @@ save_type_specific_successor_culture_effect = {
 						has_cultural_pillar = ethos_communal
 						has_cultural_tradition = tradition_stalwart_defenders
                         has_cultural_tradition = tradition_stand_and_fight
-                        # has_cultural_tradition = tradition_druzhina #LotR
+                        # has_cultural_tradition = tradition_druzhina #WHG
                         # has_cultural_tradition = tradition_hird
                         has_cultural_tradition = tradition_fp1_coastal_warriors
 					}
@@ -2161,7 +2161,7 @@ save_type_specific_successor_culture_effect = {
 					scope:accolade_in_need = {
 						initial_type = accolade_type:archer_attribute
 					}
-					OR = { #LotR
+					OR = { #WHG
 						# has_cultural_pillar = heritage_brythonic
 						# has_cultural_pillar = heritage_east_african
 						# has_cultural_pillar = heritage_indo_aryan
@@ -2170,7 +2170,8 @@ save_type_specific_successor_culture_effect = {
 						# has_cultural_pillar = heritage_yoruba
 						# has_cultural_pillar = heritage_baltic
 						# has_cultural_pillar = heritage_balto_finnic
-						is_elf_culture = yes
+						has_cultural_pillar = heritage_kislevite #WHG TODO
+						has_cultural_pillar = heritage_estalian
 					}
 				}
 				# Skirmisher
@@ -2178,7 +2179,7 @@ save_type_specific_successor_culture_effect = {
 					scope:accolade_in_need = {
 						initial_type = accolade_type:skirmisher_attribute
 					}
-					# OR = { #LotR
+					# OR = { #WHG
 					# 	has_cultural_pillar = heritage_baltic
 					# 	has_cultural_pillar = heritage_ugro_permian
 					# 	has_cultural_pillar = heritage_balto_finnic
@@ -2193,7 +2194,7 @@ save_type_specific_successor_culture_effect = {
 					scope:accolade_in_need = {
 						initial_type = accolade_type:pike_attribute
 					}
-					# OR = { #LotR
+					# OR = { #WHG
 					# 	has_cultural_pillar = heritage_central_germanic
 					# 	has_cultural_pillar = heritage_latin
 					# }
@@ -2205,9 +2206,9 @@ save_type_specific_successor_culture_effect = {
 					}
 					OR = {
 						has_cultural_tradition = tradition_ep3_indomitable_azatani
-						# has_cultural_tradition = tradition_desert_ribat
-						# has_cultural_tradition = tradition_chanson_de_geste
-						# has_cultural_tradition = tradition_hussar
+						#has_cultural_tradition = tradition_desert_ribat
+						has_cultural_tradition = tradition_chanson_de_geste
+						has_cultural_tradition = tradition_hussar #WHG TODO
 					}
 					OR = {
 						# has_cultural_pillar = heritage_iranian
@@ -2218,6 +2219,8 @@ save_type_specific_successor_culture_effect = {
 						# has_cultural_pillar = heritage_iberian
 						# has_cultural_pillar = heritage_indo_aryan
 						# has_cultural_pillar = heritage_magyar
+						has_cultural_pillar = heritage_kurgan
+						has_cultural_pillar = heritage_kislevite #WHG TODO
 					}
 				}
 				# Vanguard
@@ -2228,7 +2231,7 @@ save_type_specific_successor_culture_effect = {
 					OR = {
 						has_innovation = innovation_quilted_armor
 						has_cultural_tradition = tradition_fp1_coastal_warriors
-						# has_cultural_tradition = tradition_hird #LotR
+						# has_cultural_tradition = tradition_hird #WHG
 						# has_cultural_tradition = tradition_futuwaa
 						# has_cultural_tradition = tradition_druzhina
 						# has_cultural_tradition = tradition_khadga_puja
@@ -2248,7 +2251,8 @@ save_type_specific_successor_culture_effect = {
 						# has_cultural_pillar = heritage_burman
 						# has_cultural_pillar = heritage_qiangic
 						# has_cultural_pillar = heritage_tibetan
-						is_dwarf_culture = yes
+						has_cultural_pillar = heritage_imperial #WHG
+
 					}
 				}
 				# Lancer
@@ -2258,23 +2262,23 @@ save_type_specific_successor_culture_effect = {
 					}
 					OR = {
 						has_innovation = innovation_arched_saddle
-						# has_cultural_tradition = tradition_caucasian_wolves #LotR
+						# has_cultural_tradition = tradition_caucasian_wolves #WHG
 						# has_cultural_tradition = tradition_roman_legacy
 						# has_innovation = innovation_valets
 						has_cultural_tradition = tradition_ep3_audacious_cadets
 						has_cultural_tradition = tradition_ep3_imperial_tagmata
-						has_cultural_parameter = unlock_maa_cataphract_archers
-						has_innovation = innovation_tiefutu
-						has_cultural_parameter = unlock_maa_black_armor_cavalry
+						has_cultural_tradition = tradition_belfalathrim_chivalry
+						has_cultural_tradition = tradition_variag_horse_lords
 					}
 					OR = {
-						# has_cultural_pillar = heritage_iranian  #LotR
+						# has_cultural_pillar = heritage_iranian  #WHG
 						# has_cultural_pillar = heritage_turkic
 						# has_cultural_pillar = heritage_mongolic
 						# has_cultural_pillar = heritage_central_germanic
 						# has_cultural_pillar = heritage_frankish
 						# has_cultural_pillar = heritage_indo_aryan
 						# has_cultural_pillar = heritage_byzantine
+						has_cultural_pillar = heritage_bretonnian #WHG TODO
 					}
 				}
 				# Besieger
@@ -2300,10 +2304,10 @@ save_type_specific_successor_culture_effect = {
 					}
 					OR = {
 						has_innovation = innovation_advanced_bowmaking
-						# has_innovation = innovation_repeating_crossbow #LotR
+						# has_innovation = innovation_repeating_crossbow #WHG
 					}
 					OR = {
-						# has_cultural_pillar = heritage_chinese #LotR
+						# has_cultural_pillar = heritage_chinese #WHG
 						# has_cultural_pillar = heritage_latin
 						has_cultural_tradition = tradition_swords_for_hire
 					}
@@ -2313,9 +2317,9 @@ save_type_specific_successor_culture_effect = {
 					scope:accolade_in_need = {
 						initial_type = accolade_type:camelry_attribute
 					}
-					has_innovation = innovation_war_camels #LotR
+					has_innovation = innovation_war_camels
 					OR = {
-						# has_cultural_pillar = heritage_arabic #LotR
+						# has_cultural_pillar = heritage_arabic #WHG
 						# has_cultural_pillar = heritage_berber
 						# has_cultural_tradition = tradition_desert_nomads
 						has_cultural_tradition = tradition_warriors_of_the_dry
@@ -2328,9 +2332,11 @@ save_type_specific_successor_culture_effect = {
 					}
 					has_innovation = innovation_elephantry
 					OR = {
-						# has_cultural_pillar = heritage_dravidian #LotR
+						# has_cultural_pillar = heritage_dravidian #WHG
 						# has_cultural_pillar = heritage_indo_aryan
 						# has_cultural_pillar = heritage_burman
+						has_cultural_pillar = heritage_dravidian #WHG TODO
+
 					}
 				}
 				# Horse Archer
@@ -2338,12 +2344,14 @@ save_type_specific_successor_culture_effect = {
 					scope:accolade_in_need = {
 						initial_type = accolade_type:horse_archer_attribute
 					}
-					culture_has_archer_cavalry_maa = yes
-					#OR = {
+					# has_cultural_parameter = unlock_maa_horse_archers #WHG
+					OR = {
 						# has_cultural_pillar = heritage_turkic
 						# has_cultural_pillar = heritage_mongolic
 						# has_cultural_pillar = heritage_burman
-					#}
+						has_cultural_pillar = heritage_bretonnian #WHG
+
+					}
 				}
 				# Huntsmaster
 				AND = {
@@ -2351,13 +2359,13 @@ save_type_specific_successor_culture_effect = {
 						initial_type = accolade_type:huntsmaster_attribute
 					}
 					OR = {
-						has_cultural_tradition = tradition_bush_hunting
+						# has_cultural_tradition = tradition_bush_hunting #WHG
 						has_cultural_tradition = tradition_hunters
 						has_cultural_tradition = tradition_sacred_hunts
 						has_cultural_tradition = tradition_forest_fighters
 						has_cultural_tradition = tradition_jungle_warriors
-						has_cultural_tradition = tradition_land_of_the_bow
-						has_cultural_tradition = tradition_bush_hunting
+						# has_cultural_tradition = tradition_land_of_the_bow
+						# has_cultural_tradition = tradition_bush_hunting
 						has_cultural_tradition = tradition_hunters
 						has_cultural_tradition = tradition_sacred_hunts
 					}
@@ -2371,9 +2379,9 @@ save_type_specific_successor_culture_effect = {
 						initial_type = accolade_type:blademaster_attribute
 					}
 					OR = {
-						has_cultural_tradition = tradition_druzhina
-						has_cultural_tradition = tradition_futuwaa
-						has_cultural_tradition = tradition_khadga_puja
+						# has_cultural_tradition = tradition_druzhina #WHG
+						# has_cultural_tradition = tradition_futuwaa
+						# has_cultural_tradition = tradition_khadga_puja
 						has_cultural_tradition = tradition_talent_acquisition
 						has_cultural_tradition = tradition_swords_for_hire
 						has_cultural_tradition = tradition_warriors_by_merit
@@ -2385,7 +2393,7 @@ save_type_specific_successor_culture_effect = {
 						has_cultural_tradition = tradition_chivalry
 						has_cultural_tradition = tradition_warrior_culture
 						has_cultural_tradition = tradition_fp1_the_right_to_prove
-						has_cultural_tradition = tradition_garuda_warriors
+						# has_cultural_tradition = tradition_garuda_warriors
 					}
 				}
 				# Master of Revels
@@ -2458,7 +2466,7 @@ accolade_character_creation_effect = {
 		limit = {
 			OR = {
 				is_ai = no
-				#any_held_title = { this = title:e_byzantium } #LotR
+				#any_held_title = { this = title:e_byzantium } #WHG
 			}
 		}
 		#save a general knight-y culture that can randomly be used
@@ -10251,7 +10259,7 @@ accolade_create_squire_effect = {
 		if = {
 			limit = {
 				NOT = { exists = scope:chosen_knight }
-				exists = capital_province #LotR
+				exists = capital_province #WHG
 			}
 			accolade_character_creation_effect = yes
 		}
@@ -10287,13 +10295,13 @@ accolade_create_squire_effect = {
 		if = {
 			limit = {
 				NOT = { exists = scope:chosen_knight }
-				exists = capital_province #LotR
+				exists = capital_province #WHG
 			}
 			accolade_character_creation_effect = yes
 		}
 	}
 	#Boost stats of picked or created char based on squire quality
-	scope:chosen_knight ?= { #LotR
+	scope:chosen_knight ?= { #WHG
 		accolade_squires_boost_martial_tourney_effect = yes
 
 		accolade_squires_boost_prowess_effect = yes
@@ -10329,7 +10337,7 @@ accolade_create_squire_effect = {
 			add_courtier = scope:chosen_knight
 		}
 		
-		if = { #LotR
+		if = { #WHG
 			limit = { 
 				scope:chosen_knight = { is_knight_permitted = scope:owner }
 			}

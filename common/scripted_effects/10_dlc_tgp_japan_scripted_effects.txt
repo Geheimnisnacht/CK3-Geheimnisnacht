@@ -91,7 +91,7 @@
 					target = root
 				}
 			}
-			#trigger_event = tgp_japan_decision.9005 #LotR
+			#trigger_event = tgp_japan_decision.9005 #WHG
 		}
 	}
 	# Crime to Regent
@@ -645,7 +645,7 @@ restore_ceremonial_liege_faction_titles_effect = {
 }
 
 assign_japanese_house_name_options_effect = {
-	# random_list = { #LotR
+	# random_list = { #WHG
 	# 	### AKI
 	# 	### AKITA (NUSHIRO)
 	# 	1 = { # OKAWA
@@ -2743,7 +2743,7 @@ tgp_restore_japanese_monarchy_yamato_restoration_effect = {
 	}
 }
 
-tgp_restore_japanese_monarchy_decision_effect = { #LotR
+tgp_restore_japanese_monarchy_decision_effect = { #WHG
 	# save_scope_as = kampaku
 	# tgp_restore_japanese_monarchy_yamato_scion_effect = yes
 	# add_prestige = major_prestige_value
@@ -2762,7 +2762,7 @@ tgp_restore_japanese_monarchy_decision_effect = { #LotR
 	# else = { custom_tooltip = tgp_restore_japanese_monarchy_decision_hook_tt }
 }
 
-tgp_restore_japanese_monarchy_yamato_scion_effect = { #LotR
+tgp_restore_japanese_monarchy_yamato_scion_effect = { #WHG
 	#title:k_chrysanthemum_throne.previous_holder ?= { save_scope_as = last_tenno }
 	# dynasty:japanese_yamato.dynasty_founder.house ?= {
 	# 	save_scope_as = house_yamato
@@ -2782,7 +2782,7 @@ tgp_restore_japanese_monarchy_yamato_scion_effect = { #LotR
 	# 			limit = { NOT = { exists = scope:scion } }
 	# 			custom_tooltip = tgp_restore_japanese_monarchy_yamato_scion_last_tt
 	# 		}
-	# 		scope:last_tenno ?= { save_scope_as = scion } # LotR
+	# 		scope:last_tenno ?= { save_scope_as = scion } # WHG
 	# 	}
 	# 	else_if = {
 	# 		limit = {
@@ -2794,7 +2794,7 @@ tgp_restore_japanese_monarchy_yamato_scion_effect = { #LotR
 	# 			limit = { NOT = { exists = scope:scion } }
 	# 			custom_tooltip = tgp_restore_japanese_monarchy_yamato_scion_last_child_tt
 	# 		}
-	# 		scope:last_tenno ?= { # LotR
+	# 		scope:last_tenno ?= { # WHG
 	# 			ordered_child = {
 	# 				limit = { tgp_japan_valid_restore_monarchy_scion_trigger = yes }
 	# 				order_by = age
@@ -2812,7 +2812,7 @@ tgp_restore_japanese_monarchy_yamato_scion_effect = { #LotR
 	# 			limit = { NOT = { exists = scope:scion } }
 	# 			custom_tooltip = tgp_restore_japanese_monarchy_yamato_scion_last_close_family_tt
 	# 		}
-	# 		scope:last_tenno ?= { # LotR
+	# 		scope:last_tenno ?= { # WHG
 	# 			ordered_close_family_member = {
 	# 				limit = { tgp_japan_valid_restore_monarchy_scion_trigger = yes }
 	# 				order_by = age
@@ -2869,7 +2869,7 @@ tgp_restore_japanese_monarchy_yamato_scion_effect = { #LotR
 	# }
 }
 
-tgp_restore_japanese_monarchy_yamato_restoration_effect = { #LotR
+tgp_restore_japanese_monarchy_yamato_restoration_effect = { #WHG
 	# add_character_flag = tgp_japan_restore_japanese_monarchy_flag
 	# if = {
 	# 	limit = { exists = scope:scion }
@@ -2920,7 +2920,7 @@ tgp_restore_japanese_monarchy_yamato_restoration_effect = { #LotR
 	# }
 }
 
-tgp_restore_japanese_monarchy_yamato_creation_effect = { #LotR
+tgp_restore_japanese_monarchy_yamato_creation_effect = { #WHG
 	# create_character = {
 	# 	template = tgp_japan_imperial_scion_template
 	# 	location = scope:kampaku.capital_province
@@ -3054,7 +3054,7 @@ tgp_restore_japanese_government_decision_effect = {
 				primary_title.tier >= tier_county
 				culture = { has_same_culture_heritage = scope:kampaku.culture }
 			}
-			# trigger_event = { #LotR
+			# trigger_event = { #WHG
 			# 	id = tgp_japan_decision.9912
 			# 	delayed = yes
 			# }
@@ -3321,7 +3321,7 @@ tgp_restore_ritsuryo_civil_war_effect = {
 			}
 			$REBEL$ = { save_scope_as = recipient }
 			$LIEGE$ = { save_scope_as = actor }
-			#trigger_event = tgp_japan_decision.9913 #LotR
+			#trigger_event = tgp_japan_decision.9913 #WHG
 		}
 	}
 }
@@ -3700,7 +3700,7 @@ tgp_japan_assert_regional_dominion_government_decision_effect = {
 				limit = {
 					is_ai = no
 				}
-				#trigger_event = tgp_japan_decision.9963 #LotR
+				#trigger_event = tgp_japan_decision.9963 #WHG
 			}
 		}
 		if = {
@@ -3899,7 +3899,7 @@ japanese_establish_soryo_administration_reward_effect = {
 }
 
 tgp_learn_chinese_effect_game_start = {
-	# if = { #LotR
+	# if = { #WHG
 	# 	limit = {
 	# 		should_learn_chinese_trigger = yes
 	# 	}
@@ -3907,7 +3907,7 @@ tgp_learn_chinese_effect_game_start = {
 	# }
 }
 tgp_learn_chinese_effect_birthday = {
-	# if = { #LotR
+	# if = { #WHG
 	# 	limit = {
 	# 		should_learn_chinese_trigger = yes
 	# 	}
