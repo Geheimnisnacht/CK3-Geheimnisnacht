@@ -43,10 +43,6 @@
  old_world_afterlife_negative:0 "$old_world_afterlife$"
  old_world_afterlife_negative2:0 "$old_world_afterlife$"
  old_world_afterlife_negative3:0 "$old_world_afterlife$"
- old_world_priest_male:0 "Priest"
- old_world_priest_male_plural:0 "Priests"
- old_world_priest_female:0 "Priestess"
- old_world_priest_female_plural:0 "Priestesses"
  old_world_bishop_female:0 "$old_world_priest_female$" #Maybe we can find something else later, most of the titles would need flavourazation anyway.
  old_world_health_god_name:0 "Shallya"
  old_world_health_god_name_possessive:0 "Shallya's"
