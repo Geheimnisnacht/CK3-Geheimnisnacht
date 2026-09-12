@@ -208,7 +208,9 @@ pilgrimage_additional_reward_effect = {
 #Grants you Pilgrimage trait as appropriate; if you already have the trait it either gives xp or piety. Also logs arrival in activity log for host
 give_pilgrim_trait_or_xp_effect = {
 	if = {
-		limit = { has_hajj_pilgrimage_type_trigger = no }
+		#limit = { has_hajj_pilgrimage_type_trigger = no } # WHG - TODO
+		limit = { always = no }
+		
 		if = { # Host
 			limit = { this = involved_activity.activity_host }
 			involved_activity = {
