@@ -1,7 +1,6 @@
 ﻿# root: The province in which the building was completed
 # scope:character: The character that paid for the construction, if available
 on_building_completed = {
-	on_actions = { lotr_on_building_completed } #LotR
 	effect = {
 		#save the county holder as the character in case the construction wasn't started through GUI or by the AI 
 		if = {
@@ -210,7 +209,7 @@ on_building_completed = {
 						}
 					}
 
-					# holder = { #LotR
+					# holder = { #WHG
 					# 	# Trigger the hidden event
 					# 	trigger_event = fp2_other_decisions.0001
 					# }
@@ -306,7 +305,7 @@ on_building_completed = {
 				}
 			}
 
-			# if = { #LotR
+			# if = { #WHG
 			# 	limit = {
 			# 		has_holding_type = church_holding
 			# 		county.faith.religion = religion:islam_religion
@@ -549,7 +548,7 @@ on_building_completed = {
 			}
 			
 			# Harrying of the North - Pacification Gain
-			# if = { #LotR
+			# if = { #WHG
 			# 	limit = {
 			# 		scope:character.culture = culture:norman
 			# 		has_global_variable = harrying_of_the_north
@@ -776,49 +775,49 @@ on_holding_razed = {
 						}
 						remove_building = generic_university
 					}
-					# else_if = { #LotR
+					# else_if = { #WHG
 					# 	limit = {
 					# 		has_building_or_higher = al_azhar_university
 					# 	}
 					# 	remove_building = al_azhar_university
 					# }
-					# else_if = { #LotR
+					# else_if = { #WHG
 					# 	limit = {
 					# 		has_building_or_higher = sankore_university
 					# 	}
 					# 	remove_building = sankore_university
 					# }
-					# else_if = { #LotR
+					# else_if = { #WHG
 					# 	limit = {
 					# 		has_building_or_higher = siena_university
 					# 	}
 					# 	remove_building = siena_university
 					# }
-					# else_if = { #LotR
+					# else_if = { #WHG
 					# 	limit = {
 					# 		has_building_or_higher = nalanda_university
 					# 	}
 					# 	remove_building = nalanda_university
 					# }
-					# else_if = { #LotR
+					# else_if = { #WHG
 					# 	limit = {
 					# 		has_building_or_higher = house_of_wisdom_01
 					# 	}
 					# 	remove_building = house_of_wisdom_01
 					# }
-					# else_if = { #LotR
+					# else_if = { #WHG
 					# 	limit = {
 					# 		has_building_or_higher = al_qarawiyyin_university_01
 					# 	}
 					# 	remove_building = al_qarawiyyin_university_01
 					# }
-					# else_if = { #LotR
+					# else_if = { #WHG
 					# 	limit = {
 					# 		has_building_or_higher = somapura_university_01
 					# 	}
 					# 	remove_building = somapura_university_01
 					# }
-					# else_if = { #LotR
+					# else_if = { #WHG
 					# 	limit = {
 					# 		has_building_or_higher = cluny_abbey_01
 					# 	}
@@ -833,14 +832,13 @@ on_holding_razed = {
 # root: The holder of the province doing the rebuilding
 # province: The province in which the great building exists
 on_great_building_rebuilt = {
-	on_actions = { lotr_on_great_building_rebuilt } #LotR
 	effect = {
 		add_piety_experience = {
 			add = minor_piety_gain
 			multiply = piety_level
 		}
 		if = {
-			limit = { government_has_flag = government_is_mandala } #LotR
+			limit = { government_has_flag = government_is_mandala } #WHG
 			hidden_effect = {
 				if = {
 					limit = { has_character_modifier = mandala_rise_from_the_ashes_modifier }

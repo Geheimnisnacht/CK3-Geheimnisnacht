@@ -1,6 +1,6 @@
 ﻿# As a Supporter, demand that a Muslim ruler recognize your authority
 # Success makes the Strengthen the Caliphate struggle decision easier to take
-# fp3_demand_submission_interaction = { #LotR
+# fp3_demand_submission_interaction = { #WHG
 # 	icon = demand_submission
 # 	category = interaction_category_religion
 # 	popup_on_receive = yes
@@ -1422,7 +1422,7 @@ fp3_challenge_house_head_interaction = {
 ###################################
 # Change struggle allegiance
 ###################################
-# fp3_change_allegiance = { #LotR
+# fp3_change_allegiance = { #WHG
 # 	interface_priority = 30
 # 	category = interaction_category_diplomacy
 # 	common_interaction = yes
@@ -1995,7 +1995,7 @@ fp3_request_honorary_titles_interaction = {
 	cost = {
 		piety =  {
 			value = major_piety_value
-			# if = { #LotR
+			# if = { #WHG
 			# 	limit = { # cheaper for the actual liege
 			# 		any_vassal = {
 			# 			any_held_title = {
@@ -2218,12 +2218,12 @@ fp3_request_honorary_titles_interaction = {
 	}
 
 	ai_potential = {
-		# any_vassal = { #LotR
+		# any_vassal = { #WHG
 		# 	any_held_title = {
 		# 		this = title:d_sunni
 		# 	}
 		# }
-		always = no #LotR
+		always = no #WHG
 	}
 
 	ai_targets = {
@@ -2239,7 +2239,7 @@ fp3_request_honorary_titles_interaction = {
 ###################################
 # Request house unity interference
 ###################################
-# fp3_request_house_unity_change_interaction = { #LotR
+# fp3_request_house_unity_change_interaction = { #WHG
 # 	interface_priority = 30
 # 	category = interaction_category_religion
 # 	common_interaction = yes

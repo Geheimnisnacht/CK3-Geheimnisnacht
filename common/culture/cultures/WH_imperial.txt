@@ -558,7 +558,7 @@ neueslander = {
 	created = 5000.1.1
 	parents = { reiklander } 
 	
-	#ethos = 
+	ethos = ethos_spiritual
 	heritage = heritage_imperial
 	language = language_reikspiel
 	martial_custom = martial_custom_male_only

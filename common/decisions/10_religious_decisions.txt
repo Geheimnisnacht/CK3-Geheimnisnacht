@@ -1,4 +1,4 @@
-﻿# LotR: removed real world references.
+﻿# WHG: removed real world references.
 
 take_vow_of_poverty_decision = {
 	picture = {
@@ -1743,8 +1743,8 @@ convert_to_confucianism = {
 
 	is_shown = {
 		culture = { has_cultural_parameter = can_always_convert_to_confucianism }
-		#faith.religion != religion:confucianism_religion #LotR
-		always = no #LotR
+		#faith.religion != religion:confucianism_religion #WHG
+		always = no #WHG
 	}
 
 	is_valid = {
@@ -1800,7 +1800,7 @@ convert_to_confucianism = {
 	}
 
 	effect = {
-		#if = { #LotR
+		#if = { #WHG
 		#	limit = {
 		#		scope:jingxue = yes
 		#	}
@@ -1848,8 +1848,8 @@ convert_to_taoism = {
 
 	is_shown = {
 		culture = { has_cultural_parameter = can_always_convert_to_taoism }
-		#faith.religion != religion:taoism_religion #LotR
-		always = no #LotR
+		#faith.religion != religion:taoism_religion #WHG
+		always = no #WHG
 	}
 
 	is_valid = {
@@ -1931,7 +1931,7 @@ convert_to_taoism = {
 
 		save_scope_as = root_scope
 
-		#if = { #LotR
+		#if = { #WHG
 		#	limit = {
 		#		scope:zhengyi = yes
 		#	}

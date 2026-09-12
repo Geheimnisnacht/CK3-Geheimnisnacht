@@ -1011,7 +1011,7 @@ taleuten = { #Talabeclanders, heavy cav
 	color = { 225 90 112.5 }
 	
 	ethos = ethos_stoic
-	heritage = heritage_gallic
+	heritage = heritage_alt_imperial
 	language = language_reikspiel
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
