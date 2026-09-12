@@ -15,10 +15,10 @@ fp1_yearly_events = {
 			culture = { 
 				OR = {
 					any_parent_culture_or_above = {
-						this = culture:dorwinionrim
+						this = culture:aesling
 					}
 					any_parent_culture_or_above = {
-						this = culture:dalemen
+						this = culture:baersonling
 					} 
 				}
 			}
@@ -98,8 +98,8 @@ fp2_yearly_events = {
 		is_wastelands = no #LotR
 		
 		# Most events are geographical in nature
-		#capital_province ?= { geographical_region = world_europe_west_iberia } #LotR
-		capital_province ?= { geographical_region = middleearth_harad_near_harondor }
+		#capital_province ?= { geographical_region = world_europe_west_iberia } 
+		capital_province ?= { geographical_region = world_old_world_southern_realms }
 	}
 	weight_multiplier = {
 		base = 1
@@ -107,7 +107,7 @@ fp2_yearly_events = {
 			factor = 0.33
 
 			NOT = {
-				culture = { has_cultural_pillar = heritage_northern_apysaic }
+				culture = { has_cultural_pillar = heritage_estalian }
 				# culture = { has_cultural_pillar = heritage_iberian }
 			}
 		}

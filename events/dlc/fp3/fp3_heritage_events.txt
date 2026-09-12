@@ -2830,14 +2830,13 @@ fp3_yearly.8033 = {
 ###############################################################
 scripted_trigger hypothetical_hephthalite_heritage_trigger = {
 	OR = { # LotR
-		lotr_steppe_cultures_trigger = yes
-		has_culture = culture:dorwinionrim
+		has_culture = culture:baersonling
 	}
 }
 
 scripted_trigger hephthalite_hoard_province_trigger = {
 	OR = { # LotR
-		geographical_region = middleearth_rhun
+		geographical_region = world_araby_peninsula
 	}
 }
 	
@@ -3411,7 +3410,7 @@ fp3_yearly.8036 = {
 						geographical_region = dlc_fp3_region_pukel_men
 						terrain = mountains
 					}
-					geographical_region = middleearth_west_enedhwaith
+					geographical_region = world_araby_peninsula
 				}
 			}
 		}
@@ -3434,7 +3433,7 @@ fp3_yearly.8036 = {
 							geographical_region = dlc_fp3_region_pukel_men
 							terrain = mountains
 						}
-						geographical_region = middleearth_west_enedhwaith
+						geographical_region = world_araby_peninsula
 					}
 				}
 			}
