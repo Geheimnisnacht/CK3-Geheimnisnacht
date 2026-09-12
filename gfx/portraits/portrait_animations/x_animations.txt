@@ -517,38 +517,38 @@ idle = {
 			}
 		}
 
-		idle_scepter = {
-			animation = { head = "scepter" torso = "scepter" }
-			portrait_modifier = {
-				animations = fat_additive
-				animations_props = ep3_byzantine_scepter_prop
-				animations = cloak_additive
-			}
-			weight = {
-				base = 0
-				modifier = {
-					add = 100
-					primary_title = title:e_byzantium
-					faith.religion = religion:christianity_religion
-				}
-			}
-		}
+		# idle_scepter = {
+		# 	animation = { head = "scepter" torso = "scepter" }
+		# 	portrait_modifier = {
+		# 		animations = fat_additive
+		# 		animations_props = ep3_byzantine_scepter_prop
+		# 		animations = cloak_additive
+		# 	}
+		# 	weight = {
+		# 		base = 0
+		# 		modifier = {
+		# 			add = 100
+		# 			# primary_title = title:e_byzantium #WHG
+		# 			# faith.religion = religion:christianity_religion
+		# 		}
+		# 	}
+		# }
 
-		idle_emperor = {
-			animation = { head = "emperor" torso = "emperor" }
-			portrait_modifier_pack = hu
-			weight = {
-				base = 0
-				modifier = {
-					add = 100
-					OR = {
-						primary_title = title:h_china
-						has_title = title:k_chrysanthemum_throne
-						has_title = title:k_yongson_throne
-					}
-				}
-			}
-		}
+		# idle_emperor = {
+		# 	animation = { head = "emperor" torso = "emperor" }
+		# 	portrait_modifier_pack = hu
+		# 	weight = {
+		# 		base = 0
+		# 		modifier = {
+		# 			add = 100
+		# 			OR = {
+		# 				# primary_title = title:h_china #WHG 
+		# 				# has_title = title:k_chrysanthemum_throne
+		# 				# has_title = title:k_yongson_throne
+		# 			}
+		# 		}
+		# 	}
+		# }
 
 		idle_writing = {
 			animation = { head = "writing" torso = "writing" }
@@ -2021,7 +2021,7 @@ chaplain = {
 				base = 0
 				modifier = {
 					add = 100
-					religion = religion:shintoism_religion
+					# religion = religion:shintoism_religion
 				}
 			}
 		}
@@ -5763,8 +5763,8 @@ war_over_win = {
 								is_theocratic_lessee = yes
 								government_has_flag = government_is_theocracy
 							}
-							religion = religion:christianity_religion
-							NOT = { faith = faith:orthodox }
+							# religion = religion:christianity_religion
+							# NOT = { faith = faith:orthodox }
 						}
 					}
 				}
@@ -6176,7 +6176,7 @@ prayer = {
 				base = 0
 				modifier = {
 					add = 100
-					religion = religion:shintoism_religion
+					# religion = religion:shintoism_religion
 				}
 			}
 		}
@@ -8955,90 +8955,90 @@ chariot_w_horses_shocked = {
 
 instrument_active = {
 	default = {
-		default = { head = "idle_entry" torso = "idle_entry" }
-		portrait_modifier = {
-			animations = female_prop_fix_additive
-		}
+		# default = { head = "idle_entry" torso = "idle_entry" }
+		# portrait_modifier = {
+		# 	animations = female_prop_fix_additive
+		# }
 
-		instrument_active_no_arm = {
-			animation = { head = "qanun_active" torso = "qanun_active" }
-			weight = {
-				base = 0
-				modifier = {
-					add = 100
-					portrait_has_trait_trigger = { TRAIT = maimed }
-				}
-			}
-			portrait_modifier = {
-				animations_props = fp4_qanun_prop
-				animations = female_prop_fix_additive
-			}
-		}
+		# instrument_active_no_arm = {
+		# 	animation = { head = "qanun_active" torso = "qanun_active" }
+		# 	weight = {
+		# 		base = 0
+		# 		modifier = {
+		# 			add = 100
+		# 			portrait_has_trait_trigger = { TRAIT = maimed }
+		# 		}
+		# 	}
+		# 	portrait_modifier = {
+		# 		animations_props = fp4_qanun_prop
+		# 		animations = female_prop_fix_additive
+		# 	}
+		# }
 
-		shawn_active = {
-			animation = { head = "shawm_active" torso = "shawm_active" }
-			weight = {
-				base = 0
-				modifier = {
-					add = 50
-					location = { geographical_region = world_europe }
-				}
-			}
-			portrait_modifier = {
-				animations_props = fp4_shawm_prop
-				animations = female_prop_fix_additive
-			}
-		}
+		# shawn_active = {
+		# 	animation = { head = "shawm_active" torso = "shawm_active" }
+		# 	weight = {
+		# 		base = 0
+		# 		modifier = {
+		# 			add = 50
+		# 			location = { geographical_region = world_europe }
+		# 		}
+		# 	}
+		# 	portrait_modifier = {
+		# 		animations_props = fp4_shawm_prop
+		# 		animations = female_prop_fix_additive
+		# 	}
+		# }
 
-		lute_active = {
-			animation = { head = "lute_active" torso = "lute_active" }
-			weight = {
-				base = 0
-				modifier = {
-					add = 50
-					OR = {
-						location = { geographical_region = world_europe }
-						location = { geographical_region = world_middle_east }
-					}
-				}
-			}
-			portrait_modifier = {
-				animations_props = fp4_lute_prop
-				animations = female_prop_fix_additive
-			}
-		}
+		# lute_active = {
+		# 	animation = { head = "lute_active" torso = "lute_active" }
+		# 	weight = {
+		# 		base = 0
+		# 		modifier = {
+		# 			add = 50
+		# 			OR = {
+		# 				location = { geographical_region = world_europe }
+		# 				location = { geographical_region = world_middle_east }
+		# 			}
+		# 		}
+		# 	}
+		# 	portrait_modifier = {
+		# 		animations_props = fp4_lute_prop
+		# 		animations = female_prop_fix_additive
+		# 	}
+		# }
 
-		qanun_active = {
-			animation = { head = "qanun_active" torso = "qanun_active" }
-			weight = {
-				base = 0
-				modifier = {
-					add = 50
-					OR = {
-						location = { geographical_region = world_middle_east }
-						location = { geographical_region = world_africa_north }
-					}
-				}
-			}
-			portrait_modifier = {
-				animations_props = fp4_qanun_prop
-				animations = female_prop_fix_additive
-			}
-		}
+		# qanun_active = {
+		# 	animation = { head = "qanun_active" torso = "qanun_active" }
+		# 	weight = {
+		# 		base = 0
+		# 		modifier = {
+		# 			add = 50
+		# 			OR = {
+		# 				location = { geographical_region = world_middle_east }
+		# 				location = { geographical_region = world_africa_north }
+		# 			}
+		# 		}
+		# 	}
+		# 	portrait_modifier = {
+		# 		animations_props = fp4_qanun_prop
+		# 		animations = female_prop_fix_additive
+		# 	}
+		# }
 
-		guqin_active = {
-			animation = { head = "guqin_active" torso = "guqin_active" }
-			weight = {
-				base = 0
-				modifier = {
-					add = 50
-					location = { geographical_region = world_asia }
-				}
-			}
-			portrait_modifier = {
-				animations_props = tgp_guqin_01
-			}
-		}
+		# guqin_active = {
+		# 	animation = { head = "guqin_active" torso = "guqin_active" }
+		# 	weight = {
+		# 		base = 0
+		# 		modifier = {
+		# 			add = 50
+		# 			location = { geographical_region = world_asia }
+		# 		}
+		# 	}
+		# 	portrait_modifier = {
+		# 		animations_props = tgp_guqin_01
+		# 	}
+		# }
 
 		chifonie_active = {
 			animation = { head = "chifonie_active" torso = "chifonie_active" }
@@ -9046,7 +9046,7 @@ instrument_active = {
 				base = 0
 				modifier = {
 					add = 50
-					location = { geographical_region = world_europe }
+					location = { geographical_region = world_old_world }
 				}
 			}
 			portrait_modifier = {
