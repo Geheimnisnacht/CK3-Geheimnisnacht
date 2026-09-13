@@ -2,22 +2,6 @@
 	culture = { has_building_gfx = iranian_building_gfx }
 }
 
-eligible_for_fp3_khvarenah_legacy_trigger = {
-	has_fp3_dlc_trigger = yes
-	OR = {
-		game_rule_unrestricted_dynasty_legacies_trigger = yes
-		dynasty = {
-			OR = {
-				dynast = {
-					culture = {
-						has_cultural_pillar = heritage_iranian  #WHG TODO
-					}
-				}
-				has_dynasty_perk = fp3_khvarenah_legacy_1
-			}
-		}
-	}
-}
 
 fp3_warrior_culture_trigger = { 
 	AND = {
@@ -25,7 +9,7 @@ fp3_warrior_culture_trigger = {
 			has_cultural_pillar = ethos_bellicose
 			has_cultural_tradition = tradition_swords_for_hire
 		}
-		# OR = { # WHG
+		# OR = { # WHG TODO
 		# 	has_cultural_pillar = heritage_iranian
 		# 	has_cultural_pillar = heritage_arabic
 		# 	has_cultural_pillar = heritage_turkic
@@ -35,7 +19,7 @@ fp3_warrior_culture_trigger = {
 }
 
 fp3_custom_divinity_for_zoroastrianism_faiths = {
-	OR = { # WHG
+	OR = { # WHG TODO
 		# faith.religion = faith:mazdayasna.religion
 		# faith.religion = faith:gayomarthianism.religion
 		# faith.religion = faith:khurmazta.religion
@@ -84,7 +68,7 @@ fp3_will_remain_in_caliphate_regardless_of_takeover = {
 		
 fp3_eligible_for_yearly_events_trigger = {
 	has_fp3_dlc_trigger = yes
-	# OR = { # WHG
+	# OR = { # # WHG TODO
 	# 	culture = { has_cultural_pillar = heritage_iranian }
 	# 	culture = { has_cultural_pillar = heritage_turkic }
 	# 	culture = { has_cultural_pillar = heritage_mongolic }

@@ -39,6 +39,7 @@ bp2_valid_to_offer_as_hostage_trigger = {
 		text = hostage_cannot_offer_own_regent_tt
 		NOT = { this = $SENDER$.diarch }
 	}
+
 	trigger_if = {
 		limit = { exists = scope:war }
 		scope:war = {
@@ -238,9 +239,8 @@ bp2_valid_for_standard_interactions_trigger = {
 			exists = var:guardian_travelling_to_ward
 		}
 	}
-	#LotR
-	is_wastelands = no
-	
+	#WHG
+	is_wastelands = No
 }
 
 bp2_hostage_benefits_valid_trigger = {
@@ -273,8 +273,8 @@ bp2_hostage_exchange_invalid_cb_trigger = {
 	OR = {
 		using_cb = flowery_war_cb
 		using_cb = excommunication_war
-		# using_cb = fp2_border_raid # LotR
-		# using_cb = fp2_expel_interloper # LotR
+		# using_cb = fp2_border_raid # WHG
+		# using_cb = fp2_expel_interloper # WHG
 		using_cb = artifact_war
 		using_cb = reclaim_relic_artifact_war
 		using_cb = diarch_vassalisation_cb
@@ -288,8 +288,8 @@ bp2_hostage_exchange_invalid_cb_trigger = {
 		using_cb = independence_war
 		using_cb = nation_fracturing_faction_war
 		using_cb = invasion_war
-		# using_cb = norwegian_invasion_cb # LotR
-		# using_cb = norman_conquest_cb # LotR
-		# using_cb = sons_of_lothbrok_invasion_cb # LotR
+		# using_cb = norwegian_invasion_cb # WHG
+		# using_cb = norman_conquest_cb # WHG
+		# using_cb = sons_of_lothbrok_invasion_cb # WHG
 	}
 }

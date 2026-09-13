@@ -6,28 +6,59 @@ eligible_for_fp1_dynasty_legacies_trigger = {
 	has_fp1_dlc_trigger = yes
 	OR = {
 		game_rule_unrestricted_dynasty_legacies_trigger = yes
-		# Technically, we could hardscript this to North Germanics/Normans/Estonians, but eh.
-		culture = { has_innovation = innovation_longboats }
-		# Converts should also get a chance to get in on the fun.
-		#religion = religion:germanic_religion
+		culture = { has_innovation = innovation_varangian_adventurers }
+#		# Technically, we could hardscript this to North Germanics/Normans/Estonians, but eh.
+#		culture = { has_innovation = innovation_longboats }
+#		# Converts should also get a chance to get in on the fun.
+#		religion = religion:germanic_religion
+		culture = { has_cultural_pillar = heritage_sartosan }
+		religion = religion:umbarean_religion
+		culture = culture:corsair
+		faith = { has_doctrine = tenet_corsairs }
+		culture = { has_cultural_tradition = tradition_practiced_pirates }
+	}
+}
+
+eligible_for_fp1_dynasty_legacies_pillage_only_trigger = {
+	has_fp1_dlc_trigger = yes
+	OR = { # WHG
+		game_rule_unrestricted_dynasty_legacies_trigger = yes
+		culture = { has_innovation = innovation_varangian_adventurers }
+#		# Technically, we could hardscript this to North Germanics/Normans/Estonians, but eh.
+#		culture = { has_innovation = innovation_longboats }
+#		# Converts should also get a chance to get in on the fun.
+#		religion = religion:germanic_religion
+		culture = { has_cultural_pillar = heritage_sartosan }
+		religion = religion:umbarean_religion
+		culture = culture:corsair
+		culture = { has_cultural_pillar = heritage_orc }
+		culture = { has_cultural_pillar = heritage_goblin }
+		faith = { has_doctrine = tenet_corsairs }
+		culture = { has_cultural_tradition = tradition_practiced_pirates }
 	}
 }
 
 fp1_can_raise_stele_trigger = {
-	OR = {
-		culture = { has_cultural_parameter = has_access_to_runestones }
+	OR = { # WHG
+		culture = { has_cultural_pillar = heritage_norscan }
+		culture = { has_cultural_tradition = tradition_runestones }
+#		culture_group = culture_group:north_germanic_group
 		has_character_modifier = embraced_local_traditions_modifier
 	}
-	culture = {
-		NOT = { has_cultural_era_or_later = culture_era_high_medieval }
-	}
+#	culture = {
+#		NOT = { has_cultural_era_or_later = culture_era_high_medieval }
+#	}
 }
 
 fp1_can_raise_stele_title_scope_trigger = {
-	culture = {
-		has_cultural_pillar = heritage_norscan
-		NOT = { has_cultural_era_or_later = culture_era_high_medieval }
+	OR = { # WHG
+		culture = { has_cultural_pillar = heritage_norscan }
+
 	}
+#	culture_group = culture_group:north_germanic_group
+#	culture = {
+#		NOT = { has_cultural_era_or_later = culture_era_high_medieval }
+#	}
 }
 
 fp1_county_has_stele_trigger = {
@@ -45,7 +76,7 @@ fp1_eligible_for_yearly_events_trigger = {
 	has_fp1_dlc_trigger = yes
 	OR = {
 		culture = { has_cultural_pillar = heritage_norscan }
-		#religion = religion:germanic_religion
+#		religion = religion:germanic_religion
 	}
 }
 
@@ -53,9 +84,18 @@ fp1_eligible_for_yearly_events_trigger = {
 # Cultural & Regional Triggers
 
 fp1_is_norse = {
-	OR = {
+	OR = { # WHG
 		culture = { has_cultural_pillar = heritage_norscan }
-		culture = culture:nordscane
+
+#		culture_group = culture_group:north_germanic_group
+#		culture = culture:norman
+	}
+}
+
+fp1_is_norse_or_easterling = { # WHG
+	OR = {
+		fp1_is_norse = yes
+		culture = { has_cultural_pillar = heritage_norscan }
 	}
 }
 
@@ -71,16 +111,18 @@ fp1_is_coastal_norse_tribal = {
 	any_sub_realm_county = { is_coastal_county = yes }
 }
 
-fp1_is_in_scandinavia = {
-	capital_county.title_province = { geographical_region = world_europe_north } #TODO WH
+fp1_is_in_scandinavia = { # WHG
+	capital_county.title_province = { geographical_region = world_old_world_norsca }
+#	capital_county.title_province = { geographical_region = world_europe_north }
 }
 
-fp1_is_in_scandinavian_colonies = {
+fp1_is_in_scandinavian_colonies = { # WHG
 	capital_county.title_province = {
-		OR = {
-			geographical_region = world_europe_west_britannia
-			geographical_region = dlc_fp1_region_colonial_eastern_europe
-		}
+		geographical_region = world_old_world_norsca
+#		OR = {
+#			geographical_region = world_europe_west_britannia
+#			geographical_region = dlc_fp1_region_colonial_eastern_europe
+#		}
 	}
 }
 
@@ -116,15 +158,16 @@ fp1_remove_stele_new_holder_trigger = {
 }
 
 is_vaguely_danish_bhakti_trigger = {
-	always = no # OR = {
-	# 	has_culture = culture:danish
-	# 	culture = { has_name_list = name_list_danish }
-	# 	# We deliberately use the de jure rather than the geographical area to make this at least a *little* more fluid.
-	# 	AND = {
-	# 		is_playable_character = yes
-	# 		capital_county.kingdom = title:k_denmark
-	# 	}
-	# }
+	always = no # WHG
+#	OR = {
+#		has_culture = culture:danish
+#		culture = { has_name_list = name_list_danish }
+#		# We deliberately use the de jure rather than the geographical area to make this at least a *little* more fluid.
+#		AND = {
+#			is_landed = yes
+#			capital_county.kingdom = title:k_denmark
+#		}
+#	}
 }
 
 ##################################################
@@ -132,23 +175,18 @@ is_vaguely_danish_bhakti_trigger = {
 
 fp1_va_eligible_for_scandinavian_troops_trigger = {
 	# We only give these to North Germanics. I realise we check this elsewhere, but it makes it a bit easier to hijack the CB for other cultures via modding without weirdness.
-	culture = {
-		OR = {
-			has_cultural_pillar = heritage_norscan
-			# this = culture:estonian
-			# any_parent_culture_or_above = {
-			# 	this = culture:estonian #Estonian
-			# }
-		}
+	OR = { # WHG
+		culture = { has_cultural_pillar = heritage_norscan }
+		culture = { has_cultural_pillar = heritage_orc }
+		culture = { has_cultural_pillar = heritage_goblin }
 	}
+#	culture_group = culture_group:north_germanic_group
 	# Who hold at least one county in the initial de jure of the mainland Norse kingdoms.
 	any_sub_realm_county = {
-		OR = {
-			title_province = { geographical_region = dlc_fp1_region_core_mainland_scandinavia }
-			title:k_esthonia = {
-				is_de_jure_liege_or_above_target = prev
-			}
-		}
+		#OR = {
+			title_province = { geographical_region = world_old_world }	# WHG: We don't need to geographically lock this. Our adventurers are from everywhere.
+		#}
+#		title_province = { geographical_region = dlc_fp1_region_core_mainland_scandinavia }
 		culture = scope:attacker.culture
 		faith = scope:attacker.faith
 	}
@@ -193,8 +231,12 @@ suitable_shieldmaiden_gaoler_trigger = {
 # Interaction Triggers
 
 basic_can_have_trial_by_combat_trigger = {
-	# This is referenced elsewhere, so we keep it separate in order to allow justification for TbCs outside of interactions.
-	culture = { has_cultural_parameter = has_access_to_trials_by_combat }
+	OR = {
+		# culture_group = culture_group:north_germanic_group
+		# culture = culture:norman
+		#WHG
+		culture = { has_cultural_parameter = has_access_to_trials_by_combat }
+	}
 }
 
 can_have_trial_by_combat_trigger = {
@@ -277,22 +319,23 @@ gruesome_sacrifices_grand_blot_can_continue_trigger = {
 }
 
 fp1_valid_norse_faith_for_jomsvikings_trigger = {
-	always = no #religion = religion:germanic_religion
-	#has_doctrine_parameter = unreformed
+	# religion = religion:germanic_religion # WHG
+	always = no # WHG
+	has_doctrine_parameter = unreformed
 }
 
 fp1_jomsvikings_have_not_existed_trigger = {
-	always = no # # They've already been destroyed in 1066.
-	# game_start_date < 1000.1.1
-	# NOR = {
-	# 	# And otherwise can't currently be created.
-	# 	exists = global_var:jomsvikings_title
-	# 	# Nor should they have been made via decision or event.
-	# 	is_target_in_global_variable_list = {
-	# 		name = unavailable_unique_decisions
-	# 		target = flag:flag_forged_jomvikings
-	# 	}
-	# }
+	# They've already been destroyed in 1066.
+	game_start_date < 1000.1.1
+	NOR = {
+		# And otherwise can't currently be created.
+		exists = global_var:jomsvikings_title
+		# Nor should they have been made via decision or event.
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:flag_forged_jomvikings
+		}
+	}
 }
 
 fp1_valid_county_for_jomsvikings_trigger = {
@@ -300,7 +343,8 @@ fp1_valid_county_for_jomsvikings_trigger = {
 	is_coastal_county = yes
 	custom_description = {
 		text = forge_the_jomsvikings_decision.tt.is_in_correct_region
-		title_province = { geographical_region = dlc_fp1_region_non_scandinavian_southern_baltic }
+		title_province = { geographical_region = middleearth } # Matt: the Jomsvikings aren't used yet in Realms.
+#		title_province = { geographical_region = dlc_fp1_region_non_scandinavian_southern_baltic }
 	}
 	any_county_province = {
 		custom_description = {
@@ -317,45 +361,44 @@ fp1_valid_county_for_jomsvikings_trigger = {
 ##################################################
 # Achievement Triggers
 
-fp1_achievement_culture_norse_trigger = {
-	OR = {
-		culture = { has_cultural_pillar = heritage_norscan }
-		culture = culture:nordscane
-	}
-}
+#fp1_achievement_culture_norse_trigger = {
+#	OR = {
+#		culture_group = culture_group:north_germanic_group
+#		culture = culture:norman
+#	}
+#}
 
-fp1_achievement_culture_norse_or_rus_trigger = {
-	OR = {
-		fp1_achievement_culture_norse_trigger = yes
-		#culture = culture:russian
-	}
-}
+#fp1_achievement_culture_norse_or_rus_trigger = {
+#	OR = {
+#		fp1_achievement_culture_norse_trigger = yes
+#		culture = culture:russian
+#	}
+#}
 
-fp1_achievement_religious_norse_trigger = {
-	religion = religion:undivided_religion
-}
+#fp1_achievement_religious_norse_trigger = {
+#	religion = religion:germanic_religion
+#}
 
-fp1_achievement_culture_plus_religion_norse_trigger = {
-	fp1_achievement_culture_norse_trigger = yes
-	fp1_achievement_religious_norse_trigger = yes
-}
-
+#fp1_achievement_culture_plus_religion_norse_trigger = {
+#	fp1_achievement_culture_norse_trigger = yes
+#	fp1_achievement_religious_norse_trigger = yes
+#}
 ###################################################
 # Jomsviking Triggers
 fp1_ruler_eligible_for_jomsviking_coup = {
-	always = no # # We never want to coup realms with players who might be affected, so just flat-out ban them.
-	# NOR = {
-	# 	is_ai = no
-	# 	any_vassal_or_below = { is_ai = no }
-	# 	any_liege_or_above = { is_ai = no }
-	# }
-	# # And anyone that's close family to/married to a player.
-	# NOR = {
-	# 	any_spouse = { is_ai = no }
-	# 	any_close_or_extended_family_member = { is_ai = no }
-	# }
-	# # Veto anyone following the unreformed Norse pagan faith.
-	# NOT = { faith = faith:norse_pagan }
-	# # For simplicity, exclude wars.
-	# is_at_war = no
+	# We never want to coup realms with players who might be affected, so just flat-out ban them.
+	NOR = {
+		is_ai = no
+		any_vassal_or_below = { is_ai = no }
+		any_liege_or_above = { is_ai = no }
+	}
+	# And anyone that's close family to/married to a player.
+	NOR = {
+		any_spouse = { is_ai = no }
+		any_close_or_extended_family_member = { is_ai = no }
+	}
+	# Veto anyone following the unreformed Norse pagan faith.
+	#NOT = { faith = faith:norse_pagan }
+	# For simplicity, exclude wars.
+	is_at_war = no
 }

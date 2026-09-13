@@ -10,7 +10,7 @@ maa_regiments_valid_for_cheap_reinforcement_trigger = {
 	NOR = {
 		is_unit_type = heavy_cavalry
 		is_unit_type = camel_cavalry
-		is_maa_type = laamp_settler_maa #LotR
+		is_maa_type = laamp_settler_maa #WHG
 		maa_regiments_cost_more_to_reinforce_per_soldier_trigger = yes
 	}
 }
@@ -32,7 +32,7 @@ maa_regiments_valid_to_refill_trigger = {
 		}
 		scope:actor.domicile ?= { has_domicile_parameter = camp_reinforce_elephant_regiments_anywhere }
 	}
-	NOT = { is_maa_type = laamp_settler_maa } #LotR
+	NOT = { is_maa_type = laamp_settler_maa } #WHG
 }
 
 any_laamp_portion_at_sea_trigger = {
@@ -58,7 +58,7 @@ any_laamp_portion_at_sea_trigger = {
 }
 
 character_is_valid_for_harrying_of_the_north_trigger = {
-	# title:k_england.holder = { owns_story_of_type = story_cycle_harrying_of_the_north } #LotR
+	# title:k_england.holder = { owns_story_of_type = story_cycle_harrying_of_the_north } #WHG
 	# trigger_if = {
 	# 	limit = { is_ruler = yes }
 	# 	OR = {
@@ -84,11 +84,11 @@ character_is_valid_for_harrying_of_the_north_trigger = {
 	# 	character_is_valid_anglo_saxon_for_harrying_of_the_north_trigger = yes
 	# 	character_is_valid_norman_for_harrying_of_the_north_trigger = yes
 	# }
-	always = no #LotR
+	always = no #WHG
 }
 
 character_is_valid_anglo_saxon_for_harrying_of_the_north_trigger = {
-	# culture = { #LotR
+	# culture = { #WHG
 	# 	OR = {
 	# 		this = culture:anglo_saxon
 	# 		any_parent_culture_or_above = { this = culture:anglo_saxon }
@@ -101,7 +101,7 @@ character_is_valid_anglo_saxon_for_harrying_of_the_north_trigger = {
 }
 
 character_is_valid_norman_for_harrying_of_the_north_trigger = {
-	# culture = {#LotR
+	# culture = {#WHG
 	# 	OR = {
 	# 		this = culture:norman
 	# 		any_parent_culture_or_above = { this = culture:norman }
@@ -114,7 +114,7 @@ character_is_valid_norman_for_harrying_of_the_north_trigger = {
 }
 
 disable_interaction_for_hereward_trigger = {
-	# trigger_if = { #LotR
+	# trigger_if = { #WHG
 	# 	limit = { scope:recipient = character:90028 }
 	# 	custom_tooltip = {
 	# 		text = owns_a_story_trigger
@@ -129,7 +129,7 @@ disable_interaction_for_hereward_trigger = {
 }
 
 disable_interaction_for_hasan_trigger = {
-	# trigger_if = { #LotR
+	# trigger_if = { #WHG
 	# 	limit = { scope:recipient = character:41702 }
 	# 	custom_tooltip = {
 	# 		text = owns_a_story_trigger
@@ -143,9 +143,8 @@ laamp_request_likely_marriable_woman_trigger = {
 		female = yes
 		adult = yes
 	}
-	is_lotr_adult = yes #LotR
-	NOT = { culture ?= culture:wastelands } #LotR
-	
+	is_lotr_adult = yes #WHG
+	NOT = { culture ?= culture:wastelands } #WHG
 	can_marry_trigger = yes
 }
 
@@ -154,9 +153,8 @@ laamp_request_likely_marriable_man_trigger = {
 		female = no
 		adult = yes
 	}
-	is_lotr_adult = yes #LotR
-	NOT = { culture ?= culture:wastelands } #LotR
-	
+	is_lotr_adult = yes #WHG
+	NOT = { culture ?= culture:wastelands } #WHG
 	can_marry_trigger = yes
 }
 
@@ -206,8 +204,8 @@ is_valid_for_laampdom = {
 		}
 		#is_adult = yes # Old enough to venture forth
 		#age < 60 # Young enough to venture forth
-		health_age_equivalent < 60 #LotR ages
-		is_lotr_adult = yes #LotR
+		health_age_equivalent < 60 #WHG ages
+		is_lotr_adult = yes #WHG
 		health >= fine_health # Healthy enough to venture forth
 		OR = {
 			highest_skill_value >= decent_skill_rating
@@ -274,8 +272,7 @@ playable_relative_trigger = {
 		ai = yes
 		advanced_ruler = yes
 	}
-	NOT = { culture ?= culture:wastelands } #LotR
-	
+	NOT = { culture ?= culture:wastelands } #WHG
 	house = root.house
 }
 
@@ -285,8 +282,7 @@ ep3_laamp_interesting_sibling_trigger = {
 		landed = no
 		advanced_ruler = no
 	}
-	NOT = { culture ?= culture:wastelands } #LotR
-	
+	NOT = { culture ?= culture:wastelands } #WHG
 	NOT = {
 		any_consort = {
 			is_ruler = yes
@@ -324,8 +320,7 @@ ep3_adventurer_invasion_allowed_for_character_trigger = {
 	has_ep3_dlc_trigger = yes
 	government_has_flag = government_is_landless_adventurer
 	is_landed = no
-	is_wastelands = no #LOTR
-	
+	is_wastelands = no #WHG
 }
 
 ep3_adventurer_invasion_allowed_for_character_display_regardless_trigger = {
@@ -336,12 +331,10 @@ ep3_adventurer_invasion_allowed_for_character_display_regardless_trigger = {
 ep3_adventurer_landless_allowed_against_character_trigger = {
 	is_landed = yes
 	scope:attacker = {
-		is_wastelands = no #LOTR
-		
+		is_wastelands = no #WHG
 	}
 	scope:defender = {
-		is_wastelands = no #LOTR
-		
+		is_wastelands = no #WHG
 	}
 	# Players vs. AI filtering.
 	OR = {
@@ -429,7 +422,7 @@ valid_laamp_basic_trigger = {
 			}
 			$EMPLOYER$.highest_held_title_tier <= $LAAMP$.prestige_level
 			$EMPLOYER$ = { is_contact_of = $LAAMP$ }
-			$LAAMP$ = { lotr_valid_for_story_contracts = yes } #LotR
+			$LAAMP$ = { lotr_valid_for_story_contracts = yes } #whg
 		}
 	}
 	$EMPLOYER$ = {
@@ -437,10 +430,6 @@ valid_laamp_basic_trigger = {
 		is_ai = yes
 		# Plus some standard stuff.
 		is_alive = yes
-		trigger_if = { #LotR
-			limit = { $LAAMP$ = { is_alive = yes } NOT = { $LAAMP$ = { has_variable = lotr_story_content } } }
-			is_lotr_adult = yes
-		}
 	}
 	$EMPLOYER$ = { is_incapable = no }
 	# Laamps shouldn't offer contracts in their local area, ever.
@@ -456,7 +445,7 @@ valid_laamp_basic_trigger = {
 		NOT = { is_at_war_with = $LAAMP$ }
 	}
 	## Rivals are cheap to avoid.
-	trigger_if = { #LotR
+	trigger_if = { #WHG
 		limit = {
 			$LAAMP$ = { is_alive = yes }
 			NOT = { $LAAMP$ = { has_variable = lotr_story_content } }
@@ -484,7 +473,7 @@ valid_laamp_basic_trigger = {
 		}
 	}
 	
-	## LotR - make sure the employer qualifies to give them contracts
+	## WHG - make sure the employer qualifies to give them contracts
 	$EMPLOYER$ = { lotr_valid_laamp_for_employer = { CHARACTER = $LAAMP$ } }
 	
 	$LAAMP$ = { government_has_flag = government_is_landless_adventurer }
@@ -540,8 +529,7 @@ valid_laamp_sensible_start_trigger = {
 			in_army = no
 			imprisoned = no
 		}
-		NOT = { culture ?= culture:wastelands } #LotR
-		
+		NOT = { culture ?= culture:wastelands } #WHG
 	}
 	trigger_if = {
 		limit = {
@@ -567,13 +555,13 @@ rule_out_dramatic_laamp_employers_trigger = {
 
 # We do not spawn contracts in the Sahara without the right CulTrad.
 lock_contracts_from_spawning_in_sahara_trigger = {
-	# OR = { #LotR
+	# OR = { #WHG
 	# 	NOT = {
 	# 		location = { geographical_region = custom_sahara_proper }
 	# 	}
 	# 	culture = { has_cultural_tradition = tradition_saharan_nomads }
 	# }
-	always = yes #LotR
+	always = yes #WHG
 }
 
 # How far do we have to travel (or to where) before we start spawning more contracts to play with?
@@ -675,7 +663,7 @@ laamp_base_3001_valid_neighbours_trigger = {
 		# Or on people we're currently at war with — it's a little late for court whispers.
 		is_at_war_with = $EMPLOYER$
 	}
-	is_lotr_adult = yes #LotR
+	is_lotr_adult = yes #WHG
 	is_incapable = no
 	is_imprisoned = no
 }
@@ -832,8 +820,7 @@ enable_debug_laamp_event_logging_toggle_trigger = { always = no }
 ai_can_valid_to_create_laamp_trigger = {
 	save_temporary_scope_as = char_temp
 	scope:char_temp = {
-		is_wastelands = no #LOTR
-		
+		is_wastelands = no #WHG
 	}
 	OR = {
 		# General checking.
@@ -894,7 +881,7 @@ would_judge_new_gallivanters_trigger = {
 			has_trait = eccentric
 		}
 	}
-	is_lotr_adult = yes #LotR
+	is_lotr_adult = yes #WHG
 }
 
 butcher_animals_decision_available_dogs_trigger = {
