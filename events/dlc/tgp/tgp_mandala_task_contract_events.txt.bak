@@ -8681,36 +8681,36 @@ tgp_east_asia_mandala_task_contract_events.5000 = {
 		
 		random_list = {
 			50 = {
-				religion:buddhism_religion = {
-					random_faith = {
-						limit = {
-							NOR = {
-								this = root.faith
-								this = faith:dhyana
-								this = faith:pundarika
-								this = faith:vinaya
-								this = faith:avatamsaka
-								this = faith:sukhavati
-								this = faith:acharya
-								this = faith:mantrayana
-								this = faith:maitreya
-								this = faith:yogacara
-							}
-						}
-						save_scope_as = character_faith
-					}
-				}
+				# religion:buddhism_religion = { #WHG TODO
+				# 	random_faith = {
+				# 		limit = {
+				# 			NOR = {
+				# 				this = root.faith
+				# 				this = faith:dhyana
+				# 				this = faith:pundarika
+				# 				this = faith:vinaya
+				# 				this = faith:avatamsaka
+				# 				this = faith:sukhavati
+				# 				this = faith:acharya
+				# 				this = faith:mantrayana
+				# 				this = faith:maitreya
+				# 				this = faith:yogacara
+				# 			}
+				# 		}
+				# 		save_scope_as = character_faith
+				# 	}
+				# }
 			}
 			50 = {
-				religion:hinduism_religion = {
-					random_faith = {
-						limit = {
-							this != root.faith
-							this != faith:lamaism
-						}
-						save_scope_as = character_faith
-					}
-				}
+				# religion:hinduism_religion = { #WHG TODO
+				# 	random_faith = {
+				# 		limit = {
+				# 			this != root.faith
+				# 			this != faith:lamaism
+				# 		}
+				# 		save_scope_as = character_faith
+				# 	}
+				# }
 			}
 		}
 		# Local character
