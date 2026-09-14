@@ -8,6 +8,7 @@
  72311 = { name = "dynn_shazanar" culture = strigany }
  9000 = { name = "dynn_Unberogen" culture = unberogen }
 
+ 19000 = { name = "dynn_Carstein" culture = sylvanian }
 
  #Taal
  dynasty_karnos = { name = "dynn_karnos"	culture = "wastelands" motto = dynn_karnos_motto }
