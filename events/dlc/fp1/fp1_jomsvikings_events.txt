@@ -1,4 +1,4 @@
-﻿# namespace = fp1_jomsvikings #LotR - removed
+﻿# namespace = fp1_jomsvikings #WHG - removed
 
 # ##################################################
 # # #Standard Events
