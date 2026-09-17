@@ -1,6 +1,8 @@
 ﻿@correct_culture_primary_score = 100
 @better_than_the_alternatives_score = 50
 @always_primary_score = 1000
+@never_primary_score = -1000
+
 
 #######################
 ###Northern Pantheon###
@@ -15,10 +17,15 @@ k_cult_of_sigmar = {
 	no_automatic_claims = yes
 	always_follows_primary_heir = yes
 	destroy_if_invalid_heir = yes
+	can_use_nomadic_naming = no
+
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
 	
 	capital = c_altdorf
 
-	male_names = {
+	holding_regnal_male_names = {
 		Aglim Alric Azram
 		Belgar
 		Durak
@@ -38,9 +45,7 @@ k_cult_of_sigmar = {
 		Yorri
 	}
 
-	ai_primary_priority = {
-		add = @always_primary_score
-	}
+
 	
 	# d_arch_lectory_altdorf = {
 		# color = { 153 50 125 }
@@ -87,28 +92,32 @@ k_cult_of_sigmar = {
 		# destroy_if_invalid_heir = yes
 		
 		# ai_primary_priority = {
-			 add = @always_primary_score
+			#  add = @always_primary_score
 		#}
 
 		# capital = c_talabheim
-	 #}
+	#}
 	
-	 d_sisterhood_of_sigmar = {
-		 color = { 153 50 125 }
-		 definite_form = yes
-		 ruler_uses_title_name = no
-		 landless = yes
-		
-		 no_automatic_claims = yes
-		 always_follows_primary_heir = yes
-		 destroy_if_invalid_heir = yes
-		
-		ai_primary_priority = {
-			 add = @always_primary_score
-		}
 
-		capital = c_mordheim
+}
+
+
+d_sisterhood_of_sigmar = {
+	color = { 153 50 125 }
+	definite_form = yes
+	ruler_uses_title_name = no
+	landless = yes
+	
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	destroy_if_invalid_heir = yes
+	can_use_nomadic_naming = no
+
+	ai_primary_priority = {
+		add = @always_primary_score
 	}
+
+	capital = c_mordheim
 }
 
 k_cult_of_taal = {
@@ -121,6 +130,7 @@ k_cult_of_taal = {
 	no_automatic_claims = yes
 	always_follows_primary_heir = yes
 	destroy_if_invalid_heir = yes
+	can_use_nomadic_naming = no
 
 	ai_primary_priority = {
 		add = @always_primary_score
@@ -190,7 +200,7 @@ k_cult_of_manann = {
 	 destroy_if_invalid_heir = yes
 
 	 ai_primary_priority = {
-		 add = @always_primary_score
+		add = @always_primary_score
 	}
 
 	capital = c_marienburg
