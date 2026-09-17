@@ -1,27 +1,27 @@
-﻿chaos_undivided = {
-}
+﻿# chaos_undivided = {
+# }
 
-everchosen = {
-}
+# everchosen = {
+# }
 
-khorne = {
-}
+# khorne = {
+# }
 
-tzeentch = {
-}
+# tzeentch = {
+# }
 
-nurgle = {
-}
+# nurgle = {
+# }
 
-slaanesh = {
-}
+# slaanesh = {
+# }
 
-malal = {
-}
+# malal = {
+# }
 
-hashut = {
-}
+# hashut = {
+# }
 
-daemon_prince = {
-}
+# daemon_prince = {
+# }
 
