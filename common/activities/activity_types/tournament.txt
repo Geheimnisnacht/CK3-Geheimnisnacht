@@ -1005,7 +1005,7 @@
 		# 	}
 		# 	add = 30
 		# }
-		else_if = {
+		if = {
 			limit = {
 				OR = {
 					has_building_or_higher = jousting_lists_01

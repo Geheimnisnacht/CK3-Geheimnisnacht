@@ -115,7 +115,7 @@ tradition_forest_fighters = {
 					OR = {
 						terrain = forest
 						terrain = taiga
-						terrain = deep_forest #WHG
+						# terrain = deep_forest #WHG
 					}
 				}
 			}
