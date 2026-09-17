@@ -46,7 +46,7 @@ baron_feudal_male = {
 	special = holder
 	tier = barony
 	priority = 5
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 }
 baron_feudal_female = {
 	type = character
@@ -54,13 +54,13 @@ baron_feudal_female = {
 	special = holder
 	tier = barony
 	priority = 5
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 }
 barony_feudal = {
 	type = title
 	tier = barony
 	priority = 5
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 }
 count_feudal_male = {
 	type = character
@@ -68,7 +68,7 @@ count_feudal_male = {
 	special = holder
 	tier = county
 	priority = 16
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 }
 count_feudal_female = {
 	type = character
@@ -76,13 +76,13 @@ count_feudal_female = {
 	special = holder
 	tier = county
 	priority = 16
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 }
 county_feudal = {
 	type = title
 	tier = county
 	priority = 16
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 }
 duke_feudal_male = {
 	type = character
@@ -90,7 +90,7 @@ duke_feudal_male = {
 	special = holder
 	tier = duchy
 	priority = 26
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 }
 duke_feudal_female = {
 	type = character
@@ -98,12 +98,12 @@ duke_feudal_female = {
 	special = holder
 	tier = duchy
 	priority = 26
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 }
 duchy_feudal = {
 	type = title
 	tier = duchy
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	priority = 27
 }
 king_feudal_male = {
@@ -112,7 +112,7 @@ king_feudal_male = {
 	special = holder
 	tier = kingdom
 	priority = 46
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 }
 king_feudal_female = {
 	type = character
@@ -120,13 +120,13 @@ king_feudal_female = {
 	special = holder
 	tier = kingdom
 	priority = 46
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 }
 kingdom_feudal = {
 	type = title
 	tier = kingdom
 	priority = 46
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 }
 emperor_feudal_male = {
 	type = character
@@ -134,7 +134,7 @@ emperor_feudal_male = {
 	special = holder
 	tier = empire
 	priority = 101
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 }
 emperor_feudal_female = {
 	type = character
@@ -142,13 +142,13 @@ emperor_feudal_female = {
 	special = holder
 	tier = empire
 	priority = 101
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 }
 empire_feudal = {
 	type = title
 	tier = empire
 	priority = 101
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 }
 
  #Default Republic tiers
@@ -1177,7 +1177,7 @@ baron_feudal_male_bretonnian = {
 	special = holder
 	tier = barony
 	priority = 9
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_bretonnian }
 }
 baron_feudal_female_bretonnian = {
@@ -1186,14 +1186,14 @@ baron_feudal_female_bretonnian = {
 	special = holder
 	tier = barony
 	priority = 9
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_bretonnian }
 }
 barony_feudal_bretonnian = {
 	type = title
 	tier = barony
 	priority = 9
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_bretonnian }
 }
 duke_feudal_male_bretonnian = {
@@ -1202,7 +1202,7 @@ duke_feudal_male_bretonnian = {
 	special = holder
 	tier = duchy
 	priority = 28
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_bretonnian }
 }
 duke_feudal_female_bretonnian = {
@@ -1211,14 +1211,14 @@ duke_feudal_female_bretonnian = {
 	special = holder
 	tier = duchy
 	priority = 28
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_bretonnian }
 }
 duchy_feudal_bretonnian = {
 	type = title
 	tier = duchy
 	priority = 28
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_bretonnian }
 }
 king_feudal_male_bretonnian = {
@@ -1227,7 +1227,7 @@ king_feudal_male_bretonnian = {
 	special = holder
 	tier = kingdom
 	priority = 47
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_bretonnian }
 }
 king_feudal_female_bretonnian = {
@@ -1236,14 +1236,14 @@ king_feudal_female_bretonnian = {
 	special = holder
 	tier = kingdom
 	priority = 47
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_bretonnian }
 }
 kingdom_feudal_bretonnian = {
 	type = title
 	tier = kingdom
 	priority = 47
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_bretonnian }
 }
 emperor_feudal_male_bretonnian = {
@@ -1252,7 +1252,7 @@ emperor_feudal_male_bretonnian = {
 	special = holder
 	tier = empire
 	priority = 102
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_bretonnian }
 }
 emperor_feudal_female_bretonnian = {
@@ -1261,14 +1261,14 @@ emperor_feudal_female_bretonnian = {
 	special = holder
 	tier = empire
 	priority = 102
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_bretonnian }
 }
 empire_feudal_bretonnian = {
 	type = title
 	tier = empire
 	priority = 102
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_bretonnian }
 }
 	#Republic#
@@ -1373,7 +1373,7 @@ baron_feudal_male_estalian = {
 	special = holder
 	tier = barony
 	priority = 3
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_estalian }
 }
 baron_feudal_female_estalian = {
@@ -1382,14 +1382,14 @@ baron_feudal_female_estalian = {
 	special = holder
 	tier = barony
 	priority = 3
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_estalian }
 }
 barony_feudal_estalian = {
 	type = title
 	tier = barony
 	priority = 3
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_estalian }
 }
 count_feudal_male_estalian = {
@@ -1398,7 +1398,7 @@ count_feudal_male_estalian = {
 	special = holder
 	tier = county
 	priority = 30
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_estalian }
 }
 count_feudal_female_estalian = {
@@ -1407,14 +1407,14 @@ count_feudal_female_estalian = {
 	special = holder
 	tier = county
 	priority = 30
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_estalian }
 }
 county_feudal_estalian = {
 	type = title
 	tier = county
 	priority = 30
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_estalian }
 }
 duke_feudal_male_estalian = {
@@ -1423,7 +1423,7 @@ duke_feudal_male_estalian = {
 	special = holder
 	tier = duchy
 	priority = 28
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_estalian }
 }
 duke_feudal_female_estalian = {
@@ -1432,14 +1432,14 @@ duke_feudal_female_estalian = {
 	special = holder
 	tier = duchy
 	priority = 28
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_estalian }
 }
 duchy_feudal_estalian = {
 	type = title
 	tier = duchy
 	priority = 30
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_estalian }
 }
 king_feudal_male_estalian = {
@@ -1448,7 +1448,7 @@ king_feudal_male_estalian = {
 	special = holder
 	tier = kingdom
 	priority = 47
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_estalian }
 }
 king_feudal_female_estalian = {
@@ -1457,14 +1457,14 @@ king_feudal_female_estalian = {
 	special = holder
 	tier = kingdom
 	priority = 47
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_estalian }
 }
 kingdom_feudal_estalian = {
 	type = title
 	tier = kingdom
 	priority = 48
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_estalian }
 }
 kingdom_uncreated_feudal_estalian = {
@@ -1479,7 +1479,7 @@ emperor_feudal_male_estalian = {
 	special = holder
 	tier = empire
 	priority = 102
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_estalian }
 }
 emperor_feudal_female_estalian = {
@@ -1488,14 +1488,14 @@ emperor_feudal_female_estalian = {
 	special = holder
 	tier = empire
 	priority = 102
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_estalian }
 }
 empire_feudal_estalian = {
 	type = title
 	tier = empire
 	priority = 102
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_estalian }
 }
 
@@ -2215,7 +2215,7 @@ baron_feudal_male_tilean = {
 	special = holder
 	tier = barony
 	priority = 2
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_tilean }
 }
 baron_feudal_female_tilean = {
@@ -2224,14 +2224,14 @@ baron_feudal_female_tilean = {
 	special = holder
 	tier = barony
 	priority = 2
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_tilean }
 }
 barony_feudal_tilean = {
 	type = title
 	tier = barony
 	priority = 2
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_tilean }
 }
 count_feudal_male_tilean = {
@@ -2240,7 +2240,7 @@ count_feudal_male_tilean = {
 	special = holder
 	tier = county
 	priority = 18
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_tilean }
 }
 count_feudal_female_tilean = {
@@ -2249,14 +2249,14 @@ count_feudal_female_tilean = {
 	special = holder
 	tier = county
 	priority = 18
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_tilean }
 }
 county_feudal_tilean = {
 	type = title
 	tier = county
 	priority = 18
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_tilean }
 }
 duke_feudal_male_tilean = {
@@ -2265,7 +2265,7 @@ duke_feudal_male_tilean = {
 	special = holder
 	tier = duchy
 	priority = 27
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_tilean }
 }
 duke_feudal_female_tilean = {
@@ -2274,14 +2274,14 @@ duke_feudal_female_tilean = {
 	special = holder
 	tier = duchy
 	priority = 27
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_tilean }
 }
 duchy_feudal_tilean = {
 	type = title
 	tier = duchy
 	priority = 18
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_tilean }
 }
 king_feudal_male_tilean = {
@@ -2290,7 +2290,7 @@ king_feudal_male_tilean = {
 	special = holder
 	tier = kingdom
 	priority = 47
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_tilean }
 }
 king_feudal_female_tilean = {
@@ -2299,14 +2299,14 @@ king_feudal_female_tilean = {
 	special = holder
 	tier = kingdom
 	priority = 47
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_tilean }
 }
 kingdom_feudal_tilean = {
 	type = title
 	tier = kingdom
 	priority = 47
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_tilean }
 }
 emperor_feudal_male_tilean = {
@@ -2315,7 +2315,7 @@ emperor_feudal_male_tilean = {
 	special = holder
 	tier = empire
 	priority = 102
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_tilean }
 }
 emperor_feudal_female_tilean = {
@@ -2324,7 +2324,7 @@ emperor_feudal_female_tilean = {
 	special = holder
 	tier = empire
 	priority = 102
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_tilean }
 }
 ##########

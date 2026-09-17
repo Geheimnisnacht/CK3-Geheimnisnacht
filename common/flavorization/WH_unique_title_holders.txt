@@ -149,7 +149,7 @@ duke_feudal_dauphin_male_bretonnian = {
 	tier = duchy
 	priority = 28
 	titles = { d_charboneau d_cherry d_glanborielle d_nar d_quenelles }
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_bretonnian }
 }
 duke_feudal_dauphin_female_bretonnian = {
@@ -159,7 +159,7 @@ duke_feudal_dauphin_female_bretonnian = {
 	tier = duchy
 	priority = 28
 	titles = { d_charboneau d_cherry d_glanborielle d_nar d_quenelles }
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_bretonnian }
 }
 duchy_feudal_dauphinate_bretonnian = {
@@ -167,7 +167,7 @@ duchy_feudal_dauphinate_bretonnian = {
 	tier = duchy
 	priority = 29
 	titles = { d_charboneau d_cherry d_glanborielle d_nar d_quenelles }
-	governments = { feudal_government chivalric_feudal_government }
+	governments = { feudal_government }
 	heritages = { heritage_bretonnian }
 }
 
@@ -623,78 +623,78 @@ wh_trantio_county_female = {
 	}
 }
 
-wh_sartosa_city = {
-	type = title
-	tier = county
-	priority = 19
-	governments = { pirate_government }
-	titles = { c_sartosa }
-}
+# wh_sartosa_city = {
+# 	type = title
+# 	tier = county
+# 	priority = 19
+# 	governments = { pirate_government }
+# 	titles = { c_sartosa }
+# }
 
-wh_sartosa_pirate_duke_male = {
-	type = character
-	gender = male
-	special = holder
-	tier = kingdom
-	priority = 29
-	governments = { pirate_government }
-	titles = { d_sartosa }
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
+# wh_sartosa_pirate_duke_male = {
+# 	type = character
+# 	gender = male
+# 	special = holder
+# 	tier = kingdom
+# 	priority = 29
+# 	governments = { pirate_government }
+# 	titles = { d_sartosa }
+# 	flavourization_rules = { 
+# 		top_liege = no
+# 	}
+# }
 
-wh_sartosa_pirate_duke_female = {
-	type = character
-	gender = female
-	special = holder
-	tier = kingdom
-	priority = 29
-	governments = { pirate_government }
-	titles = { d_sartosa }
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
+# wh_sartosa_pirate_duke_female = {
+# 	type = character
+# 	gender = female
+# 	special = holder
+# 	tier = kingdom
+# 	priority = 29
+# 	governments = { pirate_government }
+# 	titles = { d_sartosa }
+# 	flavourization_rules = { 
+# 		top_liege = no
+# 	}
+# }
 
-wh_sartosa_pirate_duchy = {
-	type = title
-	tier = kingdom
-	titles = { d_sartosa }
-	priority = 29
-	governments = { pirate_government }
-}
+# wh_sartosa_pirate_duchy = {
+# 	type = title
+# 	tier = kingdom
+# 	titles = { d_sartosa }
+# 	priority = 29
+# 	governments = { pirate_government }
+# }
 
-wh_sartosa_pirate_king_male = {
-	type = character
-	gender = male
-	special = holder
-	tier = kingdom
-	priority = 48
-	governments = { pirate_government }
-	titles = { k_sartosa }
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
+# wh_sartosa_pirate_king_male = {
+# 	type = character
+# 	gender = male
+# 	special = holder
+# 	tier = kingdom
+# 	priority = 48
+# 	governments = { pirate_government }
+# 	titles = { k_sartosa }
+# 	flavourization_rules = { 
+# 		top_liege = no
+# 	}
+# }
 
-wh_sartosa_pirate_king_female = {
-	type = character
-	gender = female
-	special = holder
-	tier = kingdom
-	priority = 48
-	governments = { pirate_government }
-	titles = { k_sartosa }
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
+# wh_sartosa_pirate_king_female = {
+# 	type = character
+# 	gender = female
+# 	special = holder
+# 	tier = kingdom
+# 	priority = 48
+# 	governments = { pirate_government }
+# 	titles = { k_sartosa }
+# 	flavourization_rules = { 
+# 		top_liege = no
+# 	}
+# }
 
-wh_sartosa_pirate_kingdom = {
-	type = title
-	tier = kingdom
-	titles = { k_sartosa }
-	priority = 48
-	governments = { pirate_government }
-}
+# wh_sartosa_pirate_kingdom = {
+# 	type = title
+# 	tier = kingdom
+# 	titles = { k_sartosa }
+# 	priority = 48
+# 	governments = { pirate_government }
+# }

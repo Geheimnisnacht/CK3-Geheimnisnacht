@@ -11,10 +11,10 @@
 					category = special_type
 					option = pilgrimage_type_pious
 				}
-				has_activity_option = {
-					category = special_type
-					option = pilgrimage_type_hajj
-				}
+				# has_activity_option = {
+				# 	category = special_type
+				# 	option = pilgrimage_type_hajj
+				# }
 			}
 			
 		}
@@ -411,13 +411,13 @@ WakeName = {
 		trigger = { faith = { has_doctrine_parameter = sky_burials_active } }
 	}
 
-	text = {
-		localization_key = wakename_bathing
-		trigger = {
-			religion = religion:arabyan_religion
-			faith = { has_doctrine_parameter = stoic_funeral }
-		}
-	}
+	# text = { #WHG
+	# 	localization_key = wakename_bathing
+	# 	trigger = {
+	# 		religion = religion:islam_religion
+	# 		faith = { has_doctrine_parameter = stoic_funeral }
+	# 	}
+	# }
 
 	text = {
 		localization_key = wakename_mummification
@@ -437,23 +437,23 @@ WakeName = {
 WakeDesc = {
 	type = character
 
-	text = {
-		localization_key = wakedesc_offering_of_libations
-		trigger = { faith_qualifies_for_west_african_pagan_feudalisation_trigger = yes }
-	}
+	# text = { #WHG
+	# 	localization_key = wakedesc_offering_of_libations
+	# 	trigger = { faith_qualifies_for_west_african_pagan_feudalisation_trigger = yes }
+	# }
 
 	text = {
 		localization_key = wakedesc_sky_burial
 		trigger = { faith = { has_doctrine_parameter = sky_burials_active } }
 	}
 
-	text = {
-		localization_key = wakedesc_bathing
-		trigger = {
-			religion = religion:arabyan_religion
-			faith = { has_doctrine_parameter = stoic_funeral }
-		}
-	}
+	# text = { #WHG
+	# 	localization_key = wakedesc_bathing
+	# 	trigger = {
+	# 		religion = religion:islam_religion
+	# 		faith = { has_doctrine_parameter = stoic_funeral }
+	# 	}
+	# }
 
 	text = {
 		localization_key = wakedesc_mummification
@@ -473,10 +473,10 @@ WakeDesc = {
 CeremonyName = {
 	type = character
 
-	text = {
-		localization_key = ceremonyname_public_bewailment
-		trigger = { faith_qualifies_for_west_african_pagan_feudalisation_trigger = yes }
-	}
+	# text = { #WHG
+	# 	localization_key = ceremonyname_public_bewailment
+	# 	trigger = { faith_qualifies_for_west_african_pagan_feudalisation_trigger = yes }
+	# }
 
 	text = {
 		localization_key = ceremonyname_sky_burial
@@ -490,12 +490,12 @@ CeremonyName = {
 		}
 	}
 
-	text = {
-		localization_key = ceremonyname_cremation
-		trigger = {
-			religion = religion:germanic_religion
-		}
-	}
+	# text = { #WHG
+	# 	localization_key = ceremonyname_cremation
+	# 	trigger = {
+	# 		religion = religion:germanic_religion
+	# 	}
+	# }
 
 	text = {
 		localization_key = ceremonyname_mummification
@@ -515,10 +515,10 @@ CeremonyName = {
 CeremonyDesc = {
 	type = character
 
-	text = {
-		localization_key = ceremonydesc_public_bewailment
-		trigger = { faith_qualifies_for_west_african_pagan_feudalisation_trigger = yes }
-	}
+	# text = { #WHG
+	# 	localization_key = ceremonydesc_public_bewailment
+	# 	trigger = { faith_qualifies_for_west_african_pagan_feudalisation_trigger = yes }
+	# }
 
 	text = {
 		localization_key = ceremonydesc_sky_burial
@@ -532,12 +532,12 @@ CeremonyDesc = {
 		}
 	}
 
-	text = {
-		localization_key = ceremonydesc_cremation
-		trigger = {
-			religion = religion:germanic_religion
-		}
-	}
+	# text = { #WHG
+	# 	localization_key = ceremonydesc_cremation
+	# 	trigger = {
+	# 		religion = religion:germanic_religion
+	# 	}
+	# }
 
 	text = {
 		localization_key = ceremonydesc_mummification
