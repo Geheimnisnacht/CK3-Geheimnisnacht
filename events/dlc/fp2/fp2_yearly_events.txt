@@ -494,8 +494,6 @@ fp2_yearly.1005 = {
 				}
 			}
 		}
-		
-		NOT = {	culture = {	has_cultural_pillar = heritage_northern_adunaic } }
 
 		NOT = {
 			has_character_flag = fp2_yearly.1005
