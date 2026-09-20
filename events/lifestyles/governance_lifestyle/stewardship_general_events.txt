@@ -1,7 +1,6 @@
 ﻿
 namespace = stewardship_general
 
-#WHG: replaced religion trigger, restricted culture of created characters
 # Normal Events
 	#1054		- Accusations of Witchcraft, by Sean Hughes
 	#2001 		- Visited by a Peddler, by Filippa Gannholm
@@ -36,11 +35,12 @@ stewardship_general.1054 = {
 		faith = {
 			NOR = { 
 				has_doctrine_parameter = witchcraft_accepted
-				# religion = religion:shintoism_religion # WHG
-				# religion = religion:bon_religion # WHG
+				religion = religion:shintoism_religion
+				religion = { is_in_family = rf_sinitic }
+				religion = { is_in_family = rf_eastern }
+				religion = religion:bon_religion 
 			}
 		}
-		NOT = { is_elf = yes }
 		NOT = { has_character_flag = had_event_stewardship_strategist054 }
 		any_held_title = {
 			title_tier = county
@@ -94,7 +94,7 @@ stewardship_general.1054 = {
 						#Beguilling young woman/man
 						create_character = {
 							location = root.capital_province
-							age = 16 #WHG 
+							age = { 16 25 }
 							dynasty = none
 							gender = scope:dummy_mystic_gender
 							trait = education_diplomacy_2
@@ -104,21 +104,14 @@ stewardship_general.1054 = {
 							culture = this.culture
 							diplomacy = { 10 12 }
 							learning = { 8 10 }
-							save_scope_as = young_witch #WHG
-
-							after_creation = {
-								lotr_character_template_age_traits_effect = { #WHG trait/lifespan fixes
-									MAX = 16 #IMPORTANT AGES TO BE REWORKED
-									MIN = 16 #IMPORTANT AGES TO BE REWORKED
-								}
-							}							
+							save_scope_as = witch
 						}
 					}
 					33 = {
 						#Wise old woman/man
 						create_character = {
 							location = root.capital_province
-							age = 16 #WHG 
+							age = { 55 65 }
 							dynasty = none
 							gender = scope:dummy_mystic_gender
 							trait = education_learning_3
@@ -127,22 +120,14 @@ stewardship_general.1054 = {
 							faith = root.faith
 							culture = root.culture
 							learning = { 12 14 }
-							save_scope_as = middle_witch #WHG
-
-							after_creation = {
-								lotr_character_template_age_traits_effect = { #WHG trait/lifespan fixes
-									MAX = 16 #IMPORTANT AGES TO BE REWORKED
-									MIN = 16 #IMPORTANT AGES TO BE REWORKED
-								}
-							}
-
+							save_scope_as = witch
 						}
 					}
 					33 = {
 						#Eccentric hermit
 						create_character = {
 							location = root.capital_province
-							age = 16 #WHG
+							age = { 35 45 }
 							dynasty = none
 							gender = scope:dummy_mystic_gender
 							trait = education_learning_2
@@ -156,33 +141,10 @@ stewardship_general.1054 = {
 							martial = { 6 8 }
 							intrigue = { 4 6 }
 							stewardship = { 6 8 }
-							save_scope_as = eccentric_hermit #WHG
-
-							after_creation = {
-								lotr_character_template_age_traits_effect = { #whg trait/lifespan fixes
-									MAX = 16 #IMPORTANT AGES TO BE REWORKED
-									MIN = 16 #IMPORTANT AGES TO BE REWORKED
-								}
-							}
-
+							save_scope_as = witch
 						}
 					}
 				}
-
-				if = { #whg
-					limit = { exists = scope:young_witch }
-					scope:young_witch = { set_age = { nubile_age young_age } }
-					scope:young_witch = { save_scope_as = witch }
-				} else_if = {
-					limit = { exists = scope:middle_witch }
-					scope:middle_witch = { set_age = { middle_age old_age } }
-					scope:middle_witch = { save_scope_as = witch }
-				} else_if = {
-					limit = { exists = scope:eccentric_hermit }
-					scope:eccentric_hermit = { set_age = { young_age middle_age } }
-					scope:eccentric_hermit = { save_scope_as = witch }
-				}
-
 				scope:witch = {
 					add_random_tiered_trait_xp_effect = {
 						TRAIT = lifestyle_mystic
@@ -1793,11 +1755,10 @@ stewardship_general.5041 = {
 			triggered_desc = {
 				trigger = {
 					faith = {
-						religion = { is_in_family = rf_eruhini }
-#						OR = {
-#							religion_tag = islam_religion
-#							religion_tag = christianity_religion
-#						}
+						OR = {
+							religion_tag = islam_religion
+							religion_tag = christianity_religion
+						}
 					}
 				}
 				desc = stewardship_general.5041.desc_highgod
@@ -1859,9 +1820,6 @@ stewardship_general.5041 = {
 	option = { #kill them and reclaim all they stole
 		name = stewardship_general.5041.a
 		add_gold = tiny_gold_value
-		trigger = {
-			scope:servant_character = { is_elf = no }
-		}
 		
 		execute_prisoner_effect = {
 			VICTIM = scope:servant_character

@@ -5422,13 +5422,6 @@ ep3_laamps.5015 = {
 				has_trait = sadistic
 				has_trait = gallowsbait
 			}
-			NAND = {
-				faith_is_good = yes
-				OR = {
-					is_elf = yes
-					cannot_be_killed = yes
-				}
-			}
 		}
 
 		flavor = ep3_laamps.5015.a.tt

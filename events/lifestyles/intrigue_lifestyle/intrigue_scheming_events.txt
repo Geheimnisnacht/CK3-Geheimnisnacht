@@ -289,24 +289,7 @@ intrigue_scheming.1012 = {
 			intrigue = { 6 8 }
 			trait = education_intrigue_3
 			faith = root.faith
-			#culture = root.culture
-			random_culture = {
-				root.culture = {
-					trigger = {
-						root_culture_allowed = yes
-					}
-				}
-				culture:isengard_dunlending = {
-					trigger = {
-						isengard_dunlending_trigger = yes
-					}
-				}
-				culture:black_numenorean = {
-					trigger = {
-						black_numenorean_trigger = yes
-					}
-				}
-			}
+			culture = root.culture
 			save_scope_as = cryptographer
 		}
 	}
@@ -748,24 +731,7 @@ intrigue_scheming.1202 = {
 			intrigue = { 10 12 }
 			trait = education_intrigue_3
 			faith = root.faith
-			#culture = root.culture
-			random_culture = {
-				root.culture = {
-					trigger = {
-						root_culture_allowed = yes
-					}
-				}
-				culture:isengard_dunlending = {
-					trigger = {
-						isengard_dunlending_trigger = yes
-					}
-				}
-				culture:black_numenorean = {
-					trigger = {
-						black_numenorean_trigger = yes
-					}
-				}
-			}
+			culture = root.culture
 			save_scope_as = hired_spy
 		}
 		scope:hired_spy = {
@@ -1361,8 +1327,7 @@ intrigue_scheming.1601 = {
 ##################################################
 
 scripted_trigger intrigue_scheming_2001_future_mentor_trigger = {
-	#is_adult = yes
-	is_lotr_adult = yes
+	is_adult = yes
 	is_ai = yes
 	is_landed = no
 	is_close_family_or_spouse_of_root_trigger = no
@@ -1552,24 +1517,7 @@ intrigue_scheming.2101 = {
 			trait = education_intrigue_3
 			trait = deceitful
 			intrigue = { 10 15 }
-			#culture = root.culture
-			random_culture = {
-				root.culture = {
-					trigger = {
-						root_culture_allowed = yes
-					}
-				}
-				culture:isengard_dunlending = {
-					trigger = {
-						isengard_dunlending_trigger = yes
-					}
-				}
-				culture:black_numenorean = {
-					trigger = {
-						black_numenorean_trigger = yes
-					}
-				}
-			}
+			culture = root.culture
 			faith = root.faith
 			save_scope_as = sneaky_person
 			gender_female_chance = 50
@@ -2783,8 +2731,7 @@ intrigue_scheming.3032 = {
 
 scripted_trigger intrigue_scheming_3041_liege_target = {
 	is_ai = yes
-	#is_adult = yes
-	is_lotr_adult = yes
+	is_adult = yes
 	this != root
 	OR = {
 		#In the same realm as root and of equal or lower rank
@@ -2821,8 +2768,7 @@ scripted_trigger intrigue_scheming_3041_liege_target = {
 
 scripted_trigger intrigue_scheming_3041_vassal_target = {
 	is_ai = yes
-	#is_adult = yes
-	is_lotr_adult = yes
+	is_adult = yes
 	exists = liege
 	is_vassal_of = liege
 	cannot_be_killed = no
@@ -4368,8 +4314,7 @@ intrigue_scheming.4021 = {
 		NOT = { has_character_flag = had_event_intrigue_scheming_4021 }
 		any_prisoner = {
 			is_ai = yes
-			#is_adult = yes
-			is_lotr_adult = yes
+			is_adult = yes
 			OR = {
 				intrigue_scheming_4021_has_own_secret = yes
 				intrigue_scheming_4021_knows_other_secret = yes
@@ -4398,8 +4343,7 @@ intrigue_scheming.4021 = {
 		random_prisoner = {
 			limit = {
 				is_ai = yes
-				#is_adult = yes
-				is_lotr_adult = yes
+				is_adult = yes
 				OR = {
 					intrigue_scheming_4021_has_own_secret = yes
 					intrigue_scheming_4021_knows_other_secret = yes
@@ -5113,8 +5057,7 @@ scripted_trigger intrigue_scheming_4050_valid_secret_buyer = {
 	exists = $SECRET$
 
 	#We're not selling secrets to children.
-	#is_adult = yes
-	is_lotr_adult = yes
+	is_adult = yes
 	is_alive = yes
 	is_wastelands = no #WHG
 	
@@ -6578,8 +6521,7 @@ scripted_trigger intrigue_scheming_special_1001_potential_dynasty_trigger = {
 	this != root
 	is_close_family_or_spouse_of_root_trigger = no
 	is_ai = yes
-	#is_adult = yes #LotR
-	is_lotr_adult = yes
+	is_adult = yes
 	is_landed = no
 	OR = {
 		AND = {
