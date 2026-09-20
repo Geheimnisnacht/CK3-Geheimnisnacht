@@ -19,7 +19,7 @@
 					is_concubine = no
 					can_have_children = yes
 					is_married = no
-					is_nubile = yes #LotR
+					
 					is_betrothed = no
 				}
 				is_character_interaction_valid = {
@@ -66,7 +66,7 @@ action_adult_ruler_not_married = {
 				is_concubine = no
 				is_married = no
 				is_betrothed = no
-				is_nubile = yes #LotR
+				
 				is_character_interaction_valid = {
 					recipient = root
 					interaction = marry_off_interaction
@@ -107,7 +107,7 @@ action_non_adult_ruler_not_betrothed = {
 				}
 				is_married = no
 				is_betrothed = no
-				is_nubile = no #LotR
+				
 				lotr_betrothal_allowed = yes #LotR
 				uses_marriage_consent = no
 				OR = {
@@ -149,11 +149,11 @@ action_betrothed_can_marry = {
 			if = {
 				limit = {
 					is_betrothed = yes
-					is_nubile = yes
+					
 					can_marry_common_trigger = yes
 					lotr_marriage_allowed = yes
 					betrothed = {
-						is_nubile = yes
+						
 						can_marry_common_trigger = yes
 						lotr_marriage_allowed = yes
 						trigger_if = {
@@ -211,7 +211,7 @@ action_close_family_can_marry = {
 					is_playable_character = yes
 					is_married = no
 					is_betrothed = no
-					is_nubile = yes
+					
 					can_marry_trigger = yes
 					lotr_marriage_allowed = yes
 					root = {
@@ -237,7 +237,7 @@ action_close_family_can_marry = {
 					}
 					is_married = no
 					is_betrothed = no
-					is_nubile = yes
+					
 					is_close_family_of = root
 					can_marry_trigger = yes
 					lotr_marriage_allowed = yes
@@ -295,7 +295,7 @@ action_can_take_concubine = {
 			limit = {
 				allowed_concubines = yes
 				allowed_more_concubines = yes
-				is_nubile = yes
+				
 				number_of_concubines < number_of_desired_concubines
 				NOT = { has_pending_interaction_of_type = make_concubine_interaction }
 				OR = {
@@ -306,7 +306,7 @@ action_can_take_concubine = {
 							}
 							sex_opposite_of = root
 						}
-						is_nubile = yes
+						
 						is_imprisoned_by = root
 						save_temporary_scope_as = concubine
 					}
@@ -317,7 +317,7 @@ action_can_take_concubine = {
 							}
 							sex_opposite_of = root
 						}
-						is_nubile = yes
+						
 						is_married = no
 						is_betrothed = no
 						is_courtier_of = root
@@ -357,7 +357,7 @@ action_too_few_spouses = {
 			limit = {
 				faith = { has_doctrine = doctrine_polygamy }
 				allowed_more_spouses = yes
-				is_nubile = yes
+				
 				trigger_if = {
 					limit = {
 						primary_title.tier >= 5
@@ -415,7 +415,7 @@ action_grand_wedding_can_marry = {
 				limit = {
 					NOT = { has_government = landless_adventurer_government }
 					is_betrothed = yes
-					is_nubile = yes
+					
 					lotr_marriage_allowed = yes
 					has_been_promised_grand_wedding = yes
 					var:promised_grand_wedding_by = root
@@ -423,7 +423,7 @@ action_grand_wedding_can_marry = {
 					save_temporary_scope_as = spouse_1
 					betrothed = {
 						NOT = { is_in_list = alert_created } # To avoid getting two alerts when both parties are in your own court.
-						is_nubile = yes
+						
 						has_been_promised_grand_wedding = yes
 						var:promised_grand_wedding_by = root
 						is_available_allow_travelling = yes

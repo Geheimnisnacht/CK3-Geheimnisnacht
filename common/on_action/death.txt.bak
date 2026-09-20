@@ -89,7 +89,6 @@ on_death = {
 						has_character_flag = vassal_directive_building_focus_fortification
 						has_character_flag = vassal_directive_building_focus_military
 						has_character_flag = vassal_directive_building_focus_economy
-						has_character_flag = vassal_directive_settle_wastelands #WHG
 					}
 				}
 				OR = {
@@ -102,7 +101,6 @@ on_death = {
 					has_character_flag = vassal_directive_building_focus_fortification
 					has_character_flag = vassal_directive_building_focus_military
 					has_character_flag = vassal_directive_building_focus_economy
-					has_character_flag = vassal_directive_settle_wastelands #WHG
 				}
 			}
 			if = {
@@ -158,12 +156,6 @@ on_death = {
 					has_variable = vassal_directive_building_focus_economy
 				}
 				primary_heir ?= { set_variable = vassal_directive_building_focus_economy }
-			}
-			else_if = { #WHG
-				limit = {
-					has_variable = vassal_directive_settle_wastelands
-				}
-				primary_heir ?= { set_variable = vassal_directive_settle_wastelands }
 			}
 		}
 
@@ -290,14 +282,14 @@ on_death = {
 					}
 				}
 			}
-			#if = { #WHG
-			#	limit = { has_character_flag = undertaking_hungarian_migration }
-			#	player_heir = {
-			#		add_character_flag = {
-			#			flag = undertaking_hungarian_migration
-			#		}
-			#	}
-			#}
+			if = {
+				limit = { has_character_flag = undertaking_hungarian_migration }
+				player_heir = {
+					add_character_flag = {
+						flag = undertaking_hungarian_migration
+					}
+				}
+			}
 		}
 
 		if = {
@@ -340,63 +332,63 @@ on_death = {
 			}
 		}
 
-		#if = { #WHG
-		#	limit = {
-		#		exists = global_var:mongol_empire_was_broken_up
-		#		exists = global_var:handed_out_mongolia_in_mongol_succession # If Mongolia wasn't properly granted, something has gone wrong, and the primary_heir should receive the Mongol Empire as expected
-		#		any_held_title = {
-		#			this = title:e_mongol_empire
-		#		}
-		#	}
-		#	destroy_title = title:e_mongol_empire
-		#}
+		if = {
+			limit = {
+				exists = global_var:mongol_empire_was_broken_up
+				exists = global_var:handed_out_mongolia_in_mongol_succession # If Mongolia wasn't properly granted, something has gone wrong, and the primary_heir should receive the Mongol Empire as expected
+				any_held_title = {
+					this = title:e_mongol_empire
+				}
+			}
+			destroy_title = title:e_mongol_empire
+		}
 
 		# Fix gods-damned Bavaria splitting from East Francia in an ugly fashion in 867.
-		#if = { #WHG
-		#	limit = {
-		#		# Make sure we're looking at the right guy & that the circumstances haven't changed too much.
-		#		this = character:90107
-		#		highest_held_title_tier = tier_kingdom
-		#		has_realm_law = confederate_partition_succession_law
-		#		# Bavaria should be in a fit state for interfering with the handout order.
-		#		title:k_bavaria = {
-		#			OR = {
-		#				is_title_created = no
-		#				holder = root
-		#			}
-		#			any_in_de_jure_hierarchy = {
-		#				tier = tier_county
-		#				# More than 50%.
-		#				count >= 22
-		#				holder = {
-		#					any_liege_or_above = { this = root }
-		#				}
-		#			}
-		#		}
-		#		NOT = { has_primary_title = title:k_bavaria }
-		#		# Players can sort this themselves: you just need to have Bavaria as your primary title and it's all fine.
-		#		is_ai = yes
-		#	}
-		#	# If we've got no Bavaria, create it.
-		#	if = {
-		#		limit = {
-		#			title:k_bavaria = { is_title_created = no }
-		#		}
-		#		create_title_and_vassal_change = {
-		#			type = created
-		#			save_scope_as = change
-		#		}
-		#		title:k_bavaria = {
-		#			change_title_holder = {
-		#				holder = root
-		#				change = scope:change
-		#			}
-		#		}
-		#		resolve_title_and_vassal_change = scope:change
-		#	}
-		#	# Then switch around.
-		#	set_primary_title_to = title:k_bavaria
-		#}
+		if = {
+			limit = {
+				# Make sure we're looking at the right guy & that the circumstances haven't changed too much.
+				this = character:90107
+				highest_held_title_tier = tier_kingdom
+				has_realm_law = confederate_partition_succession_law
+				# Bavaria should be in a fit state for interfering with the handout order.
+				title:k_bavaria = {
+					OR = {
+						is_title_created = no
+						holder = root
+					}
+					any_in_de_jure_hierarchy = {
+						tier = tier_county
+						# More than 50%.
+						count >= 22
+						holder = {
+							any_liege_or_above = { this = root }
+						}
+					}
+				}
+				NOT = { has_primary_title = title:k_bavaria }
+				# Players can sort this themselves: you just need to have Bavaria as your primary title and it's all fine.
+				is_ai = yes
+			}
+			# If we've got no Bavaria, create it.
+			if = {
+				limit = {
+					title:k_bavaria = { is_title_created = no }
+				}
+				create_title_and_vassal_change = {
+					type = created
+					save_scope_as = change
+				}
+				title:k_bavaria = {
+					change_title_holder = {
+						holder = root
+						change = scope:change
+					}
+				}
+				resolve_title_and_vassal_change = scope:change
+			}
+			# Then switch around.
+			set_primary_title_to = title:k_bavaria
+		}
 
 		# Diarchies
 		## Handle regency loyalties.
@@ -878,98 +870,98 @@ on_death = {
 			}
 		}
 		## Caliphal deaths.
-		# if = { # WHG
-		# 	limit = { has_title = title:d_sunni }
-		# 	## Did they die violently?
-		# 	### Checked against the struggle directly: the caliph may, after all, be entirely unrelated & this catalyst is FP3-specific.
-		# 	if = {
-		# 		limit = {
-		# 			exists = scope:killer
-		# 			struggle:persian_struggle ?= {
-		# 				phase_has_catalyst = catalyst_caliph_died_violently
-		# 				NOT = { has_variable = significant_character_death_cooldown }
-		# 			}
-		# 		}
-		# 		struggle:persian_struggle = {
-		# 			activate_struggle_catalyst = {
-		# 				catalyst = catalyst_caliph_died_violently
-		# 				character = root
-		# 			}
-		# 			log_debug_variable_for_persian_struggle_effect = { VAR = concession_catalyst_caliph_died_violently }
-		# 			set_variable = {
-		# 				name = significant_character_death_cooldown
-		# 				value = yes
-		# 				years = catalyst_cooldown_between_significant_character_deaths_years_value
-		# 			}
-		# 		}
-		# 	}
-		# 	## If not, give the natural version.
-		# 	### Checked against the struggle directly: the caliph may, after all, be entirely unrelated & this catalyst is FP3-specific.
-		# 	else_if = {
-		# 		limit = {
-		# 			struggle:persian_struggle ?= {
-		# 				phase_has_catalyst = catalyst_caliph_died_naturally
-		# 				NOT = { has_variable = significant_character_death_cooldown }
-		# 			}
-		# 		}
-		# 		struggle:persian_struggle = {
-		# 			activate_struggle_catalyst = {
-		# 				catalyst = catalyst_caliph_died_naturally
-		# 				character = root
-		# 			}
-		# 			log_debug_variable_for_persian_struggle_effect = { VAR = concession_catalyst_caliph_died_naturally }
-		# 			set_variable = {
-		# 				name = significant_character_death_cooldown
-		# 				value = yes
-		# 				years = catalyst_cooldown_between_significant_character_deaths_years_value
-		# 			}
-		# 		}
-		# 	}
-		# }
+		if = {
+			limit = { has_title = title:d_sunni }
+			## Did they die violently?
+			### Checked against the struggle directly: the caliph may, after all, be entirely unrelated & this catalyst is FP3-specific.
+			if = {
+				limit = {
+					exists = scope:killer
+					struggle:persian_struggle ?= {
+						phase_has_catalyst = catalyst_caliph_died_violently
+						NOT = { has_variable = significant_character_death_cooldown }
+					}
+				}
+				struggle:persian_struggle = {
+					activate_struggle_catalyst = {
+						catalyst = catalyst_caliph_died_violently
+						character = root
+					}
+					log_debug_variable_for_persian_struggle_effect = { VAR = concession_catalyst_caliph_died_violently }
+					set_variable = {
+						name = significant_character_death_cooldown
+						value = yes
+						years = catalyst_cooldown_between_significant_character_deaths_years_value
+					}
+				}
+			}
+			## If not, give the natural version.
+			### Checked against the struggle directly: the caliph may, after all, be entirely unrelated & this catalyst is FP3-specific.
+			else_if = {
+				limit = {
+					struggle:persian_struggle ?= {
+						phase_has_catalyst = catalyst_caliph_died_naturally
+						NOT = { has_variable = significant_character_death_cooldown }
+					}
+				}
+				struggle:persian_struggle = {
+					activate_struggle_catalyst = {
+						catalyst = catalyst_caliph_died_naturally
+						character = root
+					}
+					log_debug_variable_for_persian_struggle_effect = { VAR = concession_catalyst_caliph_died_naturally }
+					set_variable = {
+						name = significant_character_death_cooldown
+						value = yes
+						years = catalyst_cooldown_between_significant_character_deaths_years_value
+					}
+				}
+			}
+		}
 		# Other Struggle Stuff
 		## Caliphal deaths part 2: because people tend to remember stuff like that.
-		# if = { # WHG
-		# 	limit = {
-		# 		has_title = title:d_sunni
-		# 		# Check that scope:killer is in some way involved in the on-going disputes.
-		# 		scope:killer ?= {
-		# 			any_character_struggle = { this = struggle:persian_struggle }
-		# 			# Inter-familial murders within the caliphate don't count, that's just politics.
-		# 			exists = root.dynasty
-		# 			NOT = { dynasty ?= root.dynasty }
-		# 		}
-		# 	}
-		# 	# Cool, we've established you're involved enough to assign traits to and don't have extenuating circumstances.
-		# 	scope:killer = {
-		# 		# Are you a supporter? If so, invert.
-		# 		if = {
-		# 			limit = { has_trait = fp3_struggle_supporter }
-		# 			send_interface_toast = {
-		# 				type = event_toast_effect_neutral
-		# 				title = persian_struggle.tt.supporter_killed_caliph
-		# 				left_icon = root
-		# 				hidden_effect = { remove_trait = fp3_struggle_supporter }
-		# 				add_trait_force_tooltip = fp3_struggle_detractor
-		# 			}
-		# 		}
-		# 		# Are you neutral? If so, become a detractor.
-		# 		else_if = {
-		# 			limit = {
-		# 				NOR = {
-		# 					has_trait = fp3_struggle_supporter
-		# 					has_trait = fp3_struggle_detractor
-		# 				}
-		# 			}
-		# 			send_interface_toast = {
-		# 				type = event_toast_effect_neutral
-		# 				title = persian_struggle.tt.neutral_killed_caliph
-		# 				left_icon = root
-		# 				add_trait = fp3_struggle_detractor
-		# 			}
-		# 		}
-		# 		# Else you're a detractor? You're good, carry on as you are.
-		# 	}
-		# }
+		if = {
+			limit = {
+				has_title = title:d_sunni
+				# Check that scope:killer is in some way involved in the on-going disputes.
+				scope:killer ?= {
+					any_character_struggle = { this = struggle:persian_struggle }
+					# Inter-familial murders within the caliphate don't count, that's just politics.
+					exists = root.dynasty
+					NOT = { dynasty ?= root.dynasty }
+				}
+			}
+			# Cool, we've established you're involved enough to assign traits to and don't have extenuating circumstances.
+			scope:killer = {
+				# Are you a supporter? If so, invert.
+				if = {
+					limit = { has_trait = fp3_struggle_supporter }
+					send_interface_toast = {
+						type = event_toast_effect_neutral
+						title = persian_struggle.tt.supporter_killed_caliph
+						left_icon = root
+						hidden_effect = { remove_trait = fp3_struggle_supporter }
+						add_trait_force_tooltip = fp3_struggle_detractor
+					}
+				}
+				# Are you neutral? If so, become a detractor.
+				else_if = {
+					limit = {
+						NOR = {
+							has_trait = fp3_struggle_supporter
+							has_trait = fp3_struggle_detractor
+						}
+					}
+					send_interface_toast = {
+						type = event_toast_effect_neutral
+						title = persian_struggle.tt.neutral_killed_caliph
+						left_icon = root
+						add_trait = fp3_struggle_detractor
+					}
+				}
+				# Else you're a detractor? You're good, carry on as you are.
+			}
+		}
 
 		every_close_family_member = {
 			create_character_memory = {
@@ -1381,177 +1373,172 @@ on_death = {
 		ep3_laamp_supporter_invalidated_effect = yes
 
 		# EP3 - Varangian Palace Pillaging
-		# if = { #WHG
-		# 	limit = {
-		# 		OR = {
-		# 			number_maa_regiments_of_type = {
-		# 				type = varangian_guards
-		# 				value >= 1
-		# 			}
-		# 			number_title_maa_regiments_of_type = {
-		# 				type = varangian_guards
-		# 				value >= 1
-		# 			}
-		# 			AND = {
-		# 				any_court_position_holder = {
-		# 					type = akolouthos_court_position
-		# 					ep3_varangian_trigger = yes
-		# 				}
-		# 			}
-		# 		}
-		# 		primary_title = title:e_byzantium
-		# 	}
-		# 	save_scope_as = dead_emperor
-		# 	if = {
-		# 		limit = {
-		# 			number_maa_soldiers_of_type = {
-		# 				type = varangian_guards
-		# 				value > 0
-		# 				value <= 100
-		# 			}
-		# 		}
-		# 		primary_heir = {
-		# 			set_variable = {
-		# 				name = varangian_regiments
-		# 				value = 1
-		# 			}
-		# 		}
-		# 	}
-		# 	else_if = {
-		# 		limit = {
-		# 			number_maa_soldiers_of_type = {
-		# 				type = varangian_guards
-		# 				value > 100
-		# 				value <= 200
-		# 			}
-		# 		}
-		# 		primary_heir = {
-		# 			set_variable = {
-		# 				name = varangian_regiments
-		# 				value = 2
-		# 			}
-		# 		}
-		# 	}
-		# 	else_if = {
-		# 		limit = {
-		# 			number_maa_soldiers_of_type = {
-		# 				type = varangian_guards
-		# 				value > 200
-		# 				value <= 300
-		# 			}
-		# 		}
-		# 		primary_heir = {
-		# 			set_variable = {
-		# 				name = varangian_regiments
-		# 				value = 3
-		# 			}
-		# 		}
-		# 	}
-		# 	else_if = {
-		# 		limit = {
-		# 			number_maa_soldiers_of_type = {
-		# 				type = varangian_guards
-		# 				value > 300
-		# 				value <= 400
-		# 			}
-		# 		}
-		# 		primary_heir = {
-		# 			set_variable = {
-		# 				name = varangian_regiments
-		# 				value = 4
-		# 			}
-		# 		}
-		# 	}
-		# 	else_if = {
-		# 		limit = {
-		# 			number_maa_soldiers_of_type = {
-		# 				type = varangian_guards
-		# 				value > 400
-		# 				value <= 500
-		# 			}
-		# 		}
-		# 		primary_heir = {
-		# 			set_variable = {
-		# 				name = varangian_regiments
-		# 				value = 5
-		# 			}
-		# 		}
-		# 	}
-		# 	else_if = {
-		# 		limit = {
-		# 			number_maa_soldiers_of_type = {
-		# 				type = varangian_guards
-		# 				value > 500
-		# 				value <= 600
-		# 			}
-		# 		}
-		# 		primary_heir = {
-		# 			set_variable = {
-		# 				name = varangian_regiments
-		# 				value = 6
-		# 			}
-		# 		}
-		# 	}
-		# 	else_if = {
-		# 		limit = {
-		# 			number_maa_soldiers_of_type = {
-		# 				type = varangian_guards
-		# 				value > 600
-		# 				value <= 700
-		# 			}
-		# 		}
-		# 		primary_heir = {
-		# 			set_variable = {
-		# 				name = varangian_regiments
-		# 				value = 7
-		# 			}
-		# 		}
-		# 	}
-		# 	else_if = {
-		# 		limit = {
-		# 			number_maa_soldiers_of_type = {
-		# 				type = varangian_guards
-		# 				value > 700
-		# 				value <= 800
-		# 			}
-		# 		}
-		# 		primary_heir = {
-		# 			set_variable = {
-		# 				name = varangian_regiments
-		# 				value = 8
-		# 			}
-		# 		}
-		# 	}
-		# 	else_if = {
-		# 		limit = {
-		# 			number_maa_soldiers_of_type = {
-		# 				type = varangian_guards
-		# 				value > 800
-		# 				value <= 900
-		# 			}
-		# 		}
-		# 		primary_heir = {
-		# 			set_variable = {
-		# 				name = varangian_regiments
-		# 				value = 9
-		# 			}
-		# 		}
-		# 	}
-		# 	else = {
-		# 		primary_heir = {
-		# 			set_variable = {
-		# 				name = varangian_regiments
-		# 				value = 10
-		# 			}
-		# 		}
-		# 	}
-		# 	primary_heir = {
-		# 		trigger_event = {
-		# 			id = ep3_emperor_yearly.3000
-		# 			days = { 10 20 }
-		# 		}
-		# 	}
-		# }
+		if = {
+			limit = {
+				primary_title = title:e_byzantium
+				OR = {
+					"number_maa_regiments_of_type(varangian_guards)" >= 1
+					number_title_maa_regiments_of_type = {
+						target = varangian_guards
+						value >= 1
+					}
+					any_court_position_holder = {
+						type = akolouthos_court_position
+						ep3_varangian_trigger = yes
+					}
+				}
+			}
+			save_scope_as = dead_emperor
+			if = {
+				limit = {
+					number_maa_soldiers_of_type = {
+						target = varangian_guards
+						value > 0
+						value <= 100
+					}
+				}
+				primary_heir = {
+					set_variable = {
+						name = varangian_regiments
+						value = 1
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					number_maa_soldiers_of_type = {
+						target = varangian_guards
+						value > 100
+						value <= 200
+					}
+				}
+				primary_heir = {
+					set_variable = {
+						name = varangian_regiments
+						value = 2
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					number_maa_soldiers_of_type = {
+						target = varangian_guards
+						value > 200
+						value <= 300
+					}
+				}
+				primary_heir = {
+					set_variable = {
+						name = varangian_regiments
+						value = 3
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					number_maa_soldiers_of_type = {
+						target = varangian_guards
+						value > 300
+						value <= 400
+					}
+				}
+				primary_heir = {
+					set_variable = {
+						name = varangian_regiments
+						value = 4
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					number_maa_soldiers_of_type = {
+						target = varangian_guards
+						value > 400
+						value <= 500
+					}
+				}
+				primary_heir = {
+					set_variable = {
+						name = varangian_regiments
+						value = 5
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					number_maa_soldiers_of_type = {
+						target = varangian_guards
+						value > 500
+						value <= 600
+					}
+				}
+				primary_heir = {
+					set_variable = {
+						name = varangian_regiments
+						value = 6
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					number_maa_soldiers_of_type = {
+						target = varangian_guards
+						value > 600
+						value <= 700
+					}
+				}
+				primary_heir = {
+					set_variable = {
+						name = varangian_regiments
+						value = 7
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					number_maa_soldiers_of_type = {
+						target = varangian_guards
+						value > 700
+						value <= 800
+					}
+				}
+				primary_heir = {
+					set_variable = {
+						name = varangian_regiments
+						value = 8
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					number_maa_soldiers_of_type = {
+						target = varangian_guards
+						value > 800
+						value <= 900
+					}
+				}
+				primary_heir = {
+					set_variable = {
+						name = varangian_regiments
+						value = 9
+					}
+				}
+			}
+			else = {
+				primary_heir = {
+					set_variable = {
+						name = varangian_regiments
+						value = 10
+					}
+				}
+			}
+			primary_heir = {
+				trigger_event = {
+					id = ep3_emperor_yearly.3000
+					days = { 10 20 }
+				}
+			}
+		}
 
 		# EP3 - Grand Ambitions Story Cycle
 		if = {
@@ -1584,48 +1571,48 @@ on_death = {
 		}
 
 		# EP3, Hasan story cycle stuff
-		# if = { #WHG
-		# 	limit = {
-		# 		root = character:3096
-		# 	}
-		# 	save_scope_as = ismaili_caliph
-		# 	character:41702 ?= {
-		# 		trigger_event = {
-		# 			id = hasan_sabbah.1030
-		# 			days = 1
-		# 		}
-		# 	}
-		# }
-		# if = {
-		# 	limit = {
-		# 		character:41702 ?= {
-		# 			any_owned_story = {
-		# 				story_type = story_hasan
-		# 				var:ultimate_foe ?= root
-		# 			}
-		# 		}
-		# 	}
-		# 	character:41702 = {
-		# 		random_owned_story = {
-		# 			limit = { story_type = story_hasan }
-		# 			if = {
-		# 				limit = {
-		# 					scope:killer = character:41702
-		# 				}
-		# 				hasan_sabbah_end_war = {
-		# 					HASAN = character:41702
-		# 					SELJUK = root
-		# 				}
-		# 			}
-		# 			else = {
-		# 				set_variable = {
-		# 					name = ultimate_foe
-		# 					value = root.player_heir
-		# 				}
-		# 			}
-		# 		}
-		# 	}
-		# }
+		if = {
+			limit = {
+				root = character:3096
+			}
+			save_scope_as = ismaili_caliph
+			character:41702 ?= {
+				trigger_event = {
+					id = hasan_sabbah.1030
+					days = 1
+				}
+			}
+		}
+		if = {
+			limit = {
+				character:41702 ?= {
+					any_owned_story = {
+						type = story_hasan
+						var:ultimate_foe ?= root
+					}
+				}
+			}
+			character:41702 = {
+				random_owned_story = {
+					type = story_hasan
+					if = {
+						limit = {
+							scope:killer = character:41702
+						}
+						hasan_sabbah_end_war = {
+							HASAN = character:41702
+							SELJUK = root
+						}
+					}
+					else = {
+						set_variable = {
+							name = ultimate_foe
+							value = root.player_heir
+						}
+					}
+				}
+			}
+		}
 
 		if = {
 			limit = {
@@ -1636,27 +1623,27 @@ on_death = {
 		}
 
 		# EP3, Wallada transfers possessions to her heir
-		# if = { #WHG
-		# 	limit = {
-		# 		root = character:andalusian_0003
-		# 		exists = player_heir
-		# 	}
-		# 	# save Wallada's scope
-		# 	save_scope_as = wallada
-		# 	random_artifact = {
-		# 		limit = {
-		# 			has_artifact_modifier = double_moon_modifier
-		# 		}
-		# 		set_owner = scope:wallada.primary_heir
-		# 		save_scope_as = double_moon_book
-		# 	}
-		# 	primary_heir = {
-		# 		trigger_event = {
-		# 			id = ep3_story_cycle_violet_poet.0004
-		# 			days = 1
-		# 		}
-		# 	}
-		# }
+		if = {
+			limit = {
+				root = character:andalusian_0003
+				exists = player_heir
+			}
+			# save Wallada's scope
+			save_scope_as = wallada
+			random_character_artifact = {
+				limit = {
+					has_artifact_modifier = double_moon_modifier
+				}
+				set_owner = scope:wallada.primary_heir
+				save_scope_as = double_moon_book
+			}
+			primary_heir = {
+				trigger_event = {
+					id = ep3_story_cycle_violet_poet.0004
+					days = 1
+				}
+			}
+		}
 
 		# Populate new contracts for laamp heirs.
 		player_heir ?= {
@@ -1722,26 +1709,26 @@ on_death = {
 		mpo_remove_blood_brother_modifiers_effect = yes
 
 		#Tracking whether Genghis is dead or not
-		# if = { #WHG
-		# 	limit =	{
-		# 		this = character:125501
-		# 	}
-		# 	set_global_variable = genghis_died
-		# 	if = {
-		# 		limit = {
-		# 			NOT = {
-		# 				any_held_title = {
-		# 					this = title:e_mongol_empire
-		# 				}
-		# 			}
-		# 		}
-		# 		set_global_variable = {
-		# 			name = temujin_failed
-		# 			value = yes
-		# 			years = 50
-		# 		}
-		# 	}
-		# }
+		if = {
+			limit =	{
+				this = character:125501
+			}
+			set_global_variable = genghis_died
+			if = {
+				limit = {
+					NOT = {
+						any_held_title = {
+							this = title:e_mongol_empire
+						}
+					}
+				}
+				set_global_variable = {
+					name = temujin_failed
+					value = yes
+					years = 50
+				}
+			}
+		}
 		#Greatest of khans stuff should pass to heir during initial war phase
 		if = {
 			limit = {
@@ -1782,7 +1769,7 @@ on_death = {
 				}
 				remove_variable = guaranteed_disastrous_succession
 			}
-			# break_up_mongol_empire_effect = yes #WHG
+			break_up_mongol_empire_effect = yes
 			scope:mongol_heir = {
 				if = {
 					limit = {
@@ -1842,35 +1829,35 @@ on_death = {
 		### TGP ###
 		## China ##
 		# Imperial murder catalyst
-		# if = { #WHG
-		# 	limit = {
-		# 		exists = title:h_china.holder
-		# 		house ?= title:h_china.holder.house
-		# 		exists = scope:killer
-		# 	}
-		# 	save_scope_as = imperial_death
-		# 	situation:dynastic_cycle = {
-		# 		if = {
-		# 			limit = {
-		# 				scope:imperial_death = title:h_china.holder
-		# 				situation_top_has_catalyst = catalyst_hegemon_murdered
-		# 			}
-		# 			trigger_situation_catalyst = {
-		# 				catalyst = catalyst_hegemon_murdered
-		# 				character = scope:imperial_death
-		# 			}
-		# 		}
-		# 		else_if = {
-		# 			limit = {
-		# 				situation_top_has_catalyst = catalyst_imperial_family_member_murdered
-		# 			}
-		# 			trigger_situation_catalyst = {
-		# 				catalyst = catalyst_imperial_family_member_murdered
-		# 				character = scope:imperial_death
-		# 			}
-		# 		}
-		# 	}
-		# }
+		if = {
+			limit = {
+				exists = title:h_china.holder
+				house ?= title:h_china.holder.house
+				exists = scope:killer
+			}
+			save_scope_as = imperial_death
+			situation:dynastic_cycle = {
+				if = {
+					limit = {
+						scope:imperial_death = title:h_china.holder
+						situation_top_has_catalyst = catalyst_hegemon_murdered
+					}
+					trigger_situation_catalyst = {
+						catalyst = catalyst_hegemon_murdered
+						character = scope:imperial_death
+					}
+				}
+				else_if = {
+					limit = {
+						situation_top_has_catalyst = catalyst_imperial_family_member_murdered
+					}
+					trigger_situation_catalyst = {
+						catalyst = catalyst_imperial_family_member_murdered
+						character = scope:imperial_death
+					}
+				}
+			}
+		}
 		
 		# Merit based governments
 		if = {
@@ -2190,7 +2177,7 @@ on_death = {
 		fp1_other_decisions.0063	# FP1: designated HumSac has died
 		fp1_other_decisions.0064	# FP1: remove counties offended by HumSac modifier
 		bp1_house_feud.9000 	# BP1: save rivals on death and fire inheritance on action
-		# ep3_frankokratia_events.0021 #EP3 keep frankokratia leaders in the plot #WHG
+		ep3_frankokratia_events.0021 #EP3 keep frankokratia leaders in the plot
 		mpo_nomad_events.1090 #Nomad widow-marrying event
 		death_management.0123 # Hosue Relations
 	}
