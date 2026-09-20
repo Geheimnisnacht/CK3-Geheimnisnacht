@@ -3830,8 +3830,7 @@ coronation_events.6030 = {
 	cooldown = { months = 6 }
 
 	trigger = {
-		# is_adult = yes 
-		is_nubile = yes
+		is_adult = yes 
 		is_playable_character = yes
 		this != involved_activity.activity_host
 		trigger_if = {
@@ -3877,8 +3876,7 @@ coronation_events.6030 = {
 					has_trait = celibate
 					has_trait = chaste
 				}
-				# is_adult = yes 
-				is_nubile = yes
+				is_adult = yes 
 				OR = {
 					has_trait = deviant
 					might_cheat_on_every_partner_trigger = yes
