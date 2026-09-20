@@ -1,11 +1,11 @@
-﻿# LotR edits
+﻿# WHG edits
 #	start date
 #	game speed
 #	water level
 #	age loses prowess
 
 NGame = {
-	END_DATE = "9533.1.1" # LotR: edited end date and game speed.
+	END_DATE = "7100.1.1" # WHG: edited end date and game speed.
 	GAME_SPEED_TICKS = {	# how many seconds should a day take in every game speed
 		2
 		1
@@ -21,7 +21,7 @@ NGame = {
 
 	BENCHMARK_VIEWS_TEST_DURATION = 135				# How long, in seconds, should the benchmark test using "-benchmark" iterate over views before starting to test royal courts?
 	BENCHMARK_INTERFACE_INTERVAL = 5.0				# How long, in seconds, should the benchmark wait before changing the open UI window?
-	BENCHMARK_OBSERVE_CHARACTER = e_gondor_steward			# Which character should be observed?
+	BENCHMARK_OBSERVE_CHARACTER = e_bretonnia			# Which character should be observed?
 
 	# Where should we pan the camera?
 	BENCHMARK_WAYPOINTS = {
@@ -76,11 +76,12 @@ NSetup = {
 	MAX_POOL_NEIGHBOR_DISTANCE = 3	# How many sea zones away can we search at most?
 }
 
+
 NJominiMap = {
-	WORLD_EXTENTS_X = 8191
-	WORLD_EXTENTS_Y = 51
-	WORLD_EXTENTS_Z = 5631
-	WATERLEVEL = 5.6
+	WORLD_EXTENTS_X = 8192
+	WORLD_EXTENTS_Y = 50
+	WORLD_EXTENTS_Z = 5888
+	WATERLEVEL = 3.9 ### 0.06 in 0-1, 19 in 0-255, use 11% HSB in Photoshop
 }
 
 NSkills = {
@@ -118,7 +119,7 @@ NCharacter = {
 
 	RANDOM_CHARACTER_MIN_HEALTH = 4.0
 	RANDOM_CHARACTER_MAX_HEALTH = 5.0
-	RANDOM_CHARACTER_AGE_MIN_HEALTH = 3.5 # This is the minimum starting base health characters get after adjustments for age - Adjusted for Realms because of Numenoreans - Trig Note - do we need this anymore? It applies to everyone	
+	RANDOM_CHARACTER_AGE_MIN_HEALTH = 2.5 # This is the minimum starting base health characters get after adjustments for age
 
 	MAX_STRESS_LEVEL = 3			# The maximum stress level
 	STRESS_PER_LEVEL = 100			# Stress per level
@@ -191,8 +192,8 @@ NCharacter = {
 	MALE_ELDERLY_AGE = 50
 	FEMALE_ELDERLY_AGE = 50
 	BETROTHAL_TIMEOUT_AGE = 17
-	MALE_ATTRACTION_CUTOFF_AGE = 13000		# After this age, the attraction of traits no longer have any effect
-	FEMALE_ATTRACTION_CUTOFF_AGE = 13000	# After this age, the attraction of traits no longer have any effect
+	MALE_ATTRACTION_CUTOFF_AGE = 65		# After this age, the attraction of traits no longer have any effect
+	FEMALE_ATTRACTION_CUTOFF_AGE = 50	# After this age, the attraction of traits no longer have any effect
 
 	#Health levels and descriptions for every level
 	HEALTH_STATE_LEVELS_VALUES = {
@@ -271,7 +272,7 @@ NCharacter = {
 	MAA_STARTING_HERD_EXPENSE_MIN = 0.7 # Rulers at game start will start out spending this much herd (or a bit more, as it'll overshoot) on men at arms
 	MAA_STARTING_HERD_EXPENSE_MAX = 0.9 # Rulers will never start out spending more than this much herd on men at arms. For herd-poor rulers this can mean they end up under MAA_STARTING_HERD_EXPENSE_MIN if one more MaA would put them above the max
 
-	MAXIMUM_DIPLOMATIC_RANGE = 750 #LotR: reduced diplo range by 25%.
+	MAXIMUM_DIPLOMATIC_RANGE = 750 #WHG: reduced diplo range by 25%.
 	MAXIMUM_DIPLOMATIC_RANGE_RESTRICTED = 600	# Used if a game rule with the restricted_diplomatic_range flag is used
 	HOOK_COOLDOWN_DURATION_YEARS = 5	# How many years do strong hooks go on cooldown when used?
 	MAX_COUNTIES_IN_REALM_AS_DUKE = 30						# As a duke or below, the player (but not the AI) will suffer penalties when they go beyond this # of counties in their realm. They can form a kingdom to get the penalties to go away
@@ -327,8 +328,7 @@ NCharacter = {
 }
 
 NOldAge = {
-	# LOTR NOTE: Raised age 25 to 45 to increase average human lifespans to ~80.
-	LOWER_HEALTH_START_AGE = 45 # At this age characters start getting the chance to lose health each year
+	LOWER_HEALTH_START_AGE = 25 # At this age characters start getting the chance to lose health each year
 	LOWER_HEALTH_BASE_CHANCE = 0.075 # This is the base chance of losing health at the START_AGE
 	LOWER_HEALTH_YEARLY_INCREASE = 0.022 # This is the yearly increase of the chance to lose health
 	LOWER_HEALTH_AMOUNT = -0.125 # This is the health change on each failed yearly health roll
@@ -342,8 +342,7 @@ NOldAge = {
 	DEATH_MINIMUM_DELAY = 15 # If marked for death, they will die at least this many days after the check
 	DEATH_MAXIMUM_DELAY = 20 # If marked for death, they will die no more than this many days after the check. With these numbers, that means if someone becomes deathly ill, they have a high chance of dying between 7 and 40 days (30 days from the death check) after contracting the health penalty
 
-	# LOTR NOTE: Stops Elves/Maiar/Old Dúnedain from losing prowess.
-	LOWER_PROWESS_START_AGE = 13000 # At this age characters start getting the chance to lose prowess each year
+	LOWER_PROWESS_START_AGE = 45 # At this age characters start getting the chance to lose prowess each year
 	LOWER_PROWESS_BASE_CHANCE = 0.1 # This is the base chance of losing prowess at the START_AGE
 	LOWER_PROWESS_YEARLY_INCREASE = 0.015 # This is the yearly increase of the chance to lose prowess
 	LOWER_PROWESS_MAX_CHANCE = 0.75 # This is the maximum chance to lose prowess
@@ -357,7 +356,7 @@ NRulerObjective = {
 }
 
 NChildbirth = {
-	MIN_REPRODUCTION_AGE_IN_HISTORY_DB = 0 # If a historical parent is younger than this when their child is born, we log an error #LotR - to account for elves born in years of the trees and lamps
+	MIN_REPRODUCTION_AGE_IN_HISTORY_DB = 12 # If a historical parent is younger than this when their child is born, we log an error
 	MIN_FEMALE_REPRODUCTION_AGE = 16
 	MAX_FEMALE_REPRODUCTION_AGE = 45
 	MIN_MALE_REPRODUCTION_AGE = 16
@@ -573,10 +572,7 @@ NGovernment = {
 		"wanua_government"
 		"meritocratic_government"
 		"steppe_admin_government"
-		"wastelands_government" #LotR
-		# "elven_government" #LotR
-		# "hobbit_government" #LotR
-		# "orcish_government" #LotR
+		"wastelands_government" #WHG
 	}
 }
 
@@ -1008,7 +1004,7 @@ NProvince = {
 	WINTER_SEVERITY_RANDOM_MIN = 0.5			# Sets the lower bound of the random value that is used when determining the next winter severity
 	WINTER_SEVERITY_RANDOM_MAX = 1.0			# Sets the upper bound of the random value that is used when determining the next winter severity
 	RAZE_HOLDING_COOLDOWN_YEARS = 5 			# Sets the cooldown perid in years for nomads razing holdings that they completely control
-	MAX_BUILDINGS = 15 							# Maximum number of building slots that a province can have #LotR
+	MAX_BUILDINGS = 7 							# Maximum number of building slots that a province can have
 }
 
 NText = {
@@ -1023,7 +1019,7 @@ NDynasty = {
 	MONTHLY_PRESTIGE_GAIN_MULT_FOR_VASSALS_OF_SAME_DYNASTY = 0	# Dynasty members who are vassal of below of someone of the same dynasty have their prestige contribution multiplied with this. 0 disables their prestige contribution entirely
 	MONTHLY_PRESTIGE_GAIN_PER_TITLE_TIER_SPOUSE = { 0 0.1 0.2 0.4 0.8 1.6 3.2 } # When per year was { 0 2 4 6 8 10 }
 	MONTHLY_PRESTIGE_GAIN_MULT_FOR_VASSALS_OF_SAME_DYNASTY_SPOUSE = 0	# Dynasty members whose spouse are vassal of below of someone of the same dynasty have their prestige contribution multiplied with this. 0 disables their prestige contribution entirely
-	LEVELS_PRESTIGE = { 300	1000	2200	4400	8000	13000	19000	27000	35000	45000 } # LOTR - due to our long lasting dynasties, the requirements to get higher levels of dynasty prestige are increased. Vanilla levels are: { 300	1000	2000	4000	7000	11000	16000	22000	29000	37000 }
+	LEVELS_PRESTIGE = { 300	1000	2000	4000	7000	11000	16000	22000	29000	37000 }
 	LEVEL_DROP_MAX_RETAINED_PROGRESS_PRESTIGE = 0.5
 	LEVELS_PRESTIGE_GRAPHICAL_STEP = 2
 	PRESTIGE_ZERO_LEVEL = 0
@@ -1185,14 +1181,6 @@ NCulture = {
 	MILITARY_STRENGTH_IMPORTANCE_FOR_CULTURE_HEAD_FROM_HERD = 0.1 # A rulers max military strength is multiplied by this as a factor of the determination of the culture head from herd - to avoid scenarios where there is no culture head in herd cultures that no longer use herd for some reason
 }
 
-#LotR: Increased merc levels. Reduced merc range to 25%. Same culture is unchanged.
-# WHG: LEVELS reverted from LOTR's {0 3 9} to vanilla's {0 7 14}. With WH's common/men_at_arms_types/00_cultural_maa_types.txt
-# and 00_regional_maa_types.txt both empty (vanilla has 1433 combined lines there) and only 72 WH MAA types total (vanilla has 110), the lower
-# LOTR threshold let many of WH's 103 cultures (including small Bretonnian sub-cultures with as few as 3 counties) spawn mercenary companies
-# with no valid regiment type available, producing repeated "could not find a regiment type for a mercenary regiment" (mercenary_company.cpp:274)
-# followed by a placeholder "null_maa_type" regiment being destroyed - directly adjacent to two access-violation crashes at the identical
-# instruction address. Raising the threshold back to vanilla's doesn't fix the underlying MAA coverage gap, but reduces how many cultures
-# attempt generation at all.
 NMercenary = {
 	LEVELS = { 0 7 14 }						# Defines how many different sizes of mercenary companies are there and how many are spawned for a given culture
 											# The numbers correspond to numbers of counties of the culture. No company exists if the number is lower than the first value specified here.
@@ -1328,7 +1316,7 @@ NGUI = {
 	VALUE_LIMIT_SHOW_K = 100000 # army values greater that this will be shown as 50K
 	WAR_OVERVIEW_MAIN_PARTICIPANTS = 2 # how many participants show as separate portraits
 	TUTORIAL_STEP_INSTRUCTION_BUTTON_ID = "next"
-	RENAME_MAX_LENGTH = 9999 # How long can names and such be when renaming things (E.G., characters, titles, dynasties) #LotR
+	RENAME_MAX_LENGTH = 9999 # How long can names and such be when renaming things (E.G., characters, titles, dynasties) #WHG
 	EXIT_SAVE_NAME = "autosave_exit"
 	MAX_BREAKDOWN_ENTRIES = 10	# Used to limit the number of entries in some breakdowns (E.G., tax from vassals)
 	BATTLE_SUMMARY_MINOR_BATTLE = 1000  # max soldiers for a battle to be skirmish
@@ -1365,7 +1353,7 @@ NModifier = {
 		"HEALTH_VALUE_FORMAT_GODLIKE_BOOST"
 	}
 	STANDARD_MINIMUM_VALUE = 0.1 # Some modifiers are not allowed to reduce whatever they're affecting to below 10%
-	AVERAGE_PROWESS_VALUE = 15   # Used by character_opinion_from_high_prowess_add and character_opinion_from_low_prowess_add modifiers to determine what's high and low #LotR
+	AVERAGE_PROWESS_VALUE = 15   # Used by character_opinion_from_high_prowess_add and character_opinion_from_low_prowess_add modifiers to determine what's high and low #WHG
 }
 NPortrait = {
 	GENE_DATABASE_VERSION = 5	# If the version saved in a file does not match this number, the portrait DNAs will get regenerated. Increase this number when making gene database changed that would break old portraits.

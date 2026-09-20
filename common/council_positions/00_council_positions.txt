@@ -1,4 +1,4 @@
-﻿#LotR: removed real world references.
+﻿#WHG: removed real world references.
 councillor_chancellor = {
 	skill = diplomacy
 	
@@ -55,7 +55,6 @@ councillor_chancellor = {
 		NOR = { 
 			government_has_flag = government_is_landless_adventurer 
 			government_has_flag = government_is_nomadic
-			government_has_flag = government_is_orcish #LotR
 		}
 	}
 
@@ -107,8 +106,8 @@ councillor_chancellor = {
 	}
 
 	valid_character = {
-		is_lotr_adult = yes	#LotR
-		NOT = { has_culture = culture:wastelands }#LotR
+		is_adult = yes
+		NOT = { has_culture = culture:wastelands }#WHG
 		exists = root.liege_or_court_owner
 		trigger_if = { # If the liege has a ministry, we check a separate minister trigger
 			limit = {
@@ -119,7 +118,7 @@ councillor_chancellor = {
 		trigger_else = {
 			can_be_chancellor_trigger = { COURT_OWNER = root.liege_or_court_owner }
 		}
-		#NOT = { this = character:528 }	#LotR
+		#NOT = { this = character:528 }	#WHG
 		tgp_is_ceremonial_liege_trigger = no
 	}
 
@@ -215,7 +214,6 @@ councillor_steward = {
 		NOR = { 
 			government_has_flag = government_is_landless_adventurer 
 			government_has_flag = government_is_nomadic
-			government_has_flag = government_is_orcish #LotR
 		}
 	}
 
@@ -253,7 +251,7 @@ councillor_steward = {
 	}
 
 	valid_character = {
-		lotr_vanilla_valid_character_trigger = yes #LotR
+		lotr_vanilla_valid_character_trigger = yes #WHG
 		exists = root.liege_or_court_owner
 		trigger_if = { # If the liege has a ministry, we check a separate minister trigger
 			limit = {
@@ -264,7 +262,7 @@ councillor_steward = {
 		trigger_else = {
 			can_be_steward_trigger = { COURT_OWNER = root.liege_or_court_owner }
 		}
-		#NOT = { this = character:528 } #LotR
+		#NOT = { this = character:528 } #WHG
 		tgp_is_ceremonial_liege_trigger = no
 	}
 
@@ -360,7 +358,6 @@ councillor_marshal = {
 		NOR = { 
 			government_has_flag = government_is_landless_adventurer 
 			government_has_flag = government_is_nomadic
-			government_has_flag = government_is_orcish #LotR
 		}
 	}
 
@@ -404,7 +401,7 @@ councillor_marshal = {
 	}
 
 	valid_character = {
-		lotr_vanilla_valid_character_trigger = yes #LotR
+		lotr_vanilla_valid_character_trigger = yes #WHG
 		exists = root.liege_or_court_owner
 		trigger_if = { # If the liege has a ministry, we check a separate minister trigger
 			limit = {
@@ -415,7 +412,7 @@ councillor_marshal = {
 		trigger_else = {
 			can_be_marshal_trigger = { COURT_OWNER = root.liege_or_court_owner }
 		}
-		#NOT = { this = character:528 } #LotR
+		#NOT = { this = character:528 } #WHG
 		tgp_is_ceremonial_liege_trigger = no
 	}
 
@@ -546,7 +543,7 @@ councillor_spymaster = {
 	}
 
 	valid_character = {
-		lotr_vanilla_valid_character_trigger = yes #LotR
+		lotr_vanilla_valid_character_trigger = yes #WHG
 		exists = root.liege_or_court_owner
 		trigger_if = { # If the liege has a ministry, we check a separate minister trigger
 			limit = {
@@ -566,11 +563,10 @@ councillor_spymaster = {
 	}
 
 	on_fired_from_position = {
-		if = { #LotR
+		if = { #WHG
 			limit = {
 				exists = root.liege_or_court_owner
 				liege_or_court_owner = { is_ai = no }
-				liege_or_court_owner = { government_has_flag = government_is_orcish }
 			}
 			liege_or_court_owner = { add_prestige = major_prestige_loss }
 		}
@@ -675,7 +671,7 @@ councillor_court_chaplain = {
 				}
 				desc = councillor_court_chaplain_celestial_government_imperial
 			}
-			# triggered_desc = { # LOTR
+			# triggered_desc = { # WHG
 			# 	trigger = {
 			# 		OR = {
 			# 			culture = { has_cultural_pillar = heritage_chinese }
@@ -720,12 +716,13 @@ councillor_court_chaplain = {
 				}
 				desc = councillor_court_chaplain_mandala_government
 			}
-			# triggered_desc = { #LOTR
+			# triggered_desc = { #WHG MODIFIED
 			# 	trigger = {
 			# 		faith = {
 			# 			OR = {
 			# 				has_doctrine = doctrine_theocracy_temporal
-			# 				religion = { is_in_family = rf_pagan }
+			# 				# religion = { is_in_family = rf_pagan } #WHG
+			# 				religion = { is_in_family = rf_chaos }  #WHG
 			# 			}
 			# 		}
 			# 	}
@@ -736,58 +733,60 @@ councillor_court_chaplain = {
 					faith = {
 						NOR = {
 							has_doctrine = doctrine_theocracy_temporal
-							#religion = { is_in_family = rf_pagan } #LotR
+							#religion = { is_in_family = rf_pagan } #WHG
+							religion = { is_in_family = rf_chaos }  #WHG
 						}
 					}
 				}
-			# 	desc = { #WHG TODO
-			# 		first_valid = {
-			# 			#Shia
-			# 			triggered_desc = {
-			# 				trigger = { highest_held_title_tier >= tier_empire faith = faith:ismaili }
-			# 				desc = councillor_court_chaplain_ismaili_empire
-			# 			}
-			# 			triggered_desc = {
-			# 				trigger = { highest_held_title_tier >= tier_kingdom faith = faith:ismaili }
-			# 				desc = councillor_court_chaplain_ismaili_kingdom
-			# 			}
-			# 			#Islam
-			# 			triggered_desc = {
-			# 				trigger = { highest_held_title_tier >= tier_empire faith.religion = faith:ashari.religion }
-			# 				desc = councillor_court_chaplain_islam_empire
-			# 			}
-			# 			triggered_desc = {
-			# 				trigger = { highest_held_title_tier >= tier_kingdom faith.religion = faith:ashari.religion }
-			# 				desc = councillor_court_chaplain_islam_kingdom
-			# 			}
-			# 			triggered_desc = {
-			# 				trigger = { highest_held_title_tier >= tier_duchy faith.religion = faith:ashari.religion }
-			# 				desc = councillor_court_chaplain_islam_duchy
-			# 			}
-			# 			triggered_desc = {
-			# 				trigger = { highest_held_title_tier < tier_duchy faith.religion = faith:ashari.religion }
-			# 				desc = councillor_court_chaplain_islam_county
-			# 			}
-			# 			#Yazidi
-			# 			triggered_desc = {
-			# 				trigger = { highest_held_title_tier >= tier_empire faith.religion = faith:yazidi.religion }
-			# 				desc = councillor_court_chaplain_yazidi_empire
-			# 			}
-			# 			triggered_desc = {
-			# 				trigger = { highest_held_title_tier >= tier_kingdom faith.religion = faith:yazidi.religion }
-			# 				desc = councillor_court_chaplain_yazidi_kingdom
-			# 			}
-			# 			triggered_desc = {
-			# 				trigger = { highest_held_title_tier >= tier_duchy faith.religion = faith:yazidi.religion }
-			# 				desc = councillor_court_chaplain_yazidi_duchy
-			# 			}
-			# 			triggered_desc = {
-			# 				trigger = { highest_held_title_tier < tier_duchy faith.religion = faith:yazidi.religion }
-			# 				desc = councillor_court_chaplain_yazidi_county
-			# 			}
-			# 			desc = councillor_court_chaplain
-			# 		}
-			# 	}
+				desc = { #WHG
+					# first_valid = {
+					# 	#Shia
+					# 	triggered_desc = {
+					# 		trigger = { highest_held_title_tier >= tier_empire faith = faith:ismaili }
+					# 		desc = councillor_court_chaplain_ismaili_empire
+					# 	}
+					# 	triggered_desc = {
+					# 		trigger = { highest_held_title_tier >= tier_kingdom faith = faith:ismaili }
+					# 		desc = councillor_court_chaplain_ismaili_kingdom
+					# 	}
+					# 	#Islam
+					# 	triggered_desc = {
+					# 		trigger = { highest_held_title_tier >= tier_empire faith.religion = faith:ashari.religion }
+					# 		desc = councillor_court_chaplain_islam_empire
+					# 	}
+					# 	triggered_desc = {
+					# 		trigger = { highest_held_title_tier >= tier_kingdom faith.religion = faith:ashari.religion }
+					# 		desc = councillor_court_chaplain_islam_kingdom
+					# 	}
+					# 	triggered_desc = {
+					# 		trigger = { highest_held_title_tier >= tier_duchy faith.religion = faith:ashari.religion }
+					# 		desc = councillor_court_chaplain_islam_duchy
+					# 	}
+					# 	triggered_desc = {
+					# 		trigger = { highest_held_title_tier < tier_duchy faith.religion = faith:ashari.religion }
+					# 		desc = councillor_court_chaplain_islam_county
+					# 	}
+					# 	#Yazidi
+					# 	triggered_desc = {
+					# 		trigger = { highest_held_title_tier >= tier_empire faith.religion = faith:yazidi.religion }
+					# 		desc = councillor_court_chaplain_yazidi_empire
+					# 	}
+					# 	triggered_desc = {
+					# 		trigger = { highest_held_title_tier >= tier_kingdom faith.religion = faith:yazidi.religion }
+					# 		desc = councillor_court_chaplain_yazidi_kingdom
+					# 	}
+					# 	triggered_desc = {
+					# 		trigger = { highest_held_title_tier >= tier_duchy faith.religion = faith:yazidi.religion }
+					# 		desc = councillor_court_chaplain_yazidi_duchy
+					# 	}
+					# 	triggered_desc = {
+					# 		trigger = { highest_held_title_tier < tier_duchy faith.religion = faith:yazidi.religion }
+					# 		desc = councillor_court_chaplain_yazidi_county
+					# 	}
+					# 	desc = councillor_court_chaplain
+					# }
+					desc = councillor_court_chaplain
+				}
 			}
 			desc = councillor_court_chaplain
 		}
@@ -839,7 +838,7 @@ councillor_court_chaplain = {
 	pool_character_config = pool_court_chaplain
 	
 	valid_character = {
-		lotr_vanilla_valid_character_trigger = yes #LotR
+		lotr_vanilla_valid_character_trigger = yes #WHG
 		exists = root.liege_or_court_owner
 		trigger_if = { # If the liege has a ministry, we check a separate minister trigger
 			limit = {
@@ -857,7 +856,6 @@ councillor_court_chaplain = {
 		NOR = { 
 			government_has_flag = government_is_landless_adventurer 
 			government_has_flag = government_is_nomadic
-			government_has_flag = government_is_orcish #LotR
 		}
 	}
 
@@ -990,7 +988,7 @@ councillor_spouse = {
 				trigger = { scope:councillor = { is_male = yes } }
 				desc = {
 					first_valid = {
-						#Mongol All
+						#Mongol All #WHG
 						# triggered_desc = {
 						# 	trigger = {
 						# 		scope:councillor_liege.highest_held_title_tier = tier_barony
@@ -3000,7 +2998,7 @@ councillor_spouse = {
 	}
 
 	valid_character = {
-		lotr_vanilla_valid_character_trigger = yes #LotR
+		lotr_vanilla_valid_character_trigger = yes #WHG
 		exists = liege
 		can_be_spouse_councillor_trigger = { COUNCIL_OWNER = liege }
 		tgp_is_ceremonial_liege_trigger = no
@@ -3050,7 +3048,7 @@ councillor_vizier = {
 	valid_character = {
 		exists = liege_or_court_owner
 		can_be_vizier_councillor_trigger = { COUNCIL_OWNER = liege_or_court_owner }
-		lotr_vanilla_valid_character_trigger = yes #LotR
+		lotr_vanilla_valid_character_trigger = yes #WHG
 	}
 
 	on_get_position = {
