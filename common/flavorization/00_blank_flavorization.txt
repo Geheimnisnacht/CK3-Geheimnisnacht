@@ -1,0 +1,1 @@
+﻿# Blank base: vanilla title flavorization removed because the vanilla titles are not present.

@@ -1,0 +1,1 @@
+﻿# Blank base: vanilla challenge characters removed.

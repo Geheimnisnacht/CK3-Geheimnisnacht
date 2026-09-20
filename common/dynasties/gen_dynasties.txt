@@ -1,0 +1,4 @@
+﻿dynn_gen_1 = {
+    name = "gen_fam"
+    culture = breton
+}

@@ -1,0 +1,1 @@
+﻿# Blank base: vanilla dynamic COA definitions removed because the vanilla titles are not present.

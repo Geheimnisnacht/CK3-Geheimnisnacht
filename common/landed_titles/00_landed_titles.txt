@@ -1,15 +1,35 @@
-﻿# @correct_culture_primary_score = 100
-# @better_than_the_alternatives_score = 50
-# @always_primary_score = 1000
-
-# # These titles cut hundreds of errors from logs. 
-e_hre = { landless = yes }
-e_byzantium = { landless = yes }
-e_roman_empire = { landless = yes }
-e_mongol_empire = { landless = yes }
-e_outremer = { landless = yes }
-e_slavia = { landless = yes }
-e_india = { landless = yes }
-e_latin_empire = { landless = yes }
-d_sunni = { landless = yes }
-k_fashion = { landless = yes }
+﻿e_R254G38B180 = {
+  color = { 254 38 180 }
+  capital = c_R63G246B62
+  k_R136G144B120 = {
+    color = { 136 144 120 }
+    capital = c_R63G246B62
+    d_R145G96B58 = {
+      color = { 145 96 58 }
+      capital = c_R63G246B62
+      c_R63G246B62 = {
+        color = { 63 246 62 }
+        b_R81G118B156 = {
+          province = 1
+          color = { 63 246 62 }
+        }
+		b_R100G150B200 = {
+		  province = 2
+		  color = { 63 246 62 }
+		}
+		b_R181G100B200 = {
+		  province = 3
+		  color = { 63 246 62 }
+		}
+		b_R199G228B35 = {
+		  province = 4
+		  color = { 63 246 62 }
+		}
+		b_R202G27B27 = {
+		  province = 5
+		  color = { 63 246 62 }
+		}
+      }
+    }
+  }
+}

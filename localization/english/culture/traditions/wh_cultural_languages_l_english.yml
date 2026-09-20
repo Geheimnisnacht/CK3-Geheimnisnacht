@@ -6,8 +6,8 @@
  language_reikspiel_name:0 "Reikspiel"
  language_fenonnian_name:0 "Fennonian"
  language_strigosi_name:0 "Strigosi"
- language_mootlander_name:0 "Halfling"
- language_kislevian_name:0 "Kislevian"
+ language_mootlander_name:0 "Haffennaff"
+ language_kislevarin_name:0 "Kislevarin"
  language_breton_name:0 "Breton"
  language_estalian_name:0 "Estalian"
  language_tilean_name:0 "Tilean"
@@ -31,7 +31,7 @@
  language_merogen_name:0 "Merogen"
  language_ostagoth_name:0 "Ostagothic"
  language_bretonni_name:0 "Bretonni"
- language_classical:0 "Classical"
+ language_classical_name:0 "Classical"
 
 #Ogres
  language_grumbarth_name:0 "Grumbarth"
