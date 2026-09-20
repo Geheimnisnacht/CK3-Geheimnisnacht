@@ -1,0 +1,23 @@
+version="1"
+tags={
+	"Total Conversion"
+}
+replace_path="common/geographical_regions"
+replace_path="common/dynasties"
+replace_path="common/religion/holy_site_types"
+replace_path="common/flavorization"
+replace_path="common/coat_of_arms/dynamic_definitions"
+replace_path="common/bookmarks"
+replace_path="common/landed_titles"
+replace_path="common/province_terrain"
+
+replace_path="history/cultures"
+replace_path="history/characters"
+replace_path="history/provinces"
+replace_path="history/titles"
+replace_path="gfx/map/map_object_data/generated"
+replace_path="gfx/map/map_object_data"
+replace_path="map_data"
+replace_path="map_data/geographical_regions"
+name="GWHtesting"
+supported_version="1.19.*"
