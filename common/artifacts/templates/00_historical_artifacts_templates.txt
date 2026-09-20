@@ -483,7 +483,7 @@ branch_germanic_template = {
 
 	# can this character benefit from the full modifiers of the artifact?
 	can_benefit = {
-		has_religion = religion:gwathuirim_religion
+		has_religion = religion:northern_pantheon_religion #WHG TODO CHANGE TO NORSCAN?
 		# has_religion = religion:germanic_religion
 	}
 
@@ -761,8 +761,7 @@ child_toy_template = {
 			}
 			custom_tooltip = {
 				text = child_toy_template_tt
-				#age < 16 #LOTR
-				is_lotr_adult = no
+				age < 16
 			}
 		}
 	}

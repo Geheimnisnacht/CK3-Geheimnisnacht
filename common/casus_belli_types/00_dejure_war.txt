@@ -1,4 +1,4 @@
-﻿#LotR removing vanilla HRE CBs etc and adding protectorate blockers to war declarations
+﻿#WHG removing vanilla HRE CBs etc and adding protectorate blockers to war declarations
 
 de_jure_cb = {
 	icon = de_jure_cb
@@ -15,7 +15,7 @@ de_jure_cb = {
 			government_has_flag = government_is_landless_adventurer
 			government_has_flag = government_is_nomadic
 		}
-		scope:attacker = { lotr_can_declare_war = yes } # LOTR
+		scope:attacker = { lotr_can_declare_war = yes } # WHG
 		
 	}
 
@@ -32,7 +32,7 @@ de_jure_cb = {
 			scope:attacker = { target_is_liege_or_above = scope:defender }
 		}
 		
-		lotr_can_declare_war = yes # LOTR
+		lotr_can_declare_war = yes # WHG
 	}
 		
 	allowed_against_character_display_regardless = {}
@@ -89,7 +89,7 @@ de_jure_cb = {
 	}
 
 	should_invalidate = {
-		NOR = { #LotR
+		NOR = { #WHG
 			scope:attacker = {
 				has_de_jure_claim_on = scope:defender
 			}
@@ -341,7 +341,7 @@ individual_county_de_jure_cb = {
 			NOT = { government_has_flag = government_is_nomadic }
 		}
 		
-		scope:attacker = { lotr_can_declare_war = yes } # LOTR		
+		scope:attacker = { lotr_can_declare_war = yes } # WHG		
 	}
 
 	allowed_for_character_display_regardless = {
@@ -357,7 +357,7 @@ individual_county_de_jure_cb = {
 			scope:attacker = { target_is_liege_or_above = scope:defender }
 		}
 
-		scope:defender = { lotr_can_declare_war = yes } # LOTR
+		scope:defender = { lotr_can_declare_war = yes } # WHG
 	}
 	target_titles = all
 	target_title_tier = all
@@ -691,7 +691,7 @@ individual_duchy_de_jure_cb = {
 			NOT = { government_has_flag = government_is_nomadic }
 		}
 		
-		scope:attacker = { lotr_can_declare_war = yes } # LOTR
+		scope:attacker = { lotr_can_declare_war = yes } # WHG
 		
 	}
 
@@ -708,7 +708,7 @@ individual_duchy_de_jure_cb = {
 			scope:attacker = { target_is_liege_or_above = scope:defender }
 		}
 		
-		scope:defender = { lotr_can_declare_war = yes } # LOTR
+		scope:defender = { lotr_can_declare_war = yes } # WHG
 	}
 	target_titles = all
 	target_title_tier = all
@@ -777,7 +777,7 @@ individual_duchy_de_jure_cb = {
 	}
 
 	should_invalidate = {
-		NOR = { #LotR
+		NOR = { #WHG
 			any_in_list = {
 				list = target_titles
 				any_in_de_jure_hierarchy = {

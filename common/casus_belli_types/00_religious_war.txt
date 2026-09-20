@@ -1,4 +1,4 @@
-﻿#LotR removing vanilla references and adding protectorate blockers to war declarations
+﻿#WHG removing vanilla references and adding protectorate blockers to war declarations
 
 minor_religious_war = {
 	icon = minor_religious_war
@@ -26,7 +26,7 @@ minor_religious_war = {
 			government_has_flag = government_is_celestial
 		}
 		
-		scope:attacker = { lotr_can_declare_war = yes } # LOTR
+		scope:attacker = { lotr_can_declare_war = yes } # WHG
 	}
 
 	allowed_for_character_display_regardless = {
@@ -95,7 +95,7 @@ minor_religious_war = {
 	}
 
 	allowed_against_character = {
-		scope:defender = { #LotR
+		scope:defender = { #WHG
 			NOR = {
 				government_has_flag = government_is_landless_adventurer
 				government_has_flag = government_is_nomadic
@@ -115,7 +115,7 @@ minor_religious_war = {
 				liege = scope:defender
 			}
 		}
-		scope:defender = { lotr_can_declare_war = yes } # LOTR
+		scope:defender = { lotr_can_declare_war = yes } # WHG
 	}
 	target_titles = neighbor_land_or_water
 	target_title_tier = all
@@ -148,8 +148,6 @@ minor_religious_war = {
 		are_holy_wars_disabled_by_struggle_conciliation_trigger = no # Disabled against other involved faiths in FP2 Conciliation ending
 		
 
-		# LOTR Hostile Holy Wars gamerule
-		lotr_hostile_holy_wars_allowed_trigger = yes
 	}
 
 	should_invalidate = {
@@ -171,10 +169,10 @@ minor_religious_war = {
 			#Faith change does not immediately invalidate, it's run through event war_event.3100
 			scope:war = { exists = var:invalidate_defender_faith_change }
 			scope:war = { exists = var:invalidate_attacker_faith_change }
-			scope:attacker = { #LotR
+			scope:attacker = { #WHG
 				has_culture = culture:wastelands
 			}
-			scope:defender = { #LotR
+			scope:defender = { #WHG
 				has_culture = culture:wastelands
 			}
 		}
@@ -611,7 +609,7 @@ religious_war = {
 			government_has_flag = government_is_celestial
 		}
 
-		scope:attacker = { lotr_can_declare_war = yes } # LOTR
+		scope:attacker = { lotr_can_declare_war = yes } # WHG
 	}
 
 	allowed_for_character_display_regardless = {
@@ -680,7 +678,7 @@ religious_war = {
 	}
 
 	allowed_against_character = {
-		scope:defender = { #LotR
+		scope:defender = { #WHG
 			NOR = {
 				government_has_flag = government_is_landless_adventurer
 				government_has_flag = government_is_nomadic
@@ -701,7 +699,7 @@ religious_war = {
 			}
 		}
 
-		scope:defender = { lotr_can_declare_war = yes } # LOTR
+		scope:defender = { lotr_can_declare_war = yes } # WHG
 	}
 	
 	allowed_against_character_display_regardless = {}
@@ -754,8 +752,7 @@ religious_war = {
 			are_holy_wars_disabled_in_struggle_phase_trigger = yes
 		}
 		are_holy_wars_disabled_by_struggle_conciliation_trigger = no # Disabled against other involved faiths in FP2 Conciliation ending
-		# LOTR Hostile Holy Wars gamerule
-		lotr_hostile_holy_wars_allowed_trigger = yes
+
 	}
 
 	should_invalidate = {
@@ -777,10 +774,10 @@ religious_war = {
 			#Faith change does not immediately invalidate, it's run through event war_event.3100
 			scope:war = { exists = var:invalidate_defender_faith_change }
 			scope:war = { exists = var:invalidate_attacker_faith_change }
-			scope:attacker = { #LotR
+			scope:attacker = { #WHG
 				has_culture = culture:wastelands
 			}
-			scope:defender = { #LotR
+			scope:defender = { #WHG
 				has_culture = culture:wastelands
 			}
 		}
@@ -1260,7 +1257,7 @@ major_religious_war = {
 			government_has_flag = government_is_celestial
 		}
 		
-		scope:attacker = { lotr_can_declare_war = yes } # LOTR
+		scope:attacker = { lotr_can_declare_war = yes } # WHG
 	}
 
 	allowed_for_character_display_regardless = {
@@ -1353,14 +1350,14 @@ major_religious_war = {
 			}
 		}
 
-		scope:defender = { #LotR
+		scope:defender = { #WHG
 			NOR = {
 				government_has_flag = government_is_landless_adventurer
 				government_has_flag = government_is_nomadic
 			}
 		}
 		
-		scope:defender = { lotr_can_declare_war = yes } # LOTR
+		scope:defender = { lotr_can_declare_war = yes } # WHG
 	}
 	
 	allowed_against_character_display_regardless = {}
@@ -1414,9 +1411,7 @@ major_religious_war = {
 				}
 			}
 		}
-		
-		# LOTR Hostile Holy Wars gamerule
-		lotr_hostile_holy_wars_allowed_trigger = yes
+
 	}
 
 	should_invalidate = {
@@ -1438,10 +1433,10 @@ major_religious_war = {
 			#Faith change does not immediately invalidate, it's run through event war_event.3100
 			scope:war = { exists = var:invalidate_defender_faith_change }
 			scope:war = { exists = var:invalidate_attacker_faith_change }
-			scope:attacker = { #LotR
+			scope:attacker = { #WHG
 				has_culture = culture:wastelands
 			}
-			scope:defender = { #LotR
+			scope:defender = { #WHG
 				has_culture = culture:wastelands
 			}
 		}
@@ -1529,7 +1524,7 @@ major_religious_war = {
 				remove_character_flag = bonus_major_holy_war
 			}
 			else = {
-				add_character_flag = { #LotR
+				add_character_flag = { #WHG
 					flag = declared_major_religious_war_flag
 					years = 100
 				}
@@ -1911,7 +1906,7 @@ excommunication_war = {
 	defender_score_from_battles_scale = 150
 
 	allowed_against_character = {
-		scope:defender = { #LotR
+		scope:defender = { #WHG
 			NOR = {
 				government_has_flag = government_is_landless_adventurer
 				government_has_flag = government_is_nomadic
@@ -1946,7 +1941,7 @@ excommunication_war = {
 			}
 		}
 		
-		scope:defender = { lotr_can_declare_war = yes } # LOTR
+		scope:defender = { lotr_can_declare_war = yes } # WHG
 	}
 
 	target_de_jure_regions_above = yes
@@ -2114,7 +2109,7 @@ excommunication_war = {
 	}
 	
 	should_invalidate = {
-		OR = { #LotR
+		OR = { #WHG
 			scope:defender = {
 				NOT = {
 					has_trait = excommunicated
@@ -2236,7 +2231,7 @@ flowery_war_cb = {
 		NOT = {	#Must not have any leftover sacrificial prisoners/easy ability to get any.
 			any_prisoner = { has_character_modifier = designated_human_sacrifice_modifier }
 		}
-		scope:attacker = { lotr_can_declare_war = yes } # LOTR
+		scope:attacker = { lotr_can_declare_war = yes } # WHG
 	}
 
 	# Root is the title
@@ -2246,7 +2241,7 @@ flowery_war_cb = {
 		scope:attacker = {
 			faith = { 
 				has_doctrine_parameter = flower_war_cb_active
-				has_doctrine_parameter = human_sacrifice_active #LotR
+				has_doctrine_parameter = human_sacrifice_active #WHG
 			}
 			NOT = {	#Must not have any leftover sacrificial prisoners/easy ability to get any.
 				any_prisoner = { has_character_modifier = designated_human_sacrifice_modifier }
@@ -2265,13 +2260,13 @@ flowery_war_cb = {
 			}
 		}
 
-		scope:defender = { #LotR
+		scope:defender = { #WHG
 			NOR = {
 				government_has_flag = government_is_landless_adventurer
 				government_has_flag = government_is_nomadic
 			}
 		}
-		scope:defender = { lotr_can_declare_war = yes } # LOTR
+		scope:defender = { lotr_can_declare_war = yes } # WHG
 	}
 
 	allowed_against_character_display_regardless = {}
@@ -3389,15 +3384,15 @@ undirected_great_holy_war = {
 
 	allowed_for_character = {
 		# always = yes
-		scope:defender = { lotr_can_declare_war = yes } # LOTR
+		scope:defender = { lotr_can_declare_war = yes } # WHG
 	}
 
 	
 	allowed_against_character = {
 
-		scope:defender = { lotr_can_declare_war = yes } # LOTR
+		scope:defender = { lotr_can_declare_war = yes } # WHG
 
-		scope:defender = { #LotR
+		scope:defender = { #WHG
 			NOR = {
 				government_has_flag = government_is_landless_adventurer
 			}
@@ -3451,7 +3446,7 @@ undirected_great_holy_war = {
 		force_truce_GHW_defenders_effect = yes
 		on_declared_war = yes
 		#Tell non diverting-players about the crazy 4th crusade plan
-		# if = { #LotR
+		# if = { #WHG
 		# 	limit = {
 		# 		scope:attacker.faith = { this = faith:catholic }
 		# 		exists = global_var:byz_claimant_champion
@@ -3498,7 +3493,7 @@ undirected_great_holy_war = {
 			}
 		}
 		# First of the Crusader Kings achievement tracking.
-		# if = { #LotR
+		# if = { #WHG
 		# 	limit = {
 		# 		scope:attacker.faith = faith:catholic
 		# 		NOT = { exists = global_var:had_first_catholic_crusade }
@@ -4272,7 +4267,7 @@ directed_great_holy_war = {
 			}
 			religion = { exists = var:variable_ghw_unlocked } #Activated by event for every religion.
 		}
-		scope:attacker = { lotr_can_declare_war = yes } # LOTR
+		scope:attacker = { lotr_can_declare_war = yes } # WHG
 	}
 
 	allowed_for_character_display_regardless = {
@@ -4288,9 +4283,9 @@ directed_great_holy_war = {
 			is_hostile_enough_for_holy_war_trigger = { FAITH = scope:defender.faith }
 		}
 		
-		scope:defender = { lotr_can_declare_war = yes } # LOTR
+		scope:defender = { lotr_can_declare_war = yes } # WHG
 
-		scope:defender = { #LotR
+		scope:defender = { #WHG
 			NOR = {
 				government_has_flag = government_is_landless_adventurer
 			}
@@ -4346,7 +4341,7 @@ directed_great_holy_war = {
 	on_declaration = {
 		every_in_list = {
 			list = target_titles
-			limit = { is_wastelands = no } #LotR 
+			limit = { is_wastelands = no } #WHG 
 			save_scope_as = target
 		}
 		hidden_effect = {
@@ -4364,7 +4359,7 @@ directed_great_holy_war = {
 		scope:attacker.faith.great_holy_war = {
 			every_pledged_attacker = { #Add Beneficiary automatically on victory of direct GHW for any attacker that doesn't have one already.
 				limit = {
-					is_wastelands = no #LotR
+					is_wastelands = no #WHG
 					NOT = {
 						exists = ghw_beneficiary
 					}
@@ -4401,7 +4396,7 @@ directed_great_holy_war = {
 					this != scope:ghw_sponsor
 					exists = scope:attacker.faith.great_holy_war
 					NOT = { scope:attacker.faith.great_holy_war = { has_pledged_attacker = prev } }
-					is_wastelands = no #LotR
+					is_wastelands = no #WHG
 				}
 				trigger_event = great_holy_war.0092 #AI pledging.
 			}
@@ -4414,7 +4409,7 @@ directed_great_holy_war = {
 					exists = scope:attacker.faith.great_holy_war
 					NOT = { scope:attacker.faith.great_holy_war = { has_pledged_defender = prev } }
 					scope:defender != top_liege
-					is_wastelands = no #LotR
+					is_wastelands = no #WHG
 				}
 				trigger_event = great_holy_war.0093 #AI counterpledging.
 			}
@@ -4533,7 +4528,7 @@ directed_great_holy_war = {
 		}
 		every_in_list = {
 			list = target_titles
-			limit = { is_wastelands = no } #LotR
+			limit = { is_wastelands = no } #WHG
 			save_scope_as = target
 		}
 		scope:attacker.faith.great_holy_war = {
