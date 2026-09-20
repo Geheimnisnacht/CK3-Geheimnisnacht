@@ -1,7 +1,6 @@
 ﻿# OTHER_SPOUSE = the other spouse character, may be invalid object
 is_valid_grand_wedding_special_guest_trigger = {
 	is_alive = yes
-	is_nubile = yes
 	lotr_marriage_allowed = yes
 	# Must be able to marry the other character if they are selected
 	trigger_if = {

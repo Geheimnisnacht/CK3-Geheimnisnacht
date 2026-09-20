@@ -1,4 +1,4 @@
-﻿lotr_can_declare_war = {	
+﻿lotr_can_declare_war = {	 #WHG TODO CHANGE NAME
 	NOR = {
 		has_culture = culture:wastelands
 		AND = {
@@ -7,15 +7,15 @@
 	}
 }
 
-lotr_hostile_holy_wars_allowed_trigger = {
-	OR = {
-		has_game_rule = hostile_holy_wars_unrestricted
-		scope:defender.faith = {
-			faith_hostility_level = {
-				target = scope:attacker.faith
-				value = faith_evil_level
-			}
-		}
-		scope:attacker.faith = { has_doctrine = doctrine_pluralism_fundamentalist }
-	}
-}
+# lotr_hostile_holy_wars_allowed_trigger = {
+# 	OR = {
+# 		has_game_rule = hostile_holy_wars_unrestricted
+# 		scope:defender.faith = {
+# 			faith_hostility_level = {
+# 				target = scope:attacker.faith
+# 				value = faith_evil_level
+# 			}
+# 		}
+# 		scope:attacker.faith = { has_doctrine = doctrine_pluralism_fundamentalist }
+# 	}
+# }
