@@ -4131,6 +4131,7 @@ e_the_empire = {
 					name_list_carcassian = cn_archamp
 					name_list_nortagnese = cn_archamp
 					name_list_bourgon = cn_archamp
+					name_list_aesling = cn_archamp #WHG TODO temp fix for wastelands placeholder culture, remove once resolved
 				}
 				
 				b_harskamp = {
@@ -4165,6 +4166,7 @@ e_the_empire = {
 					name_list_bourgon = cn_valse
 					name_list_breton = cn_valse
 					name_list_carcassian = cn_valse
+					name_list_aesling = cn_valse #WHG TODO temp fix for wastelands placeholder culture, remove once resolved
 				}
 
 				b_vasse = {
@@ -4635,6 +4637,7 @@ e_the_empire = {
 					name_list_bourgon = cn_arsenquE_re
 					name_list_breton = cn_arsenquE_re
 					name_list_carcassian = cn_arsenquE_re
+					name_list_aesling = cn_arsenquE_re #WHG TODO temp fix for wastelands placeholder culture, remove once resolved
 				}
 				
 				b_amsterhuizen = {
@@ -4723,6 +4726,7 @@ e_the_empire = {
 					name_list_bourgon = cn_donjon
 					name_list_breton = cn_donjon
 					name_list_carcassian = cn_donjon
+					name_list_aesling = cn_donjon #WHG TODO temp fix for wastelands placeholder culture, remove once resolved
 				}
 
 				b_dornhan = {
@@ -4789,6 +4793,7 @@ e_the_empire = {
 					name_list_bourgon = cn_bouran
 					name_list_breton = cn_bouran
 					name_list_carcassian = cn_bouran
+					name_list_aesling = cn_bouran #WHG TODO temp fix for wastelands placeholder culture, remove once resolved
 				}
 				
 				b_middenmeer = {
@@ -4816,6 +4821,7 @@ e_the_empire = {
 					name_list_bourgon = cn_arneau
 					name_list_breton = cn_arneau
 					name_list_carcassian = cn_arneau
+					name_list_aesling = cn_arneau #WHG TODO temp fix for wastelands placeholder culture, remove once resolved
 				}
 
 				b_aarnau = {
