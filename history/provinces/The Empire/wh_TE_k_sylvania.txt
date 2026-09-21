@@ -1,0 +1,373 @@
+##d_achteraver ###################################
+###c_sigmaringen
+272 = {	# Sigmaringen
+	culture = sylvanian
+	religion = catholic
+	holding = castle_holding
+}
+
+273 = {	# Geihselhoff
+	culture = sylvanian
+	religion = catholic
+	holding = castle_holding
+}
+
+274 = {	# Kaunitz
+	holding = none
+}
+
+267 = {	# Rhon
+	holding = none
+}
+
+268 = {	# Schrebensheim
+	holding = none
+}
+
+
+###c_schramleben
+275 = {	# Schramleben
+	culture = sylvanian
+	religion = catholic
+	holding = castle_holding
+}
+
+276 = {	# Brigstadt
+	holding = none
+}
+
+277 = {	# Mittlenburg
+	holding = none
+}
+
+
+###c_auld_ryding
+353 = {	# Stoodhof
+	holding = none
+}
+
+354 = {	# Averridge
+	holding = none
+}
+
+355 = {	# Gadd
+	holding = none
+}
+
+356 = {	# Poysdenz
+	culture = sylvanian
+	religion = catholic
+	holding = castle_holding
+}
+
+
+
+##d_siegfriedhof ###################################
+###c_siegfriedhof
+324 = {	# Siegfriedhof
+	culture = sylvanian
+	religion = catholic
+	holding = castle_holding
+}
+
+325 = {	# Uflheim
+	holding = none
+}
+
+326 = {	# Eschenstir
+	holding = none
+}
+
+327 = {	# Stirfaehre
+	holding = none	
+}
+
+
+###c_vierstein
+328 = {	# Morrfen
+	culture = sylvanian
+	religion = catholic
+	holding = castle_holding
+}
+
+329 = {	# Vierstein
+	holding = none
+}
+
+
+###c_sternieste
+330 = {	# Sternieste
+	culture = sylvanian
+	religion = catholic
+	holding = castle_holding
+}
+
+331 = {	# Lichenheim
+	holding = none
+}
+
+
+
+##d_kovasnia ###################################
+###c_koenigstein
+332 = {	# Koenigstein
+	culture = sylvanian
+	religion = catholic
+	holding = castle_holding
+}
+
+333 = {	# Unterwold
+	holding = none
+}
+
+334 = {	# Swartzhafen
+	holding = church_holding
+}
+
+335 = {	# Bylorhof
+	culture = sylvanian
+	religion = catholic
+	holding = castle_holding
+}
+
+336 = {	# Arfeit
+	holding = none
+}
+
+
+###c_leicheberg
+339 = {	# Leicheberg
+	culture = sylvanian
+	religion = catholic
+	holding = castle_holding
+}
+
+340 = {	# Vargravia
+	holding = none
+}
+
+341 = {	# Folburg
+	holding = none
+}
+
+342 = {	# Naubonum
+	holding = none
+}
+
+
+
+##d_brachland ###################################
+###c_brachland
+343 = {	# Bracher
+	culture = sylvanian
+	religion = catholic
+	holding = castle_holding
+}
+
+344 = {	# Kleibersdorf
+	holding = city_holding
+}
+
+345 = {	# Hillesheim
+	holding = none
+}
+
+346 = {	# Wachturm
+	holding = none
+}
+
+347 = {	# Kirchhaus
+	culture = sylvanian
+	religion = catholic
+	holding = castle_holding
+}
+
+
+###c_fennonhuegel
+348 = {	# Konradswache
+	culture = sylvanian
+	religion = catholic
+	holding = castle_holding
+}
+
+349 = {	# Amonenburg
+	holding = city_holding
+}
+
+350 = {	# Aslar
+	holding = none
+}
+
+351 = {	# Vladis
+	holding = none
+}
+
+352 = {	# Vassel
+	holding = none
+}
+
+
+
+##d_drakenhoehenzug ###################################
+###c_tempelhof
+357 = {	# Castle Tempelhof
+	culture = sylvanian
+	religion = catholic
+	holding = castle_holding
+}
+
+358 = {	# Tempelhof
+	holding = city_holding
+}
+
+359 = {	# Gerhof
+	holding = none
+}
+
+360 = {	# Grim Moor
+	holding = none
+}
+
+
+###c_nachthafen
+362 = {# Nachtschlosse 
+	culture = sylvanian
+	religion = catholic
+	holding = castle_holding
+}
+
+361 = {	# Nachthafen
+	holding = city_holding
+}
+
+363 = {	# Gallhof
+	holding = none
+}
+
+364 = {	# Gallerschlosse
+	holding = none
+}
+
+
+###c_senkehof
+365 = {	# Senkehof
+	culture = sylvanian
+	religion = catholic
+	holding = castle_holding
+}
+
+366 = {	# Pfaffbach
+	holding = none
+}
+
+367 = {	# Castle Senkehof
+	holding = none
+}
+
+
+###c_drakenhof
+368 = {	# Castle Drakenhof
+	culture = sylvanian
+	religion = catholic
+	holding = castle_holding
+	#special_building = carstein_hall_01
+}
+
+369 = {	# Drakenhof
+	holding = city_holding
+}
+
+370 = {	# The Red Abby
+	holding = church_holding
+}
+
+
+
+##d_verbogenwald ###################################
+###c_vanhaldenhof
+371 = {	# Vanhaldenschlosse
+	culture = sylvanian
+	religion = catholic
+	holding = castle_holding
+}
+
+372 = {	# Vanhaldenhof
+	holding = city_holding
+}
+
+373 = {	# Helfurt
+	holding = none
+}
+
+374 = {	# Krondorf
+	holding = none
+}
+
+
+###c_mikaldorf
+375 = {	# Mikaldorf
+	culture = sylvanian
+	religion = catholic
+	holding = castle_holding
+}
+
+376 = {	# Eschen
+	holding = city_holding
+}
+
+377 = {	# Stephansdorp
+	holding = none
+}
+
+378 = {	# Hel Fenn
+	holding = none
+}
+
+
+###c_wartenhof
+379 = {	# Schloss Wartenhof
+	culture = sylvanian
+	religion = catholic
+	holding = castle_holding
+}
+
+380 = {	# Wartenhof
+	holding = city_holding
+}
+
+381 = {	# Erkrath
+	holding = none
+}
+
+
+###c_waldenhof
+382 = {	# Waldenhof
+	culture = sylvanian
+	religion = catholic
+	holding = castle_holding
+}
+
+383 = {	# Hundham
+	holding = none
+}
+
+384 = {	# Thyrnan
+	holding = NONE
+}
+
+385 = {	# Regakhof
+	holding = city_holding
+}
+
+386 = {	# Seppel
+	culture = sylvanian
+	religion = catholic
+	holding = castle_holding
+}
+
+387 = {	# Lichtenwort
+	holding = none
+}
+
+
+
