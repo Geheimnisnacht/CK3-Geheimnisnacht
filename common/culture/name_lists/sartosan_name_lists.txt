@@ -40,7 +40,7 @@
 		"dynn_Nader"
 		"dynn_Moghadam"
 		"dynn_Attia"
-		{ "dynnp_al-" "dynn_Manowar"
+		{ "dynnp_al-" "dynn_Manowar" }
 		"dynn_Muq"
 		"dynn_Wazaq"
 	}
@@ -159,7 +159,6 @@
 	pat_grm_name_chance = 20
 	mat_grm_name_chance = 40
 	mother_name_chance = 5
-	}
 }
 
 sartosan_norscan_name_list = {
