@@ -2,7 +2,7 @@
 ###Talsyn
 3348 = {
 	culture = aesling #couronnean
-	religion = faith_wastelands_pagan #grail
+	religion = ulrican #grail
 	holding = wastelands_holding
 }
 
@@ -248,7 +248,7 @@
 640 = { # Saar
 	6000.1.1 = {
 		culture = aesling
-		religion = faith_wastelands_pagan
+		religion = ulrican
 		holding = wastelands_holding
 	}
 

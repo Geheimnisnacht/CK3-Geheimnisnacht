@@ -229,7 +229,7 @@
 	holding = tribal_holding
 	6500.1.1 = {
 		culture = aesling
-		religion = faith_wastelands_pagan
+		religion = ulrican
 		holding = wastelands_holding
 	}
 }
@@ -254,7 +254,7 @@
 	holding = tribal_holding
 	6500.1.1 = {
 		culture = aesling
-		religion = faith_wastelands_pagan
+		religion = ulrican
 		holding = wastelands_holding
 	}
 }
@@ -281,7 +281,7 @@
 ###c_harskamp
 615 = {	# Harskamp
 	culture = aesling
-	religion = faith_wastelands_pagan
+	religion = ulrican
 	holding = wastelands_holding
 }
 
@@ -301,7 +301,7 @@
 ###c_vasse
 619 = {	# Vasse
 	culture = aesling
-	religion = faith_wastelands_pagan
+	religion = ulrican
 	holding = wastelands_holding
 }
 
@@ -390,7 +390,7 @@
 ###c_rotterrade
 625 = {	# Westerdorp
 	culture = aesling
-	religion = faith_wastelands_pagan
+	religion = ulrican
 	holding = wastelands_holding
 }
 
@@ -418,7 +418,7 @@
 ###c_ankeeven
 631 = {	# Amsterhuizen
 	culture = aesling
-	religion = faith_wastelands_pagan
+	religion = ulrican
 	holding = wastelands_holding
 }
 
@@ -445,7 +445,7 @@
 
 	6500.1.1 = {
 		culture = aesling
-		religion = faith_wastelands_pagan
+		religion = ulrican
 		holding = wastelands_holding
 	}
 }
@@ -488,7 +488,7 @@
 	holding = tribal_holding
 	6500.1.1 = {
 		culture = aesling
-		religion = faith_wastelands_pagan
+		religion = ulrican
 		holding = wastelands_holding
 	}
 }
@@ -504,7 +504,7 @@
 	holding = tribal_holding
 	6500.1.1 = {
 		culture = aesling
-		religion = faith_wastelands_pagan
+		religion = ulrican
 		holding = wastelands_holding
 	}
 }
@@ -527,7 +527,7 @@
 	holding = tribal_holding
 	6500.1.1 = {
 		culture = aesling
-		religion = faith_wastelands_pagan
+		religion = ulrican
 		holding = wastelands_holding
 	}
 }
@@ -544,7 +544,7 @@
 	holding = tribal_holding
 	6500.1.1 = {
 		culture = aesling
-		religion = faith_wastelands_pagan
+		religion = ulrican
 		holding = wastelands_holding
 	}
 }
@@ -561,7 +561,7 @@
 	holding = tribal_holding
 	6500.1.1 = {
 		culture = aesling
-		religion = faith_wastelands_pagan
+		religion = ulrican
 		holding = wastelands_holding
 	}
 }

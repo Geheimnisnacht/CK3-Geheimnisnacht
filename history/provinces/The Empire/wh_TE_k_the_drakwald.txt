@@ -65,7 +65,7 @@
 ###c_issenwald
 907 = {	# Hillebruck
 	culture = aesling
-	religion = faith_wastelands_pagan
+	religion = ulrican
 	holding = wastelands_holding
 }
 

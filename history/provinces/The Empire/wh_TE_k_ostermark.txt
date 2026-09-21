@@ -2,7 +2,7 @@
 ###c_mordheim
 470 = {	# Mordheim
 	culture = aesling
-	religion = faith_wastelands_pagan
+	religion = ulrican
 	holding = wastelands_holding
 }
 
