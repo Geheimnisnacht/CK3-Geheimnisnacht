@@ -1,5 +1,4 @@
-﻿
-## IMPERIAL
+﻿## IMPERIAL
 
 mootlander = {
 	color = wh_dark_green
@@ -17,7 +16,7 @@ mootlander = {
 		tradition_brewery
 	}
 
-	culture_parameter = halfling
+	# culture_parameter = halfling # WHG TODO
 
 	name_list = mootlander_name_list
 
