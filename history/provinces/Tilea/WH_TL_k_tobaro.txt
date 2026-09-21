@@ -3,7 +3,7 @@
 ###c_tobaro
 1850 = { #tobaro
 	culture = tobaran
-	religion = catholic
+	religion = myrmidian_eastern
 	holding = castle_holding
 	6000.1.1 = { 
 		buildings = {
@@ -28,7 +28,7 @@
 ###c_aquilas
 1855 = { #aquilas
 	culture = tobaran
-	religion = catholic
+	religion = myrmidian_western
 	holding = castle_holding
 }
 1856 = { #abasco
@@ -44,7 +44,7 @@
 ###c_caprezi
 1859 = { #caprezi
 	culture = tobaran
-	religion = catholic
+	religion = myrmidian_western
 	holding = castle_holding
 }
 1860 = { #agosta
@@ -54,7 +54,7 @@
 ###c_illiria
 1861 = { #porto_espejo
 	culture = tobaran
-	religion = catholic
+	religion = verenan
 	holding = castle_holding
 }
 1862 = { #duomico

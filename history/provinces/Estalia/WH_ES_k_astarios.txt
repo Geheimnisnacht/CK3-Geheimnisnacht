@@ -3,7 +3,7 @@
 ###c_magritta	
 2298 = { #magritta
 	culture = astur
-	religion = catholic
+	religion = myrmidian_western
 	holding = city_holding
 	6000.1.1 = { 
 		special_building = archecclesiatium_of_myrmidia_01
@@ -22,7 +22,7 @@
 2301 = { #san_carlos
 	holding = city_holding
 	culture = astur
-	religion = catholic
+	religion = myrmidian_western
 }
 2302 = { #san_sebastiano
 	holding = castle_holding
@@ -42,7 +42,7 @@
 ###c_malmeria	
 2305 = { #pillaris
 	culture = astur
-	religion = catholic
+	religion = myrmidian_western
 	holding = castle_holding
 }
 2306 = { #mediana
@@ -60,7 +60,7 @@
 ###c_quietude_island	
 2310 = { #gramavera
 	culture = astur
-	religion = catholic
+	religion = myrmidian_western
 	holding = castle_holding
 }
 
@@ -68,7 +68,7 @@
 ###c_toletti	
 2311 = { #tivolo
 	culture = astur
-	religion = catholic
+	religion = myrmidian_western
 	holding = castle_holding
 }
 2312 = { #toletti
@@ -84,7 +84,7 @@
 ###c_montenas
 2315 = { #montarnal
 	culture = montanese
-	religion = catholic
+	religion = myrmidian_western
 	holding = castle_holding
 }
 2316 = { #merido
@@ -100,12 +100,12 @@
 ###c_tobiedo
 2319 = { #tobiedo
 	culture = montanese
-	religion = catholic
+	religion = myrmidian_western
 	holding = castle_holding
 }
 2320 = { #nuceras
 	culture = montanese
-	religion = catholic
+	religion = myrmidian_western
 	holding = castle_holding
 }
 2321 = { #bedejaz
@@ -121,7 +121,7 @@
 ###c_urdango	
 2324 = { #quetas
 	culture = astur
-	religion = catholic
+	religion = myrmidian_western
 	holding = castle_holding
 }
 2325 = { #cota
@@ -138,7 +138,7 @@
 ###c_garnata	
 2328 = { #garnata
 	culture = astur
-	religion = catholic
+	religion = myrmidian_western
 	holding = castle_holding
 }
 2329 = { #torre_de_nuestra_senora
@@ -157,7 +157,7 @@
 ###c_molina	
 2333 = { #molina
 	culture = astur
-	religion = catholic
+	religion = myrmidian_western
 	holding = castle_holding
 }
 2334 = { #hestora
@@ -174,7 +174,7 @@
 ###c_torrosa	
 2337 = { #torrosa
 	culture = astur
-	religion = catholic
+	religion = myrmidian
 	holding = castle_holding
 	6000.1.1 = { 
 		buildings = {
@@ -195,7 +195,7 @@
 ###c_alboran	
 2341 = { #hippoloto
 	culture = sureno
-	religion = catholic
+	religion = manannite
 	holding = castle_holding
 }
 2342 = { #bejaca
@@ -214,7 +214,7 @@
 ###c_belmoz	
 2346 = { #belmoz
 	culture = sureno
-	religion = catholic
+	religion = manannite
 	holding = castle_holding
 }
 2347 = { #vulreda
@@ -224,7 +224,7 @@
 ###c_ubrique	
 2348 = { #ubrique
 	culture = astur
-	religion = catholic
+	religion = manannite
 	holding = castle_holding
 }
 2349 = { #bitrana

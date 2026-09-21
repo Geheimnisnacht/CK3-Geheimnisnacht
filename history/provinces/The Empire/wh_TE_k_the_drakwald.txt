@@ -2,7 +2,7 @@
 ###c_khornewald
 893 = {	# Freudendrungen
 	culture = nordlander
-	religion = catholic
+	religion = manannite
 	holding = none
 }
 
@@ -22,7 +22,7 @@
 ###c_laurelwald
 897 = {	# Moedten
 	culture = drakwalder
-	religion = catholic
+	religion = taalite
 	holding = tribal_holding
 }
 
@@ -40,7 +40,7 @@
 ###c_finswald
 900 = {	# Rheiden
 	culture = drakwalder
-	religion = catholic
+	religion = taalite
 	holding = tribal_holding
 }
 
@@ -52,7 +52,7 @@
 ###c_woudinwald
 902 = {	# Hockirchfels
 	culture = drakwalder
-	religion = catholic
+	religion = taalite
 	holding = tribal_holding
 }
 
@@ -65,7 +65,7 @@
 ###c_issenwald
 907 = {	# Hillebruck
 	culture = aesling
-	religion = catholic
+	religion = faith_wastelands_pagan
 	holding = wastelands_holding
 }
 
@@ -83,7 +83,7 @@
 ###c_winsenwald
 910 = {	# Dietzenberg
 	culture = drakwalder
-	religion = catholic
+	religion = taalite
 	holding = tribal_holding
 }
 
@@ -99,7 +99,7 @@
 ###c_leydenwald
 913 = {	# Appertshofen
 	culture = drakwalder
-	religion = catholic
+	religion = taalite
 	holding = tribal_holding
 }
 
@@ -115,7 +115,7 @@
 ###c_scheinwald
 916 = {	# Klenefeld
 	culture = drakwalder
-	religion = catholic
+	religion = taalite
 	holding = tribal_holding
 }
 

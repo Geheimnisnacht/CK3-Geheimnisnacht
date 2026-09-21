@@ -2,7 +2,7 @@
 ###Talsyn
 3348 = {
 	culture = aesling #couronnean
-	religion = catholic #grail
+	religion = faith_wastelands_pagan #grail
 	holding = wastelands_holding
 }
 
@@ -11,7 +11,7 @@
 ###c_couronne
 2852 = { #Couronne
 	culture = couronnean
-	religion = catholic
+	religion = grail
 	holding = castle_holding
 	6000.1.1 = { 
 		special_building = couronne_tournament_grounds_01
@@ -48,7 +48,7 @@
 ###c_beaulys
 2881 = { #Beaulys
 	culture = couronnean
-	religion = catholic
+	religion = shallyan
 	holding = castle_holding
 	6000.1.1 = { 
 		buildings = {
@@ -66,7 +66,7 @@
 
 2859 = { # Langreuil
 	culture = couronnean
-	religion = catholic
+	religion = grail
 	holding = castle_holding
 	6000.1.1 = { 
 		buildings = {
@@ -88,7 +88,7 @@
 ##c_nesleaux
 2863 = { # Nesle
 	culture = couronnean
-	religion = catholic
+	religion = shallyan
 	holding = castle_holding
 	6000.1.1 = { 
 		buildings = {
@@ -104,7 +104,7 @@
 ###c_carduel
 2864 = { # Carduel
 	culture = herrimault
-	religion = catholic
+	religion = merry_grail
 	holding = castle_holding
 	6000.1.1 = { 
 		buildings = {
@@ -122,7 +122,7 @@
 
 2867 = { # Tourroux
 	culture = couronnean
-	religion = catholic
+	religion = manannite
 	holding = castle_holding
 }
 2869 = { # Abbaie Blanche
@@ -136,7 +136,7 @@
 
 2868 = { # Sintrac
 	culture = nordscane
-	religion = catholic
+	religion = manannite
 	holding = castle_holding
 }
 2876 = { # Bloch
@@ -147,7 +147,7 @@
 
 2871 = { # Chantillon
 	culture = couronnean
-	religion = catholic
+	religion = grail
 	holding = castle_holding
 }
 2873 = { # Baux le Cloitre
@@ -160,7 +160,7 @@
 # c_tintannil
 2879 = { # Tintannil
 	culture = nordscane
-	religion = catholic
+	religion = grail
 	holding = castle_holding
 }
 
@@ -181,7 +181,7 @@
 # c_rouard
 2883 = { # Rouard
 	culture = nordscane
-	religion = catholic
+	religion = manannite
 	holding = castle_holding
 }
 
@@ -200,7 +200,7 @@
 # c_dun
 2875 = { # Dun
 	culture = nordscane
-	religion = catholic
+	religion = manannite
 	holding = castle_holding
 }
 
@@ -215,7 +215,7 @@
 # c_eux
 2887 = { # Hendaye
 	culture = couronnean
-	religion = catholic
+	religion = shallyan
 	holding = castle_holding
 }
 
@@ -232,7 +232,7 @@
 #c_thorn
 3706 = { # liseux
 	culture = couronnean
-	religion = catholic
+	religion = grail
 	holding = castle_holding
 }
 
@@ -248,7 +248,7 @@
 640 = { # Saar
 	6000.1.1 = {
 		culture = aesling
-		religion = catholic
+		religion = faith_wastelands_pagan
 		holding = wastelands_holding
 	}
 

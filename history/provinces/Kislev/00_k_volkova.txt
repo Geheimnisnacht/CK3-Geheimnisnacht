@@ -2,7 +2,7 @@
 ###c_praag
 1538 = {	# PRAAG
 	culture = ungol
-	religion = catholic
+	religion = dazhan
 	holding = castle_holding
 }
 
@@ -30,7 +30,7 @@
 ###c_kacirk
 1544 = {	# KACIRK
 	culture = ungol
-	religion = catholic
+	religion = dazhan
 	holding = castle_holding
 }
 
@@ -46,7 +46,7 @@
 ###c_volksgrad
 1547 = {	# VOLKSGRAD
 	culture = ungol
-	religion = catholic
+	religion = dazhan
 	holding = dazhan
 }
 
@@ -66,7 +66,7 @@
 ###c_zvyagino
 1551 = {	# REPKAGOROD
 	culture = ungol
-	religion = catholic
+	religion = dazhan
 	holding = castle_holding
 }
 
@@ -84,7 +84,7 @@
 ###c_bolgasgrad
 1554 = {	# BOLGASGRAD
 	culture = ungol
-	religion = catholic
+	religion = dazhan
 	holding = castle_holding
 }
 
@@ -104,7 +104,7 @@
 ###c_arzamas
 1558 = {	# ARZAMAS
 	culture = kossar
-	religion = catholic
+	religion = dazhan
 	holding = castle_holding
 }
 
@@ -120,7 +120,7 @@
 ###c_salair
 1561 = {	# SALAIR
 	culture = kossar
-	religion = catholic
+	religion = dazhan
 	holding = castle_holding
 }
 
@@ -142,7 +142,7 @@
 ###c_tesov
 1565 = {	# TESOV
 	culture = kossar
-	religion = catholic
+	religion = torran
 	holding = castle_holding
 }
 
@@ -162,7 +162,7 @@
 ###c_dukhyls_forest
 1569 = {	# KOROCHA
 	culture = kisdolgan
-	religion = catholic
+	religion = dazhan
 	holding = castle_holding
 }
 
@@ -186,7 +186,7 @@
 ###c_dukhyls_spirits
 1574 = {	# PLESK
 	culture = gospodar
-	religion = catholic
+	religion = torran
 	holding = church_holding
 }
 
@@ -202,7 +202,7 @@
 ###c_novehozy
 1577 = {	# NOVEHOZY
 	culture = kisdolgan
-	religion = catholic
+	religion = torran
 	holding = castle_holding
 }
 
@@ -218,7 +218,7 @@
 ###c_ob
 1580 = {	# OB
 	culture = kossar
-	religion = catholic
+	religion = torran
 	holding = castle_holding
 }
 
@@ -236,7 +236,7 @@
 ###c_stolbstyvoisk
 1583 = {	# STOLBSTYVOISK
 	culture = kisdolgan
-	religion = catholic
+	religion = northern_gods
 	holding = tribal_holding
 }
 
@@ -256,7 +256,7 @@
 ###c_fanipalo
 1587 = {	# FANIPALO
 	culture = ungol
-	religion = catholic
+	religion = torran
 	holding = tribal_holding
 }
 
@@ -272,7 +272,7 @@
 ###c_forest_of_borisov
 1590 = {	# BORISOVO
 	culture = kisdolgan
-	religion = catholic
+	religion = northern_gods
 	holding = tribal_holding
 }
 
@@ -294,7 +294,7 @@
 ###c_staslav
 1594 = {	# VOLOGDA
 	culture = kossar
-	religion = catholic
+	religion = ursunite
 	holding = castle_holding
 }
 
@@ -318,7 +318,7 @@
 ###c_izobilny
 1599 = {	# IZOBILNY
 	culture = ungol
-	religion = catholic
+	religion = dazhan
 	holding = castle_holding
 }
 
@@ -338,7 +338,7 @@
 ###c_uvetsyn
 1603 = {	# UVETSYN
 	culture = gospodar
-	religion = catholic
+	religion = ursunite
 	holding = castle_holding
 }
 

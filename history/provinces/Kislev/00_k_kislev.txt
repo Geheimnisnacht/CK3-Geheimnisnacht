@@ -2,7 +2,7 @@
 ###c_kislev
 1384 = {	# KISLEV
 	culture = gospodar
-	religion = catholic
+	religion = ursunite
 	holding = castle_holding
 }
 
@@ -10,7 +10,7 @@
 ###c_inkodevna
 1385 = {	# INKODEVNA
 	culture = gospodar
-	religion = catholic
+	religion = ursunite
 	holding = castle_holding
 }
 
@@ -22,7 +22,7 @@
 ###c_turov
 1387 = {	# TUROV
 	culture = gospodar
-	religion = catholic
+	religion = ursunite
 	holding = castle_holding
 }
 
@@ -38,7 +38,7 @@
 ###c_voronino
 1390 = {	# NIZHNAYA_URSKOYOVKA
 	culture = gospodar
-	religion = catholic
+	religion = ursunite
 	holding = castle_holding
 }
 
@@ -56,7 +56,7 @@
 ###c_kalinora
 1393 = {	# KALINORA
 	culture = gospodar
-	religion = catholic
+	religion = taalite
 	holding = castle_holding
 }
 
@@ -72,7 +72,7 @@
 ###c_pugacheyev
 1396 = {	# PUGACHEYEV
 	culture = gospodar
-	religion = catholic
+	religion = ursunite
 	holding = castle_holding
 }
 
@@ -96,7 +96,7 @@
 ###c_vetluga
 1401 = {	# FORT JAKOVA
 	culture = gospodar
-	religion = catholic
+	religion = taalite
 	holding = castle_holding
 }
 
@@ -118,7 +118,7 @@
 ###c_kyrnoka
 1405 = {	# KYRNOKA
 	culture = gospodar
-	religion = catholic
+	religion = ursunite
 	holding = castle_holding
 }
 
@@ -138,7 +138,7 @@
 ###c_belev
 1409 = {	# BELEV
 	culture = gospodar
-	religion = catholic
+	religion = ursunite
 	holding = castle_holding
 }
 
@@ -160,7 +160,7 @@
 ###c_boguchar
 1413 = {	# BOGUCHAR
 	culture = gospodar
-	religion = catholic
+	religion = taalite
 	holding = castle_holding
 }
 
@@ -176,7 +176,7 @@
 ###c_chernigov
 1416 = {	# CHERNIGOV
 	culture = gospodar
-	religion = catholic
+	religion = ursunite
 	holding = castle_holding
 }
 
@@ -192,7 +192,7 @@
 ###c_polotsk
 1419 = {	# POLOTSK
 	culture = gospodar
-	religion = catholic
+	religion = ulrican
 	holding = castle_holding
 }
 
@@ -204,7 +204,7 @@
 ###c_vitevo
 1421 = {	# VITEVO
 	culture = gospodar
-	religion = catholic
+	religion = ursunite
 	holding = castle_holding
 }
 
@@ -226,7 +226,7 @@
 ###c_resvynhaf
 1425 = {	# RESVYNHAF
 	culture = gospodar
-	religion = catholic
+	religion = ursunite
 	holding = castle_holding
 }
 
@@ -246,7 +246,7 @@
 ###c_rakhov
 1429 = {	# RAKHOV
 	culture = gospodar
-	religion = catholic
+	religion = ulrican
 }
 
 1430 = {	# DUBNA
@@ -259,7 +259,7 @@
 ###c_ryzan
 1431 = {	# RYAZAN
 	culture = gospodar
-	religion = catholic
+	religion = ulrican
 	holding = castle_holding
 }
 
@@ -275,7 +275,7 @@
 ###c_shirokij_forest
 1434 = {	# SHIROKIJOV
 	culture = gospodar
-	religion = catholic
+	religion = ulrican
 	holding = castle_holding
 }
 
@@ -295,7 +295,7 @@
 ###c_zavstra
 1438 = {	# ZAVSTRA
 	culture = gospodar
-	religion = catholic
+	religion = ulrican
 	holding = castle_holding
 }
 

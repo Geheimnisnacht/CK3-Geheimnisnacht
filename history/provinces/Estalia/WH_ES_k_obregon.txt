@@ -3,7 +3,7 @@
 ###c_finterra
 1950 = { #nerja
 	culture = avilian
-	religion = catholic
+	religion = myrmidian_western
 	holding = castle_holding
 	6000.1.1 = { 
 		special_building_slot = generic_university
@@ -28,21 +28,21 @@
 ####c_cabos
 1951 = { #los_cabos
 	culture = avilian
-	religion = catholic
+	religion = myrmidian_western
 	holding = castle_holding
 }
 
 ###c_califerne
 1955 = { #santangel
 	culture = avilian
-	religion = catholic
+	religion = manannite
 	holding = castle_holding
 }
 
 ###c_miramar
 1956 = { #dalbia
 	culture = avilian
-	religion = catholic
+	religion = myrmidian_western
 	holding = castle_holding
 }
 1957 = { #rosso
@@ -58,7 +58,7 @@
 ###c_san_pedro
 1960 = { #bedava
 	culture = avilian
-	religion = catholic
+	religion = manannite
 	holding = castle_holding
 }
 1961 = { #san_pedro_del_sur
@@ -75,7 +75,7 @@
 ###c_diamenterra
 1964 = { #nerguia
 	culture = obregonese
-	religion = catholic
+	religion = manannite
 	holding = castle_holding
 }
 1965 = { #diamenterra
@@ -91,7 +91,7 @@
 ###c_aguilar
 1968 = { #cebreros
 	culture = obregonese
-	religion = catholic
+	religion = myrmidian_western
 	holding = castle_holding
 }
 1969 = { #ados
@@ -105,14 +105,14 @@
 ###c_o_sopa
 1970 = { #san_jorge
 	culture = obregonese
-	religion = catholic
+	religion = myrmidian_western
 	holding = castle_holding
 }
 
 ###c_olissipo
 1972 = { #alcazaba
 	culture = avilian
-	religion = catholic
+	religion = manannite
 	holding = castle_holding
 	6000.1.1 = { 
 		buildings = {
@@ -136,7 +136,7 @@
 ###c_verin
 1977 = { #verin
 	culture = obregonese
-	religion = catholic
+	religion = myrmidian_western
 	holding = castle_holding
 }
 1978 = { #flagante
@@ -150,7 +150,7 @@
 ###c_portague
 1980 = { #portobella
 	culture = avilian
-	religion = catholic
+	religion = manannite
 	holding = castle_holding
 	6000.1.1 = { 
 		buildings = {
@@ -171,7 +171,7 @@
 ###c_jaraiz
 1984 = { #jaraiz
 	culture = obregonese
-	religion = catholic
+	religion = myrmidian_western
 	holding = castle_holding
 }
 1985 = { #zerdao
@@ -184,7 +184,7 @@
 ###c_pa_is
 1987 = { #polredo
 	culture = obregonese
-	religion = catholic
+	religion = myrmidian_western
 	holding = castle_holding
 }
 
@@ -192,7 +192,7 @@
 ###c_sandoval
 1988 = { #iltria
 	culture = obregonese
-	religion = catholic
+	religion = myrmidian_western
 	holding = castle_holding
 }
 1989 = { #ortega
@@ -208,7 +208,7 @@
 ###c_valdana
 1992 = { #liseo
 	culture = avilian
-	religion = catholic
+	religion = myrmidian_western
 	holding = castle_holding
 }
 1993 = { #sondo

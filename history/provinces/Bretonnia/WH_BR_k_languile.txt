@@ -3,7 +3,7 @@
 
 2824 = { # L'anguile
 	culture = l_anguillen
-	religion = catholic
+	religion = grail
 	holding = castle_holding
 	1500.1.1 = { 
 		special_building = tower_of_tor_alessi_01
@@ -29,7 +29,7 @@
 
 2829 = { # Ergy
 	culture = nordscane
-	religion = catholic
+	religion = manannite
 	holding = castle_holding
 }
 2830 = { # Hires
@@ -43,7 +43,7 @@
 
 2833 = { # Fregune
 	culture = l_anguillen
-	religion = catholic
+	religion = grail
 	holding = castle_holding
 }
 2825 = { # Dauphinac
@@ -57,7 +57,7 @@
 
 2835 = { # Saintard
 	culture = l_anguillen
-	religion = catholic
+	religion = grail
 	holding = castle_holding
 }
 2834 = { # Montgland
@@ -68,7 +68,7 @@
 
 2845 = { # Tourrebourg
 	culture = l_anguillen
-	religion = catholic
+	religion = grail
 	holding = castle_holding
 }
 
@@ -85,7 +85,7 @@
 
 2836 = { # Rennesse
 	culture = l_anguillen
-	religion = catholic
+	religion = grail
 	holding = castle_holding
 }
 
@@ -101,7 +101,7 @@
 
 2848 = { # Sanz
 	culture = l_anguillen
-	religion = catholic
+	religion = shallyan
 	holding = castle_holding
 }
 
@@ -113,7 +113,7 @@
 
 2849 = { # Melis
 	culture = l_anguillen
-	religion = catholic
+	religion = grail
 	holding = castle_holding
 }
 
@@ -129,7 +129,7 @@
 
 2839 = { # Ganet
 	culture = l_anguillen
-	religion = catholic
+	religion = shallyan
 	holding = castle_holding
 }
 
@@ -145,7 +145,7 @@
 
 2843 = { # Gresgar
 	culture = l_anguillen
-	religion = catholic
+	religion = shallyan
 	holding = castle_holding
 }
 

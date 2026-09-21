@@ -2,7 +2,7 @@
 ###c_mordheim
 470 = {	# Mordheim
 	culture = aesling
-	religion = catholic
+	religion = faith_wastelands_pagan
 	holding = wastelands_holding
 }
 
@@ -10,7 +10,7 @@
 ###c_sigmars_rock
 471 = {	# Sigmarsstein
 	culture = ostermarker
-	religion = catholic
+	religion = sigmarite
 	holding = castle_holding
 }
 
@@ -26,7 +26,7 @@
 ###c_vollerstein
 474 = {	# Endonsplatz
 	culture = ostermarker
-	religion = catholic
+	religion = taalite
 	holding = castle_holding
 }
 
@@ -44,7 +44,7 @@
 ###c_borkrum
 477 = {	# Borkrum
 	culture = ostermarker
-	religion = catholic
+	religion = sigmarite
 	holding = castle_holding
 }
 
@@ -60,7 +60,7 @@
 ###c_rugenbuttle
 480 = {	# Rugenbuttle
 	culture = ostermarker
-	religion = catholic
+	religion = sigmarite
 	holding = castle_holding
 }
 
@@ -80,7 +80,7 @@
 ###c_menshenfresserhoffen
 484 = {	# Menshenfresserhoffen
 	culture = ostermarker
-	religion = catholic
+	religion = ulrican
 	holding = castle_holding
 }
 
@@ -106,7 +106,7 @@
 ###c_bechafen
 489 = {	# Bechafen
 	culture = ostermarker
-	religion = catholic
+	religion = ulrican
 	holding = castle_holding
 }
 
@@ -126,7 +126,7 @@
 ###c_fortenhaf
 493 = {	# Fortenhaf
 	culture = ostermarker
-	religion = catholic
+	religion = ulrican
 	holding = castle_holding
 }
 
@@ -148,7 +148,7 @@
 ###c_essen
 497 = {	# Essen
 	culture = ostermarker
-	religion = catholic
+	religion = taalite
 	holding = church_holding
 }
 
@@ -164,7 +164,7 @@
 ###c_carlsbruck
 500 = {	# Carlsbruck
 	culture = ostermarker
-	religion = catholic
+	religion = morrian
 	holding = castle_holding
 }
 
@@ -184,7 +184,7 @@
 ###c_kolhov
 504 = {	# Kolhov
 	culture = ostermarker
-	religion = catholic
+	religion = taalite
 	holding = castle_holding
 }
 
@@ -204,7 +204,7 @@
 ###c_berlner
 508 = {	# Berlner
 	culture = ostermarker
-	religion = catholic
+	religion = taalite
 	holding = city_holding
 }
 
@@ -226,7 +226,7 @@
 ###c_rheden
 512 = {	# Rheden
 	culture = ostermarker
-	religion = catholic
+	religion = ursunite
 	holding = castle_holding
 }
 
@@ -242,7 +242,7 @@
 ###c_teutobergerwald
 515 = {	# Teutobergerwald
 	culture = ostermarker
-	religion = catholic
+	religion = taalite
 	holding = castle_holding
 }
 
@@ -262,7 +262,7 @@
 ###c_rundespitze
 519 = {	# Rundespitze
 	culture = ostermarker
-	religion = catholic
+	religion = ursunite
 	holding = castle_holding
 }
 
@@ -284,7 +284,7 @@
 ###c_nagenhof
 523 = {	# Nagenhof
 	culture = ostermarker
-	religion = catholic
+	religion = ulrican
 	holding = castle_holding
 }
 
@@ -308,7 +308,7 @@
 ###c_regak
 528 = {	# Schloss Regak
 	culture = ostermarker
-	religion = catholic
+	religion = morrian
 	holding = castle_holding
 }
 
@@ -332,7 +332,7 @@
 ###c_zherden
 533 = {	# Zherdenschlosse
 	culture = ostermarker
-	religion = catholic
+	religion = morrian
 	holding = castle_holding
 }
 

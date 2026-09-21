@@ -2,17 +2,17 @@
 ###c_eicheschatten 
 36 = {	# Eicheschatten
 	culture = mootlander
-	religion = catholic
+	religion = halfling_gods
 	#culture = stirlander
-	#religion = catholic
+	#religion = shallyan
 	holding = castle_holding
 }
 
 37 = {	# Molberg
 	culture = mootlander
-	religion = catholic
+	religion = halfling_gods
 	#culture = stirlander
-	#religion = catholic
+	#religion = shallyan
 	holding = castle_holding
 }
 
@@ -36,9 +36,9 @@
 ###c_leedleton
 42 = {	# Leedleton
 	culture = mootlander
-	religion = catholic
+	religion = sigmarite
 	#culture = stirlander
-	#religion = catholic
+	#religion = shallyan
 	holding = castle_holding
 }
 
@@ -52,9 +52,9 @@
 ###c_sauerapfel
 44 = {	# Sauerapfel
 	culture = mootlander
-	religion = catholic
+	religion = sigmarite
 	#culture = averlander
-	#religion = catholic
+	#religion = sigmarite
 	holding = castle_holding
 }
 
@@ -70,9 +70,9 @@
 ###c_aver_march
 47 = {	# Einsamholz
 	culture = mootlander
-	religion = catholic
+	religion = halfling_gods
 	#culture = averlander
-	#religion = catholic
+	#religion = sigmarite
 	holding = castle_holding
 }
 
@@ -96,9 +96,9 @@
 ###c_greenleafs
 52 = {	# Gipfel
 	culture = mootlander
-	religion = catholic
+	religion = halfling_gods
 	#culture = averlander
-	#religion = catholic
+	#religion = sigmarite
 	holding = castle_holding
 }
 

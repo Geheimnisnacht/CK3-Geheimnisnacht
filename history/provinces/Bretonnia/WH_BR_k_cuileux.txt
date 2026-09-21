@@ -2,7 +2,7 @@
 ###c_cuileux
 3103 = { #crac_de_sang
 	culture = queneller
-	religion = catholic
+	religion = grail
 	holding = castle_holding
 	6000.1.1 = {
 		buildings = {
@@ -34,7 +34,7 @@
 ###c_bourgou
 3110 = { #richeline
 	culture = queneller
-	religion = catholic
+	religion = grail
 	holding = castle_holding
 }
 
@@ -47,7 +47,7 @@
 
 3112 = { #le_mancon
 	culture = queneller
-	religion = catholic
+	religion = shallyan
 	holding = castle_holding
 }
 
@@ -60,7 +60,7 @@
 #brissonour
 3077 = {
 	culture = queneller
-	religion = catholic
+	religion = grail
 	holding = castle_holding
 }
 
@@ -84,7 +84,7 @@
 ###montparnasse
 3114 = {
 	culture = herrimault
-	religion = catholic
+	religion = merry_grail
 	holding = castle_holding
 }
 
@@ -102,7 +102,7 @@
 ###pompadour
 3122 = {
 	culture = herrimault
-	religion = catholic
+	religion = merry_grail
 	holding = castle_holding
 }
 
@@ -115,7 +115,7 @@
 ###enjaux
 3118 = {
 	culture = herrimault
-	religion = catholic
+	religion = merry_grail
 	holding = castle_holding
 }
 
@@ -128,7 +128,7 @@
 ###siorand
 3119 = {
 	culture = herrimault
-	religion = catholic
+	religion = merry_grail
 	holding = castle_holding
 }
 
@@ -147,7 +147,7 @@
 #beauclerc
 3079 = {
 	culture = herrimault
-	religion = catholic
+	religion = merry_grail
 	holding = castle_holding
 }
 
@@ -165,7 +165,7 @@
 #montalbau
 3084 = {
 	culture = herrimault
-	religion = catholic
+	religion = merry_grail
 	holding = castle_holding
 }
 
@@ -178,7 +178,7 @@
 #foucault
 3082 = {
 	culture = herrimault
-	religion = catholic
+	religion = merry_grail
 	holding = castle_holding
 }
 

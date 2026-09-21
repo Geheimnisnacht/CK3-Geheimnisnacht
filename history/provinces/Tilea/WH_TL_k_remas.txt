@@ -3,7 +3,7 @@
 ###c_remas
 2024 = { #remas
 	culture = reman
-	religion = catholic
+	religion = myrmidian_eastern
 	holding = city_holding
 	6000.1.1 = { 
 		special_building = great_temple_of_myrmidia_01
@@ -33,7 +33,7 @@
 ###c_nucca
 2030 = { #monte_negro
 	culture = reman
-	religion = catholic
+	religion = verenan
 	holding = city_holding
 }
 2031 = { #nucca
@@ -43,7 +43,7 @@
 ###c_pontecorvo
 2032 = { #guglielma
 	culture = reman
-	religion = catholic
+	religion = myrmidian_eastern
 	holding = castle_holding
 }
 2033 = { #pontecorvo
@@ -58,14 +58,14 @@
 
 2036 = { #riati_portineria
 	culture = reman
-	religion = catholic
+	religion = morrian
 	holding = castle_holding
 }
 
 ###c_rifraffa
 2037 = { #rifraffa
 	culture = reman
-	religion = catholic
+	religion = morrian
 	holding = castle_holding
 }
 2038 = { #copoa
@@ -82,7 +82,7 @@
 ###c_urbimo
 2041 = { #urbimo
 	culture = miraglian
-	religion = catholic
+	religion = myrmidian_eastern
 	holding = castle_holding
 }
 2042 = { #tilodorna
@@ -98,7 +98,7 @@
 ###c_catrazza
 2045 = { #catrazza
 	culture = reman
-	religion = catholic
+	religion = verenan
 	holding = castle_holding
 }
 2046 = { #vitruvio
