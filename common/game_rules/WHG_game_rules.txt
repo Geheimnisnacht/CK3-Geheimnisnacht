@@ -1,0 +1,40 @@
+﻿#wotr = {
+#	default = default_wotr
+#
+#	default_wotr = {
+#
+#	}
+#	
+#	random_wotr = {
+#
+#	}
+#}
+
+ai_behavior = {
+	default = default_ai_behavior
+
+	categories = {
+		realms historicity ai
+	}
+
+	default_ai_behavior = { flag = lotr_game_rule }
+
+	weighted_ai_behavior = { flag = lotr_game_rule }
+	
+	random_ai_behavior = { flag = lotr_game_rule }
+}
+
+colonisation_speed_rule = {
+	default = default_colonisation_speed
+
+	categories = {
+		realms flavor historicity ai
+	}
+
+	default_colonisation_speed = { flag = lotr_game_rule }
+
+	weighted_colonisation_speed = { flag = lotr_game_rule } 
+
+	normal_colonisation_speed = { flag = lotr_game_rule }
+}
+
