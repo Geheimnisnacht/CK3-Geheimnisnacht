@@ -4,7 +4,7 @@
 	culture = wissenlander
 	religion = catholic
 	holding = castle_holding
-	special_building_slot = nuln_cannon_foundry_01
+	#special_building_slot = nuln_cannon_foundry_01
 }
 
 ###c_hinterland

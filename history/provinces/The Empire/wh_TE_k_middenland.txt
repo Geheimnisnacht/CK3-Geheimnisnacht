@@ -70,7 +70,7 @@
 	culture = drakwalder
 	religion = catholic
 	holding = castle_holding
-	special_building = drakschloss_01
+	#special_building = drakschloss_01
 }
 
 724 = {	# Senden
@@ -122,7 +122,7 @@
 	#religion = catholic
 	culture = aesling
 	religion = catholic
-	holding = wastelands_holding
+	holding = castle_holding
 }
 
 734 = {	# Dornigdorf
@@ -148,7 +148,7 @@
 	#religion = catholic
 	culture = aesling
 	religion = catholic
-	holding = wastelands_holding
+	holding = castle_holding
 }
 
 739 = {	# Kastof
@@ -194,7 +194,7 @@
 	#religion = catholic
 	culture = aesling
 	religion = catholic
-	holding = wastelands_holding
+	holding = castle_holding
 }
 
 747 = {	# Heilbronn
@@ -223,7 +223,7 @@
 	#religion = catholic
 	culture = aesling
 	religion = catholic
-	holding = wastelands_holding
+	holding = castle_holding
 }
 
 750 = {	# Deinste
@@ -245,7 +245,7 @@
 	#religion = catholic
 	culture = aesling
 	religion = catholic
-	holding = wastelands_holding
+	holding = castle_holding
 }
 
 754 = {	# Sachsenburg
@@ -267,7 +267,7 @@
 	#religion = catholic
 	culture = aesling
 	religion = catholic
-	holding = wastelands_holding
+	holding = castle_holding
 }
 
 758 = {	# Freinitz

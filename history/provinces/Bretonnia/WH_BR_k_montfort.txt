@@ -7,7 +7,7 @@
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
-		special_building = castle_montfort_01
+		#special_building = castle_montfort_01
 		buildings = {
 			castle_02
 			smiths_02
@@ -48,7 +48,7 @@
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
-		special_building = montfort_mines_01
+		#special_building = montfort_mines_01
 	}
 }
 
@@ -112,7 +112,7 @@
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
-		special_building_slot = montfort_mines_01
+		#special_building_slot = montfort_mines_01
 	}
 }
 

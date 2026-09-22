@@ -285,7 +285,7 @@
 	#religion = catholic
 	culture = aesling
 	religion = catholic
-	holding = wastelands_holding
+	holding = castle_holding
 }
 
 708 = {	# Efeuast
@@ -311,7 +311,7 @@
 	6500.1.1 = {
 		culture = aesling
 		religion = catholic
-		holding = wastelands_holding
+		holding = castle_holding
 	}
 }
 
@@ -327,13 +327,6 @@
 	holding = none
 }
 
-896 = {	# Vormaifeld
-	holding = none
-}
-
-898 = { # Lustenbirn
-	holding = none
-}
 
 ###c_entsetzlichigelhuegel
 715 = {	# Moosdorf
@@ -345,7 +338,7 @@
 	6500.1.1 = {
 		culture = aesling
 		religion = catholic
-		holding = wastelands_holding
+		holding = castle_holding
 	}
 }
 
@@ -357,9 +350,6 @@
 	holding = none
 }
 
-899 = {	# Werther
-	holding = none
-}
 
 ###c_halenmird
 721 = {	# Baiersedorf
@@ -367,7 +357,7 @@
 	#religion = catholic
 	culture = aesling
 	religion = catholic
-	holding = wastelands_holding
+	holding = castle_holding
 }
 
 718 = {	# Lehmigstadt

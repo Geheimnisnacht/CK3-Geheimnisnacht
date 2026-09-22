@@ -3,7 +3,7 @@
 470 = {	# Mordheim
 	culture = aesling
 	religion = catholic
-	holding = wastelands_holding
+	holding = castle_holding
 }
 
 

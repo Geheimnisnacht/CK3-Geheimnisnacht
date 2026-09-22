@@ -6,7 +6,7 @@
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
-		special_building = castle_parravon_01
+		#special_building = castle_parravon_01
 		buildings = {
 			castle_02
 		}

@@ -4,7 +4,7 @@
 	culture = reiklander
 	religion = catholic
 	holding = castle_holding
-	#special_building = imperial_palace_02
+	##special_building = imperial_palace_02
 }
 
 
@@ -285,7 +285,7 @@
 	culture = reiklander
 	religion = catholic
 	holding = castle_holding
-	special_building = imperial_pass_01
+	#special_building = imperial_pass_01
 }
 
 105 = {	#Neutting
@@ -495,7 +495,7 @@
 
 144 = {	#Ubersreik
 	holding = city_holding
-	special_building_slot = red_moon_inn_01
+	#special_building_slot = red_moon_inn_01
 }
 
 145 = {	#Huegeldal
@@ -516,7 +516,7 @@
 	culture = reiklander
 	religion = catholic
 	holding = castle_holding
-	special_building_slot = imperial_pass_01
+	#special_building_slot = imperial_pass_01
 }
 
 149 = {	#Rheital

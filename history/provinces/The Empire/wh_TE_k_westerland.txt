@@ -4,7 +4,7 @@
 	culture = westerlander
 	religion = catholic
 	holding = castle_holding
-	special_building = marienburg_docks_01
+	#special_building = marienburg_docks_01
 }
 
 
@@ -230,7 +230,7 @@
 	6500.1.1 = {
 		culture = aesling
 		religion = catholic
-		holding = wastelands_holding
+		holding = castle_holding
 	}
 }
 
@@ -255,7 +255,7 @@
 	6500.1.1 = {
 		culture = aesling
 		religion = catholic
-		holding = wastelands_holding
+		holding = castle_holding
 	}
 }
 
@@ -282,7 +282,7 @@
 615 = {	# Harskamp
 	culture = aesling
 	religion = catholic
-	holding = wastelands_holding
+	holding = castle_holding
 }
 
 616 = {	# Loenen
@@ -302,7 +302,7 @@
 619 = {	# Vasse
 	culture = aesling
 	religion = catholic
-	holding = wastelands_holding
+	holding = castle_holding
 }
 
 620 = {	# Gieten
@@ -376,7 +376,7 @@
 	religion = catholic
 	holding = castle_holding
 	122.1.1 = {
-	#special_building = imperial_pass_01
+	##special_building = imperial_pass_01
 	}
 }
 
@@ -391,7 +391,7 @@
 625 = {	# Westerdorp
 	culture = aesling
 	religion = catholic
-	holding = wastelands_holding
+	holding = castle_holding
 }
 
 626 = {	# Rotterrade
@@ -419,7 +419,7 @@
 631 = {	# Amsterhuizen
 	culture = aesling
 	religion = catholic
-	holding = wastelands_holding
+	holding = castle_holding
 }
 
 632 = {	# Ankeeven
@@ -446,7 +446,7 @@
 	6500.1.1 = {
 		culture = aesling
 		religion = catholic
-		holding = wastelands_holding
+		holding = castle_holding
 	}
 }
 
@@ -489,7 +489,7 @@
 	6500.1.1 = {
 		culture = aesling
 		religion = catholic
-		holding = wastelands_holding
+		holding = castle_holding
 	}
 }
 
@@ -505,7 +505,7 @@
 	6500.1.1 = {
 		culture = aesling
 		religion = catholic
-		holding = wastelands_holding
+		holding = castle_holding
 	}
 }
 
@@ -528,7 +528,7 @@
 	6500.1.1 = {
 		culture = aesling
 		religion = catholic
-		holding = wastelands_holding
+		holding = castle_holding
 	}
 }
 
@@ -545,7 +545,7 @@
 	6500.1.1 = {
 		culture = aesling
 		religion = catholic
-		holding = wastelands_holding
+		holding = castle_holding
 	}
 }
 
@@ -562,7 +562,7 @@
 	6500.1.1 = {
 		culture = aesling
 		religion = catholic
-		holding = wastelands_holding
+		holding = castle_holding
 	}
 }
 

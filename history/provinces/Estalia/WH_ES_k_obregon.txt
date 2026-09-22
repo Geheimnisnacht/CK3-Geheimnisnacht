@@ -6,14 +6,11 @@
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
-		special_building_slot = generic_university
+		#special_building_slot = generic_university
 		buildings = {
 			curtain_walls_01
 		}
 	}
-}
-1951 = { #los_cabos
-	holding = city_holding
 }
 1952 = { #savalla
 	holding = church_holding

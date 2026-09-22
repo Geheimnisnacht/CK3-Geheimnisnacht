@@ -65,7 +65,7 @@
 2942 = { # Marcalon
 	culture = aesling
 	religion = catholic
-	holding = wastelands_holding
+	holding = castle_holding
 }
 2944 = { # La Forestresse
 	holding = none
@@ -106,7 +106,7 @@
 2926 = { # Cercle de Guerac
 	culture = aesling
 	religion = catholic
-	holding = wastelands_holding
+	holding = castle_holding
 }
 2928 = { # Meillant
 	holding = none

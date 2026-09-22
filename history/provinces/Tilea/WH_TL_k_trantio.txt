@@ -6,7 +6,7 @@
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
-		duchy_capital_building = tilean_great_city_01
+		#duchy_capital_building = tilean_great_city_01
 		buildings = {
 			castle_02
 			smiths_02
@@ -58,7 +58,7 @@
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
-		special_building = pink_marble_mines_01
+		#special_building = pink_marble_mines_01
 	}
 }
 2227 = { #drescido

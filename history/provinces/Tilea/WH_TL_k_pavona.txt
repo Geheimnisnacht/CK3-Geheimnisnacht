@@ -6,7 +6,7 @@
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
-		special_building_slot = generic_university
+		#special_building_slot = generic_university
 		buildings = {
 			curtain_walls_01
 			cereal_fields_01

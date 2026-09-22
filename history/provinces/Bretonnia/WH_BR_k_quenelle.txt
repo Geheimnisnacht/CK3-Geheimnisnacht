@@ -5,7 +5,7 @@
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = {
-		special_building_slot = generic_university
+		#special_building_slot = generic_university
 		buildings = {
 			castle_02
 			farm_estates_01
@@ -40,28 +40,22 @@
 	holding = castle_holding
 }
 
-3055 = {	# La Petit Quenelle
-	holding = city_holding
-}
 
 3087 = {	# Jaurras
 	holding = none
 }
 
-###c_roucerre
-3073 = { # Montair
-	culture = queneller
-	religion = catholic
-	holding = castle_holding
-}
+# ###c_roucerre
+# 3073 = { # Montair
+# 	culture = queneller
+# 	religion = catholic
+# 	holding = castle_holding
+# }
 
 3055 = {	# Douar
 	holding = church_holding
 }
 
-3087 = {	# Roucy
-	holding = none
-}
 
 ###c_perrache
 3066 = { # Perrache
@@ -93,9 +87,7 @@
 	holding = castle_holding
 }
 
-3072 = {	# Douar
-	holding = none
-}
+
 
 3071 = {	# Roucy
 	holding = none

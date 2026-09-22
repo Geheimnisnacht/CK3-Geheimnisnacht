@@ -6,7 +6,7 @@
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
-		special_building = city_bilbali_01
+		#special_building = city_bilbali_01
 		buildings = {
 			curtain_walls_02
 			common_tradeport_02
@@ -27,13 +27,10 @@
 2654 = { #carodi
 	holding = city_holding
 }
-2655 = { #morro
-	holding = castle_holding
-}
 2656 = { #mirazza
 	holding = city_holding
 		6000.1.1 = {
-		special_building_slot = generic_university
+		#special_building_slot = generic_university
 		buildings = {
 			curtain_walls_01
 		}

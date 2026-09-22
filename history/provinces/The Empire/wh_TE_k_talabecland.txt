@@ -4,7 +4,7 @@
 	culture = talabeclander
 	religion = catholic
 	holding = castle_holding
-	special_building = taalplace_home_01
+	#special_building = taalplace_home_01
 }
 
 

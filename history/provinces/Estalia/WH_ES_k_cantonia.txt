@@ -25,10 +25,6 @@
 2179 = { #san_agato
 	holding = none
 }
-2177 = { #pirto
-	holding = none
-}
-
 
 ###c_almagora
 2180 = { #almagora
@@ -76,7 +72,7 @@
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
-		special_building = abasko_mines_01
+		#special_building = abasko_mines_01
 		buildings = {
 			curtain_walls_01
 		}
@@ -101,7 +97,7 @@
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
-		special_building_slot = abasko_mines_01
+		#special_building_slot = abasko_mines_01
 	}
 }
 1666 = { #raganos
@@ -160,7 +156,7 @@
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = {
-		special_building = tor_karyndis_01
+		#special_building = tor_karyndis_01
 	}
 }
 1664 = { #trebido
@@ -216,7 +212,7 @@
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
-		special_building = valley_of_windmills_01
+		#special_building = valley_of_windmills_01
 		buildings = {
 			windmills_01
 		}

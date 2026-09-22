@@ -6,7 +6,7 @@
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
-		duchy_capital_building = city_luccini_01
+		# duchy_capital_building = city_luccini_01
 		buildings = {
 			curtain_walls_02
 			common_tradeport_02

@@ -5,7 +5,7 @@
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = {
-		special_building = chapel_of_bastonne_01
+		# #special_building = chapel_of_bastonne_01
 		buildings = {
 			castle_02
 			farm_estates_01

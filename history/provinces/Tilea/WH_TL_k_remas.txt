@@ -6,8 +6,8 @@
 	religion = catholic
 	holding = city_holding
 	6000.1.1 = { 
-		special_building = great_temple_of_myrmidia_01
-		duchy_capital_building = city_remas_01
+		#special_building = great_temple_of_myrmidia_01
+		#duchy_capital_building = city_remas_01
 		buildings = {
 			curtain_walls_02
 			guild_halls_02

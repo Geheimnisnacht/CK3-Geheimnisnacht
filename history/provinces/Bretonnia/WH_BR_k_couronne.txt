@@ -3,7 +3,7 @@
 3348 = {
 	culture = aesling #couronnean
 	religion = catholic #grail
-	holding = wastelands_holding
+	holding = castle_holding
 }
 
 
@@ -14,7 +14,7 @@
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
-		special_building = couronne_tournament_grounds_01
+		#special_building = couronne_tournament_grounds_01
 		buildings = {
 			castle_02
 			stables_02
@@ -37,7 +37,7 @@
 2856 = {	# Castel le Vicomte
 	holding = castle_holding
 	6000.1.1 = {
-		special_building_slot = generic_university
+		#special_building_slot = generic_university
 	}
 }
 
@@ -58,9 +58,6 @@
 	}
 }
 
-2858 = {	# b_pontmagnac
-	holding = none
-}
 
 ### c_langreuil
 
@@ -235,29 +232,6 @@
 	religion = catholic
 	holding = castle_holding
 }
-
-636 = { # Rirek
-	holding = none
-}
-
-637 = { # Gognan
-	holding = none
-}
-
-# c_saar
-640 = { # Saar
-	6000.1.1 = {
-		culture = aesling
-		religion = catholic
-		holding = wastelands_holding
-	}
-
-}
-
-642 = { # Sallizes
-	holding = none
-}
-
 
 
 
