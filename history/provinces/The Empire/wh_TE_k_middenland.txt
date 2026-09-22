@@ -121,7 +121,7 @@
 	#culture = goblin_forest
 	#religion = spider_god
 	culture = aesling
-	religion = ulrican
+	religion = faith_wastelands_pagan
 	holding = wastelands_holding
 }
 
@@ -147,7 +147,7 @@
 	#culture = goblin_forest
 	#religion = spider_god
 	culture = aesling
-	religion = ulrican
+	religion = faith_wastelands_pagan
 	holding = wastelands_holding
 }
 
@@ -193,7 +193,7 @@
 	#culture = beastman_main
 	#religion = beastman
 	culture = aesling
-	religion = ulrican
+	religion = faith_wastelands_pagan
 	holding = wastelands_holding
 }
 
@@ -222,7 +222,7 @@
 	#culture = goblin_forest
 	#religion = spider_god
 	culture = aesling
-	religion = ulrican
+	religion = faith_wastelands_pagan
 	holding = wastelands_holding
 }
 
@@ -244,7 +244,7 @@
 	#culture = beastman_main
 	#religion = beastman
 	culture = aesling
-	religion = ulrican
+	religion = faith_wastelands_pagan
 	holding = wastelands_holding
 }
 
@@ -266,7 +266,7 @@
 	#culture = goblin_forest
 	#religion = spider_god
 	culture = aesling
-	religion = ulrican
+	religion = faith_wastelands_pagan
 	holding = wastelands_holding
 }
 

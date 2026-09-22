@@ -64,7 +64,7 @@
 # c_Arden
 2942 = { # Marcalon
 	culture = aesling
-	religion = ulrican
+	religion = faith_wastelands_pagan
 	holding = wastelands_holding
 }
 2944 = { # La Forestresse
@@ -105,7 +105,7 @@
 # c_futaie
 2926 = { # Cercle de Guerac
 	culture = aesling
-	religion = ulrican
+	religion = faith_wastelands_pagan
 	holding = wastelands_holding
 }
 2928 = { # Meillant

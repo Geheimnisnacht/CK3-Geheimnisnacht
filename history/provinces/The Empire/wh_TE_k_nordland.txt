@@ -284,7 +284,7 @@
 	#culture = eonir
 	#religion = cadai
 	culture = aesling
-	religion = ulrican
+	religion = faith_wastelands_pagan
 	holding = wastelands_holding
 }
 
@@ -310,7 +310,7 @@
 	holding = tribal_holding
 	6500.1.1 = {
 		culture = aesling
-		religion = ulrican
+		religion = faith_wastelands_pagan
 		holding = wastelands_holding
 	}
 }
@@ -344,7 +344,7 @@
 	holding = tribal_holding
 	6500.1.1 = {
 		culture = aesling
-		religion = ulrican
+		religion = faith_wastelands_pagan
 		holding = wastelands_holding
 	}
 }
@@ -366,7 +366,7 @@
 	#culture = eonir
 	#religion = cadai
 	culture = aesling
-	religion = ulrican
+	religion = faith_wastelands_pagan
 	holding = wastelands_holding
 }
 
