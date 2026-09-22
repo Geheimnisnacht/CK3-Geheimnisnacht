@@ -24,8 +24,8 @@ bastonnian = { #Duchy of Bastonne
 	
 	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
-	#clothing_gfx = { french_clothing_gfx western_clothing_gfx }
-	clothing_gfx = { bretonnian_clothing_gfx }
+	clothing_gfx = { french_clothing_gfx western_clothing_gfx }
+	#clothing_gfx = { bretonnian_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
 	house_coa_frame = house_frame_03
 	house_coa_mask_offset = { 0.0 0.055 }
@@ -141,8 +141,8 @@ bordelen = { #Duchy of Bordelaux
 	
 	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
-	#clothing_gfx = { french_clothing_gfx western_clothing_gfx }
-	clothing_gfx = { bretonnian_clothing_gfx }
+	clothing_gfx = { french_clothing_gfx western_clothing_gfx }
+	#clothing_gfx = { bretonnian_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
 	house_coa_frame = house_frame_03
 	house_coa_mask_offset = { 0.0 0.055 }
@@ -259,8 +259,8 @@ gisoren = { #Duchy of Gisoreux
 
 	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
-	#clothing_gfx = { french_clothing_gfx western_clothing_gfx }
-	clothing_gfx = { bretonnian_clothing_gfx }
+	clothing_gfx = { french_clothing_gfx western_clothing_gfx }
+	#clothing_gfx = { bretonnian_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
 	house_coa_frame = house_frame_03
 	house_coa_mask_offset = { 0.0 0.055 }
@@ -377,8 +377,8 @@ artoin = { #Duchy of Artois
 
 	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
-	#clothing_gfx = { french_clothing_gfx western_clothing_gfx }
-	clothing_gfx = { bretonnian_clothing_gfx }
+	clothing_gfx = { french_clothing_gfx western_clothing_gfx }
+	#clothing_gfx = { bretonnian_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
 	house_coa_frame = house_frame_03
 	house_coa_mask_offset = { 0.0 0.055 }
@@ -495,8 +495,8 @@ mousillonian = { #Duchy of Mousillon
 
 	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
-	#clothing_gfx = { french_clothing_gfx western_clothing_gfx }
-	clothing_gfx = { bretonnian_clothing_gfx }
+	clothing_gfx = { french_clothing_gfx western_clothing_gfx }
+	#clothing_gfx = { bretonnian_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
 	house_coa_frame = house_frame_03
 	house_coa_mask_offset = { 0.0 0.055 }
@@ -604,7 +604,7 @@ parravonese = { #Duchy of Parravon
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain		
 	traditions = {
-#		tradition_parravonese_tradition
+		# tradition_parravonese_tradition
 		tradition_agrarian #placeholder
 		tradition_sacred_groves
 		tradition_strong_kinship #remove unique MAA stuff from this one.
@@ -615,8 +615,8 @@ parravonese = { #Duchy of Parravon
 
 	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
-	#clothing_gfx = { french_clothing_gfx western_clothing_gfx }
-	clothing_gfx = { bretonnian_clothing_gfx }
+	clothing_gfx = { french_clothing_gfx western_clothing_gfx }
+	#clothing_gfx = { bretonnian_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
 	house_coa_frame = house_frame_03
 	house_coa_mask_offset = { 0.0 0.055 }
@@ -731,8 +731,8 @@ monfortian = { #Duchy of Montfort
 
 	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
-	#clothing_gfx = { french_clothing_gfx western_clothing_gfx }
-	clothing_gfx = { bretonnian_clothing_gfx }
+	clothing_gfx = { french_clothing_gfx western_clothing_gfx }
+	#clothing_gfx = { bretonnian_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
 	house_coa_frame = house_frame_03
 	house_coa_mask_offset = { 0.0 0.055 }
@@ -850,8 +850,8 @@ carcassonian = { #Duchy of Carcassonne
 
 	coa_gfx = { occitan_coa_gfx frankish_group_coa_gfx western_coa_gfx } 
 	building_gfx = { mediterranean_building_gfx } 
-	#clothing_gfx = { french_clothing_gfx western_clothing_gfx }
-	clothing_gfx = { bretonnian_clothing_gfx }
+	clothing_gfx = { french_clothing_gfx western_clothing_gfx }
+	#clothing_gfx = { bretonnian_clothing_gfx }
 	unit_gfx = { western_unit_gfx } 	
 	house_coa_frame = house_frame_03
 	house_coa_mask_offset = { 0.0 0.055 }
@@ -957,8 +957,8 @@ brionnian = { #Duchy of Brionne
 
 	coa_gfx = { occitan_coa_gfx frankish_group_coa_gfx western_coa_gfx } 
 	building_gfx = { mediterranean_building_gfx } 
-	#clothing_gfx = { french_clothing_gfx western_clothing_gfx }
-	clothing_gfx = { bretonnian_clothing_gfx }
+	clothing_gfx = { french_clothing_gfx western_clothing_gfx }
+	#clothing_gfx = { bretonnian_clothing_gfx }
 	unit_gfx = { western_unit_gfx } 	
 	house_coa_frame = house_frame_03
 	house_coa_mask_offset = { 0.0 0.055 }
@@ -1068,8 +1068,8 @@ queneller = { #Duchy of Quenelles
 
 	coa_gfx = { occitan_coa_gfx frankish_group_coa_gfx western_coa_gfx } 
 	building_gfx = { mediterranean_building_gfx } 
-	#clothing_gfx = { french_clothing_gfx western_clothing_gfx }
-	clothing_gfx = { bretonnian_clothing_gfx }
+	clothing_gfx = { french_clothing_gfx western_clothing_gfx }
+	#clothing_gfx = { bretonnian_clothing_gfx }
 	unit_gfx = { western_unit_gfx } 	
 	house_coa_frame = house_frame_03
 	house_coa_mask_offset = { 0.0 0.055 }
@@ -1178,8 +1178,8 @@ aquitanian = { #Duchy of Aquitain
 
 	coa_gfx = { occitan_coa_gfx frankish_group_coa_gfx western_coa_gfx } 
 	building_gfx = { mediterranean_building_gfx } 
-	#clothing_gfx = { french_clothing_gfx western_clothing_gfx }
-	clothing_gfx = { bretonnian_clothing_gfx }
+	clothing_gfx = { french_clothing_gfx western_clothing_gfx }
+	#clothing_gfx = { bretonnian_clothing_gfx }
 	unit_gfx = { western_unit_gfx } 	
 	house_coa_frame = house_frame_03
 	house_coa_mask_offset = { 0.0 0.055 }
@@ -1286,8 +1286,8 @@ couronnean = { #Duchy of Couronne
 
 	coa_gfx = { norman_coa_gfx frankish_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
-	#clothing_gfx = { norman_clothing_gfx french_clothing_gfx western_clothing_gfx }
-	clothing_gfx = { bretonnian_clothing_gfx }
+	clothing_gfx = { norman_clothing_gfx french_clothing_gfx western_clothing_gfx }
+	#clothing_gfx = { bretonnian_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
 	house_coa_frame = house_frame_03
 	house_coa_mask_offset = { 0.0 0.055 }
@@ -1438,7 +1438,7 @@ l_anguillen = { #L ANGUILE HON HON
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain		
 	traditions = {
-#		tradition_languile_tradition
+		# tradition_languile_tradition
 		tradition_wetlanders #placeholder
 		tradition_maritime_mercantilism
 		tradition_seafaring
@@ -1448,8 +1448,8 @@ l_anguillen = { #L ANGUILE HON HON
 
 	coa_gfx = { norman_coa_gfx frankish_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
-	#clothing_gfx = { norman_clothing_gfx western_clothing_gfx }
-	clothing_gfx = { bretonnian_clothing_gfx }
+	clothing_gfx = { norman_clothing_gfx western_clothing_gfx }
+	# clothing_gfx = { bretonnian_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
 	house_coa_frame = house_frame_03
 	house_coa_mask_offset = { 0.0 0.055 }
@@ -1615,8 +1615,8 @@ lyonen = {
 
 	coa_gfx = { norman_coa_gfx frankish_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
-	#clothing_gfx = { norman_clothing_gfx western_clothing_gfx }
-	clothing_gfx = { bretonnian_clothing_gfx }
+	clothing_gfx = { norman_clothing_gfx western_clothing_gfx }
+	# clothing_gfx = { bretonnian_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
 	house_coa_frame = house_frame_03
 	house_coa_mask_offset = { 0.0 0.055 }
@@ -1770,7 +1770,7 @@ herrimault = {
 		tradition_hit_and_run
 		tradition_collective_lands
 		tradition_life_is_just_a_joke
-#		tradition_crownless_lords
+		# tradition_crownless_lords
 		tradition_hereditary_hierarchy #placeholder
 	}
 
@@ -1778,8 +1778,8 @@ herrimault = {
 	
 	coa_gfx = { norman_coa_gfx frankish_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
-	#clothing_gfx = { western_clothing_gfx }
-	clothing_gfx = { bretonnian_clothing_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	# clothing_gfx = { bretonnian_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
 	house_coa_frame = house_frame_03
 	house_coa_mask_offset = { 0.0 0.055 }
@@ -1938,8 +1938,8 @@ nordscane = { #Norscan Brets
 	
 	coa_gfx = { norman_coa_gfx frankish_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
-	#clothing_gfx = { norman_clothing_gfx western_clothing_gfx }
-	clothing_gfx = { norscan_clothing_gfx }
+	clothing_gfx = { norman_clothing_gfx western_clothing_gfx }
+	# clothing_gfx = { norscan_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
 	house_coa_frame = house_frame_03
 	house_coa_mask_offset = { 0.0 0.055 }
@@ -1963,10 +1963,10 @@ marcheur = { #Estalian Brets
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain		
 	traditions = {
-#		tradition_carcasonne_tradition
+		# tradition_carcasonne_tradition
 		tradition_pastoralists #placeholder
 		# tradition_norteno_codes
-#		tradition_fp1_estalian_duel
+		# tradition_fp1_estalian_duel
 		tradition_quarrelsome #placeholder
 		tradition_stalwart_defenders
 	}
@@ -1975,9 +1975,12 @@ marcheur = { #Estalian Brets
 
 	coa_gfx = { castilian_coa_gfx iberian_group_coa_gfx western_coa_gfx }
 	building_gfx = { iberian_building_gfx }
-	#clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
-	clothing_gfx = { estalian_clothing_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	# clothing_gfx = { estalian_clothing_gfx }
 	unit_gfx = { iberian_christian_unit_gfx }
+	house_coa_frame = house_frame_03
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
 
 	ethnicities = {
 		9 = bretonnian_south

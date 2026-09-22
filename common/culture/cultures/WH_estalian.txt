@@ -11,7 +11,7 @@
 	traditions = {
 		tradition_xenophilic
 		tradition_hit_and_run
-#		tradition_estalian_medicine
+		# tradition_estalian_medicine
 		tradition_charitable #placeholder
 	}
 	
@@ -19,8 +19,8 @@
 
 	coa_gfx = { castilian_coa_gfx iberian_group_coa_gfx western_coa_gfx }
 	building_gfx = { iberian_building_gfx }
-	#clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
-	clothing_gfx = { estalian_clothing_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	#clothing_gfx = { estalian_clothing_gfx }
 	unit_gfx = { iberian_christian_unit_gfx }
 	
 	ethnicities = {
@@ -119,8 +119,8 @@ avilian = {
 	
 	coa_gfx = { castilian_coa_gfx iberian_group_coa_gfx western_coa_gfx }
 	building_gfx = { iberian_building_gfx }
-	#clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
-	clothing_gfx = { estalian_clothing_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	#clothing_gfx = { estalian_clothing_gfx }
 	unit_gfx = { iberian_christian_unit_gfx }
 
 	ethnicities = {
@@ -219,8 +219,8 @@ galice = {
 
 	coa_gfx = { castilian_coa_gfx iberian_group_coa_gfx western_coa_gfx }
 	building_gfx = { iberian_building_gfx }
-	#clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
-	clothing_gfx = { estalian_clothing_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	#clothing_gfx = { estalian_clothing_gfx }
 	unit_gfx = { iberian_christian_unit_gfx }
 
 	ethnicities = {
@@ -319,8 +319,8 @@ montanese = {
 
 	coa_gfx = { castilian_coa_gfx iberian_group_coa_gfx western_coa_gfx }
 	building_gfx = { iberian_building_gfx }
-	#clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
-	clothing_gfx = { estalian_clothing_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	#clothing_gfx = { estalian_clothing_gfx }
 	unit_gfx = { iberian_christian_unit_gfx }
 
 	ethnicities = {
@@ -415,8 +415,8 @@ neopatrian = { #BP
 
 	coa_gfx = { castilian_coa_gfx iberian_group_coa_gfx western_coa_gfx }
 	building_gfx = { iberian_building_gfx }
-	#clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
-	clothing_gfx = { estalian_clothing_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	#clothing_gfx = { estalian_clothing_gfx }
 	unit_gfx = { iberian_christian_unit_gfx }
 	
 	ethnicities = {
@@ -491,11 +491,11 @@ neopatrian = { #BP
 		2 = european_med_iberian_69
 		2 = european_med_iberian_70
 	}
-	mercenary_names = {
-		{ name = "mercenary_company_neopatria_thesallian_company" }
-		{ name = "mercenary_company_neopatria_spartan_company" }
-		{ name = "mercenary_company_neopatria_epirus_batallion" }
-	}
+	# mercenary_names = { #WHG TODO
+	# 	{ name = "mercenary_company_neopatria_thesallian_company" }
+	# 	{ name = "mercenary_company_neopatria_spartan_company" }
+	# 	{ name = "mercenary_company_neopatria_epirus_batallion" }
+	# }
 }
 
 ### Norteno. I modified it a bit so it resembles a bit of Aragonese and Catalan, but without leaving the goofy Spanish scent. Patronymics as they are provide for nice compound names!
@@ -523,8 +523,8 @@ norteno = {
 
 	coa_gfx = { castilian_coa_gfx iberian_group_coa_gfx western_coa_gfx }
 	building_gfx = { iberian_building_gfx }
-	#clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
-	clothing_gfx = { estalian_clothing_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	#clothing_gfx = { estalian_clothing_gfx }
 	unit_gfx = { iberian_christian_unit_gfx }
 
 	ethnicities = {
@@ -678,8 +678,8 @@ obregonese = {
 
 	coa_gfx = { castilian_coa_gfx iberian_group_coa_gfx western_coa_gfx }
 	building_gfx = { iberian_building_gfx }
-	#clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
-	clothing_gfx = { estalian_clothing_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	#clothing_gfx = { estalian_clothing_gfx }
 	unit_gfx = { iberian_christian_unit_gfx }
 
 	ethnicities = {
@@ -824,7 +824,7 @@ comarcano = {
 		tradition_culture_blending
 		tradition_castle_keepers
 	#	tradition_norteno_codes
-#		tradition_fp1_estalian_duel
+		# tradition_fp1_estalian_duel
 		tradition_quarrelsome #placeholder
 	}
 	
@@ -832,8 +832,8 @@ comarcano = {
 
 	coa_gfx = { castilian_coa_gfx iberian_group_coa_gfx western_coa_gfx }
 	building_gfx = { iberian_building_gfx }
-	#clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
-	clothing_gfx = { estalian_clothing_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	#clothing_gfx = { estalian_clothing_gfx }
 	unit_gfx = { iberian_christian_unit_gfx }
 
 	ethnicities = {
@@ -931,8 +931,8 @@ tigarrese = {
 
 	coa_gfx = { castilian_coa_gfx iberian_group_coa_gfx western_coa_gfx }
 	building_gfx = { iberian_building_gfx }
-	#clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
-	clothing_gfx = { estalian_clothing_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	#clothing_gfx = { estalian_clothing_gfx }
 	unit_gfx = { iberian_christian_unit_gfx }
 
 	ethnicities = {
@@ -1020,11 +1020,11 @@ sureno = { # "Andalusian" Estalians
 	traditions = {
 		tradition_hit_and_run
 		tradition_xenophilic
-#		tradition_estalian_medicine
+		# tradition_estalian_medicine
 		tradition_charitable #placeholder
 	}
 	
-	name_list = sureno_name_list
+	# name_list = sureno_name_list
 
 	coa_gfx = { arabic_group_coa_gfx } 
 	building_gfx = { iberian_building_gfx }
@@ -1209,9 +1209,9 @@ sureno = { # "Andalusian" Estalians
 		2 = north_african_amazigh_17
 	}
 
-	mercenary_names = {
-		{ name = "mercenary_company_sureno_dragoon_company" }
-		{ name = "mercenary_company_sureno_lion_regiment" }
-		{ name = "mercenary_company_sureno_tercio_musketeers_company" }
-	}
+	# mercenary_names = {
+	# 	{ name = "mercenary_company_sureno_dragoon_company" }
+	# 	{ name = "mercenary_company_sureno_lion_regiment" }
+	# 	{ name = "mercenary_company_sureno_tercio_musketeers_company" }
+	# }
 }

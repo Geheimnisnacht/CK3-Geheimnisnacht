@@ -20,8 +20,8 @@
 
 	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
 	building_gfx = { western_building_gfx } 
-	#clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
-	clothing_gfx = { imperial_clothing_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
+	# clothing_gfx = { imperial_clothing_gfx } 
 	unit_gfx = { western_unit_gfx } 		
 	house_coa_frame = house_frame_25
 	house_coa_mask_offset = { 0.0 0.025 }
@@ -139,8 +139,8 @@ drakwalder = {
 
 	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
 	building_gfx = { western_building_gfx } 
-	#clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
-	clothing_gfx = { imperial_clothing_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
+	# clothing_gfx = { imperial_clothing_gfx } 
 	unit_gfx = { western_unit_gfx } 	
 	house_coa_frame = house_frame_25
 	house_coa_mask_offset = { 0.0 0.025 }
@@ -257,8 +257,8 @@ hochlander = {
 
 	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
 	building_gfx = { western_building_gfx } 
-	#clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
-	clothing_gfx = { imperial_clothing_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
+	# clothing_gfx = { imperial_clothing_gfx } 
 	unit_gfx = { western_unit_gfx } 	
 	house_coa_frame = house_frame_25
 	house_coa_mask_offset = { 0.0 0.025 }
@@ -375,8 +375,8 @@ middenlander = {
 
 	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
 	building_gfx = { western_building_gfx } 
-	#clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
-	clothing_gfx = { imperial_clothing_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
+	# clothing_gfx = { imperial_clothing_gfx } 
 	unit_gfx = { western_unit_gfx } 	
 	house_coa_frame = house_frame_25
 	house_coa_mask_offset = { 0.0 0.025 }
@@ -497,8 +497,8 @@ nordlander = {
 
 	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
 	building_gfx = { western_building_gfx } 
-	#clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
-	clothing_gfx = { imperial_clothing_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
+	# clothing_gfx = { imperial_clothing_gfx } 
 	unit_gfx = { western_unit_gfx } 	
 	house_coa_frame = house_frame_25
 	house_coa_mask_offset = { 0.0 0.025 }
@@ -576,8 +576,8 @@ neueslander = {
 
 	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
 	building_gfx = { western_building_gfx } 
-	#clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
-	clothing_gfx = { imperial_clothing_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
+	# clothing_gfx = { imperial_clothing_gfx } 
 	unit_gfx = { western_unit_gfx } 		
 	house_coa_frame = house_frame_25
 	house_coa_mask_offset = { 0.0 0.025 }
@@ -694,8 +694,8 @@ ostermarker = {
 
 	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
 	building_gfx = { western_building_gfx } 
-	#clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
-	clothing_gfx = { imperial_clothing_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
+	# clothing_gfx = { imperial_clothing_gfx } 
 	unit_gfx = { western_unit_gfx } 	
 	house_coa_frame = house_frame_25
 	house_coa_mask_offset = { 0.0 0.025 }
@@ -742,8 +742,8 @@ ostlander = {
 
 	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
 	building_gfx = { western_building_gfx } 
-	#clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
-	clothing_gfx = { imperial_clothing_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
+	# clothing_gfx = { imperial_clothing_gfx } 
 	unit_gfx = { western_unit_gfx } 	
 	house_coa_frame = house_frame_25
 	house_coa_mask_offset = { 0.0 0.025 }
@@ -860,8 +860,8 @@ reiklander = {
 
 	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
 	building_gfx = { western_building_gfx } 
-	#clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
-	clothing_gfx = { imperial_clothing_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
+	# clothing_gfx = { imperial_clothing_gfx } 
 	unit_gfx = { western_unit_gfx } 		
 	house_coa_frame = house_frame_25
 	house_coa_mask_offset = { 0.0 0.025 }
@@ -977,8 +977,8 @@ sollander = { #¡War on everything that lives. War on everything that burns with
 
 	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
 	building_gfx = { western_building_gfx } 
-	#clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
-	clothing_gfx = { imperial_clothing_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
+	# clothing_gfx = { imperial_clothing_gfx } 
 	unit_gfx = { western_unit_gfx } 		
 	house_coa_frame = house_frame_25
 	house_coa_mask_offset = { 0.0 0.025 }
@@ -1095,8 +1095,8 @@ stirlander = {
 
 	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
 	building_gfx = { western_building_gfx } 
-	#clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
-	clothing_gfx = { imperial_clothing_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
+	# clothing_gfx = { imperial_clothing_gfx } 
 	unit_gfx = { western_unit_gfx } 		
 	house_coa_frame = house_frame_25
 	house_coa_mask_offset = { 0.0 0.025 }
@@ -1174,8 +1174,8 @@ sylvanian = {
 
 	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
 	building_gfx = { western_building_gfx } 
-	#clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
-	clothing_gfx = { imperial_clothing_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
+	# clothing_gfx = { imperial_clothing_gfx } 
 	unit_gfx = { western_unit_gfx } 	
 	house_coa_frame = house_frame_25
 	house_coa_mask_offset = { 0.0 0.025 }
@@ -1251,8 +1251,8 @@ talabeclander = {
 
 	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
 	building_gfx = { western_building_gfx } 
-	#clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
-	clothing_gfx = { imperial_clothing_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
+	# clothing_gfx = { imperial_clothing_gfx } 
 	unit_gfx = { western_unit_gfx } 		
 	house_coa_frame = house_frame_25
 	house_coa_mask_offset = { 0.0 0.025 }
@@ -1369,8 +1369,8 @@ westerlander = {
 
 	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
 	building_gfx = { western_building_gfx } 
-	#clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
-	clothing_gfx = { imperial_clothing_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
+	# clothing_gfx = { imperial_clothing_gfx } 
 	unit_gfx = { western_unit_gfx } 		
 	house_coa_frame = house_frame_25
 	house_coa_mask_offset = { 0.0 0.025 }
@@ -1488,8 +1488,8 @@ wissenlander = {
 
 	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
 	building_gfx = { western_building_gfx } 
-	#clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
-	clothing_gfx = { imperial_clothing_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
+	# clothing_gfx = { imperial_clothing_gfx } 
 	unit_gfx = { western_unit_gfx } 		
 	house_coa_frame = house_frame_25
 	house_coa_mask_offset = { 0.0 0.025 }
@@ -1605,8 +1605,8 @@ sudenburger = {
 
 	coa_gfx = { german_group_coa_gfx western_coa_gfx frisian_coa_gfx }
 	building_gfx = { western_building_gfx }
-	#clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
-	clothing_gfx = { imperial_clothing_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
+	# clothing_gfx = { imperial_clothing_gfx } 
 	unit_gfx = { western_unit_gfx }
 	
 	ethnicities = {
