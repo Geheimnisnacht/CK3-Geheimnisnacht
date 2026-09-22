@@ -482,11 +482,11 @@ world_old_world_empire_east = {
 ###########################################################################
 
 
-graphical_wastelands_6510 = {
-	graphical = yes
-	color = { 200 200 200 }
-	regions = { world_wastelands_6510 }
-}
+# graphical_wastelands_6510 = {
+# 	graphical = yes
+# 	color = { 200 200 200 }
+# 	regions = { world_wastelands_6510 }
+# }
 
 
 
