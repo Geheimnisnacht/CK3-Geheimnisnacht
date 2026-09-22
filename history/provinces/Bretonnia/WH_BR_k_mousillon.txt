@@ -4,7 +4,7 @@
 # c_mousillon
 1996 = { # Palais Damne
 	culture = mousillonian
-	religion = grail
+	religion = catholic
 	holding = castle_holding
 	6000.1.1 = {
 		buildings = {
@@ -24,7 +24,7 @@
 
 2000 = { # Naizon
 	culture = mousillonian
-	religion = morrian
+	religion = catholic
 	holding = castle_holding
 }
 2002 = { # Jardins du Chagrin
@@ -41,7 +41,7 @@
 
 2003 = { # Elne
 	culture = mousillonian
-	religion = manannite
+	religion = catholic
 	holding = castle_holding
 }
 2004 = { # Roussion
@@ -58,7 +58,7 @@
 
 2007 = { # Chateau Rachard
 	culture = mousillonian
-	religion = shallyan
+	religion = catholic
 	holding = castle_holding
 }
 2008 = { # Jonquieres
@@ -72,7 +72,7 @@
 
 2001 = { # Brignac
 	culture = mousillonian
-	religion = taalite
+	religion = catholic
 	holding = castle_holding
 }
 1999 = { # sigmarsheim
@@ -88,7 +88,7 @@
 
 2013 = { # Camiens
 	culture = sartosan_bretonnian
-	religion = stromfels
+	religion = catholic
 	holding = castle_holding
 }
 2016 = { # macy
@@ -102,7 +102,7 @@
 
 1 = {
 	culture = sartosan_bretonnian
-	religion = stromfels
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -110,7 +110,7 @@
 
 2021 = { # Mortagne
 	culture = mousillonian
-	religion = manannite
+	religion = catholic
 	holding = castle_holding
 }
 2022 = { # Martel
@@ -124,7 +124,7 @@
 
 2020 = { # Portois
 	culture = mousillonian
-	religion = morrian
+	religion = catholic
 	holding = castle_holding
 }
 2018 = { # pont du graal
@@ -138,7 +138,7 @@
 
 2014 = { # Artagnan
 	culture = mousillonian
-	religion = taalite
+	religion = catholic
 	holding = castle_holding
 }
 2019 = { # Chateaneuf

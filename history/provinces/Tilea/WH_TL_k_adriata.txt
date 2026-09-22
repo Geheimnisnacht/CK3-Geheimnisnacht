@@ -3,7 +3,7 @@
 ###c_autaria
 1893 = { #porto_real
 	culture = sartosan_tilean
-	religion = stromfels
+	religion = catholic
 
 	holding = castle_holding
 }
@@ -16,7 +16,7 @@
 ###c_delamata
 1896 = { #delamata
 	culture = sartosan_tilean
-	religion = stromfels
+	religion = catholic
 
 	holding = castle_holding
 }
@@ -29,7 +29,7 @@
 ###c_isole_sirene
 1899 = { #porto_nord
 	culture = sartosan_tilean
-	religion = stromfels
+	religion = catholic
 
 	holding = castle_holding
 }
@@ -39,7 +39,7 @@
 ###c_liburni
 1901 = { #zera
 	culture = sartosan_tilean
-	religion = stromfels
+	religion = catholic
 
 	holding = castle_holding
 }
@@ -49,7 +49,7 @@
 ###c_scordisci
 1903 = { #porto_verzo
 	culture = sartosan_tilean
-	religion = stromfels
+	religion = catholic
 
 	holding = castle_holding
 }

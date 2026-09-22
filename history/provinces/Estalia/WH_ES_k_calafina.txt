@@ -3,7 +3,7 @@
 ###c_santa_clair	
 1906 = {#santa_clair
 	culture = sureno
-	religion = manannite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -11,7 +11,7 @@
 ###c_isla_colina	
 1907 = {#enriquillola
 	culture = sureno
-	religion = stromfels
+	religion = catholic
 	holding = castle_holding
 }
 1908 = {#port_djuna
@@ -21,14 +21,14 @@
 ###c_isla_corazon	
 1909 = {#wilheimsdok
 	culture = sureno
-	religion = stromfels
+	religion = catholic
 	holding = castle_holding
 }
 
 ###c_isla_dazure	
 1910 = {#porto_sarba
 	culture = sureno
-	religion = stromfels
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -39,13 +39,13 @@
 ###c_isla_vega	
 1912 = {#porto_vega
 	culture = sureno
-	religion = manannite
+	religion = catholic
 	holding = castle_holding
 }
 
 ###c_montanoza	
 1913 = {#montanoza	
 	culture = sureno
-	religion = manannite
+	religion = catholic
 	holding = castle_holding
 }

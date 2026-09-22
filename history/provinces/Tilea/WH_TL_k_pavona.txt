@@ -3,7 +3,7 @@
 ###c_pavona
 2094 = { #pavona
 	culture = umbrian
-	religion = myrmidian_eastern
+	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
 		special_building_slot = generic_university
@@ -29,7 +29,7 @@
 ###c_scozzese
 2099 = { #scozzese
 	culture = umbrian
-	religion = myrmidian_eastern
+	religion = catholic
 	holding = castle_holding
 }
 2100 = { #trepico
@@ -42,7 +42,7 @@
 ###c_umbresco
 2102 = { #stretto
 	culture = umbrian
-	religion = myrmidian_eastern
+	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
 		buildings = {
@@ -61,7 +61,7 @@
 ###c_astiano
 2105 = { #astiano
 	culture = umbrian
-	religion = verenan
+	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
 		buildings = {
@@ -83,7 +83,7 @@
 ###c_spaarta
 2109 = { #spaarta
 	culture = reman
-	religion = solkanian
+	religion = catholic
 	holding = castle_holding
 }
 2110 = { #ateno
@@ -93,7 +93,7 @@
 ###c_spomanti
 2111 = { #spomanti
 	culture = reman
-	religion = morrian
+	religion = catholic
 	holding = castle_holding
 }
 2112 = { #belladonna

@@ -3,7 +3,7 @@
 ###c_sobremarca
 1625 = { #ciudadilla
 	culture = norteno
-	religion = manannite
+	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
 		buildings = {
@@ -21,7 +21,7 @@
 ###c_cabrera
 1628 = { #cabral
 	culture = norteno
-	religion = myrmidian_western
+	religion = catholic
 	holding = castle_holding
 }
 1629 = { #estacrez
@@ -40,7 +40,7 @@
 ###c_sotomarca
 1633 = { #graus
 	culture = norteno
-	religion = myrmidian_western
+	religion = catholic
 	holding = castle_holding
 }
 1634 = { #orgal
@@ -53,7 +53,7 @@
 ###c_teresca
 1636 = { #teresca
 	culture = marcheur
-	religion = myrmidian_western
+	religion = catholic
 	holding = castle_holding
 }
 1637 = { #ribera
@@ -70,7 +70,7 @@
 ###c_murilla
 1676 = { #tranado
 	culture = marcheur
-	religion = myrmidian_western
+	religion = catholic
 	holding = castle_holding
 }
 1641 = { #abbranga
@@ -86,7 +86,7 @@
 ###c_alabreda
 1644 = { #alabreda
 	culture = norteno
-	religion = myrmidian_western
+	religion = catholic
 	holding = castle_holding
 }
 1645 = { #ropera
@@ -99,7 +99,7 @@
 ###c_cadenas
 1647 = { #cadenas
 	culture = norteno
-	religion = myrmidian_western
+	religion = catholic
 	holding = castle_holding
 }
 1648 = { #calafa
@@ -112,7 +112,7 @@
 ###c_castillar
 1650 = { #castillar
 	culture = montanese
-	religion = blood_dragon_faith
+	religion = catholic
 	holding = castle_holding
 	6000.1.1 = {
 		buildings = {
@@ -127,7 +127,7 @@
 ###c_mendoza
 1652 = { #pasa
 	culture = norteno
-	religion = myrmidian_western
+	religion = catholic
 	holding = castle_holding
 }
 1653 = { #vanado
@@ -144,7 +144,7 @@
 ###c_las_navas
 1656 = { #navaz
 	culture = montanese
-	religion = myrmidian_western
+	religion = catholic
 	holding = castle_holding
 }
 1657 = { #altona
@@ -160,7 +160,7 @@
 ###c_los_merinos
 2698 = { #llaquino
 	culture = montanese
-	religion = myrmidian_western
+	religion = catholic
 	holding = castle_holding
 }
 2699 = { #romanones

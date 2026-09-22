@@ -3,7 +3,7 @@
 ###c_Bordelaux
 1865 = { #Bordelaux
 	culture = bordelen
-	religion = waves_grail
+	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
 		special_building = vineyards_of_bordeleaux_01
@@ -29,7 +29,7 @@
 ###c_tremonge
 1878 = { #Doubourg
 	culture = sartosan_bretonnian
-	religion = stromfels
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -44,14 +44,14 @@
 ###c_lile_tranquille
 1874 = { #villa_tranquille
 	culture = sartosan_bretonnian
-	religion = stromfels
+	religion = catholic
 	holding = castle_holding
 }
 
 ###c_vantes
 1876 = { #Vantes
 	culture = sartosan_bretonnian
-	religion = stromfels
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -64,7 +64,7 @@
 
 1880 = { #Feuilly
 	culture = bordelen
-	religion = grail
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -84,7 +84,7 @@
 
 1870 = { #Laros
 	culture = bordelen
-	religion = waves_grail
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -104,7 +104,7 @@
 
 1883 = { #turris viglans
 	culture = bordelen
-	religion = waves_grail
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -116,7 +116,7 @@
 
 1884 = { #reves
 	culture = bordelen
-	religion = grail
+	religion = catholic
 	holding = castle_holding
 }
 

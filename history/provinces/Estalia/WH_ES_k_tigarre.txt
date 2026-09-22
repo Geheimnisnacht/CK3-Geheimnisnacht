@@ -3,7 +3,7 @@
 ###c_bilbali
 2650 = { #bilbali
 	culture = tigarrese
-	religion = myrmidian_western
+	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
 		special_building = city_bilbali_01
@@ -18,7 +18,7 @@
 }
 2652 = { #sahagun
 	culture = tigarrese
-	religion = myrmidian_western
+	religion = catholic
 	holding = castle_holding
 }
 2653 = { #santiago
@@ -42,14 +42,14 @@
 
 2655 = { #morro
 	culture = galice
-	religion = myrmidian_western
+	religion = catholic
 	holding = castle_holding
 }
 
 ###c_edeta
 2657 = { #edeta
 	culture = galice
-	religion = manannite
+	religion = catholic
 	holding = castle_holding
 }
 2658 = { #san_luiz
@@ -66,7 +66,7 @@
 ###c_alquezaro
 2665 = { #alquezaro
 	culture = norteno
-	religion = myrmidian_western
+	religion = catholic
 	holding = castle_holding
 }
 2666 = { #asutrias
@@ -85,7 +85,7 @@
 ###c_azuara
 2670 = { #azuara
 	culture = norteno
-	religion = myrmidian_western
+	religion = catholic
 	holding = castle_holding
 }
 2671 = { #hamasollo
@@ -101,7 +101,7 @@
 ###c_bajamar
 2674 = { #biscague
 	culture = norteno
-	religion = manannite
+	religion = catholic
 	holding = castle_holding
 }
 2675 = { #pertro
@@ -117,7 +117,7 @@
 ###c_zamalanca
 2678 = { #vadna
 	culture = norteno
-	religion = solkanian
+	religion = catholic
 	holding = castle_holding
 }
 2679 = { #fallagra
@@ -134,7 +134,7 @@
 ###c_cantabro
 2682 = { #toragona
 	culture = tigarrese
-	religion = solkanian
+	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
 		buildings = {
@@ -155,14 +155,14 @@
 ###c_barataria
 2686 = { #hernazea
 	culture = tigarrese
-	religion = stromfels
+	religion = catholic
 	holding = castle_holding
 }
 
 ###c_barboza
 2687 = { #barboza
 	culture = tigarrese
-	religion = manannite
+	religion = catholic
 	holding = castle_holding
 }
 2688 = { #leono
@@ -175,7 +175,7 @@
 ###c_calis
 2690 = { #campastello
 	culture = tigarrese
-	religion = myrmidian_western
+	religion = catholic
 	holding = castle_holding
 }
 2691 = { #zaopala
@@ -192,7 +192,7 @@
 ###c_reas
 2694 = { #reas
 	culture = montanese
-	religion = myrmidian_western
+	religion = catholic
 	holding = castle_holding
 }
 2695 = { #barbagorza
@@ -210,7 +210,7 @@
 ###c_siernas
 2702 = { #sierno
 	culture = strigany
-	religion = strigany_faith
+	religion = catholic
 	holding = castle_holding
 }
 2703 = { #retno
@@ -227,7 +227,7 @@
 ###c_viacruz
 2706 = { #viacruz
 	culture = tigarrese
-	religion = solkanian
+	religion = catholic
 	holding = castle_holding
 }
 2707 = { #garaconda
@@ -243,7 +243,7 @@
 ###c_baraiz
 2710 = { #ciela
 	culture = tigarrese
-	religion = myrmidian_western
+	religion = catholic
 	holding = castle_holding
 }
 2711 = { #fadeno
@@ -259,7 +259,7 @@
 ###c_nunia
 2714 = { #nuna
 	culture = tigarrese
-	religion = solkanian
+	religion = catholic
 	holding = castle_holding
 }
 2715 = { #tradona
@@ -275,7 +275,7 @@
 ###c_sodana
 2718 = { #sodana
 	culture = tigarrese
-	religion = myrmidian_western
+	religion = catholic
 	holding = castle_holding
 }
 2719 = { #taferana
@@ -291,7 +291,7 @@
 ###c_varda
 2661 = { #ragestros
 	culture = galice
-	religion = myrmidian_western
+	religion = catholic
 	holding = castle_holding
 }
 2662 = { #varda
@@ -311,7 +311,7 @@
 }
 2723 = { #visita
 	culture = galice
-	religion = myrmidian_western
+	religion = catholic
 	holding = castle_holding	
 	6000.1.1 = {
 		buildings = {
@@ -329,7 +329,7 @@
 ###c_arroca
 2726 = { #balado
 	culture = galice
-	religion = myrmidian_western
+	religion = catholic
 	holding = castle_holding
 }
 2727 = { #zuigala
@@ -348,7 +348,7 @@
 ###c_cefira
 2731 = { #natula
 	culture = galice
-	religion = myrmidian_western
+	religion = catholic
 	holding = castle_holding
 }
 2732 = { #boroda
@@ -362,14 +362,14 @@
 }
 2735 = { #ovenda
 	culture = galice
-	religion = myrmidian_western
+	religion = catholic
 	holding = castle_holding
 }
 
 ###c_san_luis
 2736 = { #san_luis
 	culture = galice
-	religion = myrmidian_western
+	religion = catholic
 	holding = castle_holding
 }
 2737 = { #sabida

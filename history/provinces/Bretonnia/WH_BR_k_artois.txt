@@ -3,7 +3,7 @@
 
 2933 = { # Castle Artois
 	culture = artoin
-	religion = grail
+	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
 		buildings = {
@@ -29,7 +29,7 @@
 
 2950 = { # Yremy
 	culture = artoin
-	religion = grail
+	religion = catholic
 	holding = castle_holding
 }
 2951 = { # Bosquieu
@@ -46,7 +46,7 @@
 
 2938 = { # larret
 	culture = artoin
-	religion = grail
+	religion = catholic
 	holding = castle_holding
 }
 2940 = { # nieminges
@@ -64,7 +64,7 @@
 # c_Arden
 2942 = { # Marcalon
 	culture = aesling
-	religion = faith_wastelands_pagan
+	religion = catholic
 	holding = wastelands_holding
 }
 2944 = { # La Forestresse
@@ -77,7 +77,7 @@
 # c_uexin
 2946 = { # Chateau Uesin
 	culture = artoin
-	religion = taalite
+	religion = catholic
 	holding = castle_holding
 }
 2947 = { # The Weeping Chapel
@@ -95,7 +95,7 @@
 # c_guerac
 2925 = { # Chateau Guerac
 	culture = artoin
-	religion = shallyan
+	religion = catholic
 	holding = castle_holding
 }
 2927 = { # Sable
@@ -105,7 +105,7 @@
 # c_futaie
 2926 = { # Cercle de Guerac
 	culture = aesling
-	religion = faith_wastelands_pagan
+	religion = catholic
 	holding = wastelands_holding
 }
 2928 = { # Meillant

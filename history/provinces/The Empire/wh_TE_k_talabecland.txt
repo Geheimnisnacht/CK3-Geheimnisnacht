@@ -2,7 +2,7 @@
 ###c_talabheim
 28 = {	# Talabheim
 	culture = talabeclander
-	religion = taalite
+	religion = catholic
 	holding = castle_holding
 	special_building = taalplace_home_01
 }
@@ -11,7 +11,7 @@
 ###c_taalgaad
 29 = {	# Taalgaad
 	culture = talabeclander
-	religion = taalite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -27,7 +27,7 @@
 ###c_ostlichrand
 32 = {	# Sprotau
 	culture = talabeclander
-	religion = ulrican
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -45,7 +45,7 @@
 ###c_torpin
 388 = {	# Torpin
 	culture = talabeclander
-	religion = ulrican
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -68,7 +68,7 @@
 ###c_volgen
 393 = {	# Volgen
 	culture = talabeclander
-	religion = ulrican
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -92,7 +92,7 @@
 ###c_sarno
 398 = {	# Sarno
 	culture = talabeclander
-	religion = ulrican
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -110,7 +110,7 @@
 ###c_eastern_unfruchtbarberge
 401 = {	# Schiffellwald
 	culture = talabeclander
-	religion = solkanian
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -126,7 +126,7 @@
 ###c_central_unfruchtbarberge
 404 = {	# Trotal
 	culture = talabeclander
-	religion = ahaltan
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -138,7 +138,7 @@
 ###c_western_unfruchtbarberge
 406 = {	# Seydlitz
 	culture = talabeclander
-	religion = taalite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -156,7 +156,7 @@
 ###c_kargberge
 409 = {	# Guettow
 	culture = talabeclander
-	religion = taalite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -176,7 +176,7 @@
 ###c_unterbaum
 413 = {	# Unterbaum
 	culture = talabeclander
-	religion = ahaltan
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -202,7 +202,7 @@
 ###c_gostahof
 418 = {	# Missen
 	culture = talabeclander
-	religion = verenan
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -230,7 +230,7 @@
 ###c_farlichberge
 424 = {	# Obelheim
 	culture = talabeclander
-	religion = taalite
+	religion = catholic
 	holding = church_holding
 }
 
@@ -264,7 +264,7 @@
 ###c_kuesel
 431 = {	# Kuesel
 	culture = talabeclander
-	religion = taalite
+	religion = catholic
 	holding = city_holding
 }
 
@@ -284,7 +284,7 @@
 ###c_bek
 435 = {	# Bek
 	culture = talabeclander
-	religion = taalite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -308,7 +308,7 @@
 ###c_gruenwald
 440 = {	# Bratian
 	culture = talabeclander
-	religion = sigmarite
+	religion = catholic
 	holding = city_holding
 }
 
@@ -334,7 +334,7 @@
 ###c_kappelburg
 445 = {	# Ohausen
 	culture = talabeclander
-	religion = sigmarite
+	religion = catholic
 	holding = city_holding
 }
 
@@ -354,7 +354,7 @@
 ###c_ertburg
 449 = {	# Ertburg
 	culture = talabeclander
-	religion = taalite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -370,7 +370,7 @@
 ###c_stratenheim
 452 = {	# Stratenheim
 	culture = talabeclander
-	religion = taalite
+	religion = catholic
 	holding = city_holding
 }
 
@@ -398,7 +398,7 @@
 ###c_krugenheim
 458 = {	# Sabritz
 	culture = talabeclander
-	religion = taalite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -426,7 +426,7 @@
 ###c_ossino
 464 = {	# Ossino
 	culture = talabeclander
-	religion = taalite
+	religion = catholic
 	holding = castle_holding
 }
 

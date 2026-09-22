@@ -5,7 +5,7 @@
 
 2890 = { # Gisoreux
 	culture = gisoren
-	religion = grail
+	religion = catholic
 	holding = castle_holding
 	6000.1.1 = {
 		special_building = generic_university
@@ -29,7 +29,7 @@
 
 2900 = { # Grasse
 	culture = gisoren
-	religion = grail
+	religion = catholic
 	holding = castle_holding
 }
 2903 = { # Cornes
@@ -46,7 +46,7 @@
 
 2894 = { # Melonge
 	culture = gisoren
-	religion = shallyan
+	religion = catholic
 	holding = castle_holding
 }
 2892 = { # vaucou les chivaliers
@@ -57,7 +57,7 @@
 
 2932 = { # Guissans
 	culture = gisoren
-	religion = shallyan
+	religion = catholic
 	holding = castle_holding
 }
 2931 = { # Orisillac
@@ -72,7 +72,7 @@
 
 2913 = { # Maison Graal
 	culture = gisoren
-	religion = grail
+	religion = catholic
 	holding = castle_holding
 }
 2915 = { # Rades
@@ -90,7 +90,7 @@
 
 2912 = { # Salignac
 	culture = gisoren
-	religion = grail
+	religion = catholic
 	holding = castle_holding
 }
 2911 = { # Sablenay
@@ -101,7 +101,7 @@
 
 2922 = { # Troucy
 	culture = herrimault
-	religion = merry_grail
+	religion = catholic
 	holding = castle_holding
 }
 2923 = { # Bar-la-Dame
@@ -115,7 +115,7 @@
 
 2920 = { # Jurenne
 	culture = herrimault
-	religion = merry_grail
+	religion = catholic
 	holding = castle_holding
 }
 2918 = { # Roucis
@@ -129,7 +129,7 @@
 
 2919 = { # Chateau Florian
 	culture = herrimault
-	religion = merry_grail
+	religion = catholic
 	holding = castle_holding
 }
 2921 = { # lanterre
@@ -145,7 +145,7 @@
 
 2904 = { # Soyons
 	culture = gisoren
-	religion = tzeentchian_kurgan
+	religion = catholic
 	holding = castle_holding
 }
 2906 = { # Clervais
@@ -159,7 +159,7 @@
 
 2896 = { # Chateau des Fleuve
 	culture = gisoren
-	religion = grail
+	religion = catholic
 	holding = castle_holding
 }
 2898 = { # Castenay
@@ -176,7 +176,7 @@
 
 2907 = { # Chateau Valis
 	culture = gisoren
-	religion = grail
+	religion = catholic
 	holding = castle_holding
 }
 2910 = { # manau

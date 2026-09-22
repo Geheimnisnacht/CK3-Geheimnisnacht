@@ -2,7 +2,7 @@
 ###c_quenelles
 3061 = { # Quenelles
 	culture = queneller
-	religion = grail
+	religion = catholic
 	holding = castle_holding
 	6000.1.1 = {
 		special_building_slot = generic_university
@@ -36,7 +36,7 @@
 ###c_Sandeuse
 3073 = { # Sandeuse
 	culture = queneller
-	religion = grail
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -51,7 +51,7 @@
 ###c_roucerre
 3073 = { # Montair
 	culture = queneller
-	religion = grail
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -66,7 +66,7 @@
 ###c_perrache
 3066 = { # Perrache
 	culture = queneller
-	religion = grail
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -89,7 +89,7 @@
 ###c_roucerre
 3074 = { # Montair
 	culture = queneller
-	religion = grail
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -104,7 +104,7 @@
 ###c_langry
 3062 = { # Langry
 	culture = queneller
-	religion = grail
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -120,7 +120,7 @@
 ##c_meaux
 3086 = { # Meaux
 	culture = queneller
-	religion = grail
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -139,7 +139,7 @@
 ##c_Orlerre
 3091 = { # Orlac
 	culture = queneller
-	religion = grail
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -154,7 +154,7 @@
 ##c_tertres
 3093 = { # Hybraseil
 	culture = queneller
-	religion = shallyan
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -166,7 +166,7 @@
 ##c_treims
 3095 = { # treims
 	culture = queneller
-	religion = grail
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -185,7 +185,7 @@
 ##c_blarry
 3101 = { # Bourg-le-duc
 	culture = queneller
-	religion = shallyan
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -196,7 +196,7 @@
 ##c_montlac
 3099 = { # Montlac
 	culture = queneller
-	religion = grail
+	religion = catholic
 	holding = castle_holding
 }
 

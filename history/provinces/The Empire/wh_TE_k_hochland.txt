@@ -2,7 +2,7 @@
 ###c_hergig
 535 = {	# Hergig
 	culture = hochlander
-	religion = luposan
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -18,7 +18,7 @@
 ###c_bergendorf
 538 = {	# Bergendorf
 	culture = hochlander
-	religion = luposan
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -34,7 +34,7 @@
 ###c_igelhuegel
 541 = {	# Gruyden
 	culture = hochlander
-	religion = sigmarite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -58,7 +58,7 @@
 ###c_ketzin
 546 = {	# Havel
 	culture = hochlander
-	religion = shallyan
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -76,7 +76,7 @@
 ###c_krudenwald
 549 = {	# Krudenwald
 	culture = hochlander
-	religion = ulrican
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -100,7 +100,7 @@
 ###c_heedenhof
 554 = {	# Heedenhof
 	culture = hochlander
-	religion = taalite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -122,7 +122,7 @@
 ###c_kiefer
 558 = {	# Fort Schippel
 	culture = hochlander
-	religion = ulrican
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -146,7 +146,7 @@
 ###c_lindow
 563 = {	# Lindow
 	culture = hochlander
-	religion = luposan
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -162,7 +162,7 @@
 ###c_vodf
 566 = {	# Vodf
 	culture = hochlander
-	religion = sigmarite
+	religion = catholic
 	holding = castle_holding
 }
 

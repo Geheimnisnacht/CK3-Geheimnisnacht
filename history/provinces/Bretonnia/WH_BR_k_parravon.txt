@@ -3,7 +3,7 @@
 ###c_parravon
 2133 = { # parravon
 	culture = parravonese
-	religion = grail
+	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
 		special_building = castle_parravon_01
@@ -32,7 +32,7 @@
 ###c_fays
 2139 = { # fay la chapelle
 	culture = parravonese
-	religion = shallyan
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -43,7 +43,7 @@
 ###c_sanglac
 2135 = { # Hemmerle
 	culture = parravonese
-	religion = grail
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -63,7 +63,7 @@
 ###c_brabillon
 2150 = { # Brigendie
 	culture = parravonese
-	religion = grail
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -78,7 +78,7 @@
 ###c_valle du sang
 2153 = { # Blood Keep
 	culture = parravonese
-	religion = grail
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -90,7 +90,7 @@
 ###c_beaumont
 2141 = { # malmont
 	culture = parravonese
-	religion = grail
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -101,7 +101,7 @@
 ###c_fume
 2145 = { # Emilion
 	culture = parravonese
-	religion = grail
+	religion = catholic
 	holding = castle_holding
 }
 

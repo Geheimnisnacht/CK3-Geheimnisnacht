@@ -2,7 +2,7 @@
 ###c_schadelbruck
 656 = {	# Schadelbruck
 	culture = nordlander
-	religion = manannite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -18,7 +18,7 @@
 ###c_schaukel
 659 = {	# Mainburg
 	culture = nordlander
-	religion = manannite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -44,7 +44,7 @@
 ###c_salzenmund
 664 = {	# Salzenmund
 	culture = nordlander
-	religion = sigmarite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -68,7 +68,7 @@
 ###c_gelnhausen
 669 = {	# Demst
 	culture = nordlander
-	religion = ulrican
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -94,7 +94,7 @@
 ###c_hargendorf
 674 = {	# Hargendorf
 	culture = nordlander
-	religion = manannite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -114,7 +114,7 @@
 ###c_kurtwallen
 678 = {	# Kurtwallen
 	culture = nordlander
-	religion = sigmarite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -142,7 +142,7 @@
 ###c_manaansufer
 684 = {	# Dietershafen
 	culture = nordlander
-	religion = manannite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -164,7 +164,7 @@
 ###c_norden
 688 = {	# Norden
 	culture = nordlander
-	religion = manannite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -184,7 +184,7 @@
 ###c_dorfmark
 692 = {	# Dorfmark
 	culture = nordlander
-	religion = sigmarite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -208,7 +208,7 @@
 ###c_limshof
 697 = {	# Limshof
 	culture = nordlander
-	religion = ulrican
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -236,7 +236,7 @@
 ###c_luftberg
 703 = {	# Stavern
 	culture = nordlander
-	religion = manannite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -256,7 +256,7 @@
 ###c_huven
 875 = {	# Krausnick
 	culture = nordlander
-	religion = ulrican
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -282,9 +282,9 @@
 ###c_roterwald
 707 = {	# Kralle
 	#culture = eonir
-	#religion = cadai
+	#religion = catholic
 	culture = aesling
-	religion = faith_wastelands_pagan
+	religion = catholic
 	holding = wastelands_holding
 }
 
@@ -304,13 +304,13 @@
 ###c_spuktichtung
 711 = {	# Rehkitzpforte
 	#culture = eonir
-	#religion = cadai
+	#religion = catholic
 	culture = drakwalder
-	religion = taalite
+	religion = catholic
 	holding = tribal_holding
 	6500.1.1 = {
 		culture = aesling
-		religion = faith_wastelands_pagan
+		religion = catholic
 		holding = wastelands_holding
 	}
 }
@@ -338,13 +338,13 @@
 ###c_entsetzlichigelhuegel
 715 = {	# Moosdorf
 	#culture = eonir
-	#religion = cadai
+	#religion = catholic
 	culture = drakwalder
-	religion = taalite
+	religion = catholic
 	holding = tribal_holding
 	6500.1.1 = {
 		culture = aesling
-		religion = faith_wastelands_pagan
+		religion = catholic
 		holding = wastelands_holding
 	}
 }
@@ -364,9 +364,9 @@
 ###c_halenmird
 721 = {	# Baiersedorf
 	#culture = eonir
-	#religion = cadai
+	#religion = catholic
 	culture = aesling
-	religion = faith_wastelands_pagan
+	religion = catholic
 	holding = wastelands_holding
 }
 

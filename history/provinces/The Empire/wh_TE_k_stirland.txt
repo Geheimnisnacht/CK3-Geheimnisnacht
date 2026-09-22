@@ -2,7 +2,7 @@
 ###c_nattern
 278 = {	# Zeven
 	culture = stirlander
-	religion = sigmarite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -16,7 +16,7 @@
 
 281 = {	# West Nattern
 	culture = stirlander
-	religion = sigmarite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -28,7 +28,7 @@
 ###c_ramsau
 283 = {	# Ramsau
 	culture = stirlander
-	religion = sigmarite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -44,7 +44,7 @@
 ###c_zaya
 286 = {	# Flensburg
 	culture = stirlander
-	religion = sigmarite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -62,7 +62,7 @@
 ###c_stirhuegel
 289 = {	# Wolfsbach
 	culture = stirlander
-	religion = shallyan
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -78,7 +78,7 @@
 ###c_woerdern
 292 = {	# Woerdern
 	culture = stirlander
-	religion = shallyan
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -98,7 +98,7 @@
 ###c_teichel
 296 = {	# Purgg
 	culture = stirlander
-	religion = taalite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -116,7 +116,7 @@
 
 300 = {	# Munz
 	culture = stirlander
-	religion = taalite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -128,7 +128,7 @@
 ###c_wurtbad
 303 = {# Wurthbad
 	culture = stirlander
-	religion = sigmarite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -150,7 +150,7 @@
 
 307 = {	# Stirgrat
 	culture = stirlander
-	religion = sigmarite
+	religion = catholic
 	holding = castle_holding	
 }
 
@@ -160,7 +160,7 @@
 ###c_oehling
 308 = {	# Oehling
 	culture = stirlander
-	religion = taalite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -176,7 +176,7 @@
 ###c_leithagberge
 311 = {	# Murieste
 	culture = stirlander
-	religion = sigmarite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -190,7 +190,7 @@
 
 314 = {	# Gablitz
 	culture = stirlander
-	religion = morrian
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -200,7 +200,7 @@
 ###c_marenwald
 315 = {	# Marburg
 	culture = stirlander
-	religion = morrian
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -215,7 +215,7 @@
 316 = {	# Steinbachthal
 	holding = city_holding
 	culture = stirlander
-	religion = morrian
+	religion = catholic
 }
 
 317 = {	# Vorderbergen
@@ -230,7 +230,7 @@
 ###c_jaegerwald
 320 = {	# Dechstein
 	culture = stirlander
-	religion = morrian
+	religion = catholic
 	holding = castle_holding
 }
 

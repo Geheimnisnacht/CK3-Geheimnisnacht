@@ -2,7 +2,7 @@
 ###c_wolfenburg
 808 = {	# Wolfenburg
 	culture = ostlander
-	religion = sigmarite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -26,7 +26,7 @@
 ###c_wurzen
 813 = {	# Wurzen
 	culture = ostlander
-	religion = sigmarite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -50,7 +50,7 @@
 ###c_nettburg
 818 = {	# Fort Korver
 	culture = ostlander
-	religion = sigmarite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -66,7 +66,7 @@
 ###c_ristedt
 821 = {	# Schloss Lenkster
 	culture = ostlander
-	religion = sigmarite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -82,7 +82,7 @@
 ###c_markdorf
 824 = {	# Markdorf
 	culture = ostlander
-	religion = sigmarite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -100,7 +100,7 @@
 ###c_selonian_hills
 827 = {	# Zwollen
 	culture = ostlander
-	religion = ursunite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -120,7 +120,7 @@
 ###c_brizban
 831 = {	# Brizban
 	culture = ostlander
-	religion = ursunite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -146,7 +146,7 @@
 ###c_dassel
 836 = {	# Dassel
 	culture = ostlander
-	religion = sigmarite
+	religion = catholic
 	holding = church_holding
 }
 
@@ -170,7 +170,7 @@
 ###c_vandengart
 841 = {	# Vandengart
 	culture = ostlander
-	religion = ursunite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -190,7 +190,7 @@
 ###c_bohsenfels
 845 = {	# Bohsenfels
 	culture = ostlander
-	religion = sigmarite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -210,7 +210,7 @@
 ###c_gauschdorf
 849 = {	# Gauschdorf
 	culture = ostlander
-	religion = manannite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -236,7 +236,7 @@
 ###c_salkalten
 854 = {	# Verborgenbucht
 	culture = ostlander
-	religion = manannite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -260,7 +260,7 @@
 ###c_rossin
 859 = {	# Rossin
 	culture = ostlander
-	religion = manannite
+	religion = catholic
 	holding = church_holding
 }
 
@@ -282,7 +282,7 @@
 ###c_ferlangen
 863 = {	# Ferlangenschlosse
 	culture = ostlander
-	religion = sigmarite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -302,7 +302,7 @@
 ###c_hasselhund
 867 = {	# Arnsland
 	culture = ostlander
-	religion = sigmarite
+	religion = catholic
 	holding = city_holding
 }
 
@@ -322,7 +322,7 @@
 ###c_obelstein
 871 = {	# Obelstein
 	culture = ostlander
-	religion = sigmarite
+	religion = catholic
 	holding = city_holding
 }
 
@@ -342,7 +342,7 @@
 ###c_bokenhof
 880 = {	# Bokenhof
 	culture = ostlander
-	religion = sigmarite
+	religion = catholic
 	holding = city_holding
 }
 
@@ -368,7 +368,7 @@
 ###c_friedmark
 885 = {	# Sokh
 	culture = ostlander
-	religion = sigmarite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -388,7 +388,7 @@
 ###c_roezfels
 889 = {	# Roezfels
 	culture = ostlander
-	religion = sigmarite
+	religion = catholic
 	holding = castle_holding
 }
 

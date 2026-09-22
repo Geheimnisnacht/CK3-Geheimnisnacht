@@ -2,7 +2,7 @@
 ###c_gotland
 1051 = {	# Holmsteinn
 	culture = sarl
-	religion = northern_gods #norscan
+	religion = catholic #norscan
 	holding = tribal_holding
 }
 
@@ -22,7 +22,7 @@
 ###c_graennae
 1055 = {	# Graennae
 	culture = sarl
-	religion = northern_gods #norscan
+	religion = catholic #norscan
 	holding = tribal_holding
 }
 
@@ -46,7 +46,7 @@
 ###c_wulfsiege
 1060 = {	# Selthis Lysk
 	culture = sarl
-	religion = northern_gods #norscan
+	religion = catholic #norscan
 	holding = tribal_holding
 }
 
@@ -66,7 +66,7 @@
 ###c_hialfisetr
 1064 = {	# Hialfisetr
 	culture = ropsmann
-	religion = ancient_widow #norscan
+	religion = catholic #norscan
 	holding = tribal_holding
 }
 
@@ -84,7 +84,7 @@
 ###c_skraevold
 1067 = {	# Skraevold
 	culture = sarl
-	religion = northern_gods #norscan
+	religion = catholic #norscan
 	holding = tribal_holding
 }
 
@@ -100,7 +100,7 @@
 ###c_galafell
 1070 = {	# Kulum Haugr
 	culture = sibyrian
-	religion = northern_gods #norscan
+	religion = catholic #norscan
 	holding = tribal_holding
 }
 
@@ -120,7 +120,7 @@
 ###c_snundidalr
 1074 = {	# Snundidalr
 	culture = sibyrian
-	religion = northern_gods #norscan
+	religion = catholic #norscan
 	holding = tribal_holding
 }
 
@@ -132,7 +132,7 @@
 ###c_thaariklif
 1076 = {	# Thaariklif
 	culture = sarl
-	religion = northern_gods #norscan
+	religion = catholic #norscan
 	holding = tribal_holding
 }
 
@@ -148,7 +148,7 @@
 ###c_thorshafn
 1079 = {	# Thorshafn
 	culture = sarl
-	religion = northern_gods #norscan
+	religion = catholic #norscan
 	holding = tribal_holding
 }
 
@@ -166,7 +166,7 @@
 ###c_aponnia
 1082 = {	# Aponnia
 	culture = ropsmann
-	religion = ancient_widow #norscan
+	religion = catholic #norscan
 	holding = tribal_holding
 }
 
@@ -186,7 +186,7 @@
 ###c_bolensk
 1086 = {	# Lebyla
 	culture = ropsmann
-	religion = ancient_widow #norscan
+	religion = catholic #norscan
 	holding = tribal_holding
 }
 
@@ -202,7 +202,7 @@
 ###c_styrs_ridge
 1089 = {	# Styrvik
 	culture = ropsmann
-	religion = ancient_widow #norscan
+	religion = catholic #norscan
 	holding = tribal_holding
 }
 
@@ -222,7 +222,7 @@
 ###c_zamak_spanyenya
 1093 = {	# Chamon Dharek
 	culture = ropsmann
-	religion = ancient_widow #norscan
+	religion = catholic #norscan
 	holding = tribal_holding
 }
 
@@ -242,7 +242,7 @@
 ###c_fljotsdalr
 1097 = {	# Ingandklif
 	culture = ropsmann
-	religion = ancient_widow #norscan
+	religion = catholic #norscan
 	holding = tribal_holding
 }
 
@@ -264,7 +264,7 @@
 ###c_dhazyn
 1101 = {	# Dhzayn
 	culture = ropsmann
-	religion = ancient_widow #norscan
+	religion = catholic #norscan
 	holding = tribal_holding
 }
 
@@ -276,7 +276,7 @@
 ###c_kaminski
 1103 = {	# Fort Kaminski
 	culture = sibyrian
-	religion = northern_gods #norscan
+	religion = catholic #norscan
 	holding = tribal_holding
 }
 
@@ -300,7 +300,7 @@
 ###c_kurson_haugr
 1108 = {	# Kurson Haugr
 	culture = ropsmann
-	religion = ancient_widow #norscan
+	religion = catholic #norscan
 	holding = tribal_holding
 }
 
@@ -316,7 +316,7 @@
 ###c_sturen_ridge
 1111 = {	# Vinnskor
 	culture = sibyrian
-	religion = northern_gods #norscan
+	religion = catholic #norscan
 	holding = tribal_holding
 }
 

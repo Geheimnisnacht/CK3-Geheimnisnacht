@@ -3,7 +3,7 @@
 ###c_carcassonne
 2954 = { # Carcassonne
 	culture = carcassonian
-	religion = grail
+	religion = catholic
 	holding = castle_holding
 	6000.1.1 = {
 		buildings = {
@@ -22,7 +22,7 @@
 ###c_Servillon
 2977 = { # Servillon
 	culture = carcassonian
-	religion = grail
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -37,7 +37,7 @@
 ###c_terre_lambard
 2959 = { # Mayogne
 	culture = carcassonian
-	religion = grail
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -56,7 +56,7 @@
 ###c_brussegue
 2960 = { # brusse
 	culture = carcassonian
-	religion = grail
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -71,7 +71,7 @@
 ###c_vielle_marche
 2963 = { # calotte
 	culture = carcassonian
-	religion = shallyan
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -83,7 +83,7 @@
 ###c_morency
 3001 = { # morency
 	culture = carcassonian
-	religion = grail
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -101,7 +101,7 @@
 ###c_tasselonne
 3009 = { # Tasselonne
 	culture = carcassonian
-	religion = shallyan
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -120,7 +120,7 @@
 ###c_embrun
 3005 = { # embrun
 	culture = carcassonian
-	religion = grail
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -141,7 +141,7 @@
 ###c_aix
 2965 = { # Aix-le-comte
 	culture = marcheur
-	religion = grail
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -155,7 +155,7 @@
 ###c_naverre
 2973 = { # Agden
 	culture = marcheur
-	religion = grail
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -173,7 +173,7 @@
 ###c_foivaux
 2969 = { # Roncesaille
 	culture = carcassonian
-	religion = grail
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -193,7 +193,7 @@
 ###c_charboneau
 2980 = { # Charboneau
 	culture = herrimault
-	religion = merry_grail
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -208,7 +208,7 @@
 ###c_loren_pass
 2984 = { # Lyancon
 	culture = herrimault
-	religion = merry_grail
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -223,7 +223,7 @@
 ###c_Paillole
 2994 = { # Paillole
 	culture = herrimault
-	religion = merry_grail
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -239,7 +239,7 @@
 ###c_maisemane
 2987 = { # maisemane
 	culture = herrimault
-	religion = merry_grail
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -258,7 +258,7 @@
 ###c_forac
 2990 = { # forac
 	culture = herrimault
-	religion = merry_grail
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -273,7 +273,7 @@
 ###c_sammergall
 2997 = { # Sammergall Fort
 	culture = herrimault
-	religion = merry_grail
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -288,7 +288,7 @@
 ###c_rivere_vert
 2998 = { # Maisondun
 	culture = herrimault
-	religion = merry_grail
+	religion = catholic
 	holding = castle_holding
 }
 

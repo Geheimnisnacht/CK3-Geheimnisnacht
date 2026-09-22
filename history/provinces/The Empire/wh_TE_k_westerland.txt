@@ -2,7 +2,7 @@
 ###c_marienburg
 8 = {	# Marienburg
 	culture = westerlander
-	religion = manannite
+	religion = catholic
 	holding = castle_holding
 	special_building = marienburg_docks_01
 }
@@ -11,7 +11,7 @@
 ###c_vlakland
 9 = {	# Vlakland
 	culture = westerlander
-	religion = handrichan
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -23,7 +23,7 @@
 ###c_noordmuur
 11 = {	# Noordmuur
 	culture = westerlander
-	religion = manannite
+	religion = catholic
 	holding = city_holding
 }
 
@@ -41,7 +41,7 @@
 ###c_fauligmere
 571 = {	# Leydenhove
 	culture = westerlander
-	religion = handrichan
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -57,7 +57,7 @@
 ###c_zandt
 574 = {	# Zandt
 	culture = westerlander
-	religion = sigmarite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -75,7 +75,7 @@
 ###c_neuotting
 577 = {	# Neuotting
 	culture = westerlander
-	religion = manannite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -99,7 +99,7 @@
 ###c_almshoven
 582 = {	# Almshoven
 	culture = westerlander
-	religion = ranaldian
+	religion = catholic
 	holding = church_holding
 }
 
@@ -125,7 +125,7 @@
 ###c_klessen
 587 = {	# Klessen
 	culture = westerlander
-	religion = handrichan
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -145,7 +145,7 @@
 ###c_markenbinnen
 591 = {	# Markenbinnen
 	culture = westerlander
-	religion = ranaldian
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -169,7 +169,7 @@
 ###c_noordbeemster
 596 = {	# Noordbeemster
 	culture = westerlander
-	religion = sigmarite
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -191,7 +191,7 @@
 ###c_manaanspoort
 600 = {	# Venhuizen
 	culture = westerlander
-	religion = manannite
+	religion = catholic
 	holding = city_holding
 }
 
@@ -207,7 +207,7 @@
 ###c_harenskarpel
 603 = {	# Fort Solace
 	culture = westerlander
-	religion = handrichan
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -225,11 +225,11 @@
 ###c_burren
 606 = {	# Middenmeer
 	culture = westerlander
-	religion = stromfels
+	religion = catholic
 	holding = tribal_holding
 	6500.1.1 = {
 		culture = aesling
-		religion = faith_wastelands_pagan
+		religion = catholic
 		holding = wastelands_holding
 	}
 }
@@ -250,11 +250,11 @@
 ###c_aarnau
 610 = {	# Aarnau
 	culture = westerlander
-	religion = stromfels
+	religion = catholic
 	holding = tribal_holding
 	6500.1.1 = {
 		culture = aesling
-		religion = faith_wastelands_pagan
+		religion = catholic
 		holding = wastelands_holding
 	}
 }
@@ -281,7 +281,7 @@
 ###c_harskamp
 615 = {	# Harskamp
 	culture = aesling
-	religion = faith_wastelands_pagan
+	religion = catholic
 	holding = wastelands_holding
 }
 
@@ -301,7 +301,7 @@
 ###c_vasse
 619 = {	# Vasse
 	culture = aesling
-	religion = faith_wastelands_pagan
+	religion = catholic
 	holding = wastelands_holding
 }
 
@@ -313,7 +313,7 @@
 ###c_velsen
 621 = {	# Velsen
 	culture = westerlander
-	religion = sigmarite
+	religion = catholic
 	holding = church_holding
 }
 
@@ -373,7 +373,7 @@
 ###c_gap_of_berbres
 654 = {	# Fort Bergbres
 	culture = westerlander
-	religion = sigmarite
+	religion = catholic
 	holding = castle_holding
 	122.1.1 = {
 	#special_building = imperial_pass_01
@@ -390,7 +390,7 @@
 ###c_rotterrade
 625 = {	# Westerdorp
 	culture = aesling
-	religion = faith_wastelands_pagan
+	religion = catholic
 	holding = wastelands_holding
 }
 
@@ -418,7 +418,7 @@
 ###c_ankeeven
 631 = {	# Amsterhuizen
 	culture = aesling
-	religion = faith_wastelands_pagan
+	religion = catholic
 	holding = wastelands_holding
 }
 
@@ -440,12 +440,12 @@
 ###c_teltow
 635 = {	# Teltow
 	culture = westerlander
-	religion = ranaldian
+	religion = catholic
 	holding = tribal_holding
 
 	6500.1.1 = {
 		culture = aesling
-		religion = faith_wastelands_pagan
+		religion = catholic
 		holding = wastelands_holding
 	}
 }
@@ -470,7 +470,7 @@
 ###c_saar
 640 = {	# Saar
 	culture = westerlander
-	religion = ranaldian
+	religion = catholic
 	holding = tribal_holding
 }
 
@@ -484,11 +484,11 @@
 
 641 = {	# Huuzel
 	culture = westerlander
-	religion = ranaldian	
+	religion = catholic	
 	holding = tribal_holding
 	6500.1.1 = {
 		culture = aesling
-		religion = faith_wastelands_pagan
+		religion = catholic
 		holding = wastelands_holding
 	}
 }
@@ -500,11 +500,11 @@
 ###c_landrel_barrow
 644 = {	# Grave
 	culture = westerlander
-	religion = ranaldian
+	religion = catholic
 	holding = tribal_holding
 	6500.1.1 = {
 		culture = aesling
-		religion = faith_wastelands_pagan
+		religion = catholic
 		holding = wastelands_holding
 	}
 }
@@ -523,11 +523,11 @@
 ###c_dornhan
 647 = {	# Dornhan
 	culture = westerlander
-	religion = ranaldian
+	religion = catholic
 	holding = tribal_holding
 	6500.1.1 = {
 		culture = aesling
-		religion = faith_wastelands_pagan
+		religion = catholic
 		holding = wastelands_holding
 	}
 }
@@ -540,11 +540,11 @@
 ###c_sankt_veit
 649 = {	# Sankt Veit
 	culture = westerlander
-	religion = manannite
+	religion = catholic
 	holding = tribal_holding
 	6500.1.1 = {
 		culture = aesling
-		religion = faith_wastelands_pagan
+		religion = catholic
 		holding = wastelands_holding
 	}
 }
@@ -557,11 +557,11 @@
 ###c_slodrecht
 651 = {	# Slodrecht
 	culture = westerlander
-	religion = manannite
+	religion = catholic
 	holding = tribal_holding
 	6500.1.1 = {
 		culture = aesling
-		religion = faith_wastelands_pagan
+		religion = catholic
 		holding = wastelands_holding
 	}
 }

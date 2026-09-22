@@ -3,7 +3,7 @@
 ###c_sartosa
 2114 = { #castello_degli_pirati
 	culture = sartosan_tilean
-	religion = stromfels
+	religion = catholic
 
 	holding = castle_holding
 	6000.1.1 = {
@@ -29,7 +29,7 @@
 ###c_caprio
 2120 = { #caprio
 	culture = sartosan_tilean
-	religion = stromfels
+	religion = catholic
 
 	holding = castle_holding
 }
@@ -46,7 +46,7 @@
 ###c_pelremo
 2124 = { #montag_lok
 	culture = sartosan_tilean
-	religion = stromfels
+	religion = catholic
 
 	holding = castle_holding
 }
@@ -60,7 +60,7 @@
 ###c_vercuso
 2127 = { #vercuso
 	culture = sartosan_tilean
-	religion = stromfels
+	religion = catholic
 
 	holding = castle_holding
 }
@@ -81,7 +81,7 @@
 ###c_metla
 2132 = { #valta
 	culture = sartosan_tilean
-	religion = stromfels
+	religion = catholic
 
 	holding = castle_holding
 }
