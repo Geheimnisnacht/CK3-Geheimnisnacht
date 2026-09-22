@@ -246,7 +246,7 @@ hochlander = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain	
 	traditions = {
-#		tradition_hochlander_tradition
+		# tradition_hochlander_tradition
 		tradition_hill_dwellers #placeholder
 		tradition_forest_fighters
 		tradition_hunters
@@ -364,7 +364,7 @@ middenlander = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain	
 	traditions = {
-#		tradition_middenlander_tradition
+		# tradition_middenlander_tradition
 		tradition_castle_keepers #placeholder
 		tradition_forest_fighters
 		tradition_staunch_traditionalists
@@ -683,7 +683,7 @@ ostermarker = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
-#		tradition_ostermark_tradition
+		# tradition_ostermark_tradition
 		tradition_isolationist #placeholder
 		tradition_horse_breeder
 		tradition_festivities

@@ -352,7 +352,7 @@ endal = { #Westerlanders, honorable
 	clothing_gfx = { northern_clothing_gfx } 
 	unit_gfx = { norse_unit_gfx } 
 
-ethnicities = {
+	ethnicities = {
 		2 = european_caucasian_german_1
 		2 = european_caucasian_german_2
 		2 = european_caucasian_german_3
@@ -438,7 +438,7 @@ ethnicities = {
 		2 = epe_random_european_01
 		2 = epe_random_european_01
 		2 = epe_random_european_01
-	}
+	}	
 }
 
 fennone = { #Sylvanians, xenophobic as all hell
@@ -463,7 +463,7 @@ fennone = { #Sylvanians, xenophobic as all hell
 	clothing_gfx = { northern_clothing_gfx } 
 	unit_gfx = { norse_unit_gfx } 
 
-ethnicities = {
+	ethnicities = {
 		2 = european_caucasian_german_1
 		2 = european_caucasian_german_2
 		2 = european_caucasian_german_3
@@ -586,7 +586,7 @@ jutones = { #Nordlanders, don't join the empire at first, half barbarians
 	clothing_gfx = { northern_clothing_gfx } 
 	unit_gfx = { norse_unit_gfx } 
 
-ethnicities = {
+	ethnicities = {
 		2 = european_caucasian_german_1
 		2 = european_caucasian_german_2
 		2 = european_caucasian_german_3
@@ -697,7 +697,7 @@ menogoth = { #Sollanders, less warlike
 	clothing_gfx = { northern_clothing_gfx } 
 	unit_gfx = { norse_unit_gfx } 
 
-ethnicities = {
+	ethnicities = {
 		2 = european_caucasian_german_1
 		2 = european_caucasian_german_2
 		2 = european_caucasian_german_3
@@ -808,7 +808,7 @@ merogen = { #Wissenlander
 	clothing_gfx = { northern_clothing_gfx } 
 	unit_gfx = { norse_unit_gfx } 
 
-ethnicities = {
+	ethnicities = {
 		2 = european_caucasian_german_1
 		2 = european_caucasian_german_2
 		2 = european_caucasian_german_3
@@ -918,7 +918,7 @@ ostagoth = { #Ostermarker
 	clothing_gfx = { northern_clothing_gfx } 
 	unit_gfx = { norse_unit_gfx } 
 
-ethnicities = {
+	ethnicities = {
 		2 = european_caucasian_german_1
 		2 = european_caucasian_german_2
 		2 = european_caucasian_german_3
@@ -1028,7 +1028,7 @@ taleuten = { #Talabeclanders, heavy cav
 	clothing_gfx = { northern_clothing_gfx } 
 	unit_gfx = { norse_unit_gfx } 
 
-ethnicities = {
+	ethnicities = {
 		2 = european_caucasian_german_1
 		2 = european_caucasian_german_2
 		2 = european_caucasian_german_3
@@ -1139,7 +1139,7 @@ teutogen = { #Middenland best, middenland best, very religious
 	clothing_gfx = { northern_clothing_gfx } 
 	unit_gfx = { norse_unit_gfx } 
 
-ethnicities = {
+	ethnicities = {
 		2 = european_caucasian_german_1
 		2 = european_caucasian_german_2
 		2 = european_caucasian_german_3
@@ -1250,7 +1250,7 @@ thuringian = { #Drakwalders, very barbaric warlike etc
 	clothing_gfx = { northern_clothing_gfx } 
 	unit_gfx = { norse_unit_gfx } 
 
-ethnicities = {
+	ethnicities = {
 		2 = european_caucasian_german_1
 		2 = european_caucasian_german_2
 		2 = european_caucasian_german_3
@@ -1361,7 +1361,7 @@ udoses = { #Ostlanders, very defensive
 	clothing_gfx = { northern_clothing_gfx } 
 	unit_gfx = { norse_unit_gfx } 
 
-ethnicities = {
+	ethnicities = {
 		2 = european_caucasian_german_1
 		2 = european_caucasian_german_2
 		2 = european_caucasian_german_3
@@ -1472,7 +1472,7 @@ unberogen = { #Reikland duh, very religious
 	clothing_gfx = { northern_clothing_gfx } 
 	unit_gfx = { norse_unit_gfx } 
 
-ethnicities = {
+	ethnicities = {
 		2 = european_caucasian_german_1
 		2 = european_caucasian_german_2
 		2 = european_caucasian_german_3
