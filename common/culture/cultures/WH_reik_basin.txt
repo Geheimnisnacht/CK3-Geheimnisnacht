@@ -131,7 +131,7 @@ brigundian = { #Averlanders, archer cav speciality
 	clothing_gfx = { brigundian_clothing_gfx } #WHG TODO
 	unit_gfx = { norse_unit_gfx } 
 
-ethnicities = {
+	ethnicities = {
 		2 = european_caucasian_german_1
 		2 = european_caucasian_german_2
 		2 = european_caucasian_german_3
@@ -241,7 +241,7 @@ cherusen = { #Hochlanders, more peaceful, skirmishers and archers, get hornist t
 	clothing_gfx = { northern_clothing_gfx } #WHG TODO
 	unit_gfx = { norse_unit_gfx } 
 
-ethnicities = {
+	ethnicities = {
 		2 = european_caucasian_german_1
 		2 = european_caucasian_german_2
 		2 = european_caucasian_german_3
