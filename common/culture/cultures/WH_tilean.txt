@@ -146,11 +146,9 @@ miraglian = {
 	traditions = {
 		tradition_maritime_mercantilism
 		tradition_stand_and_fight
-#		tradition_tilean_republican_legacy
-		tradition_republican_legacy #placeholder
+		tradition_tilean_republican_legacy
 		tradition_artisans
-#		tradition_dogs_of_war	
-		tradition_swords_for_hire #placeholder
+		tradition_dogs_of_war	
 	}
 	
 	name_list = miraglian_name_list
@@ -281,11 +279,9 @@ oltremari = {
 	head_determination = head_determination_domain	
 	traditions = {
 		tradition_culture_blending
-		# tradition_tilean_republican_legacy
-		tradition_republican_legacy #placeholder
+		tradition_tilean_republican_legacy
 		tradition_formation_fighting
-		# tradition_dogs_of_war
-		tradition_swords_for_hire #placeholder
+		tradition_dogs_of_war
 	}
 	
 	name_list = oltremari_name_list
@@ -417,8 +413,7 @@ reman = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain	
 	traditions = {
-#		tradition_tilean_republican_legacy
-		tradition_republican_legacy #placeholder
+		tradition_tilean_republican_legacy
 		tradition_legalistic
 		tradition_maritime_mercantilism
 		tradition_formation_fighting
@@ -500,13 +495,11 @@ tobaran = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain	
 	traditions = {
-#		tradition_tilean_republican_legacy
-		tradition_republican_legacy #placeholder
+		tradition_tilean_republican_legacy
 		tradition_stalwart_defenders
 		tradition_isolationist
 		tradition_mountaineers
-#		tradition_dogs_of_war
-		tradition_swords_for_hire #placeholder
+		tradition_dogs_of_war
 	}
 	
 	name_list = tobaran_name_list
@@ -661,11 +654,9 @@ umbrian = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain	
 	traditions = {
-#		tradition_tilean_republican_legacy
-		tradition_republican_legacy #placeholder
+		tradition_tilean_republican_legacy
 		tradition_eye_for_an_eye
-#		tradition_dogs_of_war
-		tradition_swords_for_hire #placeholder
+		tradition_dogs_of_war
 	}
 	
 	name_list = umbrian_name_list

@@ -11,8 +11,7 @@
 	traditions = {
 		tradition_xenophilic
 		tradition_hit_and_run
-		# tradition_estalian_medicine
-		tradition_charitable #placeholder
+		tradition_estalian_medicine
 	}
 	
 	name_list = astur_name_list
@@ -111,8 +110,7 @@ avilian = {
 		tradition_chivalry
 		tradition_fervent_temple_builders
 		tradition_martial_admiration
-#		tradition_estalian_medicine
-		tradition_charitable #placeholder
+		tradition_estalian_medicine
 	}
 	
 	name_list = avilian_name_list
@@ -210,8 +208,7 @@ galice = {
 	traditions = {
 		tradition_agrarian
 		tradition_highland_warriors
-#		tradition_estalian_medicine
-		tradition_charitable #placeholder
+		tradition_estalian_medicine
 		tradition_fishermen
 	}
 	
@@ -309,8 +306,7 @@ montanese = {
 	head_determination = head_determination_domain		
 	traditions = {
 	#	tradition_norteno_codes
-#		tradition_fp1_estalian_duel
-		tradition_quarrelsome #placeholder
+		tradition_fp1_estalian_duel
 		tradition_mountain_homes
 		tradition_wedding_ceremonies
 	}
@@ -515,8 +511,7 @@ norteno = {
 		tradition_maritime_mercantilism
 		tradition_parochialism
 		tradition_poetry
-#		tradition_fp1_estalian_duel
-		tradition_quarrelsome #placeholder
+		tradition_fp1_estalian_duel
 	}
 	
 	name_list = norteno_name_list
@@ -824,8 +819,7 @@ comarcano = {
 		tradition_culture_blending
 		tradition_castle_keepers
 	#	tradition_norteno_codes
-		# tradition_fp1_estalian_duel
-		tradition_quarrelsome #placeholder
+		tradition_fp1_estalian_duel
 	}
 	
 	name_list = comarcano_name_list
@@ -1020,8 +1014,7 @@ sureno = { # "Andalusian" Estalians
 	traditions = {
 		tradition_hit_and_run
 		tradition_xenophilic
-		# tradition_estalian_medicine
-		tradition_charitable #placeholder
+		tradition_estalian_medicine
 	}
 	
 	name_list = sureno_name_list

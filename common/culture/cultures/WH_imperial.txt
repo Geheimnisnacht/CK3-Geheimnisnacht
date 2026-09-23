@@ -9,8 +9,7 @@
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
-#		tradition_moon_touched
-		tradition_storytellers #placeholder
+		tradition_moon_touched
 		tradition_life_is_just_a_joke
 		tradition_agrarian
 		tradition_pastoralists
@@ -127,8 +126,7 @@ drakwalder = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain	
 	traditions = {
-#		tradition_drakwalder_legacy
-		tradition_isolationist #placeholder
+		tradition_drakwalder_legacy
 		tradition_forest_fighters
 		tradition_hunters
 		tradition_festivities
@@ -246,8 +244,7 @@ hochlander = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain	
 	traditions = {
-		# tradition_hochlander_tradition
-		tradition_hill_dwellers #placeholder
+		tradition_hochlander_tradition
 		tradition_forest_fighters
 		tradition_hunters
 		tradition_welcoming
@@ -364,8 +361,7 @@ middenlander = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain	
 	traditions = {
-		# tradition_middenlander_tradition
-		tradition_castle_keepers #placeholder
+		tradition_middenlander_tradition
 		tradition_forest_fighters
 		tradition_staunch_traditionalists
 		tradition_reverence_for_veterans
@@ -482,8 +478,7 @@ nordlander = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain	
 	traditions = {
-#		tradition_nordland_tradition
-		tradition_seafaring #placeholder
+		tradition_nordland_tradition
 		tradition_loyal_soldiers
 		tradition_warrior_culture
 	}
@@ -683,8 +678,7 @@ ostermarker = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
-		# tradition_ostermark_tradition
-		tradition_isolationist #placeholder
+		tradition_ostermark_tradition
 		tradition_horse_breeder
 		tradition_festivities
 		tradition_stalwart_defenders
@@ -730,8 +724,7 @@ ostlander = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain	
 	traditions = {
-#		tradition_ostland_tradition
-		tradition_forest_folk #placeholder
+		tradition_ostland_tradition
 		tradition_stand_and_fight
 		tradition_martial_admiration
 		tradition_wedding_ceremonies
@@ -849,8 +842,7 @@ reiklander = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain	
 	traditions = {
-#		tradition_reiklander_tradition
-		tradition_city_keepers #placeholder
+		tradition_reiklander_tradition
 		tradition_astute_diplomats
 		tradition_welcoming
 		tradition_martial_admiration
@@ -1084,8 +1076,7 @@ stirlander = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain	
 	traditions = {
-#		tradition_stirland_tradition
-		tradition_hard_working #placeholder
+		tradition_stirland_tradition
 		tradition_forbearing
 		tradition_isolationist
 		tradition_agrarian
@@ -1160,13 +1151,11 @@ sylvanian = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain	
 	traditions = {
-#		tradition_sylvanian_tradition
-		tradition_hidden_cities #placeholder
+		tradition_sylvanian_tradition
 		tradition_isolationist
 		tradition_staunch_traditionalists
 		tradition_agrarian
-#		tradition_vampiric_ambition #place holder
-		tradition_zealous_people #placeholder
+		tradition_vampiric_ambition #place holder
 	}
 
 	name_list = sylvanian_name_list
@@ -1240,8 +1229,7 @@ talabeclander = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain	
 	traditions = {
-#		tradition_talabeclander_tradition
-		tradition_philosopher_culture #placeholder
+		tradition_talabeclander_tradition
 		#tradition_forest_folk
 		tradition_forbearing
 		tradition_equitable
@@ -1358,8 +1346,7 @@ westerlander = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain	
 	traditions = {
-#		tradition_westerlander_tradition
-		tradition_maritime_mercantilism #placeholder
+		tradition_westerlander_tradition
 		tradition_hard_working
 		tradition_xenophilic
 		tradition_wetlanders
@@ -1476,8 +1463,7 @@ wissenlander = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain	
 	traditions = {
-#		tradition_wissenlander_tradition
-		tradition_family_entrepreneurship #placeholder
+		tradition_wissenlander_tradition
 		tradition_faith_bound
 		tradition_hard_working
 		tradition_metal_craftsmanship

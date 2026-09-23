@@ -278,8 +278,7 @@ sartosan_tilean = {
 		tradition_practiced_pirates
 		tradition_seafaring
 		tradition_equal_inheritance
-		# tradition_dogs_of_war
-		tradition_swords_for_hire #placeholder
+		tradition_dogs_of_war
 	}
 
 	dlc_tradition = {
@@ -365,8 +364,7 @@ sartosan_estalian = {
 		tradition_seafaring
 		tradition_stand_and_fight
 		tradition_battlefield_looters
-		# tradition_fp1_estalian_duel
-		tradition_quarrelsome #placeholder
+		tradition_fp1_estalian_duel
 	}
 	
 	name_list = sartosan_tilean_name_list

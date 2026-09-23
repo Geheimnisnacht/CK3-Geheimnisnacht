@@ -131,8 +131,7 @@ bordelen = { #Duchy of Bordelaux
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain		
 	traditions = {
-#		tradition_bordelen_tradition
-		tradition_pastoralists #placeholder
+		tradition_bordelen_tradition
 		tradition_maritime_mercantilism
 		tradition_agrarian
 	}
@@ -248,8 +247,7 @@ gisoren = { #Duchy of Gisoreux
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain		
 	traditions = {
-#		tradition_gisoreux_tradition
-		tradition_agrarian #placeholder
+		tradition_gisoreux_tradition
 		tradition_stalwart_defenders
 		tradition_esteemed_hospitality
 		tradition_adaptive_skirmishing
@@ -366,8 +364,7 @@ artoin = { #Duchy of Artois
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain	
 	traditions = {
-#		tradition_artoin_tradition
-		tradition_pastoralists #placeholder
+		tradition_artoin_tradition
 		tradition_hunters
 		tradition_isolationist
 		tradition_strong_kinship
@@ -484,8 +481,7 @@ mousillonian = { #Duchy of Mousillon
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain		
 	traditions = {
-#		tradition_mousillon_tradition
-		tradition_castle_keepers #placeholder
+		tradition_mousillon_tradition
 		tradition_wetlanders
 		tradition_isolationist
 		tradition_spartan 
@@ -604,8 +600,7 @@ parravonese = { #Duchy of Parravon
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain		
 	traditions = {
-		# tradition_parravonese_tradition
-		tradition_agrarian #placeholder
+		tradition_parravonese_tradition
 		tradition_sacred_groves
 		tradition_strong_kinship #remove unique MAA stuff from this one.
 		tradition_stand_and_fight
@@ -722,8 +717,7 @@ monfortian = { #Duchy of Montfort
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain		
 	traditions = {
-#		tradition_montfort_tradition
-		tradition_hill_dwellers #placeholder
+		tradition_montfort_tradition
 		tradition_ancient_miners
 	}
 	
@@ -839,8 +833,7 @@ carcassonian = { #Duchy of Carcassonne
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain		
 	traditions = {
-#		tradition_carcasonne_tradition
-		tradition_agrarian #placeholder
+		tradition_carcasonne_tradition
 		tradition_warrior_culture
 		tradition_warriors_by_merit
 		tradition_pastoralists
@@ -946,8 +939,7 @@ brionnian = { #Duchy of Brionne
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain		
 	traditions = {
-#	 	tradition_brionne_tradition
-	 	tradition_monastic_communities #placeholder
+	 	tradition_brionne_tradition
 		#Make a unique reverse UNO version of Spartan
 		tradition_poetry
 		tradition_culinary_art
@@ -1164,8 +1156,7 @@ aquitanian = { #Duchy of Aquitain
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain		
 	traditions = {
-#		tradition_aquitanian_tradition
-		tradition_agrarian #placeholder
+		tradition_aquitanian_tradition
 		tradition_fishermen
 	}
 
@@ -1276,8 +1267,7 @@ couronnean = { #Duchy of Couronne
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain		
 	traditions = {
-#		tradition_couronnean_tradition
-		tradition_esteemed_hospitality #placeholder
+		tradition_couronnean_tradition
 		tradition_horse_breeder #obviously remove the MAA from this one.
 		tradition_equitable
 	}
@@ -1438,8 +1428,7 @@ l_anguillen = { #L ANGUILE HON HON
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain		
 	traditions = {
-		# tradition_languile_tradition
-		tradition_wetlanders #placeholder
+		tradition_languile_tradition
 		tradition_maritime_mercantilism
 		tradition_seafaring
 	}
@@ -1770,8 +1759,7 @@ herrimault = {
 		tradition_hit_and_run
 		tradition_collective_lands
 		tradition_life_is_just_a_joke
-		# tradition_crownless_lords
-		tradition_hereditary_hierarchy #placeholder
+		tradition_crownless_lords
 	}
 
 	name_list = name_list_herrimault
@@ -2090,11 +2078,9 @@ marcheur = { #Estalian Brets
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain		
 	traditions = {
-		# tradition_carcasonne_tradition
-		tradition_pastoralists #placeholder
+		tradition_carcasonne_tradition
 		# tradition_norteno_codes
-		# tradition_fp1_estalian_duel
-		tradition_quarrelsome #placeholder
+		tradition_fp1_estalian_duel
 		tradition_stalwart_defenders
 	}
 	
