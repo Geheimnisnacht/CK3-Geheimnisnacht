@@ -4,7 +4,7 @@
 
 2155 = { # Montfort
 	culture = monfortian
-	religion = catholic
+	religion = grail
 	holding = castle_holding
 	6000.1.1 = { 
 		#special_building = castle_montfort_01
@@ -34,7 +34,7 @@
 ###c_roderre
 2165 = { # Ux
 	culture = monfortian
-	religion = catholic
+	religion = shallyan
 	holding = castle_holding
 }
 
@@ -45,7 +45,7 @@
 ###c_Beaix
 2161 = { # Chateauclair
 	culture = monfortian
-	religion = catholic
+	religion = grail
 	holding = castle_holding
 	6000.1.1 = { 
 		#special_building = montfort_mines_01
@@ -67,7 +67,7 @@
 ###c_occam
 2157 = { # Occam
 	culture = monfortian
-	religion = catholic
+	religion = grail
 	holding = castle_holding
 }
 
@@ -83,7 +83,7 @@
 ###c_Gamey
 2169 = { # Gamelin
 	culture = monfortian
-	religion = catholic
+	religion = grail
 	holding = castle_holding
 }
 
@@ -98,7 +98,7 @@
 ###c_lorsac
 2172 = { # Nantebourg
 	culture = monfortian
-	religion = catholic
+	religion = shallyan
 	holding = castle_holding
 }
 
@@ -109,7 +109,7 @@
 ###c_le_col
 2170 = { # Fourier
 	culture = monfortian
-	religion = catholic
+	religion = grail
 	holding = castle_holding
 	6000.1.1 = { 
 		#special_building_slot = montfort_mines_01

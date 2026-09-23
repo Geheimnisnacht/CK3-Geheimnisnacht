@@ -2,13 +2,13 @@
 ###c_sigmaringen
 272 = {	# Sigmaringen
 	culture = sylvanian
-	religion = catholic
+	religion = morrian
 	holding = castle_holding
 }
 
 273 = {	# Geihselhoff
 	culture = sylvanian
-	religion = catholic
+	religion = morrian
 	holding = castle_holding
 }
 
@@ -28,7 +28,7 @@
 ###c_schramleben
 275 = {	# Schramleben
 	culture = sylvanian
-	religion = catholic
+	religion = morrian
 	holding = castle_holding
 }
 
@@ -56,7 +56,7 @@
 
 356 = {	# Poysdenz
 	culture = sylvanian
-	religion = catholic
+	religion = arisen_dead
 	holding = castle_holding
 }
 
@@ -66,7 +66,7 @@
 ###c_siegfriedhof
 324 = {	# Siegfriedhof
 	culture = sylvanian
-	religion = catholic
+	religion = morrian
 	holding = castle_holding
 }
 
@@ -86,7 +86,7 @@
 ###c_vierstein
 328 = {	# Morrfen
 	culture = sylvanian
-	religion = catholic
+	religion = morrian
 	holding = castle_holding
 }
 
@@ -98,7 +98,7 @@
 ###c_sternieste
 330 = {	# Sternieste
 	culture = sylvanian
-	religion = catholic
+	religion = arisen_dead
 	holding = castle_holding
 }
 
@@ -112,7 +112,7 @@
 ###c_koenigstein
 332 = {	# Koenigstein
 	culture = sylvanian
-	religion = catholic
+	religion = arisen_dead
 	holding = castle_holding
 }
 
@@ -126,7 +126,7 @@
 
 335 = {	# Bylorhof
 	culture = sylvanian
-	religion = catholic
+	religion = arisen_dead
 	holding = castle_holding
 }
 
@@ -138,7 +138,7 @@
 ###c_leicheberg
 339 = {	# Leicheberg
 	culture = sylvanian
-	religion = catholic
+	religion = arisen_dead
 	holding = castle_holding
 }
 
@@ -160,7 +160,7 @@
 ###c_brachland
 343 = {	# Bracher
 	culture = sylvanian
-	religion = catholic
+	religion = arisen_dead
 	holding = castle_holding
 }
 
@@ -178,7 +178,7 @@
 
 347 = {	# Kirchhaus
 	culture = sylvanian
-	religion = catholic
+	religion = arisen_dead
 	holding = castle_holding
 }
 
@@ -186,7 +186,7 @@
 ###c_fennonhuegel
 348 = {	# Konradswache
 	culture = sylvanian
-	religion = catholic
+	religion = arisen_dead
 	holding = castle_holding
 }
 
@@ -212,7 +212,7 @@
 ###c_tempelhof
 357 = {	# Castle Tempelhof
 	culture = sylvanian
-	religion = catholic
+	religion = arisen_dead
 	holding = castle_holding
 }
 
@@ -232,7 +232,7 @@
 ###c_nachthafen
 362 = {# Nachtschlosse 
 	culture = sylvanian
-	religion = catholic
+	religion = arisen_dead
 	holding = castle_holding
 }
 
@@ -252,7 +252,7 @@
 ###c_senkehof
 365 = {	# Senkehof
 	culture = sylvanian
-	religion = catholic
+	religion = arisen_dead
 	holding = castle_holding
 }
 
@@ -268,7 +268,7 @@
 ###c_drakenhof
 368 = {	# Castle Drakenhof
 	culture = sylvanian
-	religion = catholic
+	religion = arisen_dead
 	holding = castle_holding
 	##special_building = carstein_hall_01
 }
@@ -287,7 +287,7 @@
 ###c_vanhaldenhof
 371 = {	# Vanhaldenschlosse
 	culture = sylvanian
-	religion = catholic
+	religion = arisen_dead
 	holding = castle_holding
 }
 
@@ -307,7 +307,7 @@
 ###c_mikaldorf
 375 = {	# Mikaldorf
 	culture = sylvanian
-	religion = catholic
+	religion = arisen_dead
 	holding = castle_holding
 }
 
@@ -327,7 +327,7 @@
 ###c_wartenhof
 379 = {	# Schloss Wartenhof
 	culture = sylvanian
-	religion = catholic
+	religion = arisen_dead
 	holding = castle_holding
 }
 
@@ -343,7 +343,7 @@
 ###c_waldenhof
 382 = {	# Waldenhof
 	culture = sylvanian
-	religion = catholic
+	religion = arisen_dead
 	holding = castle_holding
 }
 
@@ -361,7 +361,7 @@
 
 386 = {	# Seppel
 	culture = sylvanian
-	religion = catholic
+	religion = arisen_dead
 	holding = castle_holding
 }
 

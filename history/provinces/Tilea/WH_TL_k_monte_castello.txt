@@ -3,7 +3,7 @@
 ###c_monte_castello
 1914 = { #monte_castello
 	culture = lucian
-	religion = catholic
+	religion = myrmidian_eastern
 	holding = castle_holding
 	6000.1.1 = {
 		#special_building = monte_castello_01
@@ -28,7 +28,7 @@
 ###c_pugno
 1919 = { #pugno
 	culture = lucian
-	religion = catholic
+	religion = gunndredian
 	holding = castle_holding
 }
 1920 = { #piccolla_pugno
@@ -42,7 +42,7 @@
 ###c_luparno
 1922 = { #luparno
 	culture = lucian
-	religion = catholic
+	religion = myrmidian_eastern
 	holding = castle_holding
 }
 1923 = { #salagno
@@ -55,7 +55,7 @@
 ###c_sussurrio_wood
 1925 = { #silve
 	culture = lucian
-	religion = catholic
+	religion = myrmidian_eastern
 	holding = castle_holding
 }
 1926 = { #loccocino

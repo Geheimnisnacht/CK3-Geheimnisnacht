@@ -2,7 +2,7 @@
 ###c_averheim
 220 = {	# Averburg
 	culture = averlander
-	religion = catholic
+	religion = sigmarite
 	holding = castle_holding
 }
 
@@ -22,7 +22,7 @@
 ###c_heideck
 224 = {	# Heideck
 	culture = averlander
-	religion = catholic
+	religion = sigmarite
 	holding = castle_holding
 }
 
@@ -38,7 +38,7 @@
 ###c_streissen
 227 = {	# Streissen
 	culture = averlander
-	religion = catholic
+	religion = taalite
 	holding = castle_holding
 }
 
@@ -48,7 +48,7 @@
 
 229 = {	# Kerpen
 	culture = averlander
-	religion = catholic
+	religion = morrian
 	holding = castle_holding
 }
 
@@ -66,7 +66,7 @@
 ###c_lengenfeld
 232 = {	# Lengenfeld
 	culture = averlander
-	religion = catholic
+	religion = taalite
 	holding = castle_holding
 }
 
@@ -86,7 +86,7 @@
 ###c_colmfaehre
 236 = {	# Colmfaehre
 	culture = averlander
-	religion = catholic
+	religion = shallyan
 	holding = castle_holding
 }
 
@@ -114,7 +114,7 @@
 ###c_bernloch
 242 = {	# Bernloch
 	culture = averlander
-	religion = catholic
+	religion = sheirrichan
 	holding = none
 }
 
@@ -124,7 +124,7 @@
 
 244 = {	# Fehman
 	culture = averlander
-	religion = catholic
+	religion = myrmidian
 	holding = castle_holding
 }
 
@@ -140,7 +140,7 @@
 ###c_wuppertal
 247 = {	# Wuppertal
 	culture = averlander
-	religion = catholic
+	religion = myrmidian
 	holding = castle_holding
 }
 
@@ -152,7 +152,7 @@
 ###c_longingbruck
 249 = {	# Longingbruck
 	culture = averlander
-	religion = catholic
+	religion = myrmidian
 	holding = castle_holding
 }
 
@@ -174,13 +174,13 @@
 ###c_Flachland
 253 = {	#Flachland
 	culture = averlander
-	religion = catholic
+	religion = myrmidian
 	holding = castle_holding
 }
 
 254 = {	# Pfungzig
 	culture = averlander
-	religion = catholic
+	religion = sigmarite
 	holding = castle_holding
 }
 
@@ -200,7 +200,7 @@
 ###c_hocheleben
 258 = {	# Hocheleben
 	culture = averlander
-	religion = catholic
+	religion = myrmidian
 	holding = castle_holding
 }
 
@@ -216,7 +216,7 @@
 ###c_grenzstadt
 261 = {	# Grenzstadt
 	culture = averlander
-	religion = catholic
+	religion = myrmidian
 	holding = castle_holding
 }
 
@@ -232,7 +232,7 @@
 ###c_niebelwald
 264 = {	# Ingelfingen
 	culture = averlander
-	religion = catholic
+	religion = sigmarite
 	holding = castle_holding
 }
 
@@ -252,7 +252,7 @@
 ###c_black_fire_pass
 270 = {	# Vossheim
 	culture = averlander
-	religion = catholic
+	religion = sigmarite
 	holding = church_holding
 }
 

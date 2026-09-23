@@ -2,7 +2,7 @@
 ###c_nuln
 14 = {	# Nuln
 	culture = wissenlander
-	religion = catholic
+	religion = sigmarite
 	holding = castle_holding
 	#special_building_slot = nuln_cannon_foundry_01
 }
@@ -10,7 +10,7 @@
 ###c_hinterland
 15 = {	# Brandstadt
 	culture = wissenlander
-	religion = catholic
+	religion = taalite
 	holding = church_holding
 }
 
@@ -26,7 +26,7 @@
 ###c_eidelwiss
 18 = {	# Konigsdorf
 	culture = wissenlander
-	religion = catholic
+	religion = taalite
 	holding = castle_holding
 }
 
@@ -44,7 +44,7 @@
 ###c_grissenwald
 158 = {	# Grissenwald
 	culture = wissenlander
-	religion = catholic
+	religion = taalite
 	holding = castle_holding
 }
 
@@ -60,7 +60,7 @@
 ###c_wissenburg
 161 = {	# Wissenburg
 	culture = wissenlander
-	religion = catholic
+	religion = sigmarite
 	holding = castle_holding
 }
 
@@ -84,7 +84,7 @@
 ###c_durbheim
 166 = {	# Durbheim
 	culture = wissenlander
-	religion = catholic
+	religion = ahaltan
 	holding = castle_holding
 }
 
@@ -96,7 +96,7 @@
 ###c_wurmgrube
 168 = {	# Wurmgrube
 	culture = wissenlander
-	religion = catholic
+	religion = sigmarite
 	holding = castle_holding
 }
 
@@ -120,7 +120,7 @@
 ###c_kelgard
 173 = {	# Kelgard
 	culture = wissenlander
-	religion = catholic
+	religion = sigmarite
 	holding = castle_holding
 }
 
@@ -138,7 +138,7 @@
 ###c_wusterberg
 176 = {	# Wusterberg
 	culture = wissenlander
-	religion = catholic
+	religion = taalite
 	holding = castle_holding
 }
 
@@ -166,7 +166,7 @@
 ###c_kreutzhofen
 182 = {	# Kreutzhofen
 	culture = wissenlander
-	religion = catholic
+	religion = myrmidian
 	holding = castle_holding
 }
 
@@ -182,7 +182,7 @@
 ###c_oshausen
 185 = {	# Oshausen
 	culture = wissenlander
-	religion = catholic
+	religion = ahaltan
 	holding = city_holding
 }
 
@@ -200,7 +200,7 @@
 ###c_pfeildorf
 188 = {	# Pfeildorf
 	culture = sollander
-	religion = catholic
+	religion = sollian
 	holding = castle_holding
 }
 
@@ -212,7 +212,7 @@
 ###c_sexau
 190 = {	# Sexau
 	culture = sollander
-	religion = catholic
+	religion = sigmarite
 	holding = castle_holding
 }
 
@@ -226,7 +226,7 @@
 ###c_wittenhausen
 192 = {	# Wittenhausen
 	culture = sollander
-	religion = catholic
+	religion = taalite
 	holding = castle_holding
 }
 
@@ -246,7 +246,7 @@
 ###c_pforzen
 196 = {	# Pforzen
 	culture = sollander
-	religion = catholic
+	religion = sollian
 	holding = castle_holding
 }
 
@@ -262,7 +262,7 @@
 ###c_staig
 199 = {	# Staig
 	culture = sollander	
-	religion = catholic
+	religion = sollian
 	holding = castle_holding
 }
 
@@ -276,7 +276,7 @@
 
 202 = {	# Ahaus
 	culture = sollander	
-	religion = catholic
+	religion = sollian
 	holding = castle_holding
 }
 
@@ -294,7 +294,7 @@
 ###c_steingart
 205 = {	# Osterzell
 	culture = sollander
-	religion = catholic
+	religion = taalite
 	holding = castle_holding
 }
 
@@ -314,7 +314,7 @@
 ###c_aulen
 209 = {	# Sochtenau
 	culture = sollander
-	religion = catholic
+	religion = sigmarite
 	holding = castle_holding
 }
 
@@ -334,7 +334,7 @@
 ###c_kroppenleben
 213 = {	# Pahl
 	culture = sollander
-	religion = catholic
+	religion = sollian
 	holding = castle_holding
 }
 
@@ -350,7 +350,7 @@
 ###c_ummenbach
 216 = {	# Ummenbach
 	culture = sollander
-	religion = catholic
+	religion = sollian
 	holding = castle_holding
 }
 

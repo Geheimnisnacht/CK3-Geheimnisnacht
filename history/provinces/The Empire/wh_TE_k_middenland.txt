@@ -2,7 +2,7 @@
 ###c_middenheim
 21 = {	# Middenheim
 	culture = middenlander
-	religion = catholic
+	religion = ulrican
 	holding = castle_holding
 }
 
@@ -10,7 +10,7 @@
 ###c_nordlichturm
 22 = {	# Norderingen
 	culture = middenlander
-	religion = catholic
+	religion = ulrican
 	holding = castle_holding
 }
 
@@ -30,7 +30,7 @@
 ###c_suderende
 25 = {	# Jagerhausen
 	culture = middenlander
-	religion = catholic
+	religion = ulrican
 	holding = castle_holding
 }
 
@@ -46,7 +46,7 @@
 ###c_kammendun
 762 = {	# Kammendun
 	culture = drakwalder
-	religion = catholic
+	religion = ulrican
 	holding = castle_holding
 }
 
@@ -68,7 +68,7 @@
 ###c_carroburg
 723 = {	# Carroburg
 	culture = drakwalder
-	religion = catholic
+	religion = sigmarite
 	holding = castle_holding
 	#special_building = drakschloss_01
 }
@@ -97,7 +97,7 @@
 ###c_scheinfeld
 729 = {	# Scheinfeld
 	culture = drakwalder
-	religion = catholic
+	religion = sigmarite
 	holding = castle_holding
 }
 
@@ -121,7 +121,7 @@
 	#culture = goblin_forest
 	#religion = catholic
 	culture = aesling
-	religion = catholic
+	religion = ulrican
 	holding = castle_holding
 }
 
@@ -147,7 +147,7 @@
 	#culture = goblin_forest
 	#religion = catholic
 	culture = aesling
-	religion = catholic
+	religion = ulrican
 	holding = castle_holding
 }
 
@@ -165,7 +165,7 @@
 	#culture = beastman_main
 	#religion = catholic
 	culture = drakwalder
-	religion = catholic
+	religion = taalite
 	holding = castle_holding
 }
 
@@ -193,7 +193,7 @@
 	#culture = beastman_main
 	#religion = catholic
 	culture = aesling
-	religion = catholic
+	religion = ulrican
 	holding = castle_holding
 }
 
@@ -222,7 +222,7 @@
 	#culture = goblin_forest
 	#religion = catholic
 	culture = aesling
-	religion = catholic
+	religion = ulrican
 	holding = castle_holding
 }
 
@@ -244,7 +244,7 @@
 	#culture = beastman_main
 	#religion = catholic
 	culture = aesling
-	religion = catholic
+	religion = ulrican
 	holding = castle_holding
 }
 
@@ -266,7 +266,7 @@
 	#culture = goblin_forest
 	#religion = catholic
 	culture = aesling
-	religion = catholic
+	religion = ulrican
 	holding = castle_holding
 }
 
@@ -288,7 +288,7 @@
 ###c_holtdorf
 766 = {	# Holtdorf
 	culture = middenlander
-	religion = catholic
+	religion = taalite
 	holding = castle_holding
 }
 
@@ -308,7 +308,7 @@
 ###c_ahlenhof
 770 = {	# Ahlenhof
 	culture = middenlander
-	religion = catholic
+	religion = taalite
 	holding = castle_holding
 }
 
@@ -324,7 +324,7 @@
 ###c_bad_hohne
 773 = {	# Bad Hohne
 	culture = middenlander
-	religion = catholic
+	religion = taalite
 	holding = castle_holding
 }
 
@@ -344,7 +344,7 @@
 ###c_coburg
 777 = {	# Coburg
 	culture = middenlander
-	religion = catholic
+	religion = ulrican
 	holding = castle_holding
 }
 
@@ -356,7 +356,7 @@
 ###c_kutenholz
 779 = {	# Kutenholz
 	culture = middenlander
-	religion = catholic
+	religion = ulrican
 	holding = castle_holding
 }
 
@@ -382,7 +382,7 @@
 ###c_middenstag
 784 = {	# Middenstag
 	culture = middenlander
-	religion = catholic
+	religion = ulrican
 	holding = castle_holding
 }
 
@@ -406,7 +406,7 @@
 ###c_hanau
 789 = {	# Hanau
 	culture = middenlander
-	religion = catholic
+	religion = ulrican
 	holding = castle_holding
 }
 
@@ -426,7 +426,7 @@
 ###c_grimminhagen
 793 = {	# Grimminhagen
 	culture = middenlander
-	religion = catholic
+	religion = ulrican
 	holding = castle_holding
 }
 
@@ -446,7 +446,7 @@
 ###c_malstedt
 797 = {	# Malstedt
 	culture = middenlander
-	religion = catholic
+	religion = ulrican
 	holding = castle_holding
 }
 
@@ -466,7 +466,7 @@
 ###c_mittelwig
 801 = {	# Mittelwig
 	culture = drakwalder
-	religion = catholic
+	religion = taalite
 	holding = castle_holding
 }
 
@@ -486,7 +486,7 @@
 ###c_brockel
 805 = {	# Brockel
 	culture = middenlander
-	religion = catholic
+	religion = taalite
 	holding = church_holding
 }
 

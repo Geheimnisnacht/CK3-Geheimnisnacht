@@ -2,7 +2,7 @@
 ###c_Aquitaine
 1927 = { # Chateau D Aquitaine
 	culture = aquitanian
-	religion = catholic
+	religion = grail
 	holding = castle_holding
 	6000.1.1 = {
 		buildings = {
@@ -27,7 +27,7 @@
 ###c_mainse
 1931 = { # Chateau Du Mainse
 	culture = aquitanian
-	religion = catholic
+	religion = grail
 	holding = castle_holding
 }
 
@@ -39,7 +39,7 @@
 ###c_anjarre
 1932 = { # Anjarre
 	culture = aquitanian
-	religion = catholic
+	religion = grail
 	holding = castle_holding
 }
 
@@ -50,7 +50,7 @@
 ###c_elbiq
 1937 = { # Elbiq
 	culture = aquitanian
-	religion = catholic
+	religion = grail
 	holding = castle_holding
 }
 
@@ -70,7 +70,7 @@
 ###c_vignoble
 1949 = { # Genoie
 	culture = aquitanian
-	religion = catholic
+	religion = shallyan
 	holding = castle_holding
 }
 
@@ -88,7 +88,7 @@
 ###c_giscard
 1942 = { # Giscard
 	culture = sartosan_bretonnian
-	religion = catholic
+	religion = stromfels
 	holding = castle_holding
 }
 
@@ -99,7 +99,7 @@
 ###c_epee
 1941 = { # Epee
 	culture = aquitanian
-	religion = catholic
+	religion = grail
 	holding = castle_holding
 }
 

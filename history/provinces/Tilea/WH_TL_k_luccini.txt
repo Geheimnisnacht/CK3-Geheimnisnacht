@@ -3,7 +3,7 @@
 ###c_luccini
 2254 = { #luccini
 	culture = lucian
-	religion = catholic
+	religion = lucan_and_luccinian
 	holding = castle_holding
 	6000.1.1 = { 
 		# duchy_capital_building = city_luccini_01
@@ -29,14 +29,14 @@
 
 2255 = { #nopali
 	culture = lucian
-	religion = catholic
+	religion = lucan_and_luccinian
 	holding = castle_holding
 }
 
 ###c_cittafinistre
 2260 = { #cittafinistre
 	culture = lucian
-	religion = catholic
+	religion = myrmidian_eastern
 	holding = castle_holding
 }
 2261 = { #carlone
@@ -52,7 +52,7 @@
 ###c_pelua
 2264 = { #pelua
 	culture = lucian
-	religion = catholic
+	religion = lucan_and_luccinian
 	holding = castle_holding
 }
 2265 = { #averza
@@ -65,7 +65,7 @@
 ###c_volanda
 2267 = { #volanda
 	culture = reman
-	religion = catholic
+	religion = myrmidian_eastern
 	holding = castle_holding
 }
 2268 = { #falcone
@@ -85,7 +85,7 @@
 ###c_aldente
 2272 = { #aldente
 	culture = lucian
-	religion = catholic
+	religion = lucan_and_luccinian
 	holding = castle_holding
 }
 2273 = { #oditore
@@ -98,7 +98,7 @@
 ###c_laserno
 2275 = { #laserno
 	culture = lucian
-	religion = catholic
+	religion = lucan_and_luccinian
 	holding = castle_holding
 }
 2276 = { #sudissima
@@ -114,7 +114,7 @@
 ###c_mintopua
 2279 = { #mintopua
 	culture = lucian
-	religion = catholic
+	religion = lucan_and_luccinian
 	holding = castle_holding
 }
 2280 = { #faccio
@@ -128,7 +128,7 @@
 ###c_organza
 2282 = { #organza
 	culture = lucian
-	religion = catholic
+	religion = lucan_and_luccinian
 	holding = castle_holding
 }
 2283 = { #interno
@@ -144,7 +144,7 @@
 ###c_capelli
 2286 = { #capelli
 	culture = lucian
-	religion = catholic
+	religion = myrmidian_eastern
 	holding = castle_holding
 }
 2287 = { #dracone
@@ -154,7 +154,7 @@
 ###c_spurio
 2288 = { #spurio
 	culture = lucian
-	religion = catholic
+	religion = myrmidian_eastern
 	holding = castle_holding
 }
 2289 = { #laguna
@@ -171,7 +171,7 @@
 ###c_pavezzano
 2292 = { #pavezzano
 	culture = lucian
-	religion = catholic
+	religion = lucan_and_luccinian
 	holding = castle_holding
 }
 2293 = { #abrasso
@@ -184,7 +184,7 @@
 ###c_tepanlo
 2295 = { #tepanlo
 	culture = lucian
-	religion = catholic
+	religion = myrmidian_eastern
 	holding = castle_holding
 }
 2296 = { #petorna

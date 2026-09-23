@@ -3,7 +3,7 @@
 
 2795 = { # Lyonesse
 	culture = lyonen
-	religion = catholic
+	religion = grail
 	holding = castle_holding
 	6000.1.1 = { 
 		#special_building = castle_lyonesse_01
@@ -18,7 +18,7 @@
 
 2819 = { # Chagrin
 	culture = nordscane
-	religion = catholic
+	religion = grail
 	holding = castle_holding
 }
 
@@ -29,7 +29,7 @@
 #c_tor_soleil
 2823 = { #le_goff
     culture = nordscane
-    religion = catholic
+    religion = manannite
     holding = castle_holding
 }
 
@@ -37,7 +37,7 @@
 
 2820 = { # Agarthe
 	culture = lyonen
-	religion = catholic
+	religion = waves_grail
 	holding = castle_holding
 }
 
@@ -58,7 +58,7 @@
 
 2805 = { # portsall
 	culture = nordscane
-	religion = catholic
+	religion = manannite
 	holding = castle_holding
 }
 
@@ -78,7 +78,7 @@
 
 2811 = { # marton
 	culture = lyonen
-	religion = catholic
+	religion = waves_grail
 	holding = castle_holding
 }
 
@@ -98,7 +98,7 @@
 
 2808 = { # Chastillon
 	culture = lyonen
-	religion = catholic
+	religion = shallyan
 	holding = castle_holding
 }
 
@@ -111,7 +111,7 @@
 
 2797 = { # rocheil
 	culture = lyonen
-	religion = catholic
+	religion = grail
 	holding = castle_holding
 }
 
@@ -131,7 +131,7 @@
 
 2802 = { # Oreal
 	culture = lyonen
-	religion = catholic
+	religion = shallyan
 	holding = castle_holding
 }
 
@@ -147,7 +147,7 @@
 
 2801 = { # Moulinsard
 	culture = lyonen
-	religion = catholic
+	religion = grail
 	holding = castle_holding
 }
 

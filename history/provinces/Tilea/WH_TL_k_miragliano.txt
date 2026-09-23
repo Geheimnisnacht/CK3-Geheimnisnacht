@@ -3,7 +3,7 @@
 ###c_miragliano
 1838 = { #miragliano
 	culture = miraglian
-	religion = catholic
+	religion = myrmidian_eastern
 	holding = castle_holding
 	6000.1.1 = { 
 		#special_building = miragliano_foundries_01
@@ -27,7 +27,7 @@
 ###c_ebino
 1841 = { #ebino
 	culture = miraglian
-	religion = catholic
+	religion = myrmidian_eastern
 	holding = castle_holding
 	6000.1.1 = { 
 		buildings = {
@@ -43,7 +43,7 @@
 ###c_udolpho
 1843 = { #udolpho
 	culture = strigany
-	religion = catholic
+	religion = strigoi_faith
 	holding = castle_holding
 }
 1844 = { #sovoio
@@ -57,7 +57,7 @@
 ###c_toscania
 1846 = { #toscania
 	culture = miraglian
-	religion = catholic
+	religion = myrmidian_eastern
 	holding = castle_holding
 }
 1847 = { #gimignano
@@ -73,7 +73,7 @@
 ###c_campogrotta
 1887 = { #campogrotta
 	culture = miraglian
-	religion = catholic
+	religion = myrmidian_eastern
 	holding = castle_holding
 }
 1888 = { #santascrittora
@@ -86,7 +86,7 @@
 ###c_lambruso
 1890 = { #lambrusco
 	culture = miraglian
-	religion = catholic
+	religion = myrmidian_eastern
 	holding = castle_holding
 }
 1891 = { #abazzo
