@@ -2,7 +2,7 @@
 ##d_luccini
 ###c_luccini
 2254 = { #luccini
-	culture = lucian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
@@ -28,14 +28,14 @@
 }
 
 2255 = { #nopali
-	culture = lucian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
 
 ###c_cittafinistre
 2260 = { #cittafinistre
-	culture = lucian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -51,7 +51,7 @@
 
 ###c_pelua
 2264 = { #pelua
-	culture = lucian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -64,7 +64,7 @@
 
 ###c_volanda
 2267 = { #volanda
-	culture = reman
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -84,7 +84,7 @@
 ##d_aldente
 ###c_aldente
 2272 = { #aldente
-	culture = lucian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -97,7 +97,7 @@
 
 ###c_laserno
 2275 = { #laserno
-	culture = lucian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -113,7 +113,7 @@
 
 ###c_mintopua
 2279 = { #mintopua
-	culture = lucian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -127,7 +127,7 @@
 ##d_organza
 ###c_organza
 2282 = { #organza
-	culture = lucian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -143,7 +143,7 @@
 
 ###c_capelli
 2286 = { #capelli
-	culture = lucian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -153,7 +153,7 @@
 
 ###c_spurio
 2288 = { #spurio
-	culture = lucian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -170,7 +170,7 @@
 ##d_pavezzano
 ###c_pavezzano
 2292 = { #pavezzano
-	culture = lucian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -183,7 +183,7 @@
 
 ###c_tepanlo
 2295 = { #tepanlo
-	culture = lucian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }

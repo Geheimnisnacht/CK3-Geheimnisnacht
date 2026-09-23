@@ -2,7 +2,7 @@
 ##d_verezzo
 ###c_verezzo
 2074 = { #verezzo
-	culture = umbrian
+	culture = german
 	religion = catholic
 	holding = city_holding
 	6000.1.1 = { 
@@ -20,7 +20,7 @@
 	holding = church_holding
 }
 2077 = { #monte_verde
-	culture = umbrian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -36,7 +36,7 @@
 
 ###c_raverno
 2081 = { #raverno
-	culture = reman
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -53,13 +53,13 @@
 ##d_bragante
 ###c_olesi
 2085 = { #olesi
-	culture = reman
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
 ###c_lorenzo
 2086 = { #venerato_lorenzo
-	culture = reman
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -72,14 +72,14 @@
 
 ###c_nonucci_island
 2089 = { #porto_nonucci
-	culture = reman
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
 
 ###c_portomaggiore
 2090 = { #portomaggiore
-	culture = reman
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }

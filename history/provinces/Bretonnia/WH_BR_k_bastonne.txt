@@ -1,7 +1,7 @@
 ##d_bastonne ###################################
 ###c_bastonne
 3013 = { #Bastonne
-	culture = bastonnian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = {
@@ -35,7 +35,7 @@
 
 ###c_Garamont
 3019 = { #Garamont
-	culture = bastonnian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -50,7 +50,7 @@
 
 ###c_la_chapelle
 3020 = { # Carlemont
-	culture = bastonnian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -65,7 +65,7 @@
 
 ###c_sangasse
 3023 = { # Sangasse
-	culture = bastonnian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -77,7 +77,7 @@
 ##d_chalons ###################################
 ###c_Gastix
 3039 = { # Gastix
-	culture = bastonnian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -92,7 +92,7 @@
 
 ###c_chalons
 3043 = { # Champebourg
-	culture = bastonnian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -113,7 +113,7 @@
 ##d_toussaint ###################################
 ###c_Gastix
 3047 = { # Beauclair
-	culture = bastonnian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -128,7 +128,7 @@
 
 ###c_mont_real
 3054 = { # bourg_le_roi
-	culture = bastonnian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -139,7 +139,7 @@
 
 ### Yquem
 3051 = { # Yquem
-	culture = bastonnian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -155,7 +155,7 @@
 ##d_grismer ###################################
 ###c_soudarre
 3031 = { # Soude
-	culture = bastonnian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -174,7 +174,7 @@
 
 ###c_Giennois
 3035 = { # Gien
-	culture = bastonnian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -189,7 +189,7 @@
 
 ###c_salone
 3037 = { # Salon
-	culture = bastonnian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -200,7 +200,7 @@
 
 ###c_cabernet
 3027 = { # Chateau Cabernet
-	culture = bastonnian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }

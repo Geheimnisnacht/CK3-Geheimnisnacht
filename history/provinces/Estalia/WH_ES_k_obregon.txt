@@ -2,7 +2,7 @@
 ##d_finterra
 ###c_finterra
 1950 = { #nerja
-	culture = avilian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
@@ -24,21 +24,21 @@
 
 ####c_cabos
 1951 = { #los_cabos
-	culture = avilian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
 
 ###c_califerne
 1955 = { #santangel
-	culture = avilian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
 
 ###c_miramar
 1956 = { #dalbia
-	culture = avilian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -54,7 +54,7 @@
 
 ###c_san_pedro
 1960 = { #bedava
-	culture = avilian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -71,7 +71,7 @@
 ##d_diamenterra
 ###c_diamenterra
 1964 = { #nerguia
-	culture = obregonese
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -87,7 +87,7 @@
 
 ###c_aguilar
 1968 = { #cebreros
-	culture = obregonese
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -101,14 +101,14 @@
 
 ###c_o_sopa
 1970 = { #san_jorge
-	culture = obregonese
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
 
 ###c_olissipo
 1972 = { #alcazaba
-	culture = avilian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
@@ -132,7 +132,7 @@
 
 ###c_verin
 1977 = { #verin
-	culture = obregonese
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -146,7 +146,7 @@
 ##d_portua
 ###c_portague
 1980 = { #portobella
-	culture = avilian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
@@ -167,7 +167,7 @@
 
 ###c_jaraiz
 1984 = { #jaraiz
-	culture = obregonese
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -180,7 +180,7 @@
 
 ###c_pa_is
 1987 = { #polredo
-	culture = obregonese
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -188,7 +188,7 @@
 
 ###c_sandoval
 1988 = { #iltria
-	culture = obregonese
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -204,7 +204,7 @@
 
 ###c_valdana
 1992 = { #liseo
-	culture = avilian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }

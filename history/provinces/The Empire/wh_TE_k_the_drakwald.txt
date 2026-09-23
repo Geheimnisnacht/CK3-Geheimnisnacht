@@ -1,7 +1,7 @@
 ##d_northern_drakwald ###################################
 ###c_khornewald
 893 = {	# Freudendrungen
-	culture = nordlander
+	culture = german
 	religion = catholic
 	holding = none
 }
@@ -21,7 +21,7 @@
 
 ###c_laurelwald
 897 = {	# Moedten
-	culture = drakwalder
+	culture = german
 	religion = catholic
 	holding = tribal_holding
 }
@@ -39,7 +39,7 @@
 ##d_western_drakwald ###################################
 ###c_finswald
 900 = {	# Rheiden
-	culture = drakwalder
+	culture = german
 	religion = catholic
 	holding = tribal_holding
 }
@@ -51,7 +51,7 @@
 
 ###c_woudinwald
 902 = {	# Hockirchfels
-	culture = drakwalder
+	culture = german
 	religion = catholic
 	holding = tribal_holding
 }
@@ -64,7 +64,7 @@
 
 ###c_issenwald
 907 = {	# Hillebruck
-	culture = aesling
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -82,7 +82,7 @@
 ##d_southern_drakwald ###################################
 ###c_winsenwald
 910 = {	# Dietzenberg
-	culture = drakwalder
+	culture = german
 	religion = catholic
 	holding = tribal_holding
 }
@@ -98,7 +98,7 @@
 
 ###c_leydenwald
 913 = {	# Appertshofen
-	culture = drakwalder
+	culture = german
 	religion = catholic
 	holding = tribal_holding
 }
@@ -114,7 +114,7 @@
 
 ###c_scheinwald
 916 = {	# Klenefeld
-	culture = drakwalder
+	culture = german
 	religion = catholic
 	holding = tribal_holding
 }

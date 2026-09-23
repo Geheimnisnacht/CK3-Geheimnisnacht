@@ -2,7 +2,7 @@
 ##d_the_magritate	
 ###c_magritta	
 2298 = { #magritta
-	culture = astur
+	culture = german
 	religion = catholic
 	holding = city_holding
 	6000.1.1 = { 
@@ -21,7 +21,7 @@
 }
 2301 = { #san_carlos
 	holding = city_holding
-	culture = astur
+	culture = german
 	religion = catholic
 }
 2302 = { #san_sebastiano
@@ -41,7 +41,7 @@
 }
 ###c_malmeria	
 2305 = { #pillaris
-	culture = astur
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -59,7 +59,7 @@
 }
 ###c_quietude_island	
 2310 = { #gramavera
-	culture = astur
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -67,7 +67,7 @@
 ##d_el_toboso	
 ###c_toletti	
 2311 = { #tivolo
-	culture = astur
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -83,7 +83,7 @@
 
 ###c_montenas
 2315 = { #montarnal
-	culture = montanese
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -99,12 +99,12 @@
 
 ###c_tobiedo
 2319 = { #tobiedo
-	culture = montanese
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
 2320 = { #nuceras
-	culture = montanese
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -120,7 +120,7 @@
 
 ###c_urdango	
 2324 = { #quetas
-	culture = astur
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -137,7 +137,7 @@
 ##d_garnata	
 ###c_garnata	
 2328 = { #garnata
-	culture = astur
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -156,7 +156,7 @@
 
 ###c_molina	
 2333 = { #molina
-	culture = astur
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -173,7 +173,7 @@
 ##d_tartantia	
 ###c_torrosa	
 2337 = { #torrosa
-	culture = astur
+	culture = german
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
@@ -194,7 +194,7 @@
 
 ###c_alboran	
 2341 = { #hippoloto
-	culture = sureno
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -213,7 +213,7 @@
 
 ###c_belmoz	
 2346 = { #belmoz
-	culture = sureno
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -223,7 +223,7 @@
 
 ###c_ubrique	
 2348 = { #ubrique
-	culture = astur
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }

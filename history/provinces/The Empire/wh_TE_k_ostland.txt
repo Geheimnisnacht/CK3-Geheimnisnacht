@@ -1,7 +1,7 @@
 ##d_wolfenburg ###################################
 ###c_wolfenburg
 808 = {	# Wolfenburg
-	culture = ostlander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -25,7 +25,7 @@
 
 ###c_wurzen
 813 = {	# Wurzen
-	culture = ostlander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -49,7 +49,7 @@
 
 ###c_nettburg
 818 = {	# Fort Korver
-	culture = ostlander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -65,7 +65,7 @@
 
 ###c_ristedt
 821 = {	# Schloss Lenkster
-	culture = ostlander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -81,7 +81,7 @@
 
 ###c_markdorf
 824 = {	# Markdorf
-	culture = ostlander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -99,7 +99,7 @@
 ##d_schutzen ###################################
 ###c_selonian_hills
 827 = {	# Zwollen
-	culture = ostlander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -119,7 +119,7 @@
 
 ###c_brizban
 831 = {	# Brizban
-	culture = ostlander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -145,7 +145,7 @@
 ##d_kislev_verge ###################################
 ###c_dassel
 836 = {	# Dassel
-	culture = ostlander
+	culture = german
 	religion = catholic
 	holding = church_holding
 }
@@ -169,7 +169,7 @@
 
 ###c_vandengart
 841 = {	# Vandengart
-	culture = ostlander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -189,7 +189,7 @@
 
 ###c_bohsenfels
 845 = {	# Bohsenfels
-	culture = ostlander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -209,7 +209,7 @@
 
 ###c_gauschdorf
 849 = {	# Gauschdorf
-	culture = ostlander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -235,7 +235,7 @@
 ##d_knochenkueste ###################################
 ###c_salkalten
 854 = {	# Verborgenbucht
-	culture = ostlander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -259,7 +259,7 @@
 
 ###c_rossin
 859 = {	# Rossin
-	culture = ostlander
+	culture = german
 	religion = catholic
 	holding = church_holding
 }
@@ -281,7 +281,7 @@
 ##d_ferlangen ###################################
 ###c_ferlangen
 863 = {	# Ferlangenschlosse
-	culture = ostlander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -301,7 +301,7 @@
 
 ###c_hasselhund
 867 = {	# Arnsland
-	culture = ostlander
+	culture = german
 	religion = catholic
 	holding = city_holding
 }
@@ -321,7 +321,7 @@
 
 ###c_obelstein
 871 = {	# Obelstein
-	culture = ostlander
+	culture = german
 	religion = catholic
 	holding = city_holding
 }
@@ -341,7 +341,7 @@
 
 ###c_bokenhof
 880 = {	# Bokenhof
-	culture = ostlander
+	culture = german
 	religion = catholic
 	holding = city_holding
 }
@@ -367,7 +367,7 @@
 ##d_mittenberg ###################################
 ###c_friedmark
 885 = {	# Sokh
-	culture = ostlander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -387,7 +387,7 @@
 
 ###c_roezfels
 889 = {	# Roezfels
-	culture = ostlander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }

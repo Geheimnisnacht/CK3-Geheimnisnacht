@@ -1,7 +1,7 @@
 ###d_quenelles
 ###c_quenelles
 3061 = { # Quenelles
-	culture = queneller
+	culture = german
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = {
@@ -35,7 +35,7 @@
 
 ###c_Sandeuse
 3073 = { # Sandeuse
-	culture = queneller
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -47,7 +47,7 @@
 
 # ###c_roucerre
 # 3073 = { # Montair
-# 	culture = queneller
+# 	culture = german
 # 	religion = catholic
 # 	holding = castle_holding
 # }
@@ -59,7 +59,7 @@
 
 ###c_perrache
 3066 = { # Perrache
-	culture = queneller
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -82,7 +82,7 @@
 
 ###c_roucerre
 3074 = { # Montair
-	culture = queneller
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -95,7 +95,7 @@
 
 ###c_langry
 3062 = { # Langry
-	culture = queneller
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -111,7 +111,7 @@
 ###d_Ausanne
 ##c_meaux
 3086 = { # Meaux
-	culture = queneller
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -130,7 +130,7 @@
 
 ##c_Orlerre
 3091 = { # Orlac
-	culture = queneller
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -145,7 +145,7 @@
 
 ##c_tertres
 3093 = { # Hybraseil
-	culture = queneller
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -157,7 +157,7 @@
 ###d_cherry
 ##c_treims
 3095 = { # treims
-	culture = queneller
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -176,7 +176,7 @@
 
 ##c_blarry
 3101 = { # Bourg-le-duc
-	culture = queneller
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -187,7 +187,7 @@
 
 ##c_montlac
 3099 = { # Montlac
-	culture = queneller
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }

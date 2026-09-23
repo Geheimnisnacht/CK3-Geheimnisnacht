@@ -4,7 +4,7 @@
 # c_gisoreux
 
 2890 = { # Gisoreux
-	culture = gisoren
+	culture = german
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = {
@@ -28,7 +28,7 @@
 # c_gracay
 
 2900 = { # Grasse
-	culture = gisoren
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -45,7 +45,7 @@
 # c_melonge
 
 2894 = { # Melonge
-	culture = gisoren
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -56,7 +56,7 @@
 # c_guissans
 
 2932 = { # Guissans
-	culture = gisoren
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -71,7 +71,7 @@
 # c_western_vale
 
 2913 = { # Maison Graal
-	culture = gisoren
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -89,7 +89,7 @@
 # c_frondee
 
 2912 = { # Salignac
-	culture = gisoren
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -100,7 +100,7 @@
 # c_lower_vale_of_florida
 
 2922 = { # Troucy
-	culture = herrimault
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -114,7 +114,7 @@
 # c_upper_vale_of_florida
 
 2920 = { # Jurenne
-	culture = herrimault
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -125,7 +125,7 @@
 # c_floridian_peak
 
 2919 = { # Chateau Florian
-	culture = herrimault
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -141,7 +141,7 @@
 # c_gruyon
 
 2904 = { # Soyons
-	culture = gisoren
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -155,7 +155,7 @@
 # c_gisoreux_gap
 
 2896 = { # Chateau des Fleuve
-	culture = gisoren
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -172,7 +172,7 @@
 # c_valoigne
 
 2907 = { # Chateau Valis
-	culture = gisoren
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }

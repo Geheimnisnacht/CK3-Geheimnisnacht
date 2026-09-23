@@ -2,7 +2,7 @@
 ##d_trantio
 ###c_trantio
 2215 = { #trantio
-	culture = umbrian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
@@ -31,14 +31,14 @@
 }
 ### Latanero
 2218 = { #latanero
-	culture = umbrian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
 
 ###c_sadrono
 2222 = { #sadrono
-	culture = umbrian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -54,7 +54,7 @@
 
 ###c_trantine_hills
 2226 = { #consola
-	culture = umbrian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
@@ -74,7 +74,7 @@
 ##d_perigua
 ###c_stiani
 2230 = { #stiani
-	culture = umbrian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -90,7 +90,7 @@
 
 ###c_malavigna
 2234 = { #malavigna
-	culture = umbrian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -106,7 +106,7 @@
 
 ###c_varieno
 2238 = { #varieno
-	culture = reman
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -126,7 +126,7 @@
 ##d_scorcio
 ###c_vladeza
 2243 = { #vladeza
-	culture = miraglian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -142,12 +142,12 @@
 
 ###c_andone
 2247 = { #andone
-	culture = miraglian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
 2248 = { #ilperio
-	culture = miraglian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -160,7 +160,7 @@
 
 ###c_cenona
 2251 = { #cenona
-	culture = miraglian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }

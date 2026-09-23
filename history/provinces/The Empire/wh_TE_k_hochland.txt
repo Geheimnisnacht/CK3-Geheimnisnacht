@@ -1,7 +1,7 @@
 ##d_korver ###################################
 ###c_hergig
 535 = {	# Hergig
-	culture = hochlander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -17,7 +17,7 @@
 
 ###c_bergendorf
 538 = {	# Bergendorf
-	culture = hochlander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -33,7 +33,7 @@
 
 ###c_igelhuegel
 541 = {	# Gruyden
-	culture = hochlander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -57,7 +57,7 @@
 
 ###c_ketzin
 546 = {	# Havel
-	culture = hochlander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -75,7 +75,7 @@
 ##d_drakwasser ###################################
 ###c_krudenwald
 549 = {	# Krudenwald
-	culture = hochlander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -99,7 +99,7 @@
 
 ###c_heedenhof
 554 = {	# Heedenhof
-	culture = hochlander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -121,7 +121,7 @@
 ##d_weissberge ###################################
 ###c_kiefer
 558 = {	# Fort Schippel
-	culture = hochlander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -145,7 +145,7 @@
 
 ###c_lindow
 563 = {	# Lindow
-	culture = hochlander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -161,7 +161,7 @@
 
 ###c_vodf
 566 = {	# Vodf
-	culture = hochlander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }

@@ -2,7 +2,7 @@
 ##d_fierroso
 ###c_fierra
 2176 = { #fierrol
-	culture = tobaran
+	culture = german
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = {
@@ -19,7 +19,7 @@
 ###c_agato
 2178 = { #poldarna
 	holding = church_holding
-	culture = sureno
+	culture = german
 	religion = catholic
 }
 2179 = { #san_agato
@@ -28,7 +28,7 @@
 
 ###c_almagora
 2180 = { #almagora
-	culture = sureno
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -36,7 +36,7 @@
 	holding = city_holding
 }
 2182 = { #san_rodrigo
-	culture = astur
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -52,7 +52,7 @@
 
 ###c_cordobra
 2186 = { #cordobra
-	culture = sureno
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -68,7 +68,7 @@
 
 ###c_ebria
 2190 = { #elchencia
-	culture = astur
+	culture = german
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
@@ -93,7 +93,7 @@
 ##d_irrana
 ###c_zaraguz
 1665 = { #zaraguz
-	culture = montanese
+	culture = german
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
@@ -107,7 +107,7 @@
 
 ###c_durango
 1668 = { #durango
-	culture = montanese
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -123,7 +123,7 @@
 
 ###c_gualcazar
 1672 = { #gualcazar
-	culture = montanese
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -139,7 +139,7 @@
 
 ###c_cervantes
 1660 = { #cervantes
-	culture = montanese
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -152,7 +152,7 @@
 
 ###c_pajena
 1663 = { #pajena
-	culture = norteno
+	culture = german
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = {
@@ -168,7 +168,7 @@
 ##d_osborna
 ###c_osborna
 2194 = { #reboalas
-	culture = astur
+	culture = german
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
@@ -192,7 +192,7 @@
 
 ###c_montacute
 2199 = { #montacute
-	culture = astur
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -208,7 +208,7 @@
 
 ###c_solsona
 2203 = { #solsona
-	culture = astur
+	culture = german
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
@@ -231,7 +231,7 @@
 ##d_santoyo
 ###c_javea
 2207 = { #javea
-	culture = astur
+	culture = german
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
@@ -252,7 +252,7 @@
 
 ###c_villana
 2211 = { #israda
-	culture = astur
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }

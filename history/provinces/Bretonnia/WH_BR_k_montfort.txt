@@ -3,7 +3,7 @@
 ###c_Montfort
 
 2155 = { # Montfort
-	culture = monfortian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
@@ -33,7 +33,7 @@
 
 ###c_roderre
 2165 = { # Ux
-	culture = monfortian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -44,7 +44,7 @@
 
 ###c_Beaix
 2161 = { # Chateauclair
-	culture = monfortian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
@@ -66,7 +66,7 @@
 
 ###c_occam
 2157 = { # Occam
-	culture = monfortian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -82,7 +82,7 @@
 ##d_Montmagnac #####
 ###c_Gamey
 2169 = { # Gamelin
-	culture = monfortian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -97,7 +97,7 @@
 
 ###c_lorsac
 2172 = { # Nantebourg
-	culture = monfortian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -108,7 +108,7 @@
 
 ###c_le_col
 2170 = { # Fourier
-	culture = monfortian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 

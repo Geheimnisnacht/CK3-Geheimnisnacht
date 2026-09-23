@@ -2,7 +2,7 @@
 ##d_tobaro
 ###c_tobaro
 1850 = { #tobaro
-	culture = tobaran
+	culture = german
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
@@ -27,7 +27,7 @@
 
 ###c_aquilas
 1855 = { #aquilas
-	culture = tobaran
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -43,7 +43,7 @@
 
 ###c_caprezi
 1859 = { #caprezi
-	culture = tobaran
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -53,7 +53,7 @@
 
 ###c_illiria
 1861 = { #porto_espejo
-	culture = tobaran
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }

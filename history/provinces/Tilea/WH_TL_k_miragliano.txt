@@ -1,12 +1,12 @@
-#k_miragliano
-##d_miragliano
-###c_miragliano
-1838 = { #miragliano
-	culture = miraglian
+#k_germano
+##d_germano
+###c_germano
+1838 = { #germano
+	culture = german
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
-		#special_building = miragliano_foundries_01
+		#special_building = germano_foundries_01
 		#duchy_capital_building = tilean_great_city_01
 		buildings = {
 			castle_02
@@ -26,7 +26,7 @@
 
 ###c_ebino
 1841 = { #ebino
-	culture = miraglian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
@@ -42,7 +42,7 @@
 
 ###c_udolpho
 1843 = { #udolpho
-	culture = strigany
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -56,7 +56,7 @@
 ##d_firento
 ###c_toscania
 1846 = { #toscania
-	culture = miraglian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -72,7 +72,7 @@
 
 ###c_campogrotta
 1887 = { #campogrotta
-	culture = miraglian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -85,7 +85,7 @@
 
 ###c_lambruso
 1890 = { #lambrusco
-	culture = miraglian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }

@@ -2,7 +2,7 @@
 ##d_Bordelaux ###################################
 ###c_Bordelaux
 1865 = { #Bordelaux
-	culture = bordelen
+	culture = german
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
@@ -28,7 +28,7 @@
 
 ###c_tremonge
 1878 = { #Doubourg
-	culture = sartosan_bretonnian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -43,14 +43,14 @@
 
 ###c_lile_tranquille
 1874 = { #villa_tranquille
-	culture = sartosan_bretonnian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
 
 ###c_vantes
 1876 = { #Vantes
-	culture = sartosan_bretonnian
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -63,7 +63,7 @@
 ###c_feuilly
 
 1880 = { #Feuilly
-	culture = bordelen
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -83,7 +83,7 @@
 ###c_Laors
 
 1870 = { #Laros
-	culture = bordelen
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -103,7 +103,7 @@
 ###c_turris
 
 1883 = { #turris viglans
-	culture = bordelen
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -115,7 +115,7 @@
 ###c_Reves
 
 1884 = { #reves
-	culture = bordelen
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }

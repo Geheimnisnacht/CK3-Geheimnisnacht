@@ -1,7 +1,7 @@
 ##d_altdorf ###################################
 ###c_altdorf
 2012 = {	#Altdorf
-	culture = reiklander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 	##special_building = imperial_palace_02
@@ -10,7 +10,7 @@
 
 ###c_geringwald
 2 = {	#Frederheim
-	culture = reiklander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -22,7 +22,7 @@
 
 ###c_lichtungsmarkt
 4 = {	#Kaldach
-	culture = reiklander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -34,7 +34,7 @@
 
 ###c_aussenstadt
 5 = {	#Heiligen
-	culture = reiklander
+	culture = german
 	religion = catholic
 	holding = church_holding
 }
@@ -52,7 +52,7 @@
 ##d_reikdahl ###################################
 ###c_diesdorf
 57 = {	#Heiligefeuer
-	culture = reiklander
+	culture = german
 	religion = catholic
 	holding = church_holding
 }
@@ -72,7 +72,7 @@
 
 ###c_kemperbad
 62 = {	#Kemperbad
-	culture = reiklander
+	culture = german
 	religion = catholic
 	holding = city_holding
 }
@@ -102,7 +102,7 @@
 ##d_saponatheim ###################################
 ###c_furdienst
 68 = {	#Weissbruck
-	culture = reiklander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -122,7 +122,7 @@
 
 ###c_boegenhafen
 72 = {	#Boegenhafen
-	culture = reiklander
+	culture = german
 	religion = catholic
 	holding = city_holding
 }
@@ -148,7 +148,7 @@
 ##d_uhland ###################################
 ###c_holthusen
 77 = {	#Holthusen
-	culture = reiklander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -176,7 +176,7 @@
 
 ###c_schilderheim
 83 = {	#Schilderheim
-	culture = reiklander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -200,7 +200,7 @@
 
 ###c_merxheim
 88 = {	#Merxheim
-	culture = reiklander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -226,7 +226,7 @@
 ##d_vorbergland ###################################
 ###c_eilhart
 93 = {	#Eilhart
-	culture = reiklander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -246,7 +246,7 @@
 
 ###c_osburg
 97 = {	#Osburg
-	culture = reiklander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -262,7 +262,7 @@
 
 ###c_schaertetten
 100 = {	#Schaertetten
-	culture = reiklander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -282,7 +282,7 @@
 
 ###c_helmgart
 104 = {	#Helmgart
-	culture = reiklander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 	#special_building = imperial_pass_01
@@ -298,7 +298,7 @@
 
 ###c_moerlenfurt
 107 = {	#Moerlenfurt
-	culture = reiklander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -314,7 +314,7 @@
 
 ###c_meppen
 110 = {	#Meppen
-	culture = reiklander
+	culture = german
 	religion = catholic
 	holding = church_holding
 }
@@ -330,7 +330,7 @@
 
 ###c_hautebad
 113 = {	#Schwachhof
-	culture = reiklander
+	culture = german
 	religion = catholic
 	holding = city_holding
 }
@@ -344,7 +344,7 @@
 ##d_reikwald ###################################
 ###c_wittgendorf
 116 = {	#Wittgenstein
-	culture = reiklander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -360,7 +360,7 @@
 
 ###c_brackenheim
 119 = {	#Brackenheim
-	culture = reiklander
+	culture = german
 	religion = catholic
 	holding = city_holding
 }
@@ -380,7 +380,7 @@
 
 ###c_reikgard
 123 = {	#Schloss Reikgard
-	culture = reiklander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -402,7 +402,7 @@
 ##d_upper_reikwald ###################################
 ###c_hagercrybs
 127 = {	#Wetzler
-	culture = reiklander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -418,7 +418,7 @@
 
 ###c_gorreik
 130 = {	#Brumaibruck
-	culture = reiklander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -434,7 +434,7 @@
 
 ###c_ungwald
 133 = {	#Ummerfurt
-	culture = reiklander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -450,7 +450,7 @@
 
 ###c_blutsein
 136 = {	#Blutstein
-	culture = reiklander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -468,7 +468,7 @@
 ##d_ubersreik ###################################
 ###c_auerswald
 139 = {	#Auerswald
-	culture = reiklander
+	culture = german
 	religion = catholic
 	holding = city_holding
 }
@@ -488,7 +488,7 @@
 
 ###c_ubersreik
 143 = {	#Flussberg
-	culture = reiklander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -513,7 +513,7 @@
 
 ###c_grey_lady_pass
 148 = {	#Fort of the Grey Lady
-	culture = reiklander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 	#special_building_slot = imperial_pass_01
@@ -528,7 +528,7 @@
 ##d_blitzfelsen ###################################
 ###c_dunkelburg
 150 = {	#Dunkelburg
-	culture = reiklander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
@@ -552,7 +552,7 @@
 
 ###c_stimmigen
 155 = {	#Stimmigen
-	culture = reiklander
+	culture = german
 	religion = catholic
 	holding = castle_holding
 }
