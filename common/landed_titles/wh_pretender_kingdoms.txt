@@ -1,1 +1,50 @@
-﻿
+﻿@correct_culture_primary_score = 100
+@better_than_the_alternatives_score = 50
+@always_primary_score = 1000
+@never_primary_score = -1000
+
+d_lithri_ylvoir = {
+	color = { 176 203 247 }
+	definite_form = yes
+
+	capital = c_tor_martel
+
+}
+k_red_dukedom = {
+	color = { 107 4 0 }
+	definite_form = yes
+
+	capital = c_cuileux
+
+}
+k_facebeater = {
+	color = { 86 191 814 }
+	definite_form = yes
+
+	capital = c_malmont
+
+}
+
+k_wither = {
+	color = { 34 52 66 }
+	definite_form = yes
+
+	capital = c_maisemane
+
+}
+
+k_harrowmaw = {
+	color = { 88 105 103 }
+	definite_form = yes
+
+	capital = c_uexin
+
+}
+
+k_badaxe = {
+	color = { 124 148 115 }
+	definite_form = yes
+
+	capital = c_upper_floridian_vale
+
+}
