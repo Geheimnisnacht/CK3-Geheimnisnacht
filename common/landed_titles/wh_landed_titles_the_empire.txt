@@ -22,9 +22,9 @@ e_the_empire = {
 
 		capital = c_altdorf
 
-		cultural_names = {
-			old_imperial_name_list = cn_unberogen
-		}
+		# cultural_names = {
+			# old_imperial_name_list = cn_unberogen
+		# }
 		
 		ai_primary_priority = {
 			if = {
@@ -46,16 +46,16 @@ e_the_empire = {
 			capital = c_altdorf
 			color = { 254 249 233 }
 			
-			cultural_names = {
-				old_imperial_name_list = cn_reikdorf
-			}
+			# cultural_names = {
+				# old_imperial_name_list = cn_reikdorf
+			# }
 			
 			c_altdorf = {
 				color = { 241 245 243 }
 
-				cultural_names = {
-					old_imperial_name_list = cn_reikdorf
-				}
+				# cultural_names = {
+					# old_imperial_name_list = cn_reikdorf
+				# }
 				
 				b_altdorf = {
 					province = 2012
@@ -475,12 +475,12 @@ e_the_empire = {
 			capital = c_helmgart
 			color = { 253 245 254 }
 			
-			cultural_names = {
-				name_list_bourgon = cn_la_morsure
-				name_list_nortagnese = cn_la_morsure
-				name_list_breton = cn_la_morsure
-				name_list_carcassian = cn_la_morsure
-			}
+			# cultural_names = {
+			# 	name_list_bourgon = cn_la_morsure
+			# 	name_list_nortagnese = cn_la_morsure
+			# 	name_list_old_bretonni= cn_la_morsure
+			# 	name_list_carcassian = cn_la_morsure
+			# }
 
 			c_eilhart = {
 				color = { 230 215 214 }
@@ -606,9 +606,9 @@ e_the_empire = {
 		capital = c_averheim
 		color = { 240 220 30 }
 
-		cultural_names = {
-			old_imperial_name_list = cn_brigundia
-		}
+		# cultural_names = {
+			# old_imperial_name_list = cn_brigundia
+		# }
 		
 		ai_primary_priority = {
 			if = {
@@ -854,10 +854,10 @@ e_the_empire = {
 			c_black_fire_pass = {
 				color = { 224 238 34 }
 
-				cultural_names = {
-					#dwarf_norse_name_list = cn_haz_drazh_kadrin #WHG TODO
-					#dwarf_chaos_name_list = cn_haz_drazh_kadrin
-				}
+				# cultural_names = {
+				# 	dwarf_norse_name_list = cn_haz_drazh_kadrin #WHG TODO
+				# 	dwarf_chaos_name_list = cn_haz_drazh_kadrin
+				# }
 				
 				b_vossheim = {
 					province = 270
@@ -927,9 +927,9 @@ e_the_empire = {
 		capital = c_hergig
 		color = { 100 170 70 }
 		
-		cultural_names = {
-			old_imperial_name_list = cn_cherusen
-		}
+		# cultural_names = {
+		# 	old_imperial_name_list = cn_cherusen
+		# }
 
 		ai_primary_priority = {
 			if = {
@@ -1139,9 +1139,9 @@ e_the_empire = {
 		capital = c_middenheim
 		color = { 10 50 150 }
 
-		cultural_names = {
-			old_imperial_name_list = cn_teutogen
-		}
+		# cultural_names = {
+		# 	old_imperial_name_list = cn_teutogen
+		# }
 		
 		ai_primary_priority = {
 			if = {
@@ -1854,7 +1854,7 @@ e_the_empire = {
 		color = { 20 20 200 }
 
 		cultural_names = {
-			old_imperial_name_list = cn_jutone
+			# old_imperial_name_list = cn_jutone
 		}
 		
 		ai_primary_priority = {
@@ -2315,13 +2315,13 @@ e_the_empire = {
 			c_gelnhausen = {
 				color = { 0 66 145 }
 
-				cultural_names = {
-					nordlander_name_list = cn_frostmark
-					westerlander_name_list = cn_frostmark
-					middenlander_name_list = cn_frostmark
-					ostlander_name_list = cn_frostmark
-					# eonir_name_list = cn_frostmark #WHG TODO
-				}
+				# cultural_names = {
+				# 	nordlander_name_list = cn_frostmark
+				# 	westerlander_name_list = cn_frostmark
+				# 	middenlander_name_list = cn_frostmark
+				# 	ostlander_name_list = cn_frostmark
+				# 	eonir_name_list = cn_frostmark #WHG TODO
+				# }
 				
 				b_demst = {
 					province = 669
@@ -2352,9 +2352,9 @@ e_the_empire = {
 		capital = c_bechafen
 		color = { 150 10 210 }
 		
-		cultural_names = {
-			old_imperial_name_list = cn_ostagoth
-		}
+		# cultural_names = {
+		# 	old_imperial_name_list = cn_ostagoth
+		# }
 
 		ai_primary_priority = {
 			if = {
@@ -2742,9 +2742,9 @@ e_the_empire = {
 		capital = c_wolfenburg 
 		color = { 70 70 70 }
 
-		cultural_names = {
-			old_imperial_name_list = cn_udose
-		}
+		# cultural_names = {
+		# 	old_imperial_name_list = cn_udose
+		# }
 		
 		ai_primary_priority = {
 			if = {
@@ -3199,9 +3199,9 @@ e_the_empire = {
 		capital = c_wurtbad
 		color = { 20 180 40 }
 		
-		cultural_names = {
-			old_imperial_name_list = cn_asoborn
-		}
+		# cultural_names = {
+		# 	old_imperial_name_list = cn_asoborn
+		# }
 
 		ai_primary_priority = {
 			if = {
@@ -3499,9 +3499,9 @@ e_the_empire = {
 		capital = c_talabheim 
 		color = { 190 50 90 }
 		
-		cultural_names = {
-			old_imperial_name_list = cn_taleuten
-		}
+		# cultural_names = {
+		# 	old_imperial_name_list = cn_taleuten
+		# }
 
 		ai_primary_priority = {
 			if = {
@@ -3767,15 +3767,15 @@ e_the_empire = {
 				
 				b_schiffellwald = {
 					province = 401
-					color = { 23 48 262 }
+					color = { 254 79 102 }
 				}
 				b_porrenlingen = {
 					province = 402
-					color = { 23 48 262 }
+					color = { 254 79 102 }
 				}
 				b_karwe = {
 					province = 403
-					color = { 23 48 262 }
+					color = { 254 79 102 }
 				}
 			}
 			c_diesdorf = {
@@ -4055,11 +4055,11 @@ e_the_empire = {
 		capital = c_marienburg
 		color = { 20 130 240 }
 		
-		cultural_names = {
-			#nagarythi_name_list =  cn_athel_toralen
-			#asur_colonial_name_list = cn_athel_toralen
-			old_imperial_name_list = cn_endal
-		}
+		# cultural_names = {
+		# 	nagarythi_name_list =  cn_athel_toralen
+		# 	asur_colonial_name_list = cn_athel_toralen
+		# 	old_imperial_name_list = cn_endal
+		# }
 
 		ai_primary_priority = {
 			if = {
@@ -4126,24 +4126,24 @@ e_the_empire = {
 			c_harskamp = {
 				color = { 80 150 200 }
 
-				cultural_names = {
-					name_list_breton = cn_archamp
-					name_list_carcassian = cn_archamp
-					name_list_nortagnese = cn_archamp
-					name_list_bourgon = cn_archamp
-					name_list_aesling = cn_archamp #WHG TODO temp fix for wastelands placeholder culture, remove once resolved
-				}
+				# cultural_names = {
+				# 	name_list_old_bretonni= cn_archamp
+				# 	name_list_carcassian = cn_archamp
+				# 	name_list_nortagnese = cn_archamp
+				# 	name_list_bourgon = cn_archamp
+				# 	name_list_aesling = cn_archamp #WHG TODO temp fix for wastelands placeholder culture, remove once resolved
+				# }
 				
 				b_harskamp = {
 					province = 615
 					color = { 0 51 15 }
 
-					cultural_names = {
-						name_list_nortagnese = cn_archamp
-						name_list_bourgon = cn_archamp
-						name_list_breton = cn_archamp
-						name_list_carcassian = cn_archamp
-					}
+					# cultural_names = {
+					# 	name_list_nortagnese = cn_archamp
+					# 	name_list_bourgon = cn_archamp
+					# 	name_list_old_bretonni= cn_archamp
+					# 	name_list_carcassian = cn_archamp
+					# }
 				}
 				b_loenen = {
 					province = 616
@@ -4161,24 +4161,24 @@ e_the_empire = {
 			c_vasse = {
 				color = { 133 163 241 }
 				
-				cultural_names = {
-					name_list_nortagnese = cn_valse
-					name_list_bourgon = cn_valse
-					name_list_breton = cn_valse
-					name_list_carcassian = cn_valse
-					name_list_aesling = cn_valse #WHG TODO temp fix for wastelands placeholder culture, remove once resolved
-				}
+				# cultural_names = {
+				# 	name_list_nortagnese = cn_valse
+				# 	name_list_bourgon = cn_valse
+				# 	name_list_old_bretonni= cn_valse
+				# 	name_list_carcassian = cn_valse
+				# 	name_list_aesling = cn_valse #WHG TODO temp fix for wastelands placeholder culture, remove once resolved
+				# }
 
 				b_vasse = {
 					province = 619
 					color = { 100 15 51 }
 
-					cultural_names = {
-						name_list_nortagnese = cn_valse
-						name_list_bourgon = cn_valse
-						name_list_breton = cn_valse
-						name_list_carcassian = cn_valse
-					}
+					# cultural_names = {
+					# 	name_list_nortagnese = cn_valse
+					# 	name_list_bourgon = cn_valse
+					# 	name_list_old_bretonni= cn_valse
+					# 	name_list_carcassian = cn_valse
+					# }
 				}
 				b_gieten = {
 					province = 620
@@ -4210,22 +4210,22 @@ e_the_empire = {
 			capital = c_fauligmere
 			color = { 1 130 181 }
 
-			cultural_names = {
-				name_list_nortagnese = cn_faugilmE_re
-				name_list_bourgon = cn_faugilmE_re
-				name_list_breton = cn_faugilmE_re
-				name_list_carcassian = cn_faugilmE_re
-			}	
+			# cultural_names = {
+			# 	name_list_nortagnese = cn_faugilmE_re
+			# 	name_list_bourgon = cn_faugilmE_re
+			# 	name_list_old_bretonni= cn_faugilmE_re
+			# 	name_list_carcassian = cn_faugilmE_re
+			# }	
 			
 			c_fauligmere = {
 				color = { 1 125 203 }
 				
-				cultural_names = {
-					name_list_nortagnese = cn_faugilmE_re
-					name_list_bourgon = cn_faugilmE_re
-					name_list_breton = cn_faugilmE_re
-					name_list_carcassian = cn_faugilmE_re
-				}
+				# cultural_names = {
+				# 	name_list_nortagnese = cn_faugilmE_re
+				# 	name_list_bourgon = cn_faugilmE_re
+				# 	name_list_old_bretonni= cn_faugilmE_re
+				# 	name_list_carcassian = cn_faugilmE_re
+				# }
 
 				b_leydenhove = {
 					province = 571
@@ -4239,34 +4239,34 @@ e_the_empire = {
 					province = 573
 					color = { 168 33 12 }
 
-					cultural_names = {
-						name_list_nortagnese = cn_faugilmE_re
-						name_list_bourgon = cn_faugilmE_re
-						name_list_breton = cn_faugilmE_re
-						name_list_carcassian = cn_faugilmE_re
-					}
+					# cultural_names = {
+					# 	name_list_nortagnese = cn_faugilmE_re
+					# 	name_list_bourgon = cn_faugilmE_re
+					# 	name_list_old_bretonni= cn_faugilmE_re
+					# 	name_list_carcassian = cn_faugilmE_re
+					# }
 				}
 			}
 			c_zandt = {
 				color = { 69 137 194 }
 
-				cultural_names = {
-					name_list_nortagnese = cn_zande
-					name_list_bourgon = cn_zande
-					name_list_breton = cn_zande
-					name_list_carcassian = cn_zande
-				}
+				# cultural_names = {
+				# 	name_list_nortagnese = cn_zande
+				# 	name_list_bourgon = cn_zande
+				# 	name_list_old_bretonni= cn_zande
+				# 	name_list_carcassian = cn_zande
+				# }
 				
 				b_zandt = {
 					province = 574
 					color = { 43 105 213 }
 
-					cultural_names = {
-						name_list_nortagnese = cn_zande
-						name_list_bourgon = cn_zande
-						name_list_breton = cn_zande
-						name_list_carcassian = cn_zande
-					}
+					# cultural_names = {
+					# 	name_list_nortagnese = cn_zande
+					# 	name_list_bourgon = cn_zande
+					# 	name_list_old_bretonni= cn_zande
+					# 	name_list_carcassian = cn_zande
+					# }
 				}
 				b_rutten = {
 					province = 575
@@ -4282,22 +4282,22 @@ e_the_empire = {
 			capital = c_harenskarpel
 			color = { 1 141 254 }
 			
-			cultural_names = {
-				name_list_nortagnese = cn_fresie
-				name_list_bourgon = cn_fresie
-				name_list_breton = cn_fresie
-				name_list_carcassian = cn_fresie
-			}
+			# cultural_names = {
+			# 	name_list_nortagnese = cn_fresie
+			# 	name_list_bourgon = cn_fresie
+			# 	name_list_old_bretonni= cn_fresie
+			# 	name_list_carcassian = cn_fresie
+			# }
 			
 			c_manaanspoort = {
 				color = { 0 36 140 }
 
-				cultural_names = {
-					name_list_nortagnese = cn_grau_de_manne
-					name_list_bourgon = cn_grau_de_manne
-					name_list_breton = cn_grau_de_manne
-					name_list_carcassian = cn_grau_de_manne
-				}
+				# cultural_names = {
+				# 	name_list_nortagnese = cn_grau_de_manne
+				# 	name_list_bourgon = cn_grau_de_manne
+				# 	name_list_old_bretonni= cn_grau_de_manne
+				# 	name_list_carcassian = cn_grau_de_manne
+				# }
 				
 				b_venhuizen = {
 					province = 600
@@ -4315,12 +4315,12 @@ e_the_empire = {
 			c_harenskarpel = {
 				color = { 42 146 254 }
 
-				cultural_names = {
-					name_list_nortagnese = cn_carpel
-					name_list_bourgon = cn_carpel
-					name_list_breton = cn_carpel
-					name_list_carcassian = cn_carpel
-				}
+				# cultural_names = {
+				# 	name_list_nortagnese = cn_carpel
+				# 	name_list_bourgon = cn_carpel
+				# 	name_list_old_bretonni= cn_carpel
+				# 	name_list_carcassian = cn_carpel
+				# }
 				
 				b_fort_solace = {
 					province = 603
@@ -4330,12 +4330,12 @@ e_the_empire = {
 					province = 604
 					color = { 126 45 14 }
 
-					cultural_names = {
-						name_list_nortagnese = cn_carpel
-						name_list_bourgon = cn_carpel
-						name_list_breton = cn_carpel
-						name_list_carcassian = cn_carpel
-					}
+					# cultural_names = {
+					# 	name_list_nortagnese = cn_carpel
+					# 	name_list_bourgon = cn_carpel
+					# 	name_list_old_bretonni= cn_carpel
+					# 	name_list_carcassian = cn_carpel
+					# }
 				}
 				b_kriel = {
 					province = 605
@@ -4365,33 +4365,33 @@ e_the_empire = {
 			capital = c_neuotting
 			color = { 95 124 231 }
 			
-			cultural_names = {
-				name_list_nortagnese = cn_landes
-				name_list_bourgon = cn_landes
-				name_list_breton = cn_landes
-				name_list_carcassian = cn_landes
-			}
+			# cultural_names = {
+			# 	name_list_nortagnese = cn_landes
+			# 	name_list_bourgon = cn_landes
+			# 	name_list_old_bretonni= cn_landes
+			# 	name_list_carcassian = cn_landes
+			# }
 			
 			c_neuotting = {
 				color = { 65 115 254 }
 
-				cultural_names = {
-					name_list_nortagnese = cn_flainaut
-					name_list_bourgon = cn_flainaut
-					name_list_breton = cn_flainaut
-					name_list_carcassian = cn_flainaut
-				}
+				# cultural_names = {
+				# 	name_list_nortagnese = cn_flainaut
+				# 	name_list_bourgon = cn_flainaut
+				# 	name_list_old_bretonni= cn_flainaut
+				# 	name_list_carcassian = cn_flainaut
+				# }
 				
 				b_neuotting = {
 					province = 577
 					color = { 42 9 8 }
 
-					cultural_names = {
-						name_list_nortagnese = cn_neveutin
-						name_list_bourgon = cn_neveutin
-						name_list_breton = cn_neveutin
-						name_list_carcassian = cn_neveutin
-					}
+					# cultural_names = {
+					# 	name_list_nortagnese = cn_neveutin
+					# 	name_list_bourgon = cn_neveutin
+					# 	name_list_old_bretonni= cn_neveutin
+					# 	name_list_carcassian = cn_neveutin
+					# }
 				}
 				b_gasse = {
 					province = 578
@@ -4401,12 +4401,12 @@ e_the_empire = {
 					province = 579
 					color = { 42 9 8 }
 
-					cultural_names = {
-						name_list_nortagnese = cn_orsinge
-						name_list_bourgon = cn_orsinge
-						name_list_breton = cn_orsinge
-						name_list_carcassian = cn_orsinge
-					}
+					# cultural_names = {
+					# 	name_list_nortagnese = cn_orsinge
+					# 	name_list_bourgon = cn_orsinge
+					# 	name_list_old_bretonni= cn_orsinge
+					# 	name_list_carcassian = cn_orsinge
+					# }
 				}
 				b_anbruges = {
 					province = 580
@@ -4420,45 +4420,45 @@ e_the_empire = {
 			c_almshoven = {
 				color = { 117 120 223 }
 
-				cultural_names = {
-					name_list_nortagnese = cn_alsauvre
-					name_list_bourgon = cn_alsauvre
-					name_list_breton = cn_alsauvre
-					name_list_carcassian = cn_alsauvre
-				}
+				# cultural_names = {
+				# 	name_list_nortagnese = cn_alsauvre
+				# 	name_list_bourgon = cn_alsauvre
+				# 	name_list_old_bretonni= cn_alsauvre
+				# 	name_list_carcassian = cn_alsauvre
+				# }
 				
 				b_almshoven = {
 					province = 582
 					color = { 126 15 9 }
 
-					cultural_names = {
-						name_list_nortagnese = cn_alsauvre
-						name_list_bourgon = cn_alsauvr
-						name_list_breton = cn_alsauvre
-						name_list_carcassian = cn_alsauvre
-					}
+					# cultural_names = {
+					# 	name_list_nortagnese = cn_alsauvre
+					# 	name_list_bourgon = cn_alsauvr
+					# 	name_list_old_bretonni= cn_alsauvre
+					# 	name_list_carcassian = cn_alsauvre
+					# }
 				}
 				b_broekwater = {
 					province = 583
 					color = { 126 15 9 }
 
-					cultural_names = {
-						name_list_nortagnese = cn_aix_la_bracque
-						name_list_bourgon = cn_aix_la_bracque
-						name_list_breton = cn_aix_la_bracque
-						name_list_carcassian = cn_aix_la_bracque
-					}
+					# cultural_names = {
+					# 	name_list_nortagnese = cn_aix_la_bracque
+					# 	name_list_bourgon = cn_aix_la_bracque
+					# 	name_list_old_bretonni= cn_aix_la_bracque
+					# 	name_list_carcassian = cn_aix_la_bracque
+					# }
 				}
 				b_bussum = {
 					province = 584
 					color = { 126 15 9 }
 
-					cultural_names = {
-						name_list_nortagnese = cn_bosson
-						name_list_bourgon = cn_bosson
-						name_list_breton = cn_bosson
-						name_list_carcassian = cn_bosson
-					}
+					# cultural_names = {
+					# 	name_list_nortagnese = cn_bosson
+					# 	name_list_bourgon = cn_bosson
+					# 	name_list_old_bretonni= cn_bosson
+					# 	name_list_carcassian = cn_bosson
+					# }
 				}
 				b_nieuwfort = {
 					province = 585
@@ -4474,33 +4474,33 @@ e_the_empire = {
 			capital = c_klessen
 			color = { 1 101 254 }
 			
-			cultural_names = {
-				name_list_nortagnese = cn_batave
-				name_list_bourgon = cn_batave
-				name_list_breton = cn_batave
-				name_list_carcassian = cn_batave
-			}
+			# cultural_names = {
+			# 	name_list_nortagnese = cn_batave
+			# 	name_list_bourgon = cn_batave
+			# 	name_list_old_bretonni= cn_batave
+			# 	name_list_carcassian = cn_batave
+			# }
 
 			c_klessen = {
 				color = { 57 99 173 }
 
-				cultural_names = {
-					name_list_nortagnese = cn_glasse
-					name_list_bourgon = cn_glasse
-					name_list_breton = cn_glasse
-					name_list_carcassian = cn_glasse
-				}
+				# cultural_names = {
+				# 	name_list_nortagnese = cn_glasse
+				# 	name_list_bourgon = cn_glasse
+				# 	name_list_old_bretonni= cn_glasse
+				# 	name_list_carcassian = cn_glasse
+				# }
 				
 				b_klessen = {
 					province = 587
 					color = { 126 30 139 }
 
-					cultural_names = {
-						name_list_nortagnese = cn_glasse
-						name_list_bourgon = cn_glasse
-						name_list_breton = cn_glasse
-						name_list_carcassian = cn_glasse
-					}
+					# cultural_names = {
+					# 	name_list_nortagnese = cn_glasse
+					# 	name_list_bourgon = cn_glasse
+					# 	name_list_old_bretonni= cn_glasse
+					# 	name_list_carcassian = cn_glasse
+					# }
 				}
 				b_kalkaat = {
 					province = 588
@@ -4518,31 +4518,31 @@ e_the_empire = {
 			c_markenbinnen = {
 				color = { 45 120 190 }
 				
-				cultural_names = {
-					name_list_nortagnese = cn_marchebin
-					name_list_bourgon = cn_marchebin
-					armoric_name_list = cn_marchebin
-					gascon_name_list = cn_marchebin
-					name_list_breton = cn_marchebin
-					mousillonian_name_list = cn_marchebin
-					gisoren_name_list = cn_marchebin
-					name_list_carcassian = cn_marchebin
-				}
+				# cultural_names = {
+				# 	name_list_nortagnese = cn_marchebin
+				# 	name_list_bourgon = cn_marchebin
+				# 	armoric_name_list = cn_marchebin
+				# 	gascon_name_list = cn_marchebin
+				# 	name_list_old_bretonni= cn_marchebin
+				# 	mousillonian_name_list = cn_marchebin
+				# 	gisoren_name_list = cn_marchebin
+				# 	name_list_carcassian = cn_marchebin
+				# }
 
 				b_markenbinnen = {
 					province = 591
 					color = { 0 21 10 }
 
-					cultural_names = {
-						name_list_nortagnese = cn_marchebin
-						name_list_bourgon = cn_marchebin
-						armoric_name_list = cn_marchebin
-						gascon_name_list = cn_marchebin
-						name_list_breton = cn_marchebin
-						mousillonian_name_list = cn_marchebin
-						gisoren_name_list = cn_marchebin
-						name_list_carcassian = cn_marchebin
-					}
+					# cultural_names = {
+					# 	name_list_nortagnese = cn_marchebin
+					# 	name_list_bourgon = cn_marchebin
+					# 	armoric_name_list = cn_marchebin
+					# 	gascon_name_list = cn_marchebin
+					# 	name_list_old_bretonni= cn_marchebin
+					# 	mousillonian_name_list = cn_marchebin
+					# 	gisoren_name_list = cn_marchebin
+					# 	name_list_carcassian = cn_marchebin
+					# }
 				}
 				b_oudesluis = {
 					province = 592
@@ -4564,23 +4564,23 @@ e_the_empire = {
 			c_noordbeemster = {
 				color = { 1 118 220 }
 
-				cultural_names = {
-					name_list_nortagnese = cn_normestre
-					name_list_bourgon = cn_normestre
-					name_list_breton = cn_normestre
-					name_list_carcassian = cn_normestre
-				}
+				# cultural_names = {
+				# 	name_list_nortagnese = cn_normestre
+				# 	name_list_bourgon = cn_normestre
+				# 	name_list_old_bretonni= cn_normestre
+				# 	name_list_carcassian = cn_normestre
+				# }
 				
 				b_noordbeemster = {
 					province = 596
 					color = { 42 24 138 }
 
-					cultural_names = {
-						name_list_nortagnese = cn_normestre
-						name_list_bourgon = cn_normestre
-						name_list_breton = cn_normestre
-						name_list_carcassian = cn_normestre
-					}
+					# cultural_names = {
+					# 	name_list_nortagnese = cn_normestre
+					# 	name_list_bourgon = cn_normestre
+					# 	name_list_old_bretonni= cn_normestre
+					# 	name_list_carcassian = cn_normestre
+					# }
 				}
 				b_terdiek = {
 					province = 597
@@ -4632,13 +4632,13 @@ e_the_empire = {
 			c_ankeeven = {
 				color = { 1 108 254 }
 
-				cultural_names = {
-					name_list_nortagnese = cn_arsenquE_re
-					name_list_bourgon = cn_arsenquE_re
-					name_list_breton = cn_arsenquE_re
-					name_list_carcassian = cn_arsenquE_re
-					name_list_aesling = cn_arsenquE_re #WHG TODO temp fix for wastelands placeholder culture, remove once resolved
-				}
+				# cultural_names = {
+				# 	name_list_nortagnese = cn_arsenquE_re
+				# 	name_list_bourgon = cn_arsenquE_re
+				# 	name_list_old_bretonni= cn_arsenquE_re
+				# 	name_list_carcassian = cn_arsenquE_re
+				# 	name_list_aesling = cn_arsenquE_re #WHG TODO temp fix for wastelands placeholder culture, remove once resolved
+				# }
 				
 				b_amsterhuizen = {
 					province = 631
@@ -4648,12 +4648,12 @@ e_the_empire = {
 					province = 632
 					color = { 84 42 141 }
 
-					cultural_names = {
-						name_list_nortagnese = cn_arsenquE_re
-						name_list_bourgon = cn_arsenquE_re
-						name_list_breton = cn_arsenquE_re
-						name_list_carcassian = cn_arsenquE_re
-					}
+					# cultural_names = {
+					# 	name_list_nortagnese = cn_arsenquE_re
+					# 	name_list_bourgon = cn_arsenquE_re
+					# 	name_list_old_bretonni= cn_arsenquE_re
+					# 	name_list_carcassian = cn_arsenquE_re
+					# }
 				}
 				b_halfweg = {
 					province = 633
@@ -4721,24 +4721,24 @@ e_the_empire = {
 			c_dornhan = {
 				color = { 40 150 200 }
 				
-				cultural_names = {
-					name_list_nortagnese = cn_donjon
-					name_list_bourgon = cn_donjon
-					name_list_breton = cn_donjon
-					name_list_carcassian = cn_donjon
-					name_list_aesling = cn_donjon #WHG TODO temp fix for wastelands placeholder culture, remove once resolved
-				}
+				# cultural_names = {
+				# 	name_list_nortagnese = cn_donjon
+				# 	name_list_bourgon = cn_donjon
+				# 	name_list_old_bretonni= cn_donjon
+				# 	name_list_carcassian = cn_donjon
+				# 	name_list_aesling = cn_donjon #WHG TODO temp fix for wastelands placeholder culture, remove once resolved
+				# }
 
 				b_dornhan = {
 					province = 647
 					color = { 40 150 200 }
 
-					cultural_names = {
-						name_list_nortagnese = cn_donjon
-						name_list_bourgon = cn_donjon
-						name_list_breton = cn_donjon
-						name_list_carcassian = cn_donjon
-					}
+					# cultural_names = {
+					# 	name_list_nortagnese = cn_donjon
+					# 	name_list_bourgon = cn_donjon
+					# 	name_list_old_bretonni= cn_donjon
+					# 	name_list_carcassian = cn_donjon
+					# }
 				}
 				b_fort_karls = {
 					province = 648
@@ -4778,23 +4778,23 @@ e_the_empire = {
 			capital = c_aarnau
 			color = { 106 135 200 }
 			
-			cultural_names = {
-				name_list_nortagnese = cn_nedellande
-				name_list_bourgon = cn_nedellande
-				name_list_breton = cn_nedellande
-				name_list_carcassian = cn_nedellande
-			}
+			# cultural_names = {
+			# 	name_list_nortagnese = cn_nedellande
+			# 	name_list_bourgon = cn_nedellande
+			# 	name_list_old_bretonni= cn_nedellande
+			# 	name_list_carcassian = cn_nedellande
+			# }
 
 			c_burren = {
 				color = { 61 136 215 }
 
-				cultural_names = {
-					name_list_nortagnese = cn_bouran
-					name_list_bourgon = cn_bouran
-					name_list_breton = cn_bouran
-					name_list_carcassian = cn_bouran
-					name_list_aesling = cn_bouran #WHG TODO temp fix for wastelands placeholder culture, remove once resolved
-				}
+				# cultural_names = {
+				# 	name_list_nortagnese = cn_bouran
+				# 	name_list_bourgon = cn_bouran
+				# 	name_list_old_bretonni= cn_bouran
+				# 	name_list_carcassian = cn_bouran
+				# 	name_list_aesling = cn_bouran #WHG TODO temp fix for wastelands placeholder culture, remove once resolved
+				# }
 				
 				b_middenmeer = {
 					province = 606
@@ -4816,24 +4816,24 @@ e_the_empire = {
 			c_aarnau = {
 				color = { 73 128 254 }
 				
-				cultural_names = {
-					name_list_nortagnese = cn_arneau
-					name_list_bourgon = cn_arneau
-					name_list_breton = cn_arneau
-					name_list_carcassian = cn_arneau
-					name_list_aesling = cn_arneau #WHG TODO temp fix for wastelands placeholder culture, remove once resolved
-				}
+				# cultural_names = {
+				# 	name_list_nortagnese = cn_arneau
+				# 	name_list_bourgon = cn_arneau
+				# 	name_list_old_bretonni= cn_arneau
+				# 	name_list_carcassian = cn_arneau
+				# 	name_list_aesling = cn_arneau #WHG TODO temp fix for wastelands placeholder culture, remove once resolved
+				# }
 
 				b_aarnau = {
 					province = 610
 					color = { 42 54 143 }
 
-					cultural_names = {
-						name_list_nortagnese = cn_arneau
-						name_list_bourgon = cn_arneau
-						name_list_breton = cn_arneau
-						name_list_carcassian = cn_arneau
-					}
+					# cultural_names = {
+					# 	name_list_nortagnese = cn_arneau
+					# 	name_list_bourgon = cn_arneau
+					# 	name_list_old_bretonni= cn_arneau
+					# 	name_list_carcassian = cn_arneau
+					# }
 				}
 				b_diever = {
 					province = 611
@@ -4860,9 +4860,9 @@ e_the_empire = {
 		capital = c_nuln
 		color = { 125 125 125 }
 
-		cultural_names = {
-			old_imperial_name_list = cn_menogoth
-		}
+		# cultural_names = {
+		# 	old_imperial_name_list = cn_menogoth
+		# }
 		
 		ai_primary_priority = {
 			if = {
@@ -5286,9 +5286,9 @@ e_the_empire = {
 		
 		capital = c_pfeildorf
 		
-		cultural_names = {
-			old_imperial_name_list = cn_merogen
-		}
+		# cultural_names = {
+		# 	old_imperial_name_list = cn_merogen
+		# }
 		
 		ai_primary_priority = {
 			if = {
@@ -5311,9 +5311,9 @@ e_the_empire = {
 
 		capital = c_carroburg
 		
-		cultural_names = {
-			old_imperial_name_list = cn_thuringia
-		}
+		# cultural_names = {
+		# 	old_imperial_name_list = cn_thuringia
+		# }
 		
 		ai_primary_priority = {
 			if = {
@@ -5334,9 +5334,9 @@ e_the_empire = {
 			capital = c_carroburg
 			color = { 52 86 63 }
 			
-			cultural_names = {
-					old_imperial_name_list = cn_thuringia
-			}
+			# cultural_names = {
+			# 		old_imperial_name_list = cn_thuringia
+			# }
 		
 		ai_primary_priority = {
 			if = {
@@ -5395,9 +5395,9 @@ e_the_empire = {
 		capital = c_drakenhof
 		color = { 100 40 130 }
 		
-		cultural_names = {
-			old_imperial_name_list = cn_fennone
-		}
+		# cultural_names = {
+		# 	old_imperial_name_list = cn_fennone
+		# }
 
 		ai_primary_priority = {
 			if = {

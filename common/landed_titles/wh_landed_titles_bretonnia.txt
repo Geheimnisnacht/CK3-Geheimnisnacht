@@ -1342,11 +1342,11 @@ e_bretonnia = {
 			color = { 160 180 250 }
 			
 			c_lyonesse = {
-				color = { 150 180 260 }
+				color = { 150 180 250 }
 
 				b_lyonesse = {
 					province = 2795
-					color = { 150 180 260 }
+					color = { 150 180 250 }
 				}		
 			}
 			c_chagrin = {

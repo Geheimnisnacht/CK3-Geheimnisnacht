@@ -131,10 +131,6 @@ h_dar_al_islam = {
 	capital = c_altdorf
 }
 
-e_minister_chancellor = {
-	landless = yes
-	capital = c_altdorf
-}
 
 k_austria = {
 	landless = yes
@@ -173,30 +169,11 @@ d_cordoba = {
 
 
 
-k_fashion = { # Kingdom of Fashion from Establish a New Fashion at Court decision
-	color = { 140 45 165 }
-	landless = yes
-	destroy_on_succession = yes
-	can_be_named_after_dynasty = no
-	capital = c_altdorf # De-Jure capital has to be somewhere, will move as characters gain the title.
-
-	no_automatic_claims = yes
-	de_jure_drift_disabled = yes
-
-	can_create = {
-		is_wastelands = no
-	}
-}
-
-
 ### VANILLA MNISTERS ###
 h_china = { #TO clean up references later
 	color = { 230 180 10 }
 	capital = c_altdorf
 
-	can_create = {
-		is_wastelands = no
-	}
 
 	e_minister_chancellor = {
 		color = { 228 237 113 }
@@ -212,9 +189,6 @@ h_china = { #TO clean up references later
 
 		capital = c_altdorf
 
-		can_create = {
-			is_wastelands = no
-		}
 	}
 
 	e_minister_censor = {
@@ -231,9 +205,6 @@ h_china = { #TO clean up references later
 
 		capital = c_altdorf
 
-		can_create = {
-			is_wastelands = no
-		}
 	}
 
 	e_minister_grand_marshal = {
@@ -250,9 +221,6 @@ h_china = { #TO clean up references later
 
 		capital = c_altdorf
 
-		can_create = {
-			is_wastelands = no
-		}
 	}
 
 	e_minister_of_personnel = {
@@ -269,9 +237,6 @@ h_china = { #TO clean up references later
 
 		capital = c_altdorf
 
-		can_create = {
-			is_wastelands = no
-		}
 	}
 
 	e_minister_of_revenue = {
@@ -288,9 +253,6 @@ h_china = { #TO clean up references later
 
 		capital = c_altdorf
 
-		can_create = {
-			is_wastelands = no
-		}
 	}
 
 	e_minister_of_rites = {
@@ -307,9 +269,7 @@ h_china = { #TO clean up references later
 
 		capital = c_altdorf
 
-		can_create = {
-			is_wastelands = no
-		}
+
 	}
 
 	e_minister_of_war = {
@@ -326,9 +286,7 @@ h_china = { #TO clean up references later
 
 		capital = c_altdorf
 
-		can_create = {
-			is_wastelands = no
-		}
+
 	}
 
 	e_minister_of_justice = {
@@ -345,9 +303,7 @@ h_china = { #TO clean up references later
 
 		capital = c_altdorf
 
-		can_create = {
-			is_wastelands = no
-		}
+
 	}
 
 	e_minister_of_works = {
@@ -364,8 +320,5 @@ h_china = { #TO clean up references later
 
 		capital = c_altdorf
 
-		can_create = {
-			is_wastelands = no
-		}
 	}
 }

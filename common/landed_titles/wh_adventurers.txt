@@ -1,15 +1,15 @@
-﻿d_laamp_sotamies = { # Supersotamies
-	color = { 100 100 100 }
-	#capital = c_zamak_spanyenya
-	capital = c_bohsenfels #temporally is in ostland until kislev gets readded.
+﻿# d_laamp_sotamies = { # Supersotamies
+# 	color = { 100 100 100 }
+# 	#capital = c_zamak_spanyenya
+# 	capital = c_bohsenfels #temporally is in ostland until kislev gets readded.
 
-	definite_form = yes
-	landless = yes
-	require_landless = yes
-	ruler_uses_title_name = no
-	no_automatic_claims = yes
-	destroy_if_invalid_heir = yes
-	disable_regnal_numbers = yes
+# 	definite_form = yes
+# 	landless = yes
+# 	require_landless = yes
+# 	ruler_uses_title_name = no
+# 	no_automatic_claims = yes
+# 	destroy_if_invalid_heir = yes
+# 	disable_regnal_numbers = yes
 
-	#ai_primary_priority = { add = @never_primary_score }
-}
+# 	#ai_primary_priority = { add = @never_primary_score }
+# }
