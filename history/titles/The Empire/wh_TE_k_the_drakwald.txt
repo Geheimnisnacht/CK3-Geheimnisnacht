@@ -1,0 +1,9 @@
+
+
+c_issenwald = {
+	6510.1.1 = {
+		change_development_level = 0
+		# holder = k_wastelands_holder # WHG TODO: wasteland content not reimported
+		liege = 0
+	}
+}
