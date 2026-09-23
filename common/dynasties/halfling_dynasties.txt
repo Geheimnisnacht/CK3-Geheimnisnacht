@@ -1,0 +1,121 @@
+﻿###�NSI
+
+79000 = { name = "dynn_Ahresdorf" culture = mootlander }
+79001 = { name = "dynn_Bagger" culture = mootlander }
+79002 = { name = "dynn_Baggin" culture = mootlander }
+79003 = { name = "dynn_Braun" culture = mootlander }
+79004 = { name = "dynn_Brunch" culture = mootlander }
+79005 = { name = "dynn_Cuppins" culture = mootlander }
+79006 = { name = "dynn_Dachbach" culture = mootlander }
+79007 = { name = "dynn_Haigermann" culture = mootlander }
+79008 = { name = "dynn_Helembertus" culture = mootlander }
+79009 = { name = "dynn_Thorncobble" culture = mootlander}
+79010 = { name = "dynn_Maternus" culture = mootlander }
+79011 = { name = "dynn_Merribuck" culture = mootlander }
+79012 = { name = "dynn_Tumbleberry" culture = mootlander }
+79013 = { name = "dynn_Oppenheimer" culture = mootlander }
+79014 = { name = "dynn_Ostermarker" culture = mootlander }
+79015 = { name = "dynn_Schneider" culture = mootlander }
+79016 = { name = "dynn_Seiger" culture = mootlander }
+79017 = { name = "dynn_Siegenhausen" culture = mootlander }
+79018 = { name = "dynn_Streicheln" culture = mootlander }
+79019 = { name = "dynn_Szeck" culture = mootlander }
+79020 = { name = "dynn_Vincencius" culture = mootlander }
+79021 = { name = "dynn_Rumster" culture = mootlander }
+79022 = { name = "dynn_Weningenner" culture = mootlander }
+79023 = { name = "dynn_Wester" culture = mootlander }
+79024 = { name = "dynn_Willen" culture = mootlander }
+79025 = { name = "dynn_Bleich" culture = mootlander }
+79026 = { name = "dynn_Bruckert" culture = mootlander }
+79027 = { name = "dynn_Dorner" culture = mootlander }
+79028 = { name = "dynn_Eber" culture = mootlander }
+79029 = { name = "dynn_Esmeringen" culture = mootlander }
+79030 = { name = "dynn_Fehr" culture = mootlander }
+79031 = { name = "dynn_Hexensen" culture = mootlander }
+79032 = { name = "dynn_Hexensenohn" culture = mootlander }
+79033 = { name = "dynn_Hovel" culture = mootlander }
+79034 = { name = "dynn_Brandysnap" culture = mootlander }
+79035 = { name = "dynn_Kohl" culture = mootlander }
+79036 = { name = "dynn_Mantelmann" culture = mootlander }
+79037 = { name = "dynn_Marburger" culture = mootlander }
+79038 = { name = "dynn_Merribuck" culture = mootlander }
+79039 = { name = "dynn_Nieder" culture = mootlander }
+79040 = { name = "dynn_Pfeifraucher" culture = mootlander }
+79041 = { name = "dynn_Talabec" culture = mootlander }
+79042 = { name = "dynn_Trautenau" culture = mootlander }
+79043 = { name = "dynn_Vogt" culture = mootlander }
+79044 = { name = "dynn_Walfen" culture = mootlander }
+79045 = { name = "dynn_Greenleaf" culture = mootlander }
+79046 = { name = "dynn_Bahrenfahrer" culture = mootlander }
+79047 = { name = "dynn_Borg" culture = mootlander }
+79048 = { name = "dynn_Bugel" culture = mootlander }
+79049 = { name = "dynn_Busch" culture = mootlander }
+79050 = { name = "dynn_Drucker" culture = mootlander }
+79051 = { name = "dynn_Egling" culture = mootlander }
+79052 = { name = "dynn_Franzen" culture = mootlander }
+79053 = { name = "dynn_Gerbermann" culture = mootlander }
+79054 = { name = "dynn_Gluckshalt" culture = mootlander }
+79055 = { name = "dynn_Kuhn" culture = mootlander }
+79056 = { name = "dynn_Punzenmann" culture = mootlander }
+79057 = { name = "dynn_Muffins" culture = mootlander }
+79058 = { name = "dynn_Rothbart" culture = mootlander }
+79059 = { name = "dynn_Schaumer" culture = mootlander }
+79060 = { name = "dynn_Steiger" culture = mootlander }
+79061 = { name = "dynn_Stock" culture = mootlander }
+79062 = { name = "dynn_Tillermann" culture = mootlander }
+79063 = { name = "dynn_Untergarder" culture = mootlander }
+79064 = { name = "dynn_Vonreuter" culture = mootlander }
+79065 = { name = "dynn_Westerlander" culture = mootlander }
+79066 = { name = "dynn_Widmer" culture = mootlander }
+79067 = { name = "dynn_Augustus" culture = mootlander }
+79068 = { name = "dynn_Drau" culture = mootlander }
+79069 = { name = "dynn_Droevigger" culture = mootlander }
+79070 = { name = "dynn_Harsumner" culture = mootlander }
+79071 = { name = "dynn_Herdeinus" culture = mootlander }
+79072 = { name = "dynn_Jodokus" culture = mootlander }
+79073 = { name = "dynn_Kiell" culture = mootlander }
+79074 = { name = "dynn_Lambertus" culture = mootlander }
+79075 = { name = "dynn_Leich" culture = mootlander }
+79076 = { name = "dynn_Lichter" culture = mootlander }
+79077 = { name = "dynn_Mencken" culture = mootlander }
+79078 = { name = "dynn_Metzger" culture = mootlander }
+79079 = { name = "dynn_Remermann" culture = mootlander }
+79080 = { name = "dynn_Schaeffer" culture = mootlander }
+79081 = { name = "dynn_Siffridus" culture = mootlander }
+79082 = { name = "dynn_Tarshoffer" culture = mootlander }
+79083 = { name = "dynn_Zecher" culture = mootlander }
+79084 = { name = "dynn_Wurter" culture = mootlander }
+79085 = { name = "dynn_Stoutheart" culture = mootlander}
+
+
+# 79500 = { name = "Tamba" culture = miyan }
+# 79501 = { name = "Pikilla" culture = miyan }
+# 79502 = { name = "Tepeco" culture = miyan }
+# 79503 = { name = "Tomata" culture = miyan }
+# 79504 = { name = "Pikawas" culture = miyan }
+# 79505 = { name = "Cita" culture = miyan }
+# 79506 = { name = "Pomacha" culture = miyan }
+# 79507 = { name = "Amashuan" culture = miyan }
+# 79508 = { name = "Tunsiba" culture = miyan }
+# 79509 = { name = "Tuncita" culture = miyan }
+# 79510 = { name = "Tambo" culture = miyan }
+# 79511 = { name = "Ochavin" culture = miyan }
+# 79512 = { name = "Itlaltec" culture = miyan }
+# 79513 = { name = "Taytupar" culture = miyan }
+# 79514 = { name = "Maca" culture = miyan }
+# 79515 = { name = "Canala" culture = miyan }
+# 79516 = { name = "Camebo" culture = miyan }
+# 79517 = { name = "Parihu" culture = miyan }
+# 79518 = { name = "Tlaxca" culture = miyan }
+# 79519 = { name = "Talteote" culture = miyan }
+# 79520 = { name = "Tlanautla" culture = miyan }
+# 79521 = { name = "Ongambolla" culture = miyan }
+# 79522 = { name = "Caria" culture = miyan }
+# 79523 = { name = "Chuetenalc" culture = miyan }
+# 79524 = { name = "Topeca" culture = miyan }
+# 79525 = { name = "Ileban" culture = miyan }
+# 79526 = { name = "Coatzaca" culture = miyan }
+# 79527 = { name = "Tepanalc" culture = miyan }
+# 79528 = { name = "Apacan" culture = miyan }
+# 79529 = { name = "Ihuacan" culture = miyan }
+# 79530 = { name = "Tlumala" culture = miyan }
