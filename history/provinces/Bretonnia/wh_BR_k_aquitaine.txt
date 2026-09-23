@@ -35,6 +35,9 @@
 	holding = city_holding
 }
 
+1934 = {	# Ladamme
+	holding = church_holding
+}
 
 ###c_anjarre
 1932 = { # Anjarre
