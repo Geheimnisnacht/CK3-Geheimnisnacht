@@ -1,0 +1,13 @@
+d_laamp_sotamies={
+	pattern="pattern_diagonal_split_01.dds"
+	color1=wh_gold
+	color2=wh_sable
+	color3=wh_gold
+}
+
+dynasty_Sotamies={
+	pattern="pattern_diagonal_split_01.dds"
+	color1=wh_gold
+	color2=wh_sable
+	color3=wh_gold
+}
