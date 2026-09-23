@@ -3,7 +3,6 @@ tags={
 	"Total Conversion"
 }
 replace_path="common/dynasties"
-replace_path="common/culture/cultures"
 replace_path="common/culture/name_lists"
 replace_path="common/landed_titles"
 

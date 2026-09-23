@@ -1,0 +1,189 @@
+﻿############
+###Humans###
+############
+heritage_bretonnian = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_bretonnian
+		}
+	}
+
+	audio_parameter = european 
+	
+	# parameters = {
+	# 	human = yes
+	# }
+}
+
+heritage_bretonni = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_bretonni
+		}
+	}
+
+	audio_parameter = european 
+	
+	# parameters = {
+	# 	human = yes
+	# }
+}
+
+heritage_alt_imperial = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_alt_imperial
+		}
+	}
+
+	audio_parameter = european 
+	
+	# parameters = {
+	# 	human = yes
+	# }
+}
+
+
+heritage_estalian = {
+	type = heritage
+	
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_estalian
+		}
+	}
+
+	audio_parameter = european 
+	
+	# parameters = {
+	# 	human = yes
+	# }
+}
+
+heritage_imperial = {
+	type = heritage
+
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_imperial
+		}
+	}
+
+	audio_parameter = european 
+
+	# parameters = {
+	# 	human = yes
+	# }
+}
+
+heritage_myrmidon = { #ancient heritage for ancient Myrmidian Empire
+	type = heritage
+
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_myrmidon
+		}
+	}
+
+	audio_parameter = european 
+
+	# parameters = {
+	# 	human = yes
+	# }
+}
+
+heritage_norscan = {
+	type = heritage
+
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_norscan
+		}
+	}
+
+	audio_parameter = european 
+	
+	# parameters = {
+	# 	human = yes
+	# }
+}
+
+heritage_sartosan = {
+	type = heritage
+
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_sartosan
+		}
+	}
+
+	audio_parameter = european 
+	
+	# parameters = {
+	# 	human = yes
+	# }
+}
+
+heritage_strygan = {
+	type = heritage
+
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_strygan
+		}
+	}
+
+	audio_parameter = mena 
+
+	# parameters = {
+	# 	human = yes
+	# }
+}
+
+heritage_tilean = {
+	type = heritage
+
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_tilean
+		}
+	}
+
+	audio_parameter = european 
+	
+	# parameters = {
+	# 	human = yes
+	# }
+}
+
+############### 
+###Halflings###
+###############
+heritage_halflings = {
+	type = heritage
+	
+	# parameters = {
+	# 	life_expectancy = 40
+	# 	years_of_fertility = 20
+	# 	fertility = 0.1
+	# 	health = 1
+	# 	negate_health_penalty_add = 3
+	# 	halfling = yes
+	# }
+
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_halflings
+		}
+	}
+
+	audio_parameter = european 
+	
+	# character_modifier = {
+	# 	ai_war_chance = -1
+	# 	ai_war_cooldown = 2
+	# }
+}
