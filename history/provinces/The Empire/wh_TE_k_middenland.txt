@@ -1,7 +1,7 @@
 ##d_middenheim ###################################
 ###c_middenheim
 21 = {	# Middenheim
-	culture = german
+	culture = middenlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -9,7 +9,7 @@
 
 ###c_nordlichturm
 22 = {	# Norderingen
-	culture = german
+	culture = middenlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -29,7 +29,7 @@
 
 ###c_suderende
 25 = {	# Jagerhausen
-	culture = german
+	culture = middenlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -45,7 +45,7 @@
 
 ###c_kammendun
 762 = {	# Kammendun
-	culture = german
+	culture = drakwalder
 	religion = catholic
 	holding = castle_holding
 }
@@ -67,7 +67,7 @@
 ##d_carroburg ###################################
 ###c_carroburg
 723 = {	# Carroburg
-	culture = german
+	culture = drakwalder
 	religion = catholic
 	holding = castle_holding
 	#special_building = drakschloss_01
@@ -96,7 +96,7 @@
 
 ###c_scheinfeld
 729 = {	# Scheinfeld
-	culture = german
+	culture = drakwalder
 	religion = catholic
 	holding = castle_holding
 }
@@ -118,7 +118,9 @@
 ##d_kristal ###################################
 ###c_seidewald
 733 = {	# Knorreibe
-	culture = german
+	#culture = goblin_forest
+	#religion = catholic
+	culture = aesling
 	religion = catholic
 	holding = castle_holding
 }
@@ -142,7 +144,9 @@
 
 ###c_winsen
 738 = {	# Winsen
-	culture = german
+	#culture = goblin_forest
+	#religion = catholic
+	culture = aesling
 	religion = catholic
 	holding = castle_holding
 }
@@ -158,7 +162,9 @@
 
 ###c_isenbuttel
 741 = {	# Isenbuttel
-	culture = german
+	#culture = beastman_main
+	#religion = catholic
+	culture = drakwalder
 	religion = catholic
 	holding = castle_holding
 }
@@ -184,7 +190,9 @@
 ##d_erpelzug ###################################
 ###c_pinnesberg
 746 = {	# Pinnesberg
-	culture = german
+	#culture = beastman_main
+	#religion = catholic
+	culture = aesling
 	religion = catholic
 	holding = castle_holding
 }
@@ -211,7 +219,9 @@
 
 ###c_wouduin
 749 = {	# Wouduin
-	culture = german
+	#culture = goblin_forest
+	#religion = catholic
+	culture = aesling
 	religion = catholic
 	holding = castle_holding
 }
@@ -231,7 +241,9 @@
 
 ###c_heilfeld
 753 = {	# Heilfeld
-	culture = german
+	#culture = beastman_main
+	#religion = catholic
+	culture = aesling
 	religion = catholic
 	holding = castle_holding
 }
@@ -251,7 +263,9 @@
 
 ###c_plettenborn #The black pitt?
 757 = {	# Plettenborn 
-	culture = german
+	#culture = goblin_forest
+	#religion = catholic
+	culture = aesling
 	religion = catholic
 	holding = castle_holding
 }
@@ -273,7 +287,7 @@
 ##d_tauben ###################################
 ###c_holtdorf
 766 = {	# Holtdorf
-	culture = german
+	culture = middenlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -293,7 +307,7 @@
 
 ###c_ahlenhof
 770 = {	# Ahlenhof
-	culture = german
+	culture = middenlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -309,7 +323,7 @@
 
 ###c_bad_hohne
 773 = {	# Bad Hohne
-	culture = german
+	culture = middenlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -329,7 +343,7 @@
 
 ###c_coburg
 777 = {	# Coburg
-	culture = german
+	culture = middenlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -341,7 +355,7 @@
 
 ###c_kutenholz
 779 = {	# Kutenholz
-	culture = german
+	culture = middenlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -367,7 +381,7 @@
 ##d_kamistaat ###################################
 ###c_middenstag
 784 = {	# Middenstag
-	culture = german
+	culture = middenlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -391,7 +405,7 @@
 
 ###c_hanau
 789 = {	# Hanau
-	culture = german
+	culture = middenlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -411,7 +425,7 @@
 
 ###c_grimminhagen
 793 = {	# Grimminhagen
-	culture = german
+	culture = middenlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -431,7 +445,7 @@
 
 ###c_malstedt
 797 = {	# Malstedt
-	culture = german
+	culture = middenlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -451,7 +465,7 @@
 
 ###c_mittelwig
 801 = {	# Mittelwig
-	culture = german
+	culture = drakwalder
 	religion = catholic
 	holding = castle_holding
 }
@@ -471,7 +485,7 @@
 
 ###c_brockel
 805 = {	# Brockel
-	culture = german
+	culture = middenlander
 	religion = catholic
 	holding = church_holding
 }

@@ -1,0 +1,2252 @@
+﻿#French Camp
+bastonnian = { #Duchy of Bastonne
+	color = french
+	created = 5477.1.1
+	parents = { breton }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_bretonnian
+	language = language_breton
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain		
+	traditions = {
+		#tradition_chanson_de_geste #make a unique that gives them better bonus for upcoming Bretonnian feature
+		tradition_zealous_people
+		tradition_martial_admiration
+	}
+	
+	dlc_tradition = {
+		trait = tradition_staunch_traditionalists
+		requires_dlc_flag = hybridize_culture
+	}
+
+	name_list = name_list_breton
+	
+	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { french_clothing_gfx western_clothing_gfx }
+	#clothing_gfx = { bretonnian_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_03
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		2 = european_caucasian_french_1
+		2 = european_caucasian_french_2
+		2 = european_caucasian_french_3
+		2 = european_caucasian_french_4
+		2 = european_caucasian_french_5
+		2 = european_caucasian_french_6
+		2 = european_caucasian_french_7
+		2 = european_caucasian_french_8
+		2 = european_caucasian_french_9
+		2 = european_caucasian_french_10
+		2 = european_caucasian_french_11
+		2 = european_caucasian_french_12
+		2 = european_caucasian_french_13
+		2 = european_caucasian_french_14
+		2 = european_caucasian_french_15
+		2 = european_caucasian_french_16
+		2 = european_caucasian_french_17
+		2 = european_caucasian_french_18
+		2 = european_caucasian_french_19
+		2 = european_caucasian_french_20
+		2 = european_caucasian_french_21
+		2 = european_caucasian_french_22
+		2 = european_caucasian_french_23
+		2 = european_caucasian_french_24
+		2 = european_caucasian_french_25
+		2 = european_caucasian_french_26
+		2 = european_caucasian_french_27
+		2 = european_caucasian_french_28
+		2 = european_caucasian_french_29
+		2 = european_caucasian_french_30
+		2 = european_caucasian_french_31
+		2 = european_caucasian_french_32
+		2 = european_caucasian_french_33
+		2 = european_caucasian_french_34
+		2 = european_caucasian_french_35
+		2 = european_caucasian_french_36
+		2 = european_caucasian_french_37
+		2 = european_caucasian_french_38
+		2 = european_caucasian_french_39
+		2 = european_caucasian_french_40
+		2 = european_caucasian_french_41
+		2 = european_caucasian_french_42
+		2 = european_caucasian_french_43
+		2 = european_caucasian_french_44
+		2 = european_caucasian_french_45
+		2 = european_caucasian_french_46
+		2 = european_caucasian_french_47
+		2 = european_caucasian_french_48
+		2 = european_caucasian_french_49
+		2 = european_caucasian_french_50
+		2 = european_caucasian_french_51
+		2 = european_caucasian_french_52
+		2 = european_caucasian_french_53
+		2 = european_caucasian_french_54
+		2 = european_caucasian_french_55
+		2 = european_caucasian_french_56
+		2 = european_caucasian_french_57
+		2 = european_caucasian_french_58
+		2 = european_caucasian_french_59
+		2 = european_caucasian_french_60
+		2 = european_caucasian_french_61
+		2 = european_caucasian_french_62
+		2 = european_caucasian_french_63
+		2 = european_caucasian_french_64
+		2 = european_caucasian_french_65
+		2 = european_caucasian_french_66
+		2 = european_caucasian_french_67
+		2 = european_caucasian_french_68
+		2 = european_caucasian_french_69
+		2 = european_caucasian_french_70
+		2 = european_caucasian_french_71
+		2 = european_caucasian_french_72
+		2 = european_caucasian_french_73
+		2 = european_caucasian_french_74
+		2 = european_caucasian_french_75
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+	}	
+}
+
+bordelen = { #Duchy of Bordelaux
+	color = { 129 110 250 }
+	created = 5477.1.1
+	parents = { gascon breton }
+	
+	ethos = ethos_courtly
+	heritage = heritage_bretonnian
+	language = language_breton
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain		
+	traditions = {
+#		tradition_bordelen_tradition
+		tradition_pastoralists #placeholder
+		tradition_maritime_mercantilism
+		tradition_agrarian
+	}
+	
+	name_list = name_list_breton
+	
+	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { french_clothing_gfx western_clothing_gfx }
+	#clothing_gfx = { bretonnian_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_03
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		2 = european_caucasian_french_1
+		2 = european_caucasian_french_2
+		2 = european_caucasian_french_3
+		2 = european_caucasian_french_4
+		2 = european_caucasian_french_5
+		2 = european_caucasian_french_6
+		2 = european_caucasian_french_7
+		2 = european_caucasian_french_8
+		2 = european_caucasian_french_9
+		2 = european_caucasian_french_10
+		2 = european_caucasian_french_11
+		2 = european_caucasian_french_12
+		2 = european_caucasian_french_13
+		2 = european_caucasian_french_14
+		2 = european_caucasian_french_15
+		2 = european_caucasian_french_16
+		2 = european_caucasian_french_17
+		2 = european_caucasian_french_18
+		2 = european_caucasian_french_19
+		2 = european_caucasian_french_20
+		2 = european_caucasian_french_21
+		2 = european_caucasian_french_22
+		2 = european_caucasian_french_23
+		2 = european_caucasian_french_24
+		2 = european_caucasian_french_25
+		2 = european_caucasian_french_26
+		2 = european_caucasian_french_27
+		2 = european_caucasian_french_28
+		2 = european_caucasian_french_29
+		2 = european_caucasian_french_30
+		2 = european_caucasian_french_31
+		2 = european_caucasian_french_32
+		2 = european_caucasian_french_33
+		2 = european_caucasian_french_34
+		2 = european_caucasian_french_35
+		2 = european_caucasian_french_36
+		2 = european_caucasian_french_37
+		2 = european_caucasian_french_38
+		2 = european_caucasian_french_39
+		2 = european_caucasian_french_40
+		2 = european_caucasian_french_41
+		2 = european_caucasian_french_42
+		2 = european_caucasian_french_43
+		2 = european_caucasian_french_44
+		2 = european_caucasian_french_45
+		2 = european_caucasian_french_46
+		2 = european_caucasian_french_47
+		2 = european_caucasian_french_48
+		2 = european_caucasian_french_49
+		2 = european_caucasian_french_50
+		2 = european_caucasian_french_51
+		2 = european_caucasian_french_52
+		2 = european_caucasian_french_53
+		2 = european_caucasian_french_54
+		2 = european_caucasian_french_55
+		2 = european_caucasian_french_56
+		2 = european_caucasian_french_57
+		2 = european_caucasian_french_58
+		2 = european_caucasian_french_59
+		2 = european_caucasian_french_60
+		2 = european_caucasian_french_61
+		2 = european_caucasian_french_62
+		2 = european_caucasian_french_63
+		2 = european_caucasian_french_64
+		2 = european_caucasian_french_65
+		2 = european_caucasian_french_66
+		2 = european_caucasian_french_67
+		2 = european_caucasian_french_68
+		2 = european_caucasian_french_69
+		2 = european_caucasian_french_70
+		2 = european_caucasian_french_71
+		2 = european_caucasian_french_72
+		2 = european_caucasian_french_73
+		2 = european_caucasian_french_74
+		2 = european_caucasian_french_75
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+	}
+}
+
+gisoren = { #Duchy of Gisoreux
+	color = { 45 85 25 }
+	created = 5477.1.1
+	parents = { gisorii bourgon } 
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_bretonnian
+	language = language_breton
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain		
+	traditions = {
+#		tradition_gisoreux_tradition
+		tradition_agrarian #placeholder
+		tradition_stalwart_defenders
+		tradition_esteemed_hospitality
+		tradition_adaptive_skirmishing
+	}
+	
+	name_list = name_list_breton
+
+	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { french_clothing_gfx western_clothing_gfx }
+	#clothing_gfx = { bretonnian_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_03
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		2 = european_caucasian_french_1
+		2 = european_caucasian_french_2
+		2 = european_caucasian_french_3
+		2 = european_caucasian_french_4
+		2 = european_caucasian_french_5
+		2 = european_caucasian_french_6
+		2 = european_caucasian_french_7
+		2 = european_caucasian_french_8
+		2 = european_caucasian_french_9
+		2 = european_caucasian_french_10
+		2 = european_caucasian_french_11
+		2 = european_caucasian_french_12
+		2 = european_caucasian_french_13
+		2 = european_caucasian_french_14
+		2 = european_caucasian_french_15
+		2 = european_caucasian_french_16
+		2 = european_caucasian_french_17
+		2 = european_caucasian_french_18
+		2 = european_caucasian_french_19
+		2 = european_caucasian_french_20
+		2 = european_caucasian_french_21
+		2 = european_caucasian_french_22
+		2 = european_caucasian_french_23
+		2 = european_caucasian_french_24
+		2 = european_caucasian_french_25
+		2 = european_caucasian_french_26
+		2 = european_caucasian_french_27
+		2 = european_caucasian_french_28
+		2 = european_caucasian_french_29
+		2 = european_caucasian_french_30
+		2 = european_caucasian_french_31
+		2 = european_caucasian_french_32
+		2 = european_caucasian_french_33
+		2 = european_caucasian_french_34
+		2 = european_caucasian_french_35
+		2 = european_caucasian_french_36
+		2 = european_caucasian_french_37
+		2 = european_caucasian_french_38
+		2 = european_caucasian_french_39
+		2 = european_caucasian_french_40
+		2 = european_caucasian_french_41
+		2 = european_caucasian_french_42
+		2 = european_caucasian_french_43
+		2 = european_caucasian_french_44
+		2 = european_caucasian_french_45
+		2 = european_caucasian_french_46
+		2 = european_caucasian_french_47
+		2 = european_caucasian_french_48
+		2 = european_caucasian_french_49
+		2 = european_caucasian_french_50
+		2 = european_caucasian_french_51
+		2 = european_caucasian_french_52
+		2 = european_caucasian_french_53
+		2 = european_caucasian_french_54
+		2 = european_caucasian_french_55
+		2 = european_caucasian_french_56
+		2 = european_caucasian_french_57
+		2 = european_caucasian_french_58
+		2 = european_caucasian_french_59
+		2 = european_caucasian_french_60
+		2 = european_caucasian_french_61
+		2 = european_caucasian_french_62
+		2 = european_caucasian_french_63
+		2 = european_caucasian_french_64
+		2 = european_caucasian_french_65
+		2 = european_caucasian_french_66
+		2 = european_caucasian_french_67
+		2 = european_caucasian_french_68
+		2 = european_caucasian_french_69
+		2 = european_caucasian_french_70
+		2 = european_caucasian_french_71
+		2 = european_caucasian_french_72
+		2 = european_caucasian_french_73
+		2 = european_caucasian_french_74
+		2 = european_caucasian_french_75
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+	}
+}
+
+artoin = { #Duchy of Artois
+	color = { 236 80 111 }
+	created = 5477.1.1
+	parents = { armoric gisorii }
+	
+	ethos = ethos_stoic
+	heritage = heritage_bretonnian
+	language = language_breton
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain	
+	traditions = {
+#		tradition_artoin_tradition
+		tradition_pastoralists #placeholder
+		tradition_hunters
+		tradition_isolationist
+		tradition_strong_kinship
+	}
+	
+	name_list = name_list_breton
+
+	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { french_clothing_gfx western_clothing_gfx }
+	#clothing_gfx = { bretonnian_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_03
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		2 = european_caucasian_french_1
+		2 = european_caucasian_french_2
+		2 = european_caucasian_french_3
+		2 = european_caucasian_french_4
+		2 = european_caucasian_french_5
+		2 = european_caucasian_french_6
+		2 = european_caucasian_french_7
+		2 = european_caucasian_french_8
+		2 = european_caucasian_french_9
+		2 = european_caucasian_french_10
+		2 = european_caucasian_french_11
+		2 = european_caucasian_french_12
+		2 = european_caucasian_french_13
+		2 = european_caucasian_french_14
+		2 = european_caucasian_french_15
+		2 = european_caucasian_french_16
+		2 = european_caucasian_french_17
+		2 = european_caucasian_french_18
+		2 = european_caucasian_french_19
+		2 = european_caucasian_french_20
+		2 = european_caucasian_french_21
+		2 = european_caucasian_french_22
+		2 = european_caucasian_french_23
+		2 = european_caucasian_french_24
+		2 = european_caucasian_french_25
+		2 = european_caucasian_french_26
+		2 = european_caucasian_french_27
+		2 = european_caucasian_french_28
+		2 = european_caucasian_french_29
+		2 = european_caucasian_french_30
+		2 = european_caucasian_french_31
+		2 = european_caucasian_french_32
+		2 = european_caucasian_french_33
+		2 = european_caucasian_french_34
+		2 = european_caucasian_french_35
+		2 = european_caucasian_french_36
+		2 = european_caucasian_french_37
+		2 = european_caucasian_french_38
+		2 = european_caucasian_french_39
+		2 = european_caucasian_french_40
+		2 = european_caucasian_french_41
+		2 = european_caucasian_french_42
+		2 = european_caucasian_french_43
+		2 = european_caucasian_french_44
+		2 = european_caucasian_french_45
+		2 = european_caucasian_french_46
+		2 = european_caucasian_french_47
+		2 = european_caucasian_french_48
+		2 = european_caucasian_french_49
+		2 = european_caucasian_french_50
+		2 = european_caucasian_french_51
+		2 = european_caucasian_french_52
+		2 = european_caucasian_french_53
+		2 = european_caucasian_french_54
+		2 = european_caucasian_french_55
+		2 = european_caucasian_french_56
+		2 = european_caucasian_french_57
+		2 = european_caucasian_french_58
+		2 = european_caucasian_french_59
+		2 = european_caucasian_french_60
+		2 = european_caucasian_french_61
+		2 = european_caucasian_french_62
+		2 = european_caucasian_french_63
+		2 = european_caucasian_french_64
+		2 = european_caucasian_french_65
+		2 = european_caucasian_french_66
+		2 = european_caucasian_french_67
+		2 = european_caucasian_french_68
+		2 = european_caucasian_french_69
+		2 = european_caucasian_french_70
+		2 = european_caucasian_french_71
+		2 = european_caucasian_french_72
+		2 = european_caucasian_french_73
+		2 = european_caucasian_french_74
+		2 = european_caucasian_french_75
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+	}
+}
+
+mousillonian = { #Duchy of Mousillon 
+	color = { 0.7 0.6 0.2 }
+	created = 5477.1.1
+	parents = { armoric } 
+	
+	ethos = ethos_stoic
+	heritage = heritage_bretonnian
+	language = language_breton
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain		
+	traditions = {
+#		tradition_mousillon_tradition
+		tradition_castle_keepers #placeholder
+		tradition_wetlanders
+		tradition_isolationist
+		tradition_spartan 
+	}
+	
+	name_list = name_list_breton
+
+	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { french_clothing_gfx western_clothing_gfx }
+	#clothing_gfx = { bretonnian_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_03
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+
+	ethnicities = {
+		2 = european_caucasian_french_1
+		2 = european_caucasian_french_2
+		2 = european_caucasian_french_3
+		2 = european_caucasian_french_4
+		2 = european_caucasian_french_5
+		2 = european_caucasian_french_6
+		2 = european_caucasian_french_7
+		2 = european_caucasian_french_8
+		2 = european_caucasian_french_9
+		2 = european_caucasian_french_10
+		2 = european_caucasian_french_11
+		2 = european_caucasian_french_12
+		2 = european_caucasian_french_13
+		2 = european_caucasian_french_14
+		2 = european_caucasian_french_15
+		2 = european_caucasian_french_16
+		2 = european_caucasian_french_17
+		2 = european_caucasian_french_18
+		2 = european_caucasian_french_19
+		2 = european_caucasian_french_20
+		2 = european_caucasian_french_21
+		2 = european_caucasian_french_22
+		2 = european_caucasian_french_23
+		2 = european_caucasian_french_24
+		2 = european_caucasian_french_25
+		2 = european_caucasian_french_26
+		2 = european_caucasian_french_27
+		2 = european_caucasian_french_28
+		2 = european_caucasian_french_29
+		2 = european_caucasian_french_30
+		2 = european_caucasian_french_31
+		2 = european_caucasian_french_32
+		2 = european_caucasian_french_33
+		2 = european_caucasian_french_34
+		2 = european_caucasian_french_35
+		2 = european_caucasian_french_36
+		2 = european_caucasian_french_37
+		2 = european_caucasian_french_38
+		2 = european_caucasian_french_39
+		2 = european_caucasian_french_40
+		2 = european_caucasian_french_41
+		2 = european_caucasian_french_42
+		2 = european_caucasian_french_43
+		2 = european_caucasian_french_44
+		2 = european_caucasian_french_45
+		2 = european_caucasian_french_46
+		2 = european_caucasian_french_47
+		2 = european_caucasian_french_48
+		2 = european_caucasian_french_49
+		2 = european_caucasian_french_50
+		2 = european_caucasian_french_51
+		2 = european_caucasian_french_52
+		2 = european_caucasian_french_53
+		2 = european_caucasian_french_54
+		2 = european_caucasian_french_55
+		2 = european_caucasian_french_56
+		2 = european_caucasian_french_57
+		2 = european_caucasian_french_58
+		2 = european_caucasian_french_59
+		2 = european_caucasian_french_60
+		2 = european_caucasian_french_61
+		2 = european_caucasian_french_62
+		2 = european_caucasian_french_63
+		2 = european_caucasian_french_64
+		2 = european_caucasian_french_65
+		2 = european_caucasian_french_66
+		2 = european_caucasian_french_67
+		2 = european_caucasian_french_68
+		2 = european_caucasian_french_69
+		2 = european_caucasian_french_70
+		2 = european_caucasian_french_71
+		2 = european_caucasian_french_72
+		2 = european_caucasian_french_73
+		2 = european_caucasian_french_74
+		2 = european_caucasian_french_75
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+	}
+}
+
+#Swiss Camp
+parravonese = { #Duchy of Parravon
+	color = { 165 165 30 }
+	created = 5477.1.1
+	parents = { bourgon } 
+	
+	ethos = ethos_communal
+	heritage = heritage_bretonnian
+	language = language_breton
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain		
+	traditions = {
+		# tradition_parravonese_tradition
+		tradition_agrarian #placeholder
+		tradition_sacred_groves
+		tradition_strong_kinship #remove unique MAA stuff from this one.
+		tradition_stand_and_fight
+	}
+	
+	name_list = name_list_bourgon
+
+	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { french_clothing_gfx western_clothing_gfx }
+	#clothing_gfx = { bretonnian_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_03
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		2 = european_caucasian_french_1
+		2 = european_caucasian_french_2
+		2 = european_caucasian_french_3
+		2 = european_caucasian_french_4
+		2 = european_caucasian_french_5
+		2 = european_caucasian_french_6
+		2 = european_caucasian_french_7
+		2 = european_caucasian_french_8
+		2 = european_caucasian_french_9
+		2 = european_caucasian_french_10
+		2 = european_caucasian_french_11
+		2 = european_caucasian_french_12
+		2 = european_caucasian_french_13
+		2 = european_caucasian_french_14
+		2 = european_caucasian_french_15
+		2 = european_caucasian_french_16
+		2 = european_caucasian_french_17
+		2 = european_caucasian_french_18
+		2 = european_caucasian_french_19
+		2 = european_caucasian_french_20
+		2 = european_caucasian_french_21
+		2 = european_caucasian_french_22
+		2 = european_caucasian_french_23
+		2 = european_caucasian_french_24
+		2 = european_caucasian_french_25
+		2 = european_caucasian_french_26
+		2 = european_caucasian_french_27
+		2 = european_caucasian_french_28
+		2 = european_caucasian_french_29
+		2 = european_caucasian_french_30
+		2 = european_caucasian_french_31
+		2 = european_caucasian_french_32
+		2 = european_caucasian_french_33
+		2 = european_caucasian_french_34
+		2 = european_caucasian_french_35
+		2 = european_caucasian_french_36
+		2 = european_caucasian_french_37
+		2 = european_caucasian_french_38
+		2 = european_caucasian_french_39
+		2 = european_caucasian_french_40
+		2 = european_caucasian_french_41
+		2 = european_caucasian_french_42
+		2 = european_caucasian_french_43
+		2 = european_caucasian_french_44
+		2 = european_caucasian_french_45
+		2 = european_caucasian_french_46
+		2 = european_caucasian_french_47
+		2 = european_caucasian_french_48
+		2 = european_caucasian_french_49
+		2 = european_caucasian_french_50
+		2 = european_caucasian_french_51
+		2 = european_caucasian_french_52
+		2 = european_caucasian_french_53
+		2 = european_caucasian_french_54
+		2 = european_caucasian_french_55
+		2 = european_caucasian_french_56
+		2 = european_caucasian_french_57
+		2 = european_caucasian_french_58
+		2 = european_caucasian_french_59
+		2 = european_caucasian_french_60
+		2 = european_caucasian_french_61
+		2 = european_caucasian_french_62
+		2 = european_caucasian_french_63
+		2 = european_caucasian_french_64
+		2 = european_caucasian_french_65
+		2 = european_caucasian_french_66
+		2 = european_caucasian_french_67
+		2 = european_caucasian_french_68
+		2 = european_caucasian_french_69
+		2 = european_caucasian_french_70
+		2 = european_caucasian_french_71
+		2 = european_caucasian_french_72
+		2 = european_caucasian_french_73
+		2 = european_caucasian_french_74
+		2 = european_caucasian_french_75
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+	}
+}
+
+monfortian = { #Duchy of Montfort
+	color = { 65 45 60 }
+	created = 5477.1.1
+	parents = { bourgon } 
+	
+	ethos = ethos_communal
+	heritage = heritage_bretonnian
+	language = language_breton
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain		
+	traditions = {
+#		tradition_montfort_tradition
+		tradition_hill_dwellers #placeholder
+		tradition_ancient_miners
+	}
+	
+	name_list = name_list_bourgon
+
+	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { french_clothing_gfx western_clothing_gfx }
+	#clothing_gfx = { bretonnian_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_03
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		2 = european_caucasian_french_1
+		2 = european_caucasian_french_2
+		2 = european_caucasian_french_3
+		2 = european_caucasian_french_4
+		2 = european_caucasian_french_5
+		2 = european_caucasian_french_6
+		2 = european_caucasian_french_7
+		2 = european_caucasian_french_8
+		2 = european_caucasian_french_9
+		2 = european_caucasian_french_10
+		2 = european_caucasian_french_11
+		2 = european_caucasian_french_12
+		2 = european_caucasian_french_13
+		2 = european_caucasian_french_14
+		2 = european_caucasian_french_15
+		2 = european_caucasian_french_16
+		2 = european_caucasian_french_17
+		2 = european_caucasian_french_18
+		2 = european_caucasian_french_19
+		2 = european_caucasian_french_20
+		2 = european_caucasian_french_21
+		2 = european_caucasian_french_22
+		2 = european_caucasian_french_23
+		2 = european_caucasian_french_24
+		2 = european_caucasian_french_25
+		2 = european_caucasian_french_26
+		2 = european_caucasian_french_27
+		2 = european_caucasian_french_28
+		2 = european_caucasian_french_29
+		2 = european_caucasian_french_30
+		2 = european_caucasian_french_31
+		2 = european_caucasian_french_32
+		2 = european_caucasian_french_33
+		2 = european_caucasian_french_34
+		2 = european_caucasian_french_35
+		2 = european_caucasian_french_36
+		2 = european_caucasian_french_37
+		2 = european_caucasian_french_38
+		2 = european_caucasian_french_39
+		2 = european_caucasian_french_40
+		2 = european_caucasian_french_41
+		2 = european_caucasian_french_42
+		2 = european_caucasian_french_43
+		2 = european_caucasian_french_44
+		2 = european_caucasian_french_45
+		2 = european_caucasian_french_46
+		2 = european_caucasian_french_47
+		2 = european_caucasian_french_48
+		2 = european_caucasian_french_49
+		2 = european_caucasian_french_50
+		2 = european_caucasian_french_51
+		2 = european_caucasian_french_52
+		2 = european_caucasian_french_53
+		2 = european_caucasian_french_54
+		2 = european_caucasian_french_55
+		2 = european_caucasian_french_56
+		2 = european_caucasian_french_57
+		2 = european_caucasian_french_58
+		2 = european_caucasian_french_59
+		2 = european_caucasian_french_60
+		2 = european_caucasian_french_61
+		2 = european_caucasian_french_62
+		2 = european_caucasian_french_63
+		2 = european_caucasian_french_64
+		2 = european_caucasian_french_65
+		2 = european_caucasian_french_66
+		2 = european_caucasian_french_67
+		2 = european_caucasian_french_68
+		2 = european_caucasian_french_69
+		2 = european_caucasian_french_70
+		2 = european_caucasian_french_71
+		2 = european_caucasian_french_72
+		2 = european_caucasian_french_73
+		2 = european_caucasian_french_74
+		2 = european_caucasian_french_75
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+	}
+}
+
+#Occitanian Camp
+carcassonian = { #Duchy of Carcassonne
+	color = { 0.8 0.4 0.7 }
+	created = 5477.1.1
+	parents = { carcassi } 
+	
+	ethos = ethos_bellicose
+	heritage = heritage_bretonnian
+	language = language_breton
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain		
+	traditions = {
+#		tradition_carcasonne_tradition
+		tradition_agrarian #placeholder
+		tradition_warrior_culture
+		tradition_warriors_by_merit
+		tradition_pastoralists
+	}
+	
+	name_list = name_list_carcassian
+
+	coa_gfx = { occitan_coa_gfx frankish_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mediterranean_building_gfx } 
+	clothing_gfx = { french_clothing_gfx western_clothing_gfx }
+	#clothing_gfx = { bretonnian_clothing_gfx }
+	unit_gfx = { western_unit_gfx } 	
+	house_coa_frame = house_frame_03
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		2 = european_caucasian_occitan_01
+		2 = european_caucasian_occitan_02
+		2 = european_caucasian_occitan_03
+		2 = european_caucasian_occitan_04
+		2 = european_caucasian_occitan_05
+		2 = european_caucasian_occitan_06
+		2 = european_caucasian_occitan_07
+		2 = european_caucasian_occitan_08
+		2 = european_caucasian_occitan_09
+		2 = european_caucasian_occitan_10
+		2 = european_caucasian_occitan_11
+		2 = european_caucasian_occitan_12
+		2 = european_caucasian_occitan_13
+		2 = european_caucasian_occitan_14
+		2 = european_caucasian_occitan_15
+		2 = european_caucasian_occitan_16
+		2 = european_caucasian_occitan_17
+		2 = european_caucasian_occitan_18
+		2 = european_caucasian_occitan_19
+		2 = european_caucasian_occitan_20
+		2 = european_caucasian_occitan_21
+		2 = european_caucasian_occitan_22
+		2 = european_caucasian_occitan_23
+		2 = european_caucasian_occitan_24
+		2 = european_caucasian_occitan_25
+		2 = european_caucasian_occitan_26
+		2 = european_caucasian_occitan_27
+		2 = european_caucasian_occitan_28
+		2 = european_caucasian_occitan_29
+		2 = european_caucasian_occitan_30
+		2 = european_caucasian_occitan_31
+		2 = european_caucasian_occitan_32
+		2 = european_caucasian_occitan_33
+		2 = european_caucasian_occitan_34
+		2 = european_caucasian_occitan_35
+		2 = european_caucasian_occitan_36
+		2 = european_caucasian_occitan_37
+		2 = european_caucasian_occitan_38
+		2 = european_caucasian_occitan_39
+		2 = european_caucasian_occitan_40
+		2 = european_caucasian_occitan_41
+		2 = european_caucasian_occitan_42
+		2 = european_caucasian_occitan_43
+		2 = european_caucasian_occitan_44
+		2 = european_caucasian_occitan_45
+		2 = european_caucasian_occitan_46
+		2 = european_caucasian_occitan_47
+		2 = european_caucasian_occitan_48
+		2 = european_caucasian_occitan_49
+		2 = european_caucasian_occitan_50
+		2 = european_caucasian_occitan_51
+		2 = european_caucasian_occitan_52
+		2 = european_caucasian_occitan_53
+		2 = european_caucasian_occitan_54
+		2 = european_caucasian_occitan_55
+		2 = european_caucasian_occitan_56
+		2 = european_caucasian_french_68
+		2 = european_caucasian_french_69
+		2 = european_caucasian_french_70
+		2 = european_caucasian_french_71
+		2 = european_caucasian_french_72
+		2 = european_caucasian_french_73
+		2 = european_caucasian_french_74
+		2 = european_caucasian_french_75
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+	}	
+}
+
+brionnian = { #Duchy of Brionne
+	color = { 180 180 210 }
+	created = 5477.1.1
+	parents = { gascon } 
+	
+	ethos = ethos_courtly
+	heritage = heritage_bretonnian
+	language = language_breton
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain		
+	traditions = {
+#	 	tradition_brionne_tradition
+	 	tradition_monastic_communities #placeholder
+		#Make a unique reverse UNO version of Spartan
+		tradition_poetry
+		tradition_culinary_art
+	}
+	
+	name_list = name_list_carcassian
+
+	coa_gfx = { occitan_coa_gfx frankish_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mediterranean_building_gfx } 
+	clothing_gfx = { french_clothing_gfx western_clothing_gfx }
+	#clothing_gfx = { bretonnian_clothing_gfx }
+	unit_gfx = { western_unit_gfx } 	
+	house_coa_frame = house_frame_03
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		2 = european_caucasian_occitan_01
+		2 = european_caucasian_occitan_02
+		2 = european_caucasian_occitan_03
+		2 = european_caucasian_occitan_04
+		2 = european_caucasian_occitan_05
+		2 = european_caucasian_occitan_06
+		2 = european_caucasian_occitan_07
+		2 = european_caucasian_occitan_08
+		2 = european_caucasian_occitan_09
+		2 = european_caucasian_occitan_10
+		2 = european_caucasian_occitan_11
+		2 = european_caucasian_occitan_12
+		2 = european_caucasian_occitan_13
+		2 = european_caucasian_occitan_14
+		2 = european_caucasian_occitan_15
+		2 = european_caucasian_occitan_16
+		2 = european_caucasian_occitan_17
+		2 = european_caucasian_occitan_18
+		2 = european_caucasian_occitan_19
+		2 = european_caucasian_occitan_20
+		2 = european_caucasian_occitan_21
+		2 = european_caucasian_occitan_22
+		2 = european_caucasian_occitan_23
+		2 = european_caucasian_occitan_24
+		2 = european_caucasian_occitan_25
+		2 = european_caucasian_occitan_26
+		2 = european_caucasian_occitan_27
+		2 = european_caucasian_occitan_28
+		2 = european_caucasian_occitan_29
+		2 = european_caucasian_occitan_30
+		2 = european_caucasian_occitan_31
+		2 = european_caucasian_occitan_32
+		2 = european_caucasian_occitan_33
+		2 = european_caucasian_occitan_34
+		2 = european_caucasian_occitan_35
+		2 = european_caucasian_occitan_36
+		2 = european_caucasian_occitan_37
+		2 = european_caucasian_occitan_38
+		2 = european_caucasian_occitan_39
+		2 = european_caucasian_occitan_40
+		2 = european_caucasian_occitan_41
+		2 = european_caucasian_occitan_42
+		2 = european_caucasian_occitan_43
+		2 = european_caucasian_occitan_44
+		2 = european_caucasian_occitan_45
+		2 = european_caucasian_occitan_46
+		2 = european_caucasian_occitan_47
+		2 = european_caucasian_occitan_48
+		2 = european_caucasian_occitan_49
+		2 = european_caucasian_occitan_50
+		2 = european_caucasian_occitan_51
+		2 = european_caucasian_occitan_52
+		2 = european_caucasian_occitan_53
+		2 = european_caucasian_occitan_54
+		2 = european_caucasian_occitan_55
+		2 = european_caucasian_occitan_56
+		2 = european_caucasian_french_68
+		2 = european_caucasian_french_69
+		2 = european_caucasian_french_70
+		2 = european_caucasian_french_71
+		2 = european_caucasian_french_72
+		2 = european_caucasian_french_73
+		2 = european_caucasian_french_74
+		2 = european_caucasian_french_75
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+	}	
+}
+
+queneller = { #Duchy of Quenelles
+	color = { 100 125 160 }
+	created = 5477.1.1
+	parents = { breton } 
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_bretonnian
+	language = language_breton
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain		
+	traditions = {
+		#tradition_chanson_de_geste which grants a mix of diplomacy bonus for elves and dawi
+		tradition_by_the_sword
+		tradition_welcoming
+		tradition_stalwart_defenders
+	}
+
+	dlc_tradition = {
+		trait = tradition_culture_blending
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_carcassian
+
+	coa_gfx = { occitan_coa_gfx frankish_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mediterranean_building_gfx } 
+	clothing_gfx = { french_clothing_gfx western_clothing_gfx }
+	#clothing_gfx = { bretonnian_clothing_gfx }
+	unit_gfx = { western_unit_gfx } 	
+	house_coa_frame = house_frame_03
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		2 = european_caucasian_occitan_01
+		2 = european_caucasian_occitan_02
+		2 = european_caucasian_occitan_03
+		2 = european_caucasian_occitan_04
+		2 = european_caucasian_occitan_05
+		2 = european_caucasian_occitan_06
+		2 = european_caucasian_occitan_07
+		2 = european_caucasian_occitan_08
+		2 = european_caucasian_occitan_09
+		2 = european_caucasian_occitan_10
+		2 = european_caucasian_occitan_11
+		2 = european_caucasian_occitan_12
+		2 = european_caucasian_occitan_13
+		2 = european_caucasian_occitan_14
+		2 = european_caucasian_occitan_15
+		2 = european_caucasian_occitan_16
+		2 = european_caucasian_occitan_17
+		2 = european_caucasian_occitan_18
+		2 = european_caucasian_occitan_19
+		2 = european_caucasian_occitan_20
+		2 = european_caucasian_occitan_21
+		2 = european_caucasian_occitan_22
+		2 = european_caucasian_occitan_23
+		2 = european_caucasian_occitan_24
+		2 = european_caucasian_occitan_25
+		2 = european_caucasian_occitan_26
+		2 = european_caucasian_occitan_27
+		2 = european_caucasian_occitan_28
+		2 = european_caucasian_occitan_29
+		2 = european_caucasian_occitan_30
+		2 = european_caucasian_occitan_31
+		2 = european_caucasian_occitan_32
+		2 = european_caucasian_occitan_33
+		2 = european_caucasian_occitan_34
+		2 = european_caucasian_occitan_35
+		2 = european_caucasian_occitan_36
+		2 = european_caucasian_occitan_37
+		2 = european_caucasian_occitan_38
+		2 = european_caucasian_occitan_39
+		2 = european_caucasian_occitan_40
+		2 = european_caucasian_occitan_41
+		2 = european_caucasian_occitan_42
+		2 = european_caucasian_occitan_43
+		2 = european_caucasian_occitan_44
+		2 = european_caucasian_occitan_45
+		2 = european_caucasian_occitan_46
+		2 = european_caucasian_occitan_47
+		2 = european_caucasian_occitan_48
+		2 = european_caucasian_occitan_49
+		2 = european_caucasian_occitan_50
+		2 = european_caucasian_occitan_51
+		2 = european_caucasian_occitan_52
+		2 = european_caucasian_occitan_53
+		2 = european_caucasian_occitan_54
+		2 = european_caucasian_occitan_55
+		2 = european_caucasian_occitan_56
+		2 = european_caucasian_french_68
+		2 = european_caucasian_french_69
+		2 = european_caucasian_french_70
+		2 = european_caucasian_french_71
+		2 = european_caucasian_french_72
+		2 = european_caucasian_french_73
+		2 = european_caucasian_french_74
+		2 = european_caucasian_french_75
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+	}	
+}
+
+aquitanian = { #Duchy of Aquitain
+	color = { 200 150 10 }
+	created = 5477.1.1
+	parents = { gascon } 
+	
+	ethos = ethos_bellicose
+	heritage = heritage_bretonnian
+	language = language_breton
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain		
+	traditions = {
+#		tradition_aquitanian_tradition
+		tradition_agrarian #placeholder
+		tradition_fishermen
+	}
+
+	dlc_tradition = {
+		trait = tradition_staunch_traditionalists
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_carcassian
+
+	coa_gfx = { occitan_coa_gfx frankish_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mediterranean_building_gfx } 
+	clothing_gfx = { french_clothing_gfx western_clothing_gfx }
+	#clothing_gfx = { bretonnian_clothing_gfx }
+	unit_gfx = { western_unit_gfx } 	
+	house_coa_frame = house_frame_03
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		2 = european_caucasian_occitan_01
+		2 = european_caucasian_occitan_02
+		2 = european_caucasian_occitan_03
+		2 = european_caucasian_occitan_04
+		2 = european_caucasian_occitan_05
+		2 = european_caucasian_occitan_06
+		2 = european_caucasian_occitan_07
+		2 = european_caucasian_occitan_08
+		2 = european_caucasian_occitan_09
+		2 = european_caucasian_occitan_10
+		2 = european_caucasian_occitan_11
+		2 = european_caucasian_occitan_12
+		2 = european_caucasian_occitan_13
+		2 = european_caucasian_occitan_14
+		2 = european_caucasian_occitan_15
+		2 = european_caucasian_occitan_16
+		2 = european_caucasian_occitan_17
+		2 = european_caucasian_occitan_18
+		2 = european_caucasian_occitan_19
+		2 = european_caucasian_occitan_20
+		2 = european_caucasian_occitan_21
+		2 = european_caucasian_occitan_22
+		2 = european_caucasian_occitan_23
+		2 = european_caucasian_occitan_24
+		2 = european_caucasian_occitan_25
+		2 = european_caucasian_occitan_26
+		2 = european_caucasian_occitan_27
+		2 = european_caucasian_occitan_28
+		2 = european_caucasian_occitan_29
+		2 = european_caucasian_occitan_30
+		2 = european_caucasian_occitan_31
+		2 = european_caucasian_occitan_32
+		2 = european_caucasian_occitan_33
+		2 = european_caucasian_occitan_34
+		2 = european_caucasian_occitan_35
+		2 = european_caucasian_occitan_36
+		2 = european_caucasian_occitan_37
+		2 = european_caucasian_occitan_38
+		2 = european_caucasian_occitan_39
+		2 = european_caucasian_occitan_40
+		2 = european_caucasian_occitan_41
+		2 = european_caucasian_occitan_42
+		2 = european_caucasian_occitan_43
+		2 = european_caucasian_occitan_44
+		2 = european_caucasian_occitan_45
+		2 = european_caucasian_occitan_46
+		2 = european_caucasian_occitan_47
+		2 = european_caucasian_occitan_48
+		2 = european_caucasian_occitan_49
+		2 = european_caucasian_occitan_50
+		2 = european_caucasian_occitan_51
+		2 = european_caucasian_occitan_52
+		2 = european_caucasian_occitan_53
+		2 = european_caucasian_occitan_54
+		2 = european_caucasian_occitan_55
+		2 = european_caucasian_occitan_56
+		2 = european_caucasian_french_68
+		2 = european_caucasian_french_69
+		2 = european_caucasian_french_70
+		2 = european_caucasian_french_71
+		2 = european_caucasian_french_72
+		2 = european_caucasian_french_73
+		2 = european_caucasian_french_74
+		2 = european_caucasian_french_75
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+	}
+}
+
+#Norman Camp
+
+couronnean = { #Duchy of Couronne
+	color = { 180 40 40 }
+	created = 5477.1.1
+	parents = { nortagnese }
+	
+	ethos = ethos_courtly
+	heritage = heritage_bretonnian
+	language = language_breton
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain		
+	traditions = {
+#		tradition_couronnean_tradition
+		tradition_esteemed_hospitality #placeholder
+		tradition_horse_breeder #obviously remove the MAA from this one.
+		tradition_equitable
+	}
+	
+	name_list = name_list_nortagnese
+
+	coa_gfx = { norman_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { norman_clothing_gfx french_clothing_gfx western_clothing_gfx }
+	#clothing_gfx = { bretonnian_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_03
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		2 = european_caucasian_norman_1
+		2 = european_caucasian_norman_2
+		2 = european_caucasian_norman_3
+		2 = european_caucasian_norman_4
+		2 = european_caucasian_norman_5
+		2 = european_caucasian_norman_6
+		2 = european_caucasian_norman_7
+		2 = european_caucasian_norman_8
+		2 = european_caucasian_norman_9
+		2 = european_caucasian_norman_10
+		2 = european_caucasian_english_1
+		2 = european_caucasian_english_2
+		2 = european_caucasian_english_3
+		2 = european_caucasian_english_4
+		2 = european_caucasian_english_5
+		2 = european_caucasian_english_6
+		2 = european_caucasian_english_7
+		2 = european_caucasian_english_8
+		2 = european_caucasian_english_9
+		2 = european_caucasian_english_10
+		2 = european_caucasian_english_11
+		2 = european_caucasian_english_12
+		2 = european_caucasian_english_13
+		2 = european_caucasian_english_14
+		2 = european_caucasian_english_15
+		2 = european_caucasian_english_16
+		2 = european_caucasian_english_17
+		2 = european_caucasian_english_18
+		2 = european_caucasian_english_19
+		2 = european_caucasian_english_20
+		2 = european_caucasian_english_21
+		2 = european_caucasian_english_22
+		2 = european_caucasian_english_23
+		2 = european_caucasian_english_24
+		2 = european_caucasian_english_25
+		2 = european_caucasian_english_26
+		2 = european_caucasian_english_27
+		2 = european_caucasian_english_28
+		2 = european_caucasian_english_29
+		2 = european_caucasian_english_30
+		2 = european_caucasian_english_31
+		2 = european_caucasian_english_32
+		2 = european_caucasian_english_33
+		2 = european_caucasian_english_34
+		2 = european_caucasian_english_35
+		2 = european_caucasian_english_36
+		2 = european_caucasian_english_37
+		2 = european_caucasian_english_38
+		2 = european_caucasian_english_39
+		2 = european_caucasian_english_40
+		2 = european_caucasian_english_41
+		2 = european_caucasian_english_42
+		2 = european_caucasian_english_43
+		2 = european_caucasian_english_44
+		2 = european_caucasian_english_45
+		2 = european_caucasian_english_46
+		2 = european_caucasian_english_47
+		2 = european_caucasian_english_48
+		2 = european_caucasian_english_49
+		2 = european_caucasian_english_50
+		2 = european_caucasian_english_51
+		2 = european_caucasian_english_52
+		2 = european_caucasian_english_53
+		2 = european_caucasian_english_54
+		2 = european_caucasian_english_55
+		2 = european_caucasian_english_56
+		2 = european_caucasian_english_57
+		2 = european_caucasian_english_58
+		2 = european_caucasian_english_59
+		2 = european_caucasian_english_60
+		2 = european_caucasian_english_61
+		2 = european_caucasian_english_62
+		2 = european_caucasian_english_63
+		2 = european_caucasian_english_64
+		2 = european_caucasian_english_65
+		2 = european_caucasian_english_66
+		2 = european_caucasian_english_67
+		2 = european_caucasian_english_68
+		2 = european_caucasian_english_69
+		2 = european_caucasian_english_70
+		2 = european_caucasian_english_71
+		2 = european_caucasian_english_72
+		2 = european_caucasian_english_73
+		2 = european_caucasian_english_74
+		2 = european_caucasian_english_75
+		2 = european_caucasian_english_76
+		2 = european_caucasian_english_77
+		2 = european_caucasian_english_78
+		2 = european_caucasian_english_79
+		2 = european_caucasian_english_80
+		2 = european_caucasian_english_81
+		2 = european_caucasian_english_82
+		2 = european_caucasian_english_83
+		2 = european_caucasian_english_84
+		2 = european_caucasian_english_85
+		2 = european_caucasian_english_86
+		2 = european_caucasian_english_87
+		2 = european_caucasian_english_88
+		2 = european_caucasian_english_89
+		2 = european_caucasian_english_90
+		2 = european_caucasian_english_91
+		2 = european_caucasian_english_92
+		2 = european_caucasian_english_93
+		2 = european_caucasian_english_94
+		2 = european_caucasian_english_95
+		2 = european_caucasian_english_96
+		2 = european_caucasian_english_97
+		2 = european_caucasian_english_98
+		2 = european_caucasian_english_99
+		2 = european_caucasian_english_100
+		2 = european_caucasian_english_101
+		2 = european_caucasian_french_61
+		2 = european_caucasian_french_68
+		2 = european_caucasian_french_69
+		2 = european_caucasian_french_70
+		2 = european_caucasian_french_71
+		2 = european_caucasian_french_72
+		2 = european_caucasian_french_73
+		2 = european_caucasian_french_74
+		2 = european_caucasian_french_75
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+	}
+}
+
+l_anguillen = { #L ANGUILE HON HON
+	color = { 125 170 215 }
+	created = 5477.1.1
+	parents = { nortagnese }
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_bretonnian
+	language = language_breton
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain		
+	traditions = {
+		# tradition_languile_tradition
+		tradition_wetlanders #placeholder
+		tradition_maritime_mercantilism
+		tradition_seafaring
+	}
+	
+	name_list = name_list_nortagnese
+
+	coa_gfx = { norman_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { norman_clothing_gfx western_clothing_gfx }
+	# clothing_gfx = { bretonnian_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_03
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		2 = european_caucasian_norman_1
+		2 = european_caucasian_norman_2
+		2 = european_caucasian_norman_3
+		2 = european_caucasian_norman_4
+		2 = european_caucasian_norman_5
+		2 = european_caucasian_norman_6
+		2 = european_caucasian_norman_7
+		2 = european_caucasian_norman_8
+		2 = european_caucasian_norman_9
+		2 = european_caucasian_norman_10
+		2 = european_caucasian_english_1
+		2 = european_caucasian_english_2
+		2 = european_caucasian_english_3
+		2 = european_caucasian_english_4
+		2 = european_caucasian_english_5
+		2 = european_caucasian_english_6
+		2 = european_caucasian_english_7
+		2 = european_caucasian_english_8
+		2 = european_caucasian_english_9
+		2 = european_caucasian_english_10
+		2 = european_caucasian_english_11
+		2 = european_caucasian_english_12
+		2 = european_caucasian_english_13
+		2 = european_caucasian_english_14
+		2 = european_caucasian_english_15
+		2 = european_caucasian_english_16
+		2 = european_caucasian_english_17
+		2 = european_caucasian_english_18
+		2 = european_caucasian_english_19
+		2 = european_caucasian_english_20
+		2 = european_caucasian_english_21
+		2 = european_caucasian_english_22
+		2 = european_caucasian_english_23
+		2 = european_caucasian_english_24
+		2 = european_caucasian_english_25
+		2 = european_caucasian_english_26
+		2 = european_caucasian_english_27
+		2 = european_caucasian_english_28
+		2 = european_caucasian_english_29
+		2 = european_caucasian_english_30
+		2 = european_caucasian_english_31
+		2 = european_caucasian_english_32
+		2 = european_caucasian_english_33
+		2 = european_caucasian_english_34
+		2 = european_caucasian_english_35
+		2 = european_caucasian_english_36
+		2 = european_caucasian_english_37
+		2 = european_caucasian_english_38
+		2 = european_caucasian_english_39
+		2 = european_caucasian_english_40
+		2 = european_caucasian_english_41
+		2 = european_caucasian_english_42
+		2 = european_caucasian_english_43
+		2 = european_caucasian_english_44
+		2 = european_caucasian_english_45
+		2 = european_caucasian_english_46
+		2 = european_caucasian_english_47
+		2 = european_caucasian_english_48
+		2 = european_caucasian_english_49
+		2 = european_caucasian_english_50
+		2 = european_caucasian_english_51
+		2 = european_caucasian_english_52
+		2 = european_caucasian_english_53
+		2 = european_caucasian_english_54
+		2 = european_caucasian_english_55
+		2 = european_caucasian_english_56
+		2 = european_caucasian_english_57
+		2 = european_caucasian_english_58
+		2 = european_caucasian_english_59
+		2 = european_caucasian_english_60
+		2 = european_caucasian_english_61
+		2 = european_caucasian_english_62
+		2 = european_caucasian_english_63
+		2 = european_caucasian_english_64
+		2 = european_caucasian_english_65
+		2 = european_caucasian_english_66
+		2 = european_caucasian_english_67
+		2 = european_caucasian_english_68
+		2 = european_caucasian_english_69
+		2 = european_caucasian_english_70
+		2 = european_caucasian_english_71
+		2 = european_caucasian_english_72
+		2 = european_caucasian_english_73
+		2 = european_caucasian_english_74
+		2 = european_caucasian_english_75
+		2 = european_caucasian_english_76
+		2 = european_caucasian_english_77
+		2 = european_caucasian_english_78
+		2 = european_caucasian_english_79
+		2 = european_caucasian_english_80
+		2 = european_caucasian_english_81
+		2 = european_caucasian_english_82
+		2 = european_caucasian_english_83
+		2 = european_caucasian_english_84
+		2 = european_caucasian_english_85
+		2 = european_caucasian_english_86
+		2 = european_caucasian_english_87
+		2 = european_caucasian_english_88
+		2 = european_caucasian_english_89
+		2 = european_caucasian_english_90
+		2 = european_caucasian_english_91
+		2 = european_caucasian_english_92
+		2 = european_caucasian_english_93
+		2 = european_caucasian_english_94
+		2 = european_caucasian_english_95
+		2 = european_caucasian_english_96
+		2 = european_caucasian_english_97
+		2 = european_caucasian_english_98
+		2 = european_caucasian_english_99
+		2 = european_caucasian_english_100
+		2 = european_caucasian_english_101
+		2 = european_caucasian_french_61
+		2 = european_caucasian_french_68
+		2 = european_caucasian_french_69
+		2 = european_caucasian_french_70
+		2 = european_caucasian_french_71
+		2 = european_caucasian_french_72
+		2 = european_caucasian_french_73
+		2 = european_caucasian_french_74
+		2 = european_caucasian_french_75
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+	}
+}
+
+lyonen = {
+	color = { 255 128 0 }
+	created = 5477.1.1
+	parents = { armoric }
+	
+	ethos = ethos_stoic
+	heritage = heritage_bretonnian
+	language = language_breton
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain		
+	traditions = {
+		#tradition_chanson_de_geste
+		#Unique hird tradition, only avalible to Norscan, yet Lyon has gotten it to...hmm i wonder why
+		tradition_castle_keepers
+		tradition_eye_for_an_eye
+	}
+
+	dlc_tradition = {
+		trait = tradition_culture_blending
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_nortagnese
+
+	coa_gfx = { norman_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { norman_clothing_gfx western_clothing_gfx }
+	# clothing_gfx = { bretonnian_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_03
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		2 = european_caucasian_norman_1
+		2 = european_caucasian_norman_2
+		2 = european_caucasian_norman_3
+		2 = european_caucasian_norman_4
+		2 = european_caucasian_norman_5
+		2 = european_caucasian_norman_6
+		2 = european_caucasian_norman_7
+		2 = european_caucasian_norman_8
+		2 = european_caucasian_norman_9
+		2 = european_caucasian_norman_10
+		2 = european_caucasian_english_1
+		2 = european_caucasian_english_2
+		2 = european_caucasian_english_3
+		2 = european_caucasian_english_4
+		2 = european_caucasian_english_5
+		2 = european_caucasian_english_6
+		2 = european_caucasian_english_7
+		2 = european_caucasian_english_8
+		2 = european_caucasian_english_9
+		2 = european_caucasian_english_10
+		2 = european_caucasian_english_11
+		2 = european_caucasian_english_12
+		2 = european_caucasian_english_13
+		2 = european_caucasian_english_14
+		2 = european_caucasian_english_15
+		2 = european_caucasian_english_16
+		2 = european_caucasian_english_17
+		2 = european_caucasian_english_18
+		2 = european_caucasian_english_19
+		2 = european_caucasian_english_20
+		2 = european_caucasian_english_21
+		2 = european_caucasian_english_22
+		2 = european_caucasian_english_23
+		2 = european_caucasian_english_24
+		2 = european_caucasian_english_25
+		2 = european_caucasian_english_26
+		2 = european_caucasian_english_27
+		2 = european_caucasian_english_28
+		2 = european_caucasian_english_29
+		2 = european_caucasian_english_30
+		2 = european_caucasian_english_31
+		2 = european_caucasian_english_32
+		2 = european_caucasian_english_33
+		2 = european_caucasian_english_34
+		2 = european_caucasian_english_35
+		2 = european_caucasian_english_36
+		2 = european_caucasian_english_37
+		2 = european_caucasian_english_38
+		2 = european_caucasian_english_39
+		2 = european_caucasian_english_40
+		2 = european_caucasian_english_41
+		2 = european_caucasian_english_42
+		2 = european_caucasian_english_43
+		2 = european_caucasian_english_44
+		2 = european_caucasian_english_45
+		2 = european_caucasian_english_46
+		2 = european_caucasian_english_47
+		2 = european_caucasian_english_48
+		2 = european_caucasian_english_49
+		2 = european_caucasian_english_50
+		2 = european_caucasian_english_51
+		2 = european_caucasian_english_52
+		2 = european_caucasian_english_53
+		2 = european_caucasian_english_54
+		2 = european_caucasian_english_55
+		2 = european_caucasian_english_56
+		2 = european_caucasian_english_57
+		2 = european_caucasian_english_58
+		2 = european_caucasian_english_59
+		2 = european_caucasian_english_60
+		2 = european_caucasian_english_61
+		2 = european_caucasian_english_62
+		2 = european_caucasian_english_63
+		2 = european_caucasian_english_64
+		2 = european_caucasian_english_65
+		2 = european_caucasian_english_66
+		2 = european_caucasian_english_67
+		2 = european_caucasian_english_68
+		2 = european_caucasian_english_69
+		2 = european_caucasian_english_70
+		2 = european_caucasian_english_71
+		2 = european_caucasian_english_72
+		2 = european_caucasian_english_73
+		2 = european_caucasian_english_74
+		2 = european_caucasian_english_75
+		2 = european_caucasian_english_76
+		2 = european_caucasian_english_77
+		2 = european_caucasian_english_78
+		2 = european_caucasian_english_79
+		2 = european_caucasian_english_80
+		2 = european_caucasian_english_81
+		2 = european_caucasian_english_82
+		2 = european_caucasian_english_83
+		2 = european_caucasian_english_84
+		2 = european_caucasian_english_85
+		2 = european_caucasian_english_86
+		2 = european_caucasian_english_87
+		2 = european_caucasian_english_88
+		2 = european_caucasian_english_89
+		2 = european_caucasian_english_90
+		2 = european_caucasian_english_91
+		2 = european_caucasian_english_92
+		2 = european_caucasian_english_93
+		2 = european_caucasian_english_94
+		2 = european_caucasian_english_95
+		2 = european_caucasian_english_96
+		2 = european_caucasian_english_97
+		2 = european_caucasian_english_98
+		2 = european_caucasian_english_99
+		2 = european_caucasian_english_100
+		2 = european_caucasian_english_101
+		2 = european_caucasian_french_61
+		2 = european_caucasian_french_68
+		2 = european_caucasian_french_69
+		2 = european_caucasian_french_70
+		2 = european_caucasian_french_71
+		2 = european_caucasian_french_72
+		2 = european_caucasian_french_73
+		2 = european_caucasian_french_74
+		2 = european_caucasian_french_75
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+	}
+}
+
+herrimault = {
+	color = { 63 77 36 }
+	created = 5477.1.1
+	parents = { bretonni }
+	
+	ethos = ethos_communal
+	heritage = heritage_bretonnian
+	language = language_breton
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain		
+	traditions = {
+		tradition_hit_and_run
+		tradition_collective_lands
+		tradition_life_is_just_a_joke
+		# tradition_crownless_lords
+		tradition_hereditary_hierarchy #placeholder
+	}
+
+	name_list = name_list_herrimault
+	
+	coa_gfx = { norman_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	# clothing_gfx = { bretonnian_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_03
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		2 = european_caucasian_norman_1
+		2 = european_caucasian_norman_2
+		2 = european_caucasian_norman_3
+		2 = european_caucasian_norman_4
+		2 = european_caucasian_norman_5
+		2 = european_caucasian_norman_6
+		2 = european_caucasian_norman_7
+		2 = european_caucasian_norman_8
+		2 = european_caucasian_norman_9
+		2 = european_caucasian_norman_10
+		2 = european_caucasian_english_1
+		2 = european_caucasian_english_2
+		2 = european_caucasian_english_3
+		2 = european_caucasian_english_4
+		2 = european_caucasian_english_5
+		2 = european_caucasian_english_6
+		2 = european_caucasian_english_7
+		2 = european_caucasian_english_8
+		2 = european_caucasian_english_9
+		2 = european_caucasian_english_10
+		2 = european_caucasian_english_11
+		2 = european_caucasian_english_12
+		2 = european_caucasian_english_13
+		2 = european_caucasian_english_14
+		2 = european_caucasian_english_15
+		2 = european_caucasian_english_16
+		2 = european_caucasian_english_17
+		2 = european_caucasian_english_18
+		2 = european_caucasian_english_19
+		2 = european_caucasian_english_20
+		2 = european_caucasian_english_21
+		2 = european_caucasian_english_22
+		2 = european_caucasian_english_23
+		2 = european_caucasian_english_24
+		2 = european_caucasian_english_25
+		2 = european_caucasian_english_26
+		2 = european_caucasian_english_27
+		2 = european_caucasian_english_28
+		2 = european_caucasian_english_29
+		2 = european_caucasian_english_30
+		2 = european_caucasian_english_31
+		2 = european_caucasian_english_32
+		2 = european_caucasian_english_33
+		2 = european_caucasian_english_34
+		2 = european_caucasian_english_35
+		2 = european_caucasian_english_36
+		2 = european_caucasian_english_37
+		2 = european_caucasian_english_38
+		2 = european_caucasian_english_39
+		2 = european_caucasian_english_40
+		2 = european_caucasian_english_41
+		2 = european_caucasian_english_42
+		2 = european_caucasian_english_43
+		2 = european_caucasian_english_44
+		2 = european_caucasian_english_45
+		2 = european_caucasian_english_46
+		2 = european_caucasian_english_47
+		2 = european_caucasian_english_48
+		2 = european_caucasian_english_49
+		2 = european_caucasian_english_50
+		2 = european_caucasian_english_51
+		2 = european_caucasian_english_52
+		2 = european_caucasian_english_53
+		2 = european_caucasian_english_54
+		2 = european_caucasian_english_55
+		2 = european_caucasian_english_56
+		2 = european_caucasian_english_57
+		2 = european_caucasian_english_58
+		2 = european_caucasian_english_59
+		2 = european_caucasian_english_60
+		2 = european_caucasian_english_61
+		2 = european_caucasian_english_62
+		2 = european_caucasian_english_63
+		2 = european_caucasian_english_64
+		2 = european_caucasian_english_65
+		2 = european_caucasian_english_66
+		2 = european_caucasian_english_67
+		2 = european_caucasian_english_68
+		2 = european_caucasian_english_69
+		2 = european_caucasian_english_70
+		2 = european_caucasian_english_71
+		2 = european_caucasian_english_72
+		2 = european_caucasian_english_73
+		2 = european_caucasian_english_74
+		2 = european_caucasian_english_75
+		2 = european_caucasian_english_76
+		2 = european_caucasian_english_77
+		2 = european_caucasian_english_78
+		2 = european_caucasian_english_79
+		2 = european_caucasian_english_80
+		2 = european_caucasian_english_81
+		2 = european_caucasian_english_82
+		2 = european_caucasian_english_83
+		2 = european_caucasian_english_84
+		2 = european_caucasian_english_85
+		2 = european_caucasian_english_86
+		2 = european_caucasian_english_87
+		2 = european_caucasian_english_88
+		2 = european_caucasian_english_89
+		2 = european_caucasian_english_90
+		2 = european_caucasian_english_91
+		2 = european_caucasian_english_92
+		2 = european_caucasian_english_93
+		2 = european_caucasian_english_94
+		2 = european_caucasian_english_95
+		2 = european_caucasian_english_96
+		2 = european_caucasian_english_97
+		2 = european_caucasian_english_98
+		2 = european_caucasian_english_99
+		2 = european_caucasian_english_100
+		2 = european_caucasian_english_101
+		2 = european_caucasian_french_61
+		2 = european_caucasian_french_68
+		2 = european_caucasian_french_69
+		2 = european_caucasian_french_70
+		2 = european_caucasian_french_71
+		2 = european_caucasian_french_72
+		2 = european_caucasian_french_73
+		2 = european_caucasian_french_74
+		2 = european_caucasian_french_75
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+	}
+}
+
+nordscane = { #Norscan Brets
+	color = { 120 190 230 }
+	created = 6000.1.1
+	
+	ethos = ethos_communal
+	heritage = heritage_bretonnian
+	language = language_norse
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain		
+	traditions = {
+		tradition_only_the_strong
+		tradition_eye_for_an_eye
+		tradition_seafaring
+	}
+
+	name_list = name_list_nortagnese
+	
+	coa_gfx = { norman_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { norman_clothing_gfx western_clothing_gfx }
+	# clothing_gfx = { norscan_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_03
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		2 = european_caucasian_norman_1
+		2 = european_caucasian_norman_2
+		2 = european_caucasian_norman_3
+		2 = european_caucasian_norman_4
+		2 = european_caucasian_norman_5
+		2 = european_caucasian_norman_6
+		2 = european_caucasian_norman_7
+		2 = european_caucasian_norman_8
+		2 = european_caucasian_norman_9
+		2 = european_caucasian_norman_10
+		2 = european_caucasian_english_1
+		2 = european_caucasian_english_2
+		2 = european_caucasian_english_3
+		2 = european_caucasian_english_4
+		2 = european_caucasian_english_5
+		2 = european_caucasian_english_6
+		2 = european_caucasian_english_7
+		2 = european_caucasian_english_8
+		2 = european_caucasian_english_9
+		2 = european_caucasian_english_10
+		2 = european_caucasian_english_11
+		2 = european_caucasian_english_12
+		2 = european_caucasian_english_13
+		2 = european_caucasian_english_14
+		2 = european_caucasian_english_15
+		2 = european_caucasian_english_16
+		2 = european_caucasian_english_17
+		2 = european_caucasian_english_18
+		2 = european_caucasian_english_19
+		2 = european_caucasian_english_20
+		2 = european_caucasian_english_21
+		2 = european_caucasian_english_22
+		2 = european_caucasian_english_23
+		2 = european_caucasian_english_24
+		2 = european_caucasian_english_25
+		2 = european_caucasian_english_26
+		2 = european_caucasian_english_27
+		2 = european_caucasian_english_28
+		2 = european_caucasian_english_29
+		2 = european_caucasian_english_30
+		2 = european_caucasian_english_31
+		2 = european_caucasian_english_32
+		2 = european_caucasian_english_33
+		2 = european_caucasian_english_34
+		2 = european_caucasian_english_35
+		2 = european_caucasian_english_36
+		2 = european_caucasian_english_37
+		2 = european_caucasian_english_38
+		2 = european_caucasian_english_39
+		2 = european_caucasian_english_40
+		2 = european_caucasian_english_41
+		2 = european_caucasian_english_42
+		2 = european_caucasian_english_43
+		2 = european_caucasian_english_44
+		2 = european_caucasian_english_45
+		2 = european_caucasian_english_46
+		2 = european_caucasian_english_47
+		2 = european_caucasian_english_48
+		2 = european_caucasian_english_49
+		2 = european_caucasian_english_50
+		2 = european_caucasian_english_51
+		2 = european_caucasian_english_52
+		2 = european_caucasian_english_53
+		2 = european_caucasian_english_54
+		2 = european_caucasian_english_55
+		2 = european_caucasian_english_56
+		2 = european_caucasian_english_57
+		2 = european_caucasian_english_58
+		2 = european_caucasian_english_59
+		2 = european_caucasian_english_60
+		2 = european_caucasian_english_61
+		2 = european_caucasian_english_62
+		2 = european_caucasian_english_63
+		2 = european_caucasian_english_64
+		2 = european_caucasian_english_65
+		2 = european_caucasian_english_66
+		2 = european_caucasian_english_67
+		2 = european_caucasian_english_68
+		2 = european_caucasian_english_69
+		2 = european_caucasian_english_70
+		2 = european_caucasian_english_71
+		2 = european_caucasian_english_72
+		2 = european_caucasian_english_73
+		2 = european_caucasian_english_74
+		2 = european_caucasian_english_75
+		2 = european_caucasian_english_76
+		2 = european_caucasian_english_77
+		2 = european_caucasian_english_78
+		2 = european_caucasian_english_79
+		2 = european_caucasian_english_80
+		2 = european_caucasian_english_81
+		2 = european_caucasian_english_82
+		2 = european_caucasian_english_83
+		2 = european_caucasian_english_84
+		2 = european_caucasian_english_85
+		2 = european_caucasian_english_86
+		2 = european_caucasian_english_87
+		2 = european_caucasian_english_88
+		2 = european_caucasian_english_89
+		2 = european_caucasian_english_90
+		2 = european_caucasian_english_91
+		2 = european_caucasian_english_92
+		2 = european_caucasian_english_93
+		2 = european_caucasian_english_94
+		2 = european_caucasian_english_95
+		2 = european_caucasian_english_96
+		2 = european_caucasian_english_97
+		2 = european_caucasian_english_98
+		2 = european_caucasian_english_99
+		2 = european_caucasian_english_100
+		2 = european_caucasian_english_101
+		2 = european_caucasian_french_61
+		2 = european_caucasian_french_68
+		2 = european_caucasian_french_69
+		2 = european_caucasian_french_70
+		2 = european_caucasian_french_71
+		2 = european_caucasian_french_72
+		2 = european_caucasian_french_73
+		2 = european_caucasian_french_74
+		2 = european_caucasian_french_75
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+	}
+}
+
+marcheur = { #Estalian Brets
+	color = { 0.7 0.3 0.6 }
+	created = 5650.1.1
+	parents = { carcassonian norteno } 
+	
+	ethos = ethos_bellicose
+	heritage = heritage_bretonnian
+	language = language_estalian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain		
+	traditions = {
+		# tradition_carcasonne_tradition
+		tradition_pastoralists #placeholder
+		# tradition_norteno_codes
+		# tradition_fp1_estalian_duel
+		tradition_quarrelsome #placeholder
+		tradition_stalwart_defenders
+	}
+	
+	name_list = name_list_carcassian
+
+	coa_gfx = { castilian_coa_gfx iberian_group_coa_gfx western_coa_gfx }
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	# clothing_gfx = { estalian_clothing_gfx }
+	unit_gfx = { iberian_christian_unit_gfx }
+	house_coa_frame = house_frame_03
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		2 = european_caucasian_norman_1
+		2 = european_caucasian_norman_2
+		2 = european_caucasian_norman_3
+		2 = european_caucasian_norman_4
+		2 = european_caucasian_norman_5
+		2 = european_caucasian_norman_6
+		2 = european_caucasian_norman_7
+		2 = european_caucasian_norman_8
+		2 = european_caucasian_norman_9
+		2 = european_caucasian_norman_10
+		2 = european_caucasian_english_1
+		2 = european_caucasian_english_2
+		2 = european_caucasian_english_3
+		2 = european_caucasian_english_4
+		2 = european_caucasian_english_5
+		2 = european_caucasian_english_6
+		2 = european_caucasian_english_7
+		2 = european_caucasian_english_8
+		2 = european_caucasian_english_9
+		2 = european_caucasian_english_10
+		2 = european_caucasian_english_11
+		2 = european_caucasian_english_12
+		2 = european_caucasian_english_13
+		2 = european_caucasian_english_14
+		2 = european_caucasian_english_15
+		2 = european_caucasian_english_16
+		2 = european_caucasian_english_17
+		2 = european_caucasian_english_18
+		2 = european_caucasian_english_19
+		2 = european_caucasian_english_20
+		2 = european_caucasian_english_21
+		2 = european_caucasian_english_22
+		2 = european_caucasian_english_23
+		2 = european_caucasian_english_24
+		2 = european_caucasian_english_25
+		2 = european_caucasian_english_26
+		2 = european_caucasian_english_27
+		2 = european_caucasian_english_28
+		2 = european_caucasian_english_29
+		2 = european_caucasian_english_30
+		2 = european_caucasian_english_31
+		2 = european_caucasian_english_32
+		2 = european_caucasian_english_33
+		2 = european_caucasian_english_34
+		2 = european_caucasian_english_35
+		2 = european_caucasian_english_36
+		2 = european_caucasian_english_37
+		2 = european_caucasian_english_38
+		2 = european_caucasian_english_39
+		2 = european_caucasian_english_40
+		2 = european_caucasian_english_41
+		2 = european_caucasian_english_42
+		2 = european_caucasian_english_43
+		2 = european_caucasian_english_44
+		2 = european_caucasian_english_45
+		2 = european_caucasian_english_46
+		2 = european_caucasian_english_47
+		2 = european_caucasian_english_48
+		2 = european_caucasian_english_49
+		2 = european_caucasian_english_50
+		2 = european_caucasian_english_51
+		2 = european_caucasian_english_52
+		2 = european_caucasian_english_53
+		2 = european_caucasian_english_54
+		2 = european_caucasian_english_55
+		2 = european_caucasian_english_56
+		2 = european_caucasian_english_57
+		2 = european_caucasian_english_58
+		2 = european_caucasian_english_59
+		2 = european_caucasian_english_60
+		2 = european_caucasian_english_61
+		2 = european_caucasian_english_62
+		2 = european_caucasian_english_63
+		2 = european_caucasian_english_64
+		2 = european_caucasian_english_65
+		2 = european_caucasian_english_66
+		2 = european_caucasian_english_67
+		2 = european_caucasian_english_68
+		2 = european_caucasian_english_69
+		2 = european_caucasian_english_70
+		2 = european_caucasian_english_71
+		2 = european_caucasian_english_72
+		2 = european_caucasian_english_73
+		2 = european_caucasian_english_74
+		2 = european_caucasian_english_75
+		2 = european_caucasian_english_76
+		2 = european_caucasian_english_77
+		2 = european_caucasian_english_78
+		2 = european_caucasian_english_79
+		2 = european_caucasian_english_80
+		2 = european_caucasian_english_81
+		2 = european_caucasian_english_82
+		2 = european_caucasian_english_83
+		2 = european_caucasian_english_84
+		2 = european_caucasian_english_85
+		2 = european_caucasian_english_86
+		2 = european_caucasian_english_87
+		2 = european_caucasian_english_88
+		2 = european_caucasian_english_89
+		2 = european_caucasian_english_90
+		2 = european_caucasian_english_91
+		2 = european_caucasian_english_92
+		2 = european_caucasian_english_93
+		2 = european_caucasian_english_94
+		2 = european_caucasian_english_95
+		2 = european_caucasian_english_96
+		2 = european_caucasian_english_97
+		2 = european_caucasian_english_98
+		2 = european_caucasian_english_99
+		2 = european_caucasian_english_100
+		2 = european_caucasian_english_101
+		2 = european_caucasian_french_61
+		2 = european_caucasian_french_68
+		2 = european_caucasian_french_69
+		2 = european_caucasian_french_70
+		2 = european_caucasian_french_71
+		2 = european_caucasian_french_72
+		2 = european_caucasian_french_73
+		2 = european_caucasian_french_74
+		2 = european_caucasian_french_75
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+	}
+}
+
+#Coleur #mountain pass inhabitants, half Imperials
+
+#Kroneneur #Border Prince Brets
+
+#Antochan #Arabyan-Brets
+
+#Bregonnean #New World Brets

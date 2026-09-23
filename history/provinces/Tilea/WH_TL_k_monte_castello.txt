@@ -2,7 +2,7 @@
 ##d_monte_castello
 ###c_monte_castello
 1914 = { #monte_castello
-	culture = german
+	culture = lucian
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = {
@@ -27,7 +27,7 @@
 
 ###c_pugno
 1919 = { #pugno
-	culture = german
+	culture = lucian
 	religion = catholic
 	holding = castle_holding
 }
@@ -41,7 +41,7 @@
 ##d_luparno
 ###c_luparno
 1922 = { #luparno
-	culture = german
+	culture = lucian
 	religion = catholic
 	holding = castle_holding
 }
@@ -54,7 +54,7 @@
 
 ###c_sussurrio_wood
 1925 = { #silve
-	culture = german
+	culture = lucian
 	religion = catholic
 	holding = castle_holding
 }

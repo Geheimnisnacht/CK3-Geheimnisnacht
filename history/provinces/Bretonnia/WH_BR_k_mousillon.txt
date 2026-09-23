@@ -3,7 +3,7 @@
 
 # c_mousillon
 1996 = { # Palais Damne
-	culture = german
+	culture = mousillonian
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = {
@@ -23,7 +23,7 @@
 # c_dras
 
 2000 = { # Naizon
-	culture = german
+	culture = mousillonian
 	religion = catholic
 	holding = castle_holding
 }
@@ -40,7 +40,7 @@
 # c_elne
 
 2003 = { # Elne
-	culture = german
+	culture = mousillonian
 	religion = catholic
 	holding = castle_holding
 }
@@ -57,7 +57,7 @@
 # c_rachard
 
 2007 = { # Chateau Rachard
-	culture = german
+	culture = mousillonian
 	religion = catholic
 	holding = castle_holding
 }
@@ -71,7 +71,7 @@
 # c_champ_tombe
 
 2001 = { # Brignac
-	culture = german
+	culture = mousillonian
 	religion = catholic
 	holding = castle_holding
 }
@@ -87,7 +87,7 @@
 # c_carmandois
 
 2013 = { # Camiens
-	culture = german
+	culture = sartosan_bretonnian
 	religion = catholic
 	holding = castle_holding
 }
@@ -101,7 +101,7 @@
 # c_tor_martel
 
 1 = {
-	culture = german
+	culture = sartosan_bretonnian
 	religion = catholic
 	holding = castle_holding
 }
@@ -109,7 +109,7 @@
 # c_motagne
 
 2021 = { # Mortagne
-	culture = german
+	culture = mousillonian
 	religion = catholic
 	holding = castle_holding
 }
@@ -123,7 +123,7 @@
 # c_le_bois_sans_vie
 
 2020 = { # Portois
-	culture = german
+	culture = mousillonian
 	religion = catholic
 	holding = castle_holding
 }
@@ -137,7 +137,7 @@
 # c_dernier_arret
 
 2014 = { # Artagnan
-	culture = german
+	culture = mousillonian
 	religion = catholic
 	holding = castle_holding
 }

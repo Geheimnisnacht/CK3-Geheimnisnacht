@@ -1,7 +1,7 @@
 ##d_steinigkueste ###################################
 ###c_schadelbruck
 656 = {	# Schadelbruck
-	culture = german
+	culture = nordlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -17,7 +17,7 @@
 
 ###c_schaukel
 659 = {	# Mainburg
-	culture = german
+	culture = nordlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -43,7 +43,7 @@
 ##d_salz ###################################
 ###c_salzenmund
 664 = {	# Salzenmund
-	culture = german
+	culture = nordlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -67,7 +67,7 @@
 
 ###c_gelnhausen
 669 = {	# Demst
-	culture = german
+	culture = nordlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -93,7 +93,7 @@
 ##d_lugrenkust ###################################
 ###c_hargendorf
 674 = {	# Hargendorf
-	culture = german
+	culture = nordlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -113,7 +113,7 @@
 
 ###c_kurtwallen
 678 = {	# Kurtwallen
-	culture = german
+	culture = nordlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -141,7 +141,7 @@
 
 ###c_manaansufer
 684 = {	# Dietershafen
-	culture = german
+	culture = nordlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -163,7 +163,7 @@
 ##d_kieselstaadt ###################################
 ###c_norden
 688 = {	# Norden
-	culture = german
+	culture = nordlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -183,7 +183,7 @@
 
 ###c_dorfmark
 692 = {	# Dorfmark
-	culture = german
+	culture = nordlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -207,7 +207,7 @@
 
 ###c_limshof
 697 = {	# Limshof
-	culture = german
+	culture = nordlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -235,7 +235,7 @@
 
 ###c_luftberg
 703 = {	# Stavern
-	culture = german
+	culture = nordlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -255,7 +255,7 @@
 
 ###c_huven
 875 = {	# Krausnick
-	culture = german
+	culture = nordlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -278,10 +278,12 @@
 
 
 
-##d_laurelorn ################################### All will be elven, for now its reclaimed by germans
+##d_laurelorn ################################### All will be elven, for now its reclaimed by Drakwalders
 ###c_roterwald
 707 = {	# Kralle
-	culture = german
+	#culture = eonir
+	#religion = catholic
+	culture = aesling
 	religion = catholic
 	holding = castle_holding
 }
@@ -301,11 +303,13 @@
 
 ###c_spuktichtung
 711 = {	# Rehkitzpforte
-	culture = german
+	#culture = eonir
+	#religion = catholic
+	culture = drakwalder
 	religion = catholic
 	holding = tribal_holding
 	6500.1.1 = {
-		culture = german
+		culture = aesling
 		religion = catholic
 		holding = castle_holding
 	}
@@ -326,11 +330,13 @@
 
 ###c_entsetzlichigelhuegel
 715 = {	# Moosdorf
-	culture = german
+	#culture = eonir
+	#religion = catholic
+	culture = drakwalder
 	religion = catholic
 	holding = tribal_holding
 	6500.1.1 = {
-		culture = german
+		culture = aesling
 		religion = catholic
 		holding = castle_holding
 	}
@@ -347,7 +353,9 @@
 
 ###c_halenmird
 721 = {	# Baiersedorf
-	culture = german
+	#culture = eonir
+	#religion = catholic
+	culture = aesling
 	religion = catholic
 	holding = castle_holding
 }

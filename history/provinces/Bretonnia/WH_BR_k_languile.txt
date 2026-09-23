@@ -2,7 +2,7 @@
 # c_languile
 
 2824 = { # L'anguile
-	culture = german
+	culture = l_anguillen
 	religion = catholic
 	holding = castle_holding
 	1500.1.1 = { 
@@ -28,7 +28,7 @@
 #c_erguian
 
 2829 = { # Ergy
-	culture = german
+	culture = nordscane
 	religion = catholic
 	holding = castle_holding
 }
@@ -42,7 +42,7 @@
 #c_fregunerre
 
 2833 = { # Fregune
-	culture = german
+	culture = l_anguillen
 	religion = catholic
 	holding = castle_holding
 }
@@ -56,7 +56,7 @@
 #c_montgland
 
 2835 = { # Saintard
-	culture = german
+	culture = l_anguillen
 	religion = catholic
 	holding = castle_holding
 }
@@ -67,7 +67,7 @@
 #c_tourre
 
 2845 = { # Tourrebourg
-	culture = german
+	culture = l_anguillen
 	religion = catholic
 	holding = castle_holding
 }
@@ -84,7 +84,7 @@
 #c_rennais
 
 2836 = { # Rennesse
-	culture = german
+	culture = l_anguillen
 	religion = catholic
 	holding = castle_holding
 }
@@ -100,7 +100,7 @@
 #c_sanz 
 
 2848 = { # Sanz
-	culture = german
+	culture = l_anguillen
 	religion = catholic
 	holding = castle_holding
 }
@@ -112,7 +112,7 @@
 #c_Melis 
 
 2849 = { # Melis
-	culture = german
+	culture = l_anguillen
 	religion = catholic
 	holding = castle_holding
 }
@@ -128,7 +128,7 @@
 #c_ganet 
 
 2839 = { # Ganet
-	culture = german
+	culture = l_anguillen
 	religion = catholic
 	holding = castle_holding
 }
@@ -144,7 +144,7 @@
 #c_havresse
 
 2843 = { # Gresgar
-	culture = german
+	culture = l_anguillen
 	religion = catholic
 	holding = castle_holding
 }

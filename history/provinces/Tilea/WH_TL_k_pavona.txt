@@ -2,7 +2,7 @@
 ##d_pavona
 ###c_pavona
 2094 = { #pavona
-	culture = german
+	culture = umbrian
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
@@ -28,7 +28,7 @@
 
 ###c_scozzese
 2099 = { #scozzese
-	culture = german
+	culture = umbrian
 	religion = catholic
 	holding = castle_holding
 }
@@ -41,7 +41,7 @@
 
 ###c_umbresco
 2102 = { #stretto
-	culture = german
+	culture = umbrian
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
@@ -60,7 +60,7 @@
 ##d_astiano
 ###c_astiano
 2105 = { #astiano
-	culture = german
+	culture = umbrian
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
@@ -82,7 +82,7 @@
 
 ###c_spaarta
 2109 = { #spaarta
-	culture = german
+	culture = reman
 	religion = catholic
 	holding = castle_holding
 }
@@ -92,7 +92,7 @@
 
 ###c_spomanti
 2111 = { #spomanti
-	culture = german
+	culture = reman
 	religion = catholic
 	holding = castle_holding
 }

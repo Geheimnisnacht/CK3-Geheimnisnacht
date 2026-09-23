@@ -1,7 +1,7 @@
 ##d_brionne #####
 ###c_brionne
 2049 = { # Brionne
-	culture = german
+	culture = brionnian
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
@@ -31,7 +31,7 @@
 
 ###c_Sable Dore
 2056 = { # Chaston
-	culture = german
+	culture = brionnian
 	religion = catholic
 	holding = castle_holding
 }
@@ -42,7 +42,7 @@
 
 ###c_Angour
 2054 = { # anges
-	culture = german
+	culture = brionnian
 	religion = catholic
 	holding = castle_holding
 }
@@ -57,7 +57,7 @@
 
 ###c_Gransette
 2058 = { # Brassens
-	culture = german
+	culture = marcheur
 	religion = catholic
 	holding = castle_holding
 }
@@ -73,7 +73,7 @@
 ##d_querigord #####
 ###c_querigord
 2062 = { # Courfeyrac
-	culture = german
+	culture = brionnian
 	religion = catholic
 	holding = castle_holding
 }
@@ -92,7 +92,7 @@
 
 ###c_Luisdreux
 2067 = { # Luisdreux
-	culture = german
+	culture = brionnian
 	religion = catholic
 	holding = castle_holding
 }
@@ -107,7 +107,7 @@
 
 ###c_peires
 2071 = { # Peires
-	culture = german
+	culture = brionnian
 	religion = catholic
 	holding = castle_holding
 }
@@ -122,7 +122,7 @@
 
 ###c_muret
 2070 = { # muret
-	culture = german
+	culture = brionnian
 	religion = catholic
 	holding = castle_holding
 }

@@ -2,7 +2,7 @@
 ##d_sartosa
 ###c_sartosa
 2114 = { #castello_degli_pirati
-	culture = german
+	culture = sartosan_tilean
 	religion = catholic
 
 	holding = castle_holding
@@ -28,7 +28,7 @@
 
 ###c_caprio
 2120 = { #caprio
-	culture = german
+	culture = sartosan_tilean
 	religion = catholic
 
 	holding = castle_holding
@@ -45,7 +45,7 @@
 
 ###c_pelremo
 2124 = { #montag_lok
-	culture = german
+	culture = sartosan_tilean
 	religion = catholic
 
 	holding = castle_holding
@@ -59,7 +59,7 @@
 
 ###c_vercuso
 2127 = { #vercuso
-	culture = german
+	culture = sartosan_tilean
 	religion = catholic
 
 	holding = castle_holding
@@ -80,7 +80,7 @@
 ##d_metla
 ###c_metla
 2132 = { #valta
-	culture = german
+	culture = sartosan_tilean
 	religion = catholic
 
 	holding = castle_holding

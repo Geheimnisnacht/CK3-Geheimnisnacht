@@ -1,7 +1,7 @@
 ##d_mordheim ###################################
 ###c_mordheim
 470 = {	# Mordheim
-	culture = german
+	culture = aesling
 	religion = catholic
 	holding = castle_holding
 }
@@ -9,7 +9,7 @@
 
 ###c_sigmars_rock
 471 = {	# Sigmarsstein
-	culture = german
+	culture = ostermarker
 	religion = catholic
 	holding = castle_holding
 }
@@ -25,7 +25,7 @@
 
 ###c_vollerstein
 474 = {	# Endonsplatz
-	culture = german
+	culture = ostermarker
 	religion = catholic
 	holding = castle_holding
 }
@@ -43,7 +43,7 @@
 ##d_griffonwald ###################################
 ###c_borkrum
 477 = {	# Borkrum
-	culture = german
+	culture = ostermarker
 	religion = catholic
 	holding = castle_holding
 }
@@ -59,7 +59,7 @@
 
 ###c_rugenbuttle
 480 = {	# Rugenbuttle
-	culture = german
+	culture = ostermarker
 	religion = catholic
 	holding = castle_holding
 }
@@ -79,7 +79,7 @@
 
 ###c_menshenfresserhoffen
 484 = {	# Menshenfresserhoffen
-	culture = german
+	culture = ostermarker
 	religion = catholic
 	holding = castle_holding
 }
@@ -105,7 +105,7 @@
 ##d_bechafen ###################################
 ###c_bechafen
 489 = {	# Bechafen
-	culture = german
+	culture = ostermarker
 	religion = catholic
 	holding = castle_holding
 }
@@ -125,7 +125,7 @@
 
 ###c_fortenhaf
 493 = {	# Fortenhaf
-	culture = german
+	culture = ostermarker
 	religion = catholic
 	holding = castle_holding
 }
@@ -147,7 +147,7 @@
 ##d_geisterforst ###################################
 ###c_essen
 497 = {	# Essen
-	culture = german
+	culture = ostermarker
 	religion = catholic
 	holding = church_holding
 }
@@ -163,7 +163,7 @@
 
 ###c_carlsbruck
 500 = {	# Carlsbruck
-	culture = german
+	culture = ostermarker
 	religion = catholic
 	holding = castle_holding
 }
@@ -183,7 +183,7 @@
 
 ###c_kolhov
 504 = {	# Kolhov
-	culture = german
+	culture = ostermarker
 	religion = catholic
 	holding = castle_holding
 }
@@ -203,7 +203,7 @@
 
 ###c_berlner
 508 = {	# Berlner
-	culture = german
+	culture = ostermarker
 	religion = catholic
 	holding = city_holding
 }
@@ -225,7 +225,7 @@
 ##d_the_veldt ###################################
 ###c_rheden
 512 = {	# Rheden
-	culture = german
+	culture = ostermarker
 	religion = catholic
 	holding = castle_holding
 }
@@ -241,7 +241,7 @@
 
 ###c_teutobergerwald
 515 = {	# Teutobergerwald
-	culture = german
+	culture = ostermarker
 	religion = catholic
 	holding = castle_holding
 }
@@ -261,7 +261,7 @@
 
 ###c_rundespitze
 519 = {	# Rundespitze
-	culture = german
+	culture = ostermarker
 	religion = catholic
 	holding = castle_holding
 }
@@ -283,7 +283,7 @@
 ##d_abshaumwald ###################################
 ###c_nagenhof
 523 = {	# Nagenhof
-	culture = german
+	culture = ostermarker
 	religion = catholic
 	holding = castle_holding
 }
@@ -307,7 +307,7 @@
 
 ###c_regak
 528 = {	# Schloss Regak
-	culture = german
+	culture = ostermarker
 	religion = catholic
 	holding = castle_holding
 }
@@ -331,7 +331,7 @@
 
 ###c_zherden
 533 = {	# Zherdenschlosse
-	culture = german
+	culture = ostermarker
 	religion = catholic
 	holding = castle_holding
 }

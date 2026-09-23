@@ -2,7 +2,7 @@
 ##d_remas
 ###c_remas
 2024 = { #remas
-	culture = german
+	culture = reman
 	religion = catholic
 	holding = city_holding
 	6000.1.1 = { 
@@ -32,7 +32,7 @@
 
 ###c_nucca
 2030 = { #monte_negro
-	culture = german
+	culture = reman
 	religion = catholic
 	holding = city_holding
 }
@@ -42,7 +42,7 @@
 
 ###c_pontecorvo
 2032 = { #guglielma
-	culture = german
+	culture = reman
 	religion = catholic
 	holding = castle_holding
 }
@@ -57,14 +57,14 @@
 }
 
 2036 = { #riati_portineria
-	culture = german
+	culture = reman
 	religion = catholic
 	holding = castle_holding
 }
 
 ###c_rifraffa
 2037 = { #rifraffa
-	culture = german
+	culture = reman
 	religion = catholic
 	holding = castle_holding
 }
@@ -81,7 +81,7 @@
 ##d_urbimo
 ###c_urbimo
 2041 = { #urbimo
-	culture = german
+	culture = miraglian
 	religion = catholic
 	holding = castle_holding
 }
@@ -97,7 +97,7 @@
 
 ###c_catrazza
 2045 = { #catrazza
-	culture = german
+	culture = reman
 	religion = catholic
 	holding = castle_holding
 }

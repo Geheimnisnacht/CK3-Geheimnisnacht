@@ -2,7 +2,7 @@
 ##d_bilbali
 ###c_bilbali
 2650 = { #bilbali
-	culture = german
+	culture = tigarrese
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
@@ -17,7 +17,7 @@
 	holding = none
 }
 2652 = { #sahagun
-	culture = german
+	culture = tigarrese
 	religion = catholic
 	holding = castle_holding
 }
@@ -38,14 +38,14 @@
 }
 
 2655 = { #morro
-	culture = german
+	culture = galice
 	religion = catholic
 	holding = castle_holding
 }
 
 ###c_edeta
 2657 = { #edeta
-	culture = german
+	culture = galice
 	religion = catholic
 	holding = castle_holding
 }
@@ -62,7 +62,7 @@
 ##d_barduila
 ###c_alquezaro
 2665 = { #alquezaro
-	culture = german
+	culture = norteno
 	religion = catholic
 	holding = castle_holding
 }
@@ -81,7 +81,7 @@
 
 ###c_azuara
 2670 = { #azuara
-	culture = german
+	culture = norteno
 	religion = catholic
 	holding = castle_holding
 }
@@ -97,7 +97,7 @@
 
 ###c_bajamar
 2674 = { #biscague
-	culture = german
+	culture = norteno
 	religion = catholic
 	holding = castle_holding
 }
@@ -113,7 +113,7 @@
 
 ###c_zamalanca
 2678 = { #vadna
-	culture = german
+	culture = norteno
 	religion = catholic
 	holding = castle_holding
 }
@@ -130,7 +130,7 @@
 ##d_cantabrona
 ###c_cantabro
 2682 = { #toragona
-	culture = german
+	culture = tigarrese
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
@@ -151,14 +151,14 @@
 
 ###c_barataria
 2686 = { #hernazea
-	culture = german
+	culture = tigarrese
 	religion = catholic
 	holding = castle_holding
 }
 
 ###c_barboza
 2687 = { #barboza
-	culture = german
+	culture = tigarrese
 	religion = catholic
 	holding = castle_holding
 }
@@ -171,7 +171,7 @@
 
 ###c_calis
 2690 = { #campastello
-	culture = german
+	culture = tigarrese
 	religion = catholic
 	holding = castle_holding
 }
@@ -188,7 +188,7 @@
 ##d_gaula
 ###c_reas
 2694 = { #reas
-	culture = german
+	culture = montanese
 	religion = catholic
 	holding = castle_holding
 }
@@ -206,7 +206,7 @@
 
 ###c_siernas
 2702 = { #sierno
-	culture = german
+	culture = strigany
 	religion = catholic
 	holding = castle_holding
 }
@@ -223,7 +223,7 @@
 ##d_larra
 ###c_viacruz
 2706 = { #viacruz
-	culture = german
+	culture = tigarrese
 	religion = catholic
 	holding = castle_holding
 }
@@ -239,7 +239,7 @@
 
 ###c_baraiz
 2710 = { #ciela
-	culture = german
+	culture = tigarrese
 	religion = catholic
 	holding = castle_holding
 }
@@ -255,7 +255,7 @@
 
 ###c_nunia
 2714 = { #nuna
-	culture = german
+	culture = tigarrese
 	religion = catholic
 	holding = castle_holding
 }
@@ -271,7 +271,7 @@
 
 ###c_sodana
 2718 = { #sodana
-	culture = german
+	culture = tigarrese
 	religion = catholic
 	holding = castle_holding
 }
@@ -287,7 +287,7 @@
 
 ###c_varda
 2661 = { #ragestros
-	culture = german
+	culture = galice
 	religion = catholic
 	holding = castle_holding
 }
@@ -307,7 +307,7 @@
 	holding = none
 }
 2723 = { #visita
-	culture = german
+	culture = galice
 	religion = catholic
 	holding = castle_holding	
 	6000.1.1 = {
@@ -325,7 +325,7 @@
 
 ###c_arroca
 2726 = { #balado
-	culture = german
+	culture = galice
 	religion = catholic
 	holding = castle_holding
 }
@@ -344,7 +344,7 @@
 
 ###c_cefira
 2731 = { #natula
-	culture = german
+	culture = galice
 	religion = catholic
 	holding = castle_holding
 }
@@ -358,14 +358,14 @@
 	holding = none
 }
 2735 = { #ovenda
-	culture = german
+	culture = galice
 	religion = catholic
 	holding = castle_holding
 }
 
 ###c_san_luis
 2736 = { #san_luis
-	culture = german
+	culture = galice
 	religion = catholic
 	holding = castle_holding
 }

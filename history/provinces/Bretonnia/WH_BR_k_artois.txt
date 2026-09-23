@@ -2,7 +2,7 @@
 # c_artois
 
 2933 = { # Castle Artois
-	culture = german
+	culture = artoin
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
@@ -28,7 +28,7 @@
 # c_yremois
 
 2950 = { # Yremy
-	culture = german
+	culture = artoin
 	religion = catholic
 	holding = castle_holding
 }
@@ -45,7 +45,7 @@
 # c_larret
 
 2938 = { # larret
-	culture = german
+	culture = artoin
 	religion = catholic
 	holding = castle_holding
 }
@@ -63,7 +63,7 @@
 
 # c_Arden
 2942 = { # Marcalon
-	culture = german
+	culture = aesling
 	religion = catholic
 	holding = castle_holding
 }
@@ -76,7 +76,7 @@
 
 # c_uexin
 2946 = { # Chateau Uesin
-	culture = german
+	culture = artoin
 	religion = catholic
 	holding = castle_holding
 }
@@ -94,7 +94,7 @@
 
 # c_guerac
 2925 = { # Chateau Guerac
-	culture = german
+	culture = artoin
 	religion = catholic
 	holding = castle_holding
 }
@@ -104,7 +104,7 @@
 
 # c_futaie
 2926 = { # Cercle de Guerac
-	culture = german
+	culture = aesling
 	religion = catholic
 	holding = castle_holding
 }

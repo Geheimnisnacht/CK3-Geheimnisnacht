@@ -1,14 +1,18 @@
 ##d_auld_styrland ####################################Untill we can make functional halflings, this will be the old human culture
 ###c_eicheschatten 
 36 = {	# Eicheschatten
-	culture = german
+	culture = mootlander
 	religion = catholic
+	#culture = stirlander
+	#religion = catholic
 	holding = castle_holding
 }
 
 37 = {	# Molberg
-	culture = german
+	culture = mootlander
 	religion = catholic
+	#culture = stirlander
+	#religion = catholic
 	holding = castle_holding
 }
 
@@ -31,8 +35,10 @@
 
 ###c_leedleton
 42 = {	# Leedleton
-	culture = german
+	culture = mootlander
 	religion = catholic
+	#culture = stirlander
+	#religion = catholic
 	holding = castle_holding
 }
 
@@ -45,8 +51,10 @@
 ##d_aver_march ####################################Untill we can make functional halflings, this will be the old human culture
 ###c_sauerapfel
 44 = {	# Sauerapfel
-	culture = german
+	culture = mootlander
 	religion = catholic
+	#culture = averlander
+	#religion = catholic
 	holding = castle_holding
 }
 
@@ -61,8 +69,10 @@
 
 ###c_aver_march
 47 = {	# Einsamholz
-	culture = german
+	culture = mootlander
 	religion = catholic
+	#culture = averlander
+	#religion = catholic
 	holding = castle_holding
 }
 
@@ -85,8 +95,10 @@
 
 ###c_greenleafs
 52 = {	# Gipfel
-	culture = german
+	culture = mootlander
 	religion = catholic
+	#culture = averlander
+	#religion = catholic
 	holding = castle_holding
 }
 

@@ -1,7 +1,7 @@
 ###d_old_cuileux
 ###c_cuileux
 3103 = { #crac_de_sang
-	culture = german
+	culture = queneller
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = {
@@ -33,7 +33,7 @@
 
 ###c_bourgou
 3110 = { #richeline
-	culture = german
+	culture = queneller
 	religion = catholic
 	holding = castle_holding
 }
@@ -46,7 +46,7 @@
 ###c_la_mancon
 
 3112 = { #le_mancon
-	culture = german
+	culture = queneller
 	religion = catholic
 	holding = castle_holding
 }
@@ -59,7 +59,7 @@
 ###c_lancienne_marche
 #brissonour
 3077 = {
-	culture = german
+	culture = queneller
 	religion = catholic
 	holding = castle_holding
 }
@@ -83,7 +83,7 @@
 ###c_malmont
 ###montparnasse
 3114 = {
-	culture = german
+	culture = herrimault
 	religion = catholic
 	holding = castle_holding
 }
@@ -101,7 +101,7 @@
 ###c_pompadour
 ###pompadour
 3122 = {
-	culture = german
+	culture = herrimault
 	religion = catholic
 	holding = castle_holding
 }
@@ -114,7 +114,7 @@
 ###c_enjolras
 ###enjaux
 3118 = {
-	culture = german
+	culture = herrimault
 	religion = catholic
 	holding = castle_holding
 }
@@ -127,7 +127,7 @@
 ###c_gironde
 ###siorand
 3119 = {
-	culture = german
+	culture = herrimault
 	religion = catholic
 	holding = castle_holding
 }
@@ -146,7 +146,7 @@
 ###c_beaujolais
 #beauclerc
 3079 = {
-	culture = german
+	culture = herrimault
 	religion = catholic
 	holding = castle_holding
 }
@@ -164,7 +164,7 @@
 ###c_montalbau
 #montalbau
 3084 = {
-	culture = german
+	culture = herrimault
 	religion = catholic
 	holding = castle_holding
 }
@@ -177,7 +177,7 @@
 ###c_foucault
 #foucault
 3082 = {
-	culture = german
+	culture = herrimault
 	religion = catholic
 	holding = castle_holding
 }

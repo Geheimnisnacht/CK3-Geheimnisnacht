@@ -1,7 +1,7 @@
 ##d_nuln ###################################
 ###c_nuln
 14 = {	# Nuln
-	culture = german
+	culture = wissenlander
 	religion = catholic
 	holding = castle_holding
 	#special_building_slot = nuln_cannon_foundry_01
@@ -9,7 +9,7 @@
 
 ###c_hinterland
 15 = {	# Brandstadt
-	culture = german
+	culture = wissenlander
 	religion = catholic
 	holding = church_holding
 }
@@ -25,7 +25,7 @@
 
 ###c_eidelwiss
 18 = {	# Konigsdorf
-	culture = german
+	culture = wissenlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -43,7 +43,7 @@
 ##d_wissenburg ###################################
 ###c_grissenwald
 158 = {	# Grissenwald
-	culture = german
+	culture = wissenlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -59,7 +59,7 @@
 
 ###c_wissenburg
 161 = {	# Wissenburg
-	culture = german
+	culture = wissenlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -83,7 +83,7 @@
 
 ###c_durbheim
 166 = {	# Durbheim
-	culture = german
+	culture = wissenlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -95,7 +95,7 @@
 
 ###c_wurmgrube
 168 = {	# Wurmgrube
-	culture = german
+	culture = wissenlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -119,7 +119,7 @@
 
 ###c_kelgard
 173 = {	# Kelgard
-	culture = german
+	culture = wissenlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -137,7 +137,7 @@
 ##d_wissetal ###################################
 ###c_wusterberg
 176 = {	# Wusterberg
-	culture = german
+	culture = wissenlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -165,7 +165,7 @@
 
 ###c_kreutzhofen
 182 = {	# Kreutzhofen
-	culture = german
+	culture = wissenlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -181,7 +181,7 @@
 
 ###c_oshausen
 185 = {	# Oshausen
-	culture = german
+	culture = wissenlander
 	religion = catholic
 	holding = city_holding
 }
@@ -199,7 +199,7 @@
 ##d_pfeildorf ###################################
 ###c_pfeildorf
 188 = {	# Pfeildorf
-	culture = german
+	culture = sollander
 	religion = catholic
 	holding = castle_holding
 }
@@ -211,7 +211,7 @@
 
 ###c_sexau
 190 = {	# Sexau
-	culture = german
+	culture = sollander
 	religion = catholic
 	holding = castle_holding
 }
@@ -225,7 +225,7 @@
 ##d_soll ###################################
 ###c_wittenhausen
 192 = {	# Wittenhausen
-	culture = german
+	culture = sollander
 	religion = catholic
 	holding = castle_holding
 }
@@ -245,7 +245,7 @@
 
 ###c_pforzen
 196 = {	# Pforzen
-	culture = german
+	culture = sollander
 	religion = catholic
 	holding = castle_holding
 }
@@ -261,7 +261,7 @@
 
 ###c_staig
 199 = {	# Staig
-	culture = german	
+	culture = sollander	
 	religion = catholic
 	holding = castle_holding
 }
@@ -275,7 +275,7 @@
 }
 
 202 = {	# Ahaus
-	culture = german	
+	culture = sollander	
 	religion = catholic
 	holding = castle_holding
 }
@@ -293,7 +293,7 @@
 ##d_sudenland ###################################
 ###c_steingart
 205 = {	# Osterzell
-	culture = german
+	culture = sollander
 	religion = catholic
 	holding = castle_holding
 }
@@ -313,7 +313,7 @@
 
 ###c_aulen
 209 = {	# Sochtenau
-	culture = german
+	culture = sollander
 	religion = catholic
 	holding = castle_holding
 }
@@ -333,7 +333,7 @@
 
 ###c_kroppenleben
 213 = {	# Pahl
-	culture = german
+	culture = sollander
 	religion = catholic
 	holding = castle_holding
 }
@@ -349,7 +349,7 @@
 
 ###c_ummenbach
 216 = {	# Ummenbach
-	culture = german
+	culture = sollander
 	religion = catholic
 	holding = castle_holding
 }

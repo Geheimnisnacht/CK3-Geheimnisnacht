@@ -1,7 +1,7 @@
 ##d_marienburg ###################################
 ###c_marienburg
 8 = {	# Marienburg
-	culture = german
+	culture = westerlander
 	religion = catholic
 	holding = castle_holding
 	#special_building = marienburg_docks_01
@@ -10,7 +10,7 @@
 
 ###c_vlakland
 9 = {	# Vlakland
-	culture = german
+	culture = westerlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -22,7 +22,7 @@
 
 ###c_noordmuur
 11 = {	# Noordmuur
-	culture = german
+	culture = westerlander
 	religion = catholic
 	holding = city_holding
 }
@@ -40,7 +40,7 @@
 ##d_fauligmere ###################################
 ###c_fauligmere
 571 = {	# Leydenhove
-	culture = german
+	culture = westerlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -56,7 +56,7 @@
 
 ###c_zandt
 574 = {	# Zandt
-	culture = german
+	culture = westerlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -74,7 +74,7 @@
 ##d_heideland ###################################
 ###c_neuotting
 577 = {	# Neuotting
-	culture = german
+	culture = westerlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -98,7 +98,7 @@
 
 ###c_almshoven
 582 = {	# Almshoven
-	culture = german
+	culture = westerlander
 	religion = catholic
 	holding = church_holding
 }
@@ -124,7 +124,7 @@
 ##d_kikkerlandje ###################################
 ###c_klessen
 587 = {	# Klessen
-	culture = german
+	culture = westerlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -144,7 +144,7 @@
 
 ###c_markenbinnen
 591 = {	# Markenbinnen
-	culture = german
+	culture = westerlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -168,7 +168,7 @@
 
 ###c_noordbeemster
 596 = {	# Noordbeemster
-	culture = german
+	culture = westerlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -190,7 +190,7 @@
 ##d_frysland ###################################
 ###c_manaanspoort
 600 = {	# Venhuizen
-	culture = german
+	culture = westerlander
 	religion = catholic
 	holding = city_holding
 }
@@ -206,7 +206,7 @@
 
 ###c_harenskarpel
 603 = {	# Fort Solace
-	culture = german
+	culture = westerlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -224,11 +224,11 @@
 ##d_noordhaven ###################################
 ###c_burren
 606 = {	# Middenmeer
-	culture = german
+	culture = westerlander
 	religion = catholic
 	holding = tribal_holding
 	6500.1.1 = {
-		culture = german
+		culture = aesling
 		religion = catholic
 		holding = castle_holding
 	}
@@ -249,11 +249,11 @@
 
 ###c_aarnau
 610 = {	# Aarnau
-	culture = german
+	culture = westerlander
 	religion = catholic
 	holding = tribal_holding
 	6500.1.1 = {
-		culture = german
+		culture = aesling
 		religion = catholic
 		holding = castle_holding
 	}
@@ -280,7 +280,7 @@
 ##d_cisdrak ###################################
 ###c_harskamp
 615 = {	# Harskamp
-	culture = german
+	culture = aesling
 	religion = catholic
 	holding = castle_holding
 }
@@ -300,7 +300,7 @@
 
 ###c_vasse
 619 = {	# Vasse
-	culture = german
+	culture = aesling
 	religion = catholic
 	holding = castle_holding
 }
@@ -312,7 +312,7 @@
 
 ###c_velsen
 621 = {	# Velsen
-	culture = german
+	culture = westerlander
 	religion = catholic
 	holding = church_holding
 }
@@ -372,7 +372,7 @@
 ##d_gap_of_berbres ###################################
 ###c_gap_of_berbres
 654 = {	# Fort Bergbres
-	culture = german
+	culture = westerlander
 	religion = catholic
 	holding = castle_holding
 	122.1.1 = {
@@ -389,7 +389,7 @@
 ##d_tumble_downs ###################################
 ###c_rotterrade
 625 = {	# Westerdorp
-	culture = german
+	culture = aesling
 	religion = catholic
 	holding = castle_holding
 }
@@ -417,7 +417,7 @@
 
 ###c_ankeeven
 631 = {	# Amsterhuizen
-	culture = german
+	culture = aesling
 	religion = catholic
 	holding = castle_holding
 }
@@ -439,12 +439,12 @@
 ##d_lower_bitter_moors ###################################
 ###c_teltow
 635 = {	# Teltow
-	culture = german
+	culture = westerlander
 	religion = catholic
 	holding = tribal_holding
 
 	6500.1.1 = {
-		culture = german
+		culture = aesling
 		religion = catholic
 		holding = castle_holding
 	}
@@ -469,7 +469,7 @@
 
 ###c_saar
 640 = {	# Saar
-	culture = german
+	culture = westerlander
 	religion = catholic
 	holding = tribal_holding
 }
@@ -483,11 +483,11 @@
 ###c_huuzel
 
 641 = {	# Huuzel
-	culture = german
+	culture = westerlander
 	religion = catholic	
 	holding = tribal_holding
 	6500.1.1 = {
-		culture = german
+		culture = aesling
 		religion = catholic
 		holding = castle_holding
 	}
@@ -499,11 +499,11 @@
 
 ###c_landrel_barrow
 644 = {	# Grave
-	culture = german
+	culture = westerlander
 	religion = catholic
 	holding = tribal_holding
 	6500.1.1 = {
-		culture = german
+		culture = aesling
 		religion = catholic
 		holding = castle_holding
 	}
@@ -522,11 +522,11 @@
 ##d_upper_bitter_moors ###################################
 ###c_dornhan
 647 = {	# Dornhan
-	culture = german
+	culture = westerlander
 	religion = catholic
 	holding = tribal_holding
 	6500.1.1 = {
-		culture = german
+		culture = aesling
 		religion = catholic
 		holding = castle_holding
 	}
@@ -539,11 +539,11 @@
 
 ###c_sankt_veit
 649 = {	# Sankt Veit
-	culture = german
+	culture = westerlander
 	religion = catholic
 	holding = tribal_holding
 	6500.1.1 = {
-		culture = german
+		culture = aesling
 		religion = catholic
 		holding = castle_holding
 	}
@@ -556,11 +556,11 @@
 
 ###c_slodrecht
 651 = {	# Slodrecht
-	culture = german
+	culture = westerlander
 	religion = catholic
 	holding = tribal_holding
 	6500.1.1 = {
-		culture = german
+		culture = aesling
 		religion = catholic
 		holding = castle_holding
 	}

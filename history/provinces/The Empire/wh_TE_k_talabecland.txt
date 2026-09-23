@@ -1,7 +1,7 @@
 ##d_talabheim ###################################
 ###c_talabheim
 28 = {	# Talabheim
-	culture = german
+	culture = talabeclander
 	religion = catholic
 	holding = castle_holding
 	#special_building = taalplace_home_01
@@ -10,7 +10,7 @@
 
 ###c_taalgaad
 29 = {	# Taalgaad
-	culture = german
+	culture = talabeclander
 	religion = catholic
 	holding = castle_holding
 }
@@ -26,7 +26,7 @@
 
 ###c_ostlichrand
 32 = {	# Sprotau
-	culture = german
+	culture = talabeclander
 	religion = catholic
 	holding = castle_holding
 }
@@ -44,7 +44,7 @@
 ##d_volgen ###################################
 ###c_torpin
 388 = {	# Torpin
-	culture = german
+	culture = talabeclander
 	religion = catholic
 	holding = castle_holding
 }
@@ -67,7 +67,7 @@
 
 ###c_volgen
 393 = {	# Volgen
-	culture = german
+	culture = talabeclander
 	religion = catholic
 	holding = castle_holding
 }
@@ -91,7 +91,7 @@
 
 ###c_sarno
 398 = {	# Sarno
-	culture = german
+	culture = talabeclander
 	religion = catholic
 	holding = castle_holding
 }
@@ -109,7 +109,7 @@
 ##d_talabecland_hills ###################################
 ###c_eastern_unfruchtbarberge
 401 = {	# Schiffellwald
-	culture = german
+	culture = talabeclander
 	religion = catholic
 	holding = castle_holding
 }
@@ -125,7 +125,7 @@
 
 ###c_central_unfruchtbarberge
 404 = {	# Trotal
-	culture = german
+	culture = talabeclander
 	religion = catholic
 	holding = castle_holding
 }
@@ -137,7 +137,7 @@
 
 ###c_western_unfruchtbarberge
 406 = {	# Seydlitz
-	culture = german
+	culture = talabeclander
 	religion = catholic
 	holding = castle_holding
 }
@@ -155,7 +155,7 @@
 ##d_waldesruh ###################################
 ###c_kargberge
 409 = {	# Guettow
-	culture = german
+	culture = talabeclander
 	religion = catholic
 	holding = castle_holding
 }
@@ -175,7 +175,7 @@
 
 ###c_unterbaum
 413 = {	# Unterbaum
-	culture = german
+	culture = talabeclander
 	religion = catholic
 	holding = castle_holding
 }
@@ -201,7 +201,7 @@
 ##d_farlichberge ###################################
 ###c_gostahof
 418 = {	# Missen
-	culture = german
+	culture = talabeclander
 	religion = catholic
 	holding = castle_holding
 }
@@ -229,7 +229,7 @@
 
 ###c_farlichberge
 424 = {	# Obelheim
-	culture = german
+	culture = talabeclander
 	religion = catholic
 	holding = church_holding
 }
@@ -263,7 +263,7 @@
 ##d_waldarfold ###################################
 ###c_kuesel
 431 = {	# Kuesel
-	culture = german
+	culture = talabeclander
 	religion = catholic
 	holding = city_holding
 }
@@ -283,7 +283,7 @@
 
 ###c_bek
 435 = {	# Bek
-	culture = german
+	culture = talabeclander
 	religion = catholic
 	holding = castle_holding
 }
@@ -307,7 +307,7 @@
 
 ###c_gruenwald
 440 = {	# Bratian
-	culture = german
+	culture = talabeclander
 	religion = catholic
 	holding = city_holding
 }
@@ -333,7 +333,7 @@
 ##d_koelsaberge ###################################
 ###c_kappelburg
 445 = {	# Ohausen
-	culture = german
+	culture = talabeclander
 	religion = catholic
 	holding = city_holding
 }
@@ -353,7 +353,7 @@
 
 ###c_ertburg
 449 = {	# Ertburg
-	culture = german
+	culture = talabeclander
 	religion = catholic
 	holding = castle_holding
 }
@@ -369,7 +369,7 @@
 
 ###c_stratenheim
 452 = {	# Stratenheim
-	culture = german
+	culture = talabeclander
 	religion = catholic
 	holding = city_holding
 }
@@ -397,7 +397,7 @@
 
 ###c_krugenheim
 458 = {	# Sabritz
-	culture = german
+	culture = talabeclander
 	religion = catholic
 	holding = castle_holding
 }
@@ -425,7 +425,7 @@
 
 ###c_ossino
 464 = {	# Ossino
-	culture = german
+	culture = talabeclander
 	religion = catholic
 	holding = castle_holding
 }

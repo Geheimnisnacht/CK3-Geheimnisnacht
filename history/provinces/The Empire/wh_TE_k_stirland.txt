@@ -1,7 +1,7 @@
 ##d_nattern ###################################
 ###c_nattern
 278 = {	# Zeven
-	culture = german
+	culture = stirlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -15,7 +15,7 @@
 }
 
 281 = {	# West Nattern
-	culture = german
+	culture = stirlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -27,7 +27,7 @@
 
 ###c_ramsau
 283 = {	# Ramsau
-	culture = german
+	culture = stirlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -43,7 +43,7 @@
 
 ###c_zaya
 286 = {	# Flensburg
-	culture = german
+	culture = stirlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -61,7 +61,7 @@
 ##d_stirhuegel ###################################
 ###c_stirhuegel
 289 = {	# Wolfsbach
-	culture = german
+	culture = stirlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -77,7 +77,7 @@
 
 ###c_woerdern
 292 = {	# Woerdern
-	culture = german
+	culture = stirlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -97,7 +97,7 @@
 
 ###c_teichel
 296 = {	# Purgg
-	culture = german
+	culture = stirlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -115,7 +115,7 @@
 }
 
 300 = {	# Munz
-	culture = german
+	culture = stirlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -127,7 +127,7 @@
 
 ###c_wurtbad
 303 = {# Wurthbad
-	culture = german
+	culture = stirlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -149,7 +149,7 @@
 }
 
 307 = {	# Stirgrat
-	culture = german
+	culture = stirlander
 	religion = catholic
 	holding = castle_holding	
 }
@@ -159,7 +159,7 @@
 ##d_steyr ###################################
 ###c_oehling
 308 = {	# Oehling
-	culture = german
+	culture = stirlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -175,7 +175,7 @@
 
 ###c_leithagberge
 311 = {	# Murieste
-	culture = german
+	culture = stirlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -189,7 +189,7 @@
 }
 
 314 = {	# Gablitz
-	culture = german
+	culture = stirlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -199,7 +199,7 @@
 ##d_grauenmark ###################################
 ###c_marenwald
 315 = {	# Marburg
-	culture = german
+	culture = stirlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -214,7 +214,7 @@
 ###c_hundsheimerwald
 316 = {	# Steinbachthal
 	holding = city_holding
-	culture = german
+	culture = stirlander
 	religion = catholic
 }
 
@@ -229,7 +229,7 @@
 
 ###c_jaegerwald
 320 = {	# Dechstein
-	culture = german
+	culture = stirlander
 	religion = catholic
 	holding = castle_holding
 }

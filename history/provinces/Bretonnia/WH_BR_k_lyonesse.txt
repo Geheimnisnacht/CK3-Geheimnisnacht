@@ -2,7 +2,7 @@
 #c_lyonesse
 
 2795 = { # Lyonesse
-	culture = german
+	culture = lyonen
 	religion = catholic
 	holding = castle_holding
 	6000.1.1 = { 
@@ -17,7 +17,7 @@
 # c_chagrin
 
 2819 = { # Chagrin
-	culture = german
+	culture = nordscane
 	religion = catholic
 	holding = castle_holding
 }
@@ -28,7 +28,7 @@
 
 #c_tor_soleil
 2823 = { #le_goff
-    culture = german
+    culture = nordscane
     religion = catholic
     holding = castle_holding
 }
@@ -36,7 +36,7 @@
 #c_Debarquement de Lyon
 
 2820 = { # Agarthe
-	culture = german
+	culture = lyonen
 	religion = catholic
 	holding = castle_holding
 }
@@ -57,7 +57,7 @@
 # c_Senlou
 
 2805 = { # portsall
-	culture = german
+	culture = nordscane
 	religion = catholic
 	holding = castle_holding
 }
@@ -77,7 +77,7 @@
 # c_martonnais
 
 2811 = { # marton
-	culture = german
+	culture = lyonen
 	religion = catholic
 	holding = castle_holding
 }
@@ -97,7 +97,7 @@
 # c_chastillon
 
 2808 = { # Chastillon
-	culture = german
+	culture = lyonen
 	religion = catholic
 	holding = castle_holding
 }
@@ -110,7 +110,7 @@
 # c_rocheil
 
 2797 = { # rocheil
-	culture = german
+	culture = lyonen
 	religion = catholic
 	holding = castle_holding
 }
@@ -130,7 +130,7 @@
 #c_oreal 
 
 2802 = { # Oreal
-	culture = german
+	culture = lyonen
 	religion = catholic
 	holding = castle_holding
 }
@@ -146,7 +146,7 @@
 #c_Moulinsard 
 
 2801 = { # Moulinsard
-	culture = german
+	culture = lyonen
 	religion = catholic
 	holding = castle_holding
 }

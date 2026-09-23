@@ -1,0 +1,704 @@
+﻿#mercenary_names = {#if culture has mercenary bands, add them here with mercenary_company_(name of band) formatting
+#	{ name = "vanaheim_marauders" }
+#	{ name = "bearmen_of_ursulo" }
+#	{ name = "midgard_shieldmaidens" }
+#	{ name = "shieldmaidens_of_the_storm" }
+#	{ name = "nordlig_reavers" }
+#	{ name = "sons_of_fimbulvintr" }
+#	{ name = "norscveg_band" }
+#	{ name = "longhall_guardians" }
+#	{ name = "weregild_huskarls" }
+#	{ name = "sons_of_syrul" }
+#	{ name = "wyrmscale_band" }
+#	{ name = "gianthome_wildmen" }
+#}
+
+aesling = {
+	color = { 0.25 0.5 0.75 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_norscan
+	language = language_norse
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain		
+	traditions = {
+		tradition_only_the_strong
+		tradition_reverence_for_veterans
+		tradition_faith_bound
+	}
+	
+	name_list = aesling_name_list
+
+	coa_gfx = {  norse_coa_gfx western_coa_gfx  } 
+	building_gfx = { norse_building_gfx } 
+	clothing_gfx = { fp1_norse_clothing_gfx norscan_clothing_gfx }
+	# clothing_gfx = { norscan_clothing_gfx }
+	unit_gfx = { norse_unit_gfx } 
+	house_coa_frame = house_frame_05
+
+
+	ethnicities = {
+		2 = european_caucasian_nordic_01
+		2 = european_caucasian_nordic_02
+		2 = european_caucasian_nordic_03
+		2 = european_caucasian_nordic_04
+		2 = european_caucasian_nordic_05
+		2 = european_caucasian_nordic_06
+		2 = european_caucasian_nordic_07
+		2 = european_caucasian_nordic_08
+		2 = european_caucasian_nordic_09
+		2 = european_caucasian_nordic_10
+		2 = european_caucasian_nordic_11
+		2 = european_caucasian_nordic_12
+		2 = european_caucasian_nordic_13
+		2 = european_caucasian_nordic_14
+		2 = european_caucasian_nordic_15
+		2 = european_caucasian_nordic_16
+		2 = european_caucasian_nordic_17
+		2 = european_caucasian_nordic_18
+		2 = european_caucasian_nordic_19
+		2 = european_caucasian_nordic_20
+		2 = european_caucasian_nordic_21
+		2 = european_caucasian_nordic_22
+		2 = european_caucasian_nordic_23
+		2 = european_caucasian_nordic_24
+		2 = european_caucasian_nordic_25
+		2 = european_caucasian_nordic_26
+		2 = european_caucasian_nordic_27
+		2 = european_caucasian_nordic_28
+		2 = european_caucasian_nordic_29
+		2 = european_caucasian_nordic_30
+		2 = european_caucasian_nordic_31
+		2 = european_caucasian_nordic_32
+		2 = european_caucasian_nordic_33
+		2 = european_caucasian_nordic_34
+		2 = european_caucasian_nordic_35
+		2 = european_caucasian_nordic_36
+		2 = european_caucasian_nordic_37
+		2 = european_caucasian_nordic_38
+		2 = european_caucasian_nordic_39
+		2 = european_caucasian_nordic_40
+		2 = european_caucasian_nordic_41
+		2 = european_caucasian_nordic_42
+		2 = european_caucasian_nordic_43
+		2 = european_caucasian_nordic_44
+		2 = european_caucasian_nordic_45
+		2 = european_caucasian_nordic_46
+		2 = european_caucasian_nordic_47
+		2 = european_caucasian_nordic_48
+		2 = european_caucasian_nordic_49
+		2 = european_caucasian_nordic_50
+	}
+}
+
+baersonling = {
+	color = { 0.2 0.45 0.65 }
+	
+	ethos = ethos_communal
+	heritage = heritage_norscan
+	language = language_norse
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain		
+	traditions = {
+		tradition_fp1_performative_honour
+		#tradition_mountaineers
+		tradition_hard_working
+	}
+	
+	name_list = baersonling_name_list
+
+	coa_gfx = { norse_coa_gfx western_coa_gfx } 
+	building_gfx = { norse_building_gfx } 
+	clothing_gfx = { fp1_norse_clothing_gfx norscan_clothing_gfx }
+	# clothing_gfx = { norscan_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		2 = european_caucasian_nordic_01
+		2 = european_caucasian_nordic_02
+		2 = european_caucasian_nordic_03
+		2 = european_caucasian_nordic_04
+		2 = european_caucasian_nordic_05
+		2 = european_caucasian_nordic_06
+		2 = european_caucasian_nordic_07
+		2 = european_caucasian_nordic_08
+		2 = european_caucasian_nordic_09
+		2 = european_caucasian_nordic_10
+		2 = european_caucasian_nordic_11
+		2 = european_caucasian_nordic_12
+		2 = european_caucasian_nordic_13
+		2 = european_caucasian_nordic_14
+		2 = european_caucasian_nordic_15
+		2 = european_caucasian_nordic_16
+		2 = european_caucasian_nordic_17
+		2 = european_caucasian_nordic_18
+		2 = european_caucasian_nordic_19
+		2 = european_caucasian_nordic_20
+		2 = european_caucasian_nordic_21
+		2 = european_caucasian_nordic_22
+		2 = european_caucasian_nordic_23
+		2 = european_caucasian_nordic_24
+		2 = european_caucasian_nordic_25
+		2 = european_caucasian_nordic_26
+		2 = european_caucasian_nordic_27
+		2 = european_caucasian_nordic_28
+		2 = european_caucasian_nordic_29
+		2 = european_caucasian_nordic_30
+		2 = european_caucasian_nordic_31
+		2 = european_caucasian_nordic_32
+		2 = european_caucasian_nordic_33
+		2 = european_caucasian_nordic_34
+		2 = european_caucasian_nordic_35
+		2 = european_caucasian_nordic_36
+		2 = european_caucasian_nordic_37
+		2 = european_caucasian_nordic_38
+		2 = european_caucasian_nordic_39
+		2 = european_caucasian_nordic_40
+		2 = european_caucasian_nordic_41
+		2 = european_caucasian_nordic_42
+		2 = european_caucasian_nordic_43
+		2 = european_caucasian_nordic_44
+		2 = european_caucasian_nordic_45
+		2 = european_caucasian_nordic_46
+		2 = european_caucasian_nordic_47
+		2 = european_caucasian_nordic_48
+		2 = european_caucasian_nordic_49
+		2 = european_caucasian_nordic_50
+	}
+}
+
+bjornling = {
+	color = { 0.8 0.3 0.2 }
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_norscan
+	language = language_norse
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain		
+	traditions = {
+		tradition_seafaring
+	}
+	
+	name_list = bjornling_name_list
+
+	coa_gfx = { norse_coa_gfx western_coa_gfx } 
+	building_gfx = { norse_building_gfx } 
+	clothing_gfx = { fp1_norse_clothing_gfx norscan_clothing_gfx }
+	# clothing_gfx = { norscan_clothing_gfx }
+	unit_gfx = { norse_unit_gfx } 
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		2 = european_caucasian_nordic_01
+		2 = european_caucasian_nordic_02
+		2 = european_caucasian_nordic_03
+		2 = european_caucasian_nordic_04
+		2 = european_caucasian_nordic_05
+		2 = european_caucasian_nordic_06
+		2 = european_caucasian_nordic_07
+		2 = european_caucasian_nordic_08
+		2 = european_caucasian_nordic_09
+		2 = european_caucasian_nordic_10
+		2 = european_caucasian_nordic_11
+		2 = european_caucasian_nordic_12
+		2 = european_caucasian_nordic_13
+		2 = european_caucasian_nordic_14
+		2 = european_caucasian_nordic_15
+		2 = european_caucasian_nordic_16
+		2 = european_caucasian_nordic_17
+		2 = european_caucasian_nordic_18
+		2 = european_caucasian_nordic_19
+		2 = european_caucasian_nordic_20
+		2 = european_caucasian_nordic_21
+		2 = european_caucasian_nordic_22
+		2 = european_caucasian_nordic_23
+		2 = european_caucasian_nordic_24
+		2 = european_caucasian_nordic_25
+		2 = european_caucasian_nordic_26
+		2 = european_caucasian_nordic_27
+		2 = european_caucasian_nordic_28
+		2 = european_caucasian_nordic_29
+		2 = european_caucasian_nordic_30
+		2 = european_caucasian_nordic_31
+		2 = european_caucasian_nordic_32
+		2 = european_caucasian_nordic_33
+		2 = european_caucasian_nordic_34
+		2 = european_caucasian_nordic_35
+		2 = european_caucasian_nordic_36
+		2 = european_caucasian_nordic_37
+		2 = european_caucasian_nordic_38
+		2 = european_caucasian_nordic_39
+		2 = european_caucasian_nordic_40
+		2 = european_caucasian_nordic_41
+		2 = european_caucasian_nordic_42
+		2 = european_caucasian_nordic_43
+		2 = european_caucasian_nordic_44
+		2 = european_caucasian_nordic_45
+		2 = european_caucasian_nordic_46
+		2 = european_caucasian_nordic_47
+		2 = european_caucasian_nordic_48
+		2 = european_caucasian_nordic_49
+		2 = european_caucasian_nordic_50
+	}
+}
+
+fjarmann = {
+	color = { 0.8 0.3 0.2 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_norscan
+	language = language_norse
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain		
+	traditions = {
+		tradition_xenophilic
+		tradition_maritime_mercantilism
+		tradition_seafaring
+		tradition_jungle_warriors
+	}
+	
+	name_list = fjarmann_name_list
+
+	coa_gfx = { norse_coa_gfx western_coa_gfx } 
+	building_gfx = { norse_building_gfx } 
+	clothing_gfx = { fp1_norse_clothing_gfx norscan_clothing_gfx }
+	# clothing_gfx = { norscan_clothing_gfx }
+	unit_gfx = { norse_unit_gfx } 
+	house_coa_frame = house_frame_05
+
+
+	ethnicities = {
+		2 = european_caucasian_nordic_01
+		2 = european_caucasian_nordic_02
+		2 = european_caucasian_nordic_03
+		2 = european_caucasian_nordic_04
+		2 = european_caucasian_nordic_05
+		2 = european_caucasian_nordic_06
+		2 = european_caucasian_nordic_07
+		2 = european_caucasian_nordic_08
+		2 = european_caucasian_nordic_09
+		2 = european_caucasian_nordic_10
+		2 = european_caucasian_nordic_11
+		2 = european_caucasian_nordic_12
+		2 = european_caucasian_nordic_13
+		2 = european_caucasian_nordic_14
+		2 = european_caucasian_nordic_15
+		2 = european_caucasian_nordic_16
+		2 = european_caucasian_nordic_17
+		2 = european_caucasian_nordic_18
+		2 = european_caucasian_nordic_19
+		2 = european_caucasian_nordic_20
+		2 = european_caucasian_nordic_21
+		2 = european_caucasian_nordic_22
+		2 = european_caucasian_nordic_23
+		2 = european_caucasian_nordic_24
+		2 = european_caucasian_nordic_25
+		2 = european_caucasian_nordic_26
+		2 = european_caucasian_nordic_27
+		2 = european_caucasian_nordic_28
+		2 = european_caucasian_nordic_29
+		2 = european_caucasian_nordic_30
+		2 = european_caucasian_nordic_31
+		2 = european_caucasian_nordic_32
+		2 = european_caucasian_nordic_33
+		2 = european_caucasian_nordic_34
+		2 = european_caucasian_nordic_35
+		2 = european_caucasian_nordic_36
+		2 = european_caucasian_nordic_37
+		2 = european_caucasian_nordic_38
+		2 = european_caucasian_nordic_39
+		2 = european_caucasian_nordic_40
+		2 = european_caucasian_nordic_41
+		2 = european_caucasian_nordic_42
+		2 = european_caucasian_nordic_43
+		2 = european_caucasian_nordic_44
+		2 = european_caucasian_nordic_45
+		2 = european_caucasian_nordic_46
+		2 = european_caucasian_nordic_47
+		2 = european_caucasian_nordic_48
+		2 = european_caucasian_nordic_49
+		2 = european_caucasian_nordic_50
+	}
+}
+graeling = {
+	color = { 0.3 0.55 0.8 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_norscan
+	language = language_norse
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain		
+	traditions = {
+		tradition_isolationist
+		tradition_stalwart_defenders
+	}
+	
+	name_list = graeling_name_list
+
+	coa_gfx = { norse_coa_gfx western_coa_gfx } 
+	building_gfx = { norse_building_gfx } 
+	clothing_gfx = { fp1_norse_clothing_gfx norscan_clothing_gfx }
+	# clothing_gfx = { norscan_clothing_gfx }
+	unit_gfx = { norse_unit_gfx } 
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		2 = european_caucasian_nordic_01
+		2 = european_caucasian_nordic_02
+		2 = european_caucasian_nordic_03
+		2 = european_caucasian_nordic_04
+		2 = european_caucasian_nordic_05
+		2 = european_caucasian_nordic_06
+		2 = european_caucasian_nordic_07
+		2 = european_caucasian_nordic_08
+		2 = european_caucasian_nordic_09
+		2 = european_caucasian_nordic_10
+		2 = european_caucasian_nordic_11
+		2 = european_caucasian_nordic_12
+		2 = european_caucasian_nordic_13
+		2 = european_caucasian_nordic_14
+		2 = european_caucasian_nordic_15
+		2 = european_caucasian_nordic_16
+		2 = european_caucasian_nordic_17
+		2 = european_caucasian_nordic_18
+		2 = european_caucasian_nordic_19
+		2 = european_caucasian_nordic_20
+		2 = european_caucasian_nordic_21
+		2 = european_caucasian_nordic_22
+		2 = european_caucasian_nordic_23
+		2 = european_caucasian_nordic_24
+		2 = european_caucasian_nordic_25
+		2 = european_caucasian_nordic_26
+		2 = european_caucasian_nordic_27
+		2 = european_caucasian_nordic_28
+		2 = european_caucasian_nordic_29
+		2 = european_caucasian_nordic_30
+		2 = european_caucasian_nordic_31
+		2 = european_caucasian_nordic_32
+		2 = european_caucasian_nordic_33
+		2 = european_caucasian_nordic_34
+		2 = european_caucasian_nordic_35
+		2 = european_caucasian_nordic_36
+		2 = european_caucasian_nordic_37
+		2 = european_caucasian_nordic_38
+		2 = european_caucasian_nordic_39
+		2 = european_caucasian_nordic_40
+		2 = european_caucasian_nordic_41
+		2 = european_caucasian_nordic_42
+		2 = european_caucasian_nordic_43
+		2 = european_caucasian_nordic_44
+		2 = european_caucasian_nordic_45
+		2 = european_caucasian_nordic_46
+		2 = european_caucasian_nordic_47
+		2 = european_caucasian_nordic_48
+		2 = european_caucasian_nordic_49
+		2 = european_caucasian_nordic_50
+	}
+}
+
+sarl = {
+	color = { 0.25 0.4 0.55 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_norscan
+	language = language_norse
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain		
+	traditions = {
+		tradition_forest_folk
+		tradition_hunters
+		tradition_seafaring
+	}
+	
+	name_list = sarl_name_list
+
+	coa_gfx = { norse_coa_gfx western_coa_gfx } 
+	building_gfx = { norse_building_gfx } 
+	clothing_gfx = { fp1_norse_clothing_gfx norscan_clothing_gfx }
+	# clothing_gfx = { norscan_clothing_gfx }
+	unit_gfx = { norse_unit_gfx } 
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		2 = european_caucasian_nordic_01
+		2 = european_caucasian_nordic_02
+		2 = european_caucasian_nordic_03
+		2 = european_caucasian_nordic_04
+		2 = european_caucasian_nordic_05
+		2 = european_caucasian_nordic_06
+		2 = european_caucasian_nordic_07
+		2 = european_caucasian_nordic_08
+		2 = european_caucasian_nordic_09
+		2 = european_caucasian_nordic_10
+		2 = european_caucasian_nordic_11
+		2 = european_caucasian_nordic_12
+		2 = european_caucasian_nordic_13
+		2 = european_caucasian_nordic_14
+		2 = european_caucasian_nordic_15
+		2 = european_caucasian_nordic_16
+		2 = european_caucasian_nordic_17
+		2 = european_caucasian_nordic_18
+		2 = european_caucasian_nordic_19
+		2 = european_caucasian_nordic_20
+		2 = european_caucasian_nordic_21
+		2 = european_caucasian_nordic_22
+		2 = european_caucasian_nordic_23
+		2 = european_caucasian_nordic_24
+		2 = european_caucasian_nordic_25
+		2 = european_caucasian_nordic_26
+		2 = european_caucasian_nordic_27
+		2 = european_caucasian_nordic_28
+		2 = european_caucasian_nordic_29
+		2 = european_caucasian_nordic_30
+		2 = european_caucasian_nordic_31
+		2 = european_caucasian_nordic_32
+		2 = european_caucasian_nordic_33
+		2 = european_caucasian_nordic_34
+		2 = european_caucasian_nordic_35
+		2 = european_caucasian_nordic_36
+		2 = european_caucasian_nordic_37
+		2 = european_caucasian_nordic_38
+		2 = european_caucasian_nordic_39
+		2 = european_caucasian_nordic_40
+		2 = european_caucasian_nordic_41
+		2 = european_caucasian_nordic_42
+		2 = european_caucasian_nordic_43
+		2 = european_caucasian_nordic_44
+		2 = european_caucasian_nordic_45
+		2 = european_caucasian_nordic_46
+		2 = european_caucasian_nordic_47
+		2 = european_caucasian_nordic_48
+		2 = european_caucasian_nordic_49
+		2 = european_caucasian_nordic_50
+	}
+}
+
+skaeling = {
+	color = { 0.15 0.4 0.55 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_norscan
+	language = language_norse
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain		
+	traditions = {
+		tradition_warrior_culture
+		tradition_hereditary_hierarchy
+	}
+	
+	name_list = skaeling_name_list
+
+	coa_gfx = { norse_coa_gfx western_coa_gfx } 
+	building_gfx = { norse_building_gfx } 
+	clothing_gfx = { fp1_norse_clothing_gfx norscan_clothing_gfx }
+	# clothing_gfx = { norscan_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		2 = european_caucasian_nordic_01
+		2 = european_caucasian_nordic_02
+		2 = european_caucasian_nordic_03
+		2 = european_caucasian_nordic_04
+		2 = european_caucasian_nordic_05
+		2 = european_caucasian_nordic_06
+		2 = european_caucasian_nordic_07
+		2 = european_caucasian_nordic_08
+		2 = european_caucasian_nordic_09
+		2 = european_caucasian_nordic_10
+		2 = european_caucasian_nordic_11
+		2 = european_caucasian_nordic_12
+		2 = european_caucasian_nordic_13
+		2 = european_caucasian_nordic_14
+		2 = european_caucasian_nordic_15
+		2 = european_caucasian_nordic_16
+		2 = european_caucasian_nordic_17
+		2 = european_caucasian_nordic_18
+		2 = european_caucasian_nordic_19
+		2 = european_caucasian_nordic_20
+		2 = european_caucasian_nordic_21
+		2 = european_caucasian_nordic_22
+		2 = european_caucasian_nordic_23
+		2 = european_caucasian_nordic_24
+		2 = european_caucasian_nordic_25
+		2 = european_caucasian_nordic_26
+		2 = european_caucasian_nordic_27
+		2 = european_caucasian_nordic_28
+		2 = european_caucasian_nordic_29
+		2 = european_caucasian_nordic_30
+		2 = european_caucasian_nordic_31
+		2 = european_caucasian_nordic_32
+		2 = european_caucasian_nordic_33
+		2 = european_caucasian_nordic_34
+		2 = european_caucasian_nordic_35
+		2 = european_caucasian_nordic_36
+		2 = european_caucasian_nordic_37
+		2 = european_caucasian_nordic_38
+		2 = european_caucasian_nordic_39
+		2 = european_caucasian_nordic_40
+		2 = european_caucasian_nordic_41
+		2 = european_caucasian_nordic_42
+		2 = european_caucasian_nordic_43
+		2 = european_caucasian_nordic_44
+		2 = european_caucasian_nordic_45
+		2 = european_caucasian_nordic_46
+		2 = european_caucasian_nordic_47
+		2 = european_caucasian_nordic_48
+		2 = european_caucasian_nordic_49
+		2 = european_caucasian_nordic_50
+	}
+}
+
+varg = {
+	color = { 0.15 0.45 0.25 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_norscan
+	language = language_norse
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain		
+	traditions = {
+		tradition_zealous_people
+		tradition_by_the_sword
+	}
+	
+	name_list = varg_name_list
+
+	coa_gfx = { norse_coa_gfx western_coa_gfx } 
+	building_gfx = { norse_building_gfx } 
+	clothing_gfx = { fp1_norse_clothing_gfx norscan_clothing_gfx }
+	# clothing_gfx = { norscan_clothing_gfx } 
+	unit_gfx = { norse_unit_gfx } 
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		2 = european_caucasian_nordic_01
+		2 = european_caucasian_nordic_02
+		2 = european_caucasian_nordic_03
+		2 = european_caucasian_nordic_04
+		2 = european_caucasian_nordic_05
+		2 = european_caucasian_nordic_06
+		2 = european_caucasian_nordic_07
+		2 = european_caucasian_nordic_08
+		2 = european_caucasian_nordic_09
+		2 = european_caucasian_nordic_10
+		2 = european_caucasian_nordic_11
+		2 = european_caucasian_nordic_12
+		2 = european_caucasian_nordic_13
+		2 = european_caucasian_nordic_14
+		2 = european_caucasian_nordic_15
+		2 = european_caucasian_nordic_16
+		2 = european_caucasian_nordic_17
+		2 = european_caucasian_nordic_18
+		2 = european_caucasian_nordic_19
+		2 = european_caucasian_nordic_20
+		2 = european_caucasian_nordic_21
+		2 = european_caucasian_nordic_22
+		2 = european_caucasian_nordic_23
+		2 = european_caucasian_nordic_24
+		2 = european_caucasian_nordic_25
+		2 = european_caucasian_nordic_26
+		2 = european_caucasian_nordic_27
+		2 = european_caucasian_nordic_28
+		2 = european_caucasian_nordic_29
+		2 = european_caucasian_nordic_30
+		2 = european_caucasian_nordic_31
+		2 = european_caucasian_nordic_32
+		2 = european_caucasian_nordic_33
+		2 = european_caucasian_nordic_34
+		2 = european_caucasian_nordic_35
+		2 = european_caucasian_nordic_36
+		2 = european_caucasian_nordic_37
+		2 = european_caucasian_nordic_38
+		2 = european_caucasian_nordic_39
+		2 = european_caucasian_nordic_40
+		2 = european_caucasian_nordic_41
+		2 = european_caucasian_nordic_42
+		2 = european_caucasian_nordic_43
+		2 = european_caucasian_nordic_44
+		2 = european_caucasian_nordic_45
+		2 = european_caucasian_nordic_46
+		2 = european_caucasian_nordic_47
+		2 = european_caucasian_nordic_48
+		2 = european_caucasian_nordic_49
+		2 = european_caucasian_nordic_50
+	}
+}
+
+doragoan = {
+	color = { 0.15 0.45 0.25 }
+	
+	ethos = ethos_courtly
+	heritage = heritage_norscan
+	language = language_norse
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain		
+	traditions = {
+		tradition_winter_warriors
+		tradition_ruling_caste
+		tradition_city_keepers
+	}
+	
+	name_list = varg_name_list
+
+	coa_gfx = { norse_coa_gfx western_coa_gfx } 
+	building_gfx = { norse_building_gfx } 
+	clothing_gfx = { fp1_norse_clothing_gfx norscan_clothing_gfx }
+	# clothing_gfx = { norscan_clothing_gfx }
+	unit_gfx = { norse_unit_gfx } 
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		2 = european_caucasian_nordic_01
+		2 = european_caucasian_nordic_02
+		2 = european_caucasian_nordic_03
+		2 = european_caucasian_nordic_04
+		2 = european_caucasian_nordic_05
+		2 = european_caucasian_nordic_06
+		2 = european_caucasian_nordic_07
+		2 = european_caucasian_nordic_08
+		2 = european_caucasian_nordic_09
+		2 = european_caucasian_nordic_10
+		2 = european_caucasian_nordic_11
+		2 = european_caucasian_nordic_12
+		2 = european_caucasian_nordic_13
+		2 = european_caucasian_nordic_14
+		2 = european_caucasian_nordic_15
+		2 = european_caucasian_nordic_16
+		2 = european_caucasian_nordic_17
+		2 = european_caucasian_nordic_18
+		2 = european_caucasian_nordic_19
+		2 = european_caucasian_nordic_20
+		2 = european_caucasian_nordic_21
+		2 = european_caucasian_nordic_22
+		2 = european_caucasian_nordic_23
+		2 = european_caucasian_nordic_24
+		2 = european_caucasian_nordic_25
+		2 = european_caucasian_nordic_26
+		2 = european_caucasian_nordic_27
+		2 = european_caucasian_nordic_28
+		2 = european_caucasian_nordic_29
+		2 = european_caucasian_nordic_30
+		2 = european_caucasian_nordic_31
+		2 = european_caucasian_nordic_32
+		2 = european_caucasian_nordic_33
+		2 = european_caucasian_nordic_34
+		2 = european_caucasian_nordic_35
+		2 = european_caucasian_nordic_36
+		2 = european_caucasian_nordic_37
+		2 = european_caucasian_nordic_38
+		2 = european_caucasian_nordic_39
+		2 = european_caucasian_nordic_40
+		2 = european_caucasian_nordic_41
+		2 = european_caucasian_nordic_42
+		2 = european_caucasian_nordic_43
+		2 = european_caucasian_nordic_44
+		2 = european_caucasian_nordic_45
+		2 = european_caucasian_nordic_46
+		2 = european_caucasian_nordic_47
+		2 = european_caucasian_nordic_48
+		2 = european_caucasian_nordic_49
+		2 = european_caucasian_nordic_50
+	}
+}

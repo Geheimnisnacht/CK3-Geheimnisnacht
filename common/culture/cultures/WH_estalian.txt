@@ -1024,7 +1024,7 @@ sureno = { # "Andalusian" Estalians
 		tradition_charitable #placeholder
 	}
 	
-	# name_list = sureno_name_list
+	name_list = sureno_name_list
 
 	coa_gfx = { arabic_group_coa_gfx } 
 	building_gfx = { iberian_building_gfx }

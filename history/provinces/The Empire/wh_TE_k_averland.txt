@@ -1,7 +1,7 @@
 ##d_averheim ###################################
 ###c_averheim
 220 = {	# Averburg
-	culture = german
+	culture = averlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -21,7 +21,7 @@
 
 ###c_heideck
 224 = {	# Heideck
-	culture = german
+	culture = averlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -37,7 +37,7 @@
 
 ###c_streissen
 227 = {	# Streissen
-	culture = german
+	culture = averlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -47,7 +47,7 @@
 }
 
 229 = {	# Kerpen
-	culture = german
+	culture = averlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -65,7 +65,7 @@
 ##d_martig ###################################
 ###c_lengenfeld
 232 = {	# Lengenfeld
-	culture = german
+	culture = averlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -85,7 +85,7 @@
 
 ###c_colmfaehre
 236 = {	# Colmfaehre
-	culture = german
+	culture = averlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -113,7 +113,7 @@
 
 ###c_bernloch
 242 = {	# Bernloch
-	culture = german
+	culture = averlander
 	religion = catholic
 	holding = none
 }
@@ -123,7 +123,7 @@
 }
 
 244 = {	# Fehman
-	culture = german
+	culture = averlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -139,7 +139,7 @@
 
 ###c_wuppertal
 247 = {	# Wuppertal
-	culture = german
+	culture = averlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -151,7 +151,7 @@
 
 ###c_longingbruck
 249 = {	# Longingbruck
-	culture = german
+	culture = averlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -173,13 +173,13 @@
 ##d_pferdmark ###################################
 ###c_Flachland
 253 = {	#Flachland
-	culture = german
+	culture = averlander
 	religion = catholic
 	holding = castle_holding
 }
 
 254 = {	# Pfungzig
-	culture = german
+	culture = averlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -199,7 +199,7 @@
 
 ###c_hocheleben
 258 = {	# Hocheleben
-	culture = german
+	culture = averlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -215,7 +215,7 @@
 
 ###c_grenzstadt
 261 = {	# Grenzstadt
-	culture = german
+	culture = averlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -231,7 +231,7 @@
 
 ###c_niebelwald
 264 = {	# Ingelfingen
-	culture = german
+	culture = averlander
 	religion = catholic
 	holding = castle_holding
 }
@@ -251,7 +251,7 @@
 
 ###c_black_fire_pass
 270 = {	# Vossheim
-	culture = german
+	culture = averlander
 	religion = catholic
 	holding = church_holding
 }
