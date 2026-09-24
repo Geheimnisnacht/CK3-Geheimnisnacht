@@ -1564,7 +1564,7 @@ king_administrative_female = {
 # 	tier = kingdom
 # 	priority = 75
 # 	governments = { administrative_government }
-# 	heritages = { heritage_byzantine } #LotR
+# 	heritages = { heritage_byzantine } #WHG
 
 # 	flavourization_rules = {
 # 		top_liege = yes
@@ -1579,7 +1579,7 @@ king_administrative_female = {
 # 	tier = kingdom
 # 	priority = 75
 # 	governments = { administrative_government }
-# 	heritages = { heritage_byzantine } #LotR
+# 	heritages = { heritage_byzantine } #WHG
 
 # 	flavourization_rules = {
 # 		top_liege = yes
@@ -1594,7 +1594,7 @@ king_administrative_female = {
 # 	tier = kingdom
 # 	priority = 76
 # 	governments = { administrative_government }
-# 	name_lists = { name_list_roman } #LotR
+# 	name_lists = { name_list_roman } #WHG
 
 # 	flavourization_rules = {
 # 		top_liege = yes
@@ -1609,7 +1609,7 @@ king_administrative_female = {
 # 	tier = kingdom
 # 	priority = 76
 # 	governments = { administrative_government }
-# 	#name_lists = { name_list_roman } #LotR
+# 	#name_lists = { name_list_roman } #WHG
 
 # 	flavourization_rules = {
 # 		top_liege = yes
