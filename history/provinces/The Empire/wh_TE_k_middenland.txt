@@ -120,7 +120,7 @@
 733 = {	# Knorreibe
 	#culture = goblin_forest
 	#religion = catholic
-	culture = aesling
+	culture = drakwalder
 	religion = ulrican
 	holding = castle_holding
 }
@@ -146,7 +146,7 @@
 738 = {	# Winsen
 	#culture = goblin_forest
 	#religion = catholic
-	culture = aesling
+	culture = drakwalder
 	religion = ulrican
 	holding = castle_holding
 }
@@ -192,7 +192,7 @@
 746 = {	# Pinnesberg
 	#culture = beastman_main
 	#religion = catholic
-	culture = aesling
+	culture = drakwalder
 	religion = ulrican
 	holding = castle_holding
 }
@@ -221,7 +221,7 @@
 749 = {	# Wouduin
 	#culture = goblin_forest
 	#religion = catholic
-	culture = aesling
+	culture = drakwalder
 	religion = ulrican
 	holding = castle_holding
 }
@@ -243,7 +243,7 @@
 753 = {	# Heilfeld
 	#culture = beastman_main
 	#religion = catholic
-	culture = aesling
+	culture = drakwalder
 	religion = ulrican
 	holding = castle_holding
 }
@@ -265,7 +265,7 @@
 757 = {	# Plettenborn 
 	#culture = goblin_forest
 	#religion = catholic
-	culture = aesling
+	culture = drakwalder
 	religion = ulrican
 	holding = castle_holding
 }

@@ -233,5 +233,23 @@
 	holding = castle_holding
 }
 
+636 = {	# Reric
+	holding = none
+}
+
+637 = {	# Barb
+	holding = none
+}
 
 
+###c_saar
+640 = {	# Saar
+	culture = herrimault
+	religion = ranaldian
+	holding = castle_holding
+}
+
+
+642 = {	# Sallizes
+	holding = none
+}

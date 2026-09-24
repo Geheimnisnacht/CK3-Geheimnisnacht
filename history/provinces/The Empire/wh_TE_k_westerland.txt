@@ -228,7 +228,7 @@
 	religion = stromfels
 	holding = tribal_holding
 	6500.1.1 = {
-		culture = aesling
+		culture = westerlander
 		religion = ulrican
 		holding = castle_holding
 	}
@@ -253,7 +253,7 @@
 	religion = stromfels
 	holding = tribal_holding
 	6500.1.1 = {
-		culture = aesling
+		culture = westerlander
 		religion = ulrican
 		holding = castle_holding
 	}
@@ -280,7 +280,7 @@
 ##d_cisdrak ###################################
 ###c_harskamp
 615 = {	# Harskamp
-	culture = aesling
+	culture = westerlander
 	religion = ulrican
 	holding = castle_holding
 }
@@ -300,7 +300,7 @@
 
 ###c_vasse
 619 = {	# Vasse
-	culture = aesling
+	culture = westerlander
 	religion = ulrican
 	holding = castle_holding
 }
@@ -389,7 +389,7 @@
 ##d_tumble_downs ###################################
 ###c_rotterrade
 625 = {	# Westerdorp
-	culture = aesling
+	culture = westerlander
 	religion = ulrican
 	holding = castle_holding
 }
@@ -417,7 +417,7 @@
 
 ###c_ankeeven
 631 = {	# Amsterhuizen
-	culture = aesling
+	culture = westerlander
 	religion = ulrican
 	holding = castle_holding
 }
@@ -444,19 +444,13 @@
 	holding = tribal_holding
 
 	6500.1.1 = {
-		culture = aesling
+		culture = westerlander
 		religion = ulrican
 		holding = castle_holding
 	}
 }
 
-636 = {	# Rerik
-	holding = none
-}
 
-637 = {	# Gognan
-	holding = none
-}
 
 638 = {	# Montseau
 	holding = none
@@ -467,18 +461,6 @@
 }
 
 
-###c_saar
-640 = {	# Saar
-	culture = westerlander
-	religion = ranaldian
-	holding = tribal_holding
-}
-
-
-642 = {	# Sallizes
-	holding = none
-}
-
 
 ###c_huuzel
 
@@ -487,7 +469,7 @@
 	religion = ranaldian
 	holding = tribal_holding
 	6500.1.1 = {
-		culture = aesling
+		culture = westerlander
 		religion = ulrican
 		holding = castle_holding
 	}
@@ -503,7 +485,7 @@
 	religion = ranaldian
 	holding = tribal_holding
 	6500.1.1 = {
-		culture = aesling
+		culture = westerlander
 		religion = ulrican
 		holding = castle_holding
 	}
@@ -526,7 +508,7 @@
 	religion = ranaldian
 	holding = tribal_holding
 	6500.1.1 = {
-		culture = aesling
+		culture = westerlander
 		religion = ulrican
 		holding = castle_holding
 	}
@@ -543,7 +525,7 @@
 	religion = manannite
 	holding = tribal_holding
 	6500.1.1 = {
-		culture = aesling
+		culture = westerlander
 		religion = ulrican
 		holding = castle_holding
 	}
@@ -560,7 +542,7 @@
 	religion = manannite
 	holding = tribal_holding
 	6500.1.1 = {
-		culture = aesling
+		culture = westerlander
 		religion = ulrican
 		holding = castle_holding
 	}

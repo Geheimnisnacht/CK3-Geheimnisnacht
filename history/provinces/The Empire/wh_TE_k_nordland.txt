@@ -283,7 +283,7 @@
 707 = {	# Kralle
 	#culture = eonir
 	#religion = catholic
-	culture = aesling
+	culture = drakwalder
 	religion = ulrican
 	holding = castle_holding
 }
@@ -309,7 +309,7 @@
 	religion = taalite
 	holding = tribal_holding
 	6500.1.1 = {
-		culture = aesling
+		culture = drakwalder
 		religion = ulrican
 		holding = castle_holding
 	}
@@ -336,7 +336,7 @@
 	religion = taalite
 	holding = tribal_holding
 	6500.1.1 = {
-		culture = aesling
+		culture = drakwalder
 		religion = ulrican
 		holding = castle_holding
 	}
@@ -355,7 +355,7 @@
 721 = {	# Baiersedorf
 	#culture = eonir
 	#religion = catholic
-	culture = aesling
+	culture = drakwalder
 	religion = ulrican
 	holding = castle_holding
 }
