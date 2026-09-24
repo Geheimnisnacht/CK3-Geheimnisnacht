@@ -1,0 +1,523 @@
+﻿####################
+#Standard MaA types#
+####################
+
+##The Empire MAAs - by Nobu###
+
+# standard costs
+@maa_buy_cost = 150
+@maa_low_maintenance_cost = 1.0
+@maa_high_maintenance_cost = 5.0
+@cultural_maa_extra_ai_score = 80 # Equivalent to having 8 extra regiments beyond what the code scoring would indicate (see NEGATIVE_SCORE_PER_EXISTING_REGIMENT)
+
+# Must be synced between files with the values located at "# Provisions Costs #".
+@provisions_cost_infantry_cheap = 3
+@provisions_cost_infantry_moderate = 7
+@provisions_cost_infantry_expensive = 12
+@provisions_cost_infantry_bankrupting = 15
+
+@provisions_cost_cavalry_cheap = 7
+@provisions_cost_cavalry_moderate = 15
+@provisions_cost_cavalry_expensive = 21
+@provisions_cost_cavalry_bankrupting = 30
+
+@provisions_cost_special_cheap = 6
+@provisions_cost_special_moderate = 12
+@provisions_cost_special_expensive = 18
+@provisions_cost_special_bankrupting = 24
+
+empire_spearmen = {
+	type = pikemen
+	
+	damage = 30
+	toughness = 15
+	pursuit = 10
+	screen = 10
+	
+	terrain_bonus = {
+	}
+	
+	counters = {
+		light_cavalry = 1
+	}
+	
+	can_recruit = {
+		wh_imperial_base_units = yes
+	}
+
+	winter_bonus = {
+	}
+	
+	buy_cost = { gold = skirmisher_recruitment_cost }
+	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
+	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	provision_cost = @provisions_cost_infantry_cheap
+	
+	stack = 100
+	ai_quality = { value = culture_ai_weight_skirmishers }
+	icon = akritai
+	
+	illustration = {
+		reference = wip_the_empire
+	}
+}
+
+empire_swordsmen = {
+	type = heavy_infantry
+
+	damage = 40
+	toughness = 15
+	pursuit = 0
+	screen = 0
+
+	counters = {
+		skirmishers = 1
+		peasant_militia = 3
+	}
+
+	can_recruit = {
+		wh_imperial_base_units = yes
+	}
+
+	buy_cost = { gold = heavy_infantry_recruitment_cost }
+	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost }
+	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost }
+	provision_cost = @provisions_cost_infantry_moderate
+
+
+	stack = 100
+	ai_quality = { value = culture_ai_weight_heavy_infantry }
+	icon = empire_swordsmen
+
+	illustration = {
+		reference = wip_the_empire
+	}
+}
+
+empire_greatswords = {
+	type = heavy_infantry
+	
+	damage = 40
+	toughness = 32
+	pursuit = 0
+	screen = 24
+
+	counters = {
+		heavy_infantry = 2
+		peasant_militia = 4
+		skirmishers = 2
+	}
+	
+	can_recruit = {
+		wh_imperial_base_units = yes
+	}
+
+	buy_cost = { gold = heavy_infantry_recruitment_cost }
+	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost }
+	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost }
+	provision_cost = @provisions_cost_infantry_moderate
+
+	stack = 100
+	ai_quality = { value = 100 }
+	icon = empire_greatswords
+
+	illustration = {
+		reference = wip_the_empire
+	}
+}
+
+empire_halberdiers = {
+	type = pikemen
+
+	damage = 45
+	toughness = 25
+	pursuit = 0
+	screen = 0
+
+	terrain_bonus = {
+	}
+
+	counters = {
+		light_cavalry = 1
+		heavy_cavalry = 1
+		camel_cavalry = 1
+		elephant_cavalry = 1
+	}
+
+	can_recruit = {
+		wh_imperial_base_units = yes
+	}
+	
+	buy_cost = { gold = pikemen_recruitment_cost }
+	low_maintenance_cost = { gold = pikemen_low_maint_cost }
+	high_maintenance_cost = { gold = pikemen_high_maint_cost }
+	provision_cost = @provisions_cost_infantry_expensive
+
+	stack = 100
+	ai_quality = {	value = culture_ai_weight_pikemen	}
+	icon = empire_halberdiers
+
+	illustration = {
+		reference = wip_the_empire
+	}
+}
+
+empire_archers = {
+	type = archers
+
+	damage = 40
+	toughness = 5
+	pursuit = 0
+	screen = 0
+
+	terrain_bonus = {
+	}
+
+	counters = {
+		skirmishers = 1
+	}
+
+	can_recruit = {
+		wh_imperial_base_units = yes
+	}
+
+	buy_cost = { gold = bowmen_recruitment_cost }
+	low_maintenance_cost = { gold = bowmen_low_maint_cost }
+	high_maintenance_cost = { gold = bowmen_high_maint_cost }
+	provision_cost = @provisions_cost_infantry_moderate
+
+	stack = 100
+	ai_quality = {	value = culture_ai_weight_archers	}
+	icon = empire_archers
+
+	illustration = {
+		reference = wip_the_empire
+	}
+}
+
+empire_crossbowmen = {
+	type = archers
+
+	damage = 50
+	toughness = 20
+	pursuit = 0
+	screen = 0
+
+	terrain_bonus = {
+	}
+
+	counters = {
+		heavy_infantry = 1
+		skirmishers = 1
+		peasant_militia = 3
+	}
+
+	can_recruit = {
+		wh_imperial_base_units = yes
+	}
+
+	buy_cost = { gold = crossbowmen_recruitment_cost }
+	low_maintenance_cost = { gold = crossbowmen_low_maint_cost }
+	high_maintenance_cost = { gold = crossbowmen_high_maint_cost }
+	provision_cost = @provisions_cost_infantry_moderate
+
+	ai_quality = {	value = culture_ai_weight_crossbowmen	}
+	icon = empire_crossbowmen
+
+	illustration = {
+		reference = wip_the_empire
+	}
+}
+
+empire_gunners = {
+	type = gunpowder
+
+	damage = 70
+	toughness = 10
+	pursuit = 0
+	screen = 20
+
+	can_recruit = {
+		wh_imperial_base_units = yes
+	}
+
+	terrain_bonus = {
+	}
+
+	counters = {
+		heavy_infantry = 3
+	}
+
+	buy_cost = { gold = handgunner_recruitment_cost }
+	low_maintenance_cost = { gold = handgunner_low_maint_cost }
+	high_maintenance_cost = { gold = handgunner_high_maint_cost }
+	provision_cost = @provisions_cost_infantry_moderate
+
+	ai_quality = {	value = counter_synergy_ai_weight_gunpowder	}
+	icon = empire_gunners
+
+	illustration = {
+		reference = wip_the_empire
+	}
+}
+
+empire_pistoliers = {
+	type = light_cavalry
+
+	damage = 50
+	toughness = 5
+	pursuit = 40
+	screen = 40
+
+	terrain_bonus = {
+	}
+
+	counters = {
+		archers = 1
+		skirmishers = 1
+	}
+
+	can_recruit = {
+		wh_imperial_base_units = yes
+	}
+
+	winter_bonus = {
+	}
+
+	buy_cost = { gold = light_cavalry_recruitment_cost }
+	low_maintenance_cost = { gold = light_cavalry_low_maint_cost }
+	high_maintenance_cost = { gold = light_cavalry_high_maint_cost }
+	provision_cost = @provisions_cost_cavalry_cheap
+
+	stack = 100
+	ai_quality = {	value = culture_ai_weight_light_cavalry	}
+	icon = empire_pistoliers
+
+	illustration = {
+		reference = wip_the_empire
+	}
+}
+
+empire_knights = {
+	type = heavy_cavalry
+
+	damage = 130
+	toughness = 60
+	pursuit = 30
+	screen = 0
+
+	terrain_bonus = {
+	}
+
+	counters = {
+		archers = 1
+		gunpowder = 1
+	}
+
+	can_recruit = {
+		wh_imperial_base_units = yes
+	}
+
+	winter_bonus = {
+	}
+
+	buy_cost = { gold = heavy_cavalry_recruitment_cost }
+	low_maintenance_cost = { gold = heavy_cavalry_low_maint_cost }
+	high_maintenance_cost = { gold = heavy_cavalry_high_maint_cost }
+	provision_cost = @provisions_cost_cavalry_expensive
+
+	stack = 50
+	ai_quality = { value = culture_ai_weight_heavy_cavalry }
+	icon = empire_knights
+
+	illustration = {
+		reference = wip_the_empire
+	}
+}
+
+demigryph_knights = {
+	type = heavy_cavalry
+
+	damage = 200
+	toughness = 80
+	pursuit = 60
+	screen = 0
+
+	terrain_bonus = {
+	}
+
+	counters = {
+		archers = 1
+		gunpowder = 1
+		skirmishers = 1
+		heavy_infantry = 2
+		peasant_militia = 4
+		light_cavalry = 1
+	}
+
+	can_recruit = {
+		wh_imperial_base_units = yes
+	}
+
+	winter_bonus = {
+	}
+
+	buy_cost = { gold = heavy_cavalry_recruitment_cost }
+	low_maintenance_cost = { gold = heavy_cavalry_low_maint_cost }
+	high_maintenance_cost = { gold = heavy_cavalry_high_maint_cost }
+	provision_cost = @provisions_cost_cavalry_expensive
+	
+	max_regiments = 1
+
+	stack = 10
+	ai_quality = { value = culture_ai_weight_heavy_cavalry }
+	icon = demigryph_knights
+
+	illustration = {
+		reference = wip_the_empire
+	}
+}
+
+
+### Special Elector Counts MAAs ###
+
+wissenland_guard = {
+	type = heavy_cavalry
+
+	damage = 160
+	toughness = 80
+	pursuit = 50
+	screen = 0
+
+	terrain_bonus = {
+	}
+
+	counters = {
+		archers = 1
+		gunpowder = 1
+		heavy_cavalry = 1
+		skirmishers = 2
+		peasant_militia = 3
+	}
+
+	can_recruit = {
+		title:k_wissenland.holder ?= root
+	}
+
+	winter_bonus = {
+	}
+
+	buy_cost = { gold = heavy_cavalry_recruitment_cost }
+	low_maintenance_cost = { gold = heavy_cavalry_low_maint_cost }
+	high_maintenance_cost = { gold = heavy_cavalry_high_maint_cost }
+	provision_cost = @provisions_cost_cavalry_expensive
+
+	stack = 50
+	ai_quality = { value = culture_ai_weight_heavy_cavalry }
+	icon = wissenland_guard
+
+	illustration = {
+		reference = wip_wissenland
+	}
+}
+
+wissenlander_nuln_gunners = {
+	type = gunpowder
+
+	damage = 75
+	toughness = 20
+	pursuit = 20
+	screen = 20
+
+	can_recruit = { has_culture = culture:wissenlander }
+
+	terrain_bonus = {
+	}
+
+	counters = {
+		heavy_infantry = 3
+		heavy_cavalry = 2
+		peasant_militia = 2
+	}
+
+	buy_cost = { gold = handgunner_recruitment_cost }
+	low_maintenance_cost = { gold = handgunner_low_maint_cost }
+	high_maintenance_cost = { gold = handgunner_high_maint_cost }
+	provision_cost = @provisions_cost_infantry_moderate
+
+	ai_quality = {	value = counter_synergy_ai_weight_gunpowder	}
+	icon = wissenlander_nuln_gunners
+
+	illustration = {
+		reference = wip_wissenland
+	}
+}
+
+reikland_legion_greatswords = {
+	type = heavy_infantry
+	
+	damage = 60
+	toughness = 35
+	pursuit = 5
+	screen = 30
+
+	counters = {
+		light_cavalry = 2
+		peasant_militia = 3
+		heavy_infantry = 2
+		skirmishers = 1
+	}
+	
+	can_recruit = {
+		title:k_reikland.holder ?= root
+	}
+
+	buy_cost = { gold = heavy_infantry_recruitment_cost }
+	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost }
+	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost }
+	provision_cost = @provisions_cost_infantry_moderate
+
+	stack = 100
+	ai_quality = { value = 100 }
+	icon = reikland_legion_greatswords
+
+	illustration = {
+		reference = wip_reikland
+	}
+}
+
+hochland_gunners = {
+	type = gunpowder
+
+	damage = 90
+	toughness = 2
+	pursuit = 30
+	screen = 0
+
+	can_recruit = {
+		title:k_hochland.holder ?= root
+	}
+
+	terrain_bonus = {
+	}
+
+	counters = {
+		heavy_infantry = 3
+		heavy_cavalry = 2
+		peasant_militia = 2
+		skirmishers = 2
+		light_cavalry = 1
+	}
+
+	buy_cost = { gold = handgunner_recruitment_cost }
+	low_maintenance_cost = { gold = handgunner_low_maint_cost }
+	high_maintenance_cost = { gold = handgunner_high_maint_cost }
+	provision_cost = @provisions_cost_infantry_moderate
+
+	ai_quality = {	value = counter_synergy_ai_weight_gunpowder	}
+	icon = hochland_gunners
+
+	illustration = {
+		reference = wip_hochland
+	}
+}

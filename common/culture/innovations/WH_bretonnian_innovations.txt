@@ -1,0 +1,26 @@
+﻿@knight = "gfx/interface/icons/culture_innovations/innovation_knight.dds"
+
+innovation_bretonnian_heritage = {
+	skill = martial
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @knight
+
+	potential = {
+		has_cultural_pillar = heritage_bretonnian
+	}		
+
+	unlock_maa = bret_longbowmen
+	unlock_maa = bret_men_at_arms
+	unlock_maa = bretonnian_arbalesters
+	unlock_maa = bret_foot_squires
+	unlock_maa = bret_errant
+	unlock_maa = bret_realm
+	unlock_maa = bret_questing
+	unlock_maa = bret_pegasus
+	unlock_maa = bret_yeomen
+	unlock_maa = bret_trebuchet
+
+	flag = global_regional
+	flag = tribal_era_regional
+}

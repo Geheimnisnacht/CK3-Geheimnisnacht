@@ -1,0 +1,34 @@
+# Must be synced between files with the values located at "# Provisions Costs #".
+@provisions_cost_infantry_cheap = 3
+
+# Ported from LOTR's lotr_cultural_regiment_types.txt. Referenced by name (is_maa_type / create_maa_regiment) from
+# common/decisions/WHG_decisions/lotr_laamp_decisions.txt, common/on_action/lotr_on_actions/lotr_travel_on_actions.txt,
+# common/scripted_effects/lotr_wastelands_effects.txt and common/script_values/lotr_script_values.txt, but was never
+# actually defined anywhere in WH. Gated only on the domicile parameter camp_unlocks_wastelands_settlers_maa (which
+# already exists in common/domiciles/buildings/lotr_camp_buildings.txt) and lotr_orc_can_recruit_from_subject (added
+# to lotr_race_triggers.txt) - no real-world culture/heritage dependency, so ported as-is.
+laamp_settler_maa = {
+	type = skirmishers
+
+	access_through_subject = { lotr_orc_can_recruit_from_subject = no } #For orcs
+	can_recruit = {
+		domicile ?= { has_domicile_parameter = camp_unlocks_wastelands_settlers_maa }
+	}
+
+	buy_cost = { gold = 75 }
+	low_maintenance_cost = { gold = 0.15 }
+	high_maintenance_cost = { gold = 0.25 }
+	provision_cost = @provisions_cost_infantry_cheap
+	max_sub_regiments = 12
+
+	stack = 100
+	damage = 18
+	toughness = 14
+	pursuit = 3
+	screen = 0
+
+	counters = {
+		heavy_infantry = 1
+		skirmishers = 1
+	}
+}

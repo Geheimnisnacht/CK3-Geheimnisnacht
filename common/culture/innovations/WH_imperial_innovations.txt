@@ -1,0 +1,26 @@
+﻿@gunpowder = "gfx/interface/icons/culture_innovations/innovation_gunpowder.dds"
+
+innovation_imperial_heritage = {
+	skill = martial
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @gunpowder
+
+	potential = {
+		has_cultural_pillar = heritage_imperial
+	}		
+
+	unlock_maa = empire_spearmen
+	unlock_maa = empire_swordsmen
+	unlock_maa = empire_greatswords
+	unlock_maa = empire_halberdiers
+	unlock_maa = empire_archers
+	unlock_maa = empire_crossbowmen
+	unlock_maa = empire_gunners 
+	unlock_maa = empire_pistoliers
+	unlock_maa = empire_knights 
+	unlock_maa = demigryph_knights
+
+	flag = global_regional
+	flag = tribal_era_regional
+}
