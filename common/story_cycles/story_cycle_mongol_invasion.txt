@@ -9,7 +9,7 @@
 			name = succession_counter
 			value = 0
 		}
-        end_story = yes #LotR
+        end_story = yes #WHG
 	}
 
 	on_end = {
@@ -21,7 +21,7 @@
 		}
 	}
 
-	on_owner_death = { #LotR
+	on_owner_death = { #WHG
 		# story_owner = {
 		# 	set_variable = {
 		# 		name = special_mongol_empire_conquest_region_prio_1_alpha_var
@@ -230,7 +230,7 @@
 					player_heir = {
 						save_scope_as = new_khan
 					}
-					# every_player = { #LotR
+					# every_player = { #WHG
 					# 	trigger_event = mongol_invasion.1005 # Small end to story
 					# }
 				}
@@ -265,7 +265,7 @@
 							modifier = the_great_khan_modifier
 						}
 					}
-					# every_player = { #LotR
+					# every_player = { #WHG
 					# 	trigger_event = {
 					# 		id = mongol_invasion.1001
 					# 		days = 1
@@ -296,7 +296,7 @@
 							}
 						}
 					}
-					# every_player = { #LotR
+					# every_player = { #WHG
 					# 	trigger_event = {
 					# 		id = mongol_invasion.1001
 					# 		days = 1
@@ -316,7 +316,7 @@
 					scope:story.story_owner.primary_heir = {
 						save_scope_as = new_khan
 					}
-					# every_player = { #LotR
+					# every_player = { #WHG
 					# 	trigger_event = {
 					# 		id = mongol_invasion.1001
 					# 		days = 1
@@ -329,7 +329,7 @@
 				make_story_owner = scope:new_story_owner
 				scope:new_story_owner = {
 					# Delayed firing of spawning new event troops
-					# trigger_event = { #LotR
+					# trigger_event = { #WHG
 					# 	id = mongol_invasion.0100
 					# 	days = 1
 					# }
@@ -377,7 +377,7 @@
 			story_owner = {
 				is_at_war = no
 				gold > 0
-				# any_held_title = { # LotR
+				# any_held_title = { # WHG
 				# 	this = title:e_mongol_empire
 				# }
 			}
@@ -414,10 +414,10 @@
 	}
 
 	#Story handling in case of succession weirdness
-	effect_group = { #LotR
+	effect_group = { #WHG
 		days = 180
 
-		# trigger = { #LotR
+		# trigger = { #WHG
 		# 	story_owner = {
 		# 		NOT = {
 		# 			any_held_title = {
@@ -428,9 +428,9 @@
 		# }
 
 		triggered_effect = {
-			# trigger = { exists = title:e_mongol_empire } #LotR
+			# trigger = { exists = title:e_mongol_empire } #WHG
 			effect = {
-				# if = { #LotR
+				# if = { #WHG
 					# limit = {
 					# 	title:e_mongol_empire.holder = {
 					# 		culture = culture:mongol
@@ -445,7 +445,7 @@
 		}
 
 		triggered_effect = {
-			# trigger = { NOT = { exists = title:e_mongol_empire } }  #LotR
+			# trigger = { NOT = { exists = title:e_mongol_empire } }  #WHG
 			effect = {
 				end_story = yes
 			}
@@ -459,7 +459,7 @@
 		trigger = {
 			NOT = { exists = var:has_updated_mongolia_de_jure }
 			trigger_if = {
-				# limit = { #LotR
+				# limit = { #WHG
 				# 	title:e_mongolia = {
 				# 		any_de_jure_county = {
 				# 			count >= 3
@@ -485,13 +485,13 @@
 			}
 		}
 
-		triggered_effect = { #LotR
+		triggered_effect = { #WHG
 			trigger = {
 				always = yes
 			}
 
 			effect = {
-				# title:e_mongolia = { #LotR
+				# title:e_mongolia = { #WHG
 				# 	every_in_de_jure_hierarchy = {
 				# 		limit = {
 				# 			tier = tier_kingdom

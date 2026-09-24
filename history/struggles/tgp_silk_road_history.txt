@@ -3,7 +3,7 @@
 #################
 
 552.1.1 = { # Silkworms smuggled into Byzantium
-	# effect = { #LotR
+	# effect = { #WHG
 	# 	if = {
 	# 		limit = { has_tgp_dlc_trigger = yes }
 	# 		start_situation = {

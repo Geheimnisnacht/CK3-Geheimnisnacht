@@ -225,7 +225,7 @@
 	# 	days = { 20 40 }
 
 	# 	trigger = {
-	# 		# character:90028 = { # LotR
+	# 		# character:90028 = { # WHG
 	# 		# 	is_alive = yes
 	# 		# 	NOT = {
 	# 		# 		has_character_flag = hereward_settled_flag
