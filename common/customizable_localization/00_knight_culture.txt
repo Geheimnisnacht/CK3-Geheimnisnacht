@@ -1,4 +1,5 @@
 ﻿# WHG: removed real world references.
+# Added our own 
 KnightCulture = {
 	type = character
 	
@@ -131,8 +132,7 @@ KnightCulture = {
 		}
 		localization_key = knight_sartosan_imperial
 	}
-		localization_key = Boucanier
-	text = { #
+	text = { #Boucanier
 		trigger = {
 			culture = culture:sartosan_bretonnian
 		}
