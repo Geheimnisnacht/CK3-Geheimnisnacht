@@ -85,4 +85,19 @@ wh_bretonnia_landed_knight_check.001 = {
 			}
 		}
 	}
+
+	after = {
+		if = {
+			limit = {
+				OR = {
+					is_ai = no
+					is_landed = yes
+				}
+				NOT = {
+					any_owned_story = { type = story_cycle_martial_lifestyle_warhorse }
+				}
+			}
+			start_warhorse_story_cycle_effect = yes
+		}
+	}
 }
