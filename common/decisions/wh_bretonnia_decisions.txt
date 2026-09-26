@@ -1,0 +1,52 @@
+﻿# Decision for a bretonnian character, who is a knight to purchase a warhorse
+
+wh_bretonnia_purchase_warhorse_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_knight_kneeling.dds"
+	}
+	ai_check_interval = 12
+	cooldown = { days = 15 }
+
+	is_shown = {
+		has_trait = knight_lady
+		OR = {
+			is_ai = no
+			is_landed = yes
+		}
+		NOT = {
+			any_owned_story = { type = story_cycle_martial_lifestyle_warhorse }
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	is_valid = {
+		medium_gold_value_trigger = yes
+	}
+
+	effect = {
+		trigger_event = wh_bretonnia_landed_knight_check.002
+	}
+
+	ai_potential = {
+		is_landed = yes
+	}
+
+	ai_will_do = {
+		base = 25
+		modifier = {
+			add = 25
+			has_trait = brave
+		}
+		modifier = {
+			add = 25
+			has_trait = arrogant
+		}
+		modifier = {
+			add = -25
+			has_trait = greedy
+		}
+	}
+}

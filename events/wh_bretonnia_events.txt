@@ -132,13 +132,13 @@ wh_bretonnia_landed_knight_check.002 = {
 	option = {
 		name = wh_bretonnia_landed_knight_check.002.a
 		trigger = {
-			minor_gold_value_trigger = yes
+			medium_gold_value_trigger = yes
 		}
 		show_as_unavailable = {
 			always = yes
 		}
 
-		remove_short_term_gold = minor_gold_value
+		remove_short_term_gold = medium_gold_value
 		start_warhorse_story_cycle_effect = yes
 
 		ai_chance = {
@@ -146,6 +146,10 @@ wh_bretonnia_landed_knight_check.002 = {
 			modifier = {
 				add = 25
 				has_trait = brave
+			}
+			modifier = {
+				add = 25
+				has_trait = arrogant
 			}
 			modifier = {
 				add = -50
