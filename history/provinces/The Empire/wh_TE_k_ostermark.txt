@@ -1,7 +1,7 @@
 ##d_mordheim ###################################
 ###c_mordheim
 470 = {	# Mordheim
-	culture = aesling
+	culture = ostermarker
 	religion = ulrican
 	holding = castle_holding
 }

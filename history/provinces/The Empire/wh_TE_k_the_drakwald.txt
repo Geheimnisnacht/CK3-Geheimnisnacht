@@ -64,7 +64,7 @@
 
 ###c_issenwald
 907 = {	# Hillebruck
-	culture = aesling
+	culture = drakwalder
 	religion = ulrican
 	holding = castle_holding
 }

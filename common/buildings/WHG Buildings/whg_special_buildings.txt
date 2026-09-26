@@ -1,0 +1,161 @@
+﻿#Special Buildings:
+#When adding Special Buildings also always add an entry in the following custom loc:
+#GetSpecialBuildingNameFromProvince
+#GetSpecialBuildingTouristDescriptor
+
+
+#Special Building Flags:
+
+#Effects, adding the flag is enough to have it working but you also need to add a tooltip using effect_desc
+#special_university = unlocks effects for tournaments and book inspiration, as well other mechanical effects of universities
+#holy_building = unlocks funeral bonuses
+
+altdorf_palace_01 = {
+	construction_time = slow_construction_time
+	effect_desc = leisure_palace_effect_desc
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		building_requirement_tribal = no
+	}
+	
+	can_construct_showing_failures_only = {
+		
+		culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = expensive_building_tier_3_cost
+
+	county_modifier = {
+		county_opinion_add = 15
+		monthly_county_control_growth_add = 0.25
+	}
+	
+	character_modifier = {
+		monthly_prestige_gain_mult = 0.05
+		legitimacy_gain_mult = 0.05
+		court_grandeur_baseline_add = 2
+	}
+	
+	next_building = altdorf_palace_02
+
+	type_icon = "icon_building_leisure_palace.dds"
+	
+	type = special
+	flag = travel_point_of_interest_economic
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+}
+
+altdorf_palace_02 = {
+	construction_time = slow_construction_time
+	effect_desc = leisure_palace_effect_desc
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		building_requirement_tribal = no
+	}
+	
+	can_construct_showing_failures_only = {
+		
+		culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = expensive_building_tier_3_cost
+
+	county_modifier = {
+		development_growth = 0.05
+		county_opinion_add = 20
+		monthly_county_control_growth_add = 0.30
+	}
+	
+	character_modifier = {
+		monthly_prestige_gain_mult = 0.15
+		legitimacy_gain_mult = 0.15
+		court_grandeur_baseline_add = 5
+	}
+
+	duchy_capital_county_modifier = {
+		development_growth_factor = 0.1
+	}
+
+	
+	next_building = altdorf_palace_03
+
+	type_icon = "icon_building_leisure_palace.dds"
+	
+	type = special
+	flag = travel_point_of_interest_economic
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+}
+
+altdorf_palace_03 = {
+	construction_time = slow_construction_time
+	effect_desc = leisure_palace_effect_desc
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		building_requirement_tribal = no
+	}
+	
+	can_construct_showing_failures_only = {
+		
+		culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = expensive_building_tier_3_cost
+
+	county_modifier = {
+		development_growth = 0.1
+		county_opinion_add = 20
+		monthly_county_control_growth_add = 0.35
+	}
+	
+	character_modifier = {
+		monthly_prestige_gain_mult = 0.20
+		legitimacy_gain_mult = 0.20
+		court_grandeur_baseline_add = 5
+	}
+
+	duchy_capital_county_modifier = {
+		development_growth_factor = 0.1
+	}
+	
+	type_icon = "icon_building_leisure_palace.dds"
+	
+	type = special
+	flag = travel_point_of_interest_economic
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+}

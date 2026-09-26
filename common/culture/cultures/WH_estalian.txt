@@ -1024,6 +1024,7 @@ sureno = { # "Andalusian" Estalians
 	# clothing_gfx = { iberian_muslim_clothing_gfx dde_abbasid_clothing_gfx arabyan_clothing_gfx }
 	clothing_gfx = { arabyan_clothing_gfx }
 	unit_gfx = { iberian_muslim_unit_gfx }
+	house_coa_frame = house_frame_14
 
 	ethnicities = {
 		1 = mid_east_arabic_1
