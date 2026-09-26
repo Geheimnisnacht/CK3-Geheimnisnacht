@@ -1,5 +1,6 @@
 namespace = wh_bretonnia_landed_knight_check
 
+# Event for a newly capable character to become a knight of the lady and start the track
 wh_bretonnia_landed_knight_check.001 = {
 	type = character_event
 	title = wh_bretonnia_landed_knight_check.t
@@ -97,7 +98,71 @@ wh_bretonnia_landed_knight_check.001 = {
 					any_owned_story = { type = story_cycle_martial_lifestyle_warhorse }
 				}
 			}
-			start_warhorse_story_cycle_effect = yes
+			trigger_event = {
+				id = wh_bretonnia_landed_knight_check.002
+				days = { 3 7 }
+			}
+		}
+	}
+}
+
+# Warhorse purchase event for the newly appointed knight of the lady
+wh_bretonnia_landed_knight_check.002 = {
+	type = character_event
+	title = wh_bretonnia_landed_knight_check.002.t
+	desc = wh_bretonnia_landed_knight_check.002.desc
+	theme = martial_chivalry_focus
+	override_background = {
+		reference = courtyard
+	}
+
+	left_portrait = {
+		character = root
+		animation = standing_horse
+		camera = camera_event_standing_with_horse_left
+	}
+
+	trigger = {
+		has_trait = knight_lady
+		NOT = {
+			any_owned_story = { type = story_cycle_martial_lifestyle_warhorse }
+		}
+	}
+
+	option = {
+		name = wh_bretonnia_landed_knight_check.002.a
+		trigger = {
+			minor_gold_value_trigger = yes
+		}
+		show_as_unavailable = {
+			always = yes
+		}
+
+		remove_short_term_gold = minor_gold_value
+		start_warhorse_story_cycle_effect = yes
+
+		ai_chance = {
+			base = 75
+			modifier = {
+				add = 25
+				has_trait = brave
+			}
+			modifier = {
+				add = -50
+				has_trait = greedy
+			}
+		}
+	}
+
+	option = {
+		name = wh_bretonnia_landed_knight_check.002.b
+
+		ai_chance = {
+			base = 25
+			modifier = {
+				add = 50
+				has_trait = greedy
+			}
 		}
 	}
 }
