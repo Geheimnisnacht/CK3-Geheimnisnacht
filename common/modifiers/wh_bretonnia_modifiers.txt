@@ -6,3 +6,9 @@ wh_bretonnia_unproven_noble = {
 	the_lady_religion_opinion = -20
 	county_opinion_add = -25
 }
+
+wh_bretonnia_maneater_bodyguard = {
+	icon = prowess_positive
+	prowess = 5
+	enemy_hostile_scheme_success_chance_add = -10
+}

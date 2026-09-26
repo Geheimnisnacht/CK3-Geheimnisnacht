@@ -1,0 +1,1945 @@
+﻿namespace = wh_bretonnia_errantry
+
+# Event for the new knight errant to set out on their errantry tour
+wh_bretonnia_errantry.0001 = {
+	type = character_event
+	title = wh_bretonnia_errantry.0001.t
+	desc = wh_bretonnia_errantry.0001.desc
+	theme = travel
+
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+
+	trigger = {
+		has_trait = knight_lady_errant
+		NOT = { has_character_flag = wh_on_errantry_tour }
+	}
+
+	option = {
+		name = wh_bretonnia_errantry.0001.a
+		wh_bretonnia_errantry_tour_start_effect = yes
+	}
+}
+
+# Hidden event to start the errantry tour once the knight errant is available, retrying every 30 days
+wh_bretonnia_errantry.0002 = {
+	type = character_event
+	hidden = yes
+
+	trigger = {
+		has_trait = knight_lady_errant
+		NOT = { has_character_flag = wh_on_errantry_tour }
+	}
+
+	immediate = {
+		if = {
+			limit = { is_available_adult = yes }
+			trigger_event = wh_bretonnia_errantry.0001
+		}
+		else = {
+			trigger_event = {
+				id = wh_bretonnia_errantry.0002
+				days = 30
+			}
+		}
+	}
+}
+
+# Errantry tour trial event where the knight errant faces an ogre maneater bossing the local peasants around
+wh_bretonnia_errantry.0010 = {
+	type = character_event
+	title = wh_bretonnia_errantry.0010.t
+	desc = wh_bretonnia_errantry.0010.desc
+	theme = travel_danger
+
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+
+	trigger = { has_character_flag = wh_on_errantry_tour }
+
+	immediate = {
+		location.county = { save_scope_as = wh_errantry_tour_county }
+	}
+
+	option = {
+		name = wh_bretonnia_errantry.0010.a
+
+		duel = {
+			skill = prowess
+			value = high_skill_rating
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_passed_effect = yes
+			}
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_failed_effect = yes
+				wh_bretonnia_errantry_tour_wound_effect = yes
+			}
+		}
+
+		ai_chance = {
+			base = 20
+			modifier = {
+				add = 20
+				prowess >= 12
+			}
+			modifier = {
+				add = 20
+				prowess >= 16
+			}
+			modifier = {
+				add = 20
+				has_trait = brave
+			}
+			modifier = {
+				add = 10
+				has_trait = wrathful
+			}
+			modifier = {
+				add = 10
+				has_trait = arrogant
+			}
+			modifier = {
+				add = -30
+				has_trait = craven
+			}
+		}
+	}
+
+	option = {
+		name = wh_bretonnia_errantry.0010.b
+		trigger = {
+			minor_gold_value_trigger = yes
+		}
+		show_as_unavailable = { always = yes }
+
+		remove_short_term_gold = minor_gold_value
+		duel = {
+			skill = stewardship
+			value = medium_skill_rating
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_passed_effect = yes
+			}
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_failed_effect = yes
+			}
+		}
+
+		ai_chance = {
+			base = 15
+			modifier = {
+				add = 20
+				stewardship >= 12
+			}
+			modifier = {
+				add = 20
+				stewardship >= 16
+			}
+			modifier = {
+				add = 10
+				has_trait = generous
+			}
+			modifier = {
+				add = -30
+				has_trait = greedy
+			}
+			modifier = {
+				add = -10
+				has_trait = arrogant
+			}
+		}
+	}
+
+	option = {
+		name = wh_bretonnia_errantry.0010.c
+
+		duel = {
+			skill = diplomacy
+			value = medium_skill_rating
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_passed_effect = yes
+				add_character_modifier = {
+					modifier = wh_bretonnia_maneater_bodyguard
+					years = 10
+				}
+			}
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_failed_effect = yes
+			}
+		}
+
+		ai_chance = {
+			base = 15
+			modifier = {
+				add = 20
+				diplomacy >= 12
+			}
+			modifier = {
+				add = 20
+				diplomacy >= 16
+			}
+			modifier = {
+				add = 10
+				has_trait = gregarious
+			}
+			modifier = {
+				add = 10
+				has_trait = paranoid
+			}
+			modifier = {
+				add = 10
+				has_trait = arrogant
+			}
+			modifier = {
+				add = -10
+				has_trait = shy
+			}
+		}
+	}
+
+	option = {
+		name = wh_bretonnia_errantry.0010.d
+
+		add_prestige = medium_prestige_loss
+		add_piety = medium_piety_loss
+		wh_bretonnia_errantry_tour_trial_failed_effect = yes
+
+		ai_chance = {
+			base = 5
+			modifier = {
+				add = 30
+				has_trait = craven
+			}
+			modifier = {
+				add = 10
+				has_trait = lazy
+			}
+		}
+	}
+}
+
+# Errantry tour trial event where the knight errant hunts a monster terrorising the countryside
+wh_bretonnia_errantry.0020 = {
+	type = character_event
+	title = wh_bretonnia_errantry.0020.t
+	desc = wh_bretonnia_errantry.0020.desc
+	theme = travel_danger
+
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+
+	trigger = { has_character_flag = wh_on_errantry_tour }
+
+	immediate = {
+		location.county = { save_scope_as = wh_errantry_tour_county }
+		random_list = {
+			10 = {
+				set_variable = {
+					name = wh_errantry_tour_monster
+					value = flag:wyvern
+				}
+			}
+			10 = {
+				set_variable = {
+					name = wh_errantry_tour_monster
+					value = flag:troll
+				}
+			}
+			10 = {
+				set_variable = {
+					name = wh_errantry_tour_monster
+					value = flag:minotaur
+				}
+			}
+			10 = {
+				set_variable = {
+					name = wh_errantry_tour_monster
+					value = flag:manticore
+				}
+			}
+			10 = {
+				set_variable = {
+					name = wh_errantry_tour_monster
+					value = flag:chimera
+				}
+			}
+		}
+	}
+
+	option = {
+		name = wh_bretonnia_errantry.0020.a
+
+		duel = {
+			skill = prowess
+			value = very_high_skill_rating
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_passed_effect = yes
+				scope:wh_errantry_tour_county = {
+					add_county_modifier = {
+						modifier = wh_bretonnia_monster_slain
+						years = 10
+					}
+				}
+			}
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_failed_effect = yes
+				wh_bretonnia_errantry_tour_wound_effect = yes
+			}
+		}
+
+		ai_chance = {
+			base = 20
+			modifier = {
+				add = 20
+				prowess >= 12
+			}
+			modifier = {
+				add = 20
+				prowess >= 16
+			}
+			modifier = {
+				add = 20
+				has_trait = brave
+			}
+			modifier = {
+				add = 10
+				has_trait = wrathful
+			}
+			modifier = {
+				add = 10
+				has_trait = arrogant
+			}
+			modifier = {
+				add = -30
+				has_trait = craven
+			}
+		}
+	}
+
+	option = {
+		name = wh_bretonnia_errantry.0020.b
+
+		duel = {
+			skill = martial
+			value = high_skill_rating
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_passed_effect = yes
+				scope:wh_errantry_tour_county = {
+					add_county_modifier = {
+						modifier = wh_bretonnia_monster_slain
+						years = 10
+					}
+				}
+			}
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_failed_effect = yes
+				wh_bretonnia_errantry_tour_wound_effect = yes
+			}
+		}
+
+		ai_chance = {
+			base = 20
+			modifier = {
+				add = 20
+				martial >= 12
+			}
+			modifier = {
+				add = 20
+				martial >= 16
+			}
+			modifier = {
+				add = 10
+				has_trait = brave
+			}
+			modifier = {
+				add = 10
+				has_trait = compassionate
+			}
+			modifier = {
+				add = -20
+				has_trait = craven
+			}
+		}
+	}
+
+	option = {
+		name = wh_bretonnia_errantry.0020.c
+
+		add_piety = minor_piety_loss
+		duel = {
+			skills = { martial intrigue }
+			value = medium_skill_rating
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_passed_effect = yes
+				scope:wh_errantry_tour_county = {
+					add_county_modifier = {
+						modifier = wh_bretonnia_monster_slain
+						years = 10
+					}
+				}
+			}
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_failed_effect = yes
+				wh_bretonnia_errantry_tour_wound_effect = yes
+			}
+		}
+
+		ai_chance = {
+			base = 15
+			modifier = {
+				add = 20
+				intrigue >= 12
+			}
+			modifier = {
+				add = 10
+				martial >= 12
+			}
+			modifier = {
+				add = 10
+				has_trait = deceitful
+			}
+			modifier = {
+				add = 10
+				has_trait = callous
+			}
+			modifier = {
+				add = -20
+				has_trait = honest
+			}
+			modifier = {
+				add = -20
+				has_trait = zealous
+			}
+		}
+	}
+
+	option = {
+		name = wh_bretonnia_errantry.0020.d
+
+		wh_bretonnia_errantry_tour_trial_failed_effect = yes
+
+		ai_chance = {
+			base = 5
+			modifier = {
+				add = 30
+				has_trait = craven
+			}
+			modifier = {
+				add = 10
+				has_trait = lazy
+			}
+		}
+	}
+
+	after = {
+		remove_variable = wh_errantry_tour_monster
+	}
+}
+
+# Errantry tour trial event where the knight errant recovers a grail relic from an abandoned chapel
+wh_bretonnia_errantry.0030 = {
+	type = character_event
+	title = wh_bretonnia_errantry.0030.t
+	desc = wh_bretonnia_errantry.0030.desc
+	theme = travel_danger
+	override_background = {
+		reference = temple
+	}
+
+	left_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+
+	trigger = { has_character_flag = wh_on_errantry_tour }
+
+	immediate = {
+		location.county = { save_scope_as = wh_errantry_tour_county }
+	}
+
+	option = {
+		name = wh_bretonnia_errantry.0030.a
+
+		duel = {
+			skill = prowess
+			value = high_skill_rating
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_passed_effect = yes
+				scope:wh_errantry_tour_county = {
+					add_county_modifier = {
+						modifier = wh_bretonnia_grail_relic_recovered
+						years = 10
+					}
+				}
+			}
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_failed_effect = yes
+				wh_bretonnia_errantry_tour_wound_effect = yes
+			}
+		}
+
+		ai_chance = {
+			base = 20
+			modifier = {
+				add = 20
+				prowess >= 12
+			}
+			modifier = {
+				add = 20
+				prowess >= 16
+			}
+			modifier = {
+				add = 20
+				has_trait = brave
+			}
+			modifier = {
+				add = 10
+				has_trait = wrathful
+			}
+			modifier = {
+				add = 10
+				has_trait = arrogant
+			}
+			modifier = {
+				add = -30
+				has_trait = craven
+			}
+		}
+	}
+
+	option = {
+		name = wh_bretonnia_errantry.0030.b
+
+		duel = {
+			skills = { diplomacy prowess }
+			value = medium_skill_rating
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_passed_effect = yes
+				scope:wh_errantry_tour_county = {
+					add_county_modifier = {
+						modifier = wh_bretonnia_grail_relic_recovered
+						years = 10
+					}
+				}
+			}
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_failed_effect = yes
+				wh_bretonnia_errantry_tour_wound_effect = yes
+			}
+		}
+
+		ai_chance = {
+			base = 20
+			modifier = {
+				add = 20
+				diplomacy >= 12
+			}
+			modifier = {
+				add = 20
+				diplomacy >= 16
+			}
+			modifier = {
+				add = 10
+				prowess >= 12
+			}
+			modifier = {
+				add = 10
+				has_trait = gregarious
+			}
+			modifier = {
+				add = 10
+				has_trait = brave
+			}
+			modifier = {
+				add = -10
+				has_trait = shy
+			}
+			modifier = {
+				add = -20
+				has_trait = craven
+			}
+		}
+	}
+
+	option = {
+		name = wh_bretonnia_errantry.0030.c
+
+		add_piety = minor_piety_loss
+		duel = {
+			skill = intrigue
+			value = medium_skill_rating
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_passed_effect = yes
+				scope:wh_errantry_tour_county = {
+					add_county_modifier = {
+						modifier = wh_bretonnia_grail_relic_recovered
+						years = 10
+					}
+				}
+			}
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_failed_effect = yes
+			}
+		}
+
+		ai_chance = {
+			base = 10
+			modifier = {
+				add = 20
+				intrigue >= 12
+			}
+			modifier = {
+				add = 20
+				intrigue >= 16
+			}
+			modifier = {
+				add = 15
+				has_trait = deceitful
+			}
+			modifier = {
+				add = 10
+				has_trait = greedy
+			}
+			modifier = {
+				add = -20
+				has_trait = honest
+			}
+			modifier = {
+				add = -20
+				has_trait = zealous
+			}
+			modifier = {
+				add = -10
+				has_trait = just
+			}
+		}
+	}
+
+	option = {
+		name = wh_bretonnia_errantry.0030.d
+
+		wh_bretonnia_errantry_tour_trial_failed_effect = yes
+
+		ai_chance = {
+			base = 5
+			modifier = {
+				add = 30
+				has_trait = craven
+			}
+			modifier = {
+				add = 10
+				has_trait = lazy
+			}
+		}
+	}
+}
+
+# Errantry tour trial event where the knight errant deals with deserters tolling the roads
+wh_bretonnia_errantry.0040 = {
+	type = character_event
+	title = wh_bretonnia_errantry.0040.t
+	desc = wh_bretonnia_errantry.0040.desc
+	theme = travel_danger
+
+	left_portrait = {
+		character = root
+		animation = anger
+	}
+
+	right_portrait = {
+		character = scope:wh_errantry_tour_deserter_captain
+		animation = threatening
+	}
+
+	trigger = { has_character_flag = wh_on_errantry_tour }
+
+	immediate = {
+		location.county = { save_scope_as = wh_errantry_tour_county }
+		create_character = {
+			location = root.location
+			gender_female_chance = 0
+			culture = scope:wh_errantry_tour_county.culture
+			faith = scope:wh_errantry_tour_county.faith
+			dynasty = none
+			age = { 25 45 }
+			martial = { 8 12 }
+			prowess = { 10 14 }
+			save_scope_as = wh_errantry_tour_deserter_captain
+		}
+	}
+
+	option = {
+		name = wh_bretonnia_errantry.0040.a
+
+		duel = {
+			skill = prowess
+			value = medium_skill_rating
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_passed_effect = yes
+				scope:wh_errantry_tour_county = {
+					add_county_modifier = {
+						modifier = wh_bretonnia_roads_cleared
+						years = 10
+					}
+				}
+			}
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_failed_effect = yes
+				wh_bretonnia_errantry_tour_wounded_by_effect = { KILLER = scope:wh_errantry_tour_deserter_captain }
+			}
+		}
+
+		ai_chance = {
+			base = 20
+			modifier = {
+				add = 20
+				prowess >= 12
+			}
+			modifier = {
+				add = 20
+				prowess >= 16
+			}
+			modifier = {
+				add = 20
+				has_trait = brave
+			}
+			modifier = {
+				add = 10
+				has_trait = wrathful
+			}
+			modifier = {
+				add = 10
+				has_trait = arrogant
+			}
+			modifier = {
+				add = -30
+				has_trait = craven
+			}
+		}
+	}
+
+	option = {
+		name = wh_bretonnia_errantry.0040.b
+
+		duel = {
+			skill = diplomacy
+			value = high_skill_rating
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_passed_effect = yes
+				scope:wh_errantry_tour_county = {
+					add_county_modifier = {
+						modifier = wh_bretonnia_roads_cleared
+						years = 10
+					}
+				}
+			}
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_failed_effect = yes
+			}
+		}
+
+		ai_chance = {
+			base = 20
+			modifier = {
+				add = 20
+				diplomacy >= 12
+			}
+			modifier = {
+				add = 20
+				diplomacy >= 16
+			}
+			modifier = {
+				add = 10
+				has_trait = gregarious
+			}
+			modifier = {
+				add = 10
+				has_trait = compassionate
+			}
+			modifier = {
+				add = -10
+				has_trait = shy
+			}
+			modifier = {
+				add = -10
+				has_trait = wrathful
+			}
+		}
+	}
+
+	option = {
+		name = wh_bretonnia_errantry.0040.c
+
+		duel = {
+			skill = stewardship
+			value = high_skill_rating
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_passed_effect = yes
+				scope:wh_errantry_tour_county = {
+					add_county_modifier = {
+						modifier = wh_bretonnia_roads_cleared
+						years = 10
+					}
+				}
+			}
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_failed_effect = yes
+			}
+		}
+
+		ai_chance = {
+			base = 15
+			modifier = {
+				add = 20
+				stewardship >= 12
+			}
+			modifier = {
+				add = 20
+				stewardship >= 16
+			}
+			modifier = {
+				add = 10
+				has_trait = just
+			}
+			modifier = {
+				add = 10
+				has_trait = compassionate
+			}
+			modifier = {
+				add = -10
+				has_trait = callous
+			}
+		}
+	}
+
+	option = {
+		name = wh_bretonnia_errantry.0040.d
+
+		duel = {
+			skills = { martial prowess }
+			value = medium_skill_rating
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_passed_effect = yes
+				scope:wh_errantry_tour_county = {
+					add_county_modifier = {
+						modifier = wh_bretonnia_roads_cleared
+						years = 10
+					}
+				}
+			}
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_failed_effect = yes
+				wh_bretonnia_errantry_tour_wounded_by_effect = { KILLER = scope:wh_errantry_tour_deserter_captain }
+			}
+		}
+
+		ai_chance = {
+			base = 20
+			modifier = {
+				add = 20
+				martial >= 12
+			}
+			modifier = {
+				add = 20
+				martial >= 16
+			}
+			modifier = {
+				add = 10
+				prowess >= 12
+			}
+			modifier = {
+				add = 10
+				has_trait = brave
+			}
+			modifier = {
+				add = 10
+				has_trait = compassionate
+			}
+			modifier = {
+				add = -20
+				has_trait = craven
+			}
+		}
+	}
+
+	option = {
+		name = wh_bretonnia_errantry.0040.e
+
+		wh_bretonnia_errantry_tour_trial_failed_effect = yes
+
+		ai_chance = {
+			base = 5
+			modifier = {
+				add = 30
+				has_trait = craven
+			}
+			modifier = {
+				add = 10
+				has_trait = lazy
+			}
+		}
+	}
+}
+
+# Errantry tour trial event where the knight errant confronts a bandit knight
+wh_bretonnia_errantry.0050 = {
+	type = character_event
+	title = wh_bretonnia_errantry.0050.t
+	desc = wh_bretonnia_errantry.0050.desc
+	theme = travel_danger
+
+	left_portrait = {
+		character = root
+		animation = personality_honorable
+	}
+
+	right_portrait = {
+		character = scope:wh_errantry_tour_bandit_knight
+		animation = personality_cynical
+	}
+
+	trigger = { has_character_flag = wh_on_errantry_tour }
+
+	immediate = {
+		location.county = { save_scope_as = wh_errantry_tour_county }
+		create_character = {
+			location = root.location
+			gender_female_chance = 0
+			culture = scope:wh_errantry_tour_county.culture
+			faith = scope:wh_errantry_tour_county.faith
+			dynasty = none
+			age = { 25 40 }
+			trait = cynical
+			martial = { 8 14 }
+			prowess = { 12 18 }
+			save_scope_as = wh_errantry_tour_bandit_knight
+		}
+	}
+
+	option = {
+		name = wh_bretonnia_errantry.0050.a
+
+		duel = {
+			skill = prowess
+			value = high_skill_rating
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_passed_effect = yes
+				add_prestige = medium_prestige_gain
+			}
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_failed_effect = yes
+				wh_bretonnia_errantry_tour_wounded_by_effect = { KILLER = scope:wh_errantry_tour_bandit_knight }
+			}
+		}
+
+		ai_chance = {
+			base = 20
+			modifier = {
+				add = 20
+				prowess >= 12
+			}
+			modifier = {
+				add = 20
+				prowess >= 16
+			}
+			modifier = {
+				add = 20
+				has_trait = brave
+			}
+			modifier = {
+				add = 10
+				has_trait = wrathful
+			}
+			modifier = {
+				add = 10
+				has_trait = arrogant
+			}
+			modifier = {
+				add = -30
+				has_trait = craven
+			}
+		}
+	}
+
+	option = {
+		name = wh_bretonnia_errantry.0050.b
+
+		duel = {
+			skill = diplomacy
+			value = very_high_skill_rating
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_passed_effect = yes
+				add_prestige = medium_prestige_gain
+			}
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_failed_effect = yes
+			}
+		}
+
+		ai_chance = {
+			base = 20
+			modifier = {
+				add = 20
+				diplomacy >= 12
+			}
+			modifier = {
+				add = 20
+				diplomacy >= 16
+			}
+			modifier = {
+				add = 10
+				has_trait = gregarious
+			}
+			modifier = {
+				add = 10
+				has_trait = compassionate
+			}
+			modifier = {
+				add = -10
+				has_trait = shy
+			}
+			modifier = {
+				add = -10
+				has_trait = wrathful
+			}
+		}
+	}
+
+	option = {
+		name = wh_bretonnia_errantry.0050.c
+
+		wh_bretonnia_errantry_tour_trial_failed_effect = yes
+
+		ai_chance = {
+			base = 5
+			modifier = {
+				add = 30
+				has_trait = craven
+			}
+			modifier = {
+				add = 10
+				has_trait = lazy
+			}
+		}
+	}
+}
+
+# Errantry tour trial event where the knight errant fends off a beastmen incursion
+wh_bretonnia_errantry.0060 = {
+	type = character_event
+	title = wh_bretonnia_errantry.0060.t
+	desc = wh_bretonnia_errantry.0060.desc
+	theme = travel_danger
+
+	left_portrait = {
+		character = root
+		animation = worry
+	}
+
+	trigger = { has_character_flag = wh_on_errantry_tour }
+
+	immediate = {
+		location.county = { save_scope_as = wh_errantry_tour_county }
+	}
+
+	option = {
+		name = wh_bretonnia_errantry.0060.a
+
+		duel = {
+			skills = { martial prowess }
+			value = medium_skill_rating
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_passed_effect = yes
+				scope:wh_errantry_tour_county = {
+					add_county_modifier = {
+						modifier = wh_bretonnia_incursion_repelled
+						years = 10
+					}
+				}
+			}
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_failed_effect = yes
+				wh_bretonnia_errantry_tour_wound_effect = yes
+			}
+		}
+
+		ai_chance = {
+			base = 20
+			modifier = {
+				add = 20
+				martial >= 12
+			}
+			modifier = {
+				add = 20
+				martial >= 16
+			}
+			modifier = {
+				add = 10
+				prowess >= 12
+			}
+			modifier = {
+				add = 10
+				has_trait = brave
+			}
+			modifier = {
+				add = 10
+				has_trait = compassionate
+			}
+			modifier = {
+				add = -20
+				has_trait = craven
+			}
+		}
+	}
+
+	option = {
+		name = wh_bretonnia_errantry.0060.b
+
+		duel = {
+			skills = { intrigue martial }
+			value = medium_skill_rating
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_passed_effect = yes
+			}
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_failed_effect = yes
+				wh_bretonnia_errantry_tour_wound_effect = yes
+			}
+		}
+
+		ai_chance = {
+			base = 15
+			modifier = {
+				add = 20
+				intrigue >= 12
+			}
+			modifier = {
+				add = 20
+				martial >= 12
+			}
+			modifier = {
+				add = 10
+				has_trait = deceitful
+			}
+			modifier = {
+				add = 10
+				has_trait = patient
+			}
+			modifier = {
+				add = -10
+				has_trait = honest
+			}
+		}
+	}
+
+	option = {
+		name = wh_bretonnia_errantry.0060.c
+
+		duel = {
+			skills = { diplomacy prowess }
+			value = medium_skill_rating
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_passed_effect = yes
+			}
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_failed_effect = yes
+				wh_bretonnia_errantry_tour_wound_effect = yes
+			}
+		}
+
+		ai_chance = {
+			base = 20
+			modifier = {
+				add = 20
+				diplomacy >= 12
+			}
+			modifier = {
+				add = 20
+				diplomacy >= 16
+			}
+			modifier = {
+				add = 10
+				prowess >= 12
+			}
+			modifier = {
+				add = 10
+				has_trait = gregarious
+			}
+			modifier = {
+				add = 10
+				has_trait = brave
+			}
+			modifier = {
+				add = -10
+				has_trait = shy
+			}
+			modifier = {
+				add = -20
+				has_trait = craven
+			}
+		}
+	}
+
+	option = {
+		name = wh_bretonnia_errantry.0060.d
+
+		wh_bretonnia_errantry_tour_trial_failed_effect = yes
+
+		ai_chance = {
+			base = 5
+			modifier = {
+				add = 30
+				has_trait = craven
+			}
+			modifier = {
+				add = 10
+				has_trait = lazy
+			}
+		}
+	}
+}
+
+# Errantry tour trial event where the knight errant fends off a greenskin incursion
+wh_bretonnia_errantry.0070 = {
+	type = character_event
+	title = wh_bretonnia_errantry.0070.t
+	desc = wh_bretonnia_errantry.0070.desc
+	theme = travel_danger
+
+	left_portrait = {
+		character = root
+		animation = worry
+	}
+
+	trigger = { has_character_flag = wh_on_errantry_tour }
+
+	immediate = {
+		location.county = { save_scope_as = wh_errantry_tour_county }
+	}
+
+	option = {
+		name = wh_bretonnia_errantry.0070.a
+
+		duel = {
+			skill = prowess
+			value = high_skill_rating
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_passed_effect = yes
+			}
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_failed_effect = yes
+				wh_bretonnia_errantry_tour_wound_effect = yes
+			}
+		}
+
+		ai_chance = {
+			base = 20
+			modifier = {
+				add = 20
+				prowess >= 12
+			}
+			modifier = {
+				add = 20
+				prowess >= 16
+			}
+			modifier = {
+				add = 20
+				has_trait = brave
+			}
+			modifier = {
+				add = 10
+				has_trait = wrathful
+			}
+			modifier = {
+				add = 10
+				has_trait = arrogant
+			}
+			modifier = {
+				add = -30
+				has_trait = craven
+			}
+		}
+	}
+
+	option = {
+		name = wh_bretonnia_errantry.0070.b
+
+		duel = {
+			skills = { martial prowess }
+			value = medium_skill_rating
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_passed_effect = yes
+				scope:wh_errantry_tour_county = {
+					add_county_modifier = {
+						modifier = wh_bretonnia_incursion_repelled
+						years = 10
+					}
+				}
+			}
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_failed_effect = yes
+				wh_bretonnia_errantry_tour_wound_effect = yes
+			}
+		}
+
+		ai_chance = {
+			base = 20
+			modifier = {
+				add = 20
+				martial >= 12
+			}
+			modifier = {
+				add = 20
+				martial >= 16
+			}
+			modifier = {
+				add = 10
+				prowess >= 12
+			}
+			modifier = {
+				add = 10
+				has_trait = brave
+			}
+			modifier = {
+				add = 10
+				has_trait = compassionate
+			}
+			modifier = {
+				add = -20
+				has_trait = craven
+			}
+		}
+	}
+
+	option = {
+		name = wh_bretonnia_errantry.0070.c
+
+		duel = {
+			skills = { diplomacy prowess }
+			value = medium_skill_rating
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_passed_effect = yes
+			}
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_failed_effect = yes
+				wh_bretonnia_errantry_tour_wound_effect = yes
+			}
+		}
+
+		ai_chance = {
+			base = 20
+			modifier = {
+				add = 20
+				diplomacy >= 12
+			}
+			modifier = {
+				add = 20
+				diplomacy >= 16
+			}
+			modifier = {
+				add = 10
+				prowess >= 12
+			}
+			modifier = {
+				add = 10
+				has_trait = gregarious
+			}
+			modifier = {
+				add = 10
+				has_trait = brave
+			}
+			modifier = {
+				add = -10
+				has_trait = shy
+			}
+			modifier = {
+				add = -20
+				has_trait = craven
+			}
+		}
+	}
+
+	option = {
+		name = wh_bretonnia_errantry.0070.d
+
+		wh_bretonnia_errantry_tour_trial_failed_effect = yes
+
+		ai_chance = {
+			base = 5
+			modifier = {
+				add = 30
+				has_trait = craven
+			}
+			modifier = {
+				add = 10
+				has_trait = lazy
+			}
+		}
+	}
+}
+
+# Errantry tour trial event where the knight errant puts the restless dead back in their graves
+wh_bretonnia_errantry.0080 = {
+	type = character_event
+	title = wh_bretonnia_errantry.0080.t
+	desc = wh_bretonnia_errantry.0080.desc
+	theme = travel_danger
+
+	left_portrait = {
+		character = root
+		animation = fear
+	}
+
+	trigger = { has_character_flag = wh_on_errantry_tour }
+
+	immediate = {
+		location.county = { save_scope_as = wh_errantry_tour_county }
+	}
+
+	option = {
+		name = wh_bretonnia_errantry.0080.a
+
+		duel = {
+			skill = prowess
+			value = high_skill_rating
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_passed_effect = yes
+				scope:wh_errantry_tour_county = {
+					add_county_modifier = {
+						modifier = wh_bretonnia_calm_graves
+						years = 10
+					}
+				}
+			}
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_failed_effect = yes
+				wh_bretonnia_errantry_tour_wound_effect = yes
+			}
+		}
+
+		ai_chance = {
+			base = 20
+			modifier = {
+				add = 20
+				prowess >= 12
+			}
+			modifier = {
+				add = 20
+				prowess >= 16
+			}
+			modifier = {
+				add = 20
+				has_trait = brave
+			}
+			modifier = {
+				add = 10
+				has_trait = wrathful
+			}
+			modifier = {
+				add = 10
+				has_trait = arrogant
+			}
+			modifier = {
+				add = -30
+				has_trait = craven
+			}
+		}
+	}
+
+	option = {
+		name = wh_bretonnia_errantry.0080.b
+
+		duel = {
+			skills = { martial prowess }
+			value = medium_skill_rating
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_passed_effect = yes
+				scope:wh_errantry_tour_county = {
+					add_county_modifier = {
+						modifier = wh_bretonnia_calm_graves
+						years = 10
+					}
+				}
+			}
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_failed_effect = yes
+				wh_bretonnia_errantry_tour_wound_effect = yes
+			}
+		}
+
+		ai_chance = {
+			base = 20
+			modifier = {
+				add = 20
+				martial >= 12
+			}
+			modifier = {
+				add = 20
+				martial >= 16
+			}
+			modifier = {
+				add = 10
+				prowess >= 12
+			}
+			modifier = {
+				add = 10
+				has_trait = brave
+			}
+			modifier = {
+				add = 10
+				has_trait = compassionate
+			}
+			modifier = {
+				add = -20
+				has_trait = craven
+			}
+		}
+	}
+
+	option = {
+		name = wh_bretonnia_errantry.0080.c
+
+		duel = {
+			skills = { diplomacy prowess }
+			value = medium_skill_rating
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_passed_effect = yes
+				scope:wh_errantry_tour_county = {
+					add_county_modifier = {
+						modifier = wh_bretonnia_calm_graves
+						years = 10
+					}
+				}
+			}
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_failed_effect = yes
+				wh_bretonnia_errantry_tour_wound_effect = yes
+			}
+		}
+
+		ai_chance = {
+			base = 20
+			modifier = {
+				add = 20
+				diplomacy >= 12
+			}
+			modifier = {
+				add = 20
+				diplomacy >= 16
+			}
+			modifier = {
+				add = 10
+				prowess >= 12
+			}
+			modifier = {
+				add = 10
+				has_trait = gregarious
+			}
+			modifier = {
+				add = 10
+				has_trait = brave
+			}
+			modifier = {
+				add = -10
+				has_trait = shy
+			}
+			modifier = {
+				add = -20
+				has_trait = craven
+			}
+		}
+	}
+
+	option = {
+		name = wh_bretonnia_errantry.0080.d
+
+		duel = {
+			skills = { learning prowess }
+			value = medium_skill_rating
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_passed_effect = yes
+				scope:wh_errantry_tour_county = {
+					add_county_modifier = {
+						modifier = wh_bretonnia_calm_graves
+						years = 10
+					}
+				}
+			}
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				wh_bretonnia_errantry_tour_trial_failed_effect = yes
+				wh_bretonnia_errantry_tour_wound_effect = yes
+			}
+		}
+
+		ai_chance = {
+			base = 20
+			modifier = {
+				add = 20
+				learning >= 12
+			}
+			modifier = {
+				add = 20
+				learning >= 16
+			}
+			modifier = {
+				add = 10
+				prowess >= 12
+			}
+			modifier = {
+				add = 20
+				has_trait = zealous
+			}
+			modifier = {
+				add = -10
+				has_trait = cynical
+			}
+		}
+	}
+
+	option = {
+		name = wh_bretonnia_errantry.0080.e
+
+		wh_bretonnia_errantry_tour_trial_failed_effect = yes
+
+		ai_chance = {
+			base = 5
+			modifier = {
+				add = 30
+				has_trait = craven
+			}
+			modifier = {
+				add = 10
+				has_trait = lazy
+			}
+		}
+	}
+}
+
+# Event for the knight errant returning home to be judged on the trials of their errantry tour
+wh_bretonnia_errantry.0100 = {
+	type = character_event
+	title = wh_bretonnia_errantry.0100.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { var:wh_errantry_tour_trials_needed <= 0 }
+				desc = wh_bretonnia_errantry.0100.desc.success
+			}
+			desc = wh_bretonnia_errantry.0100.desc.failure
+		}
+	}
+	theme = realm
+
+	left_portrait = {
+		character = root
+		animation = personality_honorable
+	}
+
+	trigger = { has_character_flag = wh_errantry_tour_ending }
+
+	option = {
+		name = wh_bretonnia_errantry.0100.a
+		trigger = { var:wh_errantry_tour_trials_needed <= 0 }
+		wh_bretonnia_errantry_tour_success_effect = yes
+	}
+
+	option = {
+		name = wh_bretonnia_errantry.0100.b
+		trigger = { var:wh_errantry_tour_trials_needed > 0 }
+		wh_bretonnia_errantry_tour_fail_effect = yes
+	}
+}
+
+# Event for the knight errant who abandoned their errantry tour
+wh_bretonnia_errantry.0110 = {
+	type = character_event
+	title = wh_bretonnia_errantry.0110.t
+	desc = wh_bretonnia_errantry.0110.desc
+	theme = realm
+
+	left_portrait = {
+		character = root
+		animation = shame
+	}
+
+	trigger = { has_character_flag = wh_errantry_tour_ending }
+
+	option = {
+		name = wh_bretonnia_errantry.0110.a
+		wh_bretonnia_errantry_tour_abandon_effect = yes
+	}
+}
+
+# Hidden event to end the errantry tour if it is still running after a year
+wh_bretonnia_errantry.0199 = {
+	type = character_event
+	hidden = yes
+
+	trigger = { has_character_flag = wh_on_errantry_tour }
+
+	immediate = {
+		if = {
+			limit = { is_travelling = yes }
+			current_travel_plan = { abort_travel_plan = yes }
+		}
+		if = {
+			limit = { has_character_flag = wh_on_errantry_tour }
+			wh_bretonnia_errantry_tour_end_effect = { EVENT = wh_bretonnia_errantry.0100 }
+		}
+	}
+}

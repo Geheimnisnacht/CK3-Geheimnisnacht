@@ -43,6 +43,18 @@ wh_bretonnia_landed_knight_check.001 = {
 		name = wh_bretonnia_landed_knight_check.001.a
 
 		add_trait = knight_lady_errant
+		if = {
+			limit = {
+				OR = {
+					is_ai = no
+					is_landed = yes
+				}
+			}
+			trigger_event = {
+				id = wh_bretonnia_errantry.0002
+				days = 1
+			}
+		}
 
 		ai_chance = {
 			base = 75

@@ -1,0 +1,28 @@
+﻿wh_bretonnia_monster_slain = {
+	icon = county_modifier_control_positive
+	county_opinion_add = 10
+	monthly_county_control_growth_add = 0.3
+}
+
+wh_bretonnia_grail_relic_recovered = {
+	icon = county_modifier_development_positive
+	county_opinion_add = 10
+	development_growth_factor = 0.1
+}
+
+wh_bretonnia_roads_cleared = {
+	icon = county_modifier_control_positive
+	monthly_county_control_growth_add = 0.3
+}
+
+wh_bretonnia_incursion_repelled = {
+	icon = county_modifier_control_positive
+	county_opinion_add = 10
+	monthly_county_control_growth_add = 0.3
+}
+
+wh_bretonnia_calm_graves = {
+	icon = county_modifier_opinion_positive
+	county_opinion_add = 10
+	monthly_county_control_growth_add = 0.3
+}

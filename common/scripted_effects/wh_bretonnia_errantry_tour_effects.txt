@@ -1,0 +1,262 @@
+﻿wh_bretonnia_errantry_tour_start_effect = {
+	location = { save_scope_as = wh_errantry_tour_origin }
+	top_liege = {
+		every_sub_realm_county = {
+			limit = {
+				NOT = { this = scope:wh_errantry_tour_origin.county }
+			}
+			add_to_list = wh_errantry_tour_candidates
+		}
+	}
+	if = {
+		limit = {
+			NOT = { any_in_list = { list = wh_errantry_tour_candidates } }
+		}
+		scope:wh_errantry_tour_origin.county = {
+			every_neighboring_county = {
+				add_to_list = wh_errantry_tour_candidates
+			}
+		}
+	}
+	ordered_in_list = {
+		list = wh_errantry_tour_candidates
+		order_by = {
+			value = "title_province.squared_distance(scope:wh_errantry_tour_origin)"
+			multiply = -1
+		}
+		max = 3
+		check_range_bounds = no
+		if = {
+			limit = {
+				NOT = { exists = scope:wh_errantry_tour_stop_1 }
+			}
+			title_province = { save_scope_as = wh_errantry_tour_stop_1 }
+		}
+		else_if = {
+			limit = {
+				NOT = { exists = scope:wh_errantry_tour_stop_2 }
+			}
+			title_province = { save_scope_as = wh_errantry_tour_stop_2 }
+		}
+		else = {
+			title_province = { save_scope_as = wh_errantry_tour_stop_3 }
+		}
+	}
+	if = {
+		limit = { exists = scope:wh_errantry_tour_stop_1 }
+		add_character_flag = wh_on_errantry_tour
+		set_variable = {
+			name = wh_errantry_tour_trials_needed
+			value = 1
+		}
+		add_to_variable_list = {
+			name = wh_errantry_tour_stops
+			target = scope:wh_errantry_tour_stop_1
+		}
+		trigger_event = {
+			id = wh_bretonnia_errantry.0199
+			years = 1
+		}
+		if = {
+			limit = { exists = scope:wh_errantry_tour_stop_3 }
+			set_variable = {
+				name = wh_errantry_tour_trials_needed
+				value = 2
+			}
+			add_to_variable_list = {
+				name = wh_errantry_tour_stops
+				target = scope:wh_errantry_tour_stop_2
+			}
+			add_to_variable_list = {
+				name = wh_errantry_tour_stops
+				target = scope:wh_errantry_tour_stop_3
+			}
+			start_travel_plan = {
+				destination = scope:wh_errantry_tour_stop_1
+				destination = scope:wh_errantry_tour_stop_2
+				destination = scope:wh_errantry_tour_stop_3
+				on_arrival_on_action = wh_bretonnia_errantry_tour_arrival
+				on_arrival_destinations = all_but_last
+				on_travel_planner_cancel_on_action = wh_bretonnia_errantry_tour_abandon
+				return_trip = yes
+				players_use_planner = yes
+			}
+		}
+		else_if = {
+			limit = { exists = scope:wh_errantry_tour_stop_2 }
+			add_to_variable_list = {
+				name = wh_errantry_tour_stops
+				target = scope:wh_errantry_tour_stop_2
+			}
+			start_travel_plan = {
+				destination = scope:wh_errantry_tour_stop_1
+				destination = scope:wh_errantry_tour_stop_2
+				on_arrival_on_action = wh_bretonnia_errantry_tour_arrival
+				on_arrival_destinations = all_but_last
+				on_travel_planner_cancel_on_action = wh_bretonnia_errantry_tour_abandon
+				return_trip = yes
+				players_use_planner = yes
+			}
+		}
+		else = {
+			start_travel_plan = {
+				destination = scope:wh_errantry_tour_stop_1
+				on_arrival_on_action = wh_bretonnia_errantry_tour_arrival
+				on_arrival_destinations = all_but_last
+				on_travel_planner_cancel_on_action = wh_bretonnia_errantry_tour_abandon
+				return_trip = yes
+				players_use_planner = yes
+			}
+		}
+	}
+	else = {
+		remove_trait = knight_lady_errant
+		add_trait_force_tooltip = knight_lady_realm
+	}
+}
+
+wh_bretonnia_errantry_tour_trial_effect = {
+	random_list = {
+		10 = {
+			trigger = {
+				NOT = { has_character_flag = wh_errantry_tour_trial_ogre }
+			}
+			add_character_flag = wh_errantry_tour_trial_ogre
+			trigger_event = wh_bretonnia_errantry.0010
+		}
+		10 = {
+			trigger = {
+				NOT = { has_character_flag = wh_errantry_tour_trial_monster }
+			}
+			add_character_flag = wh_errantry_tour_trial_monster
+			trigger_event = wh_bretonnia_errantry.0020
+		}
+		10 = {
+			trigger = {
+				NOT = { has_character_flag = wh_errantry_tour_trial_relic }
+			}
+			add_character_flag = wh_errantry_tour_trial_relic
+			trigger_event = wh_bretonnia_errantry.0030
+		}
+		10 = {
+			trigger = {
+				NOT = { has_character_flag = wh_errantry_tour_trial_deserters }
+			}
+			add_character_flag = wh_errantry_tour_trial_deserters
+			trigger_event = wh_bretonnia_errantry.0040
+		}
+		10 = {
+			trigger = {
+				NOT = { has_character_flag = wh_errantry_tour_trial_bandit_knight }
+			}
+			add_character_flag = wh_errantry_tour_trial_bandit_knight
+			trigger_event = wh_bretonnia_errantry.0050
+		}
+		10 = {
+			trigger = {
+				NOT = { has_character_flag = wh_errantry_tour_trial_beastmen }
+			}
+			add_character_flag = wh_errantry_tour_trial_beastmen
+			trigger_event = wh_bretonnia_errantry.0060
+		}
+		10 = {
+			trigger = {
+				NOT = { has_character_flag = wh_errantry_tour_trial_greenskins }
+			}
+			add_character_flag = wh_errantry_tour_trial_greenskins
+			trigger_event = wh_bretonnia_errantry.0070
+		}
+		10 = {
+			trigger = {
+				NOT = { has_character_flag = wh_errantry_tour_trial_undead }
+			}
+			add_character_flag = wh_errantry_tour_trial_undead
+			trigger_event = wh_bretonnia_errantry.0080
+		}
+	}
+}
+
+wh_bretonnia_errantry_tour_trial_passed_effect = {
+	custom_tooltip = wh_bretonnia_errantry_tour_trial_passed_tt
+	change_variable = {
+		name = wh_errantry_tour_trials_needed
+		add = -1
+	}
+}
+
+wh_bretonnia_errantry_tour_trial_failed_effect = {
+	custom_tooltip = wh_bretonnia_errantry_tour_trial_failed_tt
+}
+
+wh_bretonnia_errantry_tour_wound_effect = {
+	random_list = {
+		90 = {
+			increase_wounds_effect = { REASON = fight }
+		}
+		10 = {
+			death = { death_reason = death_fight }
+		}
+	}
+}
+
+wh_bretonnia_errantry_tour_wounded_by_effect = {
+	random_list = {
+		90 = {
+			increase_wounds_effect = { REASON = fight }
+		}
+		10 = {
+			death = {
+				death_reason = death_fight
+				killer = $KILLER$
+			}
+		}
+	}
+}
+
+wh_bretonnia_errantry_tour_end_effect = {
+	remove_character_flag = wh_on_errantry_tour
+	add_character_flag = wh_errantry_tour_ending
+	trigger_event = $EVENT$
+}
+
+wh_bretonnia_errantry_tour_success_effect = {
+	remove_trait = knight_lady_errant
+	add_trait_force_tooltip = knight_lady_realm
+	add_prestige = 200
+	add_piety = 200
+	add_legitimacy = 100
+	wh_bretonnia_errantry_tour_cleanup_effect = yes
+}
+
+wh_bretonnia_errantry_tour_fail_effect = {
+	remove_trait = knight_lady_errant
+	add_trait_force_tooltip = knight_lady_realm
+	add_prestige = -100
+	add_piety = -100
+	wh_bretonnia_errantry_tour_cleanup_effect = yes
+}
+
+wh_bretonnia_errantry_tour_abandon_effect = {
+	remove_trait = knight_lady_errant
+	add_trait_force_tooltip = knight_lady_realm
+	add_character_modifier = {
+		modifier = wh_bretonnia_unproven_noble
+		years = 10
+	}
+	wh_bretonnia_errantry_tour_cleanup_effect = yes
+}
+
+wh_bretonnia_errantry_tour_cleanup_effect = {
+	remove_character_flag = wh_on_errantry_tour
+	remove_character_flag = wh_errantry_tour_ending
+	remove_variable = wh_errantry_tour_trials_needed
+	clear_variable_list = wh_errantry_tour_stops
+	remove_character_flag = wh_errantry_tour_trial_ogre
+	remove_character_flag = wh_errantry_tour_trial_monster
+	remove_character_flag = wh_errantry_tour_trial_relic
+	remove_character_flag = wh_errantry_tour_trial_deserters
+	remove_character_flag = wh_errantry_tour_trial_bandit_knight
+	remove_character_flag = wh_errantry_tour_trial_beastmen
+	remove_character_flag = wh_errantry_tour_trial_greenskins
+	remove_character_flag = wh_errantry_tour_trial_undead
+}

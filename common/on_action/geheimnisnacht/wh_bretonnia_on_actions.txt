@@ -10,3 +10,52 @@ on_birthday = {
 		wh_bretonnia_landed_knight_check.001
 	}
 }
+
+on_travel_plan_complete = {
+	on_actions = {
+		wh_bretonnia_errantry_tour_complete
+	}
+}
+
+on_travel_plan_abort = {
+	on_actions = {
+		wh_bretonnia_errantry_tour_complete
+	}
+}
+
+on_travel_plan_cancel = {
+	on_actions = {
+		wh_bretonnia_errantry_tour_abandon
+	}
+}
+
+wh_bretonnia_errantry_tour_arrival = {
+	trigger = {
+		has_character_flag = wh_on_errantry_tour
+		is_target_in_variable_list = {
+			name = wh_errantry_tour_stops
+			target = root.location
+		}
+	}
+	effect = {
+		remove_list_variable = {
+			name = wh_errantry_tour_stops
+			target = root.location
+		}
+		wh_bretonnia_errantry_tour_trial_effect = yes
+	}
+}
+
+wh_bretonnia_errantry_tour_complete = {
+	trigger = { has_character_flag = wh_on_errantry_tour }
+	effect = {
+		wh_bretonnia_errantry_tour_end_effect = { EVENT = wh_bretonnia_errantry.0100 }
+	}
+}
+
+wh_bretonnia_errantry_tour_abandon = {
+	trigger = { has_character_flag = wh_on_errantry_tour }
+	effect = {
+		wh_bretonnia_errantry_tour_end_effect = { EVENT = wh_bretonnia_errantry.0110 }
+	}
+}
