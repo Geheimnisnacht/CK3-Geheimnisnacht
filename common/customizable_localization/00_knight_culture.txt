@@ -1,0 +1,219 @@
+﻿# WHG: removed real world references.
+KnightCulture = {
+	type = character
+	
+	text = {
+		trigger = {
+			has_government = landless_adventurer_government
+			NOR = {
+				has_trait = knight_errant
+				# faith = { religion_tag = christianity_religion }
+				# culture = { has_cultural_pillar = language_frankish }
+			}
+		}
+		localization_key = knight_champion
+	}
+	# text = { #WHG
+	# 	trigger = {
+	# 		culture = { has_cultural_pillar = language_japonic }
+	# 	}
+	# 	localization_key = knight_bushi
+	# }
+	# text = {
+	# 	trigger = {
+	# 		culture = { has_cultural_pillar = language_greek }
+	# 	}
+	# 	localization_key = knight_hetaeria
+	# }
+	# text = {
+	# 	trigger = {
+	# 		OR = {
+	# 			culture = { has_cultural_pillar = language_mongolic }
+	# 			culture = { has_cultural_pillar = language_turkic }
+	# 		}
+	# 	}
+	# 	localization_key = knight_baghatur
+	# }
+	# text = {
+	# 	trigger = {
+	# 		OR = {
+	# 			culture = { has_cultural_pillar = language_sauraseni }
+	# 			culture = { has_cultural_pillar = language_marathi }
+	# 			culture = { has_cultural_pillar = language_magadhan }
+	# 			culture = { has_cultural_pillar = language_pahari }
+	# 			culture = { has_cultural_pillar = language_vrachada }
+	# 			culture = { has_cultural_pillar = language_rajasthani }
+	# 			culture = { has_cultural_pillar = language_sinhalese }
+	# 			culture = { has_cultural_pillar = language_kashmiri }
+	# 			culture = { has_cultural_pillar = language_tamil }
+	# 			culture = { has_cultural_pillar = language_telugu }
+	# 			culture = { has_cultural_pillar = language_kannada }
+	# 			culture = { has_cultural_pillar = language_north_dravidian } #FP3 addition
+	# 		}
+	# 	}
+	# 	localization_key = knight_shoorveer
+	# }
+	# text = {
+	# 	trigger = {
+	# 		OR = {
+	# 			faith = { religion_tag = zoroastrianism_religion }
+	# 			culture = { has_cultural_pillar = language_iranian }
+	# 		}
+	# 	}
+	# 	localization_key = knight_aswaran
+	# }
+	# text = {
+	# 	trigger = {
+	# 		OR = {
+	# 			faith = { religion_tag = islam_religion }
+	# 			culture = { has_cultural_pillar = language_arabic }
+	# 		}
+	# 	}
+	# 	localization_key = knight_faris
+	# }
+	text = {
+		trigger = {
+			OR = {
+				government_has_flag = government_is_tribal
+				# NOR = { #WHG
+				# 	faith = { religion_tag = christianity_religion }
+				# 	culture = { has_cultural_pillar = language_frankish }
+				# }
+			}
+		}
+		localization_key = knight_champion
+	}
+
+	#WHG
+	text = { #Captain
+		trigger = {
+			culture = { has_cultural_pillar = heritage_imperial }
+		}
+		localization_key = knight_imperial
+	}
+	text = { #Paladin
+		trigger = {
+			culture = { has_cultural_pillar = heritage_bretonnian }
+		}
+		localization_key = knight_bretonnian
+	}
+	text = { #Cavaliere
+		trigger = {
+			culture = { has_cultural_pillar = heritage_tilean }
+		}
+		localization_key = knight_tilean
+	}
+	text = { #Amyar
+		trigger = {
+			OR = {
+				culture = culture:sartosan_arabyan
+				culture = culture:sureno
+			}
+
+		}
+		localization_key = knight_sartosan_arabyan
+	}
+	text = { #Huskarl
+		trigger = {
+			culture = culture:sartosan_norscan
+		}
+		localization_key = knight_sartosan_norscan
+	}
+	text = { #Buccanerer
+		trigger = {
+			culture = culture:sartosan_tilean
+		}
+		localization_key = knight_sartosan_tilean
+	}
+	text = { #Marine
+		trigger = {
+			culture = culture:sartosan_imperial
+		}
+		localization_key = knight_sartosan_imperial
+	}
+		localization_key = Boucanier
+	text = { #
+		trigger = {
+			culture = culture:sartosan_bretonnian
+		}
+		localization_key = knight_sartosan_bretonnian
+	}
+	text = { #Alférez
+		trigger = {
+			culture = { has_cultural_pillar = heritage_estalian }
+			NOR = {
+				culture = culture:galice
+				culture = culture:montanese
+				culture = culture:norteno
+				culture = culture:montanese
+				culture = culture:tigarrese
+				
+			}
+		}
+		localization_key = knight_estalian_astur
+	}
+	text = { #Fidalgo
+		trigger = {
+			culture = culture:galice
+			culture = culture:tigaresse
+		}
+		localization_key = knight_estalian_galice
+	}
+	text = { #Montañero
+		trigger = {
+			culture = culture:montanese
+		}
+		localization_key = knight_estalian_montanese
+	}
+	text = { #Hidalgo
+		trigger = {
+			culture = culture:norteno
+		}
+		localization_key = knight_estalian_norteno
+	}
+	text = { #Fieldwarden
+		trigger = {
+			culture = { has_cultural_pillar = heritage_halflings }
+		}
+		localization_key = knight_halfling_mootlander
+	}
+	text = {
+		localization_key = knight_default
+		fallback = yes
+	}
+}
+
+KnightCulturePlural = {
+	parent = KnightCulture
+	suffix = "_plural"
+}
+
+KnightCultureNoTooltip = {
+	parent = KnightCulture
+	suffix = "_no_tooltip"
+}
+
+KnightCulturePluralNoTooltip = {
+	parent = KnightCulture
+	suffix = "_no_tooltip_plural"
+}
+
+KnightCultureNoTooltipLowercase = {
+	parent = KnightCulture
+	suffix = "_no_tooltip_lowercase"
+}
+
+KnightCulturePluralNoTooltipLowercase = {
+	parent = KnightCulture
+	suffix = "_no_tooltip_lowercase_plural"
+}
+
+KnightCulturePluralPossessiveNoTooltipLowercase = {
+	parent = KnightCulture
+	suffix = "_no_tooltip_lowercase_plural_possessive"
+}
+
+KnightCultureAdjectiveNoTooltipLowercase = {
+	parent = KnightCulture
+	suffix = "_no_tooltip_lowercase_adjective"
+}
