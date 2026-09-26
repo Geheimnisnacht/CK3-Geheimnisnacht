@@ -32,7 +32,7 @@ knight_lady_errant = {
 	group = knight_lady
 	level = 1
 	
-	ruler_designer = no
+	shown_in_ruler_designer = no
 	
 	potential = {
 		faith = { 
@@ -106,8 +106,8 @@ knight_lady_questing = {
 	
 	group = knight_lady
 	level = 3
-	
-	ruler_designer = no
+
+	shown_in_ruler_designer = no
 	
 	potential = {
 		faith = { 
@@ -124,12 +124,6 @@ knight_lady_questing = {
 				desc = trait_knight_lady_questing_desc
 			}
 			desc = trait_knight_lady_questing_character_desc
-		}
-	}
-	
-	track = {
-		100 = {
-			
 		}
 	}
 	

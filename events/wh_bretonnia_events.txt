@@ -1,0 +1,77 @@
+namespace = wh_bretonnia_landed_knight_check
+
+wh_bretonnia_landed_knight_check.001 = {
+	type = character_event
+	title = wh_bretonnia_landed_knight_check.t
+	desc = wh_bretonnia_landed_knight_check.desc
+	theme = realm
+
+	left_portrait = {
+		character = root
+		animation = personality_honorable
+	}
+
+	trigger = {
+		faith = {
+			has_doctrine = tenet_knightly_virtues
+		}
+		NOT = { has_trait = knight_lady }
+		NOT = { has_character_modifier = wh_bretonnia_unproven_noble }
+		is_adult = yes
+		OR = {
+			NOT = { exists = scope:title }
+			scope:title = {
+				tier >= tier_county
+				this = root.primary_title
+			}
+		}
+	}
+
+	option = {
+		name = wh_bretonnia_landed_knight_check.001.a
+
+		add_trait = knight_lady_errant
+
+		ai_chance = {
+			base = 75
+			modifier = {
+				add = 25
+				has_trait = brave
+			}
+			modifier = {
+				add = 25
+				has_trait = zealous
+			}
+			modifier = {
+				add = -30
+				has_trait = craven
+			}
+		}
+	}
+
+	option = {
+		name = wh_bretonnia_landed_knight_check.001.b
+
+		add_trait = knight_lady_realm
+		add_character_modifier = {
+			modifier = wh_bretonnia_unproven_noble
+			years = 10
+		}
+
+		ai_chance = {
+			base = 25
+			modifier = {
+				add = 30
+				has_trait = craven
+			}
+			modifier = {
+				add = -25
+				has_trait = brave
+			}
+			modifier = {
+				add = -25
+				has_trait = zealous
+			}
+		}
+	}
+}

@@ -1,0 +1,12 @@
+# On actions for the KOTR check when a character with the knightly virtues tenet either gains a title or ages to 16
+on_title_succession = {
+	events = {
+		wh_bretonnia_landed_knight_check.001
+	}
+}
+ 
+on_birthday = {
+	events = {
+		wh_bretonnia_landed_knight_check.001
+	}
+}
