@@ -1,0 +1,13 @@
+﻿l_english: 
+ 
+ building_type_altdorf_palace_01:0 "Residence of the Lord of Altdorf"
+
+ building_altdorf_palace_01:0 "Altdorf Burghermeister Palace"
+ building_altdorf_palace_01_desc:0 "Where Altdorf Burghers are made ;) WH TODO"
+ 
+ building_altdorf_palace_02:0 "Altdorf Elector Palace"
+ building_altdorf_palace_02_desc:0 "Electors and elected for elective election WH TODO"
+ 
+ building_altdorf_palace_03:0 "Altdorf Imperial Palace"
+ building_altdorf_palace_03_desc:0 "Because Altdorf Imperium does not ring as well"
+ 
