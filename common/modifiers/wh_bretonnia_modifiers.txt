@@ -1,6 +1,8 @@
 wh_bretonnia_unproven_noble = {
 	icon = prestige_negative
-	monthly_prestige_gain_mult = -0.25
-	same_faith_opinion = -5
-	vassal_opinion = -5
+	monthly_prestige = -2
+	monthly_piety = -2
+	legitimacy_gain_mult = -0.5
+	the_lady_religion_opinion = -20
+	county_opinion_add = -25
 }

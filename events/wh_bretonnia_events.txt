@@ -19,6 +19,17 @@ wh_bretonnia_landed_knight_check.001 = {
 		NOT = { has_character_modifier = wh_bretonnia_unproven_noble }
 		is_adult = yes
 		OR = {
+			culture = { has_cultural_pillar = martial_custom_equal }
+			AND = {
+				is_male = yes
+				culture = { has_cultural_pillar = martial_custom_male_only }
+			}
+			AND = {
+				is_female = yes
+				culture = { has_cultural_pillar = martial_custom_female_only }
+			}
+		}
+		OR = {
 			NOT = { exists = scope:title }
 			scope:title = {
 				tier >= tier_county
