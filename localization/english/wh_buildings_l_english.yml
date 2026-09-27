@@ -11,3 +11,16 @@
  building_altdorf_palace_03:0 "Altdorf Imperial Palace"
  building_altdorf_palace_03_desc:0 "Because Altdorf Imperium does not ring as well"
  
+
+ building_type_dietershafen_harbour_01:0 "The Great Harbour of Nordland"
+ building_type_dietershafen_harbour_01_desc:0 "The Great Harbour of the Northern Empire"
+
+ building_dietershafen_harbour_01:0 "Dietershafen Harbour"
+ building_dietershafen_harbour_01_desc:0 "Who even is Dieter? WH TODO"
+ 
+ building_dietershafen_harbour_02:0 "Nordland Grand Harbour"
+ building_dietershafen_harbour_02_desc:0 "As opposed to Nordland Small Harbour WH TODO"
+ 
+ building_dietershafen_harbour_03:0 "Grand Imperial Naval Harbour"
+ building_dietershafen_harbour_03_desc:0 "Second Largest Imperial Harbour in the Empire, as long as Marienburg stays loyal of course WH TODO"
+ 
