@@ -13,6 +13,7 @@ wh_bretonnia_landed_knight_check.001 = {
 	}
 
 	trigger = {
+		highest_held_title_tier >= tier_county
 		faith = {
 			has_doctrine = tenet_knightly_virtues
 		}
