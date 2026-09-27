@@ -1,4 +1,5 @@
-﻿wh_bretonnia_send_on_errantry_interaction = {
+﻿# Interaction for a landed ruler to send an unknighted noble courtier out on an errantry quest
+wh_bretonnia_send_on_errantry_interaction = {
 	icon = knight_lady_errant
 	category = interaction_category_vassal
 	interface_priority = 60
@@ -100,9 +101,15 @@
 		}
 
 		modifier = {
-			add = 100
+			add = 25
 			has_trait = brave
 			desc = INTERACTION_BRAVE
+		}
+
+		modifier = {
+			add = 50
+			has_trait = zealous
+			desc = INTERACTION_ZEALOUS
 		}
 
 		modifier = {

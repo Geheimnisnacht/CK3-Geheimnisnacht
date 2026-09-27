@@ -1,4 +1,5 @@
-﻿wh_bretonnia_errantry_quest_candidate_trigger = {
+﻿# Trigger for an adult noble courtier of a grail faith and the right gender who is not yet a knight
+wh_bretonnia_errantry_quest_candidate_trigger = {
 	is_adult = yes
 	is_ruler = no
 	exists = dynasty
@@ -19,6 +20,7 @@
 	}
 }
 
+# Trigger for a candidate who is available and willing to ask their liege to send them on errantry
 wh_bretonnia_errantry_quest_can_ask_trigger = {
 	is_available_adult = yes
 	NOT = { has_trait = craven }

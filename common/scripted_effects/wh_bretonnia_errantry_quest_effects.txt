@@ -1,4 +1,5 @@
-﻿wh_bretonnia_errantry_quest_send_effect = {
+﻿# Effect that makes the courtier a knight errant and sends them off to a random grail faith court
+wh_bretonnia_errantry_quest_send_effect = {
 	save_scope_as = wh_errantry_quest_knight
 	add_trait = knight_lady_errant
 	add_character_flag = wh_on_errantry_quest
@@ -20,6 +21,7 @@
 	}
 }
 
+# Effect that moves the knight errant to a random grail faith court that is not their home or current court
 wh_bretonnia_errantry_quest_move_to_host_effect = {
 	save_scope_as = wh_errantry_quest_knight
 	random_ruler = {
@@ -48,6 +50,7 @@ wh_bretonnia_errantry_quest_move_to_host_effect = {
 	}
 }
 
+# Effect that brings the knight errant back to their home court, or to their dynast if their home liege is gone
 wh_bretonnia_errantry_quest_return_home_effect = {
 	save_scope_as = wh_errantry_quest_knight
 	if = {
@@ -79,11 +82,13 @@ wh_bretonnia_errantry_quest_return_home_effect = {
 	}
 }
 
+# Effect that promotes the knight errant to a knight of the realm
 wh_bretonnia_errantry_quest_promote_effect = {
 	remove_trait = knight_lady_errant
 	add_trait_force_tooltip = knight_lady_realm
 }
 
+# Effect that clears the errantry quest flag and home court variable
 wh_bretonnia_errantry_quest_cleanup_effect = {
 	remove_character_flag = wh_on_errantry_quest
 	remove_variable = wh_errantry_quest_home
