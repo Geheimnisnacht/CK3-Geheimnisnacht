@@ -27,6 +27,7 @@ wh_bretonnia_errantry_quest_move_to_host_effect = {
 	random_ruler = {
 		limit = {
 			highest_held_title_tier >= tier_county
+			is_landed = yes
 			faith = { has_doctrine = tenet_knightly_virtues }
 			NOT = { this = scope:wh_errantry_quest_knight }
 			NOT = { scope:wh_errantry_quest_knight.host ?= this }
@@ -50,35 +51,57 @@ wh_bretonnia_errantry_quest_move_to_host_effect = {
 	}
 }
 
-# Effect that brings the knight errant back to their home court, or to their dynast if their home liege is gone
+# Effect that brings the knight errant back to their home court, or to their dynast if they have no court left
 wh_bretonnia_errantry_quest_return_home_effect = {
 	save_scope_as = wh_errantry_quest_knight
 	if = {
-		limit = { is_foreign_court_guest = yes }
+		limit = { is_foreign_court_guest = no }
+		if = {
+			limit = {
+				exists = var:wh_errantry_quest_home
+				var:wh_errantry_quest_home = {
+					is_alive = yes
+					is_ruler = yes
+				}
+				NOT = { is_courtier_of = var:wh_errantry_quest_home }
+			}
+			var:wh_errantry_quest_home = {
+				add_courtier = scope:wh_errantry_quest_knight
+			}
+		}
+		else_if = {
+			limit = {
+				NOT = { exists = liege }
+				dynasty.dynast ?= {
+					is_alive = yes
+					is_ruler = yes
+				}
+			}
+			dynasty.dynast = {
+				add_courtier = scope:wh_errantry_quest_knight
+			}
+		}
+	}
+	if = {
+		limit = {
+			OR = {
+				is_foreign_court_guest = yes
+				exists = liege
+			}
+		}
 		return_to_court = yes
 	}
-	else_if = {
-		limit = {
-			exists = var:wh_errantry_quest_home
-			var:wh_errantry_quest_home = {
-				is_alive = yes
-				is_ruler = yes
-			}
-		}
-		var:wh_errantry_quest_home = {
-			add_courtier = scope:wh_errantry_quest_knight
+	liege ?= {
+		capital_province ?= {
+			save_scope_as = wh_errantry_quest_home_capital
 		}
 	}
-	else_if = {
+	if = {
 		limit = {
-			dynasty.dynast ?= {
-				is_alive = yes
-				is_ruler = yes
-			}
+			exists = scope:wh_errantry_quest_home_capital
+			NOT = { location = scope:wh_errantry_quest_home_capital }
 		}
-		dynasty.dynast = {
-			add_courtier = scope:wh_errantry_quest_knight
-		}
+		set_location = scope:wh_errantry_quest_home_capital
 	}
 }
 

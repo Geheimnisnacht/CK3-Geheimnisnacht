@@ -1,0 +1,29 @@
+﻿# Trigger for a landed adult noble of a grail faith and the right gender who is not yet a knight
+wh_bretonnia_auto_knight_trigger = {
+	is_landed = yes
+	is_lowborn = no
+	is_adult = yes
+	faith = { has_doctrine = tenet_knightly_virtues }
+	NOT = { has_trait = knight_lady }
+	NOT = { has_character_modifier = wh_bretonnia_unproven_noble }
+	OR = {
+		culture = { has_cultural_pillar = martial_custom_equal }
+		AND = {
+			is_male = yes
+			culture = { has_cultural_pillar = martial_custom_male_only }
+		}
+		AND = {
+			is_female = yes
+			culture = { has_cultural_pillar = martial_custom_female_only }
+		}
+	}
+}
+
+# Trigger for a baron whose highest title is a barony and who holds a castle
+wh_bretonnia_castle_baron_trigger = {
+	highest_held_title_tier = tier_barony
+	any_held_title = {
+		tier = tier_barony
+		title_province = { has_holding_type = castle_holding }
+	}
+}

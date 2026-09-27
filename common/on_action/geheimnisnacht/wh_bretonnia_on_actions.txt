@@ -9,6 +9,9 @@ on_birthday = {
 	events = {
 		wh_bretonnia_landed_knight_check.001
 	}
+	on_actions = {
+		wh_bretonnia_baron_knight
+	}
 }
 
 on_travel_plan_complete = {
@@ -69,12 +72,14 @@ yearly_playable_pulse = {
 on_title_gain = {
 	on_actions = {
 		wh_bretonnia_errantry_quest_title_gain
+		wh_bretonnia_baron_knight
 	}
 }
 
 wh_bretonnia_errantry_quest_pulse = {
 	trigger = {
 		highest_held_title_tier >= tier_county
+		is_landed = yes
 		faith = { has_doctrine = tenet_knightly_virtues }
 	}
 	events = {
@@ -87,5 +92,38 @@ wh_bretonnia_errantry_quest_title_gain = {
 	effect = {
 		wh_bretonnia_errantry_quest_promote_effect = yes
 		wh_bretonnia_errantry_quest_cleanup_effect = yes
+	}
+}
+
+on_game_start = {
+	on_actions = {
+		wh_bretonnia_game_start_knights
+	}
+}
+
+# On action for giving landed nobles with the knightly virtues tenet the knight of the realm trait at game start
+wh_bretonnia_game_start_knights = {
+	effect = {
+		every_ruler = {
+			limit = {
+				OR = {
+					highest_held_title_tier >= tier_county
+					wh_bretonnia_castle_baron_trigger = yes
+				}
+				wh_bretonnia_auto_knight_trigger = yes
+			}
+			add_trait = knight_lady_realm
+		}
+	}
+}
+
+# On action for giving a castle baron with the knightly virtues tenet the knight of the realm trait when they gain a barony or come of age
+wh_bretonnia_baron_knight = {
+	trigger = {
+		wh_bretonnia_castle_baron_trigger = yes
+		wh_bretonnia_auto_knight_trigger = yes
+	}
+	effect = {
+		add_trait = knight_lady_realm
 	}
 }

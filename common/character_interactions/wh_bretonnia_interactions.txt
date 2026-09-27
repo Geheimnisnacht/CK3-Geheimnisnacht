@@ -12,6 +12,8 @@ wh_bretonnia_send_on_errantry_interaction = {
 	is_shown = {
 		scope:actor = {
 			highest_held_title_tier >= tier_county
+			is_landed = yes
+			faith = { has_doctrine = tenet_knightly_virtues }
 		}
 		scope:recipient = {
 			is_courtier_of = scope:actor
