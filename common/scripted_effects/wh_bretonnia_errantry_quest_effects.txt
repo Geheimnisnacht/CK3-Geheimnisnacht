@@ -1,0 +1,90 @@
+﻿wh_bretonnia_errantry_quest_send_effect = {
+	save_scope_as = wh_errantry_quest_knight
+	add_trait = knight_lady_errant
+	add_character_flag = wh_on_errantry_quest
+	set_variable = {
+		name = wh_errantry_quest_home
+		value = scope:wh_errantry_quest_liege
+	}
+	custom_tooltip = wh_bretonnia_errantry_quest_send_tt
+	hidden_effect = {
+		wh_bretonnia_errantry_quest_move_to_host_effect = yes
+		trigger_event = {
+			id = wh_bretonnia_errantry_quest.0010
+			days = { 340 380 }
+		}
+		trigger_event = {
+			id = wh_bretonnia_errantry_quest.0020
+			days = { 365 1095 }
+		}
+	}
+}
+
+wh_bretonnia_errantry_quest_move_to_host_effect = {
+	save_scope_as = wh_errantry_quest_knight
+	random_ruler = {
+		limit = {
+			highest_held_title_tier >= tier_county
+			faith = { has_doctrine = tenet_knightly_virtues }
+			NOT = { this = scope:wh_errantry_quest_knight }
+			NOT = { scope:wh_errantry_quest_knight.host ?= this }
+			NOT = { scope:wh_errantry_quest_knight.var:wh_errantry_quest_home ?= this }
+			NOT = { is_at_war_with = scope:wh_errantry_quest_knight.var:wh_errantry_quest_home }
+		}
+		save_scope_as = wh_errantry_quest_host
+	}
+	if = {
+		limit = { exists = scope:wh_errantry_quest_host }
+		if = {
+			limit = {
+				is_foreign_court_or_pool_guest = no
+				liege ?= { is_ai = yes }
+			}
+			move_to_pool_at = scope:wh_errantry_quest_host.capital_province
+		}
+		scope:wh_errantry_quest_host = {
+			add_visiting_courtier = scope:wh_errantry_quest_knight
+		}
+	}
+}
+
+wh_bretonnia_errantry_quest_return_home_effect = {
+	save_scope_as = wh_errantry_quest_knight
+	if = {
+		limit = { is_foreign_court_guest = yes }
+		return_to_court = yes
+	}
+	else_if = {
+		limit = {
+			exists = var:wh_errantry_quest_home
+			var:wh_errantry_quest_home = {
+				is_alive = yes
+				is_ruler = yes
+			}
+		}
+		var:wh_errantry_quest_home = {
+			add_courtier = scope:wh_errantry_quest_knight
+		}
+	}
+	else_if = {
+		limit = {
+			dynasty.dynast ?= {
+				is_alive = yes
+				is_ruler = yes
+			}
+		}
+		dynasty.dynast = {
+			add_courtier = scope:wh_errantry_quest_knight
+		}
+	}
+}
+
+wh_bretonnia_errantry_quest_promote_effect = {
+	remove_trait = knight_lady_errant
+	add_trait_force_tooltip = knight_lady_realm
+}
+
+wh_bretonnia_errantry_quest_cleanup_effect = {
+	remove_character_flag = wh_on_errantry_quest
+	remove_variable = wh_errantry_quest_home
+}

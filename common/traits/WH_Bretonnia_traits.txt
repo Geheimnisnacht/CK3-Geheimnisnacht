@@ -178,6 +178,8 @@ knight_lady_grail = {
 	negate_health_penalty_add = 0.5
 	enemy_hostile_scheme_success_chance_add = -15
 	flag = lower_chance_of_dying_in_combat
+	flag = is_immortal
+	no_prowess_loss_from_age = yes
 
 	ai_zeal = 100
 	ai_honor = 100

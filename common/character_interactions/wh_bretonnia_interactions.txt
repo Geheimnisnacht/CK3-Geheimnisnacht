@@ -1,0 +1,148 @@
+﻿wh_bretonnia_send_on_errantry_interaction = {
+	icon = knight_lady_errant
+	category = interaction_category_vassal
+	interface_priority = 60
+
+	send_name = SEND_PROPOSAL
+	desc = wh_bretonnia_send_on_errantry_interaction_desc
+
+	cooldown_against_recipient = { years = 1 }
+
+	is_shown = {
+		scope:actor = {
+			highest_held_title_tier >= tier_county
+		}
+		scope:recipient = {
+			is_courtier_of = scope:actor
+			wh_bretonnia_errantry_quest_candidate_trigger = yes
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		scope:recipient = {
+			is_available_adult = yes
+		}
+	}
+
+	send_option = {
+		is_valid = {
+			scope:actor = {
+				has_usable_hook = scope:recipient
+			}
+		}
+		flag = hook
+		localization = SCHEME_HOOK
+	}
+	should_use_extra_icon = {
+		scope:actor = { has_usable_hook = scope:recipient }
+	}
+	extra_icon = "gfx/interface/icons/character_interactions/hook_icon.dds"
+
+	send_options_exclusive = no
+
+	auto_accept = {
+		custom_description = {
+			text = "spending_hook"
+			subject = scope:actor
+			object = scope:recipient
+			AND = {
+				always = scope:hook
+				scope:actor = { has_strong_hook = scope:recipient }
+			}
+		}
+	}
+
+	on_accept = {
+		if = {
+			limit = { always = scope:hook }
+			scope:actor = { use_hook = scope:recipient }
+		}
+		scope:actor = { save_scope_as = wh_errantry_quest_liege }
+		scope:recipient = {
+			wh_bretonnia_errantry_quest_send_effect = yes
+		}
+	}
+
+	ai_accept = {
+		base = 0
+
+		modifier = {
+			trigger = {
+				always = scope:hook
+			}
+			add = 100
+			desc = SCHEME_WEAK_HOOK_USED
+		}
+
+		opinion_modifier = {
+			opinion_target = scope:actor
+			multiplier = 0.5
+			step = 5
+			max = 25
+		}
+
+		modifier = {
+			add = 25
+			is_child_of = scope:actor
+			desc = AI_YOUR_CHILD
+		}
+
+		modifier = {
+			add = 20
+			has_education_martial_trigger = yes
+			desc = INTERACTION_MARTIAL_EDUCATION
+		}
+
+		ai_value_modifier = {
+			who = scope:recipient
+			ai_boldness = 0.5
+			ai_zeal = 0.5
+		}
+
+		modifier = {
+			add = 100
+			has_trait = brave
+			desc = INTERACTION_BRAVE
+		}
+
+		modifier = {
+			add = 25
+			has_trait = arrogant
+			desc = INTERACTION_ARROGANT
+		}
+
+		modifier = {
+			add = 25
+			has_trait = ambitious
+			desc = INTERACTION_AMBITIOUS
+		}
+
+		modifier = {
+			add = -1000
+			has_trait = craven
+			desc = INTERACTION_CRAVEN
+		}
+
+		modifier = {
+			add = -50
+			has_trait = content
+			desc = INTERACTION_CONTENT
+		}
+
+		modifier = {
+			add = -50
+			has_trait = humble
+			desc = INTERACTION_HUMBLE
+		}
+
+		modifier = {
+			add = -50
+			has_trait = lazy
+			desc = INTERACTION_LAZY
+		}
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}

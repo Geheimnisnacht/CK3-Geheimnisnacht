@@ -59,3 +59,33 @@ wh_bretonnia_errantry_tour_abandon = {
 		wh_bretonnia_errantry_tour_end_effect = { EVENT = wh_bretonnia_errantry.0110 }
 	}
 }
+
+yearly_playable_pulse = {
+	on_actions = {
+		wh_bretonnia_errantry_quest_pulse
+	}
+}
+
+on_title_gain = {
+	on_actions = {
+		wh_bretonnia_errantry_quest_title_gain
+	}
+}
+
+wh_bretonnia_errantry_quest_pulse = {
+	trigger = {
+		highest_held_title_tier >= tier_county
+		faith = { has_doctrine = tenet_knightly_virtues }
+	}
+	events = {
+		wh_bretonnia_errantry_quest.0001
+	}
+}
+
+wh_bretonnia_errantry_quest_title_gain = {
+	trigger = { has_character_flag = wh_on_errantry_quest }
+	effect = {
+		wh_bretonnia_errantry_quest_promote_effect = yes
+		wh_bretonnia_errantry_quest_cleanup_effect = yes
+	}
+}

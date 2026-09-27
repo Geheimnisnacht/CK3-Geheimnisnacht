@@ -1,0 +1,26 @@
+﻿wh_bretonnia_errantry_quest_candidate_trigger = {
+	is_adult = yes
+	is_ruler = no
+	exists = dynasty
+	NOT = { has_trait = knight_lady }
+	NOT = { has_character_flag = wh_on_errantry_quest }
+	NOT = { has_character_modifier = wh_bretonnia_unproven_noble }
+	faith = { has_doctrine = tenet_knightly_virtues }
+	OR = {
+		culture = { has_cultural_pillar = martial_custom_equal }
+		AND = {
+			is_male = yes
+			culture = { has_cultural_pillar = martial_custom_male_only }
+		}
+		AND = {
+			is_female = yes
+			culture = { has_cultural_pillar = martial_custom_female_only }
+		}
+	}
+}
+
+wh_bretonnia_errantry_quest_can_ask_trigger = {
+	is_available_adult = yes
+	NOT = { has_trait = craven }
+	NOT = { has_character_flag = wh_errantry_quest_refused }
+}

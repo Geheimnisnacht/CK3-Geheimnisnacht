@@ -1,0 +1,297 @@
+﻿namespace = wh_bretonnia_errantry_quest
+
+# Hidden event to find a courtier at a grail faith court who wants to ride out as a knight errant
+wh_bretonnia_errantry_quest.0001 = {
+	type = character_event
+	hidden = yes
+
+	trigger = {
+		NOT = { has_character_flag = wh_errantry_quest_recent_request }
+		any_courtier = {
+			wh_bretonnia_errantry_quest_candidate_trigger = yes
+			wh_bretonnia_errantry_quest_can_ask_trigger = yes
+		}
+	}
+
+	immediate = {
+		random_courtier = {
+			limit = {
+				wh_bretonnia_errantry_quest_candidate_trigger = yes
+				wh_bretonnia_errantry_quest_can_ask_trigger = yes
+			}
+			weight = {
+				base = 1
+				compare_modifier = {
+					value = martial
+					multiplier = 0.25
+				}
+				compare_modifier = {
+					value = prowess
+					multiplier = 0.5
+				}
+				modifier = {
+					add = 5
+					OR = {
+						has_trait = brave
+						has_trait = arrogant
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = zealous
+				}
+				modifier = {
+					add = 3
+					any_heir_title = { count = 0 }
+				}
+				modifier = {
+					add = -1
+					has_trait = content
+				}
+				modifier = {
+					add = -1
+					has_trait = lazy
+				}
+				modifier = {
+					add = 3
+					is_of_major_interest_to_root_trigger = yes
+				}
+				modifier = {
+					add = 2
+					is_of_minor_interest_to_root_trigger = yes
+				}
+				modifier = {
+					factor = 0.2
+					any_heir_title = {
+						holder ?= {
+							this = root
+							OR = {
+								age >= 60
+								health <= poor_health
+							}
+						}
+					}
+				}
+				modifier = {
+					factor = 0.2
+					root.primary_heir ?= this
+					root = {
+						NOT = { any_child = { count >= 2 } }
+					}
+				}
+			}
+			save_scope_as = wh_errantry_quest_knight
+		}
+		trigger_event = wh_bretonnia_errantry_quest.0002
+	}
+}
+
+# Event for the liege of a courtier who asks permission to ride out as a knight errant
+wh_bretonnia_errantry_quest.0002 = {
+	type = character_event
+	title = wh_bretonnia_errantry_quest.0002.t
+	desc = wh_bretonnia_errantry_quest.0002.desc
+	theme = martial
+
+	left_portrait = {
+		character = root
+		animation = war_over_tie
+	}
+
+	right_portrait = {
+		character = scope:wh_errantry_quest_knight
+		animation = personality_bold
+	}
+
+	trigger = {
+		scope:wh_errantry_quest_knight = {
+			is_courtier_of = root
+			wh_bretonnia_errantry_quest_candidate_trigger = yes
+		}
+	}
+
+	immediate = {
+		add_character_flag = {
+			flag = wh_errantry_quest_recent_request
+			years = 1
+		}
+		save_scope_as = wh_errantry_quest_liege
+	}
+
+	option = {
+		name = wh_bretonnia_errantry_quest.0002.a
+		scope:wh_errantry_quest_knight = {
+			wh_bretonnia_errantry_quest_send_effect = yes
+		}
+
+		ai_chance = {
+			base = 100
+		}
+	}
+
+	option = {
+		name = wh_bretonnia_errantry_quest.0002.b
+		scope:wh_errantry_quest_knight = {
+			add_opinion = {
+				target = root
+				modifier = angry_opinion
+				opinion = -20
+			}
+			hidden_effect = {
+				random_list = {
+					50 = {
+						add_character_flag = {
+							flag = wh_errantry_quest_refused
+							years = 2
+						}
+					}
+					50 = {
+						add_character_flag = {
+							flag = wh_errantry_quest_refused
+							years = 3
+						}
+					}
+				}
+			}
+		}
+
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 100
+				primary_heir ?= scope:wh_errantry_quest_knight
+				NOT = { any_child = { count >= 2 } }
+			}
+			modifier = {
+				add = 50
+				primary_heir ?= scope:wh_errantry_quest_knight
+				OR = {
+					age >= 60
+					health <= poor_health
+				}
+			}
+		}
+	}
+}
+
+# Hidden event giving the knight errant a yearly chance to move on to another grail faith court
+wh_bretonnia_errantry_quest.0010 = {
+	type = character_event
+	hidden = yes
+
+	trigger = { has_character_flag = wh_on_errantry_quest }
+
+	immediate = {
+		if = {
+			limit = { is_imprisoned = no }
+			random = {
+				chance = 50
+				wh_bretonnia_errantry_quest_move_to_host_effect = yes
+			}
+		}
+		trigger_event = {
+			id = wh_bretonnia_errantry_quest.0010
+			days = { 340 380 }
+		}
+	}
+}
+
+# Hidden event deciding whether the knight errant comes home a knight of the realm or dies on the quest
+wh_bretonnia_errantry_quest.0020 = {
+	type = character_event
+	hidden = yes
+
+	trigger = { has_character_flag = wh_on_errantry_quest }
+
+	immediate = {
+		save_scope_as = wh_errantry_quest_knight
+		if = {
+			limit = { is_imprisoned = yes }
+			trigger_event = {
+				id = wh_bretonnia_errantry_quest.0020
+				days = 30
+			}
+		}
+		else = {
+			duel = {
+				skills = { prowess martial }
+				value = medium_skill_rating
+				85 = {
+					compare_modifier = {
+						value = scope:duel_value
+						multiplier = 3
+						min = -84
+					}
+					wh_bretonnia_errantry_quest_return_home_effect = yes
+					wh_bretonnia_errantry_quest_promote_effect = yes
+					add_prestige = medium_prestige_gain
+					random = {
+						chance = 10
+						add_trait = scarred
+					}
+					wh_bretonnia_errantry_quest_cleanup_effect = yes
+					liege ?= {
+						trigger_event = wh_bretonnia_errantry_quest.0030
+					}
+				}
+				15 = {
+					compare_modifier = {
+						value = scope:duel_value
+						multiplier = -3
+						min = -14
+					}
+					if = {
+						limit = {
+							exists = var:wh_errantry_quest_home
+							var:wh_errantry_quest_home = { is_alive = yes }
+						}
+						var:wh_errantry_quest_home = {
+							trigger_event = wh_bretonnia_errantry_quest.0040
+						}
+					}
+					wh_bretonnia_errantry_quest_cleanup_effect = yes
+					death = { death_reason = death_fight }
+				}
+			}
+		}
+	}
+}
+
+# Event for the liege when their knight errant returns home a knight of the realm
+wh_bretonnia_errantry_quest.0030 = {
+	type = character_event
+	title = wh_bretonnia_errantry_quest.0030.t
+	desc = wh_bretonnia_errantry_quest.0030.desc
+	theme = martial
+
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	right_portrait = {
+		character = scope:wh_errantry_quest_knight
+		animation = personality_bold
+	}
+
+	option = {
+		name = wh_bretonnia_errantry_quest.0030.a
+	}
+}
+
+# Event for the liege when their knight errant dies on the quest
+wh_bretonnia_errantry_quest.0040 = {
+	type = character_event
+	title = wh_bretonnia_errantry_quest.0040.t
+	desc = wh_bretonnia_errantry_quest.0040.desc
+	theme = martial
+
+	left_portrait = {
+		character = root
+		animation = grief
+	}
+
+	option = {
+		name = wh_bretonnia_errantry_quest.0040.a
+	}
+}
