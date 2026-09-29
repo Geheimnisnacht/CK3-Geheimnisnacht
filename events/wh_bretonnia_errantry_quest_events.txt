@@ -113,7 +113,7 @@ wh_bretonnia_errantry_quest.0002 = {
 	immediate = {
 		add_character_flag = {
 			flag = wh_errantry_quest_recent_request
-			years = 1
+			years = 2
 		}
 		save_scope_as = wh_errantry_quest_liege
 	}
@@ -216,29 +216,42 @@ wh_bretonnia_errantry_quest.0020 = {
 			duel = {
 				skills = { prowess martial }
 				value = medium_skill_rating
-				85 = {
+				75 = {
 					compare_modifier = {
 						value = scope:duel_value
 						multiplier = 3
-						min = -84
+						min = -74
 					}
 					wh_bretonnia_errantry_quest_return_home_effect = yes
 					wh_bretonnia_errantry_quest_promote_effect = yes
 					add_prestige = medium_prestige_gain
 					random = {
 						chance = 10
-						add_trait = scarred
+						random_list = {
+							85 = {
+								add_trait = scarred
+							}
+							5 = {
+								add_trait = one_eyed
+							}
+							5 = {
+								add_trait = maimed
+							}
+							5 = {
+								add_trait = one_legged
+							}
+						}
 					}
 					wh_bretonnia_errantry_quest_cleanup_effect = yes
 					liege ?= {
 						trigger_event = wh_bretonnia_errantry_quest.0030
 					}
 				}
-				15 = {
+				25 = {
 					compare_modifier = {
 						value = scope:duel_value
 						multiplier = -3
-						min = -14
+						min = -24
 					}
 					if = {
 						limit = {
@@ -246,11 +259,17 @@ wh_bretonnia_errantry_quest.0020 = {
 							var:wh_errantry_quest_home = { is_alive = yes }
 						}
 						var:wh_errantry_quest_home = {
-							trigger_event = wh_bretonnia_errantry_quest.0040
+							save_scope_as = wh_errantry_quest_home_liege
 						}
 					}
 					wh_bretonnia_errantry_quest_cleanup_effect = yes
 					death = { death_reason = death_fight }
+					if = {
+						limit = { exists = scope:wh_errantry_quest_home_liege }
+						scope:wh_errantry_quest_home_liege = {
+							trigger_event = wh_bretonnia_errantry_quest.0040
+						}
+					}
 				}
 			}
 		}
@@ -289,6 +308,11 @@ wh_bretonnia_errantry_quest.0040 = {
 	left_portrait = {
 		character = root
 		animation = grief
+	}
+
+	right_portrait = {
+		character = scope:wh_errantry_quest_knight
+		animation = dead
 	}
 
 	option = {

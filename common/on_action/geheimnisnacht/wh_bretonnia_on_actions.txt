@@ -80,6 +80,7 @@ wh_bretonnia_errantry_quest_pulse = {
 	trigger = {
 		highest_held_title_tier >= tier_county
 		is_landed = yes
+		NOT = { has_global_variable = wh_errantry_quest_grace_period }
 		faith = { has_doctrine = tenet_knightly_virtues }
 	}
 	events = {
@@ -101,7 +102,7 @@ on_game_start = {
 	}
 }
 
-# On action for giving landed nobles with the knightly virtues tenet the knight of the realm trait at game start
+# On action for giving landed nobles with the knightly virtues tenet the knight of the realm trait at game start, and starting the errantry quest ask grace period
 wh_bretonnia_game_start_knights = {
 	effect = {
 		every_ruler = {
@@ -113,6 +114,11 @@ wh_bretonnia_game_start_knights = {
 				wh_bretonnia_auto_knight_trigger = yes
 			}
 			add_trait = knight_lady_realm
+		}
+		set_global_variable = {
+			name = wh_errantry_quest_grace_period
+			value = yes
+			years = 1
 		}
 	}
 }
