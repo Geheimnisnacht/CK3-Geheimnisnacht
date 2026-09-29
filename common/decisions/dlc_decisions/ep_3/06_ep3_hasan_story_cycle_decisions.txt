@@ -71,7 +71,7 @@
 # 	}
 
 # 	ai_potential = { 
-# 		# this = character:41702 #LotR
+# 		# this = character:41702 #WHG
 # 	}
 
 # 	ai_will_do = {
@@ -104,7 +104,7 @@
 # 			story_type = story_hasan
 # 			var:ultimate_foe ?= root.location.county.holder.top_liege
 # 		}
-# 		always = no #LotR
+# 		always = no #WHG
 # 	}
 
 # 	is_valid = {
@@ -170,7 +170,7 @@
 # 	}
 
 # 	ai_potential = { 
-# 		# this = character:41702 #LotR
+# 		# this = character:41702 #WHG
 # 	}
 
 # 	ai_will_do = {
@@ -203,7 +203,7 @@
 # 			var:ultimate_foe ?= root.location.county.holder.top_liege
 # 		}
 # 		is_at_war = no
-# 		always = no #LotR
+# 		always = no #WHG
 # 	}
 
 # 	is_valid = {
@@ -272,7 +272,7 @@
 # 			NOT = { exists = var:assassins }
 # 		}
 # 		is_landed = no
-# 		# faith = faith:nizari #LotR
+# 		# faith = faith:nizari #WHG
 # 		NOT = {
 # 			has_character_flag = founded_assassins_already
 # 		}
@@ -357,7 +357,7 @@
 # 			scope:holy_order ?= {
 # 				title = { set_title_name = holy_order_hashshashin }
 # 			}
-# 			# root.location.barony.title_province = { add_special_building_slot = alamut_castle_01 } #LotR
+# 			# root.location.barony.title_province = { add_special_building_slot = alamut_castle_01 } #WHG
 # 			random_owned_story = {
 # 				limit = { story_type = story_hasan }
 # 				set_variable = {
@@ -367,13 +367,13 @@
 # 			}
 # 			add_character_flag = founded_assassins_already
 # 		}
-# 		# root.location.barony.title_province = { add_special_building = alamut_castle_01 } #LotR
+# 		# root.location.barony.title_province = { add_special_building = alamut_castle_01 } #WHG
 # 		add_intrigue_skill = 2
 # 		give_nickname = nick_old_man_of_the_mountain
 # 	}
 
 # 	ai_potential = { 
-# 		# this = character:41702 #LotR
+# 		# this = character:41702 #WHG
 # 	}
 
 # 	ai_will_do = {
@@ -406,8 +406,8 @@
 # 		}
 # 		root.location.barony = { is_leased_out = no }
 # 		is_landed = no
-# 		# faith = faith:nizari #LotR
-# 		always = no #LotR
+# 		# faith = faith:nizari #WHG
+# 		always = no #WHG
 # 	}
 
 # 	is_valid = {
@@ -459,7 +459,7 @@
 # 	}
 
 # 	ai_potential = { 
-# 		# this = character:41702 #LotR
+# 		# this = character:41702 #WHG
 # 	}
 
 # 	ai_will_do = {
