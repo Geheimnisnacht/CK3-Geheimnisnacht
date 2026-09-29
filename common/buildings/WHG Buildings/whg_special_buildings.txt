@@ -159,3 +159,161 @@ altdorf_palace_03 = {
 		}
 	}
 }
+
+dietershafen_harbour_01 = {
+	construction_time = slow_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		building_requirement_tribal = no
+	}
+
+	can_construct_showing_failures_only = {		
+		culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+
+	show_disabled = yes
+	
+
+	cost_gold = expensive_building_tier_3_cost
+
+	province_modifier = {
+		supply_limit = normal_building_supply_limit_tier_1
+		defender_holding_advantage = normal_building_advantage_tier_1
+		monthly_income = 2.5
+		hostile_raid_time = 0.25
+		garrison_size = 0.50
+	}
+
+	county_modifier = {
+		tax_mult = 0.10
+		development_growth_factor = 0.05
+	}
+
+	character_modifier = {
+		embarkation_cost_mult = -0.10
+		naval_movement_speed_mult = 0.10
+		parochial_opinion = 5
+	}
+
+	next_building = dietershafen_harbour_02
+
+	type_icon = "icon_building_tradeport.dds"
+	type = special
+	flag = travel_point_of_interest_economic
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+
+}
+
+dietershafen_harbour_02 = {
+	construction_time = slow_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		building_requirement_tribal = no
+	}
+
+	can_construct_showing_failures_only = {		
+		culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+
+	cost_gold = expensive_building_tier_4_cost
+
+	province_modifier = {
+		supply_limit = normal_building_supply_limit_tier_1
+		defender_holding_advantage = normal_building_advantage_tier_2
+		monthly_income = 3.5
+		hostile_raid_time = 0.35
+		garrison_size = 0.50
+	}
+
+	county_modifier = {
+		tax_mult = 0.12
+		development_growth_factor = 0.05
+	}
+
+	character_modifier = {
+		embarkation_cost_mult = -0.15
+		naval_movement_speed_mult = 0.15
+		parochial_opinion = 10
+	}
+
+	next_building = dietershafen_harbour_03
+
+	type = special
+	flag = travel_point_of_interest_economic
+	
+	type_icon = "icon_building_tradeport.dds"
+
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+
+}
+
+dietershafen_harbour_03 = {
+	construction_time = slow_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		building_requirement_tribal = no
+	}
+
+	can_construct_showing_failures_only = {		
+		culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+
+	cost_gold = expensive_building_tier_4_cost
+
+	province_modifier = {
+		supply_limit = normal_building_supply_limit_tier_2
+		defender_holding_advantage = normal_building_advantage_tier_3
+		fort_level = good_building_fort_level_tier_1
+		monthly_income = 5.5
+		hostile_raid_time = 0.35
+		garrison_size = 0.75
+	}
+
+	county_modifier = {
+		tax_mult = 0.15
+		development_growth_factor = 0.075
+	}
+
+	character_modifier = {
+		embarkation_cost_mult = -0.25
+		naval_movement_speed_mult = 0.25
+		parochial_opinion = 15
+		court_grandeur_baseline_add = 5
+	}
+	
+	type = special
+	flag = travel_point_of_interest_economic
+	
+	type_icon = "icon_building_tradeport.dds"
+
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+
+}

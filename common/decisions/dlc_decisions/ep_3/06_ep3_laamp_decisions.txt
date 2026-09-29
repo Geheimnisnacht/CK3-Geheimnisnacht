@@ -20,7 +20,7 @@ become_landless_adventurer_decision = {
 		}
 		reference = "gfx/interface/illustrations/decisions/tgp_dominance.dds"
 	}
-	#picture = { #LotR
+	#picture = { #WHG
 	#	trigger = {
 	#		OR = {
 	#			culture = { has_graphical_east_asia_culture_group_trigger = yes }
@@ -235,7 +235,7 @@ become_landless_adventurer_decision = {
 			factor = 0
 			OR = {
 				#Stahp it, John de Courcy
-				# this = character:214000 #LotR
+				# this = character:214000 #WHG
 				#No adventurer should want to be one again... right?
 				has_variable = adventurer_creation_reason
 			}

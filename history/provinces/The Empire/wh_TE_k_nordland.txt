@@ -144,6 +144,13 @@
 	culture = nordlander
 	religion = manannite
 	holding = castle_holding
+	special_building_slot = dietershafen_harbour_01
+	special_building = dietershafen_harbour_01
+	buildings = {
+		castle_02
+		curtain_walls_01
+		common_tradeport_01
+	}
 }
 
 685 = {	# Zweedorf

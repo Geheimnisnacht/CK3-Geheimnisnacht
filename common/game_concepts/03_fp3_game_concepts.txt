@@ -1,4 +1,4 @@
-﻿#kindle_royal_fire_decision = { #LOTR
+﻿#kindle_royal_fire_decision = { #WHG
 #	parent = decision
 #}
 #

@@ -4,7 +4,14 @@
 	culture = reiklander
 	religion = sigmarite
 	holding = castle_holding
+	special_building_slot = altdorf_palace_01
 	special_building = altdorf_palace_01
+	buildings = {
+		castle_02
+		curtain_walls_02
+		farm_estates_02
+		altdorf_palace_01
+	}
 }
 
 

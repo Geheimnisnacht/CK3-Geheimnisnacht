@@ -286,7 +286,7 @@ natural_disaster_ruler_start_effect = {
 			}
 		}
 	}
-	# tgp_activate_catalyst_against_hegemon_effect = { #LotR
+	# tgp_activate_catalyst_against_hegemon_effect = { #WHG
 	# 	HEGEMON = scope:ruler.top_liege
 	# 	CATALYST = catalyst_hegemon_natural_disaster
 	# }
@@ -550,10 +550,10 @@ natural_disaster_death_damage_roll_effect = {
 	every_situation_county = {
 		every_county_province = {
 			every_character_in_location = {
-				limit = {  #LOTR
+				limit = {  #WHG TODO
 					cannot_be_killed = no 
-					is_elf = no
-					lotr_canon_safe_from_harm_trigger = no
+					# is_elf = no
+					# lotr_canon_safe_from_harm_trigger = no
 				}
 				add_to_list = killable_characters
 			}

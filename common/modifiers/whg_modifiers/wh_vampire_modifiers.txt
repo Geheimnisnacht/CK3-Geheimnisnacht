@@ -1,0 +1,11 @@
+﻿wh_pass_as_human_modifier = {
+	icon = diplomacy_positive
+	diplomacy = 1
+	intrigue = 3
+	owned_scheme_secrecy_add = 3
+
+}
+
+# wh_pass_as_beast_modifier = { #WHG TODO needed?
+# 	icon = negative_positive
+# }

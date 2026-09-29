@@ -155,7 +155,7 @@ KnightCulture = {
 	text = { #Fidalgo
 		trigger = {
 			culture = culture:galice
-			culture = culture:tigaresse
+			culture = culture:tigarrese
 		}
 		localization_key = knight_estalian_galice
 	}

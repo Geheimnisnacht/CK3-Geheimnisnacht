@@ -21,7 +21,7 @@ hold_triumph_decision = {
 
 	is_shown = {
 		has_ep3_dlc_trigger = yes
-		# OR = { #LotR
+		# OR = { #WHG
 		# 	has_title = title:e_byzantium
 		# 	has_title = title:e_roman_empire
 		# }
@@ -30,7 +30,7 @@ hold_triumph_decision = {
 
 	is_valid = {
 		is_at_war = no
-		# OR = { #LotR
+		# OR = { #WHG
 		# 	has_title = title:e_byzantium
 		# 	has_title = title:e_roman_empire
 		# }
@@ -261,10 +261,10 @@ hold_triumph_decision = {
 # 	is_shown = {
 # 		has_ep3_dlc_trigger = yes
 # 		has_multiple_players = no
-# 		# title:c_byzantion = { #LotR
+# 		# title:c_byzantion = { #WHG
 # 		# 	holder = root
 # 		# }
-# 		always = no #LotR
+# 		always = no #WHG
 # 		# culture = {
 # 		# 	OR = {
 # 		# 		this = culture:greek
@@ -362,8 +362,8 @@ hold_triumph_decision = {
 
 # 	is_shown = {
 # 		has_ep3_dlc_trigger = yes
-# 		# has_title = title:e_byzantium #LotR
-# 		always = no #LotR
+# 		# has_title = title:e_byzantium #WHG
+# 		always = no #WHG
 # 		NOT = {
 # 			is_target_in_global_variable_list = {
 # 				name = unavailable_unique_decisions
@@ -375,7 +375,7 @@ hold_triumph_decision = {
 # 	is_valid = {
 # 		government_has_flag = government_is_administrative
 # 		# completely_controls_region = custom_theodosian_ere
-# 		# custom_tooltip = { #LotR
+# 		# custom_tooltip = { #WHG
 # 		# 	text = eastern_kingdoms_held_or_vassals_tt
 # 		# 	trigger_if = {
 # 		# 		limit = {
@@ -491,7 +491,7 @@ hold_triumph_decision = {
 # 	}
 
 # 	ai_potential = {
-# 		# has_title = title:e_byzantium #LotR
+# 		# has_title = title:e_byzantium #WHG
 # 		is_at_war = no
 # 		NOT = { exists = involved_activity }
 # 		is_imprisoned = no
@@ -517,7 +517,7 @@ hold_triumph_decision = {
 
 # 	is_shown = {
 # 		has_ep3_dlc_trigger = yes
-# 		# has_title = title:e_byzantium #LotR
+# 		# has_title = title:e_byzantium #WHG
 # 		NOR = {
 # 			# the pandidakterion was created by the player
 # 			is_target_in_global_variable_list = {
@@ -525,14 +525,14 @@ hold_triumph_decision = {
 # 				target = flag:refound_pandidakterion_decision
 # 			}
 # 			# the pandidakterion already existed at game start
-# 			# title:c_byzantion = { has_county_modifier = pandidakterion_university_modifier } #LotR
+# 			# title:c_byzantion = { has_county_modifier = pandidakterion_university_modifier } #WHG
 # 		}
-# 		always = no #LotR
+# 		always = no #WHG
 # 	}
 
 # 	is_valid = {
 # 		government_has_flag = government_is_administrative
-# 		# custom_tooltip = {#LotR
+# 		# custom_tooltip = {#WHG
 # 		# 	text = pandidakterion_tt
 # 		# 	any_sub_realm_county = {
 # 		# 		this = title:c_byzantion #owns Constantinople
@@ -554,7 +554,7 @@ hold_triumph_decision = {
 # 	}
 
 # 	effect = {
-# 		# title:c_byzantion = { add_county_modifier = pandidakterion_university_modifier } #LotR
+# 		# title:c_byzantion = { add_county_modifier = pandidakterion_university_modifier } #WHG
 # 		found_university_decision_event_effect = yes
 # 		#Can only be done once
 # 		add_to_global_variable_list = {
@@ -567,7 +567,7 @@ hold_triumph_decision = {
 # 	}
 
 # 	ai_potential = {
-# 		# has_title = title:e_byzantium #LotR
+# 		# has_title = title:e_byzantium #WHG
 # 		gold > 1000
 # 	}
 
@@ -851,7 +851,7 @@ evangelize_the_slavs_decision = {
 
 	desc = evangelize_the_slavs_decision_desc
 	selection_tooltip = evangelize_the_slavs_decision_tooltip
-	decision_group_type = major # LOTR
+	decision_group_type = major # WHG
 
 	cooldown = { years = 10 }
 
@@ -957,7 +957,7 @@ evangelize_the_slavs_decision = {
 
 # 	is_shown = {
 # 		has_dlc_feature = roads_to_power
-# 		# NOR = { #LotR
+# 		# NOR = { #WHG
 # 		# 	exists = title:e_byzantium.holder
 # 		# 	exists = title:e_roman_empire.holder
 # 		# }
@@ -1491,7 +1491,7 @@ evangelize_the_slavs_decision = {
 # }
 
 change_state_faith = {
-	# picture = { #LotR
+	# picture = { #WHG
 	# 	trigger = {
 	# 		NOR = {
 	# 			government_has_flag = government_is_tribal
@@ -1746,7 +1746,7 @@ change_state_faith = {
 }
 
 adopt_state_faith = {
-	# picture = { #LotR
+	# picture = { #WHG
 	# 	trigger = {
 	# 		NOR = {
 	# 			government_has_flag = government_is_tribal
@@ -2170,7 +2170,7 @@ commission_icon_decision = {
 	is_shown = {
 		has_dlc_feature = roads_to_power
 		is_landed_or_landless_administrative = yes
-		# OR = { #LotR
+		# OR = { #WHG
 		# 	faith = faith:orthodox
 		# 	faiths_are_in_orthodox_christianity_group = { FAITH_1 = faith:orthodox FAITH_2 = root.faith }
 		# }
@@ -2411,7 +2411,7 @@ embrace_heresy_decision = {
 		top_liege ?= { is_ai = yes }
 		top_liege.primary_title.state_faith ?= {
 			OR = {
-				# NOT = { has_doctrine = eastern_hostility_doctrine } #LotR
+				# NOT = { has_doctrine = eastern_hostility_doctrine } #WHG
 				has_doctrine = heresy_hostility_doctrine #Zoroastrians also get heresies, despite being Eastern.
 			}
 		}
@@ -2490,7 +2490,7 @@ push_heresy_as_state_faith = {
 		top_liege ?= { is_ai = yes }
 		top_liege.primary_title.state_faith ?= {
 			OR = {
-				# NOT = { has_doctrine = eastern_hostility_doctrine } #LotR
+				# NOT = { has_doctrine = eastern_hostility_doctrine } #WHG
 				has_doctrine = heresy_hostility_doctrine #Zoroastrians also get heresies, despite being Eastern.
 			}
 		}
@@ -2575,7 +2575,7 @@ establish_silk_production_decision = {
 		domicile ?= {
 			is_domicile_type = estate
 		}
-		# top_liege ?= { #LotR
+		# top_liege ?= { #WHG
 		# 	OR = {
 		# 		primary_title = title:e_byzantium
 		# 		primary_title = title:e_roman_empire
@@ -2591,7 +2591,7 @@ establish_silk_production_decision = {
 	is_valid = {
 		trigger_if = {
 			limit = { is_independent_ruler = yes }
-			# OR = { #LotR
+			# OR = { #WHG
 			# 	has_title = title:e_byzantium
 			# 	has_title = title:e_roman_empire
 			# }

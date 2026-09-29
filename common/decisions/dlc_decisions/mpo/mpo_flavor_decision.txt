@@ -16,7 +16,7 @@ mpo_pleasure_dome_decision = {
         }
         NOT = { has_global_variable = devised_pleasure_dome }
         culture = {
-            #OR = { #LOTR
+            #OR = { #WHG
             #    has_cultural_pillar = heritage_mongolic
             #    has_cultural_pillar = heritage_turkic
             #}

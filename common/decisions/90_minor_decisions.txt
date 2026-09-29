@@ -6,11 +6,11 @@
 ### Recruit for a Court Position ###
 recruit_court_position_decision = {
 	ai_check_interval = 0
-	#picture = { # LotR
+	#picture = { # WHG
 	#	trigger = { culture = { has_graphical_east_asia_culture_group_trigger = yes } }
 	#	reference = "gfx/interface/illustrations/decisions/tgp_scholars.dds"
 	#}
-	#picture = { # LotR
+	#picture = { # WHG
 	#	trigger = { culture = { has_graphical_india_culture_group_trigger = yes } }
 	#	reference = "gfx/interface/illustrations/decisions/hindu_religious.dds"
 	#}
