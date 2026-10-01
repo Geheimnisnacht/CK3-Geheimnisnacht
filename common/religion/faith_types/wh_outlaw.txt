@@ -1,0 +1,31 @@
+﻿outlaw = { #WHG TODO
+	main_rite = stromfels
+	faith_details = {
+		religion = outlaw_pantheon_religion
+		color = { 0.4 0.4 0.5 }
+		icon = "stormfels.dds"
+		reformed_icon = "stormfels.dds"
+		graphical_faith = "pagan_gfx"
+	}
+
+	eminent_holy_sites = {
+		sartosa_pirate
+	}
+
+	holy_sites = {
+		mount_ertinia
+		remas
+	}
+
+	tenets = {
+		tenet_piracy
+		tenet_astrology
+		tenet_human_sacrifice
+	}
+
+	doctrines = {
+		special_doctrine_ecumenical_old_world
+		stromfels_doctrine
+	}
+
+}

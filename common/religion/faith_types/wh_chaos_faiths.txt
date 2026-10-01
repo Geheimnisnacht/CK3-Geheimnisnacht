@@ -1,0 +1,149 @@
+﻿slaanesh = {
+	main_rite = slaaneshi_kurgan # WHG TODO
+	faith_details = {
+		religion =  slaanesh_religion
+		color = { 0.7 0.2 0.8 }
+		icon = "slaneesh-base.dds"
+		reformed_icon = "slaneesh-base.dds"
+		graphical_faith = "pagan_gfx"
+	}
+
+	# eminent_holy_sites = {
+
+	# }
+
+	# holy_sites = {
+
+	# }
+	tenets = {
+		tenet_slaanesh
+		tenet_carnal_exaltation
+		tenet_hedonistic
+	}
+
+	doctrines = {
+		chaos_hostility_doctrine
+	}
+
+}
+
+
+khorne = {
+	main_rite = khornate_kurgan #WHG TODO
+	faith_details = {
+		religion =  khorne_religion
+		color = { 0.6 0.0 0.0 }
+		icon = "khorne-base.dds"
+		reformed_icon = "khorne-base.dds"
+		graphical_faith = "pagan_gfx"
+	}
+
+	# eminent_holy_sites = {
+
+	# }
+
+	# holy_sites = {
+
+	# }
+	
+	tenets = {
+		tenet_khorne
+		tenet_human_sacrifice
+		tenet_warmonger
+	}
+
+	doctrines = {
+		chaos_hostility_doctrine
+	}
+
+}
+
+
+nurgle = {
+	main_rite = nurglite_kurgan #WHG TODO
+	faith_details = {
+		religion = nurgle_religion
+		color = { 0.7 1.0 0.2 }
+		icon = "nurgle-base.dds"
+		reformed_icon = "nurgle-base.dds"
+		graphical_faith = "pagan_gfx"
+	}
+
+	# eminent_holy_sites = {
+
+	# }
+
+	# holy_sites = {
+
+	# }
+
+	tenets = {
+		tenet_nurgle
+		tenet_asceticism
+		tenet_ritual_hospitality
+	}
+
+	doctrines = {
+		chaos_hostility_doctrine
+	}
+
+}
+
+
+tzeentch = {
+	main_rite = tzeentchian_kurgan
+	faith_details = {
+		religion = tzeentch_religion
+		color = { 0.1 0.9 1.0 }
+		icon = "tzeentch-base.dds"
+		reformed_icon = "tzeentch-base.dds"
+		graphical_faith = "pagan_gfx"
+	}
+
+	# eminent_holy_sites = {
+
+	# }
+
+	# holy_sites = {
+
+	# }
+	
+	tenets = {	
+		tenet_tzeentch
+		tenet_esotericism
+		tenet_pursuit_of_power
+	}
+
+	doctrines = {
+		chaos_hostility_doctrine
+	}
+
+}
+
+
+undivided = {
+	main_rite = undivided_kurgan
+	faith_details = {
+		religion = undivided_religion
+		color = { 51 26 26 }
+		icon = "chaos-undivided.dds"
+		reformed_icon = "chaos-undivided.dds"
+		graphical_faith = "pagan_gfx"
+	}
+
+	# eminent_holy_sites = {
+
+	# }
+
+	# holy_sites = {
+
+	# }
+	tenets = {
+
+	}
+
+	doctrines = {
+		chaos_hostility_doctrine
+	}
+
+}

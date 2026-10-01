@@ -1,0 +1,120 @@
+﻿#arabyan_gods = {
+#	color = { 1.0 1.0 0.3 }
+#	#icon = 
+
+	#holy_site = al_haikk
+#	#holy_site = martek
+#	#holy_site = lashiek
+#	#holy_site = istrabul
+#	#holy_site = sartosa
+
+#	#doctrine = 
+#	#doctrine = 
+#	#doctrine = 
+#}
+ormazdic = {
+	name = ormazdic
+	desc = ormazdic_desc
+	faith = arabyan
+	color = { 1.0 1.0 0.3 }
+	icon = "placeholder.dds"
+
+	
+	#holy_site = al_haikk
+	#holy_site = martek
+	#holy_site = lashiek
+	#holy_site = istrabul
+	#holy_site = sartosa
+	
+	tenets = {
+		tenet_aniconism
+		tenet_legalism
+		tenet_divine_marriage
+	}
+	
+	doctrines = {
+		doctrine_pluralism_fundamentalist
+		doctrine_temporal_head
+		doctrine_clerical_gender_male_only
+		
+	}
+
+
+}
+
+#kitabid = {
+#	color = { 1.0 1.0 0.5 }
+#	#icon = 
+
+#	doctrine_pluralism_fundamentalist
+#	doctrine = doctrine_clerical_gender_male_only
+
+#	#holy_site = al_haikk
+#	#holy_site = martek
+#	#holy_site = lashiek
+#	#holy_site = istrabul
+#	#holy_site = sartosa
+
+#	doctrine = tenet_aniconism
+#	doctrine = tenet_literalism
+#	doctrine = tenet_divine_marriage
+#}
+#
+#atruhayid = {
+#	color = { 0.7 0.6 0.7 }
+#	#icon = 
+
+#	doctrine = doctrine_witchcraft_accepted
+#	doctrine = doctrine_consanguinity_cousins
+#	doctrine = doctrine_pluralism_pluralistic
+
+#	#holy_site = copher
+#	#holy_site = lashiek
+#	#holy_site = nabat
+#	#holy_site = bel_aliad
+#	#holy_site = sartosa
+
+#	doctrine = tenet_piracy
+#	doctrine = tenet_unrelenting_faith
+#	doctrine = tenet_esotericism
+#}
+#
+#akghan = {
+#	color = { 0.7 0.8 0.1 }
+#	#icon = 
+
+#	doctrine = doctrine_witchcraft_accepted
+#	doctrine = doctrine_consanguinity_cousins
+#	doctrine = doctrine_pluralism_pluralistic
+#	doctrine = doctrine_theocracy_temporal
+#	doctrine = doctrine_spiritual_head
+#	doctrine = doctrine_clerical_succession_spiritual_fixed_appointment
+
+#	#holy_site = al_anaim
+#	#holy_site = olohrad
+#	#holy_site = gwingui
+#	#holy_site = tlanqua
+#	#holy_site = obalhan
+
+#	doctrine = tenet_adorcism
+#	doctrine = tenet_adaptive
+#	doctrine = tenet_esotericism
+#}
+#
+#shadowmen = {
+#	color = { 0.0 0.0 0.4 }
+#	#icon = 
+
+#	doctrine = doctrine_pluralism_fundamentalist
+#	doctrine = doctrine_temporal_head
+
+#	#holy_site = al_anaim
+#	#holy_site = olohrad
+#	#holy_site = gwingui
+#	#holy_site = tlanqua
+#	#holy_site = obalhan
+
+#	doctrine = tenet_vampires
+#	doctrine = tenet_esotericism
+#	doctrine = tenet_adorcism
+#}

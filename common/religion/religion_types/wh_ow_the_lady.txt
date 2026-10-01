@@ -45,17 +45,18 @@
 	#Coronation tradition
 	doctrine = doctrine_imperial_anointment
 
+
 	traits = {
 		virtues = {
-			brave
-			chaste
-			temperate
-			knight_lady
+			brave = { weight = 30 scale = 1 }
+			chaste = { weight = 20 scale = 1 }
+			temperate = { weight = 30 scale = 1 }
+			knight_lady = { weight = 30 scale = 1 }
 		}
-		sins = {  
-			craven
-			greedy
-			lustful
+		sins = {
+			craven = { weight = 20 scale = 1 }
+			greedy = { weight = 20 scale = 1 }
+			lustful = { weight = 20 scale = 1 }
 		}
 	}
 
@@ -240,179 +241,4 @@
 		GHWNamePlural = ghw_great_holy_wars
 	}
 	
-	faiths = {
-		bloody_grail = {
-			color = { 161 48 48 }
-			icon = "bloody_grail.dds"
-			#religious_head = 
-
-			doctrine = bloody_grail_doctrine
-			
-			doctrine = doctrine_clerical_function_recruitment
-			doctrine = doctrine_kinslaying_accepted
-
-			#Magic
-			#doctrine = doctrine_necromancy_magic_accepted
-			#doctrine = doctrine_dhar_magic_accepted
-			#doctrine = doctrine_vampirism_virtue
-			#doctrine = doctrine_lore_necromancy
-
-			holy_site = bastonne
-			holy_site = montlac
-			holy_site = chalons
-			holy_site = mousillon
-			#holy_site = blood_keep
-
-			doctrine = tenet_vampires
-			doctrine = tenet_empowered_knights
-			doctrine = tenet_knightly_virtues
-            
-			localization = {
-				HighGodName = bloody_grail_high_god_name
-				HighGodName2 = bloody_grail_high_god_name2
-				HighGodNamePossessive = bloody_grail_high_god_name_possessive
-				HighGodNameAlternate = bloody_grail_high_god_alternative
-				HighGodNameAlternatePossessive = bloody_grail_high_god_alternative_possessive
-				ReligiousHeadName = bloody_grail_religious_head_title
-				
-				ReligiousSymbol = bloody_grail_religious_symbol
-				ReligiousSymbol2 = bloody_grail_religious_symbol2
-				ReligiousSymbol3 = bloody_grail_religious_symbol3
-            }
-		}
-		grail = {
-			color = { 0.2 0.7 0.9 }
-			icon = "grail.dds"
-			religious_head = k_cult_of_the_lady
-
-			doctrine = special_doctrine_ecumenical_old_world
-			doctrine = grail_doctrine
-
-			holy_site = chalons			#Isle de Lys
-			holy_site = montlac			#Chapel of the Enchantress
-			holy_site = bastonne		#Water Tower of Gilles
-			#holy_site = silverspire	#TODO
-
-
-			doctrine = tenet_empowered_knights
-			doctrine = tenet_knightly_virtues
-			doctrine = tenet_armed_pilgrimages
-
-			holy_order_names = {
-				{ name = "holy_order_lily_knights" coat_of_arms = "ho_lily_knights" }
-				{ name = "holy_order_lady_knights" coat_of_arms = "ho_lady_knights" }
-				{ name = "holy_order_lambard_knights" coat_of_arms = "ho_lambard_knights" }
-			}
-			
-		}
-		fey_grail = {
-			color = { 0 90 40 }
-			icon = "fey_grail.dds"
-			religious_head = k_cult_of_the_lady
-
-			doctrine = special_doctrine_ecumenical_old_world
-			doctrine = grail_doctrine
-
-			holy_site = bastonne
-			holy_site = montlac
-			holy_site = chalons
-
-			doctrine = tenet_empowered_knights
-			doctrine = tenet_knightly_virtues
-			doctrine = tenet_sanctity_of_nature
-		}
-		
-		mousillonite_grail = { #think that Landuin should have been First king
-			color = { 15 90 120 }
-			icon = "mousion_grail.dds"
-
-			doctrine = grail_doctrine
-
-			holy_site = montlac
-			holy_site = chalons
-			holy_site = mousillon
-
-			doctrine = tenet_empowered_knights
-			doctrine = tenet_knightly_virtues
-			doctrine = tenet_pursuit_of_power
-		}
-		
-		waves_grail = { #Coastal Grail, mostly centered on Bordeleaux
-			color = { 15 95 205 }
-			icon = "lady_of_waves.dds"
-			religious_head = k_cult_of_the_lady
-
-			doctrine = special_doctrine_ecumenical_old_world
-			doctrine = grail_doctrine
-
-			holy_site = bastonne
-			holy_site = bordeleaux
-			holy_site = montlac
-			holy_site = chalons
-
-			doctrine = tenet_empowered_knights
-			doctrine = tenet_knightly_virtues
-			doctrine = tenet_armed_pilgrimages
-			
-			localization = {
-				HighGodName = waves_grail_high_god_name
-				HighGodName2 = waves_grail_high_god_name2
-				HighGodNamePossessive = waves_grail_high_god_name_possessive
-				
-				ReligiousSymbol = waves_grail_religious_symbol
-				ReligiousSymbol2 = waves_grail_religious_symbol2
-				ReligiousSymbol3 = waves_grail_religious_symbol3
-            }
-		}
-		
-		merry_grail = { #Herrimault Grail
-			color = { 85 190 205 }
-			icon = "merry_grail.dds"
-			religious_head = k_faceless
-
-			doctrine = doctrine_temporal_head
-			doctrine = doctrine_theocracy_lay_clergy
-			doctrine = doctrine_bastardry_none
-			doctrine = doctrine_clerical_marriage_allowed
-			doctrine = doctrine_clerical_succession_temporal_appointment
-			doctrine = doctrine_clerical_function_recruitment
-			doctrine = merryman_doctrine
-
-			holy_site = montlac
-			holy_site = chalons
-
-			doctrine = tenet_empowered_knights
-			doctrine = tenet_communal_possessions
-			doctrine = tenet_armed_pilgrimages			
-		}
-		
-		shallyan_grail = { #Believe that Shallya and the Lady are the same God
-			color = { 130 200 230 }
-			icon = "shalya_grail.dds"
-			religious_head = k_cult_of_shallya
-			
-			doctrine = doctrine_clerical_function_alms_and_pacification
-
-			doctrine = grail_doctrine
-
-			holy_site = montlac
-			holy_site = chalons
-
-			doctrine = tenet_empowered_knights
-			doctrine = tenet_knightly_virtues
-			doctrine = tenet_pacifism
-			
-			localization = {
-				HighGodName = shallyan_grail_high_god_name
-				HighGodName2 = shallyan_grail_high_god_name2
-				HighGodNamePossessive = shallyan_grail_high_god_name_possessive
-				HighGodNameAlternate = shallyan_grail_high_god_alternative
-				HighGodNameAlternatePossessive = shallyan_grail_high_god_alternative_possessive
-				
-				ReligiousSymbol = shallyan_grail_religious_symbol
-				ReligiousSymbol2 = shallyan_grail_religious_symbol2
-				ReligiousSymbol3 = shallyan_grail_religious_symbol3
-            }
-		}
-	}
 }

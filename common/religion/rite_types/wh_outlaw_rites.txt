@@ -1,0 +1,181 @@
+﻿stromfels = {
+	name = stromfels
+	desc = stromfels_desc
+	faith = outlaw
+	color = { 0.4 0.4 0.5 }
+	icon = "stormfels.dds"
+	
+	
+	tenets = {
+		tenet_piracy
+		tenet_astrology
+		tenet_human_sacrifice
+
+	}
+	
+	doctrines = {
+		special_doctrine_ecumenical_old_world
+		stromfels_doctrine
+		
+	}
+	
+	localization = {
+		HighGodName = stromfels_high_god_name
+		HighGodName2 = stromfels_high_god_name2
+		HighGodNamePossessive = stromfels_high_god_name_possessive
+		HighGodNameAlternate = stromfels_high_god_name_alternative
+		HighGodNameAlternatePossessive = stromfels_high_god_name_alternative_possessive
+		WealthGodNamePossessive = stromfels_high_god_name_possessive
+		WealthGodName= stromfels_high_god_name
+		
+		ReligiousText = stromfels_religious_text
+		ReligiousText2 = stromfels_religious_text2
+		ReligiousText3 = stromfels_religious_text3
+		ReligiousSymbol = stromfels_religious_symbol
+		ReligiousSymbol2 = stromfels_religious_symbol2
+		ReligiousSymbol3 = stromfels_religious_symbol3
+		
+		#DeathGod
+		DeathDeityName = tilean_death_god_name
+		DeathDeityNamePossessive = tilean_death_god_name_possessive
+	}
+}
+ranaldian = {
+	name = ranaldian
+	desc = ranaldian_desc
+	faith = outlaw
+	color = { 0.4 0.4 1.0 }
+	icon = "ranald.dds"
+	
+	
+	
+	tenets = {
+		tenet_sacred_shadows
+		tenet_adaptive
+		tenet_aniconism
+		
+	}
+	
+	doctrines = {
+		doctrine_homosexuality_accepted
+		doctrine_clerical_function_alms_and_pacification
+		doctrine_adultery_men_accepted
+		doctrine_adultery_women_accepted
+		special_doctrine_ecumenical_old_world
+		ranaldian_doctrine
+	}
+	
+	localization = {
+		ReligiousText = ranaldian_religious_text
+		ReligiousText2 = ranaldian_religious_text2
+		ReligiousText3 = ranaldian_religious_text3
+		ReligiousSymbol = ranaldian_religious_symbol
+		ReligiousSymbol2 = ranaldian_religious_symbol2
+		ReligiousSymbol3 = ranaldian_religious_symbol3
+	}
+}
+ranaldian_givers_coin = {
+	name = ranaldian_givers_coin
+	desc = ranaldian_givers_coin_desc
+	faith = outlaw
+	color = { 0.4 0.4 1.0 }
+	icon = "ranald.dds"
+	
+	#Magic
+	#doctrine_lore_ranald
+	
+	#holy_site = marienburg
+	#holy_site = nuln
+	#holy_site = tobaro
+	
+	
+	tenets = {
+		tenet_sacred_shadows
+		tenet_vows_of_poverty
+		tenet_aniconism
+		
+	}
+	
+	doctrines = {
+		doctrine_homosexuality_accepted
+		doctrine_clerical_function_alms_and_pacification
+		doctrine_adultery_men_accepted
+		doctrine_adultery_women_accepted
+		special_doctrine_ecumenical_old_world
+		ranaldian_doctrine
+		
+	}
+	
+	localization = {
+		ReligiousText = ranaldian_religious_text
+		ReligiousText2 = ranaldian_religious_text2
+		ReligiousText3 = ranaldian_religious_text3
+		ReligiousSymbol = ranaldian_religious_symbol
+		ReligiousSymbol2 = ranaldian_religious_symbol2
+		ReligiousSymbol3 = ranaldian_religious_symbol3
+	}
+}
+gunndredian = {
+	name = gunndredian
+	desc = gunndredian_faith
+	faith = outlaw
+	color = { 0.4 0.3 0.3 }
+
+	
+	
+	#holy_site = black_fire_pass
+	#holy_site = 
+	#holy_site = 
+	#holy_site = 
+	#holy_site = 
+
+	
+	tenets = {
+		tenet_pursuit_of_power
+		tenet_sacred_shadows
+		tenet_unrelenting_faith
+		
+	}
+	
+	doctrines = {
+		doctrine_clerical_function_recruitment
+		raiding_doctrine
+		gunndredian_doctrine
+		
+	}
+	
+	localization = {
+		HighGodName = gunndredian_high_god_name
+		HighGodName2 = gunndredian_high_god_name2
+		HighGodNamePossessive = gunndredian_high_god_name_possessive
+		ReligiousHeadName = gunndredian_head_names
+		HighGodNameAlternate = gunndredian_high_god_alternative
+		HighGodNameAlternatePossessive = gunndredian_high_god_alternative_possessive
+		
+		ReligiousText = gunndredian_religious_text
+		ReligiousText2 = gunndredian_religious_text2
+		ReligiousText3 = gunndredian_religious_text3
+		ReligiousSymbol = gunndredian_religious_symbol
+		ReligiousSymbol2 = gunndredian_religious_symbol2
+		ReligiousSymbol3 = gunndredian_religious_symbol3
+	}
+}
+#Heresies
+#jermarism = { #Believe that Randald is the true creator of the universe and the Gods
+#	color = { } 
+	#icon =
+	
+	#
+	#Magic
+	#doctrine_lore_ranald
+	
+	#holy_site = 
+	#holy_site = 
+	#holy_site = 
+	#holy_site = 
+	#holy_site = 
+	
+#	doctrine =
+#	doctrine =
+#	doctrine =
+#}

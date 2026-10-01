@@ -1,0 +1,746 @@
+﻿ahaltan = {
+	name = ahaltan
+	desc = ahaltan_desc
+	faih = northern_faith #WHG TODO
+	color = { 0.6 0.0 0.0 }
+	icon = "ahalt-the-drinker.dds"
+	
+	
+	#holy_site = wissenburg
+	#holy_site = nuln
+	#holy_site = talabheim
+	#holy_site = pfeildorf
+	#holy_site = averheim
+	
+	
+	tenets = {
+		tenet_human_sacrifice
+		tenet_communal_identity
+		tenet_unrelenting_faith
+		
+	}
+	
+	doctrines = {
+		doctrine_no_head
+		doctrine_clerical_function_recruitment
+		ahaltan_doctrine
+		
+	}
+}
+
+
+arisen_dead = {
+	name = arisen_dead
+	desc = arisen_dead_desc
+	faih = northern_faith #WHG TODO
+	color = { 0.1 0.0 0.3 }
+	icon = "arisen_dead.dds"
+	#founder = k_carstein
+	
+	
+	#Magic
+	#doctrine_necromancy_magic_accepted
+	#doctrine_dhar_magic_accepted
+	#doctrine_vampirism_virtue
+	#doctrine_lore_necromancy
+	
+	#holy_site = drakenhof
+	#holy_site = altdorf
+	#holy_site = nuln
+	#holy_site = lahmia
+	#holy_site = luccini
+	
+	#holy_order_maa = { vampire_knights }
+	
+	
+	tenets = {
+		tenet_vampires
+		tenet_rite
+		tenet_ancestor_worship
+		
+	}
+	
+	doctrines = {
+		doctrine_temporal_head
+		doctrine_clerical_function_recruitment
+		special_doctrine_ecumenical_old_world
+		arisen_dead_doctrine
+		
+	}
+}
+
+
+#bylorakan = {
+#	color = { } 
+	#icon =
+	
+	#doctrine = 
+	
+	#holy_site = 
+	#holy_site = 
+	#holy_site = 
+	#holy_site = 
+	#holy_site = 
+	
+#	doctrine = 
+#	doctrine = tenet_communal_identity
+#	doctrine = tenet_unrelenting_faith
+#}
+
+
+halfling_gods = {
+	name = halfling_gods
+	desc = halfling_gods_desc
+	faih = northern_faith #WHG TODO
+	color = { 0.3 0.6 0.3 }
+	icon = "sigmar.dds" #placeholder
+	
+	#holy_site = eicheschatten
+	#holy_site = leedleton
+	#holy_site = sauerapfel
+	#holy_site = aver_march
+	#holy_site = greenleafs
+	
+	
+	tenets = {
+		tenet_hedonistic
+		tenet_communal_identity
+		tenet_ritual_celebrations
+
+	}
+	
+	doctrines = {
+		doctrine_no_head
+		doctrine_divorce_disallowed
+		doctrine_clerical_function_alms_and_pacification
+		special_doctrine_ecumenical_old_world
+		halfling_gods_doctrine
+
+	}
+
+}
+
+
+# handrichan = {
+# 	color = { 1.0 0.8 0.0 }
+# 	icon = "handrich.dds"
+# 	#founder = 
+
+# 	doctrine = special_doctrine_ecumenical_old_world
+# 	doctrine = handrichan_doctrine
+	
+# 	#Magic
+# 	#doctrine = doctrine_lore_handrich
+
+# 	#holy_site = marienburg
+# 	#holy_site = bogenhafen 
+# 	#holy_site = magritta
+# 	#holy_site = miragliano
+# 	#holy_site = pigbarter
+
+# 	doctrine = tenet_legalism
+# 	doctrine = tenet_pacifism
+# 	doctrine = tenet_ancestor_worship
+	
+
+# }
+
+
+luposan = {
+	name = luposan
+	desc = luposan_desc
+	faih = northern_faith #WHG TODO
+	color = { 0.0 0.3 0.1 }
+	#icon = 
+	#founder = 
+
+	
+	#holy_site = hergig
+	#holy_site = altdorf
+	#holy_site = nuln
+	#holy_site = talabheim
+	#holy_site = middenheim
+	
+	
+	tenets = {
+		tenet_sanctity_of_nature
+		tenet_communal_identity
+		tenet_pastoral_isolation
+		
+	}
+	
+	doctrines = {
+		special_doctrine_ecumenical_old_world
+		luposan_doctrine
+		
+	}
+	
+
+}
+
+
+manannite = {
+	name = manannite
+	desc = manannite_desc
+	faih = northern_faith #WHG TODO
+	color = { 0.3 0.5 0.7 }
+	icon = "manann.dds"
+	founder = k_cult_of_manann
+
+	
+	#Magic
+	#doctrine_lore_manann
+	
+	holy_site = marienburg
+	holy_site = carroburg
+	holy_site = salkalten
+	holy_site = bordeleaux
+	holy_site = sartosa
+	
+	
+	tenets = {
+		tenet_unrelenting_faith
+		tenet_religious_legal_pronouncements
+		tenet_sanctity_of_nature
+		
+	}
+	
+	doctrines = {
+		special_doctrine_ecumenical_old_world
+		manannite_doctrine
+		
+	}
+	
+	holy_order_names = {
+		{ name = "holy_order_manaan_sons_knights" coat_of_arms = "ho_manaan_sons_knights" }
+	}
+	
+
+}
+
+
+#Imperial
+sheirrichan = {
+	name = sheirrichan
+	desc = sheirrichan_desc
+	faih = northern_faith #WHG TODO
+	color = { 0.2 0.5 0.2 }
+	icon = "sigmar.dds" #placeholder
+	#founder = 
+
+	
+	
+	#holy_site = averheim
+	#holy_site = altdorf
+	#holy_site = nuln
+	#holy_site = sigmaringen
+	#holy_site = aver_march
+	
+	
+	tenets = {
+		tenet_mystical_birthright
+		tenet_freedom_of_the_sky
+		tenet_ancestor_worship
+		
+	}
+	
+	doctrines = {
+		special_doctrine_ecumenical_old_world
+		
+	}
+	
+
+}
+
+sigmarite = {
+	name = sigmarite
+	desc = sigmarite_desc
+	faih = northern_faith #WHG TODO
+	color = { 0.8 0.3 0.1 }
+	icon = "sigmarite.dds"
+	founder = k_cult_of_sigmar
+
+
+
+	#holy_site = altdorf
+	#holy_site = marienburg
+	#holy_site = middenheim
+	#holy_site = nuln
+	#holy_site = talabheim
+	#holy_site = black_fire_pass
+
+	tenet = {
+		tenet_monasticism
+		tenet_pentarchy
+		tenet_legalism
+	}
+
+	docrtines = {
+		doctrine_clerical_function_recruitment
+		doctrine_clerical_gender_male_only
+		special_doctrine_ecumenical_old_world
+		sigmarite_doctrine
+	}
+
+
+	holy_order_names = {
+		{ name = "holy_order_sigmar_blood_knights" coat_of_arms = "ho_sigmar_blood_knights" }
+		{ name = "holy_order_fiery_heart_knights" coat_of_arms = "ho_fiery_heart_knights"  }
+	}
+	
+
+}
+
+sigmar_sisters = {
+	name = sigmar_sisters
+	desc = sigmar_sisters_desc
+	faih = northern_faith #WHG TODO
+	color = { 0.8 0.3 0.1 }
+	icon = "sigmar.dds"
+	#founder = d_sisterhood_of_sigmar
+
+
+	#holy_site = altdorf
+	#holy_site = marienburg
+	#holy_site = middenheim
+	#holy_site = nuln
+	#holy_site = talabheim
+	#holy_site = black_fire_pass
+	
+	
+	tenets = {
+		tenet_monasticism
+		tenet_pentarchy
+		tenet_legalism
+	}
+
+	doctrines = {
+		doctrine_clerical_function_recruitment
+		doctrine_clerical_gender_female_only
+		special_doctrine_ecumenical_old_world
+		sigmarite_doctrine
+	}
+	
+}
+
+
+sollian = {
+	name = sollian
+	desc = sollian_desc
+	faih = northern_faith #WHG TODO
+	color = { 1.0 0.9 0.0 }
+	icon = "soll.dds"
+	#founder = 
+
+	
+	#holy_site = pfeildorf
+	#holy_site = altdorf
+	#holy_site = nuln
+	#holy_site = remas
+	#holy_site = kislev
+	
+	
+	
+	tenets = {
+		tenet_sun_worship
+		tenet_communal_identity
+		tenet_legalism
+		
+	}
+	
+	doctrines = {
+		special_doctrine_ecumenical_old_world
+		sollian_doctrine
+		
+	}
+
+
+	
+	holy_order_names = {
+		{ name = "holy_order_undying_sun_knights" coat_of_arms = "ho_undying_sun_knights" }
+	}			
+	
+
+}
+
+
+taalite = {
+	name = taalite
+	desc = taalite_desc
+	faih = northern_faith #WHG TODO
+	color = { 0.3 0.7 0.3 }
+	icon = "taal-and-rhya.dds"
+	founder = k_cult_of_taal
+
+	
+	#Magic
+	#doctrine_lore_taal_rhya
+	
+	holy_site = talabheim
+	holy_site = unterbaum
+	holy_site = bechafen
+	holy_site = mousillon
+	holy_site = blood_keep
+	
+	
+	tenets = {
+		tenet_sanctity_of_nature
+		tenet_pentarchy
+		tenet_ritual_celebrations
+		
+	}
+	
+	doctrines = {
+		doctrine_clerical_function_alms_and_pacification
+		special_doctrine_ecumenical_old_world
+		taalite_doctrine
+		
+	}
+
+
+
+	holy_order_names = {
+		{ name = "holy_order_taal_fury_knights" coat_of_arms = "ho_taal_fury_knights" }
+		{ name = "holy_order_longshanks_knights" coat_of_arms = "ho_longshanks_knights" }
+	}					
+}
+
+
+ulrican = {
+	name = ulrican
+	desc = ulrican_desc
+	faih = northern_faith #WHG TODO
+	color = { 0.1 0.1 0.6 }
+	icon = "ulric.dds"
+	founder = k_cult_of_ulric
+	
+	#Magic
+	#doctrine_lore_ulric
+	
+	# holy_site = middenheim
+	# holy_site = wolfenburg
+	# holy_site = nuln
+	# holy_site = talabheim
+	# holy_site = olricstaad
+	
+	
+	
+	tenets = {
+		tenet_pentarchy
+		tenet_unrelenting_faith
+		tenet_ritual_celebrations
+		
+	}
+	
+	doctrines = {
+		doctrine_clerical_function_recruitment
+		doctrine_clerical_marriage_disallowed
+		doctrine_clerical_gender_male_only
+		special_doctrine_ecumenical_old_world
+		ulrican_doctrine
+	
+	}
+
+	
+	holy_order_names = {
+		{ name = "holy_order_white_wolf_knights" coat_of_arms = "ho_white_wolf_knights" }
+		{ name = "holy_order_winter_throne_knights" coat_of_arms = "ho_winter_throne_knights"  }
+	}
+	
+
+}
+
+
+# ulrican_winter_throne = {
+# 	color = { 0.1 0.1 0.6 }
+# 	icon = "ulric.dds"
+# 	founder = k_cult_of_ulric
+
+# 	doctrine = doctrine_clerical_function_recruitment
+# 	doctrine = doctrine_clerical_marriage_disallowed
+# 	doctrine = doctrine_clerical_gender_male_only
+# 	doctrine = special_doctrine_ecumenical_old_world
+# 	doctrine = ulrican_doctrine
+	
+# 	#Magic
+# 	#doctrine = doctrine_lore_ulric
+
+# 	#holy_site = middenheim
+# 	#holy_site = wolfenburg
+# 	#holy_site = nuln
+# 	#holy_site = talabheim
+# 	#holy_site = olricstaad
+
+# 	doctrine = tenet_sanctity_of_nature
+# 	doctrine = tenet_unrelenting_faith
+# 	doctrine = tenet_rite
+	
+
+# }
+
+
+# #Kislevite
+# ancient_widow = {
+# 	color = { 0.3 0.4 0.5 }
+# 	icon = "ancient_widow.dds"
+# 	#founder = 
+
+# 	doctrine = doctrine_gender_equal
+# 	doctrine = special_doctrine_ecumenical_old_world
+# 	doctrine = dazhan_doctrine
+
+# 	#holy_site = kislev
+# 	#holy_site = praag
+# 	#holy_site = erengrad
+# 	#holy_site = pfeildorf
+# 	#holy_site = remas
+
+# 	doctrine = tenet_ritual_celebrations
+# 	doctrine = tenet_ritual_hospitality
+# 	doctrine = tenet_pentarchy
+
+
+# }
+
+
+# dazhan = {
+# 	color = { 1.0 0.6 0.0 }
+# 	icon = "dazh.dds"
+# 	#founder = 
+
+# 	doctrine = doctrine_gender_equal
+# 	doctrine = special_doctrine_ecumenical_old_world
+# 	doctrine = dazhan_doctrine
+
+# 	#holy_site = kislev
+# 	#holy_site = praag
+# 	#holy_site = erengrad
+# 	#holy_site = pfeildorf
+# 	#holy_site = remas
+
+# 	doctrine = tenet_ritual_celebrations
+# 	doctrine = tenet_ritual_hospitality
+# 	doctrine = tenet_pentarchy
+	
+# 	holy_order_names = {
+# 		{ name = "Rota of the Dawn" }
+# 	}
+	
+
+# }
+
+
+northern_gods = {
+	name = northern_gods
+	desc = northern_gods_desc
+	faih = northern_faith #WHG TODO
+	color = { 0.3 0.5 0.5 }
+	icon = "old-northern-gods.dds"
+	reformed_icon = "old-northern-gods.dds"
+	
+	
+	#holy_site = praag
+	#holy_site = zamak_spanyenya
+	#holy_site = kurson_haugr
+	#holy_site = tivar_peak
+	#holy_site = vortrium
+	
+	
+	
+	tenets = {
+		tenet_warmonger
+		tenet_communal_identity
+		tenet_mystical_birthright	
+	}
+	
+	doctrines = {
+		doctrine_gender_equal
+		northern_gods_doctrine
+		unreformed_faith_doctrine
+		doctrine_no_head
+		#doctrine_mutation_shunned
+		
+	}
+	
+
+}
+
+
+# torran = {
+# 	color = { 0.0 0.35 0.7 }
+# 	#icon = 
+
+# 	doctrine = doctrine_no_head
+# 	doctrine = doctrine_gender_equal
+# 	doctrine = special_doctrine_ecumenical_old_world
+# 	doctrine = torran_doctrine
+
+# 	#holy_site = kislev
+# 	#holy_site = praag
+# 	#holy_site = erengrad
+# 	#holy_site = wolfenburg
+# 	#holy_site = bechafen
+
+# 	doctrine = tenet_warmonger
+# 	doctrine = tenet_pastoral_isolation
+# 	doctrine = tenet_asceticism
+	
+
+# }
+
+
+
+ursunite = {
+	name = ursunite
+	desc = ursunite_desc
+	faih = northern_faith #WHG TODO
+	color = { 0.7 0.8 0.9 }
+	icon = "ursun.dds"
+	#founder = k_cult_of_ursun
+
+	
+	#Magic
+	#doctrine_lore_ursun
+
+	#holy_site = kislev
+	#holy_site = erengrad
+	#holy_site = praag
+	#holy_site = zamak_spanyenya
+	#holy_site = tivar_peak
+	#holy_site = altdorf #temporary
+	
+	
+	tenets = {
+		tenet_warmonger
+		tenet_unrelenting_faith
+		tenet_sanctity_of_nature
+
+	}
+	
+	doctrines = {
+		doctrine_clerical_gender_male_only
+		doctrine_gender_equal
+		special_doctrine_ecumenical_old_world
+		ursunite_doctrine
+		
+	}
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Heresies
+#apostles_truth = { #Believe that Sigmar was a mere mortal
+#	color = { } 
+	#icon =
+	
+	#doctrine =
+	#Magic
+	#doctrine = doctrine_lore_ulric		
+	
+	#holy_site = 
+	#holy_site = 
+	#holy_site = 
+	#holy_site = 
+	#holy_site = 
+	
+#	doctrine =
+#	doctrine =
+#	doctrine =
+#}
+
+#brotherhood_amar = { #Believe Taal is the weak son of Rhya
+#	color = { } 
+	#icon =
+	
+	#doctrine =
+	#Magic
+	#doctrine = doctrine_lore_taal_rhya
+	
+	#holy_site = 
+	#holy_site = 
+	#holy_site = 
+	#holy_site = 
+	#holy_site = 
+	
+#	doctrine =
+#	doctrine =
+#	doctrine =
+#}
+#rhyan = { #Independent worshippers of Rhya
+#	color = { } 
+	#icon =
+	
+	#doctrine = 
+	#Magic
+	#doctrine = doctrine_lore_taal_rhya
+
+	#holy_site = talabheim
+	#holy_site = unterbaum
+	#holy_site = bechafen
+	#holy_site = mousillon
+	#holy_site = blood_keep
+
+#	doctrine = tenet_sanctity_of_nature
+#	doctrine = tenet_pentarchy
+#	doctrine = tenet_ritual_celebrations
+#}
+#unifiers = { #Believe that Sigmar is the King of the Gods as crowned by Ulric (desc addition: Taalites object that Ulric could not have crowned Sigmar king, as Taal is king of the gods. This of course, incenses the ulricans. The mere existence of this cult has incited many religious conflicts in which they are not even involved.
+#	color = { } 
+	#icon = "unifiers.dds"
+	
+	#doctrine = 
+	#Magic
+	#doctrine = doctrine_lore_sigmar
+
+	#holy_site = wolfenburg
+	#holy_site = altdorf
+	#holy_site = nuln
+	#holy_site = middenheim
+	#holy_site = black_fire_pass
+	
+#	doctrine = 
+#	doctrine = 
+#	doctrine = 
+#}
+#wolfenburgian = { #Sigmar onlyism, Gnostic as Sigmar as the true God
+#	color = { } 
+	#icon = "wolfenburgians.dds"
+	
+	#doctrine = 
+	#Magic
+	#doctrine = doctrine_lore_sigmar
+
+	#holy_site = wolfenburg
+	#holy_site = altdorf
+	#holy_site = nuln
+	#holy_site = middenheim
+	#holy_site = black_fire_pass
+	
+#	doctrine = tenet_gnosticism
+#	doctrine = 
+#	doctrine = 
+#}

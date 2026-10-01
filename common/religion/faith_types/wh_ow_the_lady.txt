@@ -1,0 +1,33 @@
+﻿the_lady = {
+	main_rite = grail
+	faith_details = {
+		religion = the_lady_religion
+		color = { 0.2 0.7 0.9 }
+		icon = "grail.dds"
+		reformed_icon = "grail.dds"
+		graphical_faith = "pagan_gfx"
+	}
+
+	eminent_holy_sites = {
+		montlac			#Chapel of the Enchantress
+	}
+
+	holy_sites = {
+		chalons			#Isle de Lys
+		bastonne		#Water Tower of Gilles
+		mousillon
+		bordeleaux
+	}
+
+	tenets = {
+		tenet_empowered_knights
+		tenet_knightly_virtues
+		tenet_armed_pilgrimages
+	}
+
+	doctrines = {
+		special_doctrine_ecumenical_old_world
+		grail_doctrine
+	}
+
+}

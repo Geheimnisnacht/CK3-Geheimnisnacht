@@ -1,5 +1,7 @@
 ﻿nurgle_religion = {
-	family = rf_chaos
+	religion_details = {
+		family = rf_chaos
+	}
 	
 	doctrine = raiding_doctrine
 	doctrine = chaos_hostility_doctrine
@@ -10,8 +12,6 @@
 	doctrine = doctrine_gender_male_dominated
 	doctrine = doctrine_pluralism_fundamentalist
 	doctrine = doctrine_theocracy_lay_clergy
-	doctrine = doctrine_pilgrimage_encouraged
-	doctrine = doctrine_funeral_mummification
 
 	#Marriage
 	doctrine = doctrine_concubines
@@ -43,14 +43,29 @@
 	#doctrine = doctrine_mutation_accepted
 	#doctrine = doctrine_lore_nurgle
 
+	doctrine = doctrine_pilgrimage_encouraged
+
+	doctrine = doctrine_funeral_mummification
+
 	doctrine = doctrine_no_anointment
 	
+	#Preservation
+	doctrine = doctrine_mythic_literary
 	
 	traits = {
-		virtues = { honest patient compassionate }
-		sins = { wrathful shy impatient }
+		virtues = {
+			patient = { weight = 30 scale = 1 }
+			honest = { weight = 20 scale = 1 }
+			compassionate = { weight = 20 scale = 1 }
+		}
+		sins = {
+			wrathful = { weight = 20 scale = 1 }
+			impatient = { weight = 20 scale = 1 }
+			shy = { weight = 30 scale = 1 }
+		}
 	}
-	
+
+
 	custom_faith_icons = {
 		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 ibadi_custom muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1
 	}
@@ -209,23 +224,4 @@
 		GHWNamePlural = placeholder_key
 	}
 	
-	faiths = {
-		nurglite_kurgan = {
-			color = { 0.7 1.0 0.2 }
-			icon = "nurgle-base.dds"
-
-			#doctrine = 
-
-			#holy_site = cold_mire
-			#holy_site = raseri_oks
-			#holy_site = kislev
-			#holy_site = praag
-			#holy_site = zanbaijin
-
-			#Generic pagan tenets
-			doctrine = tenet_nurgle
-			doctrine = tenet_asceticism
-			doctrine = tenet_ritual_hospitality
-		}
-	}
 }

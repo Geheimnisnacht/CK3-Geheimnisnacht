@@ -1,0 +1,29 @@
+﻿arabyan = {
+	main_rite = ormazdic #WHG TODO
+	faith_details = {
+		religion = arabyan_religion
+		color = {  }
+		icon = "placeholder.dds"
+		reformed_icon = "placeholder.dds"
+		graphical_faith = "pagan_gfx"
+	}
+
+	# eminent_holy_sites = {
+
+	# }
+
+	# holy_sites = {
+
+	# }
+	
+	tenets = {
+		tenet_aniconism
+		tenet_legalism
+		tenet_divine_marriage
+	}
+
+	doctrines = {
+		order_hostility_doctrine
+	}
+
+}

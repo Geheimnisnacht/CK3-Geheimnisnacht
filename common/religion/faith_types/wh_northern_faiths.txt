@@ -1,0 +1,34 @@
+﻿northern_faith = { #WHG TODO
+	main_rite = sigmarite
+	faith_details = {
+		religion = northern_pantheon_religion
+		color = { 0.8 0.3 0.1 }
+		icon = "sigmarite.dds"
+		reformed_icon = "sigmarite.dds"
+		graphical_faith = "pagan_gfx"
+	}
+
+	# eminent_holy_sites = {
+
+	# }
+
+	# holy_sites = {
+
+	# }
+	tenets = {
+		tenet_monasticism
+		tenet_pentarchy
+		tenet_legalism
+	}
+
+	doctrines = {
+		doctrine_clerical_function_recruitment
+		doctrine_clerical_gender_male_only
+		special_doctrine_ecumenical_old_world
+		sigmarite_doctrine
+	}
+
+}
+
+
+

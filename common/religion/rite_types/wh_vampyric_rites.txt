@@ -1,0 +1,234 @@
+﻿# carstein_faith = {
+	# color = { 0.5 0.0 0.0 }
+	# icon = "carstein.dds" #placeholder
+	# #religious_head = k_carstein
+
+	# #doctrine = 
+
+	# #holy_site = lahmia
+	# #holy_site = drakenhof
+	# #holy_site = khemri
+	# #holy_site = altdorf
+	# #holy_site = 
+
+	# #tenets
+	# tenet_vampires
+	# tenet_carstein
+	# tenet_midnight_aristocracy
+	
+# }
+
+
+
+
+blood_dragon_faith = {
+	name = blood_dragon_faith
+	desc = blood_dragon_faith_desc
+	faith = vampyric
+	color = { 1.0 0.0 0.0 }
+	icon = "carstein.dds"
+
+	#doctrine = 
+
+	#holy_site = blood_keep
+	#holy_site = chalons
+	#holy_site = lahmia
+	#holy_site = 
+	#holy_site = 
+
+	#tenets
+	tenets = {
+		tenet_vampires
+		tenet_blood_dragon
+		tenet_blood_knights
+	}
+
+	doctrines = {
+		necromantic_hostility_doctrine
+	}
+
+}
+
+
+
+
+
+# lahmian_faith = {
+	# color = { 0.3 0.0 0.3 }
+	# #icon = 
+
+	# doctrine = doctrine_gender_female_dominated
+	# doctrine = doctrine_adultery_women_accepted
+
+	# #holy_site = silver_pinnacle
+	# #holy_site = lahmia
+	# #holy_site = khemri
+	# #holy_site = altdorf
+	# #holy_site = remas
+
+	# #tenets
+	# tenet_vampires
+	# tenet_lahmian
+	# tenet_sisterhood
+
+# }
+
+
+
+
+
+strigoi_faith = {
+	name = strigoi_faith
+	desc = strigoi_faith_desc
+	faith = vampyric
+	color = { 0.1 0.1 0.1 }
+	icon = "sigmar.dds" #placeholder
+
+	#doctrine = 
+
+	#holy_site = lahmia
+	#holy_site = mourkain
+	#holy_site = vorag
+	#holy_site = sturgun
+	#holy_site = levrellian
+
+	#tenets
+	tenets = {
+		tenet_vampires
+		tenet_strigoi
+		tenet_lost_kingdom
+	}	
+
+	doctrines = {
+		necromantic_hostility_doctrine
+	}
+}
+
+
+
+
+necrarch_faith = {
+	name = necrarch_faith
+	desc = necrarch_faith_desc
+	faith = vampyric
+	color = { 0.2 0.1 0.1 }
+	icon = "sigmar.dds" #placeholder
+
+	#doctrine = 
+
+	#holy_site = lahmia
+	#holy_site = arkhan
+	#holy_site = khemri
+	#holy_site = yukka
+	#holy_site = melkhiors_tower
+
+	#tenets
+	tenets = {
+		tenet_vampires
+		tenet_necrarch
+		tenet_loyalty_to_nagash
+	}
+
+	doctrines = {
+		necromantic_hostility_doctrine
+	}
+}
+
+
+
+
+
+
+# jade_faith = {
+	# color = { 0.1 0.2 0.1 }
+	# #icon = 
+
+	# #doctrine = 
+
+	# #holy_site = lahmia
+	# #holy_site = weijin
+	# #holy_site = tiliqua
+	# #holy_site = 
+	# #holy_site = 
+
+	# #tenets
+	# tenet_vampires
+	# tenet_jade
+	# tenet_celestial_jade
+	
+
+# }
+
+
+
+
+# mahtmasi_faith = {
+	# color = { 0.2 0.2 0.0 }
+	# #icon = 
+
+	# #doctrine = 
+
+	# #holy_site = lahmia
+	# #holy_site = gwingui
+	# #holy_site = nabat
+	# #holy_site = obalhan
+	# #holy_site = olohad
+
+	# #tenets
+	# tenet_vampires
+	# tenet_mahtmasi
+	# tenet_loyalty_to_maatmeses
+	
+
+# }
+
+
+
+
+# vampire_coast_faith = {
+	# color = { 1.0 0.0 0.0 }
+	# #icon = 
+
+	# #holy_site = harkonia
+	# #holy_site = sartosa
+	# #holy_site = chayuk
+	# #holy_site = copher
+	# #holy_site = galleons_graveyard
+
+	# #tenets
+	# tenet_vampires
+	# tenet_tattered_sails
+	# tenet_piracy
+	
+# }
+
+
+
+
+
+
+strigany_faith = {
+	name = strigany_faith
+	desc = strigany_faith_desc
+	faith = vampyric
+	color = { 1.0 0.4 0.1 }
+	icon = "sigmar.dds" #placeholder
+
+	#doctrine = 
+
+	#holy_site = mourkain
+	#holy_site = nagashizzar
+	#holy_site = lahmia
+	#holy_site = drakenhof
+	#holy_site = marienburg
+
+	tenets = {
+		tenet_lost_kingdom
+		tenet_communal_identity
+		tenet_esotericism
+	}
+
+	doctrines = {
+		necromantic_hostility_doctrine
+	}
+}

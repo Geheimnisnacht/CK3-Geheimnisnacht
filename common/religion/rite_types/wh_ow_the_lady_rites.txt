@@ -1,0 +1,214 @@
+﻿bloody_grail = {
+	name = bloody_grail
+	desc = bloody_grail_desc
+	faith = the_lady
+	color = { 161 48 48 }
+	icon = "bloody_grail.dds"
+	#founder = 
+
+	
+	#Magic
+	#doctrine_necromancy_magic_accepted
+	#doctrine_dhar_magic_accepted
+	#doctrine_vampirism_virtue
+	#doctrine_lore_necromancy
+	
+	tenets = {
+		tenet_vampires
+		tenet_empowered_knights
+		tenet_knightly_virtues
+		
+	}
+	
+	doctrines = {
+		bloody_grail_doctrine
+		doctrine_clerical_function_recruitment
+		doctrine_kinslaying_accepted
+	}
+
+	
+	localization = {
+		HighGodName = bloody_grail_high_god_name
+		HighGodName2 = bloody_grail_high_god_name2
+		HighGodNamePossessive = bloody_grail_high_god_name_possessive
+		HighGodNameAlternate = bloody_grail_high_god_alternative
+		HighGodNameAlternatePossessive = bloody_grail_high_god_alternative_possessive
+		ReligiousHeadName = bloody_grail_religious_head_title
+		
+		ReligiousSymbol = bloody_grail_religious_symbol
+		ReligiousSymbol2 = bloody_grail_religious_symbol2
+		ReligiousSymbol3 = bloody_grail_religious_symbol3
+	}
+}
+grail = {
+	name = grail
+	desc = grail_desc
+	faith = the_lady
+	color = { 0.2 0.7 0.9 }
+	icon = "grail.dds"
+	founder = k_cult_of_the_lady
+	
+
+	
+	tenets = {
+		tenet_empowered_knights
+		tenet_knightly_virtues
+		tenet_armed_pilgrimages
+		
+	}
+	
+	doctrines = {
+			special_doctrine_ecumenical_old_world
+			grail_doctrine
+		
+	}
+
+	holy_order_names = {
+		{ name = "holy_order_lily_knights" coat_of_arms = "ho_lily_knights" }
+		{ name = "holy_order_lady_knights" coat_of_arms = "ho_lady_knights" }
+		{ name = "holy_order_lambard_knights" coat_of_arms = "ho_lambard_knights" }
+	}
+	
+}
+fey_grail = {
+	name = fey_grail
+	desc = fey_grail_desc
+	faith = the_lady
+	color = { 0 90 40 }
+	icon = "fey_grail.dds"
+	founder = k_cult_of_the_lady
+
+		
+	tenets = {
+		tenet_empowered_knights
+		tenet_knightly_virtues
+		tenet_sanctity_of_nature
+		
+	}
+	
+	doctrines = {
+		special_doctrine_ecumenical_old_world
+		grail_doctrine
+		
+	}
+
+}
+
+mousillonite_grail = { #think that Landuin should have been First king
+	name = mousillonite_grail
+	desc = mousillonite_grail_desc
+	faith = the_lady	
+	color = { 15 90 120 }
+	icon = "mousion_grail.dds"
+
+		
+	
+	tenets = {
+		tenet_empowered_knights
+		tenet_knightly_virtues
+		tenet_pursuit_of_power
+	}
+	
+	doctrines = {
+		grail_doctrine
+		
+	}
+}
+
+waves_grail = { #Coastal Grail, mostly centered on Bordeleaux
+	name = waves_grail
+	desc = waves_grai_desc
+	faith = the_lady
+	color = { 15 95 205 }
+	icon = "lady_of_waves.dds"
+	founder = k_cult_of_the_lady
+
+	
+	
+	localization = {
+		HighGodName = waves_grail_high_god_name
+		HighGodName2 = waves_grail_high_god_name2
+		HighGodNamePossessive = waves_grail_high_god_name_possessive
+		
+		ReligiousSymbol = waves_grail_religious_symbol
+		ReligiousSymbol2 = waves_grail_religious_symbol2
+		ReligiousSymbol3 = waves_grail_religious_symbol3
+	}
+	
+	tenets = {
+		tenet_empowered_knights
+		tenet_knightly_virtues
+		tenet_armed_pilgrimages
+		
+	}
+	
+	doctrines = {
+		special_doctrine_ecumenical_old_world
+		grail_doctrine
+		
+	}
+}
+
+merry_grail = { #Herrimault Grail
+	name = merry_grail
+	desc = merry_grail_desc
+	faith = the_lady
+	color = { 85 190 205 }
+	icon = "merry_grail.dds"
+	founder = k_faceless
+
+	
+	tenets = {
+		tenet_empowered_knights
+		tenet_communal_possessions
+		tenet_armed_pilgrimages		
+		
+	}
+	
+	doctrines = {
+		doctrine_temporal_head
+		doctrine_theocracy_lay_clergy
+		doctrine_bastardry_none
+		doctrine_clerical_marriage_allowed
+		doctrine_clerical_succession_temporal_appointment
+		doctrine_clerical_function_recruitment
+		merryman_doctrine
+		
+	}
+}
+
+shallyan_grail = { #Believe that Shallya and the Lady are the same God
+	name = shallyan_grail
+	desc = shallyan_grail_desc
+	faith = the_lady
+	color = { 130 200 230 }
+	icon = "shalya_grail.dds"
+	founder = k_cult_of_shallya
+	
+	
+	
+	localization = {
+		HighGodName = shallyan_grail_high_god_name
+		HighGodName2 = shallyan_grail_high_god_name2
+		HighGodNamePossessive = shallyan_grail_high_god_name_possessive
+		HighGodNameAlternate = shallyan_grail_high_god_alternative
+		HighGodNameAlternatePossessive = shallyan_grail_high_god_alternative_possessive
+		
+		ReligiousSymbol = shallyan_grail_religious_symbol
+		ReligiousSymbol2 = shallyan_grail_religious_symbol2
+		ReligiousSymbol3 = shallyan_grail_religious_symbol3
+	}
+	
+	tenets = {
+		tenet_empowered_knights
+		tenet_knightly_virtues
+		tenet_pacifism
+		
+	}
+	
+	doctrines = {
+		doctrine_clerical_function_alms_and_pacification
+		grail_doctrine
+		
+	}
+}

@@ -1,5 +1,7 @@
 ﻿tzeentch_religion = {
-	family = rf_chaos
+	religion_details = {
+		family = rf_chaos
+	}
 	
 	doctrine = raiding_doctrine
 	doctrine = chaos_hostility_doctrine
@@ -45,12 +47,18 @@
 
 	doctrine = doctrine_no_anointment
 	
+
 	traits = {
 		virtues = {
-			paranoid
+			paranoid = { weight = 30 scale = 1 }
 		}
-		sins = {}
+		sins = {
+			honest = { weight = 20 scale = 1 }
+			patient = { weight = 20 scale = 1 }
+			loyal = { weight = 30 scale = 1 }
+		}
 	}
+
 	
 	custom_faith_icons = {
 		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 ibadi_custom muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1
@@ -208,23 +216,5 @@
 		GHWName = placeholder_key
 		GHWNamePlural = placeholder_key
 	}
-	
-	faiths = {
-		tzeentchian_kurgan = {
-			color = { 0.1 0.9 1.0 }
-			icon = "tzeentch-base.dds"
 
-			#doctrine = 
-
-			#holy_site = the_ragged_maze
-			#holy_site = suderholm
-			#holy_site = kislev
-			#holy_site = praag
-			#holy_site = zanbaijin 
-
-			doctrine = tenet_tzeentch
-			doctrine = tenet_esotericism
-			doctrine = tenet_pursuit_of_power
-		}
-	}
 }

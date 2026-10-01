@@ -1,0 +1,154 @@
+﻿khornate_kurgan = {
+	name = khornate_kurgan
+	desc = khornate_kurgan_desc
+	faith = khorne
+	color = { 0.6 0.0 0.0 }
+
+
+	#holy_site = askola
+	#holy_site = blodfell
+	#holy_site = kislev
+	#holy_site = brass_keep
+	#holy_site = zanbaijin
+
+	tenets = {
+		tenet_khorne
+		tenet_human_sacrifice
+		tenet_warmonger
+	}
+
+	doctrines = {
+		chaos_hostility_doctrine
+	}
+
+}
+
+
+
+nurglite_kurgan = {
+	name = nurglite_kurgan
+	desc = nurglite_kurgan_desc
+	faith = nurgle
+	color = { 0.7 1.0 0.2 }
+
+
+	#doctrine = 
+
+	#holy_site = cold_mire
+	#holy_site = raseri_oks
+	#holy_site = kislev
+	#holy_site = praag
+	#holy_site = zanbaijin
+
+	tenets = {
+		tenet_nurgle
+		tenet_asceticism
+		tenet_ritual_hospitality
+	}
+
+	doctrines = {
+		chaos_hostility_doctrine
+	}
+
+}
+
+
+slaaneshi_kurgan = {
+	name = slaaneshi_kurgan
+	desc = slaaneshi_kurgan_desc
+	faith = slaanesh
+	color = { 0.7 0.2 0.8 }
+	icon = "slaneesh-base.dds"
+
+	#doctrine = 
+
+	#holy_site = kazarajin
+	#holy_site = isle_of_gaman
+	#holy_site = kislev
+	#holy_site = praag
+	#holy_site = zanbaijin
+	tenets = {
+		tenet_slaanesh
+		tenet_carnal_exaltation
+		tenet_hedonistic
+	}
+
+	doctrines = {
+		chaos_hostility_doctrine
+	}
+}
+
+#gorlaz = { #Dwarf Slaaneshi faith. Gorlaz is the """Lost""" God of Wealth
+	#color = { 0.7 0.2 0.8 }
+	#icon = "slaneesh-base.dds"
+
+	#doctrine = 
+
+	#holy_site = kazarajin
+	#holy_site = isle_of_gaman
+	#holy_site = kislev
+	#holy_site = praag
+	#holy_site = zanbaijin
+
+	#doctrine = tenet_slaanesh
+	#doctrine = tenet_carnal_exaltation
+	#doctrine = tenet_hedonistic
+#}
+
+
+
+
+tzeentchian_kurgan = {
+	name = tzeentchian_kurgan
+	desc = tzeentchian_kurgan_desc
+	faith = tzeentch
+	color = { 0.1 0.9 1.0 }
+	icon = "tzeentch-base.dds"
+
+	#doctrine = 
+
+	#holy_site = the_ragged_maze
+	#holy_site = suderholm
+	#holy_site = kislev
+	#holy_site = praag
+	#holy_site = zanbaijin 
+
+	tenets = {
+		tenet_tzeentch
+		tenet_esotericism
+		tenet_pursuit_of_power	
+	}
+
+
+	doctrines = {
+		chaos_hostility_doctrine
+	}
+
+}
+
+
+undivided_kurgan = {
+	name = undivided_kurgan
+	desc = undivided_kurgan_desc
+	faith = undivided
+	color = { 51 26 26 }
+	icon = "chaos-undivided.dds"
+
+	#holy_site = suleng
+	#holy_site = mount_hellspire
+	#holy_site = kislev
+	#holy_site = praag 
+	#holy_site = altdorf
+	#holy_site = zanbaijin
+
+	tenets = {
+		tenet_undivided
+		tenet_human_sacrifice
+		tenet_armed_pilgrimages
+	}
+
+
+	doctrines = {
+		chaos_hostility_doctrine
+	}
+}

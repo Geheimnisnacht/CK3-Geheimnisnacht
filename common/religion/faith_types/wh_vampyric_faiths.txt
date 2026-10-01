@@ -1,0 +1,28 @@
+﻿vampyric = {
+	main_rite = blood_dragon_faith #WHG TODO
+	faith_details = {
+		religion = vampire_religion
+		color = { 1.0 0.0 0.0 }
+		icon = "carstein.dds"
+		reformed_icon = "carstein.dds"
+		graphical_faith = "pagan_gfx"
+	}
+
+	# eminent_holy_sites = {
+
+	# }
+
+	# holy_sites = {
+
+	# }
+	tenets = {
+		tenet_vampires
+		tenet_blood_dragon
+		tenet_blood_knights
+	}
+
+	doctrines = {
+		necromantic_hostility_doctrine
+	}
+
+}

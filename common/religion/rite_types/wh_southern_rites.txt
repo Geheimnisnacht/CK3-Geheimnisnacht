@@ -1,0 +1,458 @@
+﻿khainean = {
+	name = khainean
+	desc = khainean_desc
+	faith = southern
+	color = { 0.35 0.0 0.0 }
+	#icon = 
+	#founder = 
+
+	tenets = {
+		tenet_human_sacrifice
+		tenet_sacred_shadows
+		tenet_cold_blooded_killers
+
+	}
+	
+	doctrines = {
+		doctrine_kinslaying_accepted
+		raiding_doctrine
+		khainean_doctrine
+		
+	}
+
+	
+	localization = {
+		HighGodName = khainean_high_god_name
+		HighGodName2 = khainean_high_god_name2
+		HighGodNamePossessive = khainean_high_god_name_possessive
+		HighGodNameAlternate = khainean_high_god_name_alternative
+		HighGodNameAlternatePossessive = khainean_high_god_name_alternative_possessive
+		HighGodHerHis = CHARACTER_HERHIS_HIS
+		HighGodNameSheHe = CHARACTER_SHEHE_HE
+		HighGodHerselfHimself = CHARACTER_HIMSELF
+		
+		WarGodName = khainean_war_god_name
+		WarGodNamePossessive = khainean_war_god_name_possessive
+		WarGodSheHe = CHARACTER_SHEHE_HE
+		WarGodHerHis = CHARACTER_HERHIS_HIS
+		WarGodHerHim = CHARACTER_HERHIM_HIM
+		
+		ReligiousText = khainean_religious_text
+		ReligiousText2 = khainean_religious_text2
+		ReligiousText3 = khainean_religious_text3
+		ReligiousSymbol = khainean_religious_symbol
+		ReligiousSymbol2 = khainean_religious_symbol2
+		ReligiousSymbol3 = khainean_religious_symbol3
+	}
+}
+
+lucan_and_luccinian = {
+	name = lucan_and_luccinian
+	desc = lucan_and_luccinian_desc
+	faith = southern
+	color = { 1.0 0.4 0.4 }
+	icon = "lucan_luccinian.dds"
+	#founder = 
+
+	tenets = {
+		tenet_unrelenting_faith
+		tenet_communal_identity
+		tenet_ancestor_worship
+		
+	}
+	
+	doctrines = {
+		special_doctrine_ecumenical_old_world
+		lucan_and_luccinian_doctrine
+		
+	}
+	
+	localization = {
+		HighGodName = lucan_and_luccinian_high_god_name
+		HighGodName2 = lucan_and_luccinian_high_god_name2
+		HighGodNamePossessive = lucan_and_luccinian_high_god_name_possessive
+		HighGodNameAlternate = lucan_and_luccinian_high_god_alternative
+		HighGodNameAlternatePossessive = lucan_and_luccinian_high_god_alternative_possessive
+		HighGodHerHis = CHARACTER_HERHIS_THEIR
+		HighGodNameSheHe = CHARACTER_SHEHE_THEY
+		HighGodHerselfHimself = CHARACTER_THEMSEVES
+		
+		ReligiousText = lucan_and_luccinian_religious_text
+		ReligiousText2 = lucan_and_luccinian_religious_text2
+		ReligiousText3 = lucan_and_luccinian_religious_text3
+		ReligiousSymbol = lucan_and_luccinian_religious_symbol
+		ReligiousSymbol2 = lucan_and_luccinian_religious_symbol2
+		ReligiousSymbol3 = lucan_and_luccinian_religious_symbol3
+	}
+}
+
+morrian = {
+	name = morrian
+	desc = morrian_desc
+	faith = southern
+	color = { 10 25 40 }
+	icon = "morr.dds"
+	founder = k_cult_of_morr
+	
+	
+	holy_order_names = {
+		{ name = "holy_order_morr_knights" coat_of_arms = "ho_morr_knights" }
+		{ name = "holy_order_black_rose_knights" coat_of_arms = "ho_black_rose_knights" }
+	}			
+	
+	localization = {
+		HighGodName = morrian_high_god_name
+		HighGodName2 = morrian_high_god_name2
+		HighGodNamePossessive = morrian_high_god_name_possessive
+		HighGodNameAlternate = morrian_high_god_alternative
+		HighGodNameAlternatePossessive = morrian_high_god_alternative_possessive
+		HighGodHerHis = CHARACTER_HERHIS_HIS
+		HighGodNameSheHe = CHARACTER_SHEHE_HE
+		HighGodHerselfHimself = CHARACTER_HIMSELF
+		
+		ReligiousText = morrian_religious_text
+		ReligiousText2 = morrian_religious_text2
+		ReligiousText3 = morrian_religious_text3
+		ReligiousSymbol = morrian_religious_symbol
+		ReligiousSymbol2 = morrian_religious_symbol2
+		ReligiousSymbol3 = morrian_religious_symbol3
+	}
+	
+	tenets = {
+		tenet_pacifism
+		tenet_asceticism
+		tenet_ancestor_worship
+		
+	}
+	
+	doctrines = {
+		special_doctrine_ecumenical_old_world 
+		morrian_doctrine	
+	}
+	
+	
+}
+
+
+myrmidian = {
+	name = myrmidian
+	desc = myrmidian_desc
+	faith = southern
+	color = { 0.9 0.7 0.0 }
+	icon = "myrmidian.dds"
+	founder = k_cult_of_myrmidia
+
+	holy_order_names = {
+		{ name = "holy_order_magritta_knights" coat_of_arms = "ho_magritta_knights" }
+		{ name = "holy_order_blazing_sun_knights" coat_of_arms = "ho_blazing_sun_knights" }
+		{ name = "holy_order_irrana_knights" coat_of_arms = "ho_irrana_knights" }
+	}	
+
+	localization = {
+		ReligiousHeadName = myrmidian_religious_head_title
+		
+		ReligiousText = myrmidian_religious_text
+		ReligiousText2 = myrmidian_religious_text2
+		ReligiousText3 = myrmidian_religious_text3
+		ReligiousSymbol = myrmidian_religious_symbol
+		ReligiousSymbol2 = myrmidian_religious_symbol2
+		ReligiousSymbol3 = myrmidian_religious_symbol3
+	}
+
+	tenets = {
+		tenet_unrelenting_faith
+		tenet_armed_pilgrimages
+		tenet_legalism
+	}
+
+	doctrines = {
+		doctrine_clerical_function_recruitment 
+		special_doctrine_ecumenical_old_world
+		myrmidian_doctrine
+	}
+
+}
+
+
+myrmidian_western = {
+	name = myrmidian_western
+	desc = myrmidian_western_desc
+	faith = southern
+	color = { 0.7 0.55 0.1 }
+	icon = "estalean_myrmidia.dds"
+	founder = k_cult_of_myrmidia
+
+	#Magic
+	#doctrine_lore_myrmidia
+
+	
+	localization = {
+		#WealthGod
+		WealthGodName = myrmidian_western_wealth_god_name
+		WealthGodNamePossessive = myrmidian_western_wealth_god_name_possessive
+
+		ReligiousHeadName = myrmidian_western_religious_head_title
+		ReligiousText = myrmidian_western_religious_text
+		ReligiousText2 = myrmidian_western_religious_text2
+		ReligiousText3 = myrmidian_western_religious_text3
+		ReligiousSymbol = myrmidian_religious_symbol
+		ReligiousSymbol2 = myrmidian_religious_symbol2
+		ReligiousSymbol3 = myrmidian_religious_symbol3
+	}	
+
+	tenets = {
+		tenet_unrelenting_faith
+		tenet_ancestor_worship
+		tenet_esotericism
+	}
+
+	doctrines = {
+		doctrine_clerical_function_recruitment 
+		special_doctrine_ecumenical_old_world
+		myrmidian_doctrine	
+	}
+
+}
+
+
+myrmidian_eastern = {
+	name = myrmidian_eastern
+	desc = myrmidian_eastern_desc
+	faith = southern
+	color = { 1.0 0.68 0.0 }
+	icon = "tilean_myrmidia.dds"
+	founder = k_cult_of_myrmidia
+
+
+	
+	#Magic
+	#doctrine_lore_myrmidia
+
+	holy_site = remas
+	#holy_site = myrmidens
+	holy_site = sartosa_legal
+	holy_site = magritta
+	#holy_site = istrabul
+
+
+	
+	localization = {
+		#WealthGod
+		WealthGodName = myrmidian_eastern_wealth_god_name
+		WealthGodNamePossessive = myrmidian_eastern_wealth_god_name_possessive
+		
+		#DeathGod
+		DeathDeityName = tilean_death_god_name
+		DeathDeityNamePossessive = tilean_death_god_name_possessive
+
+		ReligiousHeadName = myrmidian_eastern_religious_head_title
+		ReligiousText = myrmidian_eastern_religious_text
+		ReligiousText2 = myrmidian_eastern_religious_text2
+		ReligiousText3 = myrmidian_eastern_religious_text3
+		ReligiousSymbol = myrmidian_religious_symbol
+		ReligiousSymbol2 = myrmidian_religious_symbol2
+		ReligiousSymbol3 = myrmidian_religious_symbol3
+	}
+
+	tenets = {
+		tenet_unrelenting_faith
+		tenet_literalism
+		tenet_religious_legal_pronouncements
+	}
+
+	doctrines = {
+		doctrine_clerical_function_recruitment 
+		special_doctrine_ecumenical_old_world
+		myrmidian_doctrine	
+	}
+}
+
+
+shallyan = {
+	name = shallyan
+	desc = shallyan_desc
+	faith = southern
+	color = { 0.9 0.9 0.9 }
+	icon = "shallya.dds"
+	founder = k_cult_of_shallya
+	
+	
+	localization = {
+		#HighGod
+		HighGodName = shallyan_high_god_name
+		HighGodName2 = shallyan_high_god_name2
+		HighGodNamePossessive = shallyan_high_god_name_possessive
+		HighGodNameAlternate = shallyan_high_god_alternative
+		HighGodNameAlternatePossessive = shallyan_high_god_alternative_possessive
+		
+		#FertilityGod
+		FertilityGodName = shallyan_fertility_god_name
+		FertilityGodNamePossessive = shallyan_fertility_god_name_possessive
+		
+		ReligiousText = shallyan_religious_text
+		ReligiousText2 = shallyan_religious_text2
+		ReligiousText3 = shallyan_religious_text3
+		ReligiousSymbol = shallyan_religious_symbol
+		ReligiousSymbol2 = shallyan_religious_symbol2
+		ReligiousSymbol3 = shallyan_religious_symbol3
+	}
+
+	tenets = {
+		tenet_mendicant_preachers
+		tenet_pacifism
+		tenet_vows_of_poverty
+	}
+
+	doctrines = {
+		special_doctrine_ecumenical_old_world
+		shallyan_doctrine
+		#doctrine_mutation_shunned			
+	}
+}
+
+
+shallyan_plague_wardens = {
+	name = shallyan_plague_wardens
+	desc = shallyan_plague_wardens_desc
+	faith = southern
+	color = { 0.9 0.9 0.9 }
+	icon = "shallya.dds"
+	founder = k_cult_of_shallya
+
+	localization = {
+		#HighGod
+		HighGodName = shallyan_high_god_name
+		HighGodName2 = shallyan_high_god_name2
+		HighGodNamePossessive = shallyan_high_god_name_possessive
+		HighGodNameAlternate = shallyan_high_god_alternative
+		HighGodNameAlternatePossessive = shallyan_high_god_alternative_possessive
+		
+		#FertilityGod
+		FertilityGodName = shallyan_fertility_god_name
+		FertilityGodNamePossessive = shallyan_fertility_god_name_possessive
+		
+		ReligiousText = shallyan_religious_text
+		ReligiousText2 = shallyan_religious_text2
+		ReligiousText3 = shallyan_religious_text3
+		ReligiousSymbol = shallyan_religious_symbol
+		ReligiousSymbol2 = shallyan_religious_symbol2
+		ReligiousSymbol3 = shallyan_religious_symbol3
+	}
+
+	tenets = {
+		tenet_mendicant_preachers
+		tenet_struggle_submission
+		tenet_vows_of_poverty
+	}
+
+	doctrines = {
+		special_doctrine_ecumenical_old_world
+		shallyan_doctrine
+		#doctrine_mutation_shunned	
+	}
+}
+
+
+solkanian = {
+	name = solkanian
+	desc = solkanian_desc
+	faith = southern
+	color = { 0.4 0.4 0.2 }
+	icon = "solkan.dds"
+	#founder = 
+	
+	
+	localization = {
+		HighGodName = solkanian_high_god_name
+		HighGodName2 = solkanian_high_god_name2
+		HighGodNamePossessive = solkanian_high_god_name_possessive
+		HighGodNameAlternate = solkanian_high_god_alternative
+		HighGodNameAlternatePossessive = solkanian_high_god_alternative_possessive
+		ReligiousHeadName = solkanian_head_name
+		HighGodHerHis = CHARACTER_HERHIS_HIS
+		HighGodNameSheHe = CHARACTER_SHEHE_HE
+		HighGodHerselfHimself = CHARACTER_HIMSELF
+		
+		ReligiousText = solkanian_religious_text
+		ReligiousText2 = solkanian_religious_text2
+		ReligiousText3 = solkanian_religious_text3
+		ReligiousSymbol = solkanian_religious_symbol
+		ReligiousSymbol2 = solkanian_religious_symbol2
+		ReligiousSymbol3 = solkanian_religious_symbol3
+	}
+
+	tenets = {
+		tenet_legalism
+		tenet_religious_legal_pronouncements
+		tenet_armed_pilgrimages
+	}
+
+	doctrines = {
+		doctrine_homosexuality_crime
+		doctrine_adultery_men_crime
+		doctrine_adultery_women_crime
+		doctrine_pluralism_righteous
+		special_doctrine_ecumenical_old_world
+		solkanian_doctrine
+		
+	}
+}
+
+
+verenan = {
+	name = verenan
+	desc = verenan_desc
+	faith = southern
+	color = { 0.3 0.3 0.9 }
+	#icon = "verena.dds"
+	#founder = 
+	
+
+	#Magic
+	#doctrine_lore_verena
+
+	#holy_site = templehof
+	#holy_site = bechafen
+	#holy_site = altdorf
+	holy_site = luccini
+	#holy_site = tobaro
+
+
+	
+	holy_order_names = {
+		{ name = "holy_order_everlasting_light_knights" coat_of_arms = "ho_everlasting_light_knights" }
+	}
+	
+	localization = {
+		HighGodName = verenan_high_god_name
+		HighGodName2 = verenan_high_god_name2
+		HighGodNamePossessive = verenan_high_god_name_possessive
+		HighGodNameAlternate = verenan_high_god_alternative
+		HighGodNameAlternatePossessive = verenan_high_god_alternative_possessive
+		
+		ReligiousText = verenan_religious_text
+		ReligiousText2 = verenan_religious_text2
+		ReligiousText3 = verenan_religious_text3
+		ReligiousSymbol = verenan_religious_symbol
+		ReligiousSymbol2 = verenan_religious_symbol2
+		ReligiousSymbol3 = verenan_religious_symbol3
+	}
+
+	tenets = {
+		tenet_legalism
+		tenet_esotericism
+		tenet_religious_legal_pronouncements
+	}
+
+	doctrines = {
+		doctrine_homosexuality_crime
+		doctrine_adultery_men_crime
+		doctrine_adultery_women_crime
+		doctrine_pluralism_righteous
+		doctrine_clerical_function_alms_and_pacification
+		doctrine_no_head
+		special_doctrine_ecumenical_old_world
+		verenan_doctrine
+			
+	}
+}

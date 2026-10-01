@@ -1,5 +1,7 @@
 ﻿arabyan_religion = {
-	family = rf_order
+	religion_details = {
+		family = rf_order
+	}
 	
 	graphical_faith = "islamic_gfx"
 	
@@ -50,10 +52,20 @@
 	doctrine = doctrine_no_anointment
 	
 	traits = {
-		virtues = { temperate generous just }
-		sins = { gluttonous greedy arbitrary drunkard }
+		virtues = {
+			temperate = { weight = 30 scale = 1 }
+			generous = { weight = 20 scale = 1 }
+			just = { weight = 30 scale = 1 }
+		}
+		sins = {
+			gluttonous = { weight = 20 scale = 1 }
+			greedy = { weight = 20 scale = 1 }
+			arbitrary = { weight = 20 scale = 1 }
+			drunkard = { weight = 20 scale = 1 }
+		}
 	}
-	
+
+
 	custom_faith_icons = {
 		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 ibadi_custom muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1
 	}
@@ -212,115 +224,4 @@
 		GHWNamePlural = placeholder_key
 	}
 	
-	faiths = {
-		#arabyan_gods = {
-		#	color = { 1.0 1.0 0.3 }
-		#	#icon = 
-
-			#holy_site = al_haikk
-		#	#holy_site = martek
-		#	#holy_site = lashiek
-		#	#holy_site = istrabul
-		#	#holy_site = sartosa
-
-		#	#doctrine = 
-		#	#doctrine = 
-		#	#doctrine = 
-		#}
-		ormazdic = {
-			color = { 1.0 1.0 0.3 }
-			#icon = 
-
-			doctrine = doctrine_pluralism_fundamentalist
-			doctrine = doctrine_temporal_head
-			doctrine = doctrine_clerical_gender_male_only
-
-			#holy_site = al_haikk
-			#holy_site = martek
-			#holy_site = lashiek
-			#holy_site = istrabul
-			#holy_site = sartosa
-
-			doctrine = tenet_aniconism
-			doctrine = tenet_legalism
-			doctrine = tenet_divine_marriage
-		}
-		
-		#kitabid = {
-		#	color = { 1.0 1.0 0.5 }
-		#	#icon = 
-
-		#	doctrine = doctrine_pluralism_fundamentalist
-		#	doctrine = doctrine_clerical_gender_male_only
-
-		#	#holy_site = al_haikk
-		#	#holy_site = martek
-		#	#holy_site = lashiek
-		#	#holy_site = istrabul
-		#	#holy_site = sartosa
-
-		#	doctrine = tenet_aniconism
-		#	doctrine = tenet_literalism
-		#	doctrine = tenet_divine_marriage
-		#}
-		#
-		#atruhayid = {
-		#	color = { 0.7 0.6 0.7 }
-		#	#icon = 
-
-		#	doctrine = doctrine_witchcraft_accepted
-		#	doctrine = doctrine_consanguinity_cousins
-		#	doctrine = doctrine_pluralism_pluralistic
-
-		#	#holy_site = copher
-		#	#holy_site = lashiek
-		#	#holy_site = nabat
-		#	#holy_site = bel_aliad
-		#	#holy_site = sartosa
-
-		#	doctrine = tenet_piracy
-		#	doctrine = tenet_unrelenting_faith
-		#	doctrine = tenet_esotericism
-		#}
-		#
-		#akghan = {
-		#	color = { 0.7 0.8 0.1 }
-		#	#icon = 
-
-		#	doctrine = doctrine_witchcraft_accepted
-		#	doctrine = doctrine_consanguinity_cousins
-		#	doctrine = doctrine_pluralism_pluralistic
-		#	doctrine = doctrine_theocracy_temporal
-		#	doctrine = doctrine_spiritual_head
-		#	doctrine = doctrine_clerical_succession_spiritual_fixed_appointment
-
-		#	#holy_site = al_anaim
-		#	#holy_site = olohrad
-		#	#holy_site = gwingui
-		#	#holy_site = tlanqua
-		#	#holy_site = obalhan
-
-		#	doctrine = tenet_adorcism
-		#	doctrine = tenet_adaptive
-		#	doctrine = tenet_esotericism
-		#}
-		#
-		#shadowmen = {
-		#	color = { 0.0 0.0 0.4 }
-		#	#icon = 
-
-		#	doctrine = doctrine_pluralism_fundamentalist
-		#	doctrine = doctrine_temporal_head
-
-		#	#holy_site = al_anaim
-		#	#holy_site = olohrad
-		#	#holy_site = gwingui
-		#	#holy_site = tlanqua
-		#	#holy_site = obalhan
-
-		#	doctrine = tenet_vampires
-		#	doctrine = tenet_esotericism
-		#	doctrine = tenet_adorcism
-		#}
-	}
 }

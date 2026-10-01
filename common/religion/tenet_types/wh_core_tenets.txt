@@ -1,5 +1,407 @@
 ﻿
 
+tenet_piracy = {
+
+
+	piety_cost = {
+		if = {
+			limit = {
+				always = no
+			}
+			value = faith_tenet_cost_low
+		}
+		else = {
+			value = faith_tenet_cost_massive
+		}
+
+		# Multiplier for keeping same tenet
+		if = {
+			limit = { has_doctrine = tenet_piracy }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}
+	}
+	
+	is_shown = {
+		always = no
+	}
+
+	can_pick = {
+		always = yes
+	}
+
+
+	character_modifier = {
+		naval_movement_speed_mult = 0.25
+		development_growth_factor = -0.1
+	}
+	
+	traits = {
+		virtues = { greedy viking }
+		sins = {}
+	}
+}
+
+tenet_cold_blooded_killers = {
+	icon = core_tenet_assassin
+
+	can_pick = {
+		custom_description = {
+			text = incompatible_tenet_pacifism_trigger
+			NOT = { doctrine:tenet_pacifism = { is_in_list = selected_doctrines } }
+		}
+		custom_description = {
+			text = fedayeen_required_doctrines_trigger
+			OR = {
+				doctrine:tenet_warmonger = { is_in_list = selected_doctrines }
+				doctrine:tenet_unrelenting_faith = { is_in_list = selected_doctrines }
+				doctrine:tenet_consolamentum = { is_in_list = selected_doctrines }
+				doctrine:tenet_armed_pilgrimages = { is_in_list = selected_doctrines }
+				doctrine:tenet_struggle_submission = { is_in_list = selected_doctrines } 
+				doctrine:tenet_pursuit_of_power = { is_in_list = selected_doctrines }
+			}
+		}
+	}
+
+	piety_cost = {
+		if = {
+			limit = {
+				OR = {
+					has_doctrine = tenet_warmonger
+					has_doctrine = tenet_unrelenting_faith
+					has_doctrine = tenet_consolamentum
+				}
+			}
+			value = faith_tenet_cost_low
+		}
+		else = {
+			value = faith_tenet_cost_massive
+		}
+
+		# Multiplier for keeping same tenet
+		if = {
+			limit = { has_doctrine = tenet_cold_blooded_killers }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}
+	}
+
+	parameters = {
+		master_assassin_court_position_unlocked = yes 
+		sanctioned_assassinations = yes 
+	}
+
+	character_modifier = {
+		controlled_province_advantage = 5
+		monthly_piety_gain_per_dread_add = 0.01
+		prowess = 3
+	}
+
+	traits = {
+		virtues = { vengeful = 1 }
+		sins = { craven = 1 }
+	}
+}
+
+
+
+
+
+
+
+#############################
+# Chaos Gods tenets	 		#
+#############################
+
+tenet_hashut = {
+	is_shown = {
+		always = no
+	}
+	can_pick = {
+		always = yes
+	}
+
+	piety_cost = {
+		if = {
+			limit = {
+				always = no
+			}
+			value = faith_tenet_cost_low
+		}
+		else = {
+			value = faith_tenet_cost_massive
+		}
+
+		# Multiplier for keeping same tenet
+		if = {
+		#	limit = { has_doctrine = tenets }
+		#	multiply = faith_unchanged_doctrine_cost_mult
+		}
+	}
+
+	parameters = {
+
+	}
+
+	character_modifier = {
+
+	}
+
+	traits = {
+		virtues = {}
+		sins = {}
+	}
+}
+
+tenet_horned_rat = {
+	is_shown = {
+		always = no
+	}
+	can_pick = {
+		always = yes
+	}
+
+	piety_cost = {
+		if = {
+			limit = {
+				always = no
+			}
+			value = faith_tenet_cost_low
+		}
+		else = {
+			value = faith_tenet_cost_massive
+		}
+
+		# Multiplier for keeping same tenet
+		# if = {
+		# 	limit = { has_doctrine = tenets }
+		# 	multiply = faith_unchanged_doctrine_cost_mult
+		# }
+	}
+
+	parameters = {
+	}
+
+	character_modifier = {
+
+	}
+
+	traits = {
+		virtues = { brave = 2}
+		sins = { craven = 2}
+	}
+}
+
+tenet_khorne = { #Blood and Skulls
+	is_shown = {
+		always = no
+	}
+	can_pick = {
+		always = yes
+	}
+
+	piety_cost = {
+		if = {
+			limit = {
+				always = no
+			}
+			value = faith_tenet_cost_low
+		}
+		else = {
+			value = faith_tenet_cost_massive
+		}
+
+		# Multiplier for keeping same tenet
+		# if = {
+		# 	limit = { has_doctrine = tenets }
+		# 	multiply = faith_unchanged_doctrine_cost_mult
+		# }
+	}
+
+	parameters = {
+		tenets_active = yes
+	}
+
+	character_modifier = {
+
+	}
+
+	traits = {
+		virtues = { brave = 2}
+		sins = { craven = 2}
+	}
+}
+
+tenet_nurgle = { #Filth and Decay
+	is_shown = {
+		always = no
+	}
+	can_pick = {
+		always = yes
+	}
+
+	piety_cost = {
+		if = {
+			limit = {
+				always = no
+			}
+			value = faith_tenet_cost_low
+		}
+		else = {
+			value = faith_tenet_cost_massive
+		}
+
+		# Multiplier for keeping same tenet
+		# if = {
+		# 	limit = { has_doctrine = tenets }
+		# 	multiply = faith_unchanged_doctrine_cost_mult
+		# }
+	}
+
+	parameters = {
+		tenets_active = yes
+	}
+
+	character_modifier = {
+
+	}
+
+	traits = {
+		virtues = { brave = 2}
+		sins = { craven = 2}
+	}
+}
+
+tenet_slaanesh = { #Pleasure and Pain
+	is_shown = {
+		always = no
+	}
+	can_pick = {
+		always = yes
+	}
+
+	piety_cost = {
+		if = {
+			limit = {
+				always = no
+			}
+			value = faith_tenet_cost_low
+		}
+		else = {
+			value = faith_tenet_cost_massive
+		}
+
+		# Multiplier for keeping same tenet
+		# if = {
+		# 	limit = { has_doctrine = tenets }
+		# 	multiply = faith_unchanged_doctrine_cost_mult
+		# }
+	}
+
+	parameters = {
+		tenets_active = yes
+	}
+
+	character_modifier = {
+
+	}
+
+	traits = {
+		virtues = { brave = 2}
+		sins = { craven = 2}
+	}
+}
+
+tenet_tzeentch = { #Knowledge and Change
+	is_shown = {
+		always = no
+	}
+	can_pick = {
+		always = yes
+	}
+
+	piety_cost = {
+		if = {
+			limit = {
+				always = no
+			}
+			value = faith_tenet_cost_low
+		}
+		else = {
+			value = faith_tenet_cost_massive
+		}
+
+		# Multiplier for keeping same tenet
+		# if = {
+		# 	limit = { has_doctrine = tenets }
+		# 	multiply = faith_unchanged_doctrine_cost_mult
+		# }
+	}
+
+	parameters = {
+		tenets_active = yes
+	}
+
+	character_modifier = {
+
+	}
+
+	traits = {
+		virtues = { brave = 2}
+		sins = { craven = 2}
+	}
+}
+
+tenet_undivided = { #Knowledge and Change
+	is_shown = {
+		always = no
+	}
+	can_pick = {
+		always = yes
+	}
+
+	piety_cost = {
+		if = {
+			limit = {
+				always = no
+			}
+			value = faith_tenet_cost_low
+		}
+		else = {
+			value = faith_tenet_cost_massive
+		}
+
+		# Multiplier for keeping same tenet
+		# if = {
+		# 	limit = { has_doctrine = tenets }
+		# 	multiply = faith_unchanged_doctrine_cost_mult
+		# }
+	}
+
+	parameters = {
+		tenets_active = yes
+	}
+
+	character_modifier = {
+
+	}
+
+	traits = {
+		virtues = { brave = 2}
+		sins = { craven = 2}
+	}
+}
+
+
+
+
+
+
+
+#############################
+# Vampire tenets			#
+#############################
+
+
+
 tenet_vampires = {
 	is_shown = {
 		religion_tag = vampire_religion
@@ -39,8 +441,8 @@ tenet_vampires = {
 }
 
 #############################
-# Bloodline tenets			#
-#############################
+# Bloodline tenets			
+
 
 tenet_carstein = {
 	is_shown = {
@@ -620,5 +1022,154 @@ tenet_tattered_sails = {
 	traits = {
 		virtues = { sadistic lunatic possessed }
 		sins = {}
+	}
+}
+
+
+
+
+
+#############################
+# Other tenets	 		#
+#############################
+
+tenet_empowered_knights = {
+	icon = core_tenet_warmonger
+	is_shown = {
+		always = no
+	}
+	can_pick = {
+		always = yes
+	}
+
+	piety_cost = {
+		if = {
+			limit = {
+				always = no
+			}
+			value = faith_tenet_cost_low
+		}
+		else = {
+			value = faith_tenet_cost_massive
+		}
+
+		# Multiplier for keeping same tenet
+		if = {
+			limit = { has_doctrine = tenet_empowered_knights }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}
+	}
+
+	parameters = {
+		minimum_prowess_for_knights = yes
+		prowess_from_martial_education = yes
+	}
+
+	character_modifier = {
+		tolerance_advantage_mod = 10
+		prowess_per_piety_level = 2
+	}
+
+	traits = {
+		virtues = { 
+			brave
+			education_martial_prowess_3
+			education_martial_prowess_4
+		}
+	}
+}
+
+tenet_knightly_virtues = {
+	icon = core_tenet_communion
+	is_shown = {
+		always = no
+	}
+	can_pick = {
+		always = yes
+	}
+
+	piety_cost = {
+		if = {
+			limit = {
+				always = no
+			}
+			value = faith_tenet_cost_low
+		}
+		else = {
+			value = faith_tenet_cost_massive
+		}
+
+		# Multiplier for keeping same tenet
+		if = {
+			limit = { has_doctrine = tenet_knightly_virtues }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}
+	}
+
+	parameters = {
+		knightly_virtues_active = yes
+		excommunication_active = yes
+		ghw_no_hof_conversion_buffs_active = yes
+		cannot_marry_lowborns = yes
+	}
+
+	character_modifier = {
+		monthly_piety_gain_per_knight_mult = 0.01
+	}
+
+	traits = {
+		virtues = {
+			faith_warrior
+			holy_warrior
+		}
+	}
+}
+
+tenet_freedom_of_the_sky = {
+	icon = core_tenet_sky_burials
+	is_shown = {
+		always = no
+	}
+	can_pick = {
+		always = yes
+	}
+
+	piety_cost = {
+		if = {
+			limit = {
+				always = no
+			}
+			value = faith_tenet_cost_low
+		}
+		else = {
+			value = faith_tenet_cost_massive
+		}
+
+		# Multiplier for keeping same tenet
+		if = {
+			limit = { has_doctrine = tenet_freedom_of_the_sky }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}
+	}
+	
+	character_modifier = {
+		character_travel_speed_mult = 0.25
+		movement_speed = 0.25
+		
+		archer_cavalry_pursuit_mult = 0.25
+		light_cavalry_pursuit_mult = 0.25
+		heavy_cavalry_pursuit_mult = 0.25
+		
+		archer_cavalry_damage_mult = 0.25
+		light_cavalry_damage_mult = 0.25
+		heavy_cavalry_damage_mult = 0.25
+	}
+	
+	traits = {
+		virtues = {
+			eccentric
+			lifestyle_traveler
+			adventurer
+		}
 	}
 }

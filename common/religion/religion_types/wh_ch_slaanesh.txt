@@ -1,6 +1,7 @@
 ﻿slaanesh_religion = {
-	family = rf_chaos
-	
+	religion_details = {
+		family = rf_chaos
+	}
 	doctrine = raiding_doctrine
 	doctrine = chaos_hostility_doctrine
 	
@@ -46,8 +47,17 @@
 	doctrine = doctrine_no_anointment
 	
 	traits = {
-		virtues = { lustful sadistic gluttonous }
-		sins = { temperate patient chaste }
+		virtues = {
+			lustful = { weight = 30 scale = 1 }
+			sadistic = { weight = 20 scale = 1 }
+			gluttonous = { weight = 20 scale = 1 }
+		}
+		sins = {
+			temperate = { weight = 20 scale = 1 }
+			patient = { weight = 20 scale = 1 }
+			chaste = { weight = 30 scale = 1 }
+			loyal = { weight = 30 scale = 1 }
+		}
 	}
 	
 	custom_faith_icons = {
@@ -208,38 +218,4 @@
 		GHWNamePlural = placeholder_key
 	}
 	
-	faiths = {
-		slaaneshi_kurgan = {
-			color = { 0.7 0.2 0.8 }
-			icon = "slaneesh-base.dds"
-
-			#doctrine = 
-
-			#holy_site = kazarajin
-			#holy_site = isle_of_gaman
-			#holy_site = kislev
-			#holy_site = praag
-			#holy_site = zanbaijin
-
-			doctrine = tenet_slaanesh
-			doctrine = tenet_carnal_exaltation
-			doctrine = tenet_hedonistic
-		}
-		#gorlaz = { #Dwarf Slaaneshi faith. Gorlaz is the """Lost""" God of Wealth
-			#color = { 0.7 0.2 0.8 }
-			#icon = "slaneesh-base.dds"
-
-			#doctrine = 
-
-			#holy_site = kazarajin
-			#holy_site = isle_of_gaman
-			#holy_site = kislev
-			#holy_site = praag
-			#holy_site = zanbaijin
-
-			#doctrine = tenet_slaanesh
-			#doctrine = tenet_carnal_exaltation
-			#doctrine = tenet_hedonistic
-		#}
-	}
 }

@@ -1,6 +1,9 @@
 ﻿undivided_religion = {
-	family = rf_chaos
-	
+	religion_details = {
+		family = rf_chaos
+	}
+
+
 	doctrine = raiding_doctrine
 	doctrine = chaos_hostility_doctrine
 	
@@ -46,10 +49,17 @@
 	doctrine = doctrine_no_anointment
 	
 	traits = {
-		virtues = { brave zealous }
-		sins = { craven cynical }
+		virtues = {
+			brave = { weight = 30 scale = 1 }
+			zealous = { weight = 20 scale = 1 }
+		}
+		sins = {
+			craven = { weight = 20 scale = 1 }
+			cynical = { weight = 20 scale = 1 }
+		}
 	}
-	
+
+
 	custom_faith_icons = {
 		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 ibadi_custom muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1
 	}
@@ -210,25 +220,5 @@
 
 		GHWName = placeholder_key
 		GHWNamePlural = placeholder_key
-	}
-	
-	faiths = {
-		undivided_kurgan = {
-			color = { 51 26 26 }
-			icon = "chaos-undivided.dds"
-
-			doctrine = doctrine_temporal_head
-
-			#holy_site = suleng
-			#holy_site = mount_hellspire
-			#holy_site = kislev
-			#holy_site = praag 
-			#holy_site = altdorf
-			#holy_site = zanbaijin
-
-			doctrine = tenet_undivided
-			doctrine = tenet_human_sacrifice
-			doctrine = tenet_armed_pilgrimages
-		}
 	}
 }
