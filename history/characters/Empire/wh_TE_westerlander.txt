@@ -3,7 +3,7 @@
     female = yes 
     dynasty = dynasty_Maacht  #van der Maacht
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
 	dna = 51000_ec_magritta_maacht
     martial = 8
     diplomacy = 4
@@ -34,7 +34,7 @@
     name = Frederik 
     dynasty = 13303 
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 9
     diplomacy = 8
     stewardship = 2
@@ -54,7 +54,7 @@
     name = Waelram 
     dynasty = 13231 
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 7
     diplomacy = 1
     stewardship = 0
@@ -74,7 +74,7 @@
     name = Barend 
     dynasty = 13391 
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 6
     diplomacy = 1
     stewardship = 0
@@ -95,7 +95,7 @@
     name = Reginar 
     dynasty = 13446 
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 5
     diplomacy = 10
     stewardship = 7
@@ -122,7 +122,7 @@
     female = yes 
     dynasty = 13094 
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 9
     diplomacy = 0
     stewardship = 11
@@ -145,7 +145,7 @@
     name = Guij 
     dynasty = 13402 
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 9
     diplomacy = 7
     stewardship = 5
@@ -165,7 +165,7 @@
     name = Emmo 
     dynasty = 13361 
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 8
     diplomacy = 1
     stewardship = 9
@@ -190,7 +190,7 @@
     name = Hubert 
     dynasty = 13187 
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 6
     diplomacy = 0
     stewardship = 1
@@ -211,7 +211,7 @@
     name = Robert 
     dynasty = 13375 
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 8
     diplomacy = 10
     stewardship = 7
@@ -232,7 +232,7 @@
     name = Koenraad 
     dynasty = 13109 
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 1
     diplomacy = 10
     stewardship = 10
@@ -251,7 +251,7 @@
     name = Reinoud 
     dynasty = 13410 
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 10
     diplomacy = 1
     stewardship = 3
@@ -274,7 +274,7 @@
     name = Lambert 
     dynasty = 13451 
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 10
     diplomacy = 8
     stewardship = 9
@@ -296,7 +296,7 @@
     female = yes 
     dynasty = 13254 
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 9
     diplomacy = 2
     stewardship = 4
@@ -318,7 +318,7 @@
     name = Niclaes 
     dynasty = 13441 
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 1
     diplomacy = 9
     stewardship = 11
@@ -340,7 +340,7 @@
     name = Jan 
     dynasty = 13558 
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 4
     stewardship = 1
@@ -362,7 +362,7 @@
     name = Kristof 
     dynasty = 13228 
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 8
     diplomacy = 6
     stewardship = 8
@@ -384,7 +384,7 @@
     name = Antoon 
     dynasty = 13067 
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 0
     diplomacy = 2
     stewardship = 0
@@ -406,7 +406,7 @@
     name = Gerolt 
     dynasty = 13381 
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 3
     diplomacy = 2
     stewardship = 4
@@ -427,7 +427,7 @@
     name = Gwidje 
     dynasty = 13084 
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 8
     diplomacy = 2
     stewardship = 11
@@ -450,7 +450,7 @@
     name = Tomas 
     dynasty = 13005 
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 10
     diplomacy = 8
     stewardship = 9
@@ -470,7 +470,7 @@
     name = Arthur 
     dynasty = 13005 
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     father = 51020 
     martial = 10
     diplomacy = 8
@@ -490,7 +490,7 @@
     dynasty = 13005 
     father = 667 
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 9
     diplomacy = 2
     stewardship = 4
@@ -512,7 +512,7 @@
     name = Carolus 
     dynasty = 13004 
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 1
     diplomacy = 9
     stewardship = 11
@@ -536,7 +536,7 @@
     name = Matthias 
     dynasty = 13004 
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 4
     stewardship = 1
@@ -558,7 +558,7 @@
     name = Carolus 
     dynasty = 13004 
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 8
     diplomacy = 6
     stewardship = 8
@@ -581,7 +581,7 @@
     female = yes 
     dynasty = 13020 
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 0
     diplomacy = 2
     stewardship = 0
@@ -601,7 +601,7 @@
     name = Carolus 
     dynasty = 13000  #van Hoensbroech
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 2
     stewardship = 4
@@ -622,7 +622,7 @@
     name = Matthias 
     dynasty = 13000  #van Hoensbroech
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 8
     diplomacy = 2
     stewardship = 11
@@ -644,7 +644,7 @@
     name = Hugo 
     dynasty = 13262 
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 10
     diplomacy = 7
     stewardship = 1
@@ -664,7 +664,7 @@
     name = Onno 
     dynasty = 13070 
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 8
     diplomacy = 4
     stewardship = 8
@@ -686,7 +686,7 @@
     name = Karel 
     dynasty = 13193 
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 4
     diplomacy = 7
     stewardship = 11
@@ -704,7 +704,7 @@
     name = Luthard 
     dynasty = 13538 
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 9
     diplomacy = 10
     stewardship = 1
@@ -724,7 +724,7 @@
     name = Olivier 
     dynasty = 13261 
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 1
     diplomacy = 3
     stewardship = 6
@@ -745,7 +745,7 @@
     name = Douwe 
     dynasty = 13562 
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 8
     diplomacy = 9
     stewardship = 10
@@ -766,7 +766,7 @@
     name = Rodulf 
     dynasty = 13195 
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 10
     diplomacy = 2
     stewardship = 9
@@ -791,7 +791,7 @@
     name = Waelram 
     dynasty = 13531 
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 6
     diplomacy = 10
     stewardship = 6
@@ -817,7 +817,7 @@
     dynasty = 13375 
     #dna = nnjhflabgec
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 8
     diplomacy = 3
     stewardship = 3
@@ -841,7 +841,7 @@
     dynasty = 13375 
     #dna = llknofkgfib
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 3
     diplomacy = 3
     stewardship = 5
@@ -863,7 +863,7 @@
     dynasty = 13423 
     #dna = bfkhgebadjn
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 7
     diplomacy = 7
     stewardship = 1
@@ -884,7 +884,7 @@
     dynasty = dynasty_Maacht 
     #dna = jjlepchnikb
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 5
     stewardship = 1
@@ -906,7 +906,7 @@
     dynasty = 13453 
     #dna = knmilkhifcb
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 0
     diplomacy = 3
     stewardship = 5
@@ -926,7 +926,7 @@
     dynasty = dynasty_Maacht 
     #dna = bcpopknafpa
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 2
     stewardship = 4
@@ -949,7 +949,7 @@
     dynasty = dynasty_Maacht 
     #dna = dikeeoillog
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 7
     diplomacy = 1
     stewardship = 7
@@ -975,7 +975,7 @@
     dynasty = dynasty_Maacht 
     #dna = ihidobemdgg
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 1
     diplomacy = 3
     stewardship = 5
@@ -999,7 +999,7 @@
     dynasty = 13242 
     #dna = ndagjodnpkl
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 6
     diplomacy = 4
     stewardship = 3
@@ -1020,7 +1020,7 @@
     dynasty = 13231 
     #dna = pjfbkkjilhc
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 1
     stewardship = 6
@@ -1042,7 +1042,7 @@
     dynasty = 13231 
     #dna = hjhegdobojp
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 3
     stewardship = 1
@@ -1065,7 +1065,7 @@
     dynasty = 13231 
     #dna = chfmalabenb
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 4
     stewardship = 2
@@ -1086,7 +1086,7 @@
     dynasty = 13446 
     #dna = pjfmofoffdg
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 5
     diplomacy = 5
     stewardship = 4
@@ -1111,7 +1111,7 @@
     dynasty = 13247 
     #dna = noihcpbiadk
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 4
     stewardship = 3
@@ -1133,7 +1133,7 @@
     dynasty = 13446 
     #dna = abbpnkibkah
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 4
     diplomacy = 6
     stewardship = 2
@@ -1157,7 +1157,7 @@
     dynasty = 13249 
     #dna = epkgbpacchd
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 4
     stewardship = 7
@@ -1179,7 +1179,7 @@
     dynasty = 13249 
     #dna = glpinfgnopl
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 1
     stewardship = 1
@@ -1203,7 +1203,7 @@
     dynasty = 13446 
     #dna = fdlhpahpdeo
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 4
     diplomacy = 3
     stewardship = 8
@@ -1227,7 +1227,7 @@
     dynasty = 13094 
     #dna = pjhkfjallgm
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 4
     stewardship = 2
@@ -1249,7 +1249,7 @@
     dynasty = 13253 
     #dna = hoompfbccmc
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 6
     stewardship = 6
@@ -1272,7 +1272,7 @@
     dynasty = 13361 
     #dna = lmppaakobie
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 1
     diplomacy = 4
     stewardship = 1
@@ -1296,7 +1296,7 @@
     dynasty = 13361 
     #dna = oippbjfepoh
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 7
     diplomacy = 6
     stewardship = 5
@@ -1317,7 +1317,7 @@
     dynasty = 13256 
     #dna = lfoahblnaff
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 5
     stewardship = 3
@@ -1339,7 +1339,7 @@
     dynasty = 13257 
     #dna = oaohheaikfb
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 2
     stewardship = 2
@@ -1359,7 +1359,7 @@
     dynasty = 13410 
     #dna = ckealkplpfn
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 2
     stewardship = 2
@@ -1386,7 +1386,7 @@
     dynasty = 13259 
     #dna = mffjgegadep
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 8
     diplomacy = 5
     stewardship = 7
@@ -1407,7 +1407,7 @@
     dynasty = 13410 
     #dna = ohmjnpijcpa
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 0
     diplomacy = 4
     stewardship = 8
@@ -1432,7 +1432,7 @@
     dynasty = 13410 
     #dna = dkablljahbn
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 2
     stewardship = 3
@@ -1456,7 +1456,7 @@
     dynasty = 13410 
     #dna = dlccbjnocoi
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 3
     stewardship = 4
@@ -1481,7 +1481,7 @@
     dynasty = 13410 
     #dna = dploelmgpnm
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 2
     stewardship = 3
@@ -1507,7 +1507,7 @@
     dynasty = 13451 
     #dna = bekmcmmbkgi
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 6
     diplomacy = 1
     stewardship = 5
@@ -1530,7 +1530,7 @@
     dynasty = 13451 
     #dna = ekolnekckha
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 4
     stewardship = 3
@@ -1555,7 +1555,7 @@
     dynasty = 13451 
     #dna = manmlpdeedk
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 0
     diplomacy = 2
     stewardship = 4
@@ -1578,7 +1578,7 @@
     dynasty = 13451 
     #dna = dhkgldoekle
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 5
     stewardship = 3
@@ -1601,7 +1601,7 @@
     dynasty = 13451 
     #dna = ealfflclace
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 7
     diplomacy = 7
     stewardship = 6
@@ -1624,7 +1624,7 @@
     dynasty = 13451 
     #dna = loajbkiagam
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 5
     stewardship = 3
@@ -1650,7 +1650,7 @@
     dynasty = 13451 
     #dna = ibjfofeijai
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 2
     stewardship = 1
@@ -1674,7 +1674,7 @@
     dynasty = 13067 
     #dna = ckfmcabalgi
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 2
     diplomacy = 6
     stewardship = 8
@@ -1695,7 +1695,7 @@
     dynasty = 13067 
     #dna = homihjmkioe
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 4
     diplomacy = 6
     stewardship = 6
@@ -1717,7 +1717,7 @@
     dynasty = 13067 
     #dna = ngggdjmdbia
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 6
     diplomacy = 6
     stewardship = 6
@@ -1738,7 +1738,7 @@
     dynasty = 13067 
     #dna = lfhldobpiog
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 4
     diplomacy = 6
     stewardship = 2
@@ -1759,7 +1759,7 @@
     dynasty = 13067 
     #dna = ddddcbcbpfc
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 5
     diplomacy = 2
     stewardship = 4
@@ -1783,7 +1783,7 @@
     dynasty = 13276 
     #dna = gkokncnekkh
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 6
     stewardship = 6
@@ -1804,7 +1804,7 @@
     dynasty = 13381 
     #dna = jmnkcbkehcj
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 7
     diplomacy = 7
     stewardship = 3
@@ -1825,7 +1825,7 @@
     dynasty = dynasty_Maacht 
     #dna = khboncpikkd
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 8
     diplomacy = 6
     stewardship = 8
@@ -1848,7 +1848,7 @@
     dynasty = 13209 
     #dna = cmhhgjdjnhl
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 7
     diplomacy = 5
     stewardship = 7
@@ -1871,7 +1871,7 @@
     dynasty = 13446 
     #dna = epkdamnhbpd
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 4
     diplomacy = 6
     stewardship = 3
@@ -1894,7 +1894,7 @@
     dynasty = 13281 
     #dna = bgpnhhmfedb
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 6
     diplomacy = 1
     stewardship = 6
@@ -1916,7 +1916,7 @@
     dynasty = 13282 
     #dna = japfadciigf
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 4
     stewardship = 3
@@ -1938,7 +1938,7 @@
     dynasty = 13361 
     #dna = dficbnpgbfi
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 3
     diplomacy = 3
     stewardship = 4
@@ -1960,7 +1960,7 @@
     dynasty = 13284 
     #dna = pembfaogebl
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 2
     stewardship = 4
@@ -1981,7 +1981,7 @@
     dynasty = 13410 
     #dna = agmnpchgahm
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 1
     diplomacy = 4
     stewardship = 1
@@ -2005,7 +2005,7 @@
     dynasty = 13410 
     #dna = ldfbblhlinh
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 1
     diplomacy = 6
     stewardship = 3
@@ -2031,7 +2031,7 @@
     dynasty = 13410 
     #dna = pnpfgjdjhef
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 5
     stewardship = 8
@@ -2053,7 +2053,7 @@
     dynasty = 13410 
     #dna = fgofpogagdk
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 1
     diplomacy = 1
     stewardship = 4
@@ -2075,7 +2075,7 @@
     dynasty = 13067 
     #dna = ojbpohneoem
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 4
     diplomacy = 5
     stewardship = 4
@@ -2097,7 +2097,7 @@
     dynasty = 13290 
     #dna = empedmedddl
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 6
     stewardship = 0
@@ -2120,7 +2120,7 @@
     dynasty = 13375 
     #dna = nfemdoikkbj
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 7
     diplomacy = 5
     stewardship = 6
@@ -2144,7 +2144,7 @@
     dynasty = 13375 
     #dna = fcjfpiddfho
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 5
     diplomacy = 5
     stewardship = 4
@@ -2167,7 +2167,7 @@
     dynasty = 13375 
     #dna = ioammhchppj
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 2
     diplomacy = 3
     stewardship = 4
@@ -2190,7 +2190,7 @@
     dynasty = 13375 
     #dna = mekgnmgifgg
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 7
     diplomacy = 2
     stewardship = 1
@@ -2213,7 +2213,7 @@
     dynasty = 13376 
     #dna = nmbdfifgpdo
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 7
     diplomacy = 6
     stewardship = 3
@@ -2235,7 +2235,7 @@
     dynasty = 13377 
     #dna = goajjgmnmjn
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 4
     stewardship = 6
@@ -2257,7 +2257,7 @@
     dynasty = 13378 
     #dna = ojiicpegklb
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 5
     stewardship = 0
@@ -2280,7 +2280,7 @@
     dynasty = 13378 
     #dna = lemkaomiplp
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 0
     diplomacy = 2
     stewardship = 1
@@ -2300,7 +2300,7 @@
     dynasty = 13261 
     #dna = mhcejepaipg
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 0
     stewardship = 1
@@ -2322,7 +2322,7 @@
     dynasty = 13232 
     #dna = ejmjfnoilld
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 6
     diplomacy = 0
     stewardship = 3
@@ -2347,7 +2347,7 @@
     dynasty = 13562 
     #dna = edamkdbkdgb
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 1
     diplomacy = 7
     stewardship = 4
@@ -2369,7 +2369,7 @@
     dynasty = 13097 
     #dna = mglikkhblac
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 5
     stewardship = 4
@@ -2392,7 +2392,7 @@
     dynasty = 13195 
     #dna = lakpgpcajel
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 3
     diplomacy = 3
     stewardship = 4
@@ -2414,7 +2414,7 @@
     dynasty = 13235 
     #dna = pkodkambick
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 8
     diplomacy = 4
     stewardship = 7
@@ -2433,7 +2433,7 @@
     dynasty = 13531 
     #dna = cjcbckgekbd
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 7
     diplomacy = 8
     stewardship = 6
@@ -2455,7 +2455,7 @@
     dynasty = 13239 
     #dna = blbcjophekb
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 8
     stewardship = 4
@@ -2476,7 +2476,7 @@
     dynasty = 13261 
     #dna = ncnopegnige
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 3
     stewardship = 4
@@ -2499,7 +2499,7 @@
     dynasty = 13261 
     #dna = elllpofadeh
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 6
     diplomacy = 5
     stewardship = 7
@@ -2522,7 +2522,7 @@
     dynasty = 13562 
     #dna = nakpdhhjcoa
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 1
     diplomacy = 3
     stewardship = 4
@@ -2544,7 +2544,7 @@
     dynasty = 13195 
     #dna = effdojclkan
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 2
     diplomacy = 7
     stewardship = 5
@@ -2568,7 +2568,7 @@
     dynasty = 13195 
     #dna = plikhekhghi
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 1
     diplomacy = 3
     stewardship = 0
@@ -2591,7 +2591,7 @@
     dynasty = 13195 
     #dna = ggmdmmhlfmi
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 3
     diplomacy = 5
     stewardship = 4
@@ -2613,7 +2613,7 @@
     dynasty = 13531 
     #dna = bihapgoljli
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 6
     diplomacy = 5
     stewardship = 1
@@ -2636,7 +2636,7 @@
     dynasty = 13351 
     #dna = feoehkjkjec
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 1
     stewardship = 7
@@ -2656,7 +2656,7 @@
     dynasty = 13195 
     #dna = fhjfokkhnnn
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 0
     diplomacy = 6
     stewardship = 2
@@ -2678,7 +2678,7 @@
     dynasty = 13390 
     #dna = ghcpdepmimh
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 7
     diplomacy = 4
     stewardship = 1
@@ -2702,7 +2702,7 @@
     dynasty = 13531 
     #dna = kleooanlbao
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 1
     diplomacy = 2
     stewardship = 4
@@ -2727,7 +2727,7 @@
     dynasty = 13342 
     #dna = ndkbijajcgi
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 6
     stewardship = 4
@@ -2748,7 +2748,7 @@
     dynasty = 13562 
     #dna = dkcmpakpfoh
     culture = westerlander 
-    religion = manannite 
+    rite = manannite 
     martial = 8
     diplomacy = 6
     stewardship = 6
@@ -2768,7 +2768,7 @@
     dynasty = 13072 
     #dna = ndkbijapfoh
     culture = westerlander 
-    religion = myrmidian 
+    rite = myrmidian 
     martial = 2
     diplomacy = 3
     stewardship = 4
@@ -2789,7 +2789,7 @@
     name = Roderick  # Roderick Vijfswinkel First ruler of free Marienburg
     dynasty = 13246 
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 6
     stewardship = 4
@@ -2811,7 +2811,7 @@
     name = Thijs  # Thijs van Onderzoeker First ruler of mercantile Marienburg
     dynasty = 13009 
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 6
     diplomacy = 9
     stewardship = 7
@@ -2832,7 +2832,7 @@
     name = Jan  # Jan Koopmans Starting patriarch of mercantile Marienburg
     dynasty = 13579 
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 6
     diplomacy = 9
     stewardship = 7
@@ -2853,7 +2853,7 @@
     name = Pieter  # Pieter Winkler Starting patriarch of mercantile Marienburg
     dynasty = 13578 
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 6
     diplomacy = 9
     stewardship = 7
@@ -2874,7 +2874,7 @@
     name = Guillaume  # Guillaume Vijfswinkel Starting patriarch of mercantile Marienburg
     dynasty = 13246 
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 6
     diplomacy = 9
     stewardship = 7
@@ -2895,7 +2895,7 @@
     name = Remeeus  # Remeeus Smeele Starting patriarch of mercantile Marienburg
     dynasty = 13033 
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 6
     diplomacy = 9
     stewardship = 7
@@ -2916,7 +2916,7 @@
     name = Wikus  # van de Kuypers Starting patriarch of mercantile Marienburg
     dynasty = 13008 
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 9
     stewardship = 7
@@ -2938,7 +2938,7 @@
     dynasty = 13009 
     #dna = pkmpcpmincj
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 4
     stewardship = 4
@@ -2958,7 +2958,7 @@
     dynasty = 13008 
     #dna = heipgcjpoob
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 5
     stewardship = 3
@@ -2983,7 +2983,7 @@
     dynasty = 13010 
     #dna = cfhdhcgkhad
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 1
     stewardship = 4
@@ -3007,7 +3007,7 @@
     dynasty = 13011 
     #dna = ohlgacadond
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 4
     stewardship = 3
@@ -3027,7 +3027,7 @@
     dynasty = 13012 
     #dna = bfidchakcgo
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 7
     diplomacy = 7
     stewardship = 1
@@ -3048,7 +3048,7 @@
     dynasty = 13013 
     #dna = hheejmeeief
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 3
     stewardship = 2
@@ -3069,7 +3069,7 @@
     dynasty = 13010 
     #dna = fbedhbpmipm
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 0
     diplomacy = 5
     stewardship = 5
@@ -3091,7 +3091,7 @@
     dynasty = 13015 
     #dna = mmjepfbbanh
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 6
     diplomacy = 2
     stewardship = 3
@@ -3112,7 +3112,7 @@
     dynasty = 13016 
     #dna = hlfgljiccmb
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 4
     stewardship = 3
@@ -3135,7 +3135,7 @@
     dynasty = 13017 
     #dna = cefajemnboo
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 6
     diplomacy = 7
     stewardship = 1
@@ -3157,7 +3157,7 @@
     dynasty = 13009 
     #dna = hcjmeijfkhg
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 1
     diplomacy = 2
     stewardship = 1
@@ -3179,7 +3179,7 @@
     dynasty = 13008 
     #dna = kgnmfbcggoc
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 6
     diplomacy = 8
     stewardship = 5
@@ -3202,7 +3202,7 @@
     dynasty = 13010 
     #dna = lobhmmiaglb
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 7
     diplomacy = 8
     stewardship = 3
@@ -3224,7 +3224,7 @@
     dynasty = 13011 
     #dna = efplobpleon
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 5
     stewardship = 7
@@ -3244,7 +3244,7 @@
     dynasty = 13012 
     #dna = mlpcmnfkafm
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 4
     stewardship = 5
@@ -3264,7 +3264,7 @@
     dynasty = 13013 
     #dna = agcdaljdhbb
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 8
     diplomacy = 4
     stewardship = 2
@@ -3286,7 +3286,7 @@
     dynasty = 13010 
     #dna = kbildnbifek
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 4
     stewardship = 4
@@ -3307,7 +3307,7 @@
     dynasty = 13015 
     #dna = ebmgcijpljf
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 1
     diplomacy = 8
     stewardship = 5
@@ -3330,7 +3330,7 @@
     dynasty = 13016 
     #dna = fghakinnlpj
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 3
     stewardship = 1
@@ -3353,7 +3353,7 @@
     dynasty = 13017 
     #dna = igkohahifbc
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 7
     stewardship = 3
@@ -3376,7 +3376,7 @@
     dynasty = 13008 
     #dna = fbbbeldmikg
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 6
     diplomacy = 5
     stewardship = 5
@@ -3398,7 +3398,7 @@
     dynasty = 13008 
     #dna = oogamalmmob
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 7
     stewardship = 3
@@ -3421,7 +3421,7 @@
     dynasty = 13304 
     #dna = hbangficeme
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 3
     stewardship = 4
@@ -3442,7 +3442,7 @@
     dynasty = 13008 
     #dna = ajabfgdpclm
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 2
     stewardship = 3
@@ -3471,7 +3471,7 @@
     dynasty = 13008 
     #dna = jjccdndepja
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 3
     stewardship = 6
@@ -3494,7 +3494,7 @@
     dynasty = 13007 
     #dna = dengepacnfn
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 3
     stewardship = 1
@@ -3513,7 +3513,7 @@
     dynasty = 13002 
     #dna = pbggadjhkkl
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 6
     diplomacy = 3
     stewardship = 7
@@ -3533,7 +3533,7 @@
     dynasty = 13492 
     #dna = ehcglneeimi
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 0
     diplomacy = 3
     stewardship = 5
@@ -3554,7 +3554,7 @@
     dynasty = 13340 
     #dna = fgpjbmecpai
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 1
     diplomacy = 5
     stewardship = 2
@@ -3577,7 +3577,7 @@
     dynasty = 13425 
     #dna = cncmnlmoepl
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 4
     stewardship = 1
@@ -3597,7 +3597,7 @@
     dynasty = 13384 
     #dna = hncghfbbnac
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 1
     diplomacy = 6
     stewardship = 2
@@ -3619,7 +3619,7 @@
     dynasty = 13384 
     #dna = dffcpebpjoc
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 6
     diplomacy = 8
     stewardship = 6
@@ -3643,7 +3643,7 @@
     dynasty = 13384 
     #dna = beohdplkfli
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 8
     stewardship = 4
@@ -3663,7 +3663,7 @@
     dynasty = 13384 
     #dna = fbjbmbfjlnj
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 7
     diplomacy = 0
     stewardship = 5
@@ -3685,7 +3685,7 @@
     dynasty = 13384 
     #dna = edldjcgppmh
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 6
     stewardship = 4
@@ -3708,7 +3708,7 @@
     dynasty = 13384 
     #dna = jplhejcmjcj
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 7
     stewardship = 8
@@ -3732,7 +3732,7 @@
     dynasty = 13484 
     #dna = jdlhajccjcj
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 7
     stewardship = 8
@@ -3752,7 +3752,7 @@
     dynasty = 13580 
     #dna = dficbnpgbfi
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 3
     stewardship = 4
@@ -3773,7 +3773,7 @@
     female = yes 
     dynasty = 13581 
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 3
     stewardship = 8
@@ -3796,7 +3796,7 @@
     name = Johann 
     dynasty = 13582 
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 5
     stewardship = 4
@@ -3824,7 +3824,7 @@
     name = Marcellus 
     dynasty = 13031 
     culture = sudenburger 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 5
     stewardship = 2
@@ -3852,7 +3852,7 @@
     dynasty = 13032 
     female = yes 
     culture = sudenburger 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 5
     stewardship = 2
@@ -3875,7 +3875,7 @@
     father = 51270 
     mother = 51271 
     culture = sudenburger 
-    religion = sigmarite  
+    rite = sigmarite  
     trait = intellect_bad_1 
     trait = lustful 
     6491.6.15 = { birth = yes } 
@@ -3898,8 +3898,8 @@
     intrigue = 13
     learning = 16
     culture = westerlander #was witchhunter_culture 
-    # religion = shadowmen
-    religion = sigmarite # WHG TODO placeholder: faith 'shadowmen' doesn't exist anywhere
+    # rite = shadowmen
+    rite = sigmarite # WHG TODO placeholder: faith 'shadowmen' doesn't exist anywhere
     trait = cynical 
     trait = lifestyle_poet 
     trait = staked
@@ -3916,7 +3916,7 @@
     female = yes 
     #dna = bcgidlbcacu
     culture = westerlander #was witchhunter_culture 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 9
     diplomacy = 8
     stewardship = 5
@@ -3940,7 +3940,7 @@
     name = Henryk 
     dynasty = 13246 
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 5
     stewardship = 5
@@ -3959,7 +3959,7 @@
     name = Koenraad 
     dynasty = 13246 
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 6
     stewardship = 2
@@ -3978,7 +3978,7 @@
     name = Guillaume 
     dynasty = 13246 
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 2
     stewardship = 4
@@ -3996,7 +3996,7 @@
     name = Jaan #New defined character for c_vasse 
     dynasty = 13584 
     culture = westerlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 6
     stewardship = 1
@@ -4014,7 +4014,7 @@
     name = Nicolaas #wrecker character added as a swampy bandit
     dynasty = 13585 
     culture = westerlander 
-    religion = stromfels
+    rite = stromfels
     martial = 2
     diplomacy = 6
     stewardship = 1
@@ -4034,7 +4034,7 @@
     name = Marbed 
     dynasty = 99999162 
     culture = endal 
-    religion = manannite 
+    rite = manannite 
     martial = 4
     diplomacy = 5
     stewardship = 11

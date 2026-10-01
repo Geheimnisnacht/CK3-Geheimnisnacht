@@ -2,7 +2,7 @@
 	name = urzen
 	dynasty = 87200
 	culture = strigany
-	religion = strigany_faith
+	rite = strigany_faith
 	martial = 8
 	diplomacy = 4
 	stewardship = 3
@@ -31,7 +31,7 @@
 	name = melkhior
 	dynasty = 72311
 	culture = strigany
-	religion = strigany_faith	
+	rite = strigany_faith	
 	father = 15007
 	martial = 0
 	diplomacy = 4

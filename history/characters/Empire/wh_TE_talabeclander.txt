@@ -3,7 +3,7 @@
     name = Mattheus 
     dynasty = dynasty_Untermensch  #Untermensch
     culture = talabeclander 
-    religion = ulrican 
+    rite = ulrican 
     martial = 10
     diplomacy = 8
     stewardship = 8
@@ -25,7 +25,7 @@
     dynasty = dynasty_Untermensch 
     # dna = akncldpgihc
     culture = talabeclander 
-    religion = ulrican 
+    rite = ulrican 
     martial = 2
     diplomacy = 4
     stewardship = 2
@@ -46,7 +46,7 @@
     dynasty = dynasty_Untermensch 
     # dna = igokcadchgc
     culture = talabeclander 
-    religion = ulrican 
+    rite = ulrican 
     martial = 8
     diplomacy = 0
     stewardship = 1
@@ -66,7 +66,7 @@
     dynasty = dynasty_Untermensch 
     # dna = gldcondanbk
     culture = talabeclander 
-    religion = ulrican 
+    rite = ulrican 
     martial = 8
     diplomacy = 4
     stewardship = 4
@@ -88,7 +88,7 @@
     dynasty = dynasty_Untermensch 
     # dna = ioeohfbilon
     culture = talabeclander 
-    religion = ulrican 
+    rite = ulrican 
     martial = 1
     diplomacy = 4
     stewardship = 5
@@ -109,7 +109,7 @@
     dynasty = dynasty_Untermensch 
     # dna = bomodkgppfj
     culture = talabeclander 
-    religion = ulrican 
+    rite = ulrican 
     martial = 5
     diplomacy = 5
     stewardship = 5
@@ -128,7 +128,7 @@
     dynasty = dynasty_Untermensch 
     # dna = pabmhkcpehc
     culture = talabeclander 
-    religion = ulrican 
+    rite = ulrican 
     martial = 3
     diplomacy = 5
     stewardship = 4
@@ -152,7 +152,7 @@
     dynasty = dynasty_Untermensch 
     # dna = cghnbhbgkec
     culture = talabeclander 
-    religion = ulrican 
+    rite = ulrican 
     martial = 1
     diplomacy = 6
     stewardship = 6
@@ -172,7 +172,7 @@
     dynasty = dynasty_Untermensch 
     # dna = kjdlnbajkbc
     culture = talabeclander 
-    religion = ulrican 
+    rite = ulrican 
     martial = 5
     diplomacy = 5
     stewardship = 3
@@ -194,7 +194,7 @@
     dynasty = dynasty_Untermensch 
     #dna = hbeniikhcpj
     culture = talabeclander 
-    religion = ulrican 
+    rite = ulrican 
     martial = 7
     diplomacy = 3
     stewardship = 0
@@ -217,7 +217,7 @@
     dynasty = dynasty_Untermensch 
     # dna = bcmjoklgjbe
     culture = talabeclander 
-    religion = ulrican
+    rite = ulrican
     martial = 5
     diplomacy = 5
     stewardship = 4
@@ -238,7 +238,7 @@
     dynasty = dynasty_Untermensch 
     # dna = kdkpigmmlnh
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 7
     diplomacy = 8
     stewardship = 1
@@ -259,7 +259,7 @@
     dynasty = dynasty_Untermensch 
     # dna = pnljploilbc
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 2
     diplomacy = 7
     stewardship = 7
@@ -280,7 +280,7 @@
     dynasty = dynasty_Untermensch 
     # dna = cfdhkinbbgk
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 4
     diplomacy = 5
     stewardship = 3
@@ -299,7 +299,7 @@
     dynasty = dynasty_Untermensch 
     # dna = fgcmamoikch
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 2
     diplomacy = 4
     stewardship = 2
@@ -320,7 +320,7 @@
     dynasty = dynasty_Untermensch 
     # dna = mjdeonhccdo
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 5
     diplomacy = 4
     stewardship = 3
@@ -339,7 +339,7 @@
     dynasty = dynasty_Untermensch 
     # dna = dhfolgnnlmp
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 2
     diplomacy = 6
     stewardship = 7
@@ -360,7 +360,7 @@
     dynasty = dynasty_Untermensch 
     # dna = ellhajmaljn
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 5
     diplomacy = 5
     stewardship = 3
@@ -382,7 +382,7 @@
     dynasty = dynasty_Untermensch 
     # dna = dljlafhdkbb
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 4
     diplomacy = 7
     stewardship = 4
@@ -404,7 +404,7 @@
     dynasty = dynasty_Untermensch 
     # dna = dlafaagmofo
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 4
     diplomacy = 8
     stewardship = 0
@@ -423,7 +423,7 @@
     dynasty = dynasty_Untermensch 
     # dna = phjmjppbmna
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 5
     diplomacy = 4
     stewardship = 6
@@ -446,7 +446,7 @@
     dynasty = dynasty_Untermensch 
     # dna = nkocgflmbdg
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 4
     diplomacy = 6
     stewardship = 4
@@ -465,7 +465,7 @@
     dynasty = 11132 
     #dna = oldebgahdci
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 3
     diplomacy = 2
     stewardship = 5
@@ -483,7 +483,7 @@
     dynasty = 11132 
     #dna = ipiaoilkgpp
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 4
     diplomacy = 3
     stewardship = 4
@@ -505,7 +505,7 @@
     dynasty = 11132 
     #dna = bhagihkhgbo
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 4
     diplomacy = 2
     stewardship = 3
@@ -525,7 +525,7 @@
     dynasty = 11135 
     #dna = jadnplkpegl
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 8
     diplomacy = 5
     stewardship = 4
@@ -543,7 +543,7 @@
     dynasty = 11132 
     #dna = mcahnbcpfhn
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 5
     diplomacy = 7
     stewardship = 6
@@ -565,7 +565,7 @@
     dynasty = dynasty_Untermensch 
     #dna = eejjjfkjigb
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 5
     diplomacy = 4
     stewardship = 8
@@ -593,7 +593,7 @@
     dynasty = 11132 
     #dna = nilgbboihgl
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 1
     diplomacy = 4
     stewardship = 3
@@ -614,7 +614,7 @@
     dynasty = 11132 
     #dna = ihpfcaohfom
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 5
     diplomacy = 3
     stewardship = 3
@@ -633,7 +633,7 @@
     name = Dietrich 
     dynasty = dynasty_Untermensch 
     culture = talabeclander 
-    religion = taalite  
+    rite = taalite  
     father = 84059 
     6210.1.1 = { birth = yes } 
     6266.1.1 = { death = yes } 
@@ -644,7 +644,7 @@
     name = Otto 
     dynasty = dynasty_Untermensch 
     culture = talabeclander 
-    religion = taalite  
+    rite = taalite  
     father = 84145 
     6251.1.1 = { birth = yes } 
     6310.1.1 = { death = yes } 
@@ -655,7 +655,7 @@
     name = Reinhard 
     dynasty = dynasty_Untermensch 
     culture = talabeclander 
-    religion = taalite  
+    rite = taalite  
     father = 84145 
     6255.1.1 = { birth = yes } 
     6318.1.1 = { death = yes } 
@@ -666,7 +666,7 @@
     name = Johann_Peter
     dynasty = dynasty_Untermensch 
     culture = talabeclander 
-    religion = taalite  
+    rite = taalite  
     father = 84143 
     6290.1.1 = { birth = yes } 
     6350.1.1 = { death = yes } 
@@ -678,7 +678,7 @@
     dynasty = dynasty_Untermensch 
     # dna = ajgabodhnpn
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 2
     diplomacy = 1
     stewardship = 5
@@ -699,7 +699,7 @@
     name = Rutger 
     dynasty = dynasty_Untermensch 
     culture = talabeclander 
-    religion = taalite  
+    rite = taalite  
     father = 84063 
     6347.1.1 = { birth = yes } 
     6401.1.1 = { death = yes } 
@@ -710,7 +710,7 @@
     name = Emil 
     dynasty = dynasty_Untermensch 
     culture = talabeclander 
-    religion = taalite  
+    rite = taalite  
     father = 84141 
     6373.1.1 = { birth = yes } 
     6428.1.1 = { death = yes } 
@@ -721,7 +721,7 @@
     name = Dietrich 
     dynasty = dynasty_Untermensch 
     culture = talabeclander 
-    religion = taalite  
+    rite = taalite  
     father = 84140 
     6400.1.1 = { birth = yes } 
     6460.1.1 = { death = yes } 
@@ -733,7 +733,7 @@
     dynasty = dynasty_Untermensch 
     # dna = bkjeaolamog
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 7
     diplomacy = 4
     stewardship = 7
@@ -753,7 +753,7 @@
     dynasty = dynasty_Untermensch 
     # dna = gplmbhmenni
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 4
     diplomacy = 7
     stewardship = 7
@@ -775,7 +775,7 @@
     dynasty = dynasty_Untermensch 
     # dna = ckfnhhffhgf
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 3
     diplomacy = 4
     stewardship = 1
@@ -796,7 +796,7 @@
     female = yes 
     dynasty = dynasty_Untermensch 
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     dna = 84000_ec_ottilia_untermensch
     martial = 2
     diplomacy = 7
@@ -827,7 +827,7 @@
     dynasty = dynasty_Untermensch 
     # dna = pnaplmedooo
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 2
     diplomacy = 0
     stewardship = 1
@@ -847,7 +847,7 @@
     dynasty = dynasty_Untermensch 
     # dna = jhnabeeigaf
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 3
     diplomacy = 2
     stewardship = 2
@@ -868,7 +868,7 @@
     name = Dietrich 
     dynasty = dynasty_Untermensch 
     culture = talabeclander 
-    religion = taalite  
+    rite = taalite  
     father = 84081 
     6520.1.1 = { birth = yes } 
     6577.1.1 = { death = yes } 
@@ -881,7 +881,7 @@
     dynasty = dynasty_Untermensch 
     # dna = fbamdaahpcc
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 4
     diplomacy = 4
     stewardship = 4
@@ -902,7 +902,7 @@
     dynasty = dynasty_Untermensch 
     # dna = bbeijocfcpp
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 8
     diplomacy = 3
     stewardship = 3
@@ -922,7 +922,7 @@
     dynasty = dynasty_Untermensch 
     # dna = npegnfbhfce
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 3
     diplomacy = 7
     stewardship = 2
@@ -946,7 +946,7 @@
     dynasty = dynasty_Untermensch 
     # dna = gbfcoalkkff
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 3
     diplomacy = 2
     stewardship = 7
@@ -966,7 +966,7 @@
     dynasty = dynasty_Untermensch 
     # dna = eapcpkhfnmo
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 6
     diplomacy = 5
     stewardship = 7
@@ -986,7 +986,7 @@
     dynasty = dynasty_Untermensch 
     # dna = egdagcnpgda
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 5
     diplomacy = 5
     stewardship = 6
@@ -1008,7 +1008,7 @@
     dynasty = dynasty_Untermensch 
     # dna = fbikdgakcob
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 6
     diplomacy = 6
     stewardship = 4
@@ -1031,7 +1031,7 @@
     name = Karl 
     dynasty = 11008 
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 8
     diplomacy = 7
     stewardship = 5
@@ -1049,7 +1049,7 @@
     name = Wenzel 
     dynasty = 11069 
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 9
     diplomacy = 3
     stewardship = 6
@@ -1071,7 +1071,7 @@
     name = Anselm 
     dynasty = 11070 
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 8
     diplomacy = 8
     stewardship = 9
@@ -1092,7 +1092,7 @@
     female = yes 
     dynasty = 11012 
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 2
     diplomacy = 9
     stewardship = 1
@@ -1114,7 +1114,7 @@
     female = yes 
     dynasty = 11015 
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 10
     diplomacy = 7
     stewardship = 4
@@ -1133,7 +1133,7 @@
     name = Lutbert 
     dynasty = 11013 
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 1
     diplomacy = 3
     stewardship = 5
@@ -1152,7 +1152,7 @@
     female = yes 
     dynasty = 11131 
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 9
     diplomacy = 1
     stewardship = 11
@@ -1173,7 +1173,7 @@
     name = Adolf 
     dynasty = 11019 
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 5
     diplomacy = 8
     stewardship = 6
@@ -1192,7 +1192,7 @@
     name = Jakob 
     dynasty = 11020 
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 8
     diplomacy = 7
     stewardship = 7
@@ -1209,7 +1209,7 @@
     name = Ordulf 
     dynasty = 11023 
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 8
     diplomacy = 7
     stewardship = 3
@@ -1227,7 +1227,7 @@
     name = Seiger 
     dynasty = 11029 
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 0
     diplomacy = 2
     stewardship = 10
@@ -1247,7 +1247,7 @@
     dynasty = 11131 
     #dna = odpaddeaajk
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 3
     diplomacy = 5
     stewardship = 5
@@ -1269,7 +1269,7 @@
     name = Gerlach 
     dynasty = 11031 
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 5
     diplomacy = 10
     stewardship = 4
@@ -1289,7 +1289,7 @@
     name = Viktor 
     dynasty = 11034 
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 3
     diplomacy = 7
     stewardship = 8
@@ -1309,7 +1309,7 @@
     name = Mathias 
     dynasty = 11038 
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 4
     diplomacy = 7
     stewardship = 0
@@ -1328,7 +1328,7 @@
     name = Meinhard 
     dynasty = 11039 
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 3
     diplomacy = 1
     stewardship = 4
@@ -1348,7 +1348,7 @@
     name = Talecht 
     dynasty = 11041 
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 8
     diplomacy = 9
     stewardship = 5
@@ -1367,7 +1367,7 @@
     name = Talbert 
     dynasty = 11043 
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 1
     diplomacy = 8
     stewardship = 6
@@ -1387,7 +1387,7 @@
     female = yes 
     dynasty = 11049 
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 10
     diplomacy = 8
     stewardship = 8
@@ -1410,7 +1410,7 @@
     name = Maginulf 
     dynasty = 11003  #Taalsen
     culture = taleuten
-    religion = taalite 
+    rite = taalite 
     martial = 8
     diplomacy = 9
     stewardship = 5
@@ -1430,7 +1430,7 @@
     name = Maginulf 
     dynasty = 11003  #Taalsen
     culture = taleuten
-    religion = taalite 
+    rite = taalite 
     martial = 1
     diplomacy = 8
     stewardship = 6
@@ -1451,7 +1451,7 @@
     name = Talbert 
     dynasty = 11023 
     culture = talabeclander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 14
     diplomacy = 9
     stewardship = 0
@@ -1472,7 +1472,7 @@
     name = Vilfred 
     dynasty = 11049 
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 5
     diplomacy = 5
     stewardship = 3
@@ -1492,7 +1492,7 @@
     female = yes 
     dynasty = 11043 
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 4
     diplomacy = 8
     stewardship = 1
@@ -1511,7 +1511,7 @@
     female = yes 
     dynasty = 11049 
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 1
     diplomacy = 9
     stewardship = 10
@@ -1531,7 +1531,7 @@
     name = Poppo 
     dynasty = 11049 
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 9
     diplomacy = 1
     stewardship = 9
@@ -1550,7 +1550,7 @@
     name = Walram 
     dynasty = 11049 
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 8
     diplomacy = 10
     stewardship = 10
@@ -1573,7 +1573,7 @@
     name = Vilfred 
     dynasty = 11049 
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 4
     diplomacy = 7
     stewardship = 9
@@ -1597,7 +1597,7 @@
     female = yes 
     dynasty = 11040 
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 2
     diplomacy = 8
     stewardship = 3
@@ -1621,7 +1621,7 @@
     female = yes 
     dynasty = 11049 
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 3
     diplomacy = 4
     stewardship = 7
@@ -1644,7 +1644,7 @@
     female = yes 
     dynasty = 11037 
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 8
     diplomacy = 7
     stewardship = 3
@@ -1660,7 +1660,7 @@
     name = Stefan 
     dynasty = 11049 
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 0
     diplomacy = 2
     stewardship = 10
@@ -1682,7 +1682,7 @@
     dynasty = 11131 
     #dna = mjiemglkgak
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 4
     diplomacy = 5
     stewardship = 7
@@ -1702,7 +1702,7 @@
     dynasty = 11131 
     #dna = nldmndoobpa
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 4
     diplomacy = 8
     stewardship = 8
@@ -1722,7 +1722,7 @@
     dynasty = 11100 
     #dna = bcmnklbeedi
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 1
     diplomacy = 5
     stewardship = 6
@@ -1746,7 +1746,7 @@
     dynasty = 11131 
     #dna = fledkadfbpp
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 4
     diplomacy = 4
     stewardship = 1
@@ -1769,7 +1769,7 @@
     dynasty = 11131 
     #dna = delgmepkddm
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 3
     diplomacy = 5
     stewardship = 5
@@ -1790,7 +1790,7 @@
     dynasty = 11130 
     #dna = kekficohaod
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 5
     diplomacy = 4
     stewardship = 4
@@ -1809,7 +1809,7 @@
     dynasty = 11134 
     #dna = anenkikpdpa
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 4
     diplomacy = 5
     stewardship = 8
@@ -1831,7 +1831,7 @@
     dynasty = 11132 
     #dna = ananagaofbj
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 7
     diplomacy = 0
     stewardship = 4
@@ -1851,7 +1851,7 @@
     name = Helmut  #Graf Helmut Feuerbach of Talabecland
     dynasty = 11006 
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 6
     diplomacy = 3
     stewardship = 3
@@ -1872,7 +1872,7 @@
     dynasty = 11136 
     #dna = mgoahkndlpm
     culture = reiklander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 2
     stewardship = 7
@@ -1892,7 +1892,7 @@
     dynasty = 11139 
     #dna = kmbniplieag
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 4
     diplomacy = 8
     stewardship = 7
@@ -1912,7 +1912,7 @@
     dynasty = 11137 
     #dna = abieiiooogl
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 1
     diplomacy = 1
     stewardship = 0
@@ -1931,7 +1931,7 @@
     dynasty = 11138 
     #dna = bmhpnaffmho
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 5
     diplomacy = 3
     stewardship = 0
@@ -1952,7 +1952,7 @@
     dynasty = 11126 
     #dna = eggpkjohhbn
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 2
     diplomacy = 0
     stewardship = 4
@@ -1973,7 +1973,7 @@
     dynasty = 11125 
     #dna = nmppiahcaim
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 6
     diplomacy = 4
     stewardship = 0
@@ -1992,7 +1992,7 @@
     dynasty = 11009 
     #dna = gjbfjloagnb
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 1
     diplomacy = 2
     stewardship = 4
@@ -2011,7 +2011,7 @@
     dynasty = 11009 
     #dna = pdafhiakion
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 1
     diplomacy = 4
     stewardship = 7
@@ -2029,7 +2029,7 @@
     dynasty = 11009 
     #dna = podlgmkhkck
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 4
     diplomacy = 4
     stewardship = 6
@@ -2052,7 +2052,7 @@
     dynasty = 11009 
     #dna = jfhfhjehejc
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 5
     diplomacy = 6
     stewardship = 5
@@ -2070,7 +2070,7 @@
     dynasty = 11010 
     #dna = cpjniiagmlc
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 3
     diplomacy = 5
     stewardship = 3
@@ -2088,7 +2088,7 @@
     dynasty = 11010 
     #dna = kbcnipholme
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 5
     diplomacy = 6
     stewardship = 3
@@ -2110,7 +2110,7 @@
     dynasty = 11010 
     #dna = mhkiojfnfna
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 1
     diplomacy = 4
     stewardship = 6
@@ -2134,7 +2134,7 @@
     dynasty = 11010 
     #dna = ojfflioppbk
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 4
     diplomacy = 4
     stewardship = 1
@@ -2155,7 +2155,7 @@
     dynasty = 11010 
     #dna = ogjjkeeambg
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 7
     diplomacy = 1
     stewardship = 5
@@ -2176,7 +2176,7 @@
     dynasty = 11010 
     #dna = ahghjlilgpg
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 4
     diplomacy = 1
     stewardship = 3
@@ -2196,7 +2196,7 @@
     dynasty = 11010 
     #dna = egdpbkkkefe
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 4
     diplomacy = 1
     stewardship = 4
@@ -2216,7 +2216,7 @@
     dynasty = 11010 
     #dna = hoadkahgpan
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 3
     diplomacy = 4
     stewardship = 7
@@ -2236,7 +2236,7 @@
     dynasty = 11010 
     #dna = lapjcbbhjoe
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 3
     diplomacy = 1
     stewardship = 8
@@ -2258,7 +2258,7 @@
     dynasty = 11014 
     #dna = eiglaonmkdk
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 4
     diplomacy = 6
     stewardship = 1
@@ -2276,7 +2276,7 @@
     dynasty = 11014 
     #dna = mdcmnmafbhh
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 3
     diplomacy = 3
     stewardship = 3
@@ -2295,7 +2295,7 @@
     dynasty = 11014 
     #dna = kllfjkgdfjp
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 2
     diplomacy = 3
     stewardship = 3
@@ -2317,7 +2317,7 @@
     dynasty = 11014 
     #dna = cgoegdhlfcp
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 2
     diplomacy = 2
     stewardship = 4
@@ -2335,7 +2335,7 @@
     dynasty = 11014 
     #dna = koiccaddjei
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 3
     diplomacy = 4
     stewardship = 3
@@ -2356,7 +2356,7 @@
     dynasty = 11014 
     #dna = donfaabodlp
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 6
     diplomacy = 6
     stewardship = 3
@@ -2379,7 +2379,7 @@
     dynasty = 11014 
     #dna = mjklddioikg
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 8
     diplomacy = 5
     stewardship = 8
@@ -2401,7 +2401,7 @@
     dynasty = 11014 
     #dna = nnaieffcgld
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 1
     diplomacy = 4
     stewardship = 5
@@ -2423,7 +2423,7 @@
     dynasty = 11018 
     #dna = kkpknpoalkb
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 2
     diplomacy = 5
     stewardship = 0
@@ -2443,7 +2443,7 @@
     dynasty = 11018 
     #dna = jkgepllhblo
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 5
     diplomacy = 2
     stewardship = 5
@@ -2464,7 +2464,7 @@
     dynasty = 11018 
     #dna = fadenepljad
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 2
     diplomacy = 6
     stewardship = 6
@@ -2484,7 +2484,7 @@
     dynasty = 11018 
     #dna = henkkclpbbo
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 4
     diplomacy = 2
     stewardship = 0
@@ -2502,7 +2502,7 @@
     dynasty = 11018 
     #dna = ogdplmkmobb
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 6
     diplomacy = 1
     stewardship = 1
@@ -2523,7 +2523,7 @@
     dynasty = 11018 
     #dna = aigojonbahc
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 5
     diplomacy = 4
     stewardship = 5
@@ -2543,7 +2543,7 @@
     dynasty = 11017 
     #dna = ahjkgkipahn
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 3
     diplomacy = 4
     stewardship = 6
@@ -2563,7 +2563,7 @@
     dynasty = 11017 
     #dna = icpfnppagbc
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 4
     diplomacy = 2
     stewardship = 5
@@ -2584,7 +2584,7 @@
     dynasty = 11017 
     #dna = aafjmpfnbff
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 4
     diplomacy = 3
     stewardship = 3
@@ -2604,7 +2604,7 @@
     dynasty = 11017 
     #dna = mnnlephadje
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 3
     diplomacy = 4
     stewardship = 2
@@ -2627,7 +2627,7 @@
     dynasty = 11017 
     #dna = jocafcmmnlc
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 3
     diplomacy = 4
     stewardship = 2
@@ -2648,7 +2648,7 @@
     dynasty = 11019 
     #dna = fbbhelpgelb
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 2
     diplomacy = 0
     stewardship = 8
@@ -2667,7 +2667,7 @@
     dynasty = 11019 
     #dna = hejlhijhmaf
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 4
     diplomacy = 4
     stewardship = 0
@@ -2687,7 +2687,7 @@
     dynasty = 11019 
     #dna = llmpmncliln
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 6
     diplomacy = 3
     stewardship = 8
@@ -2714,7 +2714,7 @@
     dynasty = 11019 
     #dna = engpjblehmi
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 6
     diplomacy = 7
     stewardship = 8
@@ -2734,7 +2734,7 @@
     dynasty = 11019 
     #dna = ifcmbjonpki
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 1
     diplomacy = 4
     stewardship = 4
@@ -2756,7 +2756,7 @@
     dynasty = 11140 
     #dna = kophljokonp
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 3
     diplomacy = 6
     stewardship = 3
@@ -2776,7 +2776,7 @@
     dynasty = 11141 
     #dna = hcdhanchecd
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 5
     diplomacy = 0
     stewardship = 5
@@ -2796,7 +2796,7 @@
     dynasty = 11142 
     #dna = fallmdaoikf
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 0
     diplomacy = 4
     stewardship = 3
@@ -2818,7 +2818,7 @@
     dynasty = 11144 
     #dna = akdkccfmplk
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 8
     diplomacy = 4
     stewardship = 5
@@ -2838,7 +2838,7 @@
     name = Rolf 
     dynasty = 11043 
     culture = talabeclander 
-    religion = taalite 
+    rite = taalite 
     martial = 5
     diplomacy = 8
     stewardship = 3
@@ -2856,7 +2856,7 @@
     dynasty = 11132 
     father = 84138 
     culture = talabeclander 
-    religion = taalite  
+    rite = taalite  
     6340.5.27 = { birth = yes } 
     6428.5.27 = { death = yes } 
     prowess = 12
@@ -2867,7 +2867,7 @@
     dynasty = 11132 
     father = 84062 
     culture = talabeclander 
-    religion = taalite  
+    rite = taalite  
     6304.10.2 = { birth = yes } 
     6383.10.2 = { death = yes } 
     prowess = 12
@@ -2877,7 +2877,7 @@
     name = Baldemar 
     dynasty = 11145
     culture = talabeclander 
-    religion = taalite
+    rite = taalite
     martial = 2
     diplomacy = 1
     stewardship = 9
@@ -2892,7 +2892,7 @@
     name = Olric 
     dynasty = 11147
     culture = talabeclander
-    religion = ulrican
+    rite = ulrican
     martial = 12
     diplomacy = 4
     stewardship = 6
@@ -2907,7 +2907,7 @@
     name = Pieter 
     dynasty = 11144
     culture = talabeclander 
-    religion = taalite
+    rite = taalite
     martial = 5
     diplomacy = 6
     stewardship = 2
@@ -2923,7 +2923,7 @@
     name = Frederik 
     dynasty = 23500
     culture = talabeclander 
-    religion = taalite
+    rite = taalite
     6492.6.8 = { birth = yes } 
     6560.9.6 = { death = yes } 
     prowess = 6
@@ -2934,7 +2934,7 @@
     name = Krugar 
     dynasty = 99999159 
     culture = taleuten 
-    religion = taalite 
+    rite = taalite 
     martial = 5
     diplomacy = 5
     stewardship = 5

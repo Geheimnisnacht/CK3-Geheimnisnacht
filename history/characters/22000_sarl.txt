@@ -3,7 +3,7 @@
     name = Surtr 
     dynasty = 53010 
     culture = sarl 
-    religion = northern_gods #norscan 
+    rite = northern_gods #norscan 
     martial = 5
     diplomacy = 1
     stewardship = 5
@@ -26,7 +26,7 @@
     female = yes 
     dynasty = 53011 
     culture = sarl 
-    religion = northern_gods #norscan 
+    rite = northern_gods #norscan 
     martial = 3
     diplomacy = 6
     stewardship = 6
@@ -46,7 +46,7 @@
     name = _sl_kr 
     dynasty = 53012 
     culture = sarl 
-    religion = northern_gods #norscan 
+    rite = northern_gods #norscan 
     martial = 3
     diplomacy = 9
     stewardship = 6
@@ -67,7 +67,7 @@
     female = yes 
     dynasty = 53013 
     culture = sarl 
-    religion = northern_gods #norscan 
+    rite = northern_gods #norscan 
     martial = 1
     diplomacy = 2
     stewardship = 1
@@ -90,7 +90,7 @@
     female = yes 
     dynasty = 53014 
     culture = sarl 
-    religion = northern_gods #norscan 
+    rite = northern_gods #norscan 
     martial = 9
     diplomacy = 5
     stewardship = 6
@@ -112,7 +112,7 @@
     name = Skefill 
     dynasty = 53015 
     culture = sarl 
-    religion = northern_gods #norscan 
+    rite = northern_gods #norscan 
     martial = 8
     diplomacy = 3
     stewardship = 6
@@ -133,7 +133,7 @@
     name = Freyvi_r 
     dynasty = 53016 
     culture = sarl 
-    religion = northern_gods #norscan 
+    rite = northern_gods #norscan 
     martial = 4
     diplomacy = 8
     stewardship = 8
@@ -154,7 +154,7 @@
     female = yes 
     dynasty = 53017 
     culture = sarl 
-    religion = northern_gods #norscan 
+    rite = northern_gods #norscan 
     martial = 9
     diplomacy = 7
     stewardship = 9
@@ -174,7 +174,7 @@
 #     name = Kiallakr 
 #     dynasty = 53019 
 #     culture = sarl 
-#     religion = northern_gods #norscan 
+#     rite = northern_gods #norscan 
 #     martial = 5
 #     diplomacy = 5
 #     stewardship = 3
@@ -198,7 +198,7 @@
 #     female = yes 
 #     dynasty = 53020 
 #     culture = sarl 
-#     religion = northern_gods #norscan 
+#     rite = northern_gods #norscan 
 #     martial = 4
 #     diplomacy = 8
 #     stewardship = 1
@@ -218,7 +218,7 @@
 #     name = Kolli 
 #     dynasty = 53021 
 #     culture = sarl 
-#     religion = northern_gods #norscan 
+#     rite = northern_gods #norscan 
 #     martial = 1
 #     diplomacy = 9
 #     stewardship = 10
@@ -238,7 +238,7 @@
 #     female = yes 
 #     dynasty = 53022 
 #     culture = sarl 
-#     religion = northern_gods #norscan 
+#     rite = northern_gods #norscan 
 #     martial = 9
 #     diplomacy = 1
 #     stewardship = 9
@@ -257,7 +257,7 @@
 #     name = Kleppi_rn 
 #     dynasty = 53023 
 #     culture = sarl 
-#     religion = northern_gods #norscan 
+#     rite = northern_gods #norscan 
 #     martial = 8
 #     diplomacy = 10
 #     stewardship = 10
@@ -278,7 +278,7 @@
 #     name = Ro_rekr 
 #     dynasty = 53025 
 #     culture = sarl 
-#     religion = northern_gods #norscan 
+#     rite = northern_gods #norscan 
 #     martial = 4
 #     diplomacy = 7
 #     stewardship = 9
@@ -301,7 +301,7 @@
 #     female = yes 
 #     dynasty = 53027 
 #     culture = sarl 
-#     religion = northern_gods #norscan 
+#     rite = northern_gods #norscan 
 #     martial = 2
 #     diplomacy = 8
 #     stewardship = 3
@@ -324,7 +324,7 @@
 #     female = yes 
 #     dynasty = 53028 
 #     culture = sarl 
-#     religion = northern_gods #norscan 
+#     rite = northern_gods #norscan 
 #     martial = 3
 #     diplomacy = 4
 #     stewardship = 7
@@ -345,7 +345,7 @@
 #     name = Carola 
 #     female = yes 
 #     culture = sarl 
-#     religion = northern_gods #norscan 
+#     rite = northern_gods #norscan 
 #     martial = 7
 #     diplomacy = 7
 #     stewardship = 7

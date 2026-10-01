@@ -2,7 +2,7 @@
     name = Erich 
     dynasty = dynasty_Pabst 
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 7
     diplomacy = 1
     stewardship = 0
@@ -35,7 +35,7 @@
     female = yes 
     dynasty = 21044 
     culture = ostermarker 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 8
     diplomacy = 5
     stewardship = 7
@@ -56,7 +56,7 @@
     female = yes 
     dynasty = 21042 
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     father = 85056 
     martial = 2
     diplomacy = 6
@@ -77,7 +77,7 @@
     name = Arnold 
     dynasty = 21069 
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 5
     diplomacy = 8
     stewardship = 0
@@ -97,7 +97,7 @@
     name = Meinhard 
     dynasty = 21032 
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 3
     diplomacy = 2
     stewardship = 11
@@ -119,7 +119,7 @@
     name = Lukas 
     dynasty = 21002 
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 2
     diplomacy = 4
     stewardship = 4
@@ -140,7 +140,7 @@
     name = Wadar 
     dynasty = 21003 
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 8
     diplomacy = 0
     stewardship = 2
@@ -160,7 +160,7 @@
     name = Ulricht 
     dynasty = 21038 
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 8
     diplomacy = 2
     stewardship = 3
@@ -180,7 +180,7 @@
     name = Ranelf 
     dynasty = 21036 
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 9
     diplomacy = 2
     stewardship = 6
@@ -204,7 +204,7 @@
     name = Dietrich 
     dynasty = 21025 
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 4
     diplomacy = 1
     stewardship = 6
@@ -223,7 +223,7 @@
     name = Baldewin 
     dynasty = 21034 
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 8
     diplomacy = 3
     stewardship = 2
@@ -242,7 +242,7 @@
     name = Mikhail 
     dynasty = 21043 
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 4
     diplomacy = 6
     stewardship = 10
@@ -261,7 +261,7 @@
     name = Baldemar 
     dynasty = 21009 
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 9
     diplomacy = 7
     stewardship = 0
@@ -282,7 +282,7 @@
     name = Adolf 
     dynasty = 21013 
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 9
     diplomacy = 0
     stewardship = 11
@@ -302,7 +302,7 @@
     name = Kuno 
     dynasty = 21021 
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 5
     diplomacy = 2
     stewardship = 10
@@ -322,7 +322,7 @@
     name = Ulli 
     dynasty = 21022 
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 8
     diplomacy = 8
     stewardship = 3
@@ -342,7 +342,7 @@
     name = Welf 
     dynasty = 21023 
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 8
     diplomacy = 9
     stewardship = 7
@@ -363,7 +363,7 @@
     name = Wenzel 
     dynasty = 21036 
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 6
     diplomacy = 7
     stewardship = 3
@@ -383,7 +383,7 @@
     name = Jakob 
     dynasty = 21033 
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 9
     diplomacy = 8
     stewardship = 1
@@ -403,7 +403,7 @@
     name = Werner 
     dynasty = 21010 
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 9
     diplomacy = 3
     stewardship = 7
@@ -424,7 +424,7 @@
     name = Lando 
     dynasty = 21019  #Kallerson
     culture = ostagoth
-    religion = taalite 
+    rite = taalite 
     martial = 6
     diplomacy = 7
     stewardship = 3
@@ -446,7 +446,7 @@
     name = Didrick 
     dynasty = 21018 
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 9
     diplomacy = 8
     stewardship = 1
@@ -469,7 +469,7 @@
     female = yes 
     dynasty = 21017 
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 9
     diplomacy = 3
     stewardship = 7
@@ -489,7 +489,7 @@
     name = Wolfram  #Graf Wolfram Hertwig of Ostermark
     dynasty = 21108 
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 5
     diplomacy = 3
     stewardship = 5
@@ -510,7 +510,7 @@
     name = Maximillian  # Graf Maximillian Dachs of Ostermark
     dynasty = 21109 
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 6
     diplomacy = 8
     stewardship = 4
@@ -532,7 +532,7 @@
     dynasty = 21042 
     #dna = enbidfpccjk
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 5
     diplomacy = 2
     stewardship = 3
@@ -551,7 +551,7 @@
     dynasty = 21042 
     #dna = jlhdcedeemj
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 2
     diplomacy = 3
     stewardship = 8
@@ -573,7 +573,7 @@
     dynasty = 21038 
     #dna = hkaoihlogbe
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 6
     diplomacy = 4
     stewardship = 7
@@ -594,7 +594,7 @@
     dynasty = 21042 
     #dna = onpiddfgpmd
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 5
     diplomacy = 1
     stewardship = 0
@@ -616,7 +616,7 @@
     dynasty = dynasty_Pabst 
     #dna = hnhllooldfp
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 3
     diplomacy = 4
     stewardship = 6
@@ -639,7 +639,7 @@
     dynasty = 21038 
     #dna = onlbnjhofck
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 6
     diplomacy = 7
     stewardship = 3
@@ -662,7 +662,7 @@
     dynasty = 21032 
     #dna = ppoeheacjbl
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 0
     diplomacy = 4
     stewardship = 4
@@ -683,7 +683,7 @@
     dynasty = dynasty_Pabst 
     #dna = acldjdigkpk
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 3
     diplomacy = 5
     stewardship = 6
@@ -705,7 +705,7 @@
     name = Oswald  # Oswald von Konigswald
     dynasty = 21110 
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 4
     diplomacy = 3
     stewardship = 4
@@ -726,7 +726,7 @@
     dynasty = 21111 
     #dna = lbaphjnamhp
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 2
     diplomacy = 4
     stewardship = 4
@@ -744,7 +744,7 @@
     dynasty = 21112 
     #dna = icjpnphjpih
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 3
     diplomacy = 2
     stewardship = 7
@@ -763,7 +763,7 @@
     dynasty = 21112 
     #dna = epmnhnpcbba
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 5
     diplomacy = 3
     stewardship = 5
@@ -783,7 +783,7 @@
     dynasty = 21112 
     #dna = chjiklmfklj
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 3
     diplomacy = 3
     stewardship = 3
@@ -806,7 +806,7 @@
     dynasty = 21113 
     #dna = kiokndkmpdj
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 2
     diplomacy = 3
     stewardship = 4
@@ -828,7 +828,7 @@
     dynasty = 21113 
     #dna = oinbhkpgeho
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 4
     diplomacy = 5
     stewardship = 4
@@ -850,7 +850,7 @@
     dynasty = 21113 
     #dna = phpfgfolbcl
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 3
     diplomacy = 6
     stewardship = 4
@@ -874,7 +874,7 @@
     dynasty = 21113 
     #dna = ehohkpemjpe
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 2
     diplomacy = 6
     stewardship = 5
@@ -893,7 +893,7 @@
     dynasty = 21114 
     #dna = lfnddlhbfmn
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 4
     diplomacy = 5
     stewardship = 1
@@ -916,7 +916,7 @@
     dynasty = 21114 
     #dna = cnofidbbakh
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 1
     diplomacy = 3
     stewardship = 6
@@ -937,7 +937,7 @@
     dynasty = 21116 
     #dna = fmnbbbegikj
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 4
     diplomacy = 6
     stewardship = 4
@@ -957,7 +957,7 @@
     dynasty = 21116 
     #dna = ehomcldmdnb
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 2
     diplomacy = 1
     stewardship = 8
@@ -979,7 +979,7 @@
     dynasty = 21115 
     #dna = ojlhngkfgml
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 4
     diplomacy = 6
     stewardship = 3
@@ -1001,7 +1001,7 @@
     dynasty = 21115 
     #dna = bogddmogell
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 7
     diplomacy = 4
     stewardship = 7
@@ -1025,7 +1025,7 @@
     dynasty = 21115 
     #dna = lomdoebcalk
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 0
     diplomacy = 3
     stewardship = 3
@@ -1045,7 +1045,7 @@
     dynasty = 21117 
     #dna = njldjepopem
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 5
     diplomacy = 8
     stewardship = 2
@@ -1067,7 +1067,7 @@
     dynasty = 21117 
     #dna = cbfnafhefbd
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 5
     diplomacy = 6
     stewardship = 2
@@ -1088,7 +1088,7 @@
     dynasty = 21117 
     #dna = ipnbomiomgb
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 5
     diplomacy = 8
     stewardship = 3
@@ -1110,7 +1110,7 @@
     name = Alaric 
     dynasty = dynasty_Pabst 
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     father = 85000 
     martial = 8
     diplomacy = 4
@@ -1133,7 +1133,7 @@
     name = Sabine 
     female = yes 
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 2
     diplomacy = 6
     stewardship = 4
@@ -1154,7 +1154,7 @@
     name = Sebastian 
     dynasty = 21032 
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     father = 85004 
     mother = 85053 
     martial = 2
@@ -1177,7 +1177,7 @@
     name = Kristof 
     dynasty = 21032 
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     father = 85004 
     mother = 85053 
     martial = 4
@@ -1200,7 +1200,7 @@
     name = Raymond 
     dynasty = 21042 
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 6
     diplomacy = 6
     stewardship = 3
@@ -1223,7 +1223,7 @@
     female = yes 
     dynasty = 21042 
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     father = 85056 
     martial = 6
     diplomacy = 6
@@ -1244,7 +1244,7 @@
     name = Ranelf 
     dynasty = 21036 
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 6
     diplomacy = 6
     stewardship = 6
@@ -1263,7 +1263,7 @@
     dynasty = 21038 
     #dna = hkaoihlogbe
     culture = ostermarker 
-    religion = taalite 
+    rite = taalite 
     martial = 6
     diplomacy = 4
     stewardship = 7
@@ -1281,7 +1281,7 @@
     name = Sebastian
 	dynasty = 21091
     culture = ostermarker 
-    religion = morrian 
+    rite = morrian 
     trait = education_learning_3 
     
     6452.1.9 = { birth = yes } 
@@ -1293,7 +1293,7 @@
     name = Thietmar
     dynasty = 21024
     culture = ostermarker 
-    religion = morrian
+    rite = morrian
     martial = 13
     diplomacy = 5
     stewardship = 2
@@ -1312,7 +1312,7 @@
     name = Jakob
     dynasty = 21026
     culture = ostermarker 
-    religion = morrian
+    rite = morrian
     martial = 2
     diplomacy = 4
     stewardship = 5
@@ -1329,7 +1329,7 @@
     name = Adelhard
     dynasty = 99999155
     culture = ostagoth 
-    religion = morrian
+    rite = morrian
     martial = 4
     diplomacy = 6
     stewardship = 4

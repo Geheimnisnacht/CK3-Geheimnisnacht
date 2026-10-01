@@ -5,7 +5,7 @@
 	# diplomacy = 5
 	# intrigue = 5
 	# stewardship = 5
-	# religion = "catholic"
+	# rite = "catholic"
 	# culture = anglo_saxon
 	# trait = lazy
 	
@@ -24,7 +24,7 @@
 	# diplomacy = 5
 	# intrigue = 5
 	# stewardship = 5
-	# religion = "catholic"
+	# rite = "catholic"
 	# culture = anglo_saxon
 	# trait = gregarious
 	
@@ -43,7 +43,7 @@
 	# diplomacy = 5
 	# intrigue = 5
 	# stewardship = 5
-	# religion = "catholic"
+	# rite = "catholic"
 	# culture = anglo_saxon
 	# trait = arbitrary
 	# trait = arrogant
@@ -64,7 +64,7 @@
 	# diplomacy = 5
 	# intrigue = 5
 	# stewardship = 5
-	# religion = "catholic"
+	# rite = "catholic"
 	# culture = anglo_saxon
 	# trait = arbitrary
 	# trait = arrogant
@@ -85,7 +85,7 @@
 	# diplomacy = 5
 	# intrigue = 5
 	# stewardship = 5
-	# religion = "catholic"
+	# rite = "catholic"
 	# culture = anglo_saxon
 	# trait = brave
 	
@@ -104,7 +104,7 @@
 	# diplomacy = 5
 	# intrigue = 5
 	# stewardship = 5
-	# religion = "catholic"
+	# rite = "catholic"
 	# culture = anglo_saxon
 	# trait = arbitrary
 	
@@ -123,7 +123,7 @@
 	# diplomacy = 5
 	# intrigue = 5
 	# stewardship = 5
-	# religion = "catholic"
+	# rite = "catholic"
 	# culture = anglo_saxon
 	# trait = arbitrary
 	# trait = arrogant
@@ -144,7 +144,7 @@
 	# diplomacy = 5
 	# intrigue = 5
 	# stewardship = 5
-	# religion = "catholic"
+	# rite = "catholic"
 	# culture = anglo_saxon
 	# trait = arbitrary
 	# trait = arrogant
@@ -167,7 +167,7 @@
 	diplomacy = 6
 	intrigue = 8
 	stewardship = 5
-	religion = myrmidian_western
+	rite = myrmidian_western
 	culture = astur
 	trait = just
 	trait = brave
@@ -185,7 +185,7 @@
 	diplomacy = 6
 	intrigue = 8
 	stewardship = 5
-	religion = myrmidian_eastern
+	rite = myrmidian_eastern
 	culture = umbrian
 	trait = arbitrary
 	trait = arrogant
@@ -203,7 +203,7 @@
 	diplomacy = 3
 	intrigue = 4
 	stewardship = 20
-	religion = grail
+	rite = grail
 	culture = bastonnian
 	trait = chaste
 	trait = just
@@ -222,7 +222,7 @@
 	diplomacy = 6
 	intrigue = 2
 	stewardship = 1
-	religion = grail
+	rite = grail
 	culture = queneller
 	trait = lazy
 	trait = wrathful
@@ -241,7 +241,7 @@
 	diplomacy = 19
 	intrigue = 4
 	stewardship = 12
-	religion = grail
+	rite = grail
 	culture = l_anguillen
 	trait = content
 	trait = gregarious

@@ -3,7 +3,7 @@
     female = yes 
     dynasty = 15043 
     culture = drakwalder 
-    religion = taalite 
+    rite = taalite 
     martial = 4
     diplomacy = 4
     stewardship = 4
@@ -27,7 +27,7 @@
     female = yes 
     dynasty = 15033 
     culture = drakwalder 
-    religion = ulrican 
+    rite = ulrican 
     martial = 9
     diplomacy = 6
     stewardship = 3
@@ -47,7 +47,7 @@
     name = Klaus 
     dynasty = 15021 
     culture = drakwalder 
-    religion = ulrican 
+    rite = ulrican 
     martial = 10
     diplomacy = 7
     stewardship = 11
@@ -66,7 +66,7 @@
     name = Siegmund 
     dynasty = 15018 
     culture = drakwalder 
-    religion = taalite 
+    rite = taalite 
     martial = 8
     diplomacy = 10
     stewardship = 7
@@ -86,7 +86,7 @@
     name = Lou 
     dynasty = 15023 
     culture = drakwalder 
-    religion = taalite 
+    rite = taalite 
     martial = 1
     diplomacy = 0
     stewardship = 7
@@ -106,7 +106,7 @@
     name = Ordulf 
     dynasty = 15032 
     culture = drakwalder 
-    religion = ulrican 
+    rite = ulrican 
     martial = 9
     diplomacy = 3
     stewardship = 2
@@ -125,7 +125,7 @@
     name = Ludolf 
     dynasty = 15028 
     culture = drakwalder 
-    religion = taalite 
+    rite = taalite 
     martial = 4
     diplomacy = 7
     stewardship = 6
@@ -145,7 +145,7 @@
     name = Folkhard 
     dynasty = 15016 
     culture = drakwalder 
-    religion = ulrican 
+    rite = ulrican 
     martial = 3
     diplomacy = 2
     stewardship = 5
@@ -165,7 +165,7 @@
     name = Eginolf 
     dynasty = 15011 
     culture = drakwalder 
-    religion = taalite 
+    rite = taalite 
     martial = 1
     diplomacy = 10
     stewardship = 9
@@ -185,7 +185,7 @@
     name = Franz 
     dynasty = 15029 
     culture = drakwalder 
-    religion = ulrican 
+    rite = ulrican 
     martial = 6
     diplomacy = 6
     stewardship = 9
@@ -203,7 +203,7 @@
     name = Ranelf 
     dynasty = 15009 
     culture = drakwalder 
-    religion = taalite 
+    rite = taalite 
     martial = 5
     diplomacy = 8
     stewardship = 6
@@ -221,7 +221,7 @@
     name = Poppo 
     dynasty = 15033 
     culture = drakwalder 
-    religion = taalite 
+    rite = taalite 
     martial = 8
     diplomacy = 1
     stewardship = 6
@@ -243,7 +243,7 @@
     name = Michael 
     dynasty = 15027 
     culture = drakwalder 
-    religion = ulrican 
+    rite = ulrican 
     martial = 6
     diplomacy = 8
     stewardship = 6
@@ -264,7 +264,7 @@
     name = Lutbert 
     dynasty = 15025 
     culture = drakwalder 
-    religion = ulrican 
+    rite = ulrican 
     martial = 1
     diplomacy = 2
     stewardship = 8
@@ -285,7 +285,7 @@
     name = Gotzelo 
     dynasty = 15035 
     culture = drakwalder 
-    religion = taalite 
+    rite = taalite 
     martial = 4
     diplomacy = 9
     stewardship = 8
@@ -306,7 +306,7 @@
     name = Gebhard 
     dynasty = 15039 
     culture = drakwalder 
-    religion = ulrican 
+    rite = ulrican 
     martial = 5
     diplomacy = 3
     stewardship = 3
@@ -327,7 +327,7 @@
     name = Burchard 
     dynasty = 15041 
     culture = drakwalder 
-    religion = taalite 
+    rite = taalite 
     martial = 8
     diplomacy = 7
     stewardship = 2
@@ -348,7 +348,7 @@
     name = Ezzo 
     dynasty = 15040 
     culture = drakwalder 
-    religion = taalite 
+    rite = taalite 
     martial = 6
     diplomacy = 4
     stewardship = 9
@@ -368,7 +368,7 @@
     name = Emelrich 
     dynasty = 15020 
     culture = drakwalder 
-    religion = ulrican 
+    rite = ulrican 
     martial = 2
     diplomacy = 8
     stewardship = 2
@@ -387,7 +387,7 @@
     name = Talbert 
     dynasty = 15015 
     culture = drakwalder 
-    religion = taalite 
+    rite = taalite 
     martial = 8
     diplomacy = 8
     stewardship = 9
@@ -412,7 +412,7 @@
     name = Ariald 
     dynasty = 15008 
     culture = thuringian 
-    religion = ulrican 
+    rite = ulrican 
     martial = 8
     diplomacy = 8
     stewardship = 9
@@ -433,7 +433,7 @@
     name = J_rgen 
     dynasty = 15009  #Change_to_Hohenbach
     culture = drakwalder 
-    religion = taalite 
+    rite = taalite 
     martial = 2
     diplomacy = 8
     stewardship = 2
@@ -454,7 +454,7 @@
     name = Ludwig 
     dynasty = 15009  #Change_to_Hohenbach
     culture = drakwalder 
-    religion = ulrican 
+    rite = ulrican 
     martial = 6
     diplomacy = 4
     stewardship = 9
@@ -481,7 +481,7 @@
     name = Boris 
     dynasty = 15009 
     culture = drakwalder 
-    religion = taalite 
+    rite = taalite 
     martial = 8
     diplomacy = 7
     stewardship = 2
@@ -505,7 +505,7 @@
     name = Behmen 
     dynasty = 15018 
     culture = drakwalder 
-    religion = ulrican 
+    rite = ulrican 
     martial = 10
     diplomacy = 2
     stewardship = 6
@@ -527,7 +527,7 @@
     dynasty = 15032 
     #dna = logifkimiek
     culture = drakwalder 
-    religion = ulrican 
+    rite = ulrican 
     martial = 2
     diplomacy = 4
     stewardship = 0
@@ -549,7 +549,7 @@
     dynasty = 15032 
     #dna = jkljakealcd
     culture = drakwalder 
-    religion = ulrican 
+    rite = ulrican 
     martial = 0
     diplomacy = 3
     stewardship = 4
@@ -571,7 +571,7 @@
     dynasty = 15032 
     #dna = lgekjoanhjh
     culture = drakwalder 
-    religion = ulrican 
+    rite = ulrican 
     martial = 4
     diplomacy = 3
     stewardship = 3
@@ -593,7 +593,7 @@
     dynasty = 15032 
     #dna = ekaakekmphd
     culture = drakwalder 
-    religion = ulrican 
+    rite = ulrican 
     martial = 2
     diplomacy = 1
     stewardship = 5
@@ -615,7 +615,7 @@
     dynasty = 15032 
     #dna = bcnecoklnjj
     culture = drakwalder 
-    religion = ulrican 
+    rite = ulrican 
     martial = 3
     diplomacy = 4
     stewardship = 5
@@ -640,7 +640,7 @@
     dynasty = 15032 
     #dna = hcjdcoeebac
     culture = drakwalder 
-    religion = ulrican 
+    rite = ulrican 
     martial = 4
     diplomacy = 2
     stewardship = 2
@@ -661,7 +661,7 @@
     dynasty = 15032 
     #dna = afnoipnfpcn
     culture = drakwalder 
-    religion = ulrican 
+    rite = ulrican 
     martial = 5
     diplomacy = 3
     stewardship = 4
@@ -682,7 +682,7 @@
     dynasty = 15032 
     #dna = jciindlikdf
     culture = drakwalder 
-    religion = ulrican 
+    rite = ulrican 
     martial = 7
     diplomacy = 4
     stewardship = 7
@@ -702,7 +702,7 @@
     dynasty = 15032 
     #dna = kbaolindnhg
     culture = drakwalder 
-    religion = ulrican 
+    rite = ulrican 
     martial = 8
     diplomacy = 3
     stewardship = 0
@@ -726,7 +726,7 @@
     dynasty = 15032 
     #dna = nnaefgdbbgb
     culture = drakwalder 
-    religion = ulrican 
+    rite = ulrican 
     martial = 8
     diplomacy = 2
     stewardship = 7
@@ -750,7 +750,7 @@
     dynasty = 15032 
     #dna = alhefggbjpg
     culture = drakwalder 
-    religion = ulrican 
+    rite = ulrican 
     martial = 0
     diplomacy = 4
     stewardship = 8
@@ -772,7 +772,7 @@
     dynasty = 15032 
     #dna = hiakgaafbok
     culture = drakwalder 
-    religion = ulrican 
+    rite = ulrican 
     martial = 5
     diplomacy = 2
     stewardship = 8
@@ -792,7 +792,7 @@
     dynasty = 15032 
     #dna = mficellpaio
     culture = drakwalder 
-    religion = ulrican 
+    rite = ulrican 
     martial = 3
     diplomacy = 5
     stewardship = 5
@@ -814,7 +814,7 @@
     dynasty = 15032 
     #dna = gbihldkacco
     culture = drakwalder 
-    religion = ulrican 
+    rite = ulrican 
     martial = 2
     diplomacy = 5
     stewardship = 2
@@ -835,7 +835,7 @@
     dynasty = 15032 
     #dna = ffhhhahlmhh
     culture = drakwalder 
-    religion = ulrican 
+    rite = ulrican 
     martial = 3
     diplomacy = 3
     stewardship = 3
@@ -858,7 +858,7 @@
     dynasty = 15032 
     #dna = bfeiddmdjpe
     culture = drakwalder 
-    religion = ulrican 
+    rite = ulrican 
     martial = 6
     diplomacy = 4
     stewardship = 1
@@ -878,7 +878,7 @@
     dynasty = 15032 
     #dna = clonemlpbpi
     culture = drakwalder 
-    religion = ulrican 
+    rite = ulrican 
     martial = 1
     diplomacy = 6
     stewardship = 2
@@ -897,7 +897,7 @@
     dynasty = 15032 
     #dna = ljlplinnfjl
     culture = drakwalder 
-    religion = ulrican 
+    rite = ulrican 
     martial = 1
     diplomacy = 1
     stewardship = 1
@@ -918,7 +918,7 @@
     dynasty = 15032 
     #dna = nkakagffabe
     culture = drakwalder 
-    religion = ulrican 
+    rite = ulrican 
     martial = 6
     diplomacy = 1
     stewardship = 8
@@ -939,7 +939,7 @@
     dynasty = 15032 
     #dna = onjdkgckolk
     culture = drakwalder 
-    religion = ulrican 
+    rite = ulrican 
     martial = 2
     diplomacy = 6
     stewardship = 8
@@ -962,7 +962,7 @@
     dynasty = 15032 
     #dna = akfaeeplbmi
     culture = drakwalder 
-    religion = ulrican 
+    rite = ulrican 
     martial = 5
     diplomacy = 7
     stewardship = 8
@@ -983,8 +983,8 @@
     dynasty = 15042 
     #dna = napiahhapkb
     culture = drakwalder 
-    # religion = old_faith
-    religion = taalite # WHG TODO placeholder: faith 'old_faith' doesn't exist anywhere
+    # rite = old_faith
+    rite = taalite # WHG TODO placeholder: faith 'old_faith' doesn't exist anywhere
     martial = 2
     diplomacy = 4
     stewardship = 3
@@ -1005,8 +1005,8 @@
     dynasty = 15042 
     #dna = pendncmcppp
     culture = drakwalder 
-    # religion = old_faith
-    religion = taalite # WHG TODO placeholder: faith 'old_faith' doesn't exist anywhere
+    # rite = old_faith
+    rite = taalite # WHG TODO placeholder: faith 'old_faith' doesn't exist anywhere
     martial = 8
     diplomacy = 5
     stewardship = 0
@@ -1028,8 +1028,8 @@
     dynasty = 15042 
     #dna = hdcnccllhka
     culture = drakwalder 
-    # religion = old_faith
-    religion = taalite # WHG TODO placeholder: faith 'old_faith' doesn't exist anywhere
+    # rite = old_faith
+    rite = taalite # WHG TODO placeholder: faith 'old_faith' doesn't exist anywhere
     martial = 4
     diplomacy = 2
     stewardship = 3
@@ -1049,8 +1049,8 @@
     dynasty = 15045 
     #dna = ankmbogbmnj
     culture = drakwalder 
-    # religion = old_faith
-    religion = taalite # WHG TODO placeholder: faith 'old_faith' doesn't exist anywhere
+    # rite = old_faith
+    rite = taalite # WHG TODO placeholder: faith 'old_faith' doesn't exist anywhere
     martial = 6
     diplomacy = 5
     stewardship = 1
@@ -1072,8 +1072,8 @@
     dynasty = 15045 
     #dna = pfncfohjnjn
     culture = drakwalder 
-    # religion = old_faith
-    religion = taalite # WHG TODO placeholder: faith 'old_faith' doesn't exist anywhere
+    # rite = old_faith
+    rite = taalite # WHG TODO placeholder: faith 'old_faith' doesn't exist anywhere
     martial = 1
     diplomacy = 1
     stewardship = 4
@@ -1095,8 +1095,8 @@
     dynasty = 15045 
     #dna = ikhlkklpiih
     culture = drakwalder 
-    # religion = old_faith
-    religion = taalite # WHG TODO placeholder: faith 'old_faith' doesn't exist anywhere
+    # rite = old_faith
+    rite = taalite # WHG TODO placeholder: faith 'old_faith' doesn't exist anywhere
     martial = 3
     diplomacy = 5
     stewardship = 5

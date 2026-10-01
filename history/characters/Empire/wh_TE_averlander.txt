@@ -3,7 +3,7 @@
     name = Engelbrecht 
     dynasty = dynasty_Ostenwald 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 8
     diplomacy = 7
     stewardship = 2
@@ -25,7 +25,7 @@
     name = Leopold 
     dynasty = 12061 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 10
     diplomacy = 6
     stewardship = 8
@@ -49,7 +49,7 @@
     name = Simon 
     dynasty = 12021 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 7
     diplomacy = 8
     stewardship = 1
@@ -70,7 +70,7 @@
     female = yes 
     dynasty = 12032 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 8
     diplomacy = 8
     stewardship = 9
@@ -90,7 +90,7 @@
     name = Philipp 
     dynasty = 12031 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 9
     diplomacy = 0
     stewardship = 7
@@ -111,7 +111,7 @@
     name = Johann 
     dynasty = 12022 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 9
     diplomacy = 0
     stewardship = 5
@@ -133,7 +133,7 @@
     female = yes 
     dynasty = 12047 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 8
     stewardship = 7
@@ -151,7 +151,7 @@
     name = Franz 
     dynasty = 12006 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 1
     diplomacy = 9
     stewardship = 5
@@ -170,7 +170,7 @@
     name = Johann 
     dynasty = 12054 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 9
     diplomacy = 4
     stewardship = 2
@@ -190,7 +190,7 @@
     female = yes 
     dynasty = 12039 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 6
     diplomacy = 8
     stewardship = 3
@@ -208,7 +208,7 @@
     name = Walther 
     dynasty = 12028 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 0
     diplomacy = 7
     stewardship = 6
@@ -227,7 +227,7 @@
     name = Poppo 
     dynasty = 12050 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 3
     stewardship = 5
@@ -246,7 +246,7 @@
     name = Gerlach 
     dynasty = 12027 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 0
     diplomacy = 9
     stewardship = 9
@@ -266,7 +266,7 @@
     name = Gebhard 
     dynasty = 12018 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 0
     diplomacy = 5
     stewardship = 3
@@ -289,7 +289,7 @@
     name = Dietrich 
     dynasty = 12037 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 0
     diplomacy = 5
     stewardship = 3
@@ -310,7 +310,7 @@
     name = Berengar 
     dynasty = 12045 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 4
     stewardship = 5
@@ -330,7 +330,7 @@
     name = Nigel 
     dynasty = 12028 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 8
     diplomacy = 0
     stewardship = 6
@@ -351,7 +351,7 @@
     name = Guntram 
     dynasty = 12059 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 8
     diplomacy = 4
     stewardship = 3
@@ -371,7 +371,7 @@
     name = Helmut 
     dynasty = 12054 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 7
     diplomacy = 2
     stewardship = 6
@@ -394,7 +394,7 @@
     name = Lothar 
     dynasty = 12020 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 10
     diplomacy = 6
     stewardship = 0
@@ -415,7 +415,7 @@
     name = Agold 
     dynasty = 12024 
     culture = brigundian 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 10
     diplomacy = 6
     stewardship = 0
@@ -436,7 +436,7 @@
     name = Hilder 
     dynasty = 12024 
     culture = brigundian
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 7
     diplomacy = 2
     stewardship = 6
@@ -457,7 +457,7 @@
     name = Lutbert 
     dynasty = 12025 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 8
     diplomacy = 4
     stewardship = 3
@@ -479,7 +479,7 @@
     female = yes 
     dynasty = 12027  #von Flusstor
     culture = averlander 
-    religion = sigmarite  
+    rite = sigmarite  
     5740.4.1 = { birth = yes } 
     5802.1.25 = { death = yes } 
     prowess = 10
@@ -490,7 +490,7 @@
     name = Rudolf 
     dynasty = 12027 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 4
     stewardship = 5
@@ -515,7 +515,7 @@
     name = Siggurd 
     dynasty = 99999151
     culture = brigundian
-    religion = ulrican 
+    rite = ulrican 
      
     
     4501.1.1 = { birth = yes } 
@@ -528,7 +528,7 @@
     name = Siegrich 
     dynasty = 12024  #Siggurdsunu
     culture = brigundian 
-    religion = ulrican 
+    rite = ulrican 
     father = 83025 
      
     
@@ -542,7 +542,7 @@
     name = Herman 
     dynasty = 12024  #Siggurdsunu
     culture = brigundian 
-    religion = ulrican 
+    rite = ulrican 
     father = 83026 
      
     
@@ -556,7 +556,7 @@
     name = Lutburt 
     dynasty = 12024  #Siggurdsunu
     culture = brigundian 
-    religion = ulrican 
+    rite = ulrican 
     father = 83027 
      
     
@@ -570,7 +570,7 @@
     name = Siegrich 
     dynasty = 12024  #Siggurdsunu
     culture = brigundian 
-    religion = sigmarite 
+    rite = sigmarite 
     father = 83021 
      
     
@@ -584,7 +584,7 @@
     name = Agold 
     dynasty = 12024  #Siggurdsunu
     culture = brigundian 
-    religion = sigmarite 
+    rite = sigmarite 
     father = 83029 
      
     
@@ -598,7 +598,7 @@
     name = Siggurd 
     dynasty = 12024  #Siggurdsunu
     culture = brigundian
-    religion = sigmarite 
+    rite = sigmarite 
     father = 83030 
      
     
@@ -612,7 +612,7 @@
     name = Radulf 
     dynasty = 12024  #Siggurdsunu
     culture = brigundian 
-    religion = sigmarite 
+    rite = sigmarite 
     father = 83031 
      
     
@@ -626,7 +626,7 @@
     name = Odovacar 
     dynasty = 12024  #Siggurdsunu
     culture = brigundian 
-    religion = sigmarite 
+    rite = sigmarite 
     father = 83032 
      
     
@@ -640,7 +640,7 @@
     name = Siggurd 
     dynasty = 12024  #Siggurdsunu
     culture = brigundian 
-    religion = sigmarite 
+    rite = sigmarite 
     father = 83033 
      
     
@@ -654,7 +654,7 @@
     name = Siggurd 
     dynasty = 12024  #Siggurdsunu
     culture = brigundian
-    religion = sigmarite 
+    rite = sigmarite 
     father = 83034  
     
     4974.6.23 = { birth = yes } 
@@ -667,7 +667,7 @@
     name = Marius 
     dynasty = 12024  #Siggurdsunu
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     father = 83035 
      
     
@@ -682,7 +682,7 @@
     female = yes 
     dynasty = 12024  #Siggurdsunu
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     father = 83036 
      
     
@@ -696,7 +696,7 @@
     name = Anders 
     dynasty = 12025  #Reiter
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     father = 83022 
      
     
@@ -710,7 +710,7 @@
     name = Matthias 
     dynasty = 12025  #Reiter
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     father = 83038 
      
     
@@ -725,7 +725,7 @@
     female = yes 
     dynasty = 12025  #Reiter
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     father = 83039  
     
     5208.8.17 = { birth = yes } 
@@ -738,7 +738,7 @@
     name = Alberich 
     dynasty = 12025  #Reiter
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     mother = 83040  
     
     5263.7.1 = { birth = yes } 
@@ -751,7 +751,7 @@
     name = Boris 
     dynasty = 12025  #Reiter
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     father = 83041 
      
     
@@ -765,7 +765,7 @@
     name = Sigmund 
     dynasty = 12025  #Reiter
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     father = 83042 
      
     
@@ -779,7 +779,7 @@
     name = Ralf 
     dynasty = 12025  #Reiter
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     father = 83043 
      
     
@@ -794,7 +794,7 @@
     female = yes 
     dynasty = 12025  #Reiter
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     father = 83044 
      
     
@@ -808,7 +808,7 @@
     name = Ulli 
     dynasty = 12026  #Blutig-Reichte
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     mother = 83045 
      
     
@@ -822,7 +822,7 @@
     name = Mannslieb 
     dynasty = 12026  #Blutig-Reichte
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     father = 83046 
      
     
@@ -837,7 +837,7 @@
     female = yes 
     dynasty = 12026  #Blutig-Reichte
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     father = 83047 
      
     
@@ -851,7 +851,7 @@
     name = Sigismund 
     dynasty = 12026  #Blutig-Reichte
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     mother = 83048 
      
     
@@ -866,7 +866,7 @@
     female = yes 
     dynasty = 12026  #Blutig-Reichte
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     father = 83049 
      
     
@@ -880,7 +880,7 @@
     name = Seiger 
     dynasty = 12026  #Blutig-Reichte
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     mother = 83050 
      
     
@@ -894,7 +894,7 @@
     name = Mannfred 
     dynasty = 12027  #von Flusstor
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     mother = 83023 
      
     
@@ -908,7 +908,7 @@
     name = Wolfgang 
     dynasty = 12027  #von Flusstor
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     father = 83052 
      
     
@@ -922,7 +922,7 @@
     name = Rudiger 
     dynasty = 12027  #von Flusstor
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     father = 83053 
      
     
@@ -936,7 +936,7 @@
     name = Ralf 
     dynasty = 12027  #von Flusstor
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     father = 83024 
      
     
@@ -952,7 +952,7 @@
     name = Klaus 
     dynasty = 12027  #von Flusstor
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     father = 83055 
      
     
@@ -966,7 +966,7 @@
     name = Kurt 
     dynasty = 12027  #von Flusstor
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     father = 83056 
      
     
@@ -981,7 +981,7 @@
     female = yes 
     dynasty = 12027  #von Flusstor
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     father = 83057 
      
     
@@ -995,7 +995,7 @@
     name = Gustav 
     dynasty = dynasty_Ostenwald 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     mother = 83058 
      
     
@@ -1009,7 +1009,7 @@
     name = Marius 
     dynasty = dynasty_Ostenwald 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     father = 83059 
      
     
@@ -1023,7 +1023,7 @@
     name = Brutus 
     dynasty = dynasty_Ostenwald 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     father = 83060 
      
     
@@ -1037,7 +1037,7 @@
     name = Otto 
     dynasty = dynasty_Ostenwald 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     father = 83061 
      
     
@@ -1051,7 +1051,7 @@
     name = Felix 
     dynasty = dynasty_Ostenwald 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     father = 83062 
      
     
@@ -1065,7 +1065,7 @@
     name = Siegfried 
     dynasty = dynasty_Ostenwald 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     father = 83063 
      
     
@@ -1079,7 +1079,7 @@
     name = Waldemar 
     dynasty = dynasty_Ostenwald 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     father = 83064 
      
     
@@ -1094,7 +1094,7 @@
     female = yes 
     dynasty = dynasty_Ostenwald 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     father = 83065 
      
     
@@ -1108,7 +1108,7 @@
     name = Albrecht 
     dynasty = dynasty_Ostenwald 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     mother = 83066 
      
     
@@ -1122,7 +1122,7 @@
     name = Seiger  #Graf Seiger II of Averland, secret Chaos worshipper
     dynasty = dynasty_Ostenwald 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
 	dna = 83068_ec_sieger_ostenwald
     martial = 3
     diplomacy = 7
@@ -1167,7 +1167,7 @@
     name = Andreas 
     dynasty = dynasty_Ostenwald 
     culture = averlander 
-    religion = sigmarite  
+    rite = sigmarite  
     
     father = 83068 
     6524.6.25 = { birth = yes } 
@@ -1181,7 +1181,7 @@
     female = yes 
     dynasty = dynasty_Ostenwald 
     culture = averlander 
-    religion = sigmarite  
+    rite = sigmarite  
     
     father = 83069 
     
@@ -1195,7 +1195,7 @@
     name = Mannslieb 
     dynasty = 12005  #von Grunwald
     culture = averlander 
-    religion = sigmarite  
+    rite = sigmarite  
     
     6625.9.1 = { birth = yes } 
     6663.8.3 = { death = yes } 
@@ -1207,7 +1207,7 @@
     name = Heinz 
     dynasty = 12005  #von Grunwald
     culture = averlander 
-    religion = sigmarite  
+    rite = sigmarite  
     
     father = 83071 
     6647.1.17 = { birth = yes } 
@@ -1220,7 +1220,7 @@
     name = Kurt 
     dynasty = 12005  #von Grunwald
     culture = averlander 
-    religion = sigmarite  
+    rite = sigmarite  
     
     father = 83072 
     
@@ -1235,7 +1235,7 @@
     female = yes 
     dynasty = 12005  #von Grunwald
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
      
     
     father = 83073 
@@ -1250,7 +1250,7 @@
     name = Jurgen 
     dynasty = 12005  #von Grunwald
     culture = averlander 
-    religion = sigmarite  
+    rite = sigmarite  
     
     mother = 83074 
     
@@ -1266,7 +1266,7 @@
     name = Leopold 
     dynasty = 12005  #von Grunwald
     culture = averlander 
-    religion = sigmarite  
+    rite = sigmarite  
     
     father = 83075 
     
@@ -1280,7 +1280,7 @@
     name = Pieter 
     dynasty = 12005  #von Grunwald
     culture = averlander 
-    religion = sigmarite  
+    rite = sigmarite  
     
     father = 83076 
     
@@ -1294,7 +1294,7 @@
     name = Magnus 
     dynasty = 12005  #von Grunwald
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
      
     
     father = 83077 
@@ -1310,7 +1310,7 @@
     female = yes 
     dynasty = 12005  #von Grunwald
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
      
     
     father = 83078 
@@ -1325,7 +1325,7 @@
     name = Johannes 
     dynasty = 12005  #von Grunwald
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     mother = 83079  
     
     trait = greedy 
@@ -1343,7 +1343,7 @@
     female = yes 
     dynasty = 12005  #von Grunwald
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     father = 83080 
     mother = 88213  
     trait = cynical 
@@ -1360,7 +1360,7 @@
     name = Marius 
     dynasty = 12001  #Leitdorf
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 8
     diplomacy = 5
     stewardship = 6
@@ -1390,7 +1390,7 @@
     female = yes 
     dynasty = 12000  #von Alptraum
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 5
     stewardship = 6
@@ -1414,7 +1414,7 @@
     female = yes 
     dynasty = 12054 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 9
     diplomacy = 10
     stewardship = 9
@@ -1435,7 +1435,7 @@
     female = yes 
     dynasty = 12036 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 7
     stewardship = 3
@@ -1457,7 +1457,7 @@
     female = yes 
     dynasty = dynasty_Ostenwald 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 9
     diplomacy = 10
     stewardship = 9
@@ -1480,7 +1480,7 @@
     name = Claus 
     dynasty = dynasty_Ostenwald 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 9
     diplomacy = 7
     stewardship = 8
@@ -1503,7 +1503,7 @@
     name = Ulli 
     dynasty = dynasty_Ostenwald 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 9
     diplomacy = 10
     stewardship = 9
@@ -1526,7 +1526,7 @@
     name = Simon 
     dynasty = 12061 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 5
     stewardship = 5
@@ -1547,7 +1547,7 @@
     female = yes 
     dynasty = 12063 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 5
     stewardship = 5
@@ -1567,7 +1567,7 @@
     name = Nathaniel 
     dynasty = 12061 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 5
     stewardship = 5
@@ -1587,7 +1587,7 @@
     female = yes 
     dynasty = 12061 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 5
     stewardship = 5
@@ -1607,7 +1607,7 @@
     female = yes 
     dynasty = 12061 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 5
     stewardship = 5
@@ -1627,7 +1627,7 @@
     female = yes 
     dynasty = 12062 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 5
     stewardship = 5
@@ -1645,7 +1645,7 @@
     female = yes 
     dynasty = 12061 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 5
     stewardship = 5
@@ -1665,7 +1665,7 @@
     female = yes 
     dynasty = 12061 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 5
     stewardship = 5
@@ -1684,7 +1684,7 @@
     name = Manfred 
     dynasty = 12061 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 5
     stewardship = 5
@@ -1704,7 +1704,7 @@
     female = yes 
     dynasty = 12061 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 5
     stewardship = 5
@@ -1723,7 +1723,7 @@
     name = Lutz 
     dynasty = 12061 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 5
     stewardship = 5
@@ -1743,7 +1743,7 @@
     female = yes 
     dynasty = dynasty_Ostenwald 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 5
     stewardship = 5
@@ -1761,7 +1761,7 @@
     name = Gotthard 
     dynasty = 12063 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 5
     stewardship = 5
@@ -1781,7 +1781,7 @@
     dynasty = 12054 
     #dna = ejilklkgini
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 6
     diplomacy = 2
     stewardship = 5
@@ -1806,7 +1806,7 @@
     dynasty = 12054 
     #dna = gbpcjcfpkgg
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 4
     stewardship = 1
@@ -1827,7 +1827,7 @@
     dynasty = 12054 
     #dna = ecmhbpefkno
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 8
     diplomacy = 2
     stewardship = 5
@@ -1848,7 +1848,7 @@
     dynasty = 12023 
     #dna = edigpgbidhk
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 5
     stewardship = 4
@@ -1869,7 +1869,7 @@
     dynasty = 12054 
     #dna = ogkohpdcaop
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 1
     diplomacy = 4
     stewardship = 2
@@ -1890,7 +1890,7 @@
     dynasty = 12002 
     #dna = ggcfmifhbal
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 3
     stewardship = 1
@@ -1911,7 +1911,7 @@
     dynasty = 12002 
     #dna = cechaaomjml
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 3
     stewardship = 7
@@ -1935,7 +1935,7 @@
     dynasty = 12002 
     #dna = hfhamiippdb
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 5
     stewardship = 6
@@ -1957,7 +1957,7 @@
     dynasty = 12005  #von Grunwald
     #dna = ooeeinnjkie
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 8
     diplomacy = 5
     stewardship = 6
@@ -1981,7 +1981,7 @@
     dynasty = 12005 
     #dna = bbdeiifdimo
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 7
     stewardship = 1
@@ -2004,7 +2004,7 @@
     dynasty = 12022 
     #dna = gcloimdebkc
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 7
     diplomacy = 4
     stewardship = 3
@@ -2026,7 +2026,7 @@
     dynasty = 12022 
     #dna = gmnfoblechm
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 1
     stewardship = 7
@@ -2049,7 +2049,7 @@
     dynasty = 12022 
     #dna = lbpgmlfllpn
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 1
     stewardship = 2
@@ -2073,7 +2073,7 @@
     dynasty = 12008 
     #dna = hjijgkgfhhk
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 6
     diplomacy = 6
     stewardship = 5
@@ -2097,7 +2097,7 @@
     dynasty = 12008 
     #dna = loghchonhhd
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 0
     stewardship = 6
@@ -2116,7 +2116,7 @@
     name = Veit 
     dynasty = 12008 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 6
     diplomacy = 4
     stewardship = 6
@@ -2138,7 +2138,7 @@
     dynasty = 12004 
     #dna = heebppfifhj
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 7
     stewardship = 4
@@ -2159,7 +2159,7 @@
     dynasty = 12004 
     #dna = lmknofomngo
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 3
     stewardship = 2
@@ -2182,7 +2182,7 @@
     dynasty = 12004 
     #dna = jaaeimglnia
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 2
     stewardship = 4
@@ -2203,7 +2203,7 @@
     dynasty = 12004 
     #dna = bfikgbhodoh
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 6
     diplomacy = 7
     stewardship = 4
@@ -2227,7 +2227,7 @@
     dynasty = 12003 
     #dna = iiocmgkooda
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 3
     stewardship = 3
@@ -2249,7 +2249,7 @@
     dynasty = 12003 
     #dna = nklmaclcbha
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 6
     diplomacy = 5
     stewardship = 2
@@ -2271,7 +2271,7 @@
     dynasty = 12003 
     #dna = icigmobokcf
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 0
     diplomacy = 4
     stewardship = 2
@@ -2292,7 +2292,7 @@
     dynasty = 12003 
     #dna = nmmgdhcmleo
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 2
     stewardship = 3
@@ -2314,7 +2314,7 @@
     dynasty = 12001  #Leitdorf
     #dna = odnnakkkgoe
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 0
     stewardship = 8
@@ -2335,7 +2335,7 @@
     dynasty = 12001  #Leitdorf
     #dna = agpchifeaeb
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 4
     stewardship = 2
@@ -2355,7 +2355,7 @@
     dynasty = 12001  #Leitdorf
     #dna = ckmeejmccgd
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 0
     diplomacy = 2
     stewardship = 1
@@ -2377,7 +2377,7 @@
     dynasty = 12001  #Leitdorf
     #dna = lhdojokilna
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 4
     stewardship = 6
@@ -2402,7 +2402,7 @@
     dynasty = 12084 
     #dna = fponbecdeoj
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 6
     stewardship = 4
@@ -2422,7 +2422,7 @@
     dynasty = 12001  #Leitdorf
     #dna = lkniaoolcep
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 4
     stewardship = 0
@@ -2447,7 +2447,7 @@
     dynasty = 12000  #von Alptraum
     #dna = oecpcabmman
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 2
     stewardship = 3
@@ -2472,7 +2472,7 @@
     dynasty = 12000  #von Alptraum
     #dna = bjaailfdfic
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 6
     diplomacy = 2
     stewardship = 4
@@ -2494,7 +2494,7 @@
     dynasty = 12001  #Leitdorf
     #dna = mnilckpmnje
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 0
     diplomacy = 1
     stewardship = 4
@@ -2520,7 +2520,7 @@
     dynasty = 12001  #Leitdorf
     #dna = dfniejeghgj
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 3
     stewardship = 4
@@ -2542,7 +2542,7 @@
     dynasty = 12001  #Leitdorf
     #dna = bmhaamomjfj
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 5
     stewardship = 7
@@ -2566,7 +2566,7 @@
     dynasty = 12001  #Leitdorf
     #dna = jddcompenmn
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 2
     stewardship = 5
@@ -2588,7 +2588,7 @@
     dynasty = 12001  #Leitdorf
     #dna = hhpamoanahg
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 8
     stewardship = 6
@@ -2611,7 +2611,7 @@
     dynasty = 12001  #Leitdorf
     #dna = fhlkiljkmlg
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 7
     diplomacy = 4
     stewardship = 5
@@ -2635,7 +2635,7 @@
     dynasty = 12001  #Leitdorf
     #dna = okfgbandbef
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 0
     diplomacy = 4
     stewardship = 3
@@ -2659,7 +2659,7 @@
     dynasty = 12001  #Leitdorf
     #dna = emfgcglkgae
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 0
     diplomacy = 2
     stewardship = 5
@@ -2681,7 +2681,7 @@
     dynasty = 12001  #Leitdorf
     #dna = lheeloofonh
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 5
     stewardship = 6
@@ -2705,7 +2705,7 @@
     dynasty = 12001  #Leitdorf
     #dna = badmkfkadpa
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 3
     stewardship = 4
@@ -2730,7 +2730,7 @@
     dynasty = 12001  #Leitdorf
     #dna = ngkigdohhaj
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 4
     stewardship = 6
@@ -2751,7 +2751,7 @@
     dynasty = dynasty_Ostenwald 
     #dna = djbbgngppfi
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 7
     stewardship = 3
@@ -2775,7 +2775,7 @@
     dynasty = dynasty_Ostenwald 
     #dna = pikpocpljgb
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 0
     stewardship = 5
@@ -2797,7 +2797,7 @@
     dynasty = dynasty_Ostenwald 
     #dna = nlogcbbncja
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 7
     diplomacy = 1
     stewardship = 6
@@ -2820,7 +2820,7 @@
     dynasty = dynasty_Ostenwald 
     #dna = dogkmmeepmg
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 4
     stewardship = 5
@@ -2841,7 +2841,7 @@
     dynasty = dynasty_Ostenwald 
     #dna = gnhgdejfefp
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 5
     stewardship = 5
@@ -2862,7 +2862,7 @@
     dynasty = dynasty_Ostenwald 
     #dna = beopgkaoabg
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 2
     stewardship = 5
@@ -2886,7 +2886,7 @@
     dynasty = dynasty_Ostenwald 
     #dna = nkcabfkifoc
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 8
     diplomacy = 2
     stewardship = 3
@@ -2909,7 +2909,7 @@
     dynasty = 12001  #Leitdorf
     #dna = jbngejhhejl
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 6
     stewardship = 5
@@ -2928,7 +2928,7 @@
     dynasty = 12001  #Leitdorf
     #dna = jbagajhaejl
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 6
     stewardship = 2
@@ -2947,7 +2947,7 @@
     dynasty = 12001  #Leitdorf
     #dna = akdafakgaei
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 3
     stewardship = 2
@@ -2967,7 +2967,7 @@
     dynasty = 12001  #Leitdorf
     #dna = ikdmflkgaei
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 1
     diplomacy = 1
     stewardship = 1
@@ -2989,7 +2989,7 @@
     dynasty = 12001  #Leitdorf
     #dna = ehfmooojmdh
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 6
     stewardship = 6
@@ -3010,7 +3010,7 @@
     dynasty = 12001  #Leitdorf
     #dna = eflmcfimkgb
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 6
     stewardship = 7
@@ -3030,7 +3030,7 @@
     dynasty = 12001  #Leitdorf
     #dna = fdncjnfhblc
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 5
     stewardship = 3
@@ -3052,7 +3052,7 @@
     name = Rufus 
     dynasty = 12001  #Leitdorf
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 2
     stewardship = 0
@@ -3078,7 +3078,7 @@
     dynasty = 12001  #Leitdorf
     #dna = adnajdfcbhc
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 2
     stewardship = 2
@@ -3099,7 +3099,7 @@
     name = Hans 
     dynasty = 12001  #Leitdorf
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 9
     diplomacy = 10
     stewardship = 9
@@ -3121,7 +3121,7 @@
     female = yes 
     dynasty = 12001  #Leitdorf
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 7
     stewardship = 3
@@ -3144,7 +3144,7 @@
     dynasty = 12131  #von Ritterbach
     #dna = nacagcailoc
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 6
     stewardship = 3
@@ -3166,7 +3166,7 @@
     dynasty = 12001  #Leitdorf
     #dna = lkaicoblccp
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 5
     stewardship = 0
@@ -3191,7 +3191,7 @@
     female = yes 
     dynasty = 20004 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 4
     stewardship = 4
@@ -3211,7 +3211,7 @@
     name = Gunther 
     dynasty = 12001  #Leitdorf
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 9
     diplomacy = 3
     stewardship = 8
@@ -3231,7 +3231,7 @@
     name = Bartolf 
     dynasty = 12001  #Leitdorf
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 9
     diplomacy = 2
     stewardship = 9
@@ -3253,7 +3253,7 @@
     female = yes 
     dynasty = 12001  #Leitdorf
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 1
     stewardship = 1
@@ -3274,7 +3274,7 @@
     name = Heinrich 
     dynasty = 12001  #Leitdorf
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 4
     stewardship = 5
@@ -3294,7 +3294,7 @@
     name = Raimund 
     dynasty = 12001  #Leitdorf
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 9
     diplomacy = 2
     stewardship = 8
@@ -3315,7 +3315,7 @@
     female = yes 
     dynasty = 12001  #Leitdorf
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 9
     diplomacy = 10
     stewardship = 9
@@ -3336,7 +3336,7 @@
     name = Siegrich 
     dynasty = 12001  #Leitdorf
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 5
     stewardship = 5
@@ -3358,7 +3358,7 @@
     female = yes 
     dynasty = 12001  #Leitdorf
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 5
     stewardship = 5
@@ -3379,7 +3379,7 @@
     name = Andreas 
     dynasty = 12005  #von Grunwald
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     father = 83080 
     mother = 88213  
     trait = brave 
@@ -3398,7 +3398,7 @@
     dynasty = 12131  #von Ritterbach
     #dna = nlcdgcbcloc
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 4
     stewardship = 5
@@ -3421,7 +3421,7 @@
     dynasty = 12005  #von Grunwald
     #dna = abfeacfddmo
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 2
     stewardship = 1
@@ -3445,7 +3445,7 @@
     female = yes 
     dynasty = 12130 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 2
     stewardship = 4
@@ -3466,7 +3466,7 @@
     female = yes 
     dynasty = 12005  #von Grunwald
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 8
     diplomacy = 5
     stewardship = 6
@@ -3489,7 +3489,7 @@
     name = Gerald 
     dynasty = 12132  #von Niebelwald
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 0
     stewardship = 1
@@ -3510,7 +3510,7 @@
     name = Franz 
     dynasty = 12132  #von Niebelwald
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 2
     stewardship = 7
@@ -3532,7 +3532,7 @@
     name = Kasper 
     dynasty = 12000  #von Alptraum
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 2
     stewardship = 3
@@ -3554,7 +3554,7 @@
     name = Ferenc 
     dynasty = 12000  #von Alptraum
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 1
     diplomacy = 5
     stewardship = 3
@@ -3576,7 +3576,7 @@
     name = Tancred 
     dynasty = 12000  #von Alptraum
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 2
     stewardship = 3
@@ -3597,7 +3597,7 @@
     name = Ludwig 
     dynasty = 12008  #von Alder
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 8
     stewardship = 0
@@ -3620,7 +3620,7 @@
     name = Ottmar 
     dynasty = 12008  #von Alder
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 5
     stewardship = 2
@@ -3644,7 +3644,7 @@
     name = Franz 
     dynasty = 12008  #von Alder
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 7
     diplomacy = 3
     stewardship = 6
@@ -3667,7 +3667,7 @@
     female = yes 
     dynasty = 12008  #von Alder
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 3
     stewardship = 1
@@ -3690,7 +3690,7 @@
     female = yes 
     dynasty = 12066 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 6
     stewardship = 1
@@ -3709,7 +3709,7 @@
     female = yes 
     dynasty = 12065 
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 3
     stewardship = 6
@@ -3728,7 +3728,7 @@
     name = Ruprecht 
     dynasty = 12000  #von Alptraum
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 0
     stewardship = 7
@@ -3747,7 +3747,7 @@
     name = Wilhelm 
     dynasty = 12000  #von Alptraum
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 1
     stewardship = 1
@@ -3766,7 +3766,7 @@
     name = Franz 
     dynasty = 12000  #von Alptraum
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 2
     stewardship = 4
@@ -3787,7 +3787,7 @@
     name = Gozwin 
     dynasty = 12000  #von Alptraum
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 2
     stewardship = 3
@@ -3806,7 +3806,7 @@
     name = Lothar 
     dynasty = 12000  #von Alptraum
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 2
     stewardship = 4
@@ -3827,7 +3827,7 @@
     name = Wolfgang 
     dynasty = 12000  #von Alptraum
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 7
     diplomacy = 2
     stewardship = 6
@@ -3848,7 +3848,7 @@
     name = Hildebrand 
     dynasty = 12000  #von Alptraum
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 6
     stewardship = 2
@@ -3870,7 +3870,7 @@
     name = Karl 
     dynasty = 12000  #von Alptraum
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 2
     stewardship = 0
@@ -3890,7 +3890,7 @@
     name = Mathias 
     dynasty = 12000  #von Alptraum
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 5
     stewardship = 2
@@ -3913,7 +3913,7 @@
     name = Michael 
     dynasty = 12000  #von Alptraum
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 4
     stewardship = 2
@@ -3934,7 +3934,7 @@
     name = Dietrich 
     dynasty = 12000  #von Alptraum
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 1
     stewardship = 5
@@ -3954,7 +3954,7 @@
     name = Julius 
     dynasty = 12004  #von Sachs
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 5
     stewardship = 7
@@ -3973,7 +3973,7 @@
     name = Ferenc 
     dynasty = 12000  #von Alptraum
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 1
     stewardship = 5
@@ -3996,7 +3996,7 @@
     female = yes 
     dynasty = 12000  #von Alptraum
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 5
     stewardship = 5
@@ -4018,7 +4018,7 @@
     name = Nicodemus 
     dynasty = 12000  #von Alptraum
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 3
     stewardship = 5
@@ -4043,7 +4043,7 @@
     dynasty = 12131  #von Ritterbach
     #dna = nbcbgcbiloc
     culture = averlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 2
     stewardship = 3

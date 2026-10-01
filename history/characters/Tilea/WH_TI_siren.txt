@@ -1,7 +1,7 @@
 ﻿
 autaria_100 = {
 	name = Catone
-	religion = stromfels
+	rite = stromfels
 	culture = sartosan_tilean
 	trait = brave
 	trait = diligent
@@ -13,7 +13,7 @@ autaria_100 = {
 }
 
 liburni_100 = {
-	religion = myrmidian_eastern
+	rite = myrmidian_eastern
 	culture = tobaran
 	6487.1.1 = {
 		birth = yes	
@@ -21,7 +21,7 @@ liburni_100 = {
 }
 
 delamata_100 = {
-	religion = stromfels
+	rite = stromfels
 	culture = sartosan_tilean
 	6491.1.1 = {
 		birth = yes	
@@ -29,7 +29,7 @@ delamata_100 = {
 }
 
 isole_sirene_100 = {
-	religion = stromfels
+	rite = stromfels
 	culture = sartosan_tilean
 	6478.1.1 = {
 		birth = yes	
@@ -37,7 +37,7 @@ isole_sirene_100 = {
 }
 
 scordisci_100 = {
-	religion = stromfels
+	rite = stromfels
 	culture = sartosan_tilean
 	6485.1.1 = {
 		birth = yes	

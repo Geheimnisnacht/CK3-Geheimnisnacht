@@ -2,7 +2,7 @@
 	name = Konrad	#Konrad von Blutheim, executed in 2011 by witch hunters, canon Khorne worshipper
 	dynasty = dynasty_Blutheim
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 8
 	diplomacy = 7
 	stewardship = 5
@@ -58,7 +58,7 @@
 	name = Norbert
 	dynasty = 23008
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	father = 89057
 	mother = 89058
 	trait = scholar
@@ -83,7 +83,7 @@
 	name = Johann
 	dynasty = 23072
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 10
 	diplomacy = 7
 	stewardship = 3
@@ -106,7 +106,7 @@
 	name = Heinz
 	dynasty = 23013
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 5
 	diplomacy = 7
 	stewardship = 4
@@ -130,7 +130,7 @@
 	name = Walther
 	dynasty = 23017
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 0
 	diplomacy = 9
 	stewardship = 5
@@ -164,7 +164,7 @@
 	female = yes
 	dynasty = 23018
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 6
 	diplomacy = 8
 	stewardship = 10
@@ -193,7 +193,7 @@
 	name = Ulricht
 	dynasty = 23022
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 5
 	diplomacy = 7
 	stewardship = 11
@@ -220,7 +220,7 @@
 	name = Sieghard
 	dynasty = 23018
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 4
 	diplomacy = 1
 	stewardship = 4
@@ -244,7 +244,7 @@
 	name = Hugo
 	dynasty = 23023
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 9
 	diplomacy = 8
 	stewardship = 2
@@ -267,7 +267,7 @@
 	name = Nikolaus
 	dynasty = 23080
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 7
 	diplomacy = 10
 	stewardship = 1
@@ -294,7 +294,7 @@
 	name = Giselbert
 	dynasty = 23025
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 10
 	diplomacy = 1
 	stewardship = 6
@@ -316,7 +316,7 @@
 	name = Dietpold
 	dynasty = 23022
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 5
 	diplomacy = 2
 	stewardship = 4
@@ -342,7 +342,7 @@
 	name = Felix
 	dynasty = 23022
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 6
 	diplomacy = 7
 	stewardship = 8
@@ -367,7 +367,7 @@
 	female = yes
 	dynasty = 23037
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 3
 	diplomacy = 7
 	stewardship = 0
@@ -396,7 +396,7 @@
 	name = Udo
 	dynasty = 23025
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 2
 	diplomacy = 4
 	stewardship = 1
@@ -423,7 +423,7 @@
 	female = yes
 	dynasty = 23044
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 0
 	diplomacy = 8
 	stewardship = 7
@@ -452,7 +452,7 @@
 	name = Georg
 	dynasty = 23018
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 7
 	diplomacy = 2
 	stewardship = 2
@@ -480,7 +480,7 @@
 	name = Walram
 	dynasty = 23044
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 7
 	diplomacy = 4
 	stewardship = 7
@@ -509,7 +509,7 @@
 	female = yes
 	dynasty = 23048
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 8
 	diplomacy = 8
 	stewardship = 3
@@ -534,7 +534,7 @@
 	name = Eckhardt
 	dynasty = 23022
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 2
 	diplomacy = 7
 	stewardship = 10
@@ -561,7 +561,7 @@
 	name = Fulk
 	dynasty = 23032	#89020 & 89021 same dynasty
 	culture = merogen
-	religion = sigmarite
+	rite = sigmarite
 	martial = 2
 	diplomacy = 4
 	stewardship = 1
@@ -589,7 +589,7 @@
 	name = Henest
 	dynasty = 23032	#89020 & 89021 same dynasty
 	culture = merogen
-	religion = sigmarite
+	rite = sigmarite
 	martial = 0
 	diplomacy = 8
 	stewardship = 7
@@ -615,7 +615,7 @@
 	female = yes
 	dynasty = 23033
 	culture = merogen
-	religion = sigmarite
+	rite = sigmarite
 	martial = 7
 	diplomacy = 2
 	stewardship = 2
@@ -640,7 +640,7 @@
 	name = Matthias
 	dynasty = 23034
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 7
 	diplomacy = 4
 	stewardship = 7
@@ -666,7 +666,7 @@
 	female = yes
 	dynasty = 23035	#89024 & 89025 same dynasty
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 8
 	diplomacy = 8
 	stewardship = 3
@@ -691,7 +691,7 @@
 	female = yes
 	dynasty = 23035	#89024 & 89025 same dynasty
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 2
 	diplomacy = 7
 	stewardship = 10
@@ -716,7 +716,7 @@
 	name = Volkmar
 	dynasty = 23067
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 14
 	diplomacy = 9
 	stewardship = 0
@@ -741,7 +741,7 @@
 	name = Magnus	#Magnus 'the Pious' von Bildhofen
 	dynasty = 23001
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 9
 	diplomacy = 9
 	stewardship = 0
@@ -770,7 +770,7 @@
 	female = yes
 	dynasty = 23047
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	6432.1.1 = {
 		birth = yes
 	}
@@ -788,7 +788,7 @@
 	name = Rannalt
 	dynasty = dynasty_Blutheim
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	6430.1.1 = {
 		birth = yes
 	}
@@ -807,7 +807,7 @@
 	female = yes
 	dynasty = 23052
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	6462.3.3 = {
 		birth = yes
 	}
@@ -826,7 +826,7 @@
 	female = yes
 	dynasty = 23003
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	6465.5.11 = {
 		birth = yes
 	}
@@ -845,7 +845,7 @@
 	female = yes
 	dynasty = 23004
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	6470.12.5 = {
 		birth = yes
 	}
@@ -864,7 +864,7 @@
 	female = yes
 	dynasty = 23005
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	6493.8.16 = {
 		birth = yes
 	}
@@ -883,7 +883,7 @@
 	female = yes
 	dynasty = dynasty_Blutheim
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	father = 89029
 	mother = 89028
 	6461.2.9 = {
@@ -903,7 +903,7 @@
 	name = Titus
 	dynasty = dynasty_Blutheim
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	trait = legitimized_bastard
 	father = 89000
 	6481.3.6 = {
@@ -920,7 +920,7 @@
 	name = Viktor
 	dynasty = dynasty_Blutheim
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	father = 89000
 	mother = 89030
 	6481.2.19 = {
@@ -937,7 +937,7 @@
 	name = Ivo
 	dynasty = dynasty_Blutheim
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	trait = legitimized_bastard
 	father = 89000
 	6483.10.16 = {
@@ -954,7 +954,7 @@
 	name = Otto
 	dynasty = dynasty_Blutheim
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	father = 89000
 	mother = 89031
 	6489.2.5 = {
@@ -971,7 +971,7 @@
 	name = Leonhard
 	dynasty = dynasty_Blutheim
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	father = 89000
 	mother = 89032
 	6491.4.21 = {
@@ -991,7 +991,7 @@
 	name = Paul
 	dynasty = dynasty_Blutheim
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	father = 89000
 	mother = 89032
 	6492.6.8 = {
@@ -1008,7 +1008,7 @@
 	name = Detlef
 	dynasty = dynasty_Blutheim
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	father = 89000
 	mother = 89032
 	6501.11.12 = {
@@ -1026,7 +1026,7 @@
 	female = yes
 	dynasty = dynasty_Blutheim
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	father = 89000
 	mother = 89032
 	6505.2.13 = {
@@ -1043,7 +1043,7 @@
 	name = Ludolf
 	dynasty = 23017
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	father = 89071
 	6462.10.23 = {
 		birth = yes
@@ -1063,7 +1063,7 @@
 	female = yes
 	dynasty = 23006
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	6467.9.12 = {
 		birth = yes
 	}
@@ -1082,7 +1082,7 @@
 	female = yes
 	dynasty = 23057
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	6491.5.9 = {
 		birth = yes
 	}
@@ -1100,7 +1100,7 @@
 	name = Cyrillus
 	dynasty = 23017
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	father = 89043
 	mother = 89044
 	6491.1.1 = {
@@ -1121,7 +1121,7 @@
 	female = yes
 	dynasty = 23026
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	6489.1.1 = {
 		birth = yes
 	}
@@ -1139,7 +1139,7 @@
 	name = Rainer
 	dynasty = 23017
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	father = 89046
 	mother = 89047
 	6508.1.1 = {
@@ -1157,7 +1157,7 @@
 	female = yes
 	dynasty = 23017
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	father = 89050
 	mother = 89051
 	6483.1.1 = {
@@ -1174,7 +1174,7 @@
 	name = Meinhard
 	dynasty = 23017
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	father = 89071
 	6466.1.1 = {
 		birth = yes
@@ -1194,7 +1194,7 @@
 	female = yes
 	dynasty = 23030
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	6465.1.1 = {
 		birth = yes
 	}
@@ -1212,7 +1212,7 @@
 	name = Rannalt
 	dynasty = 23017
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	father = 89043
 	mother = 89044
 	6491.4.5 = {
@@ -1240,7 +1240,7 @@
 	female = yes
 	dynasty = 23027
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	6491.1.1 = {
 		birth = yes
 	}
@@ -1258,7 +1258,7 @@
 	name = Ignaz
 	dynasty = 23017
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	father = 89052
 	mother = 89053
 	6508.1.1 = {
@@ -1275,7 +1275,7 @@
 	name = Joachim
 	dynasty = 23017
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	father = 89052
 	mother = 89053
 	6509.1.1 = {
@@ -1293,7 +1293,7 @@
 	female = yes
 	dynasty = 23017
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	father = 89052
 	mother = 89053
 	6510.1.1 = {
@@ -1310,7 +1310,7 @@
 	name = Ezzo
 	dynasty = 23008
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	father = 89075
 	6439.1.1 = {
 		birth = yes
@@ -1330,7 +1330,7 @@
 	female = yes
 	dynasty = 23016
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	6444.1.1 = {
 		birth = yes
 	}
@@ -1348,7 +1348,7 @@
 	name = Veit
 	dynasty = 23008
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	father = 89001
 	mother = 89072
 	6498.4.22 = {
@@ -1365,7 +1365,7 @@
 	name = Lothaire
 	dynasty = 23008
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	father = 89001
 	mother = 89072
 	6499.1.1 = {
@@ -1383,7 +1383,7 @@
 	female = yes
 	dynasty = 23008
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	father = 89001
 	mother = 89072
 	6494.2.11 = {
@@ -1400,7 +1400,7 @@
 	name = Markward
 	dynasty = 23014
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	father = 89074
 	mother = 89073
 	6482.1.1 = {
@@ -1421,7 +1421,7 @@
 	female = yes
 	dynasty = 23008
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	father = 89057
 	mother = 89058
 	trait = twin
@@ -1443,7 +1443,7 @@
 	female = yes
 	dynasty = 23014
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	father = 89062
 	mother = 89063
 	6502.1.1 = {
@@ -1460,7 +1460,7 @@
 	name = Kaspar
 	dynasty = 23008
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	father = 89067
 	mother = 89068
 	6441.1.1 = {
@@ -1481,7 +1481,7 @@
 	female = yes
 	dynasty = 23015
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	6444.1.1 = {
 		birth = yes
 	}
@@ -1499,7 +1499,7 @@
 	name = Sepp
 	dynasty = 23008
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	father = 89075
 	6419.1.1 = {
 		birth = yes
@@ -1519,7 +1519,7 @@
 	female = yes
 	dynasty = 23020
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	6420.1.1 = {
 		birth = yes
 		effect = {
@@ -1540,7 +1540,7 @@
 	name = Petrus
 	dynasty = 23008
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	father = 89065
 	mother = 89066
 	6487.1.1 = {
@@ -1558,7 +1558,7 @@
 	female = yes
 	dynasty = 23008
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	trait = twin
 	father = 89065
 	mother = 89066
@@ -1576,7 +1576,7 @@
 	name = Wolfgang
 	dynasty = 23017
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	6422.1.1 = {
 		birth = yes
 	}
@@ -1592,7 +1592,7 @@
 	female = yes
 	dynasty = 23019
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	6472.1.1 = {
 		birth = yes
 	}
@@ -1611,7 +1611,7 @@
 	female = yes
 	dynasty = 23021
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 3
 	diplomacy = 5
 	stewardship = 2
@@ -1635,7 +1635,7 @@
 	name = Lutz
 	dynasty = 23014
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 1
 	diplomacy = 2
 	stewardship = 2
@@ -1660,7 +1660,7 @@
 	name = Rudolph
 	dynasty = 23008
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 2
 	diplomacy = 1
 	stewardship = 1
@@ -1682,7 +1682,7 @@
 	name = Karlotte
 	dynasty = 23017
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 2
 	diplomacy = 1
 	stewardship = 1
@@ -1707,7 +1707,7 @@
 	female = yes
 	dynasty = 23002
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 2
 	diplomacy = 1
 	stewardship = 1
@@ -1735,7 +1735,7 @@
 	dynasty = 23007
 	#dna = kcppfdpnibb
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 4
 	diplomacy = 2
 	stewardship = 6
@@ -1760,7 +1760,7 @@
 	dynasty = 23007
 	#dna = delpmmceikj
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 3
 	diplomacy = 2
 	stewardship = 6
@@ -1786,7 +1786,7 @@
 	dynasty = 23007
 	#dna = nampbkmkfgj
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 2
 	diplomacy = 8
 	stewardship = 8
@@ -1812,7 +1812,7 @@
 	dynasty = 23007
 	#dna = oancoonbgpm
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 6
 	diplomacy = 2
 	stewardship = 3
@@ -1839,7 +1839,7 @@
 	dynasty = 23012
 	#dna = kmphfihdkml
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 8
 	diplomacy = 5
 	stewardship = 4
@@ -1867,7 +1867,7 @@
 	dynasty = 23012
 	#dna = oehmhncaoge
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 5
 	diplomacy = 5
 	stewardship = 4
@@ -1892,7 +1892,7 @@
 	dynasty = 23012
 	#dna = kmmkhomnllk
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 5
 	diplomacy = 1
 	stewardship = 6
@@ -1918,7 +1918,7 @@
 	dynasty = 23007
 	#dna = mflhhpgocnk
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 5
 	diplomacy = 7
 	stewardship = 5
@@ -1944,7 +1944,7 @@
 	dynasty = 23007
 	#dna = kkjjlkcompk
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 6
 	diplomacy = 5
 	stewardship = 6
@@ -1972,7 +1972,7 @@
 	dynasty = 23007
 	#dna = hogbhblkgpn
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 6
 	diplomacy = 3
 	stewardship = 6
@@ -1998,7 +1998,7 @@
 	dynasty = 23007
 	#dna = hfcgclomedc
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 3
 	diplomacy = 2
 	stewardship = 4
@@ -2024,7 +2024,7 @@
 	dynasty = 23009
 	#dna = lebjgogehng
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 7
 	diplomacy = 2
 	stewardship = 5
@@ -2050,7 +2050,7 @@
 	dynasty = 23009
 	#dna = pojpbejgpff
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 3
 	diplomacy = 2
 	stewardship = 5
@@ -2077,7 +2077,7 @@
 	dynasty = 23091
 	#dna = kmnejcmkjpg
 	culture = reiklander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 5
 	diplomacy = 0
 	stewardship = 8
@@ -2106,7 +2106,7 @@
 	dynasty = 23006	#Toppenheimer
 	#dna = fdncjnfhblc
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 1
 	diplomacy = 6
 	stewardship = 3
@@ -2136,7 +2136,7 @@
 	dynasty = 23012
 	#dna = amhhiahckml
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 3
 	diplomacy = 5
 	stewardship = 4
@@ -2164,7 +2164,7 @@
 	dynasty = 23012
 	#dna = hogbhblkgpn
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 6
 	diplomacy = 3
 	stewardship = 6
@@ -2188,7 +2188,7 @@
 	dynasty = 23012
 	#dna = haccclobedc
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 3
 	diplomacy = 2
 	stewardship = 4
@@ -2213,7 +2213,7 @@
 	dynasty = 23012
 	#dna = leajcogahng
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 7
 	diplomacy = 2
 	stewardship = 3
@@ -2237,7 +2237,7 @@
 	female = yes
 	dynasty = 23006
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 3
 	diplomacy = 4
 	stewardship = 2
@@ -2263,7 +2263,7 @@
 	female = yes
 	dynasty = 23092
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 2
 	diplomacy = 1
 	stewardship = 4
@@ -2291,7 +2291,7 @@
 	female = yes
 	dynasty = 23093
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 4
 	diplomacy = 2
 	stewardship = 2
@@ -2317,7 +2317,7 @@
 	female = yes
 	dynasty = 23007
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 5
 	diplomacy = 2
 	stewardship = 1
@@ -2344,7 +2344,7 @@
 	name = Luther
 	dynasty = 23095
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 5
 	diplomacy = 2
 	stewardship = 1
@@ -2369,7 +2369,7 @@
 	name = Meinhart
 	dynasty = 23096
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 5
 	diplomacy = 2
 	stewardship = 1
@@ -2396,7 +2396,7 @@
 	mother = 89013
 	father = 89012
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 8
 	diplomacy = 2
 	stewardship = 4
@@ -2428,7 +2428,7 @@
 89104 = {
 	name = Equin
 	culture = wissenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 7
 	diplomacy = 5
 	stewardship = 4
@@ -2456,7 +2456,7 @@
 	name = Henroth
 	dynasty = 99999161
 	culture = merogen
-	religion = taalite
+	rite = taalite
 	martial = 6
 	diplomacy = 6
 	stewardship = 8

@@ -2,7 +2,7 @@
 	name = Mannfred	#Mannfred Todbringer
 	dynasty = dynasty_Todbringer
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	dna = 81000_ec_mannfred_todbringer
 	father = 81051
 	mother = 81054
@@ -34,7 +34,7 @@
 	name = Peter
 	dynasty = 16003
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 9
 	diplomacy = 8
 	stewardship = 8
@@ -59,7 +59,7 @@
 	female = yes
 	dynasty = 16086
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 7
 	diplomacy = 5
 	stewardship = 3
@@ -82,7 +82,7 @@
 	female = yes
 	dynasty = 16058
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 10
 	diplomacy = 1
 	stewardship = 3
@@ -106,7 +106,7 @@
 	name = Ulrich
 	dynasty = 16009
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 8
 	diplomacy = 8
 	stewardship = 3
@@ -131,7 +131,7 @@
 	name = Thietmar
 	dynasty = 16019
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 1
 	diplomacy = 7
 	stewardship = 5
@@ -155,7 +155,7 @@
 	name = Gottfried
 	dynasty = 16018
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 8
 	diplomacy = 4
 	stewardship = 7
@@ -182,7 +182,7 @@
 	name = Erich
 	dynasty = 16020
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 7
 	diplomacy = 10
 	stewardship = 7
@@ -207,7 +207,7 @@
 	female = yes
 	dynasty = 16022
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 3
 	diplomacy = 2
 	stewardship = 9
@@ -231,7 +231,7 @@
 	female = yes
 	dynasty = 16023
 	culture = drakwalder
-	religion = ulrican
+	rite = ulrican
 	martial = 9
 	diplomacy = 3
 	stewardship = 1
@@ -254,7 +254,7 @@
 	name = Ruprecht
 	dynasty = 16025
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 0
 	diplomacy = 5
 	stewardship = 8
@@ -276,7 +276,7 @@
 	name = Siegfried
 	dynasty = 16026
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 0
 	diplomacy = 7
 	stewardship = 8
@@ -299,7 +299,7 @@
 	name = Philipp
 	dynasty = 16032
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 4
 	diplomacy = 0
 	stewardship = 6
@@ -324,7 +324,7 @@
 	female = yes
 	dynasty = 16034
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 9
 	diplomacy = 0
 	stewardship = 6
@@ -348,7 +348,7 @@
 	name = Gerd
 	dynasty = 16036
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 5
 	diplomacy = 7
 	stewardship = 7
@@ -372,7 +372,7 @@
 	name = Simon
 	dynasty = 16037
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 7
 	diplomacy = 7
 	stewardship = 3
@@ -398,7 +398,7 @@
 	female = yes
 	dynasty = 16042
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 4
 	diplomacy = 9
 	stewardship = 7
@@ -425,7 +425,7 @@
 	name = Hu_ndrud
 	dynasty = 16066
 	culture = teutogen
-	religion = ulrican
+	rite = ulrican
 	martial = 4
 	diplomacy = 9
 	stewardship = 7
@@ -453,7 +453,7 @@
 	name = Otto
 	dynasty = 16063
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 7
 	diplomacy = 7
 	stewardship = 3
@@ -478,7 +478,7 @@
 	name = Mandred
 	dynasty = 16064	#von Zelt
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 5
 	diplomacy = 7
 	stewardship = 7
@@ -505,7 +505,7 @@
 	name = Gerhard
 	dynasty = 16065	#von Middenheim
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 9
 	diplomacy = 0
 	stewardship = 6
@@ -529,7 +529,7 @@
 	name = Ulricht
 	dynasty = 16067	# Ar-Ulric, von Middenheim
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 9
 	diplomacy = 0
 	stewardship = 6
@@ -554,7 +554,7 @@
 	name = Boris	#Graf Boris Todbringer
 	dynasty = dynasty_Todbringer
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 10
 	diplomacy = 9
 	stewardship = 3
@@ -588,7 +588,7 @@
 	female = yes
 	dynasty = 16131
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 4
 	diplomacy = 3
 	stewardship = 5
@@ -613,7 +613,7 @@
 	name = Berthold	#Graf Boris Todbringer's father
 	dynasty = dynasty_Todbringer
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 4
 	diplomacy = 3
 	stewardship = 5
@@ -641,7 +641,7 @@
 	name = Dieter	#Graf Boris Todbringer's grandfather
 	dynasty = dynasty_Todbringer
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 4
 	diplomacy = 3
 	stewardship = 5
@@ -672,7 +672,7 @@
 	name = Berthold	#Graf Boris Todbringer's great-grandfather
 	dynasty = dynasty_Todbringer
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 4
 	diplomacy = 3
 	stewardship = 5
@@ -698,7 +698,7 @@
 	name = Heinrich	#Graf Boris Todbringer's first bastard
 	dynasty = dynasty_Todbringer
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 4
 	diplomacy = 3
 	stewardship = 5
@@ -724,7 +724,7 @@
 	name = Stefan	#Graf Boris Todbringer's first son
 	dynasty = dynasty_Todbringer
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 4
 	diplomacy = 3
 	stewardship = 5
@@ -751,7 +751,7 @@
 	female = yes
 	dynasty = dynasty_Todbringer
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 4
 	diplomacy = 3
 	stewardship = 5
@@ -777,7 +777,7 @@
 	name = Siegfried	# Siegfried von Wulfingstein First Wolf Emperor
 	dynasty = 16001
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 4
 	diplomacy = 3
 	stewardship = 5
@@ -800,7 +800,7 @@
 	name = Gerhardt	# Graf Gerhardt Meister of Middenland
 	dynasty = 16132
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 4
 	diplomacy = 3
 	stewardship = 5
@@ -823,7 +823,7 @@
 	name = Emil
 	dynasty = 16133	# Ar-Ulric, Valgeir
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 5
 	diplomacy = 6
 	stewardship = 2
@@ -848,7 +848,7 @@
 	name = Jakob
 	dynasty = 16134
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 3
 	diplomacy = 3
 	stewardship = 5
@@ -875,7 +875,7 @@
 	female = yes
 	dynasty = 16135
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 3
 	diplomacy = 3
 	stewardship = 5
@@ -902,7 +902,7 @@
 	female = yes
 	dynasty = 16134
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 3
 	diplomacy = 3
 	stewardship = 5
@@ -930,7 +930,7 @@
 	dynasty = 23001
 	#dna = cnhgcmbcehh
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 6
 	diplomacy = 4
 	stewardship = 3
@@ -953,7 +953,7 @@
 	dynasty = 23001
 	#dna = igcmpapooje
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 5
 	diplomacy = 1
 	stewardship = 5
@@ -980,7 +980,7 @@
 	dynasty = 16008
 	#dna = chokjfjojpb
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 6
 	diplomacy = 4
 	stewardship = 3
@@ -1006,7 +1006,7 @@
 	dynasty = 16008
 	#dna = hkljhmpiimj
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 4
 	diplomacy = 4
 	stewardship = 2
@@ -1034,7 +1034,7 @@
 	dynasty = 16006
 	#dna = nocjlmcibad
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 4
 	diplomacy = 3
 	stewardship = 6
@@ -1061,7 +1061,7 @@
 	dynasty = 16006
 	#dna = apdafjihmfm
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 8
 	diplomacy = 4
 	stewardship = 7
@@ -1087,7 +1087,7 @@
 	dynasty = 16006
 	#dna = mfonkjkdhej
 	culture = middenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 3
 	diplomacy = 7
 	stewardship = 7
@@ -1116,7 +1116,7 @@
 	dynasty = 16006
 	#dna = dhmnccelgcd
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 3
 	diplomacy = 4
 	stewardship = 2
@@ -1140,7 +1140,7 @@
 	dynasty = 16136
 	#dna = mdgahomhjhe
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 4
 	diplomacy = 5
 	stewardship = 2
@@ -1165,7 +1165,7 @@
 	dynasty = 16136
 	#dna = phnpaljjhik
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 8
 	diplomacy = 4
 	stewardship = 3
@@ -1189,7 +1189,7 @@
 	dynasty = 16136
 	#dna = chilncahled
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 2
 	diplomacy = 4
 	stewardship = 2
@@ -1215,7 +1215,7 @@
 	dynasty = 15500
 	#dna = okpjegonihi
 	culture = middenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 2
 	diplomacy = 7
 	stewardship = 2
@@ -1240,7 +1240,7 @@
 	dynasty = 15500
 	#dna = acdoikmnpdh
 	culture = middenlander
-	religion = sigmarite
+	rite = sigmarite
 	martial = 5
 	diplomacy = 7
 	stewardship = 4
@@ -1264,7 +1264,7 @@
 	name = Bertram
 	dynasty = 12102
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 3
 	diplomacy = 10
 	stewardship = 3
@@ -1291,7 +1291,7 @@
 	name = Jerek
 	dynasty = 10119
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 10
 	diplomacy = 6
 	stewardship = 6
@@ -1319,7 +1319,7 @@
 	name = Folkhard	#His father
 	dynasty = dynasty_Todbringer
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 6
 	diplomacy = 6
 	stewardship = 6
@@ -1346,7 +1346,7 @@
 	name = Amanda	#His mother
 	female = yes
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	martial = 4
 	diplomacy = 4
 	stewardship = 4
@@ -1375,7 +1375,7 @@
 	female = yes
 	dynasty = dynasty_Todbringer
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	father = 81051
 	mother = 81054
 	martial = 4
@@ -1405,7 +1405,7 @@
 	name = Kurt	#Younger brother
 	dynasty = dynasty_Todbringer
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	father = 81051
 	mother = 81054
 	martial = 6
@@ -1431,7 +1431,7 @@
 81055 = { #no dynasty given, controller of a temple holding
 	name = Fridjolf
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	trait = education_stewardship_3
 	6459.1.6 = {
 		birth = yes
@@ -1446,7 +1446,7 @@
 	name = Artur
 	dynasty = 99999154
 	culture = teutogen
-	religion = ulrican
+	rite = ulrican
 	martial = 5
 	diplomacy = 3
 	stewardship = 2
@@ -1475,7 +1475,7 @@
 	name = Wulcan
 	dynasty = 99999154
 	culture = teutogen
-	religion = ulrican
+	rite = ulrican
 	father = 81056
 	martial = 5
 	diplomacy = 5

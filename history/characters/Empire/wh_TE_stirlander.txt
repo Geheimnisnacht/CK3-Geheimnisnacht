@@ -2,7 +2,7 @@
     name = Sepp 
     dynasty = dynasty_Riesigenesel 
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 1
     diplomacy = 9
     stewardship = 6
@@ -31,7 +31,7 @@
     name = Edith 
     female = yes  #Sepp's fictional wife
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 4
     stewardship = 2
@@ -52,7 +52,7 @@
     name = Ottmar 
     dynasty = dynasty_Riesigenesel  #Sepp's fictional son
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     father = 79000 
     mother = 79073 
     martial = 2
@@ -73,7 +73,7 @@
     female = yes 
     dynasty = dynasty_Riesigenesel  #Sepp's fictional daughter
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     father = 79000 
     mother = 79073 
     martial = 2
@@ -93,7 +93,7 @@
     name = Sigfried 
     dynasty = 20023 
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 6
     stewardship = 0
@@ -114,7 +114,7 @@
     female = yes 
     dynasty = 20055 
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 8
     stewardship = 9
@@ -134,7 +134,7 @@
     name = Fritz 
     dynasty = 20014 
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 4
     stewardship = 8
@@ -155,7 +155,7 @@
     female = yes 
     dynasty = 20012 
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 5
     stewardship = 6
@@ -174,7 +174,7 @@
     name = Gerlach 
     dynasty = 20005 
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 0
     diplomacy = 7
     stewardship = 2
@@ -196,7 +196,7 @@
     female = yes 
     dynasty = 20065 
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 1
     diplomacy = 7
     stewardship = 10
@@ -214,7 +214,7 @@
     name = Karloman 
     dynasty = 20066 
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 8
     diplomacy = 9
     stewardship = 9
@@ -233,7 +233,7 @@
     name = Egon 
     dynasty = 20061 
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 8
     diplomacy = 3
     stewardship = 6
@@ -255,7 +255,7 @@
     name = Emelrich 
     dynasty = 20032 
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 0
     diplomacy = 7
     stewardship = 1
@@ -274,7 +274,7 @@
     name = Matthias 
     dynasty = 20079 
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 1
     diplomacy = 10
     stewardship = 11
@@ -294,7 +294,7 @@
     female = yes 
     dynasty = 20074 
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 9
     diplomacy = 1
     stewardship = 1
@@ -312,7 +312,7 @@
     name = Berthold 
     dynasty = 20041 
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 9
     diplomacy = 8
     stewardship = 6
@@ -333,7 +333,7 @@
     name = Chedwic 
     dynasty = 20022 
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 1
     stewardship = 7
@@ -354,7 +354,7 @@
     name = Guntram 
     dynasty = 20025 
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 6
     diplomacy = 0
     stewardship = 5
@@ -374,7 +374,7 @@
     name = Lutz 
     dynasty = 20026 
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 6
     diplomacy = 7
     stewardship = 6
@@ -395,7 +395,7 @@
     female = yes 
     dynasty = 20029 
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 1
     stewardship = 4
@@ -416,7 +416,7 @@
     name = Welf 
     dynasty = 20052 
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 7
     stewardship = 6
@@ -436,7 +436,7 @@
     name = Xaver 
     dynasty = 20042 
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 8
     diplomacy = 5
     stewardship = 6
@@ -457,7 +457,7 @@
     female = yes 
     dynasty = 20043 
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 6
     diplomacy = 8
     stewardship = 8
@@ -480,7 +480,7 @@
     female = yes 
     dynasty = 20017 
     culture = asoborn
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 1
     diplomacy = 10
     stewardship = 11
@@ -500,7 +500,7 @@
     female = yes 
     dynasty = 20018  #79021 & 79022 same Dynasty
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 9
     diplomacy = 1
     stewardship = 1
@@ -521,7 +521,7 @@
     female = yes 
     dynasty = 20018  #79021 & 79022 same Dynasty
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 9
     diplomacy = 8
     stewardship = 6
@@ -545,7 +545,7 @@
     female = yes 
     dynasty = 20018  #79021 & 79022 same Dynasty
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 9
     diplomacy = 8
     stewardship = 6
@@ -568,7 +568,7 @@
     female = yes 
     dynasty = 20018  #79023 & 79024 same dynasty
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     mother = 999 
     martial = 2
     diplomacy = 1
@@ -591,7 +591,7 @@
     female = yes 
     dynasty = 20018  #79023 & 79024 same dynasty
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 6
     diplomacy = 0
     stewardship = 5
@@ -613,7 +613,7 @@
     name = Gerhard 
     dynasty = 20019 
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 6
     diplomacy = 7
     stewardship = 6
@@ -633,7 +633,7 @@
     name = Otto 
     dynasty = 20020 
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 1
     stewardship = 4
@@ -654,7 +654,7 @@
     name = Gerhard 
     dynasty = 20021 
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 7
     stewardship = 6
@@ -675,7 +675,7 @@
     name = Leopold 
     dynasty = 20001  #Emperor Unf�higer
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 8
     diplomacy = 5
     stewardship = 6
@@ -695,7 +695,7 @@
     name = Dieter 
     dynasty = 20001  # Emperor Dieter IV Unf�higer
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 6
     diplomacy = 8
     stewardship = 8
@@ -716,7 +716,7 @@
     name = Eckhardt 
     dynasty = 20027  #Emperor Eckhardt III Vitek
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 3
     stewardship = 7
@@ -736,7 +736,7 @@
     name = Eckhardt 
     dynasty = 20021  #Emperor Eckhardt I Strassenbauer
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 3
     stewardship = 7
@@ -757,7 +757,7 @@
     dynasty = 20021  #Emperor Eckhardt II Strassenbauer
     culture = stirlander 
     father = 79031 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 3
     stewardship = 7
@@ -776,7 +776,7 @@
     name = Alberich 
     dynasty = 20003  #Graf Alberich Haupt-Anderssen
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 7
     diplomacy = 6
     stewardship = 5
@@ -797,7 +797,7 @@
     dynasty = 20082 
     #dna = cpflfaknlco
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 4
     stewardship = 1
@@ -820,7 +820,7 @@
     dynasty = 20083 
     #dna = cinmenooloi
     culture = sylvanian 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 3
     stewardship = 3
@@ -844,7 +844,7 @@
     dynasty = 20084 
     #dna = bngooikddee
     culture = sylvanian 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 2
     stewardship = 0
@@ -866,7 +866,7 @@
     dynasty = 20013 
     #dna = lccndmfljcl
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 8
     stewardship = 2
@@ -889,7 +889,7 @@
     dynasty = 20013 
     #dna = cijoeabpeac
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 3
     stewardship = 7
@@ -914,7 +914,7 @@
     dynasty = 20013 
     #dna = gblmnimjcem
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 1
     stewardship = 6
@@ -938,7 +938,7 @@
     dynasty = 20013 
     #dna = eeiajgfjhdh
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 3
     stewardship = 2
@@ -958,7 +958,7 @@
     dynasty = 20013 
     #dna = gmglibbnigb
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 0
     diplomacy = 5
     stewardship = 2
@@ -978,7 +978,7 @@
     dynasty = 20013 
     #dna = kjobcijklkb
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 3
     stewardship = 4
@@ -1001,7 +1001,7 @@
     dynasty = 20010 
     #dna = jbddkibefjj
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 4
     stewardship = 4
@@ -1023,7 +1023,7 @@
     dynasty = 20010 
     #dna = jjkcnpejidn
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 6
     diplomacy = 4
     stewardship = 3
@@ -1044,7 +1044,7 @@
     dynasty = 20010 
     #dna = lofojogokal
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 4
     stewardship = 4
@@ -1067,7 +1067,7 @@
     dynasty = 20010 
     #dna = mjfjmliekkc
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 8
     stewardship = 3
@@ -1088,7 +1088,7 @@
     dynasty = 20011 
     #dna = kijhickkhfi
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 6
     diplomacy = 4
     stewardship = 3
@@ -1109,7 +1109,7 @@
     dynasty = 20011 
     #dna = amglmaemjid
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 0
     diplomacy = 3
     stewardship = 7
@@ -1130,7 +1130,7 @@
     dynasty = 20011 
     #dna = moobhdbcglo
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 6
     stewardship = 4
@@ -1153,7 +1153,7 @@
     dynasty = 20011 
     #dna = mpffhbljfhi
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 7
     diplomacy = 2
     stewardship = 1
@@ -1176,7 +1176,7 @@
     dynasty = 20085 
     #dna = mljbjancibf
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 6
     stewardship = 6
@@ -1197,7 +1197,7 @@
     dynasty = 20063 
     #dna = imeggfpmlih
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 5
     stewardship = 5
@@ -1217,7 +1217,7 @@
     dynasty = 20063 
     #dna = gnjpkojahie
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 3
     stewardship = 8
@@ -1241,7 +1241,7 @@
     dynasty = 20069 
     #dna = ooppeajkakp
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 1
     diplomacy = 2
     stewardship = 6
@@ -1263,7 +1263,7 @@
     dynasty = 20069 
     #dna = kmjomfdeacf
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 6
     diplomacy = 4
     stewardship = 4
@@ -1284,7 +1284,7 @@
     dynasty = 20069 
     #dna = aglebhffhdf
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 6
     stewardship = 0
@@ -1307,7 +1307,7 @@
     dynasty = 20007 
     #dna = bepmoffiijf
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 6
     diplomacy = 1
     stewardship = 2
@@ -1329,7 +1329,7 @@
     dynasty = 20007 
     #dna = fafghfohgbo
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 5
     stewardship = 7
@@ -1354,7 +1354,7 @@
     dynasty = 20007 
     #dna = oclieokgdha
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 2
     stewardship = 2
@@ -1376,7 +1376,7 @@
     dynasty = 20007 
     #dna = ecapbmnkkdl
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 8
     stewardship = 3
@@ -1397,7 +1397,7 @@
     dynasty = 20008 
     #dna = jdfcnediapb
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 5
     stewardship = 1
@@ -1417,7 +1417,7 @@
     dynasty = 20008 
     #dna = aboiofbjlfj
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 5
     stewardship = 6
@@ -1440,7 +1440,7 @@
     dynasty = 20008 
     #dna = mfhnenfigmp
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 6
     diplomacy = 2
     stewardship = 3
@@ -1461,7 +1461,7 @@
     dynasty = 20008 
     #dna = pcaeblppdpo
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 2
     diplomacy = 7
     stewardship = 7
@@ -1482,7 +1482,7 @@
     dynasty = 20008 
     #dna = mamlbihkbjn
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 1
     stewardship = 4
@@ -1503,7 +1503,7 @@
     dynasty = 20006 
     #dna = gbbcebaggmo
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 3
     diplomacy = 2
     stewardship = 4
@@ -1522,7 +1522,7 @@
     dynasty = 20006 
     #dna = iakhlodcikd
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 6
     stewardship = 2
@@ -1545,7 +1545,7 @@
     dynasty = 20006 
     #dna = ffifhllnpjm
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 6
     stewardship = 2
@@ -1568,7 +1568,7 @@
     dynasty = 20009 
     #dna = fpeebbhclef
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 5
     diplomacy = 7
     stewardship = 1
@@ -1590,7 +1590,7 @@
     dynasty = 20009 
     #dna = bihpaaefedc
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 8
     diplomacy = 2
     stewardship = 6
@@ -1610,7 +1610,7 @@
     dynasty = 20009 
     #dna = ffeneklfpnh
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 0
     diplomacy = 3
     stewardship = 7
@@ -1631,7 +1631,7 @@
     dynasty = 20009 
     #dna = bmbgnemgmdj
     culture = stirlander 
-    religion = sigmarite 
+    rite = sigmarite 
     martial = 4
     diplomacy = 6
     stewardship = 5
@@ -1656,7 +1656,7 @@
     female = yes  
     dynasty = 99999158 
     culture = asoborn 
-    religion = taalite 
+    rite = taalite 
     martial = 5
     diplomacy = 6
     stewardship = 7
@@ -1677,7 +1677,7 @@
 natter_001 = { 
     name = Luke 
     culture = stirlander 
-    religion = taalite 
+    rite = taalite 
     6482.4.12 = { birth = yes } 
     6550.1.24 = { death = yes}
 } 

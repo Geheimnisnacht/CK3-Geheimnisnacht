@@ -5,7 +5,7 @@
 sigmar_grandmaster_1 = {
 	name = Liebwin
 	culture = reiklander
-	religion = sigmarite
+	rite = sigmarite
 	
 	martial = 15
 	diplomacy = 3
@@ -31,7 +31,7 @@ sigmar_grandmaster_1 = {
 sigmar_grandmaster_2 = {
 	name = Henry
 	culture = averlander
-	religion = sigmarite
+	rite = sigmarite
 	
 	martial = 15
 	diplomacy = 3
@@ -57,7 +57,7 @@ sigmar_grandmaster_2 = {
 reiklandguard_grandmaster_1 = {
 	name = Hermann
 	culture = reiklander
-	religion = sigmarite
+	rite = sigmarite
 	
 	martial = 15
 	diplomacy = 3
@@ -84,7 +84,7 @@ reiklandguard_grandmaster_1 = {
 morr_grandmaster_1 = {
 	name = Bertram
 	culture = averlander
-	religion = morrian
+	rite = morrian
 	
 	martial = 15
 	diplomacy = 3
@@ -110,7 +110,7 @@ morr_grandmaster_1 = {
 morr_grandmaster_2 = {
 	name = Bertram
 	culture = talabeclander
-	religion = morrian
+	rite = morrian
 	
 	martial = 10
 	diplomacy = 14
@@ -137,7 +137,7 @@ morr_grandmaster_2 = {
 blazing_grandmaster_1 = {
 	name = Adelhard
 	culture = talabeclander
-	religion = myrmidian
+	rite = myrmidian
 	
 	martial = 20
 	diplomacy = 8
@@ -163,7 +163,7 @@ blazing_grandmaster_1 = {
 magritta_grandmaster_1 = {
 	name = Adelhard
 	culture = norteno
-	religion = myrmidian
+	rite = myrmidian
 	
 	martial = 7
 	diplomacy = 12
@@ -189,7 +189,7 @@ magritta_grandmaster_1 = {
 irrana_grandmaster_1 = {
 	name = Adelhard
 	culture = montanese
-	religion = myrmidian
+	rite = myrmidian
 	
 	martial = 5
 	diplomacy = 14
@@ -217,7 +217,7 @@ irrana_grandmaster_1 = {
 ulric_grandmaster_1 = {
 	name = Sigge
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	
 	martial = 15
 	diplomacy = 3
@@ -243,7 +243,7 @@ ulric_grandmaster_1 = {
 ulric_grandmaster_2 = {
 	name = Bjarne
 	culture = middenlander
-	religion = ulrican
+	rite = ulrican
 	
 	martial = 10
 	diplomacy = 14
@@ -271,7 +271,7 @@ ulric_grandmaster_2 = {
 taal_grandmaster_1 = {
 	name = Adelhelm
 	culture = talabeclander
-	religion = taalite
+	rite = taalite
 	
 	martial = 4
 	diplomacy = 19
@@ -297,7 +297,7 @@ taal_grandmaster_1 = {
 taal_grandmaster_2 = {
 	name = Korbinian
 	culture = talabeclander
-	religion = taalite
+	rite = taalite
 	
 	martial = 15
 	diplomacy = 3
@@ -325,7 +325,7 @@ taal_grandmaster_2 = {
 verenan_grandmaster_1 = {
 	name = Walter
 	culture = ostermarker
-	religion = verenan
+	rite = verenan
 	
 	martial = 4
 	diplomacy = 19
@@ -353,7 +353,7 @@ verenan_grandmaster_1 = {
 sollander_grandmaster_2 = {
 	name = Dieter
 	culture = sollander
-	religion = sollian
+	rite = sollian
 	
 	martial = 15
 	diplomacy = 3
@@ -381,7 +381,7 @@ sollander_grandmaster_2 = {
 fisch_grandmaster_2 = {
 	name = Surxit
 	culture = nordlander
-	religion = manannite
+	rite = manannite
 	
 	martial = 15
 	diplomacy = 3
@@ -409,7 +409,7 @@ fisch_grandmaster_2 = {
 bretonnian_grandmaster_1 = {
 	name = Oliver
 	culture = brionnian
-	religion = grail
+	rite = grail
 	
 	martial = 13
 	diplomacy = 7
@@ -435,7 +435,7 @@ bretonnian_grandmaster_1 = {
 bretonnian_grandmaster_2 = {
 	name = Audenin
 	culture = artoin
-	religion = grail
+	rite = grail
 	
 	martial = 16
 	diplomacy = 10
@@ -461,7 +461,7 @@ bretonnian_grandmaster_2 = {
 bretonnian_grandmaster_3 = {
 	name = Heliot
 	culture = queneller
-	religion = grail
+	rite = grail
 	
 	martial = 16
 	diplomacy = 10
@@ -500,7 +500,7 @@ myrmidia_001 = {
 	intrigue = 10
 	stewardship = 15
 	learning = 20
-	religion = myrmidian_eastern
+	rite = myrmidian_eastern
 	culture = remasi
 	trait = just
 	trait = brave
@@ -528,7 +528,7 @@ myrmidia_002 = {
 	intrigue = 10
 	stewardship = 15
 	learning = 20
-	religion = myrmidian_western
+	rite = myrmidian_western
 	culture = magremasi
 	trait = just
 	trait = brave
@@ -555,7 +555,7 @@ myrmidia_100 = {
 	female = yes
 	#dynasty = 39020
 	culture = astur
-	religion = myrmidian
+	rite = myrmidian
 	martial = 6
 	diplomacy = 5
 	stewardship = 3
@@ -583,7 +583,7 @@ myrmidia_100 = {
 shallyan_100 = {
 	name = Celestine
 	culture = couronnean
-	religion = shallyan
+	rite = shallyan
 	
 	female = yes
 	martial = 1
@@ -619,7 +619,7 @@ grail_100 = {
 	#properties = ch0eek00000000
 	
 	culture = carcassonian
-	religion = grail
+	rite = grail
 	disallow_random_traits = yes
 	martial = 10
 	diplomacy = 10

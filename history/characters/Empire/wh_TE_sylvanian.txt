@@ -3,8 +3,8 @@
 	dynasty = 19000
 	dna = 80000_Vashanesh
 	# culture = nehekharan
-	# religion = nehekharan
-	religion = arisen_dead
+	# rite = nehekharan
+	rite = arisen_dead
 	culture = sylvanian
 	martial = 8
 	diplomacy = 2
@@ -33,13 +33,13 @@
 			add_character_flag = has_scripted_appearance
 			set_immortal_age = 35
 		}
-		# religion = cult_of_blood
+		# rite = cult_of_blood
 	}
 	5611.1.1 = {
 		name = Vladimir
 		# culture = gospodar
 		culture = sylvanian # WHG TODO placeholder: Kislev culture 'gospodar' not reimported yet
-		religion = arisen_dead
+		rite = arisen_dead
 	}
 	6271.11.4 = {
 		name = Vlad
@@ -76,7 +76,7 @@
 	#    
 	#} 
 	6510.7.1 = {
-		# religion = carstein
+		# rite = carstein
 	}
 	6551.3.22 = {
 		death = yes
@@ -95,7 +95,7 @@
 # 	dynasty = 19000
 # 	#dna = djjfkljebat
 # 	culture = sylvanian # Placeholder
-# 	religion = carstein
+# 	rite = carstein
 # 	father = 80000
 # 	martial = 1
 # 	diplomacy = 7
@@ -130,7 +130,7 @@
 # 	dynasty = 19000
 # 	#dna = afdkhbibbaf
 # 	culture = sylvanian # Placeholder
-# 	religion = carstein
+# 	rite = carstein
 # 	father = 80000
 # 	martial = 2
 # 	diplomacy = 1
@@ -164,7 +164,7 @@
 # 	dynasty = 19000
 # 	#dna = afdjkiddhar
 # 	culture = sylvanian # Placeholder
-# 	religion = carstein
+# 	rite = carstein
 # 	father = 80000
 # 	martial = 9
 # 	diplomacy = 8
@@ -200,7 +200,7 @@
 # 	dynasty = 19005
 # 	#dna = bjelhcfbcat
 # 	culture = sylvanian # Placeholder
-# 	religion = carstein
+# 	rite = carstein
 # 	martial = 5
 # 	diplomacy = 10
 # 	stewardship = 4
@@ -237,7 +237,7 @@
 # 	dynasty = 19000
 # 	#dna = balghicdbad
 # 	culture = sylvanian # Placeholder
-# 	religion = carstein
+# 	rite = carstein
 # 	father = 80000
 # 	martial = 10
 # 	diplomacy = 2
@@ -279,7 +279,7 @@
 # 	name = Pieter
 # 	dynasty = 19032
 # 	culture = sylvanian # Placeholder
-# 	religion = carstein
+# 	rite = carstein
 # 	martial = 3
 # 	diplomacy = 7
 # 	stewardship = 5
@@ -311,7 +311,7 @@
 # 	name = Johann
 # 	dynasty = 19021
 # 	culture = sylvanian # Placeholder
-# 	religion = carstein
+# 	rite = carstein
 # 	martial = 4
 # 	diplomacy = 8
 # 	stewardship = 9
@@ -345,7 +345,7 @@
 # 	dynasty = 19000
 # 	#dna = ckgkfvlcbaj
 # 	culture = sylvanian # Placeholder
-# 	religion = carstein
+# 	rite = carstein
 # 	father = 80000
 # 	martial = 9
 # 	diplomacy = 7
@@ -394,7 +394,7 @@
 # 	female = yes
 # 	dynasty = 19015
 # 	culture = sylvanian
-# 	religion = carstein
+# 	rite = carstein
 # 	martial = 5
 # 	diplomacy = 10
 # 	stewardship = 10
@@ -418,7 +418,7 @@
 # 	female = yes
 # 	dynasty = 19038
 # 	culture = sylvanian # Placeholder
-# 	religion = carstein
+# 	rite = carstein
 # 	martial = 6
 # 	diplomacy = 7
 # 	stewardship = 9
@@ -450,7 +450,7 @@
 # 	name = Adrian
 # 	dynasty = 19019
 # 	culture = sylvanian
-# 	religion = carstein
+# 	rite = carstein
 # 	martial = 8
 # 	diplomacy = 3
 # 	stewardship = 6
@@ -473,7 +473,7 @@
 # 	name = Grigore
 # 	dynasty = 19011
 # 	culture = sylvanian
-# 	religion = carstein
+# 	rite = carstein
 # 	martial = 7
 # 	diplomacy = 5
 # 	stewardship = 9
@@ -499,7 +499,7 @@
 # 	female = yes
 # 	dynasty = 19002
 # 	culture = sylvanian
-# 	religion = carstein
+# 	rite = carstein
 # 	martial = 1
 # 	diplomacy = 9
 # 	stewardship = 8
@@ -534,7 +534,7 @@
 # 	name = Lucian
 # 	dynasty = 19062
 # 	culture = sylvanian
-# 	religion = carstein
+# 	rite = carstein
 # 	martial = 8
 # 	diplomacy = 2
 # 	stewardship = 6
@@ -558,7 +558,7 @@
 # 	name = Gavril
 # 	dynasty = 19067
 # 	culture = sylvanian
-# 	religion = carstein
+# 	rite = carstein
 # 	martial = 9
 # 	diplomacy = 7
 # 	stewardship = 0
@@ -582,7 +582,7 @@
 # 	name = Vilhelm
 # 	dynasty = 19078
 # 	culture = sylvanian
-# 	religion = carstein
+# 	rite = carstein
 # 	martial = 1
 # 	diplomacy = 5
 # 	stewardship = 2
@@ -607,7 +607,7 @@
 # 	name = Florin
 # 	dynasty = 19082
 # 	culture = sylvanian
-# 	religion = carstein
+# 	rite = carstein
 # 	martial = 4
 # 	diplomacy = 7
 # 	stewardship = 2
@@ -631,7 +631,7 @@
 # 	name = Iuga
 # 	dynasty = 19044
 # 	culture = sylvanian
-# 	religion = carstein
+# 	rite = carstein
 # 	martial = 3
 # 	diplomacy = 10
 # 	stewardship = 1
@@ -655,7 +655,7 @@
 # 	female = yes
 # 	dynasty = 19091
 # 	culture = sylvanian
-# 	religion = carstein
+# 	rite = carstein
 # 	martial = 0
 # 	diplomacy = 1
 # 	stewardship = 7
@@ -682,7 +682,7 @@
 # 	dynasty = 19111
 # 	#dna = bedhmboahkn
 # 	culture = sylvanian # Placeholder
-# 	religion = carstein
+# 	rite = carstein
 # 	martial = 5
 # 	diplomacy = 6
 # 	stewardship = 5
@@ -709,7 +709,7 @@
 # 	dynasty = 19111
 # 	#dna = bedhmboahkn
 # 	culture = sylvanian # Placeholder
-# 	religion = sigmarite
+# 	rite = sigmarite
 # 	martial = 4
 # 	diplomacy = 5
 # 	stewardship = 8
@@ -738,7 +738,7 @@
 # 	dna = 80026_Isabela
 # 	father = 80034
 # 	culture = sylvanian # Placeholder
-# 	religion = carstein
+# 	rite = carstein
 # 	martial = 5
 # 	diplomacy = 6
 # 	stewardship = 4
@@ -775,7 +775,7 @@
 # 	dynasty = 19112
 # 	#dna = jncldchoien
 # 	culture = sylvanian
-# 	religion = sigmarite
+# 	rite = sigmarite
 # 	martial = 3
 # 	diplomacy = 7
 # 	stewardship = 3
@@ -798,7 +798,7 @@
 # 	#dna = bicmgbekfah
 # 	father = 80008
 # 	culture = sylvanian # Placeholder
-# 	religion = sigmarite
+# 	rite = sigmarite
 # 	martial = 7
 # 	diplomacy = 3
 # 	stewardship = 5
@@ -835,7 +835,7 @@
 # 	dynasty = 19113
 # 	#dna = ccnbnilhfbl
 # 	culture = sylvanian # Placeholder
-# 	religion = sigmarite
+# 	rite = sigmarite
 # 	martial = 0
 # 	diplomacy = 7
 # 	stewardship = 4
@@ -860,7 +860,7 @@
 # 	dynasty = 23094
 # 	father = 15015
 # 	culture = sylvanian # Placeholder for Blood Vampire
-# 	religion = carstein
+# 	rite = carstein
 # 	martial = 6
 # 	diplomacy = 5
 # 	stewardship = 3
@@ -885,7 +885,7 @@
 # 	name = Otto
 # 	dynasty = 19003
 # 	culture = sylvanian
-# 	religion = sigmarite
+# 	rite = sigmarite
 # 	martial = 11
 # 	diplomacy = 0
 # 	stewardship = 0
@@ -917,7 +917,7 @@
 # 	name = Leopold
 # 	dynasty = 19003
 # 	culture = sylvanian
-# 	religion = sigmarite
+# 	rite = sigmarite
 # 	father = 80034
 # 	martial = 9
 # 	diplomacy = 4
@@ -948,7 +948,7 @@
 # 	disallow_random_traits = yes
 # 	##easter_egg = yes
 # 	culture = sylvanian
-# 	religion = morrian
+# 	rite = morrian
 # 	martial = 8
 # 	diplomacy = 1
 # 	stewardship = 5
@@ -986,7 +986,7 @@
 # 	disallow_random_traits = yes
 # 	#easter_egg = yes
 # 	culture = sylvanian
-# 	religion = morrian
+# 	rite = morrian
 # 	martial = 8
 # 	diplomacy = 6
 # 	stewardship = 7
@@ -1018,7 +1018,7 @@
 # 	disallow_random_traits = yes
 # 	#easter_egg = yes
 # 	culture = sylvanian
-# 	religion = morrian
+# 	rite = morrian
 # 	father = 80036
 # 	mother = 80040
 # 	6500.7.13 = {
@@ -1037,7 +1037,7 @@
 # 	disallow_random_traits = yes
 # 	#easter_egg = yes
 # 	culture = sylvanian
-# 	religion = morrian
+# 	rite = morrian
 # 	martial = 8
 # 	diplomacy = 8
 # 	stewardship = 8
@@ -1064,7 +1064,7 @@
 # 	disallow_random_traits = yes
 # 	#easter_egg = yes
 # 	culture = sylvanian
-# 	religion = morrian
+# 	rite = morrian
 # 	6475.7.13 = {
 # 		birth = yes
 # 	}
@@ -1083,7 +1083,7 @@
 # 	disallow_random_traits = yes
 # 	#easter_egg = yes
 # 	culture = sylvanian
-# 	religion = morrian
+# 	rite = morrian
 # 	6478.10.21 = {
 # 		birth = yes
 # 	}

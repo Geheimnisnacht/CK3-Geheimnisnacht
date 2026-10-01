@@ -6,7 +6,7 @@
 	diplomacy = 10
 	intrigue = 25
 	stewardship = 4
-	religion = sollian
+	rite = sollian
 	culture = sollander
 	trait = content
 	trait = lazy
