@@ -3,8 +3,8 @@
 	faith_details = {
 		religion = vampire_religion
 		color = { 1.0 0.0 0.0 }
-		icon = "carstein.dds"
-		reformed_icon = "carstein.dds"
+		icon = carstein
+		reformed_icon = carstein
 		graphical_faith = "pagan_gfx"
 	}
 
@@ -15,14 +15,8 @@
 	# holy_sites = {
 
 	# }
-	tenets = {
-		tenet_vampires
-		tenet_blood_dragon
-		tenet_blood_knights
-	}
+	# Tenets are defined on the scripted main rite.
 
-	doctrines = {
-		necromantic_hostility_doctrine
-	}
+	# Doctrines are defined on the scripted main rite.
 
 }

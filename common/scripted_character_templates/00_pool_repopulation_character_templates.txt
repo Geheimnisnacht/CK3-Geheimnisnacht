@@ -755,7 +755,7 @@ pool_repopulate_learning = {
 		if = {
 			limit = {
 				faith = {
-					has_doctrine = tenet_monasticism
+					has_doctrine = doctrine_monasticism_encouraged
 				}
 			}
 			random_list = {
@@ -1045,7 +1045,7 @@ pool_repopulate_local_flavor = {
 					culture = culture:sylvanian
 				}
 			}
-			set_character_faith = faith:arisen_dead
+			set_character_rite = rite:arisen_dead
 		}
 		else_if = {
 			limit = {
@@ -1054,11 +1054,11 @@ pool_repopulate_local_flavor = {
 			}
 			random_list = {
 				 5 = {
-					set_character_faith = faith:grail #WHG
+					set_character_rite = rite:grail #WHG
 					add_trait = cavalry_leader
 				}
 				80 = {
-					set_character_faith = faith:grail #WHG
+					set_character_rite = rite:grail #WHG
 				}
 			}
 		}
@@ -1127,7 +1127,7 @@ pool_repopulate_local_flavor = {
 				150 = {
 					trigger = {
 						faith = {
-							has_doctrine = tenet_warmonger
+							has_tenet = tenet_warmonger
 						}
 						OR = {
 							culture ?= { has_cultural_pillar = heritage_norscan } #WHG TODO

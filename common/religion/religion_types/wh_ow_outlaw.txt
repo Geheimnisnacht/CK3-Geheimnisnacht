@@ -1,5 +1,9 @@
 ﻿outlaw_pantheon_religion = {
-	family = rf_order
+	religion_details = {
+		family = rf_order
+	}
+
+	
 	
 	doctrine = order_hostility_doctrine
 	
@@ -45,6 +49,11 @@
 	#Coronation tradition
 	doctrine = doctrine_imperial_anointment
 
+	# CK3 1.20 defaults; individual rites can override these.
+	doctrine = doctrine_monasticism_absent
+	doctrine = doctrine_sacraments_absent
+	doctrine = doctrine_mythic_literary
+
 	traits = {
 		virtues = {
 			greedy = { weight = 30 scale = 1 }
@@ -59,9 +68,7 @@
 		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 ibadi_custom muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1
 	}
 
-	holy_order_names = {
-		{ name = "" }
-	}
+	# No custom military-order names are defined for this religion yet.
 
 	#holy_order_maa = { order_knights }
 
@@ -77,8 +84,8 @@
 		HighGodNameAlternatePossessive = ranaldian_high_god_name_alternative_possessive
 
 		#Creator
-		CreatorName = placeholder_key
-		CreatorNamePossessive = placeholder_key
+		CreatorName = ranaldian_high_god_name
+		CreatorNamePossessive = ranaldian_high_god_name_possessive
 		CreatorSheHe = CHARACTER_SHEHE_SHE
 		CreatorHerHis = CHARACTER_HERHIS_HER
 		CreatorHerHim = CHARACTER_HERHIM_HER
@@ -91,8 +98,8 @@
 		HealthGodHerHim = CHARACTER_HERHIM_HER
 		
 		#FertilityGod
-		FertilityGodName = placeholder_key
-		FertilityGodNamePossessive = placeholder_key
+		FertilityGodName = outlaw_pantheon_fertility_god
+		FertilityGodNamePossessive = outlaw_pantheon_fertility_god_possessive
 		FertilityGodSheHe = CHARACTER_SHEHE_SHE
 		FertilityGodHerHis = CHARACTER_HERHIS_HER
 		FertilityGodHerHim = CHARACTER_HERHIM_HER
@@ -105,8 +112,8 @@
 		WealthGodHerHim = CHARACTER_HERHIM_HIM
 
 		#HouseholdGod
-		HouseholdGodName = placeholder_key
-		HouseholdGodNamePossessive = placeholder_key
+		HouseholdGodName = outlaw_pantheon_household_god
+		HouseholdGodNamePossessive = outlaw_pantheon_household_god_possessive
 		HouseholdGodSheHe = CHARACTER_SHEHE_SHE
 		HouseholdGodHerHis = CHARACTER_HERHIS_HER
 		HouseholdGodHerHim = CHARACTER_HERHIM_HER
@@ -126,8 +133,8 @@
 		KnowledgeGodHerHim = CHARACTER_HERHIM_HER
 
 		#WarGod
-		WarGodName = placeholder_key
-		WarGodNamePossessive = placeholder_key
+		WarGodName = outlaw_pantheon_war_god
+		WarGodNamePossessive = ranaldian_high_god_name_possessive
 		WarGodSheHe = CHARACTER_SHEHE_HE
 		WarGodHerHis = CHARACTER_HERHIS_HIS
 		WarGodHerHim = CHARACTER_HERHIM_HIM

@@ -1,0 +1,22 @@
+﻿# Starting tenet knowledge for this existing faith. Main-rite core tenets are automatic.
+1.1.1 = {
+	created = yes
+	main_rite = sigmarite
+	known = {
+		tenet_ancestor_worship
+		tenet_communal_identity
+		tenet_freedom_of_the_sky
+		tenet_hedonistic
+		tenet_human_sacrifice
+		tenet_mystical_birthright
+		tenet_pacifism
+		tenet_pastoral_isolation
+		tenet_religious_legal_pronouncements
+		tenet_ritual_celebrations
+		tenet_sanctity_of_nature
+		tenet_sun_worship
+		tenet_unrelenting_faith
+		tenet_vampires
+		tenet_warmonger
+	}
+}

@@ -1,0 +1,14 @@
+﻿# CK3 1.20 groups for existing Warhammer doctrines.
+wh_old_world_tolerance = {
+	category = special
+	is_available_on_create = { always = no }
+}
+
+wh_raiding = {
+	category = special
+	is_available_on_create = { has_doctrine = raiding_doctrine }
+}
+
+wh_cult_values = {
+	category = special
+}

@@ -81,7 +81,7 @@ wh_bretonnia_errantry_quest_pulse = {
 		highest_held_title_tier >= tier_county
 		is_landed = yes
 		NOT = { has_global_variable = wh_errantry_quest_grace_period }
-		faith = { has_doctrine = tenet_knightly_virtues }
+		rite = { rite_has_tenet = tenet_knightly_virtues }
 	}
 	events = {
 		wh_bretonnia_errantry_quest.0001

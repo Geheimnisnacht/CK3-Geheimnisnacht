@@ -9412,13 +9412,13 @@ ep3_missionary_effect = {
 		limit = {
 			$PREACHER$.faith = {
 				OR = {
-					has_doctrine = tenet_gnosticism
+					has_tenet = tenet_gnosticism
 					has_doctrine = special_doctrine_is_gnostic_faith
 				}
 			}
 			$LOCATION$.religion = {
 				any_faith = {
-					has_doctrine = tenet_gnosticism
+					has_tenet = tenet_gnosticism
 				}
 			}
 		}
@@ -9427,7 +9427,7 @@ ep3_missionary_effect = {
 				random_faith = {
 					limit = {
 						OR = {
-							has_doctrine = tenet_gnosticism
+							has_tenet = tenet_gnosticism
 							has_doctrine = special_doctrine_is_gnostic_faith
 						}
 					}

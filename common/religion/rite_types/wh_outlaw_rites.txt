@@ -3,7 +3,7 @@
 	desc = stromfels_desc
 	faith = outlaw
 	color = { 0.4 0.4 0.5 }
-	icon = "stormfels.dds"
+	icon = stormfels
 	
 	
 	tenets = {
@@ -45,7 +45,7 @@ ranaldian = {
 	desc = ranaldian_desc
 	faith = outlaw
 	color = { 0.4 0.4 1.0 }
-	icon = "ranald.dds"
+	icon = ranald
 	
 	
 	
@@ -79,7 +79,7 @@ ranaldian_givers_coin = {
 	desc = ranaldian_givers_coin_desc
 	faith = outlaw
 	color = { 0.4 0.4 1.0 }
-	icon = "ranald.dds"
+	icon = ranald
 	
 	#Magic
 	#doctrine_lore_ranald

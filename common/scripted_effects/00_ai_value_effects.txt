@@ -512,7 +512,7 @@ ai_chance_to_become_conqueror_effect = {
 				}
 				if = {
 					limit = {
-						faith = { has_doctrine = tenet_warmonger }
+						faith = { has_tenet = tenet_warmonger }
 					}
 					add = 0.25
 				}

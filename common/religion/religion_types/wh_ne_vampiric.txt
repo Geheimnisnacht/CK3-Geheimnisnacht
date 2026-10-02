@@ -46,6 +46,11 @@
     doctrine = doctrine_no_anointment
 	
 
+	# CK3 1.20 defaults; individual rites can override these.
+	doctrine = doctrine_monasticism_absent
+	doctrine = doctrine_sacraments_absent
+	doctrine = doctrine_mythic_literary
+
 	traits = {
 		virtues = {
 			arrogant = { weight = 30 scale = 1 }
@@ -64,9 +69,7 @@
 		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 ibadi_custom muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1
 	}
 
-	holy_order_names = {
-		{ name = "" }
-	}
+	# No custom military-order names are defined for this religion yet.
 	
 	#holy_order_maa = { vampire_knights }
 	
@@ -179,43 +182,43 @@
 		PantheonTerm = vampire_pantheon 
 		PantheonTermHasHave = pantheon_term_have 
 		GoodGodNames = {
-			placeholder_key
+			vampiric_high_god_name
 		}
 		EvilGodNames = {
-			placeholder_key
+			wh_religion_hostile_powers
 		}
 		HouseOfWorship = vampire_temple
 		HouseOfWorship2 = vampire_temple2
 		HouseOfWorshipPlural = vampire_temple_plural 
-		ReligiousSymbol = placeholder_key
-		ReligiousText = placeholder_key 
-		ReligiousHeadName = placeholder_key 
-		ReligiousHeadTitleName = placeholder_key 
-		DevoteeMale = placeholder_key 
-		DevoteeMalePlural = placeholder_key 
-		DevoteeFemale = placeholder_key 
-		DevoteeFemalePlural = placeholder_key 
-		DevoteeNeuter = placeholder_key 
-		DevoteeNeuterPlural = placeholder_key 
-		PriestMale = placeholder_key 
-		PriestMalePlural = placeholder_key 
-		PriestFemale = placeholder_key 
-		PriestFemalePlural = placeholder_key 
-		PriestNeuter = placeholder_key 
-		PriestNeuterPlural = placeholder_key 
-		AltPriestTermPlural = placeholder_key 
-		BishopMale = placeholder_key 
-		BishopMalePlural = placeholder_key 
-		BishopFemale = placeholder_key 
-		BishopFemalePlural = placeholder_key 
-		BishopNeuter = placeholder_key 
-		BishopNeuterPlural = placeholder_key 
-		DivineRealm = placeholder_key
-		PositiveAfterLife = placeholder_key 
-		NegativeAfterLife = placeholder_key 
+		ReligiousSymbol = wh_religion_symbol
+		ReligiousText = wh_religion_text 
+		ReligiousHeadName = wh_religion_head 
+		ReligiousHeadTitleName = wh_religion_head_title 
+		DevoteeMale = wh_religion_devotee 
+		DevoteeMalePlural = wh_religion_devotees 
+		DevoteeFemale = wh_religion_devotee 
+		DevoteeFemalePlural = wh_religion_devotees 
+		DevoteeNeuter = wh_religion_devotee 
+		DevoteeNeuterPlural = wh_religion_devotees 
+		PriestMale = wh_religion_priest 
+		PriestMalePlural = wh_religion_priests 
+		PriestFemale = wh_religion_priestess 
+		PriestFemalePlural = wh_religion_priestesses 
+		PriestNeuter = wh_religion_priest 
+		PriestNeuterPlural = wh_religion_priests 
+		AltPriestTermPlural = wh_religion_clergy 
+		BishopMale = wh_religion_bishop 
+		BishopMalePlural = wh_religion_bishops 
+		BishopFemale = wh_religion_bishop_female 
+		BishopFemalePlural = wh_religion_bishops_female 
+		BishopNeuter = wh_religion_bishop 
+		BishopNeuterPlural = wh_religion_bishops 
+		DivineRealm = wh_religion_divine_realm
+		PositiveAfterLife = wh_religion_positive_afterlife 
+		NegativeAfterLife = wh_religion_negative_afterlife 
 
 
-		GHWName = placeholder_key 
-		GHWNamePlural = placeholder_key 
+		GHWName = ghw_great_holy_war 
+		GHWNamePlural = ghw_great_holy_wars 
 	}
 }

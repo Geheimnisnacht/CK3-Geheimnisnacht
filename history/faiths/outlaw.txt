@@ -1,0 +1,13 @@
+﻿# Starting tenet knowledge for this existing faith. Main-rite core tenets are automatic.
+1.1.1 = {
+	created = yes
+	main_rite = stromfels
+	known = {
+		tenet_adaptive
+		tenet_aniconism
+		tenet_pursuit_of_power
+		tenet_sacred_shadows
+		tenet_unrelenting_faith
+		tenet_vows_of_poverty
+	}
+}

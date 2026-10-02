@@ -230,7 +230,7 @@ faith_is_aniconic_trigger = {
 	faith = {
 		OR = {
 			#religion = religion:islam_religion #WHG
-			has_doctrine = tenet_aniconism
+			has_tenet = tenet_aniconism
 		}
 	}
 }
@@ -1288,7 +1288,7 @@ fertilitygod_is_active_trigger = {
 can_become_reincarnation_trigger = {
 	save_temporary_scope_as = reincarnated_child
 	faith = {
-		has_doctrine = tenet_reincarnation
+		has_tenet = tenet_reincarnation
 	}
 	any_parent = {
 		is_playable_character = yes
@@ -1704,7 +1704,7 @@ has_tolerant_faith_or_culture_trigger = {
 
 is_open_to_inviting_other_faiths_trigger = {
 	OR = {
-		faith = { has_doctrine = tenet_adaptive }
+		faith = { has_tenet = tenet_adaptive }
 		faith = { has_doctrine = unreformed_faith_doctrine }
 		faith = { has_doctrine = doctrine_pluralism_pluralistic }
 		culture = { has_cultural_tradition = tradition_religion_blending }
@@ -1714,7 +1714,7 @@ is_open_to_inviting_other_faiths_trigger = {
 
 faith_is_open_minded_trigger = {
 	OR = {
-		has_doctrine = tenet_adaptive
+		has_tenet = tenet_adaptive
 		has_doctrine = doctrine_pluralism_pluralistic
 	}
 }

@@ -58,7 +58,7 @@ slaaneshi_kurgan = {
 	desc = slaaneshi_kurgan_desc
 	faith = slaanesh
 	color = { 0.7 0.2 0.8 }
-	icon = "slaneesh-base.dds"
+	icon = slaneesh-base
 
 	#doctrine = 
 
@@ -103,7 +103,7 @@ tzeentchian_kurgan = {
 	desc = tzeentchian_kurgan_desc
 	faith = tzeentch
 	color = { 0.1 0.9 1.0 }
-	icon = "tzeentch-base.dds"
+	icon = tzeentch-base
 
 	#doctrine = 
 
@@ -132,7 +132,7 @@ undivided_kurgan = {
 	desc = undivided_kurgan_desc
 	faith = undivided
 	color = { 51 26 26 }
-	icon = "chaos-undivided.dds"
+	icon = chaos-undivided
 
 	#holy_site = suleng
 	#holy_site = mount_hellspire

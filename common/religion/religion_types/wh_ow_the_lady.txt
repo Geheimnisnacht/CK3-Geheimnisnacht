@@ -1,5 +1,9 @@
 ﻿the_lady_religion = {
-	family = rf_order
+	religion_details = {
+		family = rf_order
+	}
+
+	
 	
 	doctrine = order_hostility_doctrine
 	
@@ -46,6 +50,11 @@
 	doctrine = doctrine_imperial_anointment
 
 
+	# CK3 1.20 defaults; individual rites can override these.
+	doctrine = doctrine_monasticism_absent
+	doctrine = doctrine_sacraments_absent
+	doctrine = doctrine_mythic_literary
+
 	traits = {
 		virtues = {
 			brave = { weight = 30 scale = 1 }
@@ -69,7 +78,7 @@
 	# }
 
 	holy_order_maa = { bret_questing }
-	holy_order_maa = { battle_pilgrims }
+	# Pending unit definition: holy_order_maa = { battle_pilgrims }
 
 	localization = {
 		#HighGod

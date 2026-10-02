@@ -3,8 +3,8 @@
 	faith_details = {
 		religion = outlaw_pantheon_religion
 		color = { 0.4 0.4 0.5 }
-		icon = "stormfels.dds"
-		reformed_icon = "stormfels.dds"
+		icon = stormfels
+		reformed_icon = stormfels
 		graphical_faith = "pagan_gfx"
 	}
 
@@ -17,15 +17,8 @@
 		remas
 	}
 
-	tenets = {
-		tenet_piracy
-		tenet_astrology
-		tenet_human_sacrifice
-	}
+	# Tenets are defined on the scripted main rite.
 
-	doctrines = {
-		special_doctrine_ecumenical_old_world
-		stromfels_doctrine
-	}
+	# Doctrines are defined on the scripted main rite.
 
 }

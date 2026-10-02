@@ -2,9 +2,9 @@
 	main_rite = ormazdic #WHG TODO
 	faith_details = {
 		religion = arabyan_religion
-		color = {  }
-		icon = "placeholder.dds"
-		reformed_icon = "placeholder.dds"
+		color = { 0.8 0.7 0.5 }
+		icon = placeholder
+		reformed_icon = placeholder
 		graphical_faith = "pagan_gfx"
 	}
 
@@ -16,14 +16,8 @@
 
 	# }
 	
-	tenets = {
-		tenet_aniconism
-		tenet_legalism
-		tenet_divine_marriage
-	}
+	# Tenets are defined on the scripted main rite.
 
-	doctrines = {
-		order_hostility_doctrine
-	}
+	# Doctrines are defined on the scripted main rite.
 
 }

@@ -28,7 +28,7 @@ wh_bretonnia_errantry_quest_move_to_host_effect = {
 		limit = {
 			highest_held_title_tier >= tier_county
 			is_landed = yes
-			faith = { has_doctrine = tenet_knightly_virtues }
+			rite = { rite_has_tenet = tenet_knightly_virtues }
 			NOT = { this = scope:wh_errantry_quest_knight }
 			NOT = { scope:wh_errantry_quest_knight.host ?= this }
 			NOT = { scope:wh_errantry_quest_knight.var:wh_errantry_quest_home ?= this }

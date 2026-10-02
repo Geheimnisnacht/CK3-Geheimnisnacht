@@ -3,7 +3,7 @@
 	desc = bloody_grail_desc
 	faith = the_lady
 	color = { 161 48 48 }
-	icon = "bloody_grail.dds"
+	icon = bloody_grail
 	#founder = 
 
 	
@@ -45,7 +45,7 @@ grail = {
 	desc = grail_desc
 	faith = the_lady
 	color = { 0.2 0.7 0.9 }
-	icon = "grail.dds"
+	icon = grail
 	founder = k_cult_of_the_lady
 	
 
@@ -63,11 +63,7 @@ grail = {
 		
 	}
 
-	holy_order_names = {
-		{ name = "holy_order_lily_knights" coat_of_arms = "ho_lily_knights" }
-		{ name = "holy_order_lady_knights" coat_of_arms = "ho_lady_knights" }
-		{ name = "holy_order_lambard_knights" coat_of_arms = "ho_lambard_knights" }
-	}
+	# Military-order names are configured on the parent faith.
 	
 }
 fey_grail = {
@@ -75,7 +71,7 @@ fey_grail = {
 	desc = fey_grail_desc
 	faith = the_lady
 	color = { 0 90 40 }
-	icon = "fey_grail.dds"
+	icon = fey_grail
 	founder = k_cult_of_the_lady
 
 		
@@ -99,7 +95,7 @@ mousillonite_grail = { #think that Landuin should have been First king
 	desc = mousillonite_grail_desc
 	faith = the_lady	
 	color = { 15 90 120 }
-	icon = "mousion_grail.dds"
+	icon = mousion_grail
 
 		
 	
@@ -120,7 +116,7 @@ waves_grail = { #Coastal Grail, mostly centered on Bordeleaux
 	desc = waves_grai_desc
 	faith = the_lady
 	color = { 15 95 205 }
-	icon = "lady_of_waves.dds"
+	icon = lady_of_waves
 	founder = k_cult_of_the_lady
 
 	
@@ -154,7 +150,7 @@ merry_grail = { #Herrimault Grail
 	desc = merry_grail_desc
 	faith = the_lady
 	color = { 85 190 205 }
-	icon = "merry_grail.dds"
+	icon = merry_grail
 	founder = k_faceless
 
 	
@@ -182,7 +178,7 @@ shallyan_grail = { #Believe that Shallya and the Lady are the same God
 	desc = shallyan_grail_desc
 	faith = the_lady
 	color = { 130 200 230 }
-	icon = "shalya_grail.dds"
+	icon = shalya_grail
 	founder = k_cult_of_shallya
 	
 	

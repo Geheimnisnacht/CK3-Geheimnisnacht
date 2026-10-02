@@ -1,6 +1,7 @@
 ﻿
 
 tenet_piracy = {
+	icon = tenet_warmonger
 
 
 	piety_cost = {
@@ -16,7 +17,7 @@ tenet_piracy = {
 
 		# Multiplier for keeping same tenet
 		if = {
-			limit = { has_doctrine = tenet_piracy }
+			limit = { rite_has_tenet = tenet_piracy }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 	}
@@ -36,28 +37,32 @@ tenet_piracy = {
 	}
 	
 	traits = {
-		virtues = { greedy viking }
-		sins = {}
+		virtues = {
+			greedy = { weight = 20 scale = 1 }
+			viking = { weight = 20 scale = 1 }
+		}
+		sins = {
+		}
 	}
 }
 
 tenet_cold_blooded_killers = {
-	icon = core_tenet_assassin
+	icon = tenet_assassin
 
 	can_pick = {
 		custom_description = {
 			text = incompatible_tenet_pacifism_trigger
-			NOT = { doctrine:tenet_pacifism = { is_in_list = selected_doctrines } }
+			NOT = { tenet:tenet_pacifism = { is_in_list = selected_doctrines } }
 		}
 		custom_description = {
 			text = fedayeen_required_doctrines_trigger
 			OR = {
-				doctrine:tenet_warmonger = { is_in_list = selected_doctrines }
-				doctrine:tenet_unrelenting_faith = { is_in_list = selected_doctrines }
-				doctrine:tenet_consolamentum = { is_in_list = selected_doctrines }
-				doctrine:tenet_armed_pilgrimages = { is_in_list = selected_doctrines }
-				doctrine:tenet_struggle_submission = { is_in_list = selected_doctrines } 
-				doctrine:tenet_pursuit_of_power = { is_in_list = selected_doctrines }
+				tenet:tenet_warmonger = { is_in_list = selected_doctrines }
+				tenet:tenet_unrelenting_faith = { is_in_list = selected_doctrines }
+				tenet:tenet_consolamentum = { is_in_list = selected_doctrines }
+				tenet:tenet_armed_pilgrimages = { is_in_list = selected_doctrines }
+				tenet:tenet_struggle_submission = { is_in_list = selected_doctrines } 
+				tenet:tenet_pursuit_of_power = { is_in_list = selected_doctrines }
 			}
 		}
 	}
@@ -66,9 +71,9 @@ tenet_cold_blooded_killers = {
 		if = {
 			limit = {
 				OR = {
-					has_doctrine = tenet_warmonger
-					has_doctrine = tenet_unrelenting_faith
-					has_doctrine = tenet_consolamentum
+					rite_has_tenet = tenet_warmonger
+					rite_has_tenet = tenet_unrelenting_faith
+					rite_has_tenet = tenet_consolamentum
 				}
 			}
 			value = faith_tenet_cost_low
@@ -79,14 +84,14 @@ tenet_cold_blooded_killers = {
 
 		# Multiplier for keeping same tenet
 		if = {
-			limit = { has_doctrine = tenet_cold_blooded_killers }
+			limit = { rite_has_tenet = tenet_cold_blooded_killers }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 	}
 
 	parameters = {
-		master_assassin_court_position_unlocked = yes 
-		sanctioned_assassinations = yes 
+		master_assassin_court_position_unlocked
+		sanctioned_assassinations
 	}
 
 	character_modifier = {
@@ -96,8 +101,12 @@ tenet_cold_blooded_killers = {
 	}
 
 	traits = {
-		virtues = { vengeful = 1 }
-		sins = { craven = 1 }
+		virtues = {
+			vengeful = { weight = 20 scale = 1 }
+		}
+		sins = {
+			craven = { weight = 20 scale = 1 }
+		}
 	}
 }
 
@@ -112,6 +121,7 @@ tenet_cold_blooded_killers = {
 #############################
 
 tenet_hashut = {
+	icon = tenet_pursuit_of_power
 	is_shown = {
 		always = no
 	}
@@ -131,14 +141,10 @@ tenet_hashut = {
 		}
 
 		# Multiplier for keeping same tenet
-		if = {
-		#	limit = { has_doctrine = tenets }
-		#	multiply = faith_unchanged_doctrine_cost_mult
-		}
+		# Removed empty legacy cost branch.
 	}
 
 	parameters = {
-
 	}
 
 	character_modifier = {
@@ -146,12 +152,15 @@ tenet_hashut = {
 	}
 
 	traits = {
-		virtues = {}
-		sins = {}
+		virtues = {
+		}
+		sins = {
+		}
 	}
 }
 
 tenet_horned_rat = {
+	icon = tenet_sacred_shadows
 	is_shown = {
 		always = no
 	}
@@ -185,12 +194,17 @@ tenet_horned_rat = {
 	}
 
 	traits = {
-		virtues = { brave = 2}
-		sins = { craven = 2}
+		virtues = {
+			brave = { weight = 20 scale = 2 }
+		}
+		sins = {
+			craven = { weight = 20 scale = 2 }
+		}
 	}
 }
 
-tenet_khorne = { #Blood and Skulls
+tenet_khorne = {
+	icon = tenet_human_sacrifice #Blood and Skulls
 	is_shown = {
 		always = no
 	}
@@ -217,7 +231,7 @@ tenet_khorne = { #Blood and Skulls
 	}
 
 	parameters = {
-		tenets_active = yes
+		tenets_active
 	}
 
 	character_modifier = {
@@ -225,12 +239,17 @@ tenet_khorne = { #Blood and Skulls
 	}
 
 	traits = {
-		virtues = { brave = 2}
-		sins = { craven = 2}
+		virtues = {
+			brave = { weight = 20 scale = 2 }
+		}
+		sins = {
+			craven = { weight = 20 scale = 2 }
+		}
 	}
 }
 
-tenet_nurgle = { #Filth and Decay
+tenet_nurgle = {
+	icon = tenet_asceticism #Filth and Decay
 	is_shown = {
 		always = no
 	}
@@ -257,7 +276,7 @@ tenet_nurgle = { #Filth and Decay
 	}
 
 	parameters = {
-		tenets_active = yes
+		tenets_active
 	}
 
 	character_modifier = {
@@ -265,12 +284,17 @@ tenet_nurgle = { #Filth and Decay
 	}
 
 	traits = {
-		virtues = { brave = 2}
-		sins = { craven = 2}
+		virtues = {
+			brave = { weight = 20 scale = 2 }
+		}
+		sins = {
+			craven = { weight = 20 scale = 2 }
+		}
 	}
 }
 
-tenet_slaanesh = { #Pleasure and Pain
+tenet_slaanesh = {
+	icon = tenet_carnal_exaltation #Pleasure and Pain
 	is_shown = {
 		always = no
 	}
@@ -297,7 +321,7 @@ tenet_slaanesh = { #Pleasure and Pain
 	}
 
 	parameters = {
-		tenets_active = yes
+		tenets_active
 	}
 
 	character_modifier = {
@@ -305,12 +329,17 @@ tenet_slaanesh = { #Pleasure and Pain
 	}
 
 	traits = {
-		virtues = { brave = 2}
-		sins = { craven = 2}
+		virtues = {
+			brave = { weight = 20 scale = 2 }
+		}
+		sins = {
+			craven = { weight = 20 scale = 2 }
+		}
 	}
 }
 
-tenet_tzeentch = { #Knowledge and Change
+tenet_tzeentch = {
+	icon = tenet_esotericism #Knowledge and Change
 	is_shown = {
 		always = no
 	}
@@ -337,7 +366,7 @@ tenet_tzeentch = { #Knowledge and Change
 	}
 
 	parameters = {
-		tenets_active = yes
+		tenets_active
 	}
 
 	character_modifier = {
@@ -345,12 +374,17 @@ tenet_tzeentch = { #Knowledge and Change
 	}
 
 	traits = {
-		virtues = { brave = 2}
-		sins = { craven = 2}
+		virtues = {
+			brave = { weight = 20 scale = 2 }
+		}
+		sins = {
+			craven = { weight = 20 scale = 2 }
+		}
 	}
 }
 
-tenet_undivided = { #Knowledge and Change
+tenet_undivided = {
+	icon = tenet_warmonger #Knowledge and Change
 	is_shown = {
 		always = no
 	}
@@ -377,7 +411,7 @@ tenet_undivided = { #Knowledge and Change
 	}
 
 	parameters = {
-		tenets_active = yes
+		tenets_active
 	}
 
 	character_modifier = {
@@ -385,8 +419,12 @@ tenet_undivided = { #Knowledge and Change
 	}
 
 	traits = {
-		virtues = { brave = 2}
-		sins = { craven = 2}
+		virtues = {
+			brave = { weight = 20 scale = 2 }
+		}
+		sins = {
+			craven = { weight = 20 scale = 2 }
+		}
 	}
 }
 
@@ -403,6 +441,7 @@ tenet_undivided = { #Knowledge and Change
 
 
 tenet_vampires = {
+	icon = tenet_human_sacrifice
 	is_shown = {
 		religion_tag = vampire_religion
 	}
@@ -423,20 +462,28 @@ tenet_vampires = {
 
 		# Multiplier for keeping same tenet
 		if = {
-			limit = { has_doctrine = tenet_vampires }
+			limit = { rite_has_tenet = tenet_vampires }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 	}
 
 	parameters = {
-		tenet_vampires_resistance = yes
-		increased_dynasty_prestige_long_reign_mult = 0.5
-		short_reign_duration_mult = 0.25
-		hostility_override_tenet_vampires = 1
+		tenet_vampires_resistance
 	}
 
 	traits = {
-		virtues = { ambitious }
+		virtues = {
+			ambitious = { weight = 20 scale = 1 }
+		}
+	}
+	character_modifier = {
+		short_reign_duration_mult = 0.25
+	}
+	special_parameters = {
+		increased_dynasty_prestige_long_reign_mult = 0.5
+		hostility_level_override = {
+			tenet_vampires = astray
+		}
 	}
 }
 
@@ -445,6 +492,7 @@ tenet_vampires = {
 
 
 tenet_carstein = {
+	icon = tenet_pursuit_of_power
 	is_shown = {
 		religion_tag = vampire_religion
 	}
@@ -465,22 +513,26 @@ tenet_carstein = {
 
 		# Multiplier for keeping same tenet
 		if = {
-			limit = { has_doctrine = tenet_carstein }
+			limit = { rite_has_tenet = tenet_carstein }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 	}
 
 	parameters = {
-		carstein_conversion_active = yes
+		carstein_conversion_active
 	}
 
 	traits = {
-		virtues = { ambitious }
-		sins = {}
+		virtues = {
+			ambitious = { weight = 20 scale = 1 }
+		}
+		sins = {
+		}
 	}
 }
 
 tenet_blood_dragon = {
+	icon = tenet_unrelenting_faith
 	is_shown = {
 		religion_tag = vampire_religion
 	}
@@ -501,13 +553,13 @@ tenet_blood_dragon = {
 
 		# Multiplier for keeping same tenet
 		if = {
-			limit = { has_doctrine = tenet_blood_dragon }
+			limit = { rite_has_tenet = tenet_blood_dragon }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 	}
 
 	parameters = {
-		cheaper_holy_wars_active = yes
+		cheaper_holy_wars_active
 	}
 
 	character_modifier = {
@@ -515,12 +567,17 @@ tenet_blood_dragon = {
 	}
 
 	traits = {
-		virtues = { brave }
-		sins = { craven }
+		virtues = {
+			brave = { weight = 20 scale = 1 }
+		}
+		sins = {
+			craven = { weight = 20 scale = 1 }
+		}
 	}
 }
 
 tenet_lahmian = {
+	icon = tenet_sacred_shadows
 	is_shown = {
 		religion_tag = vampire_religion
 	}
@@ -541,14 +598,14 @@ tenet_lahmian = {
 
 		# Multiplier for keeping same tenet
 		if = {
-			limit = { has_doctrine = tenet_lahmian }
+			limit = { rite_has_tenet = tenet_lahmian }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 	}
 
 	parameters = {
-		piety_gain_from_successful_intrigue_schemes = yes
-		adherents_more_likely_to_join_schemes = yes
+		piety_gain_from_successful_intrigue_schemes
+		adherents_more_likely_to_join_schemes
 	}
 
 	character_modifier = {
@@ -556,12 +613,19 @@ tenet_lahmian = {
 	}
 
 	traits = {
-		virtues = { lustful gregarious }
-		sins = { chaste shy }
+		virtues = {
+			lustful = { weight = 20 scale = 1 }
+			gregarious = { weight = 20 scale = 1 }
+		}
+		sins = {
+			chaste = { weight = 20 scale = 1 }
+			shy = { weight = 20 scale = 1 }
+		}
 	}
 }
 
 tenet_strigoi = {
+	icon = tenet_sanctity_of_nature
 	is_shown = {
 		religion_tag = vampire_religion
 	}
@@ -582,7 +646,7 @@ tenet_strigoi = {
 
 		# Multiplier for keeping same tenet
 		if = {
-			limit = { has_doctrine = tenet_strigoi }
+			limit = { rite_has_tenet = tenet_strigoi }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 	}
@@ -598,12 +662,17 @@ tenet_strigoi = {
 	}
 
 	traits = {
-		virtues = { just }
-		sins = { arbitrary }
+		virtues = {
+			just = { weight = 20 scale = 1 }
+		}
+		sins = {
+			arbitrary = { weight = 20 scale = 1 }
+		}
 	}
 }
 
 tenet_necrarch = {
+	icon = tenet_esotericism
 	is_shown = {
 		religion_tag = vampire_religion
 	}
@@ -624,7 +693,7 @@ tenet_necrarch = {
 
 		# Multiplier for keeping same tenet
 		if = {
-			limit = { has_doctrine = tenet_necrarch }
+			limit = { rite_has_tenet = tenet_necrarch }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 	}
@@ -636,16 +705,21 @@ tenet_necrarch = {
 	}
 
 	traits = {
-		virtues = { paranoid }
-		sins = { trusting }
+		virtues = {
+			paranoid = { weight = 20 scale = 1 }
+		}
+		sins = {
+			trusting = { weight = 20 scale = 1 }
+		}
 	}
 }
 
 tenet_jade = {
+	icon = tenet_esotericism
 	is_shown = {
 		OR = {
 			religion_tag = vampire_religion
-			religion_tag = cathay_religion
+			# Pending religion definition: religion_tag = cathay_religion
 		}
 	}
 	can_pick = {
@@ -665,22 +739,23 @@ tenet_jade = {
 
 		# Multiplier for keeping same tenet
 		if = {
-			limit = { has_doctrine = tenet_jade }
+			limit = { rite_has_tenet = tenet_jade }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 	}
 
 	traits = {
-		virtues = { 
-			lifestyle_mystic 
-			education_learning_3
-			education_learning_4
-			scholar 
+		virtues = {
+			lifestyle_mystic = { weight = 20 scale = 1 }
+			education_learning_3 = { weight = 20 scale = 1 }
+			education_learning_4 = { weight = 20 scale = 1 }
+			scholar = { weight = 20 scale = 1 }
 		}
 	}
 }
 
 tenet_mahtmasi = {
+	icon = tenet_hedonistic
 	is_shown = {
 		religion_tag = vampire_religion
 	}
@@ -701,7 +776,7 @@ tenet_mahtmasi = {
 
 		# Multiplier for keeping same tenet
 		if = {
-			limit = { has_doctrine = tenet_mahtmasi }
+			limit = { rite_has_tenet = tenet_mahtmasi }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 	}
@@ -717,8 +792,12 @@ tenet_mahtmasi = {
 	}
 
 	traits = {
-		virtues = { gluttonous }
-		sins = { temperate }
+		virtues = {
+			gluttonous = { weight = 20 scale = 1 }
+		}
+		sins = {
+			temperate = { weight = 20 scale = 1 }
+		}
 	}
 }
 
@@ -727,6 +806,7 @@ tenet_mahtmasi = {
 #############################
 
 tenet_midnight_aristocracy = {
+	icon = tenet_legalism
 	is_shown = {
 		religion_tag = vampire_religion
 	}
@@ -747,7 +827,7 @@ tenet_midnight_aristocracy = {
 
 		# Multiplier for keeping same tenet
 		if = {
-			limit = { has_doctrine = tenet_midnight_aristocracy }
+			limit = { rite_has_tenet = tenet_midnight_aristocracy }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 	}
@@ -758,12 +838,19 @@ tenet_midnight_aristocracy = {
 	}
 
 	traits = {
-		virtues = { calm just }
-		sins = { arbitrary sadistic }
+		virtues = {
+			calm = { weight = 20 scale = 1 }
+			just = { weight = 20 scale = 1 }
+		}
+		sins = {
+			arbitrary = { weight = 20 scale = 1 }
+			sadistic = { weight = 20 scale = 1 }
+		}
 	}
 }
 
 tenet_blood_knights = {
+	icon = tenet_warmonger
 	is_shown = {
 		religion_tag = vampire_religion
 	}
@@ -784,23 +871,30 @@ tenet_blood_knights = {
 
 		# Multiplier for keeping same tenet
 		if = {
-			limit = { has_doctrine = tenet_blood_knights }
+			limit = { rite_has_tenet = tenet_blood_knights }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 	}
 
 	parameters = {
-		clergy_can_fight = yes
-		warmonger = yes
+		clergy_can_fight
+		warmonger
 	}
 
 	traits = {
-		virtues = { lifestyle_blademaster }
-		sins = {}
+		virtues = {
+			lifestyle_blademaster = { weight = 20 scale = 1 }
+		}
+		sins = {
+		}
+	}
+	special_parameters = {
+		warmonger = yes
 	}
 }
 
 tenet_sisterhood = {
+	icon = tenet_sacred_shadows
 	is_shown = {
 		religion_tag = vampire_religion
 	}
@@ -821,7 +915,7 @@ tenet_sisterhood = {
 
 		# Multiplier for keeping same tenet
 		if = {
-			limit = { has_doctrine = tenet_sisterhood }
+			limit = { rite_has_tenet = tenet_sisterhood }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 	}
@@ -832,12 +926,18 @@ tenet_sisterhood = {
 	}
 
 	traits = {
-		virtues = { deceitful callous }
-		sins = { compassionate }
+		virtues = {
+			deceitful = { weight = 20 scale = 1 }
+			callous = { weight = 20 scale = 1 }
+		}
+		sins = {
+			compassionate = { weight = 20 scale = 1 }
+		}
 	}
 }
 
 tenet_lost_kingdom = {
+	icon = tenet_ancestor_worship
 	is_shown = {
 		religion_tag = vampire_religion
 	}
@@ -858,22 +958,32 @@ tenet_lost_kingdom = {
 
 		# Multiplier for keeping same tenet
 		if = {
-			limit = { has_doctrine = tenet_lost_kingdom }
+			limit = { rite_has_tenet = tenet_lost_kingdom }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 	}
 	
 	parameters = {
-		hostility_override_tenet_lost_kingdom = 0
 	}
 	
 	traits = {
-		virtues = { stubborn vengeful }
-		sins = { forgiving }
+		virtues = {
+			stubborn = { weight = 20 scale = 1 }
+			vengeful = { weight = 20 scale = 1 }
+		}
+		sins = {
+			forgiving = { weight = 20 scale = 1 }
+		}
+	}
+	special_parameters = {
+		hostility_level_override = {
+			tenet_lost_kingdom = righteous
+		}
 	}
 }
 
 tenet_loyalty_to_nagash = {
+	icon = tenet_esotericism
 	is_shown = {
 		always = no
 	}
@@ -894,13 +1004,12 @@ tenet_loyalty_to_nagash = {
 
 		# Multiplier for keeping same tenet
 		if = {
-			limit = { has_doctrine = tenet_loyalty_to_nagash }
+			limit = { rite_has_tenet = tenet_loyalty_to_nagash }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 	}
 
 	parameters = {
-		hostility_override_tenet_loyalty_to_nagash = 0
 	}
 
 	character_modifier = {
@@ -909,22 +1018,28 @@ tenet_loyalty_to_nagash = {
 
 	traits = {
 		virtues = {
-			lifestyle_mystic 
-			education_learning_3
-			education_learning_4
-			scholar 
+			lifestyle_mystic = { weight = 20 scale = 1 }
+			education_learning_3 = { weight = 20 scale = 1 }
+			education_learning_4 = { weight = 20 scale = 1 }
+			scholar = { weight = 20 scale = 1 }
 		}
 		sins = {
-			compassionate
+			compassionate = { weight = 20 scale = 1 }
+		}
+	}
+	special_parameters = {
+		hostility_level_override = {
+			tenet_loyalty_to_nagash = righteous
 		}
 	}
 }
 
 tenet_celestial_jade = {
+	icon = tenet_legalism
 	is_shown = {
 		OR = {
 			religion_tag = vampire_religion
-			religion_tag = cathay_religion
+			# Pending religion definition: religion_tag = cathay_religion
 		}
 	}
 	can_pick = {
@@ -944,18 +1059,24 @@ tenet_celestial_jade = {
 
 		# Multiplier for keeping same tenet
 		if = {
-			limit = { has_doctrine = tenet_celestial_jade }
+			limit = { rite_has_tenet = tenet_celestial_jade }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 	}
 
 	traits = {
-		virtues = { just august }
-		sins = { arbitrary }
+		virtues = {
+			just = { weight = 20 scale = 1 }
+			august = { weight = 20 scale = 1 }
+		}
+		sins = {
+			arbitrary = { weight = 20 scale = 1 }
+		}
 	}
 }
 
 tenet_loyalty_to_maatmeses = {
+	icon = tenet_asceticism
 	is_shown = {
 		religion_tag = vampire_religion
 	}
@@ -976,18 +1097,24 @@ tenet_loyalty_to_maatmeses = {
 
 		# Multiplier for keeping same tenet
 		if = {
-			limit = { has_doctrine = tenet_loyalty_to_maatmeses }
+			limit = { rite_has_tenet = tenet_loyalty_to_maatmeses }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 	}
 
 	traits = {
-		virtues = { humble }
-		sins = { greedy arrogant }
+		virtues = {
+			humble = { weight = 20 scale = 1 }
+		}
+		sins = {
+			greedy = { weight = 20 scale = 1 }
+			arrogant = { weight = 20 scale = 1 }
+		}
 	}
 }
 
 tenet_tattered_sails = {
+	icon = tenet_human_sacrifice
 	is_shown = {
 		always = no
 	}
@@ -1008,7 +1135,7 @@ tenet_tattered_sails = {
 
 		# Multiplier for keeping same tenet
 		if = {
-			limit = { has_doctrine = tenet_tattered_sails }
+			limit = { rite_has_tenet = tenet_tattered_sails }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 	}
@@ -1020,8 +1147,13 @@ tenet_tattered_sails = {
 	}
 	
 	traits = {
-		virtues = { sadistic lunatic possessed }
-		sins = {}
+		virtues = {
+			sadistic = { weight = 20 scale = 1 }
+			lunatic = { weight = 20 scale = 1 }
+			possessed = { weight = 20 scale = 1 }
+		}
+		sins = {
+		}
 	}
 }
 
@@ -1034,7 +1166,7 @@ tenet_tattered_sails = {
 #############################
 
 tenet_empowered_knights = {
-	icon = core_tenet_warmonger
+	icon = tenet_unrelenting_faith
 	is_shown = {
 		always = no
 	}
@@ -1055,14 +1187,14 @@ tenet_empowered_knights = {
 
 		# Multiplier for keeping same tenet
 		if = {
-			limit = { has_doctrine = tenet_empowered_knights }
+			limit = { rite_has_tenet = tenet_empowered_knights }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 	}
 
 	parameters = {
-		minimum_prowess_for_knights = yes
-		prowess_from_martial_education = yes
+		minimum_prowess_for_knights
+		prowess_from_martial_education
 	}
 
 	character_modifier = {
@@ -1071,16 +1203,16 @@ tenet_empowered_knights = {
 	}
 
 	traits = {
-		virtues = { 
-			brave
-			education_martial_prowess_3
-			education_martial_prowess_4
+		virtues = {
+			brave = { weight = 20 scale = 1 }
+			education_martial_prowess_3 = { weight = 20 scale = 1 }
+			education_martial_prowess_4 = { weight = 20 scale = 1 }
 		}
 	}
 }
 
 tenet_knightly_virtues = {
-	icon = core_tenet_communion
+	icon = tenet_armed_pilgrimages
 	is_shown = {
 		always = no
 	}
@@ -1101,16 +1233,16 @@ tenet_knightly_virtues = {
 
 		# Multiplier for keeping same tenet
 		if = {
-			limit = { has_doctrine = tenet_knightly_virtues }
+			limit = { rite_has_tenet = tenet_knightly_virtues }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 	}
 
 	parameters = {
-		knightly_virtues_active = yes
-		excommunication_active = yes
-		ghw_no_hof_conversion_buffs_active = yes
-		cannot_marry_lowborns = yes
+		knightly_virtues_active
+		excommunication_active
+		ghw_no_hof_conversion_buffs_active
+		cannot_marry_lowborns
 	}
 
 	character_modifier = {
@@ -1119,14 +1251,14 @@ tenet_knightly_virtues = {
 
 	traits = {
 		virtues = {
-			faith_warrior
-			holy_warrior
+			faith_warrior = { weight = 20 scale = 1 }
+			holy_warrior = { weight = 20 scale = 1 }
 		}
 	}
 }
 
 tenet_freedom_of_the_sky = {
-	icon = core_tenet_sky_burials
+	icon = tenet_sanctity_of_nature
 	is_shown = {
 		always = no
 	}
@@ -1147,7 +1279,7 @@ tenet_freedom_of_the_sky = {
 
 		# Multiplier for keeping same tenet
 		if = {
-			limit = { has_doctrine = tenet_freedom_of_the_sky }
+			limit = { rite_has_tenet = tenet_freedom_of_the_sky }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 	}
@@ -1167,9 +1299,9 @@ tenet_freedom_of_the_sky = {
 	
 	traits = {
 		virtues = {
-			eccentric
-			lifestyle_traveler
-			adventurer
+			eccentric = { weight = 20 scale = 1 }
+			lifestyle_traveler = { weight = 20 scale = 1 }
+			adventurer = { weight = 20 scale = 1 }
 		}
 	}
 }

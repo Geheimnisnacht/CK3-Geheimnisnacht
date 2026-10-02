@@ -3,8 +3,8 @@
 	faith_details = {
 		religion =  slaanesh_religion
 		color = { 0.7 0.2 0.8 }
-		icon = "slaneesh-base.dds"
-		reformed_icon = "slaneesh-base.dds"
+		icon = slaneesh-base
+		reformed_icon = slaneesh-base
 		graphical_faith = "pagan_gfx"
 	}
 
@@ -15,15 +15,9 @@
 	# holy_sites = {
 
 	# }
-	tenets = {
-		tenet_slaanesh
-		tenet_carnal_exaltation
-		tenet_hedonistic
-	}
+	# Tenets are defined on the scripted main rite.
 
-	doctrines = {
-		chaos_hostility_doctrine
-	}
+	# Doctrines are defined on the scripted main rite.
 
 }
 
@@ -33,8 +27,8 @@ khorne = {
 	faith_details = {
 		religion =  khorne_religion
 		color = { 0.6 0.0 0.0 }
-		icon = "khorne-base.dds"
-		reformed_icon = "khorne-base.dds"
+		icon = khorne-base
+		reformed_icon = khorne-base
 		graphical_faith = "pagan_gfx"
 	}
 
@@ -46,15 +40,9 @@ khorne = {
 
 	# }
 	
-	tenets = {
-		tenet_khorne
-		tenet_human_sacrifice
-		tenet_warmonger
-	}
+	# Tenets are defined on the scripted main rite.
 
-	doctrines = {
-		chaos_hostility_doctrine
-	}
+	# Doctrines are defined on the scripted main rite.
 
 }
 
@@ -64,8 +52,8 @@ nurgle = {
 	faith_details = {
 		religion = nurgle_religion
 		color = { 0.7 1.0 0.2 }
-		icon = "nurgle-base.dds"
-		reformed_icon = "nurgle-base.dds"
+		icon = nurgle-base
+		reformed_icon = nurgle-base
 		graphical_faith = "pagan_gfx"
 	}
 
@@ -77,15 +65,9 @@ nurgle = {
 
 	# }
 
-	tenets = {
-		tenet_nurgle
-		tenet_asceticism
-		tenet_ritual_hospitality
-	}
+	# Tenets are defined on the scripted main rite.
 
-	doctrines = {
-		chaos_hostility_doctrine
-	}
+	# Doctrines are defined on the scripted main rite.
 
 }
 
@@ -95,8 +77,8 @@ tzeentch = {
 	faith_details = {
 		religion = tzeentch_religion
 		color = { 0.1 0.9 1.0 }
-		icon = "tzeentch-base.dds"
-		reformed_icon = "tzeentch-base.dds"
+		icon = tzeentch-base
+		reformed_icon = tzeentch-base
 		graphical_faith = "pagan_gfx"
 	}
 
@@ -108,15 +90,9 @@ tzeentch = {
 
 	# }
 	
-	tenets = {	
-		tenet_tzeentch
-		tenet_esotericism
-		tenet_pursuit_of_power
-	}
+	# Tenets are defined on the scripted main rite.
 
-	doctrines = {
-		chaos_hostility_doctrine
-	}
+	# Doctrines are defined on the scripted main rite.
 
 }
 
@@ -126,8 +102,8 @@ undivided = {
 	faith_details = {
 		religion = undivided_religion
 		color = { 51 26 26 }
-		icon = "chaos-undivided.dds"
-		reformed_icon = "chaos-undivided.dds"
+		icon = chaos-undivided
+		reformed_icon = chaos-undivided
 		graphical_faith = "pagan_gfx"
 	}
 
@@ -138,12 +114,8 @@ undivided = {
 	# holy_sites = {
 
 	# }
-	tenets = {
+	# Tenets are defined on the scripted main rite.
 
-	}
-
-	doctrines = {
-		chaos_hostility_doctrine
-	}
+	# Doctrines are defined on the scripted main rite.
 
 }

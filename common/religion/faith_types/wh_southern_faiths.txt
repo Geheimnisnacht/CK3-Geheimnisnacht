@@ -3,8 +3,8 @@
 	faith_details = {
 		religion = southern_pantheon_religion
 		color = { 0.9 0.7 0.0 }
-		icon = "myrmidian.dds"
-		reformed_icon = "myrmidian.dds"
+		icon = myrmidian
+		reformed_icon = myrmidian
 		graphical_faith = "pagan_gfx"
 	}
 
@@ -13,23 +13,21 @@
 	# }
 
 	holy_sites = {
-		holy_site = remas
-		#holy_site = myrmidens
-		holy_site = sartosa_legal
-		holy_site = magritta
-		#holy_site = istrabul
-		holy_site = luccini
+		remas
+		sartosa_legal
+		magritta
+		luccini
 	}
-	tenets = {
-		tenet_unrelenting_faith
-		tenet_armed_pilgrimages
-		tenet_legalism
-	}
+	# Tenets are defined on the scripted main rite.
 
-	doctrines = {
-		doctrine_clerical_function_recruitment 
-		special_doctrine_ecumenical_old_world
-		myrmidian_doctrine
-	}
+	# Doctrines are defined on the scripted main rite.
 
+	holy_order_names = {
+		{ name = "holy_order_morr_knights" coat_of_arms = "ho_morr_knights" }
+		{ name = "holy_order_black_rose_knights" coat_of_arms = "ho_black_rose_knights" }
+		{ name = "holy_order_magritta_knights" coat_of_arms = "ho_magritta_knights" }
+		{ name = "holy_order_blazing_sun_knights" coat_of_arms = "ho_blazing_sun_knights" }
+		{ name = "holy_order_irrana_knights" coat_of_arms = "ho_irrana_knights" }
+		{ name = "holy_order_everlasting_light_knights" coat_of_arms = "ho_everlasting_light_knights" }
+	}
 }

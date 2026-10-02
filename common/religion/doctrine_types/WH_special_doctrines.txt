@@ -1,0 +1,613 @@
+﻿# CK3 1.20 flat doctrine definitions, restored from the mod's existing commented definitions.
+
+special_doctrine_ecumenical_old_world = {
+	doctrine_group_type = wh_old_world_tolerance
+	index = 0
+	special_parameters = {
+		hostility_level_override = {
+			special_doctrine_ecumenical_old_world = righteous
+		}
+	}
+}
+
+raiding_doctrine = {
+	doctrine_group_type = wh_raiding
+	index = 0
+	visible = no
+	parameters = { conquest_cb_enabled }
+}
+
+sigmarite_doctrine = {
+	doctrine_group_type = wh_cult_values
+	index = 1
+	#is_available_on_create = {
+	#	has_doctrine = sigmarite_doctrine
+	#}
+	visible = no
+	special_parameters = {
+		same_hof_hostility_override = righteous
+	}
+	traits = {
+		virtues = {
+			just = { weight = 10 scale = 1 }
+			gregarious = { weight = 10 scale = 1 }
+			flagellant = { weight = 10 scale = 1 }
+		}
+		sins = {
+			arrogant = { weight = 10 scale = 1 }
+			sadistic = { weight = 10 scale = 1 }
+		}
+	}
+}
+
+ulrican_doctrine = {
+	doctrine_group_type = wh_cult_values
+	index = 2
+	# is_available_on_create = {
+	# 	has_doctrine = ulrican_doctrine
+	# }
+	visible = no
+	special_parameters = {
+		same_hof_hostility_override = righteous
+	}
+	traits = {
+		virtues = {
+			wrathful = { weight = 10 scale = 1 }
+			stubborn = { weight = 10 scale = 1 }
+		}
+		sins = {
+			lazy = { weight = 10 scale = 1 }
+			ambitious = { weight = 10 scale = 1 }
+		}
+	}
+}
+
+taalite_doctrine = {
+	doctrine_group_type = wh_cult_values
+	index = 3
+	# is_available_on_create = {
+	# 	has_doctrine = taalite_doctrine
+	# }
+	visible = no
+	special_parameters = {
+		same_hof_hostility_override = righteous
+	}
+	traits = {
+		virtues = {
+			chaste = { weight = 10 scale = 1 }
+			content = { weight = 10 scale = 1 }
+			generous = { weight = 10 scale = 1 }
+		}
+		sins = {
+			greedy = { weight = 10 scale = 1 }
+			lustful = { weight = 10 scale = 1 }
+			sadistic = { weight = 10 scale = 1 }
+		}
+	}
+}
+
+manannite_doctrine = {
+	doctrine_group_type = wh_cult_values
+	index = 4
+	# is_available_on_create = {
+	# 	has_doctrine = manannite_doctrine
+	# }
+	visible = no
+	special_parameters = {
+		same_hof_hostility_override = righteous
+	}
+	traits = {
+		virtues = {
+			generous = { weight = 10 scale = 1 }
+			patient = { weight = 10 scale = 1 }
+			temperate = { weight = 10 scale = 1 }
+		}
+		sins = {
+			greedy = { weight = 10 scale = 1 }
+			impatient = { weight = 10 scale = 1 }
+			gluttonous = { weight = 10 scale = 1 }
+		}
+	}
+}
+
+handrichan_doctrine = {
+	doctrine_group_type = wh_cult_values
+	index = 5
+	# is_available_on_create = {
+	# 	has_doctrine = handrichan_doctrine
+	# }
+	visible = no
+	special_parameters = {
+		same_hof_hostility_override = righteous
+	}
+	traits = {
+		virtues = {
+			greedy = { weight = 10 scale = 2 }
+			calm = { weight = 10 scale = 1 }
+			honest = { weight = 10 scale = 1 }
+		}
+		sins = {
+			deceitful = { weight = 10 scale = 1 }
+			arbitrary = { weight = 10 scale = 1 }
+		}
+	}
+}
+
+sollian_doctrine = {
+	doctrine_group_type = wh_cult_values
+	index = 6
+	# is_available_on_create = {
+	# 	has_doctrine = sollian_doctrine
+	# }
+	visible = no
+	special_parameters = {
+		same_hof_hostility_override = righteous
+	}
+	traits = {
+		virtues = {
+			just = { weight = 10 scale = 1 }
+			stubborn = { weight = 10 scale = 1 }
+			generous = { weight = 10 scale = 1 }
+		}
+		sins = {
+			arbitrary = { weight = 10 scale = 1 }
+			lazy = { weight = 10 scale = 1 }
+			wrathful = { weight = 10 scale = 1 }
+		}
+	}
+}
+
+luposan_doctrine = {
+	doctrine_group_type = wh_cult_values
+	index = 7
+	# is_available_on_create = {
+	# 	has_doctrine = luposan_doctrine
+	# }
+	visible = no
+	special_parameters = {
+		same_hof_hostility_override = righteous
+	}
+	traits = {
+		virtues = {
+			patient = { weight = 10 scale = 1 }
+			diligent = { weight = 10 scale = 1 }
+			honest = { weight = 10 scale = 1 }
+		}
+		sins = {
+			impatient = { weight = 10 scale = 1 }
+			greedy = { weight = 10 scale = 1 }
+			arrogant = { weight = 10 scale = 1 }
+		}
+	}
+}
+
+halfling_gods_doctrine = {
+	doctrine_group_type = wh_cult_values
+	index = 8
+	# is_available_on_create = {
+	# 	has_doctrine = halfling_gods_doctrine
+	# }
+	visible = no
+	special_parameters = {
+		same_hof_hostility_override = righteous
+	}
+	traits = {
+		virtues = {
+			forgiving = { weight = 10 scale = 1 }
+			trusting = { weight = 10 scale = 1 }
+		}
+		sins = {
+			vengeful = { weight = 10 scale = 1 }
+			arrogant = { weight = 10 scale = 1 }
+		}
+	}
+}
+
+ahaltan_doctrine = {
+	doctrine_group_type = wh_cult_values
+	index = 9
+	# is_available_on_create = {
+	# 	has_doctrine = ahaltan_doctrine
+	# }
+	visible = no
+	special_parameters = {
+		same_hof_hostility_override = righteous
+	}
+	traits = {
+		virtues = {
+			wrathful = { weight = 10 scale = 1 }
+			sadistic = { weight = 10 scale = 1 }
+			vengeful = { weight = 10 scale = 1 }
+		}
+		sins = {
+			craven = { weight = 10 scale = 1 }
+			impatient = { weight = 10 scale = 1 }
+			compassionate = { weight = 10 scale = 1 }
+		}
+	}
+}
+
+arisen_dead_doctrine = {
+	doctrine_group_type = wh_cult_values
+	index = 10
+	# is_available_on_create = {
+	# 	has_doctrine = arisen_dead_doctrine
+	# }
+	visible = no
+	special_parameters = {
+		same_hof_hostility_override = righteous
+	}
+	traits = {
+		virtues = {
+			cynical = { weight = 10 scale = 1 }
+			humble = { weight = 10 scale = 1 }
+			generous = { weight = 10 scale = 1 }
+		}
+		sins = {
+			deceitful = { weight = 10 scale = 1 }
+			arrogant = { weight = 10 scale = 1 }
+			impatient = { weight = 10 scale = 1 }
+		}
+	}
+}
+
+ursunite_doctrine = {
+	doctrine_group_type = wh_cult_values
+	index = 11
+	# is_available_on_create = {
+	# 	has_doctrine = ursunite_doctrine
+	# }
+	visible = no
+	special_parameters = {
+		same_hof_hostility_override = righteous
+	}
+	traits = {
+		virtues = {
+			stubborn = { weight = 10 scale = 1 }
+			diligent = { weight = 10 scale = 1 }
+			arrogant = { weight = 10 scale = 1 }
+		}
+		sins = {
+			lazy = { weight = 10 scale = 1 }
+			calm = { weight = 10 scale = 1 }
+			impatient = { weight = 10 scale = 1 }
+		}
+	}
+}
+
+northern_gods_doctrine = {
+	doctrine_group_type = wh_cult_values
+	index = 14
+	# is_available_on_create = {
+	# 	has_doctrine = northern_gods_doctrine
+	# }
+	visible = no
+	special_parameters = {
+		same_hof_hostility_override = righteous
+	}
+	traits = {
+		virtues = {
+			brave = { weight = 10 scale = 1 }
+			gregarious = { weight = 10 scale = 1 }
+			generous = { weight = 10 scale = 1 }
+		}
+		sins = {
+			craven = { weight = 10 scale = 1 }
+			shy = { weight = 10 scale = 1 }
+			arbitrary = { weight = 10 scale = 1 }
+		}
+	}
+}
+
+myrmidian_doctrine = {
+	doctrine_group_type = wh_cult_values
+	index = 15
+	# is_available_on_create = {
+	# 	has_doctrine = myrmidian_doctrine
+	# }
+	visible = no
+	special_parameters = {
+		same_hof_hostility_override = righteous
+	}
+	traits = {
+		virtues = {
+			just = { weight = 10 scale = 1 }
+			calm = { weight = 10 scale = 1 }
+			diligent = { weight = 10 scale = 1 }
+			education_martial_3 = { weight = 10 scale = 1 }
+			education_martial_4 = { weight = 10 scale = 1 }
+		}
+		sins = {
+			craven = { weight = 10 scale = 1 }
+			wrathful = { weight = 10 scale = 1 }
+			fickle = { weight = 10 scale = 1 }
+		}
+	}
+}
+
+shallyan_doctrine = {
+	doctrine_group_type = wh_cult_values
+	index = 16
+	# is_available_on_create = {
+	# 	has_doctrine = shallyan_doctrine
+	# }
+	visible = no
+	special_parameters = {
+		same_hof_hostility_override = righteous
+	}
+	traits = {
+		virtues = {
+			calm = { weight = 10 scale = 1 }
+			compassionate = { weight = 10 scale = 1 }
+			humble = { weight = 10 scale = 1 }
+		}
+		sins = {
+			vengeful = { weight = 10 scale = 1 }
+			callous = { weight = 10 scale = 1 }
+			sadistic = { weight = 10 scale = 1 }
+		}
+	}
+}
+
+morrian_doctrine = {
+	doctrine_group_type = wh_cult_values
+	index = 17
+	# is_available_on_create = {
+	# 	has_doctrine = morrian_doctrine
+	# }
+	visible = no
+	special_parameters = {
+		same_hof_hostility_override = righteous
+	}
+	traits = {
+		virtues = {
+			compassionate = { weight = 10 scale = 1 }
+			temperate = { weight = 10 scale = 1 }
+			humble = { weight = 10 scale = 1 }
+		}
+		sins = {
+			callous = { weight = 10 scale = 1 }
+			paranoid = { weight = 10 scale = 1 }
+			wrathful = { weight = 10 scale = 1 }
+		}
+	}
+}
+
+verenan_doctrine = {
+	doctrine_group_type = wh_cult_values
+	index = 18
+	# is_available_on_create = {
+	# 	has_doctrine = verenan_doctrine
+	# }
+	visible = no
+	special_parameters = {
+		same_hof_hostility_override = righteous
+	}
+	traits = {
+		virtues = {
+			just = { weight = 10 scale = 1 }
+			calm = { weight = 10 scale = 1 }
+			temperate = { weight = 10 scale = 1 }
+		}
+		sins = {
+			arbitrary = { weight = 10 scale = 1 }
+			wrathful = { weight = 10 scale = 1 }
+			stubborn = { weight = 10 scale = 1 }
+		}
+	}
+}
+
+solkanian_doctrine = {
+	doctrine_group_type = wh_cult_values
+	index = 19
+	# is_available_on_create = {
+	# 	has_doctrine = solkanian_doctrine
+	# }
+	visible = no
+	special_parameters = {
+		same_hof_hostility_override = righteous
+	}
+	traits = {
+		virtues = {
+			just = { weight = 10 scale = 1 }
+			vengeful = { weight = 10 scale = 1 }
+			zealous = { weight = 10 scale = 1 }
+		}
+		sins = {
+			deceitful = { weight = 10 scale = 1 }
+			craven = { weight = 10 scale = 1 }
+			forgiving = { weight = 10 scale = 1 }
+		}
+	}
+}
+
+lucan_and_luccinian_doctrine = {
+	doctrine_group_type = wh_cult_values
+	index = 20
+	# is_available_on_create = {
+	# 	has_doctrine = lucan_and_luccinian_doctrine
+	# }
+	visible = no
+	special_parameters = {
+		same_hof_hostility_override = righteous
+	}
+	traits = {
+		virtues = {
+			honest = { weight = 10 scale = 1 }
+			arrogant = { weight = 10 scale = 1 }
+			ambitious = { weight = 10 scale = 1 }
+		}
+		sins = {
+			wrathful = { weight = 10 scale = 1 }
+			craven = { weight = 10 scale = 1 }
+			content = { weight = 10 scale = 1 }
+		}
+	}
+}
+
+gunndredian_doctrine = {
+	doctrine_group_type = wh_cult_values
+	index = 21
+	# is_available_on_create = {
+	# 	has_doctrine = gunndredian_doctrine
+	# }
+	visible = no
+	special_parameters = {
+		same_hof_hostility_override = righteous
+	}
+	traits = {
+		virtues = {
+			greedy = { weight = 10 scale = 1 }
+			callous = { weight = 10 scale = 1 }
+		}
+		sins = {
+			compassionate = { weight = 10 scale = 1 }
+			just = { weight = 10 scale = 1 }
+		}
+	}
+}
+
+stromfels_doctrine = {
+	doctrine_group_type = wh_cult_values
+	index = 22
+	# is_available_on_create = {
+	# 	has_doctrine = stromfels_doctrine
+	# }
+	visible = no
+	special_parameters = {
+		same_hof_hostility_override = righteous
+	}
+	traits = {
+		virtues = {
+			arrogant = { weight = 10 scale = 1 }
+			ambitious = { weight = 10 scale = 1 }
+			greedy = { weight = 10 scale = 1 }
+		}
+		sins = {
+			craven = { weight = 10 scale = 1 }
+			content = { weight = 10 scale = 1 }
+			compassionate = { weight = 10 scale = 1 }
+		}
+	}
+}
+
+ranaldian_doctrine = {
+	doctrine_group_type = wh_cult_values
+	index = 23
+	# is_available_on_create = {
+	# 	has_doctrine = ranaldian_doctrine
+	# }
+	visible = no
+	special_parameters = {
+		same_hof_hostility_override = righteous
+	}
+	traits = {
+		virtues = {
+			fickle = { weight = 10 scale = 1 }
+			deceitful = { weight = 10 scale = 1 }
+			cynical = { weight = 10 scale = 1 }
+		}
+		sins = {
+			sadistic = { weight = 10 scale = 1 }
+			arrogant = { weight = 10 scale = 1 }
+			honest = { weight = 10 scale = 1 }
+		}
+	}
+}
+
+khainean_doctrine = {
+	doctrine_group_type = wh_cult_values
+	index = 24
+	# is_available_on_create = {
+	# 	has_doctrine = khainean_doctrine
+	# }
+	visible = no
+	special_parameters = {
+		same_hof_hostility_override = righteous
+	}
+	traits = {
+		virtues = {
+			patient = { weight = 10 scale = 1 }
+			vengeful = { weight = 10 scale = 1 }
+			sadistic = { weight = 10 scale = 1 }
+		}
+		sins = {
+			impatient = { weight = 10 scale = 1 }
+			deceitful = { weight = 10 scale = 1 }
+			forgiving = { weight = 10 scale = 1 }
+		}
+	}
+}
+
+grail_doctrine = {
+	doctrine_group_type = wh_cult_values
+	index = 25
+	# is_available_on_create = {
+	# 	has_doctrine = grail_doctrine
+	# }
+	visible = no
+	special_parameters = {
+		same_hof_hostility_override = righteous
+	}
+	traits = {
+		virtues = {
+			brave = { weight = 10 scale = 1 }
+			just = { weight = 10 scale = 1 }
+			chaste = { weight = 10 scale = 1 }
+		}
+		sins = {
+			craven = { weight = 10 scale = 1 }
+			wrathful = { weight = 10 scale = 1 }
+			lustful = { weight = 10 scale = 1 }
+		}
+	}
+}
+
+bloody_grail_doctrine = {
+	doctrine_group_type = wh_cult_values
+	index = 26
+	# is_available_on_create = {
+	# 	has_doctrine = bloody_grail_doctrine
+	# }
+	visible = no
+	special_parameters = {
+		same_hof_hostility_override = righteous
+	}
+	traits = {
+		virtues = {
+			brave = { weight = 10 scale = 1 }
+			vengeful = { weight = 10 scale = 1 }
+			sadistic = { weight = 10 scale = 1 }
+		}
+		sins = {
+			craven = { weight = 10 scale = 1 }
+			compassionate = { weight = 10 scale = 1 }
+			humble = { weight = 10 scale = 1 }
+		}
+	}
+}
+
+merryman_doctrine = {
+	doctrine_group_type = wh_cult_values
+	index = 27
+	# is_available_on_create = {
+	# 	has_doctrine = grail_doctrine
+	# }
+	visible = no
+	special_parameters = {
+		same_hof_hostility_override = righteous
+	}
+	traits = {
+		virtues = {
+			brave = { weight = 10 scale = 1 }
+			just = { weight = 10 scale = 1 }
+			generous = { weight = 10 scale = 1 }
+		}
+		sins = {
+			craven = { weight = 10 scale = 1 }
+			greedy = { weight = 10 scale = 1 }
+			fickle = { weight = 10 scale = 1 }
+		}
+	}
+}
+

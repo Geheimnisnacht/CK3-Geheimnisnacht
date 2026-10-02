@@ -35,8 +35,8 @@ knight_lady_errant = {
 	shown_in_ruler_designer = no
 	
 	potential = {
-		faith = { 
-			has_doctrine = tenet_knightly_virtues 
+		rite = { 
+			rite_has_tenet = tenet_knightly_virtues 
 		}
 	}
 	
@@ -73,8 +73,8 @@ knight_lady_realm = {
 	ruler_designer_cost = 30
 	
 	potential = {
-		faith = { 
-			has_doctrine = tenet_knightly_virtues 
+		rite = { 
+			rite_has_tenet = tenet_knightly_virtues 
 		}
 	}
 	
@@ -110,8 +110,8 @@ knight_lady_questing = {
 	shown_in_ruler_designer = no
 	
 	potential = {
-		faith = { 
-			has_doctrine = tenet_knightly_virtues 
+		rite = { 
+			rite_has_tenet = tenet_knightly_virtues 
 		}
 	}
 	
@@ -152,8 +152,8 @@ knight_lady_grail = {
 	ruler_designer_cost = 100
 	
 	potential = {
-		faith = { 
-			has_doctrine = tenet_knightly_virtues 
+		rite = { 
+			rite_has_tenet = tenet_knightly_virtues 
 		}
 	}
 	
@@ -196,8 +196,8 @@ knightly_virtue_audacity = {
 	shown_in_ruler_designer = no
 	
 	potential = {
-		faith = { 
-			has_doctrine = tenet_knightly_virtues 
+		rite = { 
+			rite_has_tenet = tenet_knightly_virtues 
 		}
 	}
 	
@@ -227,8 +227,8 @@ knightly_virtue_confidence = {
 	shown_in_ruler_designer = no
 	
 	potential = {
-		faith = { 
-			has_doctrine = tenet_knightly_virtues 
+		rite = { 
+			rite_has_tenet = tenet_knightly_virtues 
 		}
 	}
 	
@@ -258,8 +258,8 @@ knightly_virtue_discipline = {
 	shown_in_ruler_designer = no
 	
 	potential = {
-		faith = { 
-			has_doctrine = tenet_knightly_virtues 
+		rite = { 
+			rite_has_tenet = tenet_knightly_virtues 
 		}
 	}
 	
@@ -287,8 +287,8 @@ knightly_virtue_duty = {
 	shown_in_ruler_designer = no
 	
 	potential = {
-		faith = { 
-			has_doctrine = tenet_knightly_virtues 
+		rite = { 
+			rite_has_tenet = tenet_knightly_virtues 
 		}
 	}
 	
@@ -316,8 +316,8 @@ knightly_virtue_empathy = {
 	shown_in_ruler_designer = no
 	
 	potential = {
-		faith = { 
-			has_doctrine = tenet_knightly_virtues 
+		rite = { 
+			rite_has_tenet = tenet_knightly_virtues 
 		}
 	}
 	
@@ -348,8 +348,8 @@ knightly_virtue_heroism = {
 	shown_in_ruler_designer = no
 	
 	potential = {
-		faith = { 
-			has_doctrine = tenet_knightly_virtues 
+		rite = { 
+			rite_has_tenet = tenet_knightly_virtues 
 		}
 	}
 	
@@ -377,8 +377,8 @@ knightly_virtue_ideal = {
 	shown_in_ruler_designer = no
 	
 	potential = {
-		faith = { 
-			has_doctrine = tenet_knightly_virtues 
+		rite = { 
+			rite_has_tenet = tenet_knightly_virtues 
 		}
 	}
 	
@@ -406,8 +406,8 @@ knightly_virtue_impetuous = {
 	shown_in_ruler_designer = no
 	
 	potential = {
-		faith = { 
-			has_doctrine = tenet_knightly_virtues 
+		rite = { 
+			rite_has_tenet = tenet_knightly_virtues 
 		}
 	}
 	
@@ -435,8 +435,8 @@ knightly_virtue_joust = {
 	shown_in_ruler_designer = no
 	
 	potential = {
-		faith = { 
-			has_doctrine = tenet_knightly_virtues 
+		rite = { 
+			rite_has_tenet = tenet_knightly_virtues 
 		}
 	}
 	
@@ -468,8 +468,8 @@ knightly_virtue_temper = {
 	shown_in_ruler_designer = no
 	
 	potential = {
-		faith = { 
-			has_doctrine = tenet_knightly_virtues 
+		rite = { 
+			rite_has_tenet = tenet_knightly_virtues 
 		}
 	}
 	
@@ -497,8 +497,8 @@ knightly_virtue_disdain = {
 	shown_in_ruler_designer = no
 	
 	potential = {
-		faith = { 
-			has_doctrine = tenet_knightly_virtues 
+		rite = { 
+			rite_has_tenet = tenet_knightly_virtues 
 		}
 	}
 	
@@ -528,8 +528,8 @@ knightly_virtue_penitent = {
 	shown_in_ruler_designer = no
 	
 	potential = {
-		faith = { 
-			has_doctrine = tenet_knightly_virtues 
+		rite = { 
+			rite_has_tenet = tenet_knightly_virtues 
 		}
 	}
 	
@@ -557,8 +557,8 @@ knightly_virtue_purity = {
 	shown_in_ruler_designer = no
 	
 	potential = {
-		faith = { 
-			has_doctrine = tenet_knightly_virtues 
+		rite = { 
+			rite_has_tenet = tenet_knightly_virtues 
 		}
 	}
 	
@@ -586,8 +586,8 @@ knightly_virtue_stoicism = {
 	shown_in_ruler_designer = no
 	
 	potential = {
-		faith = { 
-			has_doctrine = tenet_knightly_virtues 
+		rite = { 
+			rite_has_tenet = tenet_knightly_virtues 
 		}
 	}
 	
@@ -617,8 +617,8 @@ knightly_virtue_crusade = { #Border Princes and Antoch
 	shown_in_ruler_designer = no
 	
 	potential = {
-		faith = { 
-			has_doctrine = tenet_knightly_virtues 
+		rite = { 
+			rite_has_tenet = tenet_knightly_virtues 
 		}
 	}
 	
@@ -649,8 +649,8 @@ knightly_virtue_exploration = { #New World mostly
 	shown_in_ruler_designer = no
 	
 	potential = {
-		faith = { 
-			has_doctrine = tenet_knightly_virtues 
+		rite = { 
+			rite_has_tenet = tenet_knightly_virtues 
 		}
 	}
 	
@@ -680,8 +680,8 @@ knightly_virtue_grail = { #For non-bretonnians who convert but aren't eligible f
 	shown_in_ruler_designer = no
 	
 	potential = {
-		faith = { 
-			has_doctrine = tenet_knightly_virtues 
+		rite = { 
+			rite_has_tenet = tenet_knightly_virtues 
 		}
 	}
 	

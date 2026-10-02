@@ -51,7 +51,7 @@ lucan_and_luccinian = {
 	desc = lucan_and_luccinian_desc
 	faith = southern
 	color = { 1.0 0.4 0.4 }
-	icon = "lucan_luccinian.dds"
+	icon = lucan_luccinian
 	#founder = 
 
 	tenets = {
@@ -91,14 +91,11 @@ morrian = {
 	desc = morrian_desc
 	faith = southern
 	color = { 10 25 40 }
-	icon = "morr.dds"
+	icon = morr
 	founder = k_cult_of_morr
 	
 	
-	holy_order_names = {
-		{ name = "holy_order_morr_knights" coat_of_arms = "ho_morr_knights" }
-		{ name = "holy_order_black_rose_knights" coat_of_arms = "ho_black_rose_knights" }
-	}			
+	# Military-order names are configured on the parent faith.			
 	
 	localization = {
 		HighGodName = morrian_high_god_name
@@ -139,14 +136,10 @@ myrmidian = {
 	desc = myrmidian_desc
 	faith = southern
 	color = { 0.9 0.7 0.0 }
-	icon = "myrmidian.dds"
+	icon = myrmidian
 	founder = k_cult_of_myrmidia
 
-	holy_order_names = {
-		{ name = "holy_order_magritta_knights" coat_of_arms = "ho_magritta_knights" }
-		{ name = "holy_order_blazing_sun_knights" coat_of_arms = "ho_blazing_sun_knights" }
-		{ name = "holy_order_irrana_knights" coat_of_arms = "ho_irrana_knights" }
-	}	
+	# Military-order names are configured on the parent faith.	
 
 	localization = {
 		ReligiousHeadName = myrmidian_religious_head_title
@@ -179,7 +172,7 @@ myrmidian_western = {
 	desc = myrmidian_western_desc
 	faith = southern
 	color = { 0.7 0.55 0.1 }
-	icon = "estalean_myrmidia.dds"
+	icon = estalean_myrmidia
 	founder = k_cult_of_myrmidia
 
 	#Magic
@@ -220,7 +213,7 @@ myrmidian_eastern = {
 	desc = myrmidian_eastern_desc
 	faith = southern
 	color = { 1.0 0.68 0.0 }
-	icon = "tilean_myrmidia.dds"
+	icon = tilean_myrmidia
 	founder = k_cult_of_myrmidia
 
 
@@ -228,10 +221,10 @@ myrmidian_eastern = {
 	#Magic
 	#doctrine_lore_myrmidia
 
-	holy_site = remas
+	# Holy site remas is assigned on the parent faith.
 	#holy_site = myrmidens
-	holy_site = sartosa_legal
-	holy_site = magritta
+	# Holy site sartosa_legal is assigned on the parent faith.
+	# Holy site magritta is assigned on the parent faith.
 	#holy_site = istrabul
 
 
@@ -273,7 +266,7 @@ shallyan = {
 	desc = shallyan_desc
 	faith = southern
 	color = { 0.9 0.9 0.9 }
-	icon = "shallya.dds"
+	icon = shallya
 	founder = k_cult_of_shallya
 	
 	
@@ -316,7 +309,7 @@ shallyan_plague_wardens = {
 	desc = shallyan_plague_wardens_desc
 	faith = southern
 	color = { 0.9 0.9 0.9 }
-	icon = "shallya.dds"
+	icon = shallya
 	founder = k_cult_of_shallya
 
 	localization = {
@@ -358,7 +351,7 @@ solkanian = {
 	desc = solkanian_desc
 	faith = southern
 	color = { 0.4 0.4 0.2 }
-	icon = "solkan.dds"
+	icon = solkan
 	#founder = 
 	
 	
@@ -414,14 +407,12 @@ verenan = {
 	#holy_site = templehof
 	#holy_site = bechafen
 	#holy_site = altdorf
-	holy_site = luccini
+	# Holy site luccini is assigned on the parent faith.
 	#holy_site = tobaro
 
 
 	
-	holy_order_names = {
-		{ name = "holy_order_everlasting_light_knights" coat_of_arms = "ho_everlasting_light_knights" }
-	}
+	# Military-order names are configured on the parent faith.
 	
 	localization = {
 		HighGodName = verenan_high_god_name

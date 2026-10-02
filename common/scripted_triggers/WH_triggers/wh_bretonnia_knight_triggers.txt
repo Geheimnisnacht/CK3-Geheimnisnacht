@@ -3,7 +3,7 @@ wh_bretonnia_auto_knight_trigger = {
 	is_landed = yes
 	is_lowborn = no
 	is_adult = yes
-	faith = { has_doctrine = tenet_knightly_virtues }
+	rite = { rite_has_tenet = tenet_knightly_virtues }
 	NOT = { has_trait = knight_lady }
 	NOT = { has_character_modifier = wh_bretonnia_unproven_noble }
 	OR = {

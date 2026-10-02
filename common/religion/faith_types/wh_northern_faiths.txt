@@ -3,8 +3,8 @@
 	faith_details = {
 		religion = northern_pantheon_religion
 		color = { 0.8 0.3 0.1 }
-		icon = "sigmarite.dds"
-		reformed_icon = "sigmarite.dds"
+		icon = sigmarite
+		reformed_icon = sigmarite
 		graphical_faith = "pagan_gfx"
 	}
 
@@ -15,19 +15,24 @@
 	# holy_sites = {
 
 	# }
-	tenets = {
-		tenet_monasticism
-		tenet_pentarchy
-		tenet_legalism
-	}
+	# Tenets are defined on the scripted main rite.
 
-	doctrines = {
-		doctrine_clerical_function_recruitment
-		doctrine_clerical_gender_male_only
-		special_doctrine_ecumenical_old_world
-		sigmarite_doctrine
-	}
+	# Doctrines are defined on the scripted main rite.
 
+	holy_order_names = {
+		{ name = "holy_order_manaan_sons_knights" coat_of_arms = "ho_manaan_sons_knights" }
+		{ name = "holy_order_sigmar_blood_knights" coat_of_arms = "ho_sigmar_blood_knights" }
+		{ name = "holy_order_fiery_heart_knights" coat_of_arms = "ho_fiery_heart_knights"  }
+		{ name = "holy_order_undying_sun_knights" coat_of_arms = "ho_undying_sun_knights" }
+		{ name = "holy_order_taal_fury_knights" coat_of_arms = "ho_taal_fury_knights" }
+		{ name = "holy_order_longshanks_knights" coat_of_arms = "ho_longshanks_knights" }
+		{ name = "holy_order_white_wolf_knights" coat_of_arms = "ho_white_wolf_knights" }
+		{ name = "holy_order_winter_throne_knights" coat_of_arms = "ho_winter_throne_knights"  }
+	}
+	holy_sites = {
+		bordeleaux
+		mousillon
+	}
 }
 
 

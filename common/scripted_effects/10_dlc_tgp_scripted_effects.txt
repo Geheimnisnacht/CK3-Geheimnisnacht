@@ -9452,13 +9452,13 @@ disburse_festival_piety_reward_effect = {
 				}
 				if = {
 					limit = {
-						faith = { has_doctrine = tenet_ritual_celebrations }
+						faith = { has_tenet = tenet_ritual_celebrations }
 					}
 					add = medium_piety_value
 				}
 				if = {
 					limit = {
-						faith = { has_doctrine = tenet_hedonistic }
+						faith = { has_tenet = tenet_hedonistic }
 					}
 					add = medium_piety_value
 				}

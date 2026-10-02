@@ -95,7 +95,7 @@ pilgrimage_additional_reward_effect = {
 	# Armed Pilgrimages
 	if = {
 		limit = { 
-			faith = { has_doctrine = tenet_armed_pilgrimages } 
+			faith = { has_tenet = tenet_armed_pilgrimages } 
 		}
 		custom_description_no_bullet = {
 			text = pilgrimage_because_i_have_armed_pilgrimages
@@ -110,8 +110,8 @@ pilgrimage_additional_reward_effect = {
 		limit = { 
 			faith = { 
 				OR = {
-					has_doctrine = tenet_mendicant_preachers 
-					has_doctrine = tenet_spread_the_light
+					has_tenet = tenet_mendicant_preachers 
+					has_tenet = tenet_spread_the_light
 				} 
 			}
 		}
@@ -126,7 +126,7 @@ pilgrimage_additional_reward_effect = {
 	# Pentarchy
 	if = {
 		limit = { 
-			faith = { has_doctrine = tenet_pentarchy } 
+			faith = { has_tenet = tenet_pentarchy } 
 		}
 		custom_description_no_bullet = {
 			text = pilgrimage_because_i_have_tenet_pentarchy
@@ -139,7 +139,7 @@ pilgrimage_additional_reward_effect = {
 	# Struggle and Submission
 	if = {
 		limit = { 
-			faith = { has_doctrine = tenet_struggle_submission } 
+			faith = { has_tenet = tenet_struggle_submission } 
 		}
 		custom_description_no_bullet = {
 			text = pilgrimage_because_i_have_tenet_struggle_submission
@@ -152,7 +152,7 @@ pilgrimage_additional_reward_effect = {
 	# Ancestor Worship
 	if = {
 		limit = { 
-			faith = { has_doctrine = tenet_ancestor_worship } 
+			faith = { has_tenet = tenet_ancestor_worship } 
 		}
 		custom_description_no_bullet = {
 			text = pilgrimage_because_i_have_tenet_ancestor_worship
@@ -165,7 +165,7 @@ pilgrimage_additional_reward_effect = {
 	# Esotericism
 	if = {
 		limit = {
-			faith = { has_doctrine = tenet_esotericism }
+			faith = { has_tenet = tenet_esotericism }
 			NOT = {
 				has_trait = lifestyle_mystic
 				has_trait_xp = {

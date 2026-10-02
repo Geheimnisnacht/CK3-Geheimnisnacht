@@ -17,7 +17,7 @@ ormazdic = {
 	desc = ormazdic_desc
 	faith = arabyan
 	color = { 1.0 1.0 0.3 }
-	icon = "placeholder.dds"
+	icon = placeholder
 
 	
 	#holy_site = al_haikk

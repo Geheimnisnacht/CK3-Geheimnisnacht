@@ -1,0 +1,20 @@
+﻿# Starting tenet knowledge for this existing faith. Main-rite core tenets are automatic.
+1.1.1 = {
+	created = yes
+	main_rite = myrmidian
+	known = {
+		tenet_ancestor_worship
+		tenet_asceticism
+		tenet_cold_blooded_killers
+		tenet_communal_identity
+		tenet_esotericism
+		tenet_human_sacrifice
+		tenet_literalism
+		tenet_mendicant_preachers
+		tenet_pacifism
+		tenet_religious_legal_pronouncements
+		tenet_sacred_shadows
+		tenet_struggle_submission
+		tenet_vows_of_poverty
+	}
+}

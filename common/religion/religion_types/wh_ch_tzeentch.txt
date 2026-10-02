@@ -48,6 +48,11 @@
 	doctrine = doctrine_no_anointment
 	
 
+	# CK3 1.20 defaults; individual rites can override these.
+	doctrine = doctrine_monasticism_absent
+	doctrine = doctrine_sacraments_absent
+	doctrine = doctrine_mythic_literary
+
 	traits = {
 		virtues = {
 			paranoid = { weight = 30 scale = 1 }
@@ -64,9 +69,7 @@
 		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 ibadi_custom muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1
 	}
 
-	holy_order_names = {
-		{ name = "" }
-	}
+	# No custom military-order names are defined for this religion yet.
 	
 	holy_order_maa = {}
 	
@@ -157,64 +160,64 @@
 
 
 
-		PantheonTerm = placeholder_key
-		PantheonTermHasHave = placeholder_key
+		PantheonTerm = tzeentch_high_god
+		PantheonTermHasHave = pantheon_term_have
 		GoodGodNames = {
-			placeholder_key
+			tzeentch_high_god
 		}
 		
 		
-		ReligiousHeadName = placeholder_key
+		ReligiousHeadName = wh_religion_head
 		DevilName = tzeentch_devil
 		DevilNamePossessive = tzeentch_devil_possessive
 		DevilSheHe = CHARACTER_SHEHE_HE
 		DevilHerHis = CHARACTER_HERHIS_HIS
 		DevilHerselfHimself = CHARACTER_HIMSELF
 		EvilGodNames = {
-			placeholder_key
+			wh_religion_hostile_powers
 		}
-		HouseOfWorship = placeholder_key
-		HouseOfWorshipPlural = placeholder_key
+		HouseOfWorship = wh_religion_house
+		HouseOfWorshipPlural = wh_religion_houses
 		ReligiousSymbol = tzeentch_religious_symbol
 		ReligiousText = tzeentch_religious_text
-		ReligiousHeadName = placeholder_key
-		ReligiousHeadTitleName = placeholder_key
-		DevoteeMale = placeholder_key
-		DevoteeMalePlural = placeholder_key
-		DevoteeFemale = placeholder_key
-		DevoteeFemalePlural = placeholder_key
-		DevoteeNeuter = placeholder_key
-		DevoteeNeuterPlural = placeholder_key
+		ReligiousHeadName = wh_religion_head
+		ReligiousHeadTitleName = wh_religion_head_title
+		DevoteeMale = wh_religion_devotee
+		DevoteeMalePlural = wh_religion_devotees
+		DevoteeFemale = wh_religion_devotee
+		DevoteeFemalePlural = wh_religion_devotees
+		DevoteeNeuter = wh_religion_devotee
+		DevoteeNeuterPlural = wh_religion_devotees
 		PriestMale = chaos_priest_male
 		PriestMalePlural = chaos_priest_male_plural
 		PriestFemale = chaos_priest_female
 		PriestFemalePlural = chaos_priest_female_plural
 		PriestNeuter = chaos_priest_neuter
 		PriestNeuterPlural = chaos_priest_neuter_plural
-		AltPriestTermPlural = placeholder_key
-		BishopMale = placeholder_key
-		BishopMalePlural = placeholder_key
-		BishopFemale = placeholder_key
-		BishopFemalePlural = placeholder_key
-		BishopNeuter = placeholder_key
-		BishopNeuterPlural = placeholder_key
-		DivineRealm = placeholder_key
+		AltPriestTermPlural = wh_religion_clergy
+		BishopMale = wh_religion_bishop
+		BishopMalePlural = wh_religion_bishops
+		BishopFemale = wh_religion_bishop_female
+		BishopFemalePlural = wh_religion_bishops_female
+		BishopNeuter = wh_religion_bishop
+		BishopNeuterPlural = wh_religion_bishops
+		DivineRealm = wh_religion_divine_realm
 		PositiveAfterLife = tzeentch_positive_afterlife
 		NegativeAfterLife = tzeentch_negative_afterlife
 		DeathDeityName = tzeentch_death_god
 		DeathDeityNamePossessive = tzeentch_death_god_possessive
 		DeathDeitySheHe = CHARACTER_SHEHE_HE
 		DeathDeityHerHis = CHARACTER_HERHIS_HIS
-		DeathDeityHerHim = placeholder_key
+		DeathDeityHerHim = wh_religion_them
 		WitchGodName = tzeentch_witch_god
 		WitchGodHerHis = CHARACTER_HERHIS_HIS
 		WitchGodSheHe = CHARACTER_SHEHE_HE
 		WitchGodHerHim = CHARACTER_HIMSELF
-		WitchGodNamePossessive = placeholder_key
+		WitchGodNamePossessive = tzeentch_witch_god_possessive
 
 
-		GHWName = placeholder_key
-		GHWNamePlural = placeholder_key
+		GHWName = ghw_great_holy_war
+		GHWNamePlural = ghw_great_holy_wars
 	}
 
 }

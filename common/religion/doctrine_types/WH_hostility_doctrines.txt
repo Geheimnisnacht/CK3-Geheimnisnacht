@@ -1,0 +1,67 @@
+﻿# CK3 1.20: hostility entries are doctrines, not tenets.
+
+order_hostility_doctrine = {
+	doctrine_group_type = hostility_group
+	index = 10
+	visible = no
+	special_parameters = {
+		hostility_levels = {
+			same_religion = hostile
+			same_family = evil
+			unrelated = evil
+		}
+	}
+}
+
+chaos_hostility_doctrine = {
+	doctrine_group_type = hostility_group
+	index = 11
+	visible = no
+	special_parameters = {
+		hostility_levels = {
+			same_religion = righteous
+			same_family = hostile
+			unrelated = evil
+		}
+	}
+}
+
+old_ones_hostility_doctrine = {
+	doctrine_group_type = hostility_group
+	index = 12
+	visible = no
+	special_parameters = {
+		hostility_levels = {
+			same_religion = astray
+			same_family = astray
+			unrelated = evil
+		}
+	}
+}
+
+destruction_hostility_doctrine = {
+	doctrine_group_type = hostility_group
+	index = 13
+	visible = no
+	special_parameters = {
+		hostility_levels = {
+			same_religion = hostile
+			same_family = evil
+			unrelated = evil
+		}
+	}
+}
+
+necromantic_hostility_doctrine = {
+	doctrine_group_type = hostility_group
+	index = 14
+	visible = no
+	special_parameters = {
+		hostility_levels = {
+			same_religion = astray
+			same_family = astray
+			unrelated = hostile
+		}
+	}
+}
+

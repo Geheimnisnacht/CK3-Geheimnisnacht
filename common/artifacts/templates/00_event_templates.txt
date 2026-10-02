@@ -211,7 +211,7 @@ tgp_severed_head_template = {
 
 	can_benefit = {
 		faith = {
-			has_doctrine = tenet_cranial_trophies
+			has_tenet = tenet_cranial_trophies
 		}
 	}
 	can_repair = {

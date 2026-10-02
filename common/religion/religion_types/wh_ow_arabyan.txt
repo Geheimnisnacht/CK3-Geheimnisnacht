@@ -1,13 +1,16 @@
 ﻿arabyan_religion = {
 	religion_details = {
 		family = rf_order
+	
+		graphical_faith = islamic_gfx
+		tenet_background_icon = tenet_banner_known_core
 	}
 	
-	graphical_faith = "islamic_gfx"
+	
 	
 	doctrine = order_hostility_doctrine
 	
-	doctrine_background_icon = core_tenet_banner_islam.dds
+	
 	
 	#Main Group
 	doctrine = doctrine_polytheist
@@ -51,6 +54,11 @@
 	#Coronation tradition
 	doctrine = doctrine_no_anointment
 	
+	# CK3 1.20 defaults; individual rites can override these.
+	doctrine = doctrine_monasticism_absent
+	doctrine = doctrine_sacraments_absent
+	doctrine = doctrine_mythic_literary
+
 	traits = {
 		virtues = {
 			temperate = { weight = 30 scale = 1 }
@@ -70,9 +78,7 @@
 		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 ibadi_custom muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1
 	}
 
-	holy_order_names = {
-		{ name = "" }
-	}
+	# No custom military-order names are defined for this religion yet.
 	
 	holy_order_maa = {  }
 	
@@ -92,136 +98,136 @@
 		CreatorHerHim = CHARACTER_HERHIM_HIM
 
 		#HealthGod
-		HealthGodName = placeholder_key
-		HealthGodNamePossessive = placeholder_key
-		HealthGodSheHe = placeholder_key
-		HealthGodHerHis = placeholder_key
-		HealthGodHerHim = placeholder_key
+		HealthGodName = arabyan_gods_high_god_name
+		HealthGodNamePossessive = arabyan_gods_high_god_name_possessive
+		HealthGodSheHe = wh_religion_they
+		HealthGodHerHis = wh_religion_their
+		HealthGodHerHim = wh_religion_them
 		
 		#FertilityGod
-		FertilityGodName = placeholder_key
-		FertilityGodNamePossessive = placeholder_key
-		FertilityGodSheHe = placeholder_key
-		FertilityGodHerHis = placeholder_key
-		FertilityGodHerHim = placeholder_key
+		FertilityGodName = arabyan_gods_high_god_name
+		FertilityGodNamePossessive = arabyan_gods_high_god_name_possessive
+		FertilityGodSheHe = wh_religion_they
+		FertilityGodHerHis = wh_religion_their
+		FertilityGodHerHim = wh_religion_them
 
 		#WealthGod
-		WealthGodName = placeholder_key
-		WealthGodNamePossessive = placeholder_key
-		WealthGodSheHe = placeholder_key
-		WealthGodHerHis = placeholder_key
-		WealthGodHerHim = placeholder_key
+		WealthGodName = arabyan_gods_high_god_name
+		WealthGodNamePossessive = arabyan_gods_high_god_name_possessive
+		WealthGodSheHe = wh_religion_they
+		WealthGodHerHis = wh_religion_their
+		WealthGodHerHim = wh_religion_them
 
 		#HouseholdGod
-		HouseholdGodName = placeholder_key
-		HouseholdGodNamePossessive = placeholder_key
-		HouseholdGodSheHe = placeholder_key
-		HouseholdGodHerHis = placeholder_key
-		HouseholdGodHerHim = placeholder_key
+		HouseholdGodName = arabyan_gods_high_god_name
+		HouseholdGodNamePossessive = arabyan_gods_high_god_name_possessive
+		HouseholdGodSheHe = wh_religion_they
+		HouseholdGodHerHis = wh_religion_their
+		HouseholdGodHerHim = wh_religion_them
 
 		#FateGod
-		FateGodName = placeholder_key
-		FateGodNamePossessive = placeholder_key
-		FateGodSheHe = placeholder_key
-		FateGodHerHis = placeholder_key
-		FateGodHerHim = placeholder_key
+		FateGodName = arabyan_gods_high_god_name
+		FateGodNamePossessive = arabyan_gods_high_god_name_possessive
+		FateGodSheHe = wh_religion_they
+		FateGodHerHis = wh_religion_their
+		FateGodHerHim = wh_religion_them
 
 		#KnowledgeGod
 		KnowledgeGodName = arabyan_gods_knowledge_god_name
 		KnowledgeGodNamePossessive = arabyan_gods_knowledge_god_name_possessive
-		KnowledgeGodSheHe = placeholder_key
-		KnowledgeGodHerHis = placeholder_key
-		KnowledgeGodHerHim = placeholder_key
+		KnowledgeGodSheHe = wh_religion_they
+		KnowledgeGodHerHis = wh_religion_their
+		KnowledgeGodHerHim = wh_religion_them
 
 		#WarGod
 		WarGodName = arabyan_gods_war_god_name
 		WarGodNamePossessive = arabyan_gods_war_god_name_possessive
-		WarGodSheHe = placeholder_key
-		WarGodHerHis = placeholder_key
-		WarGodHerHim = placeholder_key
+		WarGodSheHe = wh_religion_they
+		WarGodHerHis = wh_religion_their
+		WarGodHerHim = wh_religion_them
 
 		#TricksterGod
-		TricksterGodName = placeholder_key
-		TricksterGodNamePossessive = placeholder_key
-		TricksterGodSheHe = placeholder_key
-		TricksterGodHerHis = placeholder_key
-		TricksterGodHerHim = placeholder_key
+		TricksterGodName = arabyan_gods_high_god_name
+		TricksterGodNamePossessive = arabyan_gods_high_god_name_possessive
+		TricksterGodSheHe = wh_religion_they
+		TricksterGodHerHis = wh_religion_their
+		TricksterGodHerHim = wh_religion_them
 
 		#NightGod
-		NightGodName = placeholder_key
-		NightGodNamePossessive = placeholder_key
-		NightGodSheHe = placeholder_key
-		NightGodHerHis = placeholder_key
-		NightGodHerHim = placeholder_key
+		NightGodName = arabyan_gods_high_god_name
+		NightGodNamePossessive = arabyan_gods_high_god_name_possessive
+		NightGodSheHe = wh_religion_they
+		NightGodHerHis = wh_religion_their
+		NightGodHerHim = wh_religion_them
 
 		#WaterGod
-		WaterGodName = placeholder_key
-		WaterGodNamePossessive = placeholder_key
-		WaterGodSheHe = placeholder_key
-		WaterGodHerHis = placeholder_key
-		WaterGodHerHim = placeholder_key
+		WaterGodName = arabyan_gods_high_god_name
+		WaterGodNamePossessive = arabyan_gods_high_god_name_possessive
+		WaterGodSheHe = wh_religion_they
+		WaterGodHerHis = wh_religion_their
+		WaterGodHerHim = wh_religion_them
 
-		PantheonTerm = placeholder_key
-		PantheonTermHasHave = placeholder_key
+		PantheonTerm = arabyan_gods_high_god_name
+		PantheonTermHasHave = pantheon_term_have
 		GoodGodNames = {
-			placeholder_key
+			arabyan_gods_high_god_name
 		}
 		
-		PriestMale = placeholder_key
-		PriestMalePlural = placeholder_key
-		PriestFemale = placeholder_key
-		PriestFemalePlural = placeholder_key
-		PriestNeuter = placeholder_key
-		PriestNeuterPlural = placeholder_key
-		ReligiousHeadName = placeholder_key
-		DevilName = placeholder_key
-		DevilNamePossessive = placeholder_key
-		DevilSheHe = placeholder_key
-		DevilHerHis = placeholder_key
-		DevilHerselfHimself = placeholder_key
+		PriestMale = wh_religion_priest
+		PriestMalePlural = wh_religion_priests
+		PriestFemale = wh_religion_priestess
+		PriestFemalePlural = wh_religion_priestesses
+		PriestNeuter = wh_religion_priest
+		PriestNeuterPlural = wh_religion_priests
+		ReligiousHeadName = wh_religion_head
+		DevilName = wh_religion_hostile_powers
+		DevilNamePossessive = wh_religion_hostile_powers_possessive
+		DevilSheHe = wh_religion_they
+		DevilHerHis = wh_religion_their
+		DevilHerselfHimself = wh_religion_themselves
 		EvilGodNames = {
-			placeholder_key
+			wh_religion_hostile_powers
 		}
-		HouseOfWorship = placeholder_key
-		HouseOfWorshipPlural = placeholder_key
-		ReligiousSymbol = placeholder_key
-		ReligiousText = placeholder_key
-		ReligiousHeadName = placeholder_key
-		ReligiousHeadTitleName = placeholder_key
-		DevoteeMale = placeholder_key
-		DevoteeMalePlural = placeholder_key
-		DevoteeFemale = placeholder_key
-		DevoteeFemalePlural = placeholder_key
-		DevoteeNeuter = placeholder_key
-		DevoteeNeuterPlural = placeholder_key
-		PriestMale = placeholder_key
-		PriestMalePlural = placeholder_key
-		PriestFemale = placeholder_key
-		PriestFemalePlural = placeholder_key
-		PriestNeuter = placeholder_key
-		PriestNeuterPlural = placeholder_key
-		AltPriestTermPlural = placeholder_key
-		BishopMale = placeholder_key
-		BishopMalePlural = placeholder_key
-		BishopFemale = placeholder_key
-		BishopFemalePlural = placeholder_key
-		BishopNeuter = placeholder_key
-		BishopNeuterPlural = placeholder_key
-		DivineRealm = placeholder_key
-		PositiveAfterLife = placeholder_key
-		NegativeAfterLife = placeholder_key
-		DeathDeityName = placeholder_key
-		DeathDeityNamePossessive = placeholder_key
-		DeathDeitySheHe = placeholder_key
-		DeathDeityHerHis = placeholder_key
-		DeathDeityHerHim = placeholder_key
-		WitchGodName = placeholder_key
-		WitchGodNamePossessive = placeholder_key
-		WitchGodHerHis = placeholder_key
-		WitchGodSheHe = placeholder_key
-		WitchGodHerHim = placeholder_key
-		GHWName = placeholder_key
-		GHWNamePlural = placeholder_key
+		HouseOfWorship = wh_religion_house
+		HouseOfWorshipPlural = wh_religion_houses
+		ReligiousSymbol = wh_religion_symbol
+		ReligiousText = wh_religion_text
+		ReligiousHeadName = wh_religion_head
+		ReligiousHeadTitleName = wh_religion_head_title
+		DevoteeMale = wh_religion_devotee
+		DevoteeMalePlural = wh_religion_devotees
+		DevoteeFemale = wh_religion_devotee
+		DevoteeFemalePlural = wh_religion_devotees
+		DevoteeNeuter = wh_religion_devotee
+		DevoteeNeuterPlural = wh_religion_devotees
+		PriestMale = wh_religion_priest
+		PriestMalePlural = wh_religion_priests
+		PriestFemale = wh_religion_priestess
+		PriestFemalePlural = wh_religion_priestesses
+		PriestNeuter = wh_religion_priest
+		PriestNeuterPlural = wh_religion_priests
+		AltPriestTermPlural = wh_religion_clergy
+		BishopMale = wh_religion_bishop
+		BishopMalePlural = wh_religion_bishops
+		BishopFemale = wh_religion_bishop_female
+		BishopFemalePlural = wh_religion_bishops_female
+		BishopNeuter = wh_religion_bishop
+		BishopNeuterPlural = wh_religion_bishops
+		DivineRealm = wh_religion_divine_realm
+		PositiveAfterLife = wh_religion_positive_afterlife
+		NegativeAfterLife = wh_religion_negative_afterlife
+		DeathDeityName = arabyan_gods_high_god_name
+		DeathDeityNamePossessive = arabyan_gods_high_god_name_possessive
+		DeathDeitySheHe = wh_religion_they
+		DeathDeityHerHis = wh_religion_their
+		DeathDeityHerHim = wh_religion_them
+		WitchGodName = arabyan_gods_high_god_name
+		WitchGodNamePossessive = arabyan_gods_high_god_name_possessive
+		WitchGodHerHis = wh_religion_their
+		WitchGodSheHe = wh_religion_they
+		WitchGodHerHim = wh_religion_them
+		GHWName = ghw_great_holy_war
+		GHWNamePlural = ghw_great_holy_wars
 	}
 	
 }

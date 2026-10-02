@@ -2379,7 +2379,7 @@
 #						religion = religion:islam_religion
 #						faith = { has_doctrine = tenet_aniconism }
 #					}
-					NOT = { faith = { has_doctrine = tenet_aniconism } }
+					NOT = { faith = { has_tenet = tenet_aniconism } }
 				}
 			}
 		}
@@ -2399,7 +2399,7 @@
 #						religion = religion:islam_religion
 #						faith = { has_doctrine = tenet_aniconism }
 #					}
-					NOT = { faith = { has_doctrine = tenet_aniconism } }
+					NOT = { faith = { has_tenet = tenet_aniconism } }
 				}
 			}
 		}
@@ -2419,7 +2419,7 @@
 #						religion = religion:islam_religion
 #						faith = { has_doctrine = tenet_aniconism }
 #					}
-					NOT = { faith = { has_doctrine = tenet_aniconism } }
+					NOT = { faith = { has_tenet = tenet_aniconism } }
 				}
 			}
 		}
@@ -2439,7 +2439,7 @@
 #						religion = religion:islam_religion
 #						faith = { has_doctrine = tenet_aniconism }
 #					}
-					NOT = { faith = { has_doctrine = tenet_aniconism } }
+					NOT = { faith = { has_tenet = tenet_aniconism } }
 				}
 			}
 		}
@@ -2459,7 +2459,7 @@
 #						religion = religion:islam_religion
 #						faith = { has_doctrine = tenet_aniconism }
 #					}
-					NOT = { faith = { has_doctrine = tenet_aniconism } }
+					NOT = { faith = { has_tenet = tenet_aniconism } }
 				}
 			}
 		}
@@ -2479,7 +2479,7 @@
 #						religion = religion:islam_religion
 #						faith = { has_doctrine = tenet_aniconism }
 #					}
-					NOT = { faith = { has_doctrine = tenet_aniconism } }
+					NOT = { faith = { has_tenet = tenet_aniconism } }
 				}
 			}
 		}
@@ -2499,7 +2499,7 @@
 #						religion = religion:islam_religion
 #						faith = { has_doctrine = tenet_aniconism }
 #					}
-					NOT = { faith = { has_doctrine = tenet_aniconism } }
+					NOT = { faith = { has_tenet = tenet_aniconism } }
 				}
 			}
 		}
@@ -2519,7 +2519,7 @@
 #						religion = religion:islam_religion
 #						faith = { has_doctrine = tenet_aniconism }
 #					}
-					NOT = { faith = { has_doctrine = tenet_aniconism } }
+					NOT = { faith = { has_tenet = tenet_aniconism } }
 				}
 			}
 		}
@@ -2539,7 +2539,7 @@
 #						religion = religion:islam_religion
 #						faith = { has_doctrine = tenet_aniconism }
 #					}
-					NOT = { faith = { has_doctrine = tenet_aniconism } }
+					NOT = { faith = { has_tenet = tenet_aniconism } }
 				}
 			}
 		}
@@ -2559,7 +2559,7 @@
 #						religion = religion:islam_religion
 #						faith = { has_doctrine = tenet_aniconism }
 #					}
-					NOT = { faith = { has_doctrine = tenet_aniconism } }
+					NOT = { faith = { has_tenet = tenet_aniconism } }
 				}
 			}
 		}

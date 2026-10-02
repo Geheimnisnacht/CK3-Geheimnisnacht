@@ -1,0 +1,12 @@
+﻿# Starting tenet knowledge for this existing faith. Main-rite core tenets are automatic.
+1.1.1 = {
+	created = yes
+	main_rite = grail
+	known = {
+		tenet_communal_possessions
+		tenet_pacifism
+		tenet_pursuit_of_power
+		tenet_sanctity_of_nature
+		tenet_vampires
+	}
+}

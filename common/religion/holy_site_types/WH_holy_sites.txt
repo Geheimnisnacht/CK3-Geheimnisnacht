@@ -45,8 +45,8 @@ sartosa_legal = {
 bastonne = { #Water Tower, gilles personal residence
 	county = c_bastonne
 	
-	character_modifier = {
-		name = holy_site_bastonne_effect_name
+	faith_character_modifier = {
+		# name = holy_site_bastonne_effect_name
 		monthly_piety_gain_mult = 0.2
 		martial_per_piety_level = 1
 	}
@@ -55,8 +55,8 @@ bastonne = { #Water Tower, gilles personal residence
 bordeleaux = {
 	county = c_bordeleaux
 	
-	character_modifier = {
-		name = holy_site_bordeleaux_effect_name
+	faith_character_modifier = {
+		# name = holy_site_bordeleaux_effect_name
 		cultural_head_fascination_mult = 0.05
 		#monthly_county_control_change_factor = 0.05
 	}
@@ -66,8 +66,8 @@ montlac = { #Chapel of the Enchantress
 	county = c_montlac
 	barony = b_grisdame
 	
-	character_modifier = {
-		name = holy_site_montlac_effect_name
+	faith_character_modifier = {
+		# name = holy_site_montlac_effect_name
 		cultural_head_fascination_mult = 0.05
 		#monthly_county_control_change_factor = 0.05
 	}
@@ -77,8 +77,8 @@ chalons = { #Isle de Lys
 	county = c_chalons
 	barony = b_issoroux
 	
-	character_modifier = {
-		name = holy_site_chalons_effect_name
+	faith_character_modifier = {
+		# name = holy_site_chalons_effect_name
 		cultural_head_fascination_mult = 0.05
 		#monthly_county_control_change_factor = 0.05
 	}

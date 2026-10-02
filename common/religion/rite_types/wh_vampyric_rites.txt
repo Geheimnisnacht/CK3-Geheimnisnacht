@@ -26,7 +26,7 @@ blood_dragon_faith = {
 	desc = blood_dragon_faith_desc
 	faith = vampyric
 	color = { 1.0 0.0 0.0 }
-	icon = "carstein.dds"
+	icon = carstein
 
 	#doctrine = 
 
@@ -82,7 +82,7 @@ strigoi_faith = {
 	desc = strigoi_faith_desc
 	faith = vampyric
 	color = { 0.1 0.1 0.1 }
-	icon = "sigmar.dds" #placeholder
+	icon = sigmar #placeholder
 
 	#doctrine = 
 
@@ -112,7 +112,7 @@ necrarch_faith = {
 	desc = necrarch_faith_desc
 	faith = vampyric
 	color = { 0.2 0.1 0.1 }
-	icon = "sigmar.dds" #placeholder
+	icon = sigmar #placeholder
 
 	#doctrine = 
 
@@ -212,7 +212,7 @@ strigany_faith = {
 	desc = strigany_faith_desc
 	faith = vampyric
 	color = { 1.0 0.4 0.1 }
-	icon = "sigmar.dds" #placeholder
+	icon = sigmar #placeholder
 
 	#doctrine = 
 

@@ -1,0 +1,13 @@
+﻿# Starting tenet knowledge for this existing faith. Main-rite core tenets are automatic.
+1.1.1 = {
+	created = yes
+	main_rite = blood_dragon_faith
+	known = {
+		tenet_communal_identity
+		tenet_esotericism
+		tenet_lost_kingdom
+		tenet_loyalty_to_nagash
+		tenet_necrarch
+		tenet_strigoi
+	}
+}

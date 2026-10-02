@@ -783,7 +783,7 @@ GetActualBishopTitle = {
 			OR = {
 				faith = faith:dhyana
 				AND = {
-					faith = { has_doctrine = tenet_no_mind }
+					faith = { has_tenet = tenet_no_mind }
 					religion = religion:buddhism_religion
 				}
 			}
@@ -815,7 +815,7 @@ GetActualBishopTitle = {
 			OR = {
 				faith = faith:dhyana
 				AND = {
-					faith = { has_doctrine = tenet_no_mind }
+					faith = { has_tenet = tenet_no_mind }
 					religion = religion:buddhism_religion
 				}
 			}
@@ -1229,21 +1229,21 @@ ghw_from_which_tenet = {
 
 	text = {
 		trigger = {
-			faith = { has_doctrine = tenet_armed_pilgrimages }
+			faith = { has_tenet = tenet_armed_pilgrimages }
 		}
 		localization_key = ghw_from_which_tenet_armed_pilgrimages
 	}
 
 	text = {
 		trigger = {
-			faith = { has_doctrine = tenet_struggle_submission }
+			faith = { has_tenet = tenet_struggle_submission }
 		}
 		localization_key = ghw_from_which_tenet_struggle_submission
 	}
 
 	text = {
 		trigger = {
-			faith = { has_doctrine = tenet_warmonger }
+			faith = { has_tenet = tenet_warmonger }
 		}
 		localization_key = ghw_from_which_tenet_warmonger
 	}

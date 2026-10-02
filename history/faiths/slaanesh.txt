@@ -1,0 +1,5 @@
+﻿# Starting tenet knowledge for this existing faith. Main-rite core tenets are automatic.
+1.1.1 = {
+	created = yes
+	main_rite = slaaneshi_kurgan
+}

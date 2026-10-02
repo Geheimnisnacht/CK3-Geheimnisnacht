@@ -15089,7 +15089,7 @@ elope_success_personal_consequences_effect = {
 
 				if = {
 					limit = {
-						faith = { has_doctrine = tenet_communion }
+						faith = { has_tenet = tenet_communion }
 						NOT = { has_trait = excommunicated }
 					}
 					add_trait = excommunicated

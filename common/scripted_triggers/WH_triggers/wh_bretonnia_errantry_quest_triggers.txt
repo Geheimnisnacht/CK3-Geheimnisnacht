@@ -6,7 +6,7 @@ wh_bretonnia_errantry_quest_candidate_trigger = {
 	NOT = { has_trait = knight_lady }
 	NOT = { has_character_flag = wh_on_errantry_quest }
 	NOT = { has_character_modifier = wh_bretonnia_unproven_noble }
-	faith = { has_doctrine = tenet_knightly_virtues }
+	rite = { rite_has_tenet = tenet_knightly_virtues }
 	OR = {
 		culture = { has_cultural_pillar = martial_custom_equal }
 		AND = {

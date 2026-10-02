@@ -20,7 +20,7 @@ murder_consequences_known_or_exposed_effect = {
 						killer ?= $VICTIM$
 					}
 					AND = {
-						faith = { has_doctrine = tenet_fp3_fedayeen } #this checks that assassins don't get piety loss for killing unbelievers
+						faith = { has_tenet = tenet_fp3_fedayeen } #this checks that assassins don't get piety loss for killing unbelievers
 						NOT = { faith = $VICTIM$.faith }
 					}
 				}		
@@ -134,7 +134,7 @@ murder_consequences_known_or_exposed_hidden_opinion_effect = {
 						killer ?= $VICTIM$
 					}
 					AND = {
-						faith = { has_doctrine = tenet_fp3_fedayeen } #this checks that assassins don't get piety loss for killing unbelievers
+						faith = { has_tenet = tenet_fp3_fedayeen } #this checks that assassins don't get piety loss for killing unbelievers
 						NOT = { faith = $VICTIM$.faith }
 					}
 				}		

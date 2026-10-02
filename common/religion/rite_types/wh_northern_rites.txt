@@ -3,7 +3,7 @@
 	desc = ahaltan_desc
 	faith = northern_faith #WHG TODO
 	color = { 0.6 0.0 0.0 }
-	icon = "ahalt-the-drinker.dds"
+	icon = ahalt-the-drinker
 	
 	
 	#holy_site = wissenburg
@@ -34,7 +34,7 @@ arisen_dead = {
 	desc = arisen_dead_desc
 	faith = northern_faith #WHG TODO
 	color = { 0.1 0.0 0.3 }
-	icon = "arisen_dead.dds"
+	icon = arisen_dead
 	#founder = k_carstein
 	
 	
@@ -55,12 +55,14 @@ arisen_dead = {
 	
 	tenets = {
 		tenet_vampires
-		tenet_rite
+		tenet_communal_identity # Shared-rite identity replaces the removed Rite tenet.
 		tenet_ancestor_worship
 		
 	}
 	
 	doctrines = {
+		doctrine_theocracy_lay_clergy
+		doctrine_clerical_succession_temporal_appointment
 		doctrine_temporal_head
 		doctrine_clerical_function_recruitment
 		special_doctrine_ecumenical_old_world
@@ -93,7 +95,7 @@ halfling_gods = {
 	desc = halfling_gods_desc
 	faith = northern_faith #WHG TODO
 	color = { 0.3 0.6 0.3 }
-	icon = "sigmar.dds" #placeholder
+	icon = sigmar #placeholder
 	
 	#holy_site = eicheschatten
 	#holy_site = leedleton
@@ -184,18 +186,18 @@ manannite = {
 	desc = manannite_desc
 	faith = northern_faith #WHG TODO
 	color = { 0.3 0.5 0.7 }
-	icon = "manann.dds"
+	icon = manann
 	founder = k_cult_of_manann
 
 	
 	#Magic
 	#doctrine_lore_manann
 	
-	holy_site = marienburg
-	holy_site = carroburg
-	holy_site = salkalten
-	holy_site = bordeleaux
-	holy_site = sartosa
+	# Pending holy-site definition: holy_site = marienburg
+	# Pending holy-site definition: holy_site = carroburg
+	# Pending holy-site definition: holy_site = salkalten
+	# Holy site bordeleaux is assigned on the parent faith.
+	# Pending holy-site definition: holy_site = sartosa
 	
 	
 	tenets = {
@@ -211,9 +213,7 @@ manannite = {
 		
 	}
 	
-	holy_order_names = {
-		{ name = "holy_order_manaan_sons_knights" coat_of_arms = "ho_manaan_sons_knights" }
-	}
+	# Military-order names are configured on the parent faith.
 	
 
 }
@@ -225,7 +225,7 @@ sheirrichan = {
 	desc = sheirrichan_desc
 	faith = northern_faith #WHG TODO
 	color = { 0.2 0.5 0.2 }
-	icon = "sigmar.dds" #placeholder
+	icon = sigmar #placeholder
 	#founder = 
 
 	
@@ -257,7 +257,7 @@ sigmarite = {
 	desc = sigmarite_desc
 	faith = northern_faith #WHG TODO
 	color = { 0.8 0.3 0.1 }
-	icon = "sigmarite.dds"
+	icon = sigmarite
 	founder = k_cult_of_sigmar
 
 
@@ -269,13 +269,14 @@ sigmarite = {
 	#holy_site = talabheim
 	#holy_site = black_fire_pass
 
-	tenet = {
-		tenet_monasticism
+	tenets = {
+		tenet_asceticism # Monasticism is now a doctrine; retain an ascetic core tenet.
 		tenet_pentarchy
 		tenet_legalism
 	}
 
-	docrtines = {
+	doctrines = {
+		doctrine_monasticism_encouraged
 		doctrine_clerical_function_recruitment
 		doctrine_clerical_gender_male_only
 		special_doctrine_ecumenical_old_world
@@ -283,10 +284,7 @@ sigmarite = {
 	}
 
 
-	holy_order_names = {
-		{ name = "holy_order_sigmar_blood_knights" coat_of_arms = "ho_sigmar_blood_knights" }
-		{ name = "holy_order_fiery_heart_knights" coat_of_arms = "ho_fiery_heart_knights"  }
-	}
+	# Military-order names are configured on the parent faith.
 	
 
 }
@@ -296,7 +294,7 @@ sigmar_sisters = {
 	desc = sigmar_sisters_desc
 	faith = northern_faith #WHG TODO
 	color = { 0.8 0.3 0.1 }
-	icon = "sigmar.dds"
+	icon = sigmar
 	#founder = d_sisterhood_of_sigmar
 
 
@@ -309,12 +307,13 @@ sigmar_sisters = {
 	
 	
 	tenets = {
-		tenet_monasticism
+		tenet_asceticism # Monasticism is now a doctrine; retain an ascetic core tenet.
 		tenet_pentarchy
 		tenet_legalism
 	}
 
 	doctrines = {
+		doctrine_monasticism_encouraged
 		doctrine_clerical_function_recruitment
 		doctrine_clerical_gender_female_only
 		special_doctrine_ecumenical_old_world
@@ -329,7 +328,7 @@ sollian = {
 	desc = sollian_desc
 	faith = northern_faith #WHG TODO
 	color = { 1.0 0.9 0.0 }
-	icon = "soll.dds"
+	icon = soll
 	#founder = 
 
 	
@@ -356,9 +355,7 @@ sollian = {
 
 
 	
-	holy_order_names = {
-		{ name = "holy_order_undying_sun_knights" coat_of_arms = "ho_undying_sun_knights" }
-	}			
+	# Military-order names are configured on the parent faith.			
 	
 
 }
@@ -369,18 +366,18 @@ taalite = {
 	desc = taalite_desc
 	faith = northern_faith #WHG TODO
 	color = { 0.3 0.7 0.3 }
-	icon = "taal-and-rhya.dds"
+	icon = taal-and-rhya
 	founder = k_cult_of_taal
 
 	
 	#Magic
 	#doctrine_lore_taal_rhya
 	
-	holy_site = talabheim
-	holy_site = unterbaum
-	holy_site = bechafen
-	holy_site = mousillon
-	holy_site = blood_keep
+	# Pending holy-site definition: holy_site = talabheim
+	# Pending holy-site definition: holy_site = unterbaum
+	# Pending holy-site definition: holy_site = bechafen
+	# Holy site mousillon is assigned on the parent faith.
+	# Pending holy-site definition: holy_site = blood_keep
 	
 	
 	tenets = {
@@ -399,10 +396,7 @@ taalite = {
 
 
 
-	holy_order_names = {
-		{ name = "holy_order_taal_fury_knights" coat_of_arms = "ho_taal_fury_knights" }
-		{ name = "holy_order_longshanks_knights" coat_of_arms = "ho_longshanks_knights" }
-	}					
+	# Military-order names are configured on the parent faith.					
 }
 
 
@@ -411,7 +405,7 @@ ulrican = {
 	desc = ulrican_desc
 	faith = northern_faith #WHG TODO
 	color = { 0.1 0.1 0.6 }
-	icon = "ulric.dds"
+	icon = ulric
 	founder = k_cult_of_ulric
 	
 	#Magic
@@ -442,10 +436,7 @@ ulrican = {
 	}
 
 	
-	holy_order_names = {
-		{ name = "holy_order_white_wolf_knights" coat_of_arms = "ho_white_wolf_knights" }
-		{ name = "holy_order_winter_throne_knights" coat_of_arms = "ho_winter_throne_knights"  }
-	}
+	# Military-order names are configured on the parent faith.
 	
 
 }
@@ -535,8 +526,8 @@ northern_gods = {
 	desc = northern_gods_desc
 	faith = northern_faith #WHG TODO
 	color = { 0.3 0.5 0.5 }
-	icon = "old-northern-gods.dds"
-	reformed_icon = "old-northern-gods.dds"
+	icon = old-northern-gods
+	# Reformed icons are configured on the parent faith.
 	
 	
 	#holy_site = praag
@@ -595,7 +586,7 @@ ursunite = {
 	desc = ursunite_desc
 	faith = northern_faith #WHG TODO
 	color = { 0.7 0.8 0.9 }
-	icon = "ursun.dds"
+	icon = ursun
 	#founder = k_cult_of_ursun
 
 	
@@ -744,3 +735,21 @@ ursunite = {
 #	doctrine = 
 #	doctrine = 
 #}
+
+# Restored from the original commented Handrich definition: history already uses this rite.
+handrichan = {
+	name = handrichan
+	desc = handrichan_desc
+	faith = northern_faith
+	color = { 1.0 0.8 0.0 }
+	icon = handrich
+	tenets = {
+		tenet_legalism
+		tenet_pacifism
+		tenet_ancestor_worship
+	}
+	doctrines = {
+		special_doctrine_ecumenical_old_world
+		handrichan_doctrine
+	}
+}
