@@ -1,0 +1,72 @@
+﻿
+order_hostility_doctrine = {
+	doctrine_group_type = hostility_group
+	index = 0
+	divergence = 30
+	
+	special_parameters = {
+		hostility_levels = {
+			same_religion = hostile
+			same_family = astray
+			unrelated = evil
+		}
+	}
+
+
+}
+chaos_hostility_doctrine = {
+	doctrine_group_type = hostility_group
+	index = 1
+	divergence = 30
+	
+	special_parameters = {
+		hostility_levels = {
+			same_religion = hostile
+			same_family = evil
+			unrelated = evil
+		}
+	}
+}
+
+old_ones_hostility_doctrine = {
+	doctrine_group_type = hostility_group
+	index = 2
+	divergence = 30
+	
+	special_parameters = {
+		hostility_levels = {
+			same_religion = hostile
+			same_family = evil
+			unrelated = evil
+		}
+	}
+}
+
+destruction_hostility_doctrine = {
+	doctrine_group_type = hostility_group
+	index = 3
+	divergence = 30
+	
+	special_parameters = {
+		hostility_levels = {
+			same_religion = hostile
+			same_family = evil
+			unrelated = evil
+		}
+	}
+}
+
+necromantic_hostility_doctrine = {
+	doctrine_group_type = hostility_group
+	index = 4
+	divergence = 30
+	
+	special_parameters = {
+		hostility_levels = {
+			same_religion = hostile
+			same_family = evil
+			unrelated = evil
+		}
+	}
+}
+
