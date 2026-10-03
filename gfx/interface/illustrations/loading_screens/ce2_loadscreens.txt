@@ -1,1 +1,1 @@
-﻿
+﻿# WHG: no vanilla loading screens
