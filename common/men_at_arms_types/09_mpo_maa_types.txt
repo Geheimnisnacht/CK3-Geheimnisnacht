@@ -297,8 +297,8 @@ mangudai = {
 	
 	access_through_subject = { lotr_orc_can_recruit_from_subject = no } #LotR
     can_recruit = {
-		always = no #LotR
-		#culture = { #LotR
+		always = no #WHG
+		#culture = { #WHG
 		#	has_cultural_parameter = unlock_maa_mangudai
 		#}
 	}

@@ -1,5 +1,5 @@
 ﻿claim_the_imamate_scripted_effect = {
-	# # Create a HoF title & assign it appropriately. # LotR
+	# # Create a HoF title & assign it appropriately. # WHG
 	# if = {
 	# 	limit = {
 	# 		NOT = {
@@ -139,7 +139,7 @@
 
 avenge_the_battle_of_nahrawan_scripted_effect = {
 		
-	# give_nickname = nick_the_avenger # LotR
+	# give_nickname = nick_the_avenger # WHG
 	# add_character_modifier = {
 	# 	modifier = fp3_azariqa_ascendancy_modifier 
 	# }
@@ -253,7 +253,7 @@ avenge_the_battle_of_nahrawan_scripted_effect = {
 
 promote_persian_scripture_scripted_effect = {
 
-	# if = {  # LotR
+	# if = {  # WHG
 	# 	limit = { 
 	# 		exists = faith.religious_head 
 	# 		NOT = { this = faith.religious_head }
@@ -363,7 +363,7 @@ promote_persian_scripture_scripted_effect = {
 }
 
 read_name_in_friday_prayer_guts_become_supporter_effect = {
-	# hidden_effect = { remove_trait = fp3_struggle_detractor } # LotR
+	# hidden_effect = { remove_trait = fp3_struggle_detractor } # WHG
 	# add_trait_force_tooltip = fp3_struggle_supporter
 	# add_character_modifier = {
 	# 	modifier = fp3_displayed_pious_submission_to_caliph_modifier
@@ -372,7 +372,7 @@ read_name_in_friday_prayer_guts_become_supporter_effect = {
 }
 
 read_name_in_friday_prayer_guts_become_detractor_effect = {
-	# hidden_effect = { remove_trait = fp3_struggle_supporter } # LotR
+	# hidden_effect = { remove_trait = fp3_struggle_supporter } # WHG
 	# add_trait_force_tooltip = fp3_struggle_detractor
 	# add_character_modifier = {
 	# 	modifier = fp3_name_read_in_friday_prayer_modifier
@@ -382,7 +382,7 @@ read_name_in_friday_prayer_guts_become_detractor_effect = {
 
 read_name_in_friday_prayer_guts_apply_sundry_changes_effect = {
 	# # More like notoriety, but potato-potatoe.
-	# if = { # LotR
+	# if = { # WHG
 	# 	limit = {
 	# 		NOT = { exists = scope:prestige_gained }
 	# 	}
@@ -401,7 +401,7 @@ read_name_in_friday_prayer_guts_apply_sundry_changes_effect = {
 }
 
 read_name_in_friday_prayer_guts_apply_house_unity_changes_effect = {
-	# # Twiddle with house unity a smidge. # LotR
+	# # Twiddle with house unity a smidge. # WHG
 	# ## We need to invert the triggers before the decision is taken, so we add a flag that'll only be applied when the effect runs.
 	# add_character_flag = fp3_friday_prayer_twiddling_house_unity_force_correct_ui
 	# ## Ok, now, what's the UI look like before the decision is taken?
@@ -511,7 +511,7 @@ read_name_in_friday_prayer_guts_apply_house_unity_changes_effect = {
 }
 
 read_name_in_friday_prayer_scripted_effect = {
-	# # Apply the appropriate modifier. # LotR
+	# # Apply the appropriate modifier. # WHG
 	# ## Neutrals pick in the event.
 	# if = {
 	# 	limit = {

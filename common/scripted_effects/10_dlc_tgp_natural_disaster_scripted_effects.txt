@@ -551,9 +551,7 @@ natural_disaster_death_damage_roll_effect = {
 		every_county_province = {
 			every_character_in_location = {
 				limit = {  #WHG TODO
-					cannot_be_killed = no 
-					# is_elf = no
-					# lotr_canon_safe_from_harm_trigger = no
+
 				}
 				add_to_list = killable_characters
 			}

@@ -8,7 +8,7 @@
 
 # Add all Involved cultures with counties to a list
 fp2_struggle_ending_culture_list_effect = {
-	# every_culture_global = {		#LotR
+	# every_culture_global = {		#WHG
 	# 	limit = {
 	# 		#TODO_CD_FP2 (JP) check if this can be more performant, every_struggle_culture would be better
 	# 		save_temporary_scope_as = this_culture
@@ -25,7 +25,7 @@ fp2_struggle_ending_culture_list_effect = {
 
 # Add all Involved independent rulers to a list
 fp2_stuggle_ending_involved_list_effect = {
-	# save_scope_as = struggle_ender #LotR
+	# save_scope_as = struggle_ender #WHG
 	# struggle:iberian_struggle = {
 	# 	every_involved_ruler = {
 	# 		limit = {
@@ -45,7 +45,7 @@ fp2_stuggle_ending_involved_list_effect = {
 
 # Add all Involved faiths with counties to a list
 fp2_struggle_ending_faith_list_effect = {
-	# every_religion_global = { #LotR
+	# every_religion_global = { #WHG
 	# 	limit = {
 	# 		any_faith = {
 	# 			save_temporary_scope_as = this_faith
@@ -69,7 +69,7 @@ fp2_struggle_ending_faith_list_effect = {
 
 # Set cultural acceptance between all Involved cultures
 fp2_struggle_hostility_cultural_acceptance_effect = {
-	# hidden_effect = { #LotR
+	# hidden_effect = { #WHG
 	# 	while = {
 	# 		limit = {
 	# 			any_in_global_list = {
@@ -110,7 +110,7 @@ fp2_struggle_hostility_cultural_acceptance_effect = {
 
 # Set cultural acceptance between all Involved cultures
 fp2_struggle_hostility_cultural_acceptance_large_effect = {
-	# hidden_effect = { #LotR
+	# hidden_effect = { #WHG
 	# 	while = {
 	# 		limit = {
 	# 			any_in_global_list = {
@@ -154,7 +154,7 @@ fp2_struggle_hostility_cultural_acceptance_large_effect = {
 
 # Creates a new de jure kingdom from a duchy
 fp2_struggle_compromise_create_new_kingdom_effect = {
-	# add_to_list = duchy_kingdom #LotR
+	# add_to_list = duchy_kingdom #WHG
 	# create_dynamic_title = {
 	# 	tier = kingdom
 	# 	name = $TYPE$_CREATED_TITLE_NAME
@@ -239,7 +239,7 @@ fp2_struggle_compromise_duchies_to_kingdoms_effect = {
 
 # Moves duchies to another kingdom
 fp2_struggle_compromise_transfer_duchies_effect = {
-	# title:e_spain = { #LotR
+	# title:e_spain = { #WHG
 	# 	while = {
 	# 		limit = {
 	# 			any_in_de_jure_hierarchy = { fp2_struggle_compromise_transfer_duchy_trigger = yes }
@@ -282,7 +282,7 @@ fp2_struggle_compromise_transfer_duchies_effect = {
 
 # Creates a new de jure empire from a kingdom
 fp2_struggle_compromise_create_new_empire_effect = {
-	# add_to_list = kingdom_empire #LotR
+	# add_to_list = kingdom_empire #WHG
 	# save_scope_as = old_title
 	# create_dynamic_title = {
 	# 	tier = empire
@@ -299,7 +299,7 @@ fp2_struggle_compromise_create_new_empire_effect = {
 
 # Create new de jure empires from relevant kingdoms
 fp2_struggle_compromise_kingdoms_to_empires_effect = {
-	# hidden_effect = { #LotR
+	# hidden_effect = { #WHG
 	# 	title:e_spain = {
 	# 		every_in_de_jure_hierarchy = {
 	# 			limit = {
@@ -317,7 +317,7 @@ fp2_struggle_compromise_kingdoms_to_empires_effect = {
 
 # Distribute remaining Kingdoms to neighboring empires
 fp2_struggle_compromise_distribute_kingdoms_to_neighbouring_empires_effect = {
-	# hidden_effect = { #LotR
+	# hidden_effect = { #WHG
 	# 	title:e_spain = {
 	# 		every_in_de_jure_hierarchy = {
 	# 			limit = { tier = tier_kingdom }
@@ -383,7 +383,7 @@ fp2_struggle_compromise_distribute_kingdoms_to_neighbouring_empires_effect = {
 }
 
 fp2_struggle_compromise_distribute_the_actual_titles = {
-	# struggle:iberian_struggle = { #LotR
+	# struggle:iberian_struggle = { #WHG
 	# 	create_title_and_vassal_change = {
 	# 		type = granted
 	# 		save_scope_as = change
@@ -430,7 +430,7 @@ fp2_struggle_compromise_distribute_the_actual_titles = {
 
 # Add house modifiers to Involved rulers; Didn't rename the key for localization cost reasons
 fp2_struggle_compromise_modifier_rewards_effect = {
-	# struggle:iberian_struggle = { #LotR
+	# struggle:iberian_struggle = { #WHG
 	# 	show_as_tooltip = {
 	# 		every_involved_ruler = {
 	# 			limit = { this = root }
@@ -468,7 +468,7 @@ fp2_struggle_compromise_modifier_rewards_effect = {
 
 # Add house modifiers to a single character (used in tooltips);
 fp2_struggle_compromise_modifier_rewards_personal_house_effect = {
-	# house = { #LotR
+	# house = { #WHG
 	# 	custom_tooltip = fp2_struggle_compromise_house_enforce_truce_rewards_tt
 	# 	add_house_modifier = {
 	# 		modifier = fp2_struggle_compromise_house_reward_modifier
@@ -478,7 +478,7 @@ fp2_struggle_compromise_modifier_rewards_personal_house_effect = {
 
 # Add county modifiers to a single character (used in tooltips)
 fp2_struggle_compromise_modifier_rewards_personal_county_effect = {
-	# capital_county = { #LotR
+	# capital_county = { #WHG
 	# 	add_county_modifier = { #TODO_CD_FP2 (JP) check this is the right scope
 	# 		modifier = fp2_struggle_compromise_defensive_reward_modifier
 	# 	}
@@ -487,7 +487,7 @@ fp2_struggle_compromise_modifier_rewards_personal_county_effect = {
 
 # Add truces between all Involved rulers
 fp2_struggle_compromise_truce_effect = {
-	# hidden_effect = { #LotR
+	# hidden_effect = { #WHG
 	# 	if = {
 	# 		limit = {
 	# 			struggle:iberian_struggle = {
@@ -551,7 +551,7 @@ fp2_struggle_compromise_truce_effect = {
 
 # Add House modifiers to all Involved rulers
 fp2_struggle_conciliation_modifier_rewards_effect = {
-	# struggle:iberian_struggle = { #LotR
+	# struggle:iberian_struggle = { #WHG
 	# 	every_involved_ruler = {
 	# 		limit = { this = root }
 	# 		custom = fp2_struggle_compromise_house_rewards_tt
@@ -573,7 +573,7 @@ fp2_struggle_conciliation_modifier_rewards_effect = {
 
 # Add House modifier to a single character (used in tooltips)
 fp2_struggle_conciliation_modifier_rewards_personal_effect = {
-	# house = { #LotR
+	# house = { #WHG
 	# 	add_house_modifier = { #TODO_CD_FP2 (JP) check this is the right scope
 	# 		modifier = fp2_struggle_conciliation_house_reward_modifier
 	# 	}
@@ -582,7 +582,7 @@ fp2_struggle_conciliation_modifier_rewards_personal_effect = {
 
 # Add cultural acceptance between Involved cultures
 fp2_struggle_conciliation_cultural_acceptance_effect = {
-	# hidden_effect = { #LotR
+	# hidden_effect = { #WHG
 	# 	while = {
 	# 		limit = {
 	# 			any_in_global_list = {

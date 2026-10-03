@@ -101,11 +101,6 @@ is_human_culture = { #all other races and species should be added here
 }
 
 
-# cannot_be_killed = {
-# 	OR = {
-# 		is_wastelands = yes
-# 	}
-# }
 
 restricted_culture = { #these cultures should not be present in-game outside of certain story characters
 

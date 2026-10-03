@@ -1,4 +1,4 @@
-﻿# LotR: removed real world references
+﻿# WHG: removed real world references
 
 ToleranceValue = {
 	type = character
@@ -676,7 +676,7 @@ GetActualBishopTitle = {
 	}
 
 	# Religion-By-Religion Titles for Bishops based on Liege's Tier.
-	# LotR: Norse converted to men_of_darkness intended for Dunlendings.
+	# WHG: Norse converted to men_of_darkness intended for Dunlendings.
 	#Norse
 	text = {
 		trigger = {
@@ -1159,7 +1159,7 @@ GetBirthOmen = {
 GetTaltosTerm = {
 	type = character
 
-	# text = { #LotR
+	# text = { #WHG
 	# 	trigger = {	religion = religion:magyar_religion }
 	# 	localization_key = chosen_one_taltos
 	# }
@@ -1175,14 +1175,14 @@ GetTaltosTerm = {
 GetReligiousRite = {
 	type = character
 
-	# text = { #LotR
+	# text = { #WHG
 	# 	localization_key = rite_mass
 	# 	trigger = { faith = { religion = religion:christianity_religion } }
 	# }
 	text = {
 		localization_key = rite_prayer
 		trigger = {
-			# faith = { # LOTR
+			# faith = { # WHG
 			# 	OR = {
 			# 		religion = religion:islam_religion
 			# 		religion = religion:judaism_religion
@@ -1207,14 +1207,14 @@ GetReligiousRite = {
 GetRiteEcumenismFullOrEmpty = {
 	type = character
 
-	# text = { #LotR
+	# text = { #WHG
 	# 	trigger = {
 	# 		faith = { has_doctrine = special_doctrine_ecumenical_christian }
 	# 	}
 	# 	localization_key = GetRiteEcumenismFullOrEmpty_full
 	# }
 	text = {
-		# trigger = { #LotR
+		# trigger = { #WHG
 		# 	NOT = {
 		# 		faith = { has_doctrine = special_doctrine_ecumenical_christian }
 		# 	}

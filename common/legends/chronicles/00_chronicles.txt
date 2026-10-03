@@ -1376,7 +1376,7 @@ priesthood_restoration = {
 struggle_conclusion = {
 	name = {
 		first_valid = {
-			# triggered_desc = { #LotR
+			# triggered_desc = { #WHG
 			# 	trigger = {
 			# 		scope:struggle = flag:iberian_struggle
 			# 	}
@@ -1393,7 +1393,7 @@ struggle_conclusion = {
 	}
 	description = {
 		first_valid = {
-			# triggered_desc = { #LotR
+			# triggered_desc = { #WHG
 			# 	trigger = {
 			# 		scope:struggle = flag:iberian_struggle
 			# 	}
@@ -1422,7 +1422,7 @@ struggle_conclusion = {
 legendary_battle = {
 	name = {
 		first_valid = {
-			# triggered_desc = { #LotR
+			# triggered_desc = { #WHG
 			# 	trigger = {
 			# 		scope:loser = { has_nickname = nick_genghis_khan }
 			# 	}
@@ -1433,7 +1433,7 @@ legendary_battle = {
 	}
 	description = {
 		first_valid = {
-			# triggered_desc = { #LotR
+			# triggered_desc = { #WHG
 			# 	trigger = {
 			# 		scope:loser = { has_nickname = nick_genghis_khan }
 			# 	}
