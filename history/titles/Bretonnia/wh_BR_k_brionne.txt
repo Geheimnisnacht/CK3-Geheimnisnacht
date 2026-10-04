@@ -21,6 +21,7 @@ k_brionne = {
 	}
 	6507.1.1 = {
 		holder = savaric_101
+		government = chivalric_government
 	}
 
 }

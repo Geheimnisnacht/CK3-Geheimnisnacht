@@ -17,6 +17,7 @@ k_mousillon = {
 	6510.1.1 = {
 		holder = moigne_100
 		liege = 0
+		government = chivalric_government
 	}
 }
 

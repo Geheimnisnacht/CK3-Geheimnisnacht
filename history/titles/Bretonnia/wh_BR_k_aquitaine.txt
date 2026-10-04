@@ -30,6 +30,7 @@ k_aquitaine = {
 	}
 	6510.1.11 = {
 		holder = aquitaine_106
+		government = chivalric_government
 	}
 }
 

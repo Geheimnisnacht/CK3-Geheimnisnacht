@@ -1,0 +1,11 @@
+﻿l_english: 
+ chivalric_government:0 "Chivalric"
+ chivalric_government_with_icon: "@government_type_chivalric! $chivalric_government$"
+ chivalric_government_adjective:0 "Chivalric"
+ chivalric_government_realm:0 "Chivalric Realm"
+ chivalric_government_vassals_label:1 "Chivalric [obligations|E] are based on each [vassal|E]'s [vassal_contract|E]"
+
+ chivalric_government_desc:1 "[grail|E] worship's complex code of honor and chivalry demands a government that is far more organized than normal feudalism. The patchwork net of relationships and obligations that define feudalism have been largely made into rigid, formalized law, carried out as reverently as if it was religious ritual - which it is, to the Bretonnians. Every duke is granted a dukedom, by the grace of the Royarch, to enforce the code of the [grail|E] within. Generally, landowners are free to do as they please with their fiefs, but subinfeudation - creating new vassals - is normal and expected of all noblemen. The high mortality rate of Bretonnian questing ensures that this system never runs out of land, keeping everything in a delicate balance. Additionally, any who own land are expected to appoint a Castellan from among their vassals, generally their most powerful, to serve as both the first line of defense and the overseer of the land in the lord's absence."
+
+
+

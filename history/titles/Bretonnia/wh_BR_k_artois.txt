@@ -73,6 +73,7 @@ c_yremois = {
 	6502.5.23 = {
 		holder = litpolden_101
 		liege = d_arden
+		government = chivalric_government
 	}
 }
 

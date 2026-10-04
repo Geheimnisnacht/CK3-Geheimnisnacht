@@ -1,6 +1,6 @@
 ﻿e_bretonnia = {
 	5479.1.1 = {
-		government = feudal_government
+		government = chivalric_government
 		#succession_laws = {
 			#royarchy_succession_law
 		#}
@@ -122,6 +122,7 @@
 		holder = dame_098
 	}
 	6507.10.5 = {
+		government = chivalric_government
 		holder = dame_100
 	}
 }

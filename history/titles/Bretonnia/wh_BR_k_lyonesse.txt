@@ -43,6 +43,7 @@ k_lyonesse = {
 	6507.6.1  = {
 		holder = lyonesse_104
 		liege = e_bretonnia
+		government = chivalric_government
 	}
 }
 

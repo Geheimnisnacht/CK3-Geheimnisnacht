@@ -16,6 +16,7 @@ k_carcassonne = {
 	6507.6.1  = {
 		holder = got_101
 		liege = 0
+		government = chivalric_government
 	}
 }
 

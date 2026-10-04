@@ -188,6 +188,7 @@ c_yquem = {
 		#liege = k_facebeater
 		holder = yquem_100
 		liege = d_toussaint
+		government = chivalric_government
 	}
 }
 

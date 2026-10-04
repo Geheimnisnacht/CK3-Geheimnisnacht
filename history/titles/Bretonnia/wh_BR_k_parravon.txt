@@ -24,6 +24,7 @@ k_parravon = {
 	}
 	6510.1.1  = {
 		holder = bessa_100
+		government = chivalric_government
 	}
 }
 
