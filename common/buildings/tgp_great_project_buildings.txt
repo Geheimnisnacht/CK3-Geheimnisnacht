@@ -496,7 +496,7 @@ celestial_great_barracks_01 = {
 			custom_tooltip = {
 				text = celestial_great_barracks_enabled_desc
 				OR = {
-					vassal_contract_has_flag = celestial_military_appointment # Only for celestial military governors
+					vassal_contract_has_flag = province_military # Only for military governors
 					government_has_flag = government_is_administrative # All regular admin types are eligible
 					is_independent_ruler = yes # The top liege can always use it
 				}
@@ -531,140 +531,140 @@ celestial_great_barracks_01 = {
 }
 
 # The Great Wall - Qin Era
-#the_great_wall_01 = {
-#	type_icon = "icon_structure_the_great_wall.dds"
-#
-#	can_construct_potential = {
-#	}
-#
-#	is_enabled = {
-#	}
-#
-#	show_disabled = yes
-#	
-#	province_modifier = {
-#		fort_level = 1
-#		hostile_raid_time = 0.1
-#		defender_holding_advantage = 2
-#	}
-#	
-#	type = great_building
-#}
+the_great_wall_01 = {
+	type_icon = "icon_structure_the_great_wall.dds"
+
+	can_construct_potential = {
+	}
+
+	is_enabled = {
+	}
+
+	show_disabled = yes
+	
+	province_modifier = {
+		fort_level = 1
+		hostile_raid_time = 0.1
+		defender_holding_advantage = 2
+	}
+	
+	type = great_building
+}
 
 # The Great Wall - Han Era
-#the_great_wall_02 = {
-#	type_icon = "icon_structure_the_great_wall.dds"
-#
-#	can_construct_potential = {
-#	}
-#
-#	is_enabled = {
-#	}
-#
-#	show_disabled = yes
-#	
-#	province_modifier = {
-#		fort_level = 2
-#		hostile_raid_time = 0.2
-#		stationed_maa_toughness_mult = 0.05
-#		defender_holding_advantage = 4
-#	}
-#	
-#	type = great_building
-#}
+the_great_wall_02 = {
+	type_icon = "icon_structure_the_great_wall.dds"
+
+	can_construct_potential = {
+	}
+
+	is_enabled = {
+	}
+
+	show_disabled = yes
+	
+	province_modifier = {
+		fort_level = 2
+		hostile_raid_time = 0.2
+		stationed_maa_toughness_mult = 0.05
+		defender_holding_advantage = 4
+	}
+	
+	type = great_building
+}
 
 # The Great Wall - Northern Wei/Qi/Sui Era (we bundle these together since they overlap somewhat)
-#the_great_wall_03 = {
-#	type_icon = "icon_structure_the_great_wall.dds"
-#
-#	can_construct_potential = {
-#	}
-#
-#	is_enabled = {
-#	}
-#
-#	show_disabled = yes
-#	
-#	province_modifier = {
-#		fort_level = 3
-#		hostile_raid_time = 0.3
-#		stationed_maa_toughness_mult = 0.05
-#		defender_holding_advantage = 6
-#	}
-#	
-#	type = great_building
-#}
+the_great_wall_03 = {
+	type_icon = "icon_structure_the_great_wall.dds"
+
+	can_construct_potential = {
+	}
+
+	is_enabled = {
+	}
+
+	show_disabled = yes
+	
+	province_modifier = {
+		fort_level = 3
+		hostile_raid_time = 0.3
+		stationed_maa_toughness_mult = 0.05
+		defender_holding_advantage = 6
+	}
+	
+	type = great_building
+}
 
 # The Great Wall - Ming Era (this is also what you can build in-game)
-#the_great_wall_04 = {
-#	type_icon = "icon_structure_the_great_wall.dds"
-#
-#	can_construct_potential = {
-#	}
-#
-#	is_enabled = {
-#	}
-#
-#	show_disabled = yes
-#	
-#	province_modifier = {
-#		fort_level = 5
-#		hostile_raid_time = 0.5
-#		stationed_maa_toughness_mult = 0.05
-#		defender_holding_advantage = 8
-#	}
-#	
-#	type = great_building
-#}
+the_great_wall_04 = {
+	type_icon = "icon_structure_the_great_wall.dds"
 
-#the_great_wall_shanhai_pass = {
-#	asset = {
-#		type = pdxmesh
-#		name = "tgp_great_wall_04_mesh"
-#	}
-#
-#	type_icon = "icon_structure_the_great_wall.dds"
-#
-#	can_construct_potential = {
-#	}
-#
-#	is_enabled = {
-#	}
-#
-#	show_disabled = yes
-#	
-#	province_modifier = {
-#		fort_level = 5
-#		hostile_raid_time = 0.5
-#		stationed_maa_toughness_mult = 0.05
-#		defender_holding_advantage = 8
-#	}
-#	
-#	type = great_building
-#}
+	can_construct_potential = {
+	}
 
-#the_great_wall_liaodong = {
-#	asset = {
-#		type = pdxmesh
-#		name = "tgp_great_wall_05_mesh"
-#	}
-#
-#	type_icon = "icon_structure_the_great_wall.dds"
-#
-#	can_construct_potential = {
-#	}
-#
-#	is_enabled = {
-#	}
-#
-#	show_disabled = yes
-#	
-#	province_modifier = {
-#		fort_level = 5
-#		hostile_raid_time = 0.5
-#		stationed_maa_toughness_mult = 0.05
-#		defender_holding_advantage = 8
-#	}
-#	
-#	type = great_building
-#}
+	is_enabled = {
+	}
+
+	show_disabled = yes
+	
+	province_modifier = {
+		fort_level = 5
+		hostile_raid_time = 0.5
+		stationed_maa_toughness_mult = 0.05
+		defender_holding_advantage = 8
+	}
+	
+	type = great_building
+}
+
+the_great_wall_shanhai_pass = {
+	asset = {
+		type = pdxmesh
+		name = "tgp_great_wall_04_mesh"
+	}
+
+	type_icon = "icon_structure_the_great_wall.dds"
+
+	can_construct_potential = {
+	}
+
+	is_enabled = {
+	}
+
+	show_disabled = yes
+	
+	province_modifier = {
+		fort_level = 5
+		hostile_raid_time = 0.5
+		stationed_maa_toughness_mult = 0.05
+		defender_holding_advantage = 8
+	}
+	
+	type = great_building
+}
+
+the_great_wall_liaodong = {
+	asset = {
+		type = pdxmesh
+		name = "tgp_great_wall_05_mesh"
+	}
+
+	type_icon = "icon_structure_the_great_wall.dds"
+
+	can_construct_potential = {
+	}
+
+	is_enabled = {
+	}
+
+	show_disabled = yes
+	
+	province_modifier = {
+		fort_level = 5
+		hostile_raid_time = 0.5
+		stationed_maa_toughness_mult = 0.05
+		defender_holding_advantage = 8
+	}
+	
+	type = great_building
+}
