@@ -19,6 +19,12 @@ small_religious_carving_template = {
 		scope:artifact = { exists = var:relic_religion }
 		faith.religion = scope:artifact.var:relic_religion
 	}
+
+	is_holy_relic = {
+		scope:artifact = { exists = var:relic_religion }
+		religion = scope:artifact.var:relic_religion
+	}
+
 	fallback = {
 		monthly_prestige = 0.05
 	}
@@ -33,6 +39,11 @@ holy_book_template = {
 	can_benefit = {
 		scope:artifact = { exists = var:relic_religion }
 		has_religion = scope:artifact.var:relic_religion
+	}
+
+	is_holy_relic = {
+		scope:artifact = { exists = var:relic_religion }
+		religion = scope:artifact.var:relic_religion
 	}
 
 	# if a given character does not pass the "can_benefit" trigger then this modifier will be applied instead.
@@ -121,6 +132,12 @@ fp3_zoroastrian_brazier_template = {
 #	can_benefit = {
 #		zoroastrian_or_syncretic_with_eastern_trigger = { CHARACTER = root }
 #	}
+	is_holy_relic = {
+		OR = {
+			religion = religion:zoroastrianism_religion
+			main_rite = { rite_has_parameter = eastern_syncretic_actor }
+		}
+	}
 
 	# If a given character does not pass the "can_benefit" trigger then this modifier will be applied instead.
 	fallback = {
@@ -134,7 +151,11 @@ ce1_mummy_template = {
 	}
 
 	can_benefit = {
-		faith = { has_doctrine_parameter = mummification_funeral }
+		rite = { rite_has_parameter = mummification_funeral }
+	}
+
+	is_holy_relic = {
+		has_doctrine_parameter = mummification_funeral
 	}
 
 	fallback = {
@@ -210,15 +231,22 @@ tgp_severed_head_template = {
 	}
 
 	can_benefit = {
-		faith = {
-			has_tenet = tenet_cranial_trophies
-		}
+		tgp_cranial_trophies_collection_trigger = yes
 	}
 	can_repair = {
 		always = no
 	}
 	can_reforge = {
 		always = no
+	}
+
+	is_holy_relic = {
+		main_rite = {
+			rite_has_tenet = tenet_cranial_trophies
+		}
+		scope:artifact = {
+			rarity_level >= masterwork
+		}
 	}
 
 	fallback = {

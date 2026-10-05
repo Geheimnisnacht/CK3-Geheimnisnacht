@@ -1023,12 +1023,6 @@
 		trigger = { artifact_feature_metal_bulat_steel_trigger = yes }
 		weight = 1
 	}
-	
-	handle_metal_noldorin_steel = {
-		group = blade_metal
-		trigger = { artifact_feature_metal_noldorin_steel_trigger = yes }
-		weight = 20
-	}
 
 # shaft_wood - axes, hammers, spears
 	shaft_wood_ash = {
@@ -1215,150 +1209,11 @@
 		weight = 10
 	}
 
-	composite_horn_aurochs = {
-		group = composite_horn
-		trigger = {
-			artifact_region_trigger = { CHARACTER = scope:owner REGION = hunt_animal_aurochs_region }
-		}
-		weight = 5
-	}
-
-	# Bow
-	bow_wood_ash = {
-		group = bow_wood
-		trigger = { artifact_feature_wood_ash_trigger = yes }
-		weight = 10
-	}
-
-	bow_wood_bamboo = {
-		group = bow_wood
-		trigger = { artifact_feature_wood_bamboo_trigger = yes }
-		weight = 50
-	}
-
-	bow_wood_cherry = {
-		group = bow_wood
-		trigger = { artifact_feature_wood_cherry_trigger = yes }
-		weight = 10
-	}
-
-	bow_wood_hazel = {
-		group = bow_wood
-		trigger = { artifact_feature_wood_hazel_trigger = yes }
-		weight = 10
-	}
-
-	bow_wood_hickory = {
-		group = bow_wood
-		trigger = { artifact_feature_wood_hickory_trigger = yes }
-		weight = 10
-	}
-
-	bow_wood_maple = {
-		group = bow_wood
-		trigger = { artifact_feature_wood_maple_trigger = yes }
-		weight = 20
-	}
-
-	bow_wood_mulberry = {
-		group = bow_wood
-		trigger = { artifact_feature_wood_mulberry_trigger = yes }
-		weight = 10
-	}
-
-	bow_wood_palm = {
-		group = bow_wood
-		trigger = { artifact_feature_wood_palm_trigger = yes }
-		weight = 20
-	}
-
-	bow_wood_oak = {
-		group = bow_wood
-		trigger = { artifact_feature_wood_oak_trigger = yes }
+	shaft_wood_linden = {
+		group = shaft_wood
+		trigger = { artifact_feature_wood_linden_trigger = yes }
 		weight = 1
-	}
-
-	bow_wood_walnut = {
-		group = bow_wood
-		trigger = { artifact_feature_wood_walnut_trigger = yes }
-		weight = 10
-	}
-
-	bow_wood_yew = {
-		group = bow_wood
-		trigger = { artifact_feature_wood_yew_trigger = yes }
-		weight = 20
-	}
-
-	# Shared
-	bow_string_hemp = {
-		group = bow_string
-		weight = {
-			value = 10
-			if = {
-				limit = {
-					artifact_region_trigger = { CHARACTER = scope:owner REGION = world_old_world_kislev } #WHG 
-				}
-				add = 40
-			}
-		}
-	}
-
-	bow_string_horse_hair = {
-		group = bow_string
-		weight = {
-			value = 5
-			if = {
-				limit = {
-					artifact_region_trigger = { CHARACTER = scope:owner REGION = world_old_world_kislev } #WHG 
-				}
-				add = 45
-			}
-		}
-	}
-
-	bow_string_linen = {
-		group = bow_string
-		weight = 50
-	}
-
-	bow_string_rawhide = {
-		group = bow_string
-		weight = {
-			value = 5
-			if = {
-				limit = {
-					artifact_region_trigger = { CHARACTER = scope:owner REGION = world_old_world_kislev } #WHG 
-				}
-				add = 45
-			}
-		}
-	}
-
-	bow_string_silk = {
-		group = bow_string
-		trigger = {
-			artifact_value_trigger = { VALUE = scope:wealth MIN = 40 MAX = 999 }
-			NOT = { artifact_region_trigger = { CHARACTER = scope:owner REGION = material_cloth_no_silk } }
-		}
-	}
-	
-	bow_string_sinew = {
-		group = bow_string
-		weight = {
-			value = 5
-			if = {
-				limit = {
-					artifact_region_trigger = { CHARACTER = scope:owner REGION = world_old_world_kislev } #WHG TODO
-				}
-				add = 45
-			}
-			# if = {
-			# 	limit = { scope:bow_type = flag:artifact_bow_type_composite }
-			# 	add = -50
-			# }
-		}
-	}
+	}	
 
 #################################################################
 # Weapon Decorative Features - Blades, Hilts, Heads, (S)hafts) 	#
@@ -2173,7 +2028,7 @@
 	brooch_centerpiece_sword = {
 		group = brooch_centerpiece
 		trigger = {
-			scope:owner.faith ?= { NOT = { has_doctrine_parameter = pacifist_opinion_active } }
+			scope:owner.rite ?= { NOT = { rite_has_parameter = pacifist } }
 		}
 		weight = 33
 	}
@@ -2191,18 +2046,10 @@
 		group = brooch_adornment
 		weight = 33
 	}
-	#brooch_adornment_runes = {
-	#	group = brooch_adornment	
-	#	weight = 33
-	#}
-	brooch_adornment_tengwar = {
+	brooch_adornment_runes = {
 		group = brooch_adornment	
 		weight = 33
 	}	
-	brooch_adornment_cirth = {
-		group = brooch_adornment	
-		weight = 33
-	}
 
 #################################################################
 # Ring Features - Decorations, Centerpieces, Adornments		#
@@ -2755,32 +2602,6 @@
 		}
 		weight = 4
 	}
-	animal_skull_type_warg = {
-		group = animal_skull_type
-		trigger = {
-			trigger_if = {
-				limit = { exists = scope:owner.var:animal_type }
-				OR = {
-					scope:owner.var:animal_type = flag:warg
-					scope:owner.var:animal_type = flag:none
-				}
-			}
-		}
-		weight = 4
-	}
-	animal_skull_type_caragor = {
-		group = animal_skull_type
-		trigger = {
-			trigger_if = {
-				limit = { exists = scope:owner.var:animal_type }
-				OR = {
-					scope:owner.var:animal_type = flag:caragor
-					scope:owner.var:animal_type = flag:none
-				}
-			}
-		}
-		weight = 4
-	}
 	animal_skull_type_hyena = {
 		group = animal_skull_type
 		trigger = {
@@ -2803,8 +2624,8 @@
 					scope:owner.var:animal_type = flag:lynx
 					scope:owner.var:animal_type = flag:none
 				}
+			}
 		}
-	}
 		weight = 4
 	}
 	# Mystical
@@ -2868,7 +2689,7 @@
 			}
 		}
 		weight = 2
-	}
+	}		
 	animal_hide_type_stag = {
 		group = animal_hide_type
 		trigger = {
@@ -3271,12 +3092,6 @@
 			}
 		}
 	}
-	
-	box_material_kine_horn = {
-		group = box_material
-		trigger = { artifact_value_trigger = { VALUE = scope:wealth MIN = 50 MAX = 999 } }
-		weight = 6
-	}
 
 	box_material_oak = {
 		group = box_material
@@ -3338,39 +3153,6 @@
 		}
 		weight = 10
 	}
-	
-	box_material_mallorn = {
-		group = box_material
-		trigger = {
-			AND = { 
-				artifact_value_trigger = { VALUE = scope:wealth MIN = 70 MAX = 999 }
-				artifact_region_trigger = { CHARACTER = scope:owner REGION = material_woods_mallorn }
-			}
-		}
-		weight = 10
-	}
-	
-	box_material_oiolaire = {
-		group = box_material
-		trigger = {
-			AND = { 
-				artifact_value_trigger = { VALUE = scope:wealth MIN = 70 MAX = 999 }
-				artifact_region_trigger = { CHARACTER = scope:owner REGION = material_woods_oiolaire }
-			}
-		}
-		weight = 10
-	}
-
-	box_material_lebethron = {
-		group = box_material
-		trigger = {
-			AND = { 
-				artifact_value_trigger = { VALUE = scope:wealth MIN = 50 MAX = 999 }
-				artifact_region_trigger = { CHARACTER = scope:owner REGION = material_woods_lebethron }
-			}
-		}
-		weight = 10
-	}
 
 
 # box_decoration
@@ -3417,12 +3199,6 @@
 		group = goblet_material
 		trigger = { artifact_value_trigger = { VALUE = scope:wealth MIN = 30 MAX = 80 } }
 		weight = 1
-	}
-	
-	goblet_material_kine_horn = {
-		group = goblet_material
-		trigger = { artifact_value_trigger = { VALUE = scope:wealth MIN = 50 MAX = 999 } }
-		weight = 6
 	}
 	
 	goblet_material_ivory = {
@@ -4038,7 +3814,7 @@
 					OR = { #Mystic lifestyle, adventurers, scholarly educated or scholarly court - not formal theologian
 						has_trait = lifestyle_mystic
 						has_trait = scholarly_court
-						has_trait = scholar
+						has_trait = erudite
 						has_trait = education_learning
 						has_trait = adventurer
 					}
@@ -4050,7 +3826,7 @@
 					OR = { #Mystic lifestyle, adventurers, scholarly educated or scholarly court - not formal theologian
 						has_trait = lifestyle_mystic
 						has_trait = scholarly_court
-						has_trait = scholar
+						has_trait = erudite
 						has_trait = education_learning
 						has_trait = adventurer
 					}
@@ -4097,7 +3873,7 @@
 					OR = { #Herbalist lifestyle, adventurers, gardener, scholarly educated or scholarly court
 						has_trait = lifestyle_herbalist
 						has_trait = scholarly_court
-						has_trait = scholar
+						has_trait = erudite
 						has_trait = education_learning
 						has_trait = adventurer
 						has_trait = lifestyle_gardener
@@ -4109,7 +3885,7 @@
 					OR = { #Herbalist lifestyle, adventurers, gardener, scholarly educated or scholarly court
 						has_trait = lifestyle_herbalist
 						has_trait = scholarly_court
-						has_trait = scholar
+						has_trait = erudite
 						has_trait = education_learning
 						has_trait = adventurer
 						has_trait = lifestyle_gardener
@@ -4517,6 +4293,17 @@
 		weight = 1
 	}
 
+	book_subject_religious_text = {
+		group = book_subject
+		trigger = {
+			trigger_if = { # If the subject has been pre-saved from events etc. we make sure it's picked
+				limit = { exists = scope:owner.var:book_artifact_subject }
+				scope:owner.var:book_artifact_subject = flag:religious_text
+			}
+		}
+		weight = 1
+	}
+
 	book_subject_alchemy = {
 		group = book_subject
 		trigger = {
@@ -4569,6 +4356,18 @@
 			trigger_if = { # If the subject has been pre-saved from events etc. we make sure it's picked
 				limit = { exists = scope:owner.var:book_artifact_topic }
 				scope:owner.var:book_artifact_topic = flag:language_manual
+			}
+		}
+		weight = 1
+	}
+
+	book_topic_religious_text = {
+		group = book_topic
+		trigger = {
+			has_artifact_feature = book_subject_religious_text
+			trigger_if = { # If the subject has been pre-saved from events etc. we make sure it's picked
+				limit = { exists = scope:owner.var:book_artifact_topic }
+				scope:owner.var:book_artifact_topic = flag:religious_text
 			}
 		}
 		weight = 1
@@ -6712,10 +6511,6 @@
 		}
 		weight = 1
 	}
-	
-	#Explore the Histories activity topics
-	
-	
 
 # book_title
 	# misc titles
@@ -6746,6 +6541,12 @@
 	book_title_language_manual = {
 		group = book_title
 		trigger = { has_artifact_feature = book_subject_language_manual }
+		weight = 1
+	}
+
+	book_title_religious_text = {
+		group = book_title
+		trigger = { has_artifact_feature = book_subject_religious_text }
 		weight = 1
 	}
 
@@ -7709,6 +7510,248 @@
 		weight = 10
 	}
 
+######### Bows
+
+	# Longbow
+	longbow_wood_elm = {
+		group = longbow_wood
+		trigger = { artifact_feature_wood_elm_trigger = yes }
+		weight = 5
+	}
+
+	longbow_wood_yew = {
+		group = longbow_wood
+		trigger = {
+			OR = {
+				artifact_feature_wood_yew_trigger = yes
+				AND = {
+					artifact_feature_wood_elm_trigger = no
+					artifact_feature_wood_yew_trigger = no
+				}
+			}
+		}
+		weight = 20
+	}
+
+	# Composite
+	composite_wood_bamboo = {
+		group = composite_wood
+		trigger = { artifact_feature_wood_bamboo_trigger = yes }
+		weight = 5
+	}
+
+	composite_wood_maple = {
+		group = composite_wood
+		trigger = { always = yes }
+		weight = 20
+	}
+
+	composite_wood_mulberry = {
+		group = composite_wood
+		trigger = { artifact_feature_wood_mulberry_trigger = yes }
+		weight = 10
+	}
+
+	composite_horn_antelope = {
+		group = composite_horn
+		trigger = {
+			artifact_region_trigger = { CHARACTER = scope:owner REGION = hunt_animal_antelope_region }
+		}
+		weight = 10
+	}
+
+	composite_horn_gazelle = {
+		group = composite_horn
+		trigger = {
+			artifact_region_trigger = { CHARACTER = scope:owner REGION = hunt_animal_gazelle_region }
+		}
+		weight = 5
+	}
+
+	composite_horn_bison = {
+		group = composite_horn
+		trigger = {
+			artifact_region_trigger = { CHARACTER = scope:owner REGION = hunt_animal_bison_region }
+		}
+		weight = 5
+	}
+
+	composite_horn_deer = {
+		group = composite_horn
+		trigger = {
+			NOT = {
+				artifact_region_trigger = { CHARACTER = scope:owner REGION = hunt_animal_antelope_region }
+			}
+		}
+		weight = 10
+	}
+
+	composite_horn_aurochs = {
+		group = composite_horn
+		trigger = {
+			artifact_region_trigger = { CHARACTER = scope:owner REGION = hunt_animal_aurochs_region }
+		}
+		weight = 5
+	}
+
+	# Bow
+	bow_wood_ash = {
+		group = bow_wood
+		trigger = { artifact_feature_wood_ash_trigger = yes }
+		weight = 10
+	}
+
+	bow_wood_bamboo = {
+		group = bow_wood
+		trigger = { artifact_feature_wood_bamboo_trigger = yes }
+		weight = 50
+	}
+
+	bow_wood_cherry = {
+		group = bow_wood
+		trigger = { artifact_feature_wood_cherry_trigger = yes }
+		weight = 10
+	}
+
+	bow_wood_hazel = {
+		group = bow_wood
+		trigger = { artifact_feature_wood_hazel_trigger = yes }
+		weight = 10
+	}
+
+	bow_wood_hickory = {
+		group = bow_wood
+		trigger = { artifact_feature_wood_hickory_trigger = yes }
+		weight = 10
+	}
+
+	bow_wood_maple = {
+		group = bow_wood
+		trigger = { artifact_feature_wood_maple_trigger = yes }
+		weight = 20
+	}
+
+	bow_wood_mulberry = {
+		group = bow_wood
+		trigger = { artifact_feature_wood_mulberry_trigger = yes }
+		weight = 10
+	}
+
+	bow_wood_palm = {
+		group = bow_wood
+		trigger = { artifact_feature_wood_palm_trigger = yes }
+		weight = 20
+	}
+
+	bow_wood_oak = {
+		group = bow_wood
+		trigger = { artifact_feature_wood_oak_trigger = yes }
+		weight = 1
+	}
+
+	bow_wood_walnut = {
+		group = bow_wood
+		trigger = { artifact_feature_wood_walnut_trigger = yes }
+		weight = 10
+	}
+
+	bow_wood_yew = {
+		group = bow_wood
+		trigger = { artifact_feature_wood_yew_trigger = yes }
+		weight = 20
+	}
+
+	# Shared
+	bow_string_hemp = {
+		group = bow_string
+		weight = {
+			value = 10
+			if = {
+				limit = {
+					OR = {
+						artifact_region_trigger = { CHARACTER = scope:owner REGION = world_india }
+						artifact_region_trigger = { CHARACTER = scope:owner REGION = world_burma }
+						artifact_region_trigger = { CHARACTER = scope:owner REGION = world_middle_east }
+						artifact_region_trigger = { CHARACTER = scope:owner REGION = world_africa_north }
+					}
+				}
+				add = 40
+			}
+		}
+	}
+
+	bow_string_horse_hair = {
+		group = bow_string
+		weight = {
+			value = 5
+			if = {
+				limit = {
+					artifact_region_trigger = { CHARACTER = scope:owner REGION = world_steppe }
+				}
+				add = 45
+			}
+		}
+	}
+
+	bow_string_linen = {
+		group = bow_string
+		weight = 50
+	}
+
+	bow_string_rawhide = {
+		group = bow_string
+		weight = {
+			value = 5
+			if = {
+				limit = {
+					OR = {
+						artifact_region_trigger = { CHARACTER = scope:owner REGION = world_steppe }
+						artifact_region_trigger = { CHARACTER = scope:owner REGION = world_middle_east_arabia }
+					}
+				}
+				add = 45
+			}
+		}
+	}
+
+	bow_string_silk = {
+		group = bow_string
+		trigger = {
+			artifact_value_trigger = { VALUE = scope:wealth MIN = 40 MAX = 999 }
+		}
+		weight = {
+			value = 5
+			if = {
+				limit = {
+					OR = {
+						artifact_region_trigger = { CHARACTER = scope:owner REGION = world_india }
+						artifact_region_trigger = { CHARACTER = scope:owner REGION = world_burma }
+						artifact_region_trigger = { CHARACTER = scope:owner REGION = world_tibet }
+						artifact_region_trigger = { CHARACTER = scope:owner REGION = world_steppe_east }
+					}
+				}
+				add = 45
+			}
+		}
+	}
+	
+	bow_string_sinew = {
+		group = bow_string
+		weight = {
+			value = 5
+			if = {
+				limit = {
+					artifact_region_trigger = { CHARACTER = scope:owner REGION = world_steppe }
+				}
+				add = 45
+			}
+			if = {
+				limit = { scope:bow_type = flag:artifact_bow_type_composite }
+				add = -50
+			}
+		}
+	}
+
 # animal_trinket_type
 	animal_trinket_type_antler = {
 		group = animal_trinket_type
@@ -7752,8 +7795,6 @@
 				scope:owner.var:animal_type ?= flag:wolf
 				scope:owner.var:animal_type ?= flag:lynx
 				scope:owner.var:animal_type ?= flag:hyena
-				scope:owner.var:animal_type ?= flag:caragor
-				scope:owner.var:animal_type ?= flag:warg
 			}
 		}
 		weight = 1
