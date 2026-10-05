@@ -153,7 +153,7 @@ KnightCulture = {
 		localization_key = knight_estalian_astur
 	}
 	text = { #Fidalgo
-		trigger = {
+		OR = {
 			culture = culture:galice
 			culture = culture:tigarrese
 		}
@@ -173,7 +173,7 @@ KnightCulture = {
 	}
 	text = { #Fieldwarden
 		trigger = {
-			culture = { has_cultural_pillar = heritage_halflings }
+			culture = culture:mootlander
 		}
 		localization_key = knight_halfling_mootlander
 	}
