@@ -183,21 +183,3 @@ flying_unit = {
 ##############################
 ########### Races ############
 ##############################
-
-concept_race = {
-	alias = { concept_races concept_races_type concept_races_types concept_people concept_peoples }
-}	
-
-### Humans ###
-conceptrace_human = {
-    texture = "gfx/interface/icons/race/urf_human.dds"
-	parent = concept_race
-	alias = { mankind men man human humans humanity manlings}
-}	
-
-### Halflings ###
-concept_halflings = {
-	texture = "gfx/interface/icons/race/urf_halfling.dds"
-	parent = concept_race
-	alias = { halfling halflings }
-}

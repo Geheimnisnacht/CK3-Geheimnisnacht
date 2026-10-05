@@ -1,8 +1,1 @@
 ﻿l_english:
- game_concept_conceptrace: "Race"
- game_concept_conceptraces: "Races"
- game_concept_conceptraces_type: "Type of Race"
- game_concept_conceptraces_types: "Types of Races"
- game_concept_conceptpeoples: "peoples"
- game_concept_conceptpeople: "people"
- game_concept_conceptrace_desc: "Race refers to one of the many species in the world, such as [men|E], [dwarves|E], [hobbits|E], [elves|E], and [orcs|E].\n\nIn-game, cultural [heritage|E] is used to model race, granting unique benefits and options based on the race in question.\n\nIt is not possible to hybridise cultures across races."
