@@ -1,4 +1,4 @@
-﻿
+﻿#WHG REMOVED
 #############################################
 # Do some basic missionary work				#
 # by James Beaumont							#
