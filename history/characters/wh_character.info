@@ -3,3 +3,42 @@
 #Follow the example character build to avoid bloat and annoyiances in the future
 # 
 ##############################################################
+
+15003 = {
+	name = "John"
+	dynasty = 87200
+	culture = strigany
+	rite = strigany_faith
+	
+	#Base Stats
+	martial = 8
+	diplomacy = 4
+	stewardship = 3
+	intrigue = 5
+	learning = 5
+	
+	#Race
+	trait = race_human
+		
+	#Education
+	trait = education_martial_1
+	
+	#Other traits
+	trait = vampire_strigoi
+	trait = wrathful
+	trait = brave
+	trait = zealous
+	trait = ambitious
+	trait = lunatic_1
+	
+	182.2.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+	3500.1.1 = { 
+		give_nickname = nick_the_ancient
+	}
+	7233.3.7 = {death = yes}
+}
