@@ -59,14 +59,14 @@ dynastic_cycle = {
 			}
 		}
 
-		# title:h_china.holder ?= { # LOTR
-        title:k_wastelands.holder ?= { # LOTR - Saving Tom as this scope to remove errors, won't cause issues because this is never called.
+		# title:h_china.holder ?= { # WHG
+        title:k_wastelands.holder ?= { # WHG - Saving Tom as this scope to remove errors, won't cause issues because this is never called.
 			save_scope_as = huangdi
-			# every_tributary = { #LotR
+			# every_tributary = { #WHG
 			# 	add_subject_standing = root.var:imperial_grace_loss
 			# }
 			# Imperial Examinations tracking
-			# if = { #LOTR
+			# if = { #WHG
 			# 	limit = {
 			# 		exists = title:h_china.var:years_since_imperial_examination
 			# 		title:h_china.var:years_since_imperial_examination >= 3
@@ -142,13 +142,13 @@ dynastic_cycle = {
 
 			is_character_valid = {
 				# has_title = title:h_china
-				always = no #LotR
+				always = no #WHG
 			}
 			on_join = {
 				if = {
 					limit = {
 						is_ai = no
-						# NOT = { has_variable = claimed_the_mandate_of_heaven } #LOTR
+						# NOT = { has_variable = claimed_the_mandate_of_heaven } #WHG
 					}
 					trigger_event = tgp_dynastic_cycle.0051
 				}
@@ -655,7 +655,7 @@ dynastic_cycle = {
 				# 		ai_attempt_to_host_activity = activity_imperial_examination
 				# 	}
 				# }
-				# tgp_dynastic_cycle_record_history_phase_change_effect = { #LotR
+				# tgp_dynastic_cycle_record_history_phase_change_effect = { #WHG
 				# 	PHASE = situation_dynastic_cycle_phase_stability_expansion
 				# 	PHASE_NUMBER = 2
 				# }
@@ -682,7 +682,7 @@ dynastic_cycle = {
 			}
 
 			on_end = {
-				#title:h_china.holder ?= { #LotR
+				#title:h_china.holder ?= { #WHG
 				#	if = {
 				#		limit = {
 				#			top_participant_group:dynastic_cycle ?= {
@@ -925,7 +925,7 @@ dynastic_cycle = {
 				tgp_update_wuking_element_effect = yes
 
 				#host the exam to unlock merit ranks after chaos is over
-				# title:h_china.holder ?= { #LotR
+				# title:h_china.holder ?= { #WHG
 				# 	if = {
 				# 		limit = {
 				# 			is_ai = yes
@@ -935,7 +935,7 @@ dynastic_cycle = {
 				# 		ai_attempt_to_host_activity = activity_imperial_examination
 				# 	}
 				# }
-				# tgp_dynastic_cycle_record_history_phase_change_effect = { #LotR
+				# tgp_dynastic_cycle_record_history_phase_change_effect = { #WHG
 				# 	PHASE = situation_dynastic_cycle_phase_stability_advancement
 				# 	PHASE_NUMBER = 3
 				# }
@@ -961,7 +961,7 @@ dynastic_cycle = {
 			}
 
 			on_end = {
-				#title:h_china.holder ?= { #LotR
+				#title:h_china.holder ?= { #WHG
 				#	if = {
 				#		limit = {
 				#			top_participant_group:dynastic_cycle ?= {
@@ -1190,7 +1190,7 @@ dynastic_cycle = {
 				# title:h_china.holder ?= { trigger_event = tgp_dynastic_cycle.0061 } # China conquered
 				tgp_update_wuking_element_effect = yes
 				
-				# tgp_dynastic_cycle_record_history_phase_change_effect = { #LotR
+				# tgp_dynastic_cycle_record_history_phase_change_effect = { #WHG
 				# 	PHASE = situation_dynastic_cycle_phase_instability_conquest
 				# 	PHASE_NUMBER = 4
 				# }
@@ -1507,7 +1507,7 @@ dynastic_cycle = {
 				# 	}
 				# }
 
-				# tgp_dynastic_cycle_record_history_phase_change_effect = { #LotR
+				# tgp_dynastic_cycle_record_history_phase_change_effect = { #WHG
 				# 	PHASE = situation_dynastic_cycle_phase_instability
 				# 	PHASE_NUMBER = 5
 				# }
@@ -1827,7 +1827,7 @@ dynastic_cycle = {
 			illustration = "gfx/interface/illustrations/event_story/tgp_dynastic_cycle_corruption.dds"
 
 			on_start = {
-				# title:h_china.holder ?= { #LotR
+				# title:h_china.holder ?= { #WHG
 				# 	save_scope_as = huangdi
 				# 	if = {
 				# 		limit = {
@@ -1838,7 +1838,7 @@ dynastic_cycle = {
 				# # 		trigger_event = tgp_dynastic_cycle.0081 # China shatters
 				# # 	}
 				# # }
-				# tgp_dynastic_cycle_record_history_phase_change_effect = { #LotR
+				# tgp_dynastic_cycle_record_history_phase_change_effect = { #WHG
 				# 	PHASE = situation_dynastic_cycle_phase_chaos
 				# 	PHASE_NUMBER = 6
 				# }
