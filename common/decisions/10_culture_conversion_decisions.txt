@@ -1,7 +1,7 @@
-﻿# WHG: Removed references to real world.
-# WHG: Added restrictions on culture conversion.
-
+﻿### Convert to Local Culture ###
+### WHG REMOVED REAL LIFE REFERENCES ###
 convert_to_local_culture_decision = {
+
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_realm.dds"
 	}
@@ -10,22 +10,21 @@ convert_to_local_culture_decision = {
 
 	is_shown = {
 		is_playable_character = yes
-		primary_title.tier > tier_barony
 		culture != capital_province.culture
 		NAND = {
 			is_ai = yes
-			OR = {
-				has_character_flag = converted_culture_this_lifetime
-				has_character_flag = converted_culture_this_lifetime_ai
+			has_variable = {
+				name = converted_culture_this_lifetime
+				name = converted_culture_this_lifetime_ai
 			}
 		}
-		culture = { culture_conversion_to_allowed_culture = { TARGET = root.capital_province.culture } } #WHG
-		culture = { NOT = { has_cultural_parameter = cannot_convert_to_local_culture } }
+		primary_title.tier > tier_barony
 	}
 
 	is_valid_showing_failures_only = {
 		is_physically_able_adult = yes
 		is_at_war = no
+		is_ai = no
 		custom_description = {
 			text = can_only_change_culture_once
 			NOT = { has_character_flag = converted_culture_this_lifetime }
@@ -346,9 +345,9 @@ convert_to_local_culture_decision = {
 		}
 		
 		# Some cultures should not assimilate to certain others
-		# modifier = {
+		# modifier = { #WHG
 		# 	factor = 0
-		# 	has_culture = culture:andalusian #WHG TODO
+		# 	has_culture = culture:andalusian
 		# 	capital_province = {
 		# 		culture = { has_cultural_pillar = heritage_iberian }
 		# 	}
