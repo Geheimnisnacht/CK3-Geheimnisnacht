@@ -1,1 +1,219 @@
 ﻿l_english:
+
+##############################
+### Game Mechanic Concepts ###
+##############################
+ game_concept_imperial_authority: "Imperial Authority"
+ game_concept_imperial_authority_desc: "Imperial authority DESC TODO"
+
+ game_concept_imperial_legitimacy: "Imperial Legitimacy"
+ game_concept_imperial_legitimacy_desc: "Imperial legitimacy DESC TODO"
+
+ game_concept_elector_count: "Elector Count"
+ game_concept_elector_count_desc: "Elector count DESC TODO"
+
+
+
+
+##############################
+########### Deities ##########
+##############################
+ game_concept_ulric: "Ulric"
+ game_concept_ulric_desc: "Ulric is the God of War, Winter and Wolves. He's usually depicted as an ancient warrior wearing a cloak made of silver-grey wolf pelt. Before the rise of Sigmar, Ulric was the patron God of the Teutogens, one of the Human tribes that would form the Empire.\n\nDespite the rise of other cults Ulric is still very popular in Middenland and is considered the patron God of the city of Middenheim. His priesthood still holds a strong influence in the Empire and their head the Ar-Ulric is an Elector of the Empire, a right descended from the former duty of the Ar-Ulric to crown the Emperor."
+
+ game_concept_sigmar: "Sigmar"
+ game_concept_sigmar_desc: "Sigmar Heldenhammer (meaning Hammer of the Goblins in Old Reikspiel), born as Sigmar Unberogen, is the eternal patron god of the Cult of Sigmar and the Empire, as well as its founder and principle war-god. Born to the Unberogen tribe, his coming having been heralded by the twin-tailed comet.\n\nHe was a deeply devout follower of [ulric|E] in his mortal life, as such he was coronated as Emperor by the Ar-Ulric himself."
+ game_concept_sigmar_full_name: "Sigmar Heldenhammer"
+
+ game_concept_johann_helstrum: "Johann Helstrum"
+ game_concept_johann_helstrum_desc: "The Cult of Sigmar was founded by the wild-eyed friar Johann Helstrum in year of 73 IC, where he appeared before the masses to relate a vision that he experienced [sigmar|E] kneeling before [ulric|E], who then placed the crown of godhood upon his brow and took his place amongst the Old World Pantheons. Such was the popularity of this Cult that Johann became the first Grand Theogonist of the now state-official Cult of Sigmar."
+
+ game_concept_myrmidia: "Myrmidia"
+ game_concept_myrmidia_desc: "Myrmidia is the Human goddess of war, and her worship has spread into the Empire of Men from the southern Old World nations of Tilea and Estalia, where she is also known as the goddess of civilisation, beauty, and honour.\n\nShe is a goddess from the classical age, depicted as the daughter of Verena and Morr, and is said to have been given to mortal parents as a child and then grew into a maiden warrior who rallied the people of both lands against all enemies.\n\nMyrmidia embodies the civilized tactics and strategies of warfare in comparison to the barbaric savagery of Ulrican warriors and the fanatical zeal of the Sigmarites. Hers is the domain of tactics, formation and strategy, the order within the chaos that is the battlefield."
+
+
+ game_concept_lady_of_the_lake: "The Lady of the Lake"
+ game_concept_lady_of_the_lake_desc: "The Lady of the Lake, also known as the Lady du Lac, the Divine Damsel or simply the Lady, is the regional goddess of Bretonnia, revered throughout its lands but barely known beyond. She stands for purity, nobility, and courage in the face of danger. She is the ideal lady, everything a knight should love and strive to serve."
+ game_concept_lady_simple: "The Lady of the Lake"
+
+ game_concept_thegrail: "Grail"
+ game_concept_thegrail_desc: "The enchanted chalice kept by the Lady of the Lake, known as the #bold Holy Grail#!, the #bold #italic Grail of Life#!#! or simply the #bold #italic Grail#!#!, is not like any other precious or magical item, as it gives unnatural strength and longevity to those who sip from it - the Knights of Bretonnia, who have completed their Quest for the Grail. It cannot be taken from her or kept by any mortal person. \n\nIt is recorded in Bretonnian annals that a wicked and foolish Knight claimed to have possession of the Grail. In reality, it was a false grail with which he intended to fool and confuse good and virtuous knights so that he could wrongfully seize the throne of Bretonnia. He met his well deserved fate at the hands of the Grail Knights, servants of the true Grail."
+ 
+ game_concept_taal: "Taal"
+ game_concept_taal_desc: "Taal is one of the older gods of the Human tribesmen that created the Empire of Man. He is a member of the 'northern' or 'country' family of gods. He is the God of Nature, the Lord of Beasts, Mountains and Forests. Taal rules nature and is considered “King of the Gods” by his followers. He claims the wild places as his domain and is primarily worshipped by hardy woodsmen, trackers, and rangers.\n\nHis wife is [rhya|E], the Earth Mother, his brother [ulric|E], the God of Winter and Wolves, and his son Manann, God of the Sea. He is known for his volatile nature and urge to hunt. Like Nature, Taal is often viewed as indifferent to mortal concerns."
+ 
+ game_concept_rhya: "Rhya"
+ game_concept_rhya_desc: "Rhya is the Earth Mother, the goddess of all that grows and lives. It is Rhya to whom the people of the Old World pray to for fair winds, moderate rains, healthy plants and animals, yet she is also the Huntress. Wife of [taal|E], the lord of Beasts and Rivers, Rhya is seen as the more merciful and gentle of the pair, and is often asked to intercede with her husband to calm his rages. She normally appears as a tall, beautiful woman. She is the mother of Manann."
+
+ game_concept_ursun: "Ursun"
+ game_concept_ursun_desc: "Ursun, also known as the #bold Great Bear#!, or #bold Father Bear#! is the #bold God of Bears and Strength#! and the patron god of Kislev. His worship was first introduced by the Gospodars, but bears are such a major part of Kislevite life that the religion was absorbed almost instantly. Bears continue to be a vital part of society to this day, and the religion is now inseparable from the Kislevite culture.\n\nWorship of Ursun is not a state religion as the worship of [sigmar|E] in the Empire is, but the fate of Kislev is linked in many minds to the fortunes and favour of Father Bear.The Cult of Ursun is the main religious organization that mandates the worship of Ursun."
+
+ game_concept_dazh: "Dazh"
+ game_concept_dazh_desc: "Dazh is the #bold God of Fire and Sun#! and whose worship is primarily based within the cold, frigid lands of Kislev. It was Dazh who took the secret of flame from the sun and gave it to the ancient warrior chiefs of the tribesmen. Without Dazh’s fire, the long winters of the north would be fatal, and tributes and prayers are regularly offered up to him. In more civilised lands, he rules over the hearths of homes, and is also the patron of guests and the needy. Thus, hospitality to those who call engenders safety for a household, while a poor host or hostess may find that their fire will not start, or that their roof springs an unexpected leak."
+
+ game_concept_tor: "Tor"
+ game_concept_tor_desc: "Tor is the god of thunder and lightning in the Old World. He is also worshipped as a warrior god, and is revered in the nation of Kislev. He is portrayed as a muscled, square-jawed warrior. He wields a massive axe with a haft of oak, and uses it to cleave the sky to create the thunderbolts for which he is famed.\n\nA warrior god, Tor is the most active of the Kislevite gods, and quite frequently his name is used as a curse on others. For example, the phrase ‘Ty Tor!’ means ‘By Tor!’ and is an exclamation of surprise. On the other hand, ‘Do Tor!’ means ‘Tor’s Bolt!’ and is an entreaty for the god to unleash his anger upon the enemy."
+
+ game_concept_shallya: "Shallya"
+ game_concept_shallya_desc: "The Old World is a hard place in which to live. Disease, injury, or extended bad fortune can drive a man or woman to the brink of despair, bereft of any hope. These people turn to Shallya, the #bold White Dove of Mercy#!, who cries tears that bring the promise of mercy and comfort. To those confined to prison or a sickbed, to people condemned to death or who are dying on or off the battlefield, Shallya and her priestesses and priests—for a few men serve her order, too—bring peace and forgiveness, and a promise of a better life in the next world."
+
+
+ game_concept_morr: "Morr"
+ game_concept_morr_desc: "Morr is the #bold God of the Dead, Dreams, and Dreamers#!. He holds sway over illusions and all things that are not what they seem. A contemplative god, he guards the souls of the departed from Chaos and necromancers, just as his priests guard the corpses buried in the Gardens of Morr, and protects the dreams of the sleeping from Daemons that would pervert them. Morr and his devoted followers are the eternal enemies of the Undead, and guardians against grave and tomb robbers. \n\nThe Cult of Morr is not a popular one, but is of singular importance in the religious life of the Old World, for all come to Morr’s gate eventually."
+
+ game_concept_manann: "Manann"
+ game_concept_manann_desc: "Manann (occasionally spelled \"Manaan\") is the Old World Pantheon god of the seas and the tides.\n\nChief god of the wayward Imperial province of The Wasteland, he also holds sway over the Empire’s northern coasts and its rivers as far as the tide can be felt. The Cult of Manann administrates his worship.\n\nIn divine myth, he is the son of [taal|E]."
+
+ game_concept_stromfelsgod: "Stromfels"
+ game_concept_stromfelsgod_desc: "Stromfels, known as the \"Shark God,\" the \"Wrecker,\" the \"Lord of Predators,\" and the \"God of the Dangers of the Seas,\" is the sworn enemy of the Old World Pantheon god of the sea [manann|E] and his followers.\n\nWhereas [manann|E] is at times a capricious and uncaring god, Stromfels is a far more malevolent deity who takes great delight as a predator who takes the lives of those who sail on the sea. Worship of Stromfels is outlawed throughout the Empire and the Wasteland, and is punishable by death."
+
+ game_concept_esmeralda: "Esmeralda"
+ game_concept_esmeralda_desc: "The most popular Halfling deity, Esmerelda, #bold the Many-Times-Grandmother #! is the Goddess of Hearth and Home. Worship of Esmerelda is free of strictures and demands for worship, and her only rite of note is Pie Week, (in)famous throughout the Empire for its gluttonous excesses. During Pie Week, if at no other time of the year, Halflings can be said to be devout to the core of their being."
+
+ game_concept_phineas: "Phineas"
+ game_concept_phineas_desc: "His pouch is ever-full with, you know, tobacco."
+
+ game_concept_josias: "Josias"
+ game_concept_josias_desc: "Josias the Faithful is the Halfling god of agriculture, animal husbandry, and tobacco. He is worshipped by farmers, herdsmen, and gardeners of The Moot. Offerings to Josias include crops and food, in particular thick soups. Among Haflings Josias is known for working hard and resting hard."
+
+ game_concept_hyacinth: "Hyacinth"
+ game_concept_hyacinth_desc: "Hyacinth DESC TODO"
+
+ game_concept_ranald: "Ranald"
+ game_concept_ranald_desc: "Ranald, known by many names such as the #bold Night Prowler#!, the #bold God of Thieves#! or even the #bold Trickster God#!, is the Human God of Luck, Fortune and Mischief. His is a curious cult, for it lacks the trappings, the pomp and majesty, even the structure of other cults. His priests are thieves, tricksters, and gamblers, rather than the educated effete elite so favoured by others. His temples are the gaming halls, the brothels, the taverns, and other dens of iniquity, not the gilt structures of gold and marble. Indeed, Ranald and his priests are unlike any others — a fact that is both distressing and delightful."
+
+ game_concept_solkan: "Solkan"
+ game_concept_solkan_desc: "Solkan placeholder"
+
+
+ game_concept_verena: "Verena"
+ game_concept_verena_desc: "Verena is the Goddess of Knowledge, Science, Law and Justice. Her symbols are the scales and the downward-pointing sword, representing justice, as well as the owl, representing wisdom.\n\nVerena is a classical god, and her cult is found across the Old World. She is especially venerated in university towns such as Altdorf and Nuln, where there are great temples in her honour. All those who owe their line of work to the fairness of the law tend to honour her above other gods, and the most devout of Verena's followers can include magistrates, politicians, scholars, law enforcers and wizards of the Celestial and Light Colleges. Followers of Verena value reason above force but are more than ready to take up arms in the name of justice if diplomacy fails."
+
+ game_concept_grungni: "Grungni"
+ game_concept_grungni_desc: "Grungni DESC TODO"
+
+ game_concept_valaya: "Valaya"
+ game_concept_valaya_desc: "Valaya DESC TODO"
+
+ game_concept_grimnir: "Grimnir"
+ game_concept_grimnir_desc: "Grimnir DESC TODO"
+
+ game_concept_vlad_von_carstein: "Vlad von Carstein"
+ game_concept_vlad_von_carstein_desc: "Vlad von Carstein, known in his former life as #bold #italic Vashanesh#! of Nehekhara, was the first Vampire Count of Sylvania, and the founder of the Von Carstein bloodline. He was dreaded by many as the monster that brought darkness upon the lands of Sylvania after his marriage to Isabella von Drak, daughter of the late Imperial Count Otto von Drak."
+
+ game_concept_abhorash: "Abhorash"
+ game_concept_abhorash_desc: "The most legendary of all Blood Dragons was and is their first master, the #bold #italic Dragon Slayer#!, the #bold #italic Scourge of the Greenskins#!, the #bold #italic Blade Immortal#!, the #bold #italic Lord of Blood#!, #bold #italic Abhorash the Great#!, #bold italic Abhorash the Wanderer#!, #bold #italic Abhorash the Master#!. But his location is unknown. Some say he wandered north, deep into the Chaos Wastes, or east into the land of the Giants to seek out even greater conquests. Others say he followed the path of Sigmar and became a God; others say he still walks amongst their ranks in the disguise of a young thrall, watching for the most worthy amongst them. Still, others think of the tales of other Dragon slayers, like the mighty Gilles le Breton and Lord Amara of Hoeth, and wonder how many faces their master might wear in a life as long as his. Whatever the case, none have seen or spoken to him in centuries, and his location and his plans remain mysterious."
+
+ game_concept_neferata: "Neferata"
+ game_concept_neferata_desc: "Neferata, which translates to  #bold #italic \"Beautiful Death\"#! in ancient Nehekharan, is the self-proclaimed #bold #italic Queen of Lahmia#!, the #bold #italic Queen of the Silver Pinnacle#!, the #bold #italic First of the Vampires#!, and the founder and head of the Lahmian Sisterhood. Queen Neferata is one of the most ancient and powerful Vampires to still exist within the world of today, owing much of her success to her own seductive beauty, a cunning demeanor and a secret network of exquisitely beautiful, female Vampire spies that has since infiltrated the aristocracy of all the Human kingdoms of the Old World."
+ game_concept_neferatem: "Neferatem"
+ game_concept_neferatem_title: "Princess Neferatem"
+
+
+ game_concept_prince_ushoran: "Prince Ushoran"
+ game_concept_prince_ushoran_desc: "It was not enough for [neferata|E] and her brethren to simply be the lords of the great city of Lahmia. It was not enough they had drunk the Elixir of Life and became immortal. They still had to find more ways to feel superior over others, to exclude their equals from their little cult. It was this childishness of the queen that led her to prevent her younger brother, #bold Prince Ushoran, Lord of Masques, Celebrations, and Festivities#!, from drinking the Elixir and joining the True Blooded—her petty need to keep somebody out of her elite cadre. In order to teach her a lesson, and claim only what he was due, Ushoran stole her precious Elixir and entered into that same state of great un-life without her help, becoming the first of the Strigoi."
+
+ game_concept_wsoran: "W'soran"
+ game_concept_wsoran_desc: "W'soran /#bold /#italic the Wicked#!, known also as the /#bold Father of Vampires#!, is the founder and head of the Necrach Bloodline of Vampires. W’soran, once a Prince of Rasetra, used his position as High Priest of Lahmia to poison the mind of the young [neferatem_title|E], destined to become Queen of Lahmia. [neferatem|E] was a wilful girl fascinated by magic and death who was frustrated by the Mortuary Cult’s unwillingness to pass on their teachings to women. Secretly, W’soran nurtured her thirst for this forbidden knowledge, coaching her in the magical knowledge he learned at [nagash|E]’s side"
+
+ game_concept_nagash: "Nagash"
+ game_concept_nagash_desc: "Nagash, known by many names such as the #bold #italic Great Necromancer#!, the #bold #italic Great Betrayer#!, the #bold #italic Usurper#!, the #bold #italic Undying King#!, the #bold #italic Supreme Lord of Undeath#! or simply #bold #italic He Who Shall Not Be Named#!, is the ultimate personification of death and the undead, an ancient, evil being who sought to conquer this cruel, chaotic world and bring about an age of undeath that will rule for all eternity. Nagash is darkness and unreasoning hatred given form, the father and creator of foul Necromancy and lord of all Vampire-kind. His every actions and deeds is self-serving, his achievement horrific and loathsome, and his every whim are bent solely to ensure that no one shall ever deny nor challenge his right to rule ever again. This dark, evil being came close to ultimate domination, but if not for the sacrifice of an unsung hero, this world would've been lost millennia ago."
+
+
+ game_concept_harakhte: "Harakhte"
+ game_concept_harakhte_desc: "Harakhte was one of the most trusted servants that joined Queen [neferata|E]'s court. He created the entire justice system of Lahmia consisting of nine hundred Scriptures which were enforced zealously by the establishment. In extreme age as a human, to the degree that nobody actually knows his true age other than himself, he took a myriad of drugs magical and mundane to survive. This continued as a Vampire, as anything to improve his health was consumed as often as possible.For unknown reasons before the fall of Lahmia he decided to turn twelve of his most trusted servants into Vampires and head east along to Cathay."
+
+
+ game_concept_maatmeses: "Maatmeses"
+ game_concept_maatmeses_desc: "Maatmeses, now known as Maht-masa in the Arabyan tongue which means 'child of death', lives in a cave in the desert becoming more and more insect as he maintains the order of his Bloodline./n/n The actual goals of Maatmeses himself are unclear. The fluff presents rumors among his children either that he has sworn allegiance to Nurgle or is seeking a way to kill Nurgle and replace him as a Chaos God. Either way he desires the entire world to be Mahtmasi, insects, and mountains of corpses to enjoy."
+
+ game_concept_luthor_harkon: "Luthor Harkon"
+ game_concept_luthor_harkon_desc: "Luthor Harkon, born Lutr of the Lahmian Harkoni tribe, was the self-styled #bold #italic Arch-Grand Commodore#! and #bold #italic Pirate King#! of the Vampire Coast, leader of the Zombie Pirates and one the Dark Lords of Nagash, feared as the #bold #italic Mortarch of the Abyss#!."
+
+ game_concept_chaos_undivided: "Chaos Undivided"
+ game_concept_chaos_undivided_desc: "Chaos Undivided is the material from which all daemons and their gods originate. It is a singular primal force that, under the weight of its own entropy, cannot help but be split into countless smaller parts. Nearly none in the Warhammer World know the true nature of Chaos Undivided, for if they did it would surely drive them to despair and madness. For the most part, it is the thing that people refer to when they use \"Chaos\" as a whole."
+ 
+ game_concept_chaos_undivided_religion: "Chaos Undivided"
+ game_concept_chaos_undivided_religion_desc: "This name can be used not only to describe the cosmic force, but also a religion - meaning either the veneration of all Chaos Gods alltogether, at least the major ones, under one banner, rejection of the Gods, or otherwise worshipping Chaos as a whole, striving for unity between all Chaos. As becoming [daemon_prince|E] is impossible, this religion only consists of true believers, not desiring for boons, but genuine adherents. However, if one of them would conquer all the trials of the Gods, they would become an [everchosen|E], an immortal being of immeasureable, for mortal beings, power."
+
+ game_concept_everchosen: "Everchosen"
+ game_concept_everchosen_desc: "The Everchosen is a unique position in the hierarchy of Chaos - they are a follower of [chaos_undivided_religion|E] who has managed to attain the blessing of all four major Chaos Gods, and any number of other, smaller deities. Those with this role are granted immortality and the power to command the daemons of the gods in their stead. Using these, the Everchosen is charged with destroying the enemies of Chaos wherever they may lie, so that the gods may claim the world without opposition. Morkar the Uniter was the first such Everchosen, crowned in the year 50 IC and sent southwards to destroy [sigmar|E]."
+
+ game_concept_khorne: "Khorne"
+ game_concept_khorne_desc: "Khorne is the Chaos God of battle. He feeds upon the passion that his followers hold as they go into battle, as they fight their enemies, and as they claim their hard-won victory. He is unconcerned to why his followers do battle in his name, so long as they continue to do so; of the 4 major Chaos Gods, he is the strongest - for everything fights, and everything relishes the triumph of the fight, even if they do not have the intelligence to reflect upon it. Khorne's rival is [slaanesh|E], for they fight over the limited passions of each person."
+
+ game_concept_tzeentch: "Tzeentch"
+ game_concept_tzeentch_desc: "Tzeentch is the Chaos God of change. Any act of change, whether it be big or small, sustains him - it requires only that something has ceased to be in favor of something else. The god spends his time plotting and scheming in order to engineer the change he needs to keep existing. While some of these plans would involve the defeat of his brethren, which he would very much like to do, it is ultimately a secondary goal for Tzeentch compared to ensuring nothing stays the same. His rival is [nurgle|E], who seeks a world where nothing changes."
+
+ game_concept_slaanesh: "Slaanesh"
+ game_concept_slaanesh_desc: "Slaanesh is the Chaos God of passion. It is the act that Slaanesh prizes, whether it be the perfection of deed or the reactions to a new sensation or a myriad other things besides. This is not for the act itself, which is useless to the god save for the passion therein. Between the four gods, Slaanesh is the youngest, as it is only through higher thought that beings can experience such passion. His greatest enemy is [khorne|E], who seeks to banish the pleasures that Slaanesh needs to exist."
+
+ game_concept_nurgle: "Nurgle"
+ game_concept_nurgle_desc: "God of stagnation and decay, the being known as Nurgle first came into being as the first living beings sought to keep themselves alive. It is he that seeks stability, for the more things change, the more he is imperiled - only through cycles, unbreakable in nature, can Nurgle's very existence can be secured. He is for the most part content to let nature take its course, as it can be counted on to remain mostly the same, but he will always take up arms against [tzeentch|E]; stagnation can only exist by defeating change, after all. "
+
+ game_concept_malal: "Malal"
+ game_concept_malal_desc: "Malal is the Chaos God of strife. While any infighting works, he is in truth chiefly concerned with the conflicts between his brother gods - the endless, internecine wars between kin that prevent them from fully turning their attention onto the world of men are the very things that brought him into existence. Embodying these, he seeks always to destroy his kin, however possible, and fulfill his reason to exist. While decidedly more powerful than the other minor Chaos Gods, Malal is not considered one of the major gods because he would surely cease to exist if the other four did so as well. As such, he resides in an arrangement unique to himself."
+
+ game_concept_hashut: "Hashut"
+ game_concept_hashut_desc: "Hashut is a Chaos God of unknown origin that spends his time lording over the Chaos Dwarfs, shaping their society in favor of his own whims. To his subjects, he is known as the god of greed and tyranny (which are not bad things in Zharr-Naggrund), though unlike most Chaos Gods he is entirely detached from those things except for when they are done by the Chaos Dwarfs. He has been observed to be an aimlessly malicious god, seeking out sacrifices not because they benefit him but simply because he can force his patronized people to carry them out. The only other god he dedicates his attention towards is the [horned_rat|E], for which he harbors a deep and intense hatred for."
+
+ game_concept_daemon_prince: "Daemon Prince"
+ game_concept_daemon_prince_desc: "The greatest reward for any of the followers of the Chaos Gods is to be gifted their patronage, which will then irreversibly transform them into a Daemon Prince. More than simple boons or blessings, to become a Daemon Prince is to have served your target god so effectively, so consistently, that they grant you immortality through which you can continue to serve them for eternity. All Chaos Gods have the ability to create these beings, though they are different for each god. This is the ultimate reward for all who worship a Chaos God, though nearly none could ever hope to gain it."
+
+ game_concept_horned_rat: "Horned Rat"
+ game_concept_horned_rat_desc: "The Horned Rat is the patron and possible creator of the Skaven, whose priests are known to bear his likeness. While most Chaos Gods embody some quality or another, the Horned Rat is an exception - he is the god of the Skaven, and he will exist as long as his children do. When his will must be made manifest, he ensures that the right words are delivered to the right ears, such that his schemes can take primacy over those of the Skaven. While the ratmen are not terribly friendly to anything else, let alone themselves, the Horned Rat demands an unconditional hostility towards the Chaos Dwarfs and anything else that might serve [hashut|E]."
+
+ game_concept_chaos: "Chaos"
+ game_concept_chaos_desc: "Chaos DESC TODO"
+
+##############################
+########### Quests ###########
+##############################
+
+
+
+ game_concept_quest: "Quest"
+ game_concept_quest_desc: "Quest DESC TODO"
+
+
+##############################
+######### Greenskins #########
+##############################
+
+
+
+ game_concept_waaagh: "Waaagh!"
+ game_concept_waaagh_desc: "Waaagh! DESC TODO"
+
+
+
+
+##############################
+###########  MAA  ############
+##############################
+#  game_concept_flying_units: "Flying Units"
+#  game_concept_flying_unit: "Flying Unit"
+#  game_concept_flying_unit_desc: "This asshole can fly"
+#  flying_units_damage_mult: "[flying_unit|E] [damage|E]"
+#  flying_units_toughness_mult: "[flying_unit|E] [toughness|E]"
+
+#  game_concept_gunpowder: "Gunpowder"
+#  game_concept_gunpowder_desc: "This...is my BOOMSTICK!"
+#  gunpowder_damage_mult: "[gunpowder|E] [damage|E]"
+#  gunpowder_toughness_mult: "[gunpowder|E] [toughness|E]"
+
+#  game_concept_siege_weapon: "Artillery"
+#  game_concept_siege_weapons: "Artillery"
+
+
+
+##############################
+###########  GENERAL  ########
+##############################
+
+ game_concept_knightly_virtues: "Knightly Virtues"
+ game_concept_knightly_virtues_desc: "Knightly Virtues are a set of valorous combat styles, upon which knights of Bretonnia try to emulate, originating from [companions_of_gilles|E], each one of them having perfected their own Virtue with the help of Gilles. Almost none of the modern knights can reach the level of power of [Concept('companions_of_gilles', 'Mighty Thirteen')], but their styles are still superior to anything devised afterwards, even in incomplete version. \n\n#bold Knightly Virtues#! mechanically work as special traits, which the player can choose depending on their character's personality to boost their [prowess|E] and Grail Quest progress (WIP)."
+ 
+ game_concept_companions_of_gilles: "Companions of Gilles"
+ game_concept_companions_of_gilles_desc: "Companions of Gilles, also known as Mighty Thirteen, were the loyal champions of Gilles le Breton and dukes of Bretonni people, and were the first of the [thegrail|E] Knights. As they were about to enter a decisive battle with Orc [waaagh|E], they had a fair maiden risen from nearby lake and giving them strength and light, visible in their armours and weapons, but most importantly - eyes. And so the Grail Companions were founded, counting Agilgar of Parravon, Carleond of Couronne, Marcus of Bordeleaux, Thierulf of Lyonesse, Martrud of Montfort, Gilles of Bastonne (more known as Gilles le Breton, the first royarch), Landuin of Mousillon, Balduin of Brionne, Folgar of Artois, Beren of Gisoreux, Fredemund of Aquitaine, Corduin of L'Anguille, Rademund of Quenelles and Lambard of Carcassonne. Respectively, each of them also fought with their own styles, later becoming known as [knightly_virtues|E] of: Audacity, Confidence, Discipline, Duty, Empathy, Heroism, the Ideal, the Impetuous Knight, the Joust, Knightly Temper, Noble Disdain, the Penitent, Purity and Stoicism."
+

@@ -53,8 +53,7 @@
  carstein_high_god_name_alternative:0 "Vlad"
  carstein_high_god_name_alternative_possessive:0 "Vlad's"
  
- game_concept_vlad_von_carstein:0 "Vlad von Carstein"
- game_concept_vlad_von_carstein_desc:0 "Vlad von Carstein, known in his former life as #bold #italic Vashanesh#! of Nehekhara, was the first Vampire Count of Sylvania, and the founder of the Von Carstein bloodline. He was dreaded by many as the monster that brought darkness upon the lands of Sylvania after his marriage to Isabella von Drak, daughter of the late Imperial Count Otto von Drak."
+
  
  
 #Blood Dragon Faith Localization
@@ -67,8 +66,7 @@
  blood_dragon_high_god_name:0 "Abhorash"
  blood_dragon_high_god_name_possessive:0 "Abhorash's"
  
- game_concept_abhorash:0 "Abhorash"
- game_concept_abhorash_desc:0 "The most legendary of all Blood Dragons was and is their first master, the #bold #italic Dragon Slayer#!, the #bold #italic Scourge of the Greenskins#!, the #bold #italic Blade Immortal#!, the #bold #italic Lord of Blood#!, #bold #italic Abhorash the Great#!, #bold italic Abhorash the Wanderer#!, #bold #italic Abhorash the Master#!. But his location is unknown. Some say he wandered north, deep into the Chaos Wastes, or east into the land of the Giants to seek out even greater conquests. Others say he followed the path of Sigmar and became a God; others say he still walks amongst their ranks in the disguise of a young thrall, watching for the most worthy amongst them. Still, others think of the tales of other Dragon slayers, like the mighty Gilles le Breton and Lord Amara of Hoeth, and wonder how many faces their master might wear in a life as long as his. Whatever the case, none have seen or spoken to him in centuries, and his location and his plans remain mysterious."
+
  
 #Lahmian Faith Localization
  lahmian_faith:0 "The Lahmian Sisterhood"
@@ -77,10 +75,7 @@
  lahmian_adherent_plural:0 "Lahmians"
  lahmian_faith_desc:0 "Founded by [neferata|E], the #bold #italic First of the Vampires#!. The Lahmians may not have the brute strength of some of the other bloodlines, but they more than make up for this lack in cunning, deviousness, and their mastery of others. The Lahmians are secret string-pullers of the world, invisibly exerting untellable control over history. Their immortal plots are difficult for short-lived humans to see, and some that were set in motion in antiquity have yet to come to fruition."
  
- game_concept_neferata:0 "Neferata"
- game_concept_neferata_desc:0 "Neferata, which translates to  #bold #italic \"Beautiful Death\"#! in ancient Nehekharan, is the self-proclaimed #bold #italic Queen of Lahmia#!, the #bold #italic Queen of the Silver Pinnacle#!, the #bold #italic First of the Vampires#!, and the founder and head of the Lahmian Sisterhood. Queen Neferata is one of the most ancient and powerful Vampires to still exist within the world of today, owing much of her success to her own seductive beauty, a cunning demeanor and a secret network of exquisitely beautiful, female Vampire spies that has since infiltrated the aristocracy of all the Human kingdoms of the Old World."
- game_concept_neferatem:0 "Neferatem"
- game_concept_neferatem_title:0 "Princess Neferatem"
+
  
 #Strigoi Faith Localization
  strigoi_faith:0 "Strigoi"
@@ -94,8 +89,7 @@
  strigoi_high_god_name_alternative:0 "Prince Ushoran"
  strigoi_high_god_name_alternative_possessive:0 "Prince Ushoran's"
  
- game_concept_prince_ushoran:0 "Prince Ushoran"
- game_concept_prince_ushoran_desc:0 "It was not enough for [neferata|E] and her brethren to simply be the lords of the great city of Lahmia. It was not enough they had drunk the Elixir of Life and became immortal. They still had to find more ways to feel superior over others, to exclude their equals from their little cult. It was this childishness of the queen that led her to prevent her younger brother, #bold Prince Ushoran, Lord of Masques, Celebrations, and Festivities#!, from drinking the Elixir and joining the True Blooded—her petty need to keep somebody out of her elite cadre. In order to teach her a lesson, and claim only what he was due, Ushoran stole her precious Elixir and entered into that same state of great un-life without her help, becoming the first of the Strigoi."
+
  
 #Necrarch Faith Localization
  necrarch_faith:0 "Path of W'soran"
@@ -106,11 +100,8 @@
  
  necrarch_high_god_name:0 "W'soran"
  necrarch_high_god_name_possessive:0 "W'soran's"
- 
- game_concept_wsoran:0 "W'soran"
- game_concept_wsoran_desc:0 "W'soran /#bold /#italic the Wicked#!, known also as the /#bold Father of Vampires#!, is the founder and head of the Necrach Bloodline of Vampires. W’soran, once a Prince of Rasetra, used his position as High Priest of Lahmia to poison the mind of the young [neferatem_title|E], destined to become Queen of Lahmia. [neferatem|E] was a wilful girl fascinated by magic and death who was frustrated by the Mortuary Cult’s unwillingness to pass on their teachings to women. Secretly, W’soran nurtured her thirst for this forbidden knowledge, coaching her in the magical knowledge he learned at [nagash|E]’s side"
- game_concept_nagash:0 "Nagash"
- game_concept_nagash_desc:0 "Nagash, known by many names such as the #bold #italic Great Necromancer#!, the #bold #italic Great Betrayer#!, the #bold #italic Usurper#!, the #bold #italic Undying King#!, the #bold #italic Supreme Lord of Undeath#! or simply #bold #italic He Who Shall Not Be Named#!, is the ultimate personification of death and the undead, an ancient, evil being who sought to conquer this cruel, chaotic world and bring about an age of undeath that will rule for all eternity. Nagash is darkness and unreasoning hatred given form, the father and creator of foul Necromancy and lord of all Vampire-kind. His every actions and deeds is self-serving, his achievement horrific and loathsome, and his every whim are bent solely to ensure that no one shall ever deny nor challenge his right to rule ever again. This dark, evil being came close to ultimate domination, but if not for the sacrifice of an unsung hero, this world would've been lost millennia ago."
+
+
  
 #Jade Faith Localization
  jade_faith:0 "Jade Vampires"
@@ -122,9 +113,6 @@
  jade_high_god_name:0 "Harakhte"
  jade_high_god_name_possessive:0 "Harakhte"
  
- game_concept_harakhte:0 "Harakhte"
- game_concept_harakhte_desc:0 "Harakhte was one of the most trusted servants that joined Queen [neferata|E]'s court. He created the entire justice system of Lahmia consisting of nine hundred Scriptures which were enforced zealously by the establishment. In extreme age as a human, to the degree that nobody actually knows his true age other than himself, he took a myriad of drugs magical and mundane to survive. This continued as a Vampire, as anything to improve his health was consumed as often as possible.For unknown reasons before the fall of Lahmia he decided to turn twelve of his most trusted servants into Vampires and head east along to Cathay."
- 
 #Mahtmasi Faith Localization
  mahtmasi_faith:0 "Mahtmasi"
  mahtmasi_faith_adj:0 "Mahtmasi"
@@ -135,9 +123,6 @@
  mahtmasi_high_god_name:0 "Maatmeses"
  mahtmasi_high_god_name_possessive:0 "Maatmeses'"
  
- game_concept_maatmeses:0 "Maatmeses"
- game_concept_maatmeses_desc:0 "Maatmeses, now known as Maht-masa in the Arabyan tongue which means 'child of death', lives in a cave in the desert becoming more and more insect as he maintains the order of his Bloodline./n/n The actual goals of Maatmeses himself are unclear. The fluff presents rumors among his children either that he has sworn allegiance to Nurgle or is seeking a way to kill Nurgle and replace him as a Chaos God. Either way he desires the entire world to be Mahtmasi, insects, and mountains of corpses to enjoy."
- 
 #Vampire Coast Faith Localization
  vampire_coast_faith:0 "Vampire Coast"
  vampire_coast_faith_adj:0 "Vampire Coast"
@@ -147,10 +132,7 @@
  
  vampire_coast_high_god_name:0 "Luthor Harkon"
  vampire_coast_high_god_name_possessive:0 "Luthor Harkon's"
- 
- game_concept_luthor_harkon:0 "Luthor Harkon"
- game_concept_luthor_harkon_desc:0 "Luthor Harkon, born Lutr of the Lahmian Harkoni tribe, was the self-styled #bold #italic Arch-Grand Commodore#! and #bold #italic Pirate King#! of the Vampire Coast, leader of the Zombie Pirates and one the Dark Lords of Nagash, feared as the #bold #italic Mortarch of the Abyss#!."
- 
+
 #Strigany Faith Localization
  strigany_faith:0 "Strigany"
  strigany_faith_adj:0 "Strigany"

@@ -2,11 +2,17 @@
 ### Game Mechanic Concepts ###
 ##############################
 
-imperial_authority = {}
+imperial_authority = {
 
-imperial_legitimacy = {}
+}
 
-elector_count = {}
+imperial_legitimacy = {
+
+}
+
+elector_count = {
+
+}
 
 
 
@@ -16,6 +22,10 @@ elector_count = {}
 
 ulric = {
 }
+
+solkan = {
+}
+
 
 sigmar = {
 	alias = {sigmar_full_name}
@@ -92,13 +102,21 @@ abhorash = {}
 
 neferata = {}
 
+ushoran = {}
 
+wsoran = {}
 
+nagash = {}
+
+harakhte = {}
 
 ##############################
 ########### Chaos ############
 ##############################
 
+
+chaos = {
+}
 
 chaos_undivided = {
 }

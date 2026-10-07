@@ -164,16 +164,9 @@
  halfling_good_god_name_groplotta:0 "Groplotta"
  halfling_good_god_name_quinsberry:0 "Quinsberry"
  
- game_concept_esmeralda:0 "Esmeralda"
- game_concept_esmeralda_desc:0 "The most popular Halfling deity, Esmerelda, #bold the Many-Times-Grandmother #! is the Goddess of Hearth and Home. Worship of Esmerelda is free of strictures and demands for worship, and her only rite of note is Pie Week, (in)famous throughout the Empire for its gluttonous excesses. During Pie Week, if at no other time of the year, Halflings can be said to be devout to the core of their being."
- game_concept_phineas:0 "Phineas"
- game_concept_phineas_desc:0 "His pouch is ever-full with, you know, tobacco."
- game_concept_josias:0 "Josias"
- game_concept_josias_desc:0 "Josias the Faithful is the Halfling god of agriculture, animal husbandry, and tobacco. He is worshipped by farmers, herdsmen, and gardeners of The Moot. Offerings to Josias include crops and food, in particular thick soups. Among Haflings Josias is known for working hard and resting hard."
- game_concept_josias_long:0 "Josias The Farmer"
- game_concept_hyacinth:0 "Hyacinth"
- game_concept_hyacinth_desc:0 "Hyacinth is the Halfling god of fertility, sex, and childbirth. Boiled water and palliative herbs are offerings to Hyacinth. Midwives, pregnant women, and revellers particularly venerate this diety, who is notably fond of twins and triplets."
-#Cult of Handrich  
+
+
+
  handrichan:0 "Cult of Handrich"
  handrichan_adj:0 "Handrich"
  handrichan_desc:0 "Handrich is the patron god of merchants and traders, known to take delight in every occasion where money legitimately changes hands. Worshippers of Handrich are concerned with one thing and one thing alone in the course of their worship - the accumulation of money. Learning trades and developing charisma are smiled upon as well, but only because of the way in which they encourage more business. Of course, accumulating wealth does not mean hoarding it. Worshippers are expected to spend money just as generously as they make it, for the commerce this creates pleases the merchant god. Such commerce does not have to be honest, for lying is just another means to an end, provided that one follows the core maxim of Handrich worship: nothing cannot be given for something. When one of his followers dies, Handrich is said to tally up the money they earned and spent over the course of their life. If both are sufficiently high, then the deceased merchant will be given an estate of his own in the afterlife. Those most likely to receive this treatment are the entrepreneurs of the Old World, as Handrich is happy when one of his followers has the acumen required to organize a business."
@@ -242,8 +235,7 @@
  
  manannite_good_god_name_manann:0 "Manann"
  
- game_concept_manann:0 "Manann"
- game_concept_manann_desc:0 "Manann (occasionally spelled \"Manaan\") is the Old World Pantheon god of the seas and the tides.\n\nChief god of the wayward Imperial province of The Wasteland, he also holds sway over the Empire’s northern coasts and its rivers as far as the tide can be felt. The Cult of Manann administrates his worship.\n\nIn divine myth, he is the son of [taal|E]."
+
  #Cult of Sheirrich
 
  sheirrichan:0 "Cult of Sheirrich"
@@ -287,11 +279,8 @@
  sigmarite_religious_symbol3:0 "$sigmarite_religious_symbol$"
  
  sigmarite_religious_head_title:0 "Grand Theogonist"
- game_concept_sigmar:0 "Sigmar"
- game_concept_sigmar_desc:0 "Sigmar Heldenhammer (meaning Hammer of the Goblins in Old Reikspiel), born as Sigmar Unberogen, is the eternal patron god of the Cult of Sigmar and the Empire, as well as its founder and principle war-god. Born to the Unberogen tribe, his coming having been heralded by the twin-tailed comet.\n\nHe was a deeply devout follower of [ulric|E] in his mortal life, as such he was coronated as Emperor by the Ar-Ulric himself."
- game_concept_sigmar_full_name:0 "Sigmar Heldenhammer"
- game_concept_johann_helstrum:0 "Johann Helstrum"
- game_concept_johann_helstrum_desc:0 "The Cult of Sigmar was founded by the wild-eyed friar Johann Helstrum in year of 73 IC, where he appeared before the masses to relate a vision that he experienced [sigmar|E] kneeling before [ulric|E], who then placed the crown of godhood upon his brow and took his place amongst the Old World Pantheons. Such was the popularity of this Cult that Johann became the first Grand Theogonist of the now state-official Cult of Sigmar."
+
+
 
 #Cult of Söll 
  sollian:0 "Cult of Söll"
@@ -339,10 +328,8 @@
  taalite_fertility_god_name:0 "Rhya"
  taalite_fertility_god_name_possessive:0 "Rhya's"
  
- game_concept_taal:0 "Taal"
- game_concept_taal_desc:0 "Taal is one of the older gods of the Human tribesmen that created the Empire of Man. He is a member of the 'northern' or 'country' family of gods. He is the God of Nature, the Lord of Beasts, Mountains and Forests. Taal rules nature and is considered “King of the Gods” by his followers. He claims the wild places as his domain and is primarily worshipped by hardy woodsmen, trackers, and rangers.\n\nHis wife is [rhya|E], the Earth Mother, his brother [ulric|E], the God of Winter and Wolves, and his son Manann, God of the Sea. He is known for his volatile nature and urge to hunt. Like Nature, Taal is often viewed as indifferent to mortal concerns."
- game_concept_rhya:0 "Rhya"
- game_concept_rhya_desc:0 "Rhya is the Earth Mother, the goddess of all that grows and lives. It is Rhya to whom the people of the Old World pray to for fair winds, moderate rains, healthy plants and animals, yet she is also the Huntress. Wife of [taal|E], the lord of Beasts and Rivers, Rhya is seen as the more merciful and gentle of the pair, and is often asked to intercede with her husband to calm his rages. She normally appears as a tall, beautiful woman. She is the mother of Manann."
+
+
 #Ulrican Faith Localization
  ulrican:0 "Cult of Ulric"
  ulrican_winter_throne:0 "Ulrican Winter Throne"
@@ -372,8 +359,7 @@
  ulrican_priest_neuter:0 "$ulrican_priest_male$"
  ulrican_priest_neuter_plural:0 "$ulrican_priest_male_plural$"
  
- game_concept_ulric:0 "Ulric"
- game_concept_ulric_desc:0 "Ulric is the God of War, Winter and Wolves. He's usually depicted as an ancient warrior wearing a cloak made of silver-grey wolf pelt. Before the rise of Sigmar, Ulric was the patron God of the Teutogens, one of the Human tribes that would form the Empire.\n\nDespite the rise of other cults Ulric is still very popular in Middenland and is considered the patron God of the city of Middenheim. His priesthood still holds a strong influence in the Empire and their head the Ar-Ulric is an Elector of the Empire, a right descended from the former duty of the Ar-Ulric to crown the Emperor."
+
 #############
 ##Kislevite##
 ############# 
@@ -393,12 +379,9 @@
  kislevite_good_god_name_salyak:0 "Salyak"
  kislevite_good_god_ancient_widow:0 "The Ancient Widow"
  
- game_concept_ursun:0 "Ursun"
- game_concept_ursun_desc:0 "Ursun, also known as the #bold Great Bear#!, or #bold Father Bear#! is the #bold God of Bears and Strength#! and the patron god of Kislev. His worship was first introduced by the Gospodars, but bears are such a major part of Kislevite life that the religion was absorbed almost instantly. Bears continue to be a vital part of society to this day, and the religion is now inseparable from the Kislevite culture.\n\nWorship of Ursun is not a state religion as the worship of [sigmar|E] in the Empire is, but the fate of Kislev is linked in many minds to the fortunes and favour of Father Bear.The Cult of Ursun is the main religious organization that mandates the worship of Ursun."
- game_concept_dazh:0 "Dazh"
- game_concept_dazh_desc:0 "Dazh is the #bold God of Fire and Sun#! and whose worship is primarily based within the cold, frigid lands of Kislev. It was Dazh who took the secret of flame from the sun and gave it to the ancient warrior chiefs of the tribesmen. Without Dazh’s fire, the long winters of the north would be fatal, and tributes and prayers are regularly offered up to him. In more civilised lands, he rules over the hearths of homes, and is also the patron of guests and the needy. Thus, hospitality to those who call engenders safety for a household, while a poor host or hostess may find that their fire will not start, or that their roof springs an unexpected leak."
- game_concept_tor:0 "Tor"
- game_concept_tor_desc:0 "Tor is the god of thunder and lightning in the Old World. He is also worshipped as a warrior god, and is revered in the nation of Kislev. He is portrayed as a muscled, square-jawed warrior. He wields a massive axe with a haft of oak, and uses it to cleave the sky to create the thunderbolts for which he is famed.\n\nA warrior god, Tor is the most active of the Kislevite gods, and quite frequently his name is used as a curse on others. For example, the phrase ‘Ty Tor!’ means ‘By Tor!’ and is an exclamation of surprise. On the other hand, ‘Do Tor!’ means ‘Tor’s Bolt!’ and is an entreaty for the god to unleash his anger upon the enemy."
+
+
+
 #Ancient Widow
  ancient_widow:0 "Cult of the Ancient Widow"
  ancient_widow_adj:0 "Widow"
@@ -592,8 +575,7 @@
  tilean_death_god_name:0 "King Death"
  tilean_death_god_name_possessive:0 "King Death's"
  
- game_concept_morr:0 "Morr"
- game_concept_morr_desc:0 "Morr is the #bold God of the Dead, Dreams, and Dreamers#!. He holds sway over illusions and all things that are not what they seem. A contemplative god, he guards the souls of the departed from Chaos and necromancers, just as his priests guard the corpses buried in the Gardens of Morr, and protects the dreams of the sleeping from Daemons that would pervert them. Morr and his devoted followers are the eternal enemies of the Undead, and guardians against grave and tomb robbers. \n\nThe Cult of Morr is not a popular one, but is of singular importance in the religious life of the Old World, for all come to Morr’s gate eventually."
+
 #Myrmidian Faith Localization
  myrmidian:0 "Cult of Myrmidia"
  myrmidian_adj:0 "Myrmidian"
@@ -638,8 +620,7 @@
  myrmidian_eastern_wealth_god_name:0 "$southern_pantheon_wealth_god$"
  myrmidian_eastern_wealth_god_name_possessive:0 "$southern_pantheon_wealth_god_possessive$"
  
- game_concept_myrmidia:0 "Myrmidia"
- game_concept_myrmidia_desc:0 "Myrmidia is the Human goddess of war, and her worship has spread into the Empire of Men from the southern Old World nations of Tilea and Estalia, where she is also known as the goddess of civilisation, beauty, and honour.\n\nShe is a goddess from the classical age, depicted as the daughter of Verena and Morr, and is said to have been given to mortal parents as a child and then grew into a maiden warrior who rallied the people of both lands against all enemies.\n\nMyrmidia embodies the civilized tactics and strategies of warfare in comparison to the barbaric savagery of Ulrican warriors and the fanatical zeal of the Sigmarites. Hers is the domain of tactics, formation and strategy, the order within the chaos that is the battlefield."
+
 #Shallyan Faith Localization
  shallyan:0 "Cult of Shallya"
  shallyan_plague_wardens:0 "Shallyan Plague Wardens"
@@ -666,8 +647,7 @@
  shallan_fertility_god_name:0 "$shallyan_high_god_name$"
  shallan_fertility_god_name_possessive:0 "$shallyan_high_god_name_possessive$"
  
- game_concept_shallya:0 "Shallya"
- game_concept_shallya_desc:0 "The Old World is a hard place in which to live. Disease, injury, or extended bad fortune can drive a man or woman to the brink of despair, bereft of any hope. These people turn to Shallya, the #bold White Dove of Mercy#!, who cries tears that bring the promise of mercy and comfort. To those confined to prison or a sickbed, to people condemned to death or who are dying on or off the battlefield, Shallya and her priestesses and priests—for a few men serve her order, too—bring peace and forgiveness, and a promise of a better life in the next world."
+
 #Cult of Solkan
  solkanian:0 "Cult of Solkan"
  solkanian_adj:0 "Solkanite"
@@ -692,12 +672,11 @@
  solkanian_high_god_alternative_possessive:0 "Father of Vengeance's"
  solkanian_head_name:0 "High Inquisitor"
  
- game_concept_solkan:0 "Solkan"
- game_concept_solkan_desc:0 "Solkan placeholder"
+
 #Verenan Faith Localization
  verenan:0 "Cult of Verena"
  verenan_adj:0 "Verenan"
- verenan_desc:0 "[verena|E] is the formally-accepted goddess of law and justice, and likewise is also known for her patronage of knowledge and science. The wife of [morr|E], [verena|E] oversees the living just as he oversees the dead. She and her cult are often forward-thinking, firm in their beliefs that true justice can only be attained through perfect knowledge, and so strive to come as close to perfection as they can manage - an act only possible through technology. Any ignorance disrupts this perfect knowledge, likewise, and so members of the cult of [verena|E] root out and destroy it wherever they can, most famously by attempting to teach others how to read. Her cult favors the well-read and fair. Due to the nature of their faith, nearly of those who primarily worship [verena|E] are markedly more literate, thoughtful, and observant than their peers, qualities the cult holds as sacrosanct."
+ verenan_desc:0 "[Concept('verena')|E] is the formally-accepted goddess of law and justice, and likewise is also known for her patronage of knowledge and science. The wife of [morr|E], [verena|E] oversees the living just as he oversees the dead. She and her cult are often forward-thinking, firm in their beliefs that true justice can only be attained through perfect knowledge, and so strive to come as close to perfection as they can manage - an act only possible through technology. Any ignorance disrupts this perfect knowledge, likewise, and so members of the cult of [verena|E] root out and destroy it wherever they can, most famously by attempting to teach others how to read. Her cult favors the well-read and fair. Due to the nature of their faith, nearly of those who primarily worship [verena|E] are markedly more literate, thoughtful, and observant than their peers, qualities the cult holds as sacrosanct."
  verenan_adherent:0 "Verenan"
  verenan_adherent_plural:0 "Verenans"
  
@@ -714,8 +693,7 @@
  verenan_high_god_alternative:0 "Verena the Wise"
  verenan_high_god_alternative_possessive:0 "Verena the Wise's"
  
- game_concept_verena:0 "Verena"
- game_concept_verena_desc:0 "Verena is the Goddess of Knowledge, Science, Law and Justice. Her symbols are the scales and the downward-pointing sword, representing justice, as well as the owl, representing wisdom.\n\nVerena is a classical god, and her cult is found across the Old World. She is especially venerated in university towns such as Altdorf and Nuln, where there are great temples in her honour. All those who owe their line of work to the fairness of the law tend to honour her above other gods, and the most devout of Verena's followers can include magistrates, politicians, scholars, law enforcers and wizards of the Celestial and Light Colleges. Followers of Verena value reason above force but are more than ready to take up arms in the name of justice if diplomacy fails."
+
 #######################
 ###The Lady Religion###
 #######################
@@ -758,18 +736,8 @@
  grail_religious_head_title:0 "Fey Enchantress"
  grail_religious_symbol:0 "Grail"
  
- game_concept_lady_of_the_lake:0 "The Lady of the Lake"
- game_concept_lady_of_the_lake_desc:0 "The Lady of the Lake, also known as the Lady du Lac, the Divine Damsel or simply the Lady, is the regional goddess of Bretonnia, revered throughout its lands but barely known beyond. She stands for purity, nobility, and courage in the face of danger. She is the ideal lady, everything a knight should love and strive to serve."
- game_concept_lady_simple:0 "The Lady of the Lake"
 
- game_concept_thegrail:0 "Grail"
- game_concept_thegrail_desc:0 "The enchanted chalice kept by the Lady of the Lake, known as the #bold Holy Grail#!, the #bold #italic Grail of Life#!#! or simply the #bold #italic Grail#!#!, is not like any other precious or magical item, as it gives unnatural strength and longevity to those who sip from it - the Knights of Bretonnia, who have completed their Quest for the Grail. It cannot be taken from her or kept by any mortal person. \n\nIt is recorded in Bretonnian annals that a wicked and foolish Knight claimed to have possession of the Grail. In reality, it was a false grail with which he intended to fool and confuse good and virtuous knights so that he could wrongfully seize the throne of Bretonnia. He met his well deserved fate at the hands of the Grail Knights, servants of the true Grail."
- 
- game_concept_knightly_virtues:0 "Knightly Virtues"
- game_concept_knightly_virtues_desc:0 "Knightly Virtues are a set of valorous combat styles, upon which knights of Bretonnia try to emulate, originating from [companions_of_gilles|E], each one of them having perfected their own Virtue with the help of Gilles. Almost none of the modern knights can reach the level of power of [Concept('companions_of_gilles', 'Mighty Thirteen')], but their styles are still superior to anything devised afterwards, even in incomplete version. \n\n#bold Knightly Virtues#! mechanically work as special traits, which the player can choose depending on their character's personality to boost their [prowess|E] and Grail Quest progress (WIP)."
- 
- game_concept_companions_of_gilles:0 "Companions of Gilles"
- game_concept_companions_of_gilles_desc:0 "Companions of Gilles, also known as Mighty Thirteen, were the loyal champions of Gilles le Breton and dukes of Bretonni people, and were the first of the [thegrail|E] Knights. As they were about to enter a decisive battle with Orc [waaagh|E], they had a fair maiden risen from nearby lake and giving them strength and light, visible in their armours and weapons, but most importantly - eyes. And so the Grail Companions were founded, counting Agilgar of Parravon, Carleond of Couronne, Marcus of Bordeleaux, Thierulf of Lyonesse, Martrud of Montfort, Gilles of Bastonne (more known as Gilles le Breton, the first royarch), Landuin of Mousillon, Balduin of Brionne, Folgar of Artois, Beren of Gisoreux, Fredemund of Aquitaine, Corduin of L'Anguille, Rademund of Quenelles and Lambard of Carcassonne. Respectively, each of them also fought with their own styles, later becoming known as [knightly_virtues|E] of: Audacity, Confidence, Discipline, Duty, Empathy, Heroism, the Ideal, the Impetuous Knight, the Joust, Knightly Temper, Noble Disdain, the Penitent, Purity and Stoicism."
+
  
 
 #Bloody Grail Faith Localization
@@ -792,7 +760,7 @@
 #Grail Faith Localization
  grail:0 "Cult of the Lady"
  grail_adj:0 "Grail"
- grail_desc:0 "The Cult of [lady_of_the_lake|E] is the official, state-sponsored doctrine of Grail worship in Bretonnia. While adherent to the founding myth of Bretonnia, the duty of the cult is to solve the philosophical questions that concern the knights of the Grail, as well as enforcing orthodoxy throughout the entire kingdom. The Cult of the Lady holds fast to the doctrine that [lady_of_the_lake|E] holds absolute power over the lakes of Bretonnia exclusively, and that she is her own being separate from any member of the #bold Old World Pantheon#!. The religious (and political) authority of The Grail Damsels is absolute, on account of their close connection to The Lady, and while their verdicts are law they may still be overridden by their superiors. All considerations of chivalry go through the Cult, and deviations from this canon are either \"corrected\" or suppressed, depending on how severe they are."
+ grail_desc:0 "The Cult of [lady_of_the_lake|E] is the official,[waaagh|E] state-sponsored doctrine of Grail worship in Bretonnia. While adherent to the founding myth of Bretonnia, the duty of the cult is to solve the philosophical questions that concern the knights of the Grail, as well as enforcing orthodoxy throughout the entire kingdom. The Cult of the Lady holds fast to the doctrine that [lady_of_the_lake|E] holds absolute power over the lakes of Bretonnia exclusively, and that she is her own being separate from any member of the #bold Old World Pantheon#!. The religious (and political) authority of The Grail Damsels is absolute, on account of their close connection to The Lady, and while their verdicts are law they may still be overridden by their superiors. All considerations of chivalry go through the Cult, and deviations from this canon are either \"corrected\" or suppressed, depending on how severe they are."
  grail_adherent:0 "Follower of the Lady"
  grail_adherent_plural:0 "Followers of the Lady"
 
@@ -922,9 +890,7 @@
  ranaldian_high_god_name_alternative:0 "Smiling Ranald"
  ranaldian_high_god_name_alternative_possessive:0 "Smiling Ranald's"
  
- game_concept_ranald:0 "Ranald"
- game_concept_ranald_desc:0 "Ranald, known by many names such as the #bold Night Prowler#!, the #bold God of Thieves#! or even the #bold Trickster God#!, is the Human God of Luck, Fortune and Mischief. His is a curious cult, for it lacks the trappings, the pomp and majesty, even the structure of other cults. His priests are thieves, tricksters, and gamblers, rather than the educated effete elite so favoured by others. His temples are the gaming halls, the brothels, the taverns, and other dens of iniquity, not the gilt structures of gold and marble. Indeed, Ranald and his priests are unlike any others — a fact that is both distressing and delightful."
-#Stromfels Faith Localization
+
  stromfels:0 "Cult of Stromfels"
  stromfels_adj:0 "Stromfellan"
  stromfels_desc:0 "Many think [stromfelsgod|E] to simply be the king of the threats lurking within the sea. His followers, however know [stromfelsgod|E] to be the true king of the oceans, the uncaring brutality of the water laid bare for all to see. His followers are nearly exclusively pirates, and the cult is likewise localized to the land that they inhabit. Followers of [stromfelsgod|E] do not apply morality to their actions at sea; they are chiefly predators, pursuing and consuming prey so that they may continue living for another day. Indeed, those who are able to help themselves are often rewarded by their god. While he is stingy with direct blessings, good winds and clear seas are said to follow the best of pirates wherever they go. The actual cult is decentralized in order to survive, and so there are at best only a handful of tenets shared between all of his followers, spread by the priests who accompany the predators of the sea."
@@ -944,7 +910,6 @@
  stromfels_high_god_name_alternative:0 "Lord of Predators"
  stromfels_high_god_name_alternative_possessive:0 "Lord of Predators"
  
- game_concept_stromfelsgod:0 "Stromfels"
- game_concept_stromfelsgod_desc:0 "Stromfels, known as the \"Shark God,\" the \"Wrecker,\" the \"Lord of Predators,\" and the \"God of the Dangers of the Seas,\" is the sworn enemy of the Old World Pantheon god of the sea [manann|E] and his followers.\n\nWhereas [manann|E] is at times a capricious and uncaring god, Stromfels is a far more malevolent deity who takes great delight as a predator who takes the lives of those who sail on the sea. Worship of Stromfels is outlawed throughout the Empire and the Wasteland, and is punishable by death."
+
 ##Heresies
 #Jermarism
