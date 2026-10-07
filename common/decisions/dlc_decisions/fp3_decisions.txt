@@ -45,9 +45,9 @@ favour_skilled_outsiders_decision = {
 	decision_group_type = courtier
 	
 	is_shown = {
-		has_fp3_dlc_trigger = yes
 		is_landed = yes
 		favour_skilled_outsiders_decision_valid_character_to_take_trigger = yes
+		has_fp3_dlc_trigger = yes
 	}
 
 	is_valid = {
@@ -428,22 +428,16 @@ fp3_become_clan_government_decision = {
 	cost = { prestige = major_prestige_value }
 
 	is_shown = {
-		has_fp3_dlc_trigger = yes
 		# You are Feudal
 		government_has_flag = government_is_feudal
-		# Has a House and is not House Head
-		exists = house
 		house.house_head != root
 		# Religion is Islam (Clan)
-		# religion = religion:islam_religion #WHG
+		#religion ?= religion:islam_religion
+		has_fp3_dlc_trigger = yes
 		# House head is Clan
-		house.house_head = { government_has_flag = government_is_clan }
-		culture = { #WHG
-			NOR = {
-				has_cultural_pillar = heritage_arabyan
-
-			}
-		}
+		house.house_head ?= { government_has_flag = government_is_clan }
+		# Has a House and is not House Head
+		exists = house
 	}
 
 	is_valid = {
@@ -459,19 +453,17 @@ fp3_become_clan_government_decision = {
 			text = fp3_become_clan_government_decision_house_head_tt
 			house.house_head = { government_has_flag = government_is_clan }
 		}
-		culture = { #WHG
-			NOR = {
-				has_cultural_pillar = heritage_arabyan
-
-			}
-		}
 	}
 
 	effect = {
-		# legend_seed_struggle_ending_effect = { # WHG
-		# 	ENDER = root
-		# 	STRUGGLE = persian_struggle
-		# }
+		#legend_seed_struggle_ending_effect = {
+		#	ENDER = root
+		#	STRUGGLE = persian_struggle
+		#}
+		if = {
+			limit = { has_ach_dlc_trigger = yes }
+			add_character_flag = ach_ended_struggle
+		}
 		show_as_tooltip ={
 			change_government = clan_government
 			# Increase unity, uses this effect since both chars are not clan when script is evaluated
