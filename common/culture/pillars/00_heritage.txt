@@ -116,6 +116,21 @@ heritage_strygan = {
 
 }
 
+
+heritage_arabyan = {
+	type = heritage
+
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_arabyan
+		}
+	}
+
+	audio_parameter = mena 
+
+}
+
+
 heritage_tilean = {
 	type = heritage
 
