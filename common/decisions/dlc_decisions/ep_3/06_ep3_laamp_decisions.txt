@@ -1,4 +1,4 @@
-﻿WHG TOOD
+﻿#WHG TOOD
 
 @laamp_gallivanter_ai_will_do_bonus_1_value = 10
 @laamp_gallivanter_ai_will_do_bonus_2_value = 30
