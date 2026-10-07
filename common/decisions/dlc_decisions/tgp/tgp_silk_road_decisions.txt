@@ -1,5 +1,5 @@
 ﻿#Decisions for East Asia
-#visit_silk_road_market_decision = { #LotR
+#visit_silk_road_market_decision = { #WHG
 	# picture = {
 	# 	reference = "gfx/interface/illustrations/decisions/tgp_silk_road.dds"
 	# }
