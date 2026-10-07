@@ -163,12 +163,16 @@ dame_100 = {
 	trait = knight_lady_grail
 	6493.4.13 = {
 		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
 	}
 	6507.10.5  = {
 		effect = {
 			remove_trait = knight_lady_realm
 			give_nickname = nick_the_young
 		}
+		
 	}
 }
 
