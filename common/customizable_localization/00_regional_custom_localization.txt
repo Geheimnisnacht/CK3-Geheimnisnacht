@@ -689,15 +689,15 @@ TerrainType = {
 		localization_key = terrain_drylands
 	}
 
-	text = {	
-		trigger = { location = { terrain = deep_forest } }
-		localization_key = terrain_deep_forest
-	}
+	# text = {	
+	# 	trigger = { location = { terrain = deep_forest } } #WHG
+	# 	localization_key = terrain_deep_forest
+	# }
 
-	text = {	
-		trigger = { location = { terrain = halls } }
-		localization_key = terrain_halls
-	}
+	# text = {	
+	# 	trigger = { location = { terrain = halls } } #WHG
+	# 	localization_key = terrain_halls
+	# }
 }
 
 TerrainTypeProvince = {
@@ -778,15 +778,15 @@ TerrainTypeProvince = {
 		localization_key = terrain_terraced_hills
 	}
 
-	text = {	
-		trigger = { terrain = deep_forest }
-		localization_key = terrain_deep_forest
-	}
+	# text = {	
+	# 	trigger = { terrain = deep_forest } #WHG
+	# 	localization_key = terrain_deep_forest
+	# }
 
-	text = {	
-		trigger = { terrain = halls }
-		localization_key = terrain_halls
-	}
+	# text = {	
+	# 	trigger = { terrain = halls }
+	# 	localization_key = terrain_halls
+	# }
 }
 
 TerrainTypeProvincePrefix = {
