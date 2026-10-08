@@ -1090,19 +1090,19 @@ character_location_exterior = {
 			}
 		}
 	}
-	texture = {
-		reference = "event_scenes/forest.dds"
+	# texture = {
+	# 	reference = "event_scenes/forest.dds"
 
-		trigger = {
-			NOT = {
-				exists = liege
-			}
-			exists = location
-			location = {
-				terrain = deep_forest
-			}
-		}
-	}
+	# 	trigger = {
+	# 		NOT = {
+	# 			exists = liege
+	# 		}
+	# 		exists = location
+	# 		location = {
+	# 			terrain = deep_forest
+	# 		}
+	# 	}
+	# }
     
 
 

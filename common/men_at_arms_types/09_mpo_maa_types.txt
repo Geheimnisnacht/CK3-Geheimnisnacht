@@ -178,7 +178,7 @@ heavy_horse_archers = {
 		forest = { damage = -20 pursuit = -10 }
 		taiga = { damage = -20 pursuit = -10 }
 		jungle = { damage = -50 pursuit = -25 }
-		deep_forest = { damage = -50 pursuit = -25 } #LOTR
+		# deep_forest = { damage = -50 pursuit = -25 } #WHG TODO
 		wetlands = { damage = -85 pursuit = -40 }
 		mountains = { damage = -85 pursuit = -40 }
 		desert_mountains = { damage = -85 pursuit = -40 }
