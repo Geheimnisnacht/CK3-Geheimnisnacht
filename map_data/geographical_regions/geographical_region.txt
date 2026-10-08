@@ -206,11 +206,17 @@ world_old_world_southern_realms_tilea = {
 		world_old_world_southern_realms_tilea_south
 	}
 }
+world_old_world_southern_realms_estalia = {
+	regions = {
+		world_old_world_southern_realms_estalia_north
+		world_old_world_southern_realms_estalia_south
+	}
+}
+
 world_old_world_southern_realms = {
 	regions = {
 		world_old_world_southern_realms_tilea
-		world_old_world_southern_realms_estalia_north
-		world_old_world_southern_realms_estalia_south
+		world_old_world_southern_realms_estalia
 	}
 }
 
@@ -237,12 +243,12 @@ custom_form_sartosa_region = {
 #	}
 #}
 
-world_old_world_troll_country = {
-	duchies = {
-		d_troll_country
-		d_fjellsende
-	}
-}
+# world_old_world_troll_country = {
+# 	duchies = {
+# 		d_troll_country
+# 		d_fjellsende
+# 	}
+# }
 
 
 ############################Empire Regions
