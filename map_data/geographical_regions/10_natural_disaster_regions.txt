@@ -1,0 +1,15 @@
+﻿# Geographical regions for Natural Disasters
+
+global_flood_region = {
+	regions = {
+		#OLD World
+		#EMPIRE
+		teufel_river_region
+	}
+}
+#EMPIRE
+teufel_river_region = {
+	counties = {
+		c_ubersreik c_auerswald c_reikgard
+	}
+}
