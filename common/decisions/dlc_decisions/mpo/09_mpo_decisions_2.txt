@@ -12,8 +12,8 @@ pray_to_protective_amulet_decision = {
 			has_variable = magic_amulet_var
 		}
 		OR = {
-			# religion = religion:tengrism_religion #LotR
-			# culture = { has_cultural_pillar = heritage_mongolic } #LotR
+			# religion = religion:tengrism_religion #WHG
+			# culture = { has_cultural_pillar = heritage_mongolic } #WHG
 			has_trait = nomadic_philosophy
 		}			
 		has_mpo_dlc_trigger = yes

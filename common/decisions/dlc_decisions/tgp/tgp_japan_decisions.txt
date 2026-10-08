@@ -127,12 +127,12 @@ tgp_japan_establish_house_fief_decision = {
 	}
 
 	# Used by Ruler Objective advice
-	# advice = { #LOTR
+	# advice = { #WHG
 	# 	region = world_asia_japan
 	# }
 
 	effect = {
-		# add_achievement_global_variable_effect = { # LOTR
+		# add_achievement_global_variable_effect = { # WHG
 		# 	VARIABLE = achieved_ep4_18_yes_i_need_my_samurai_achievement
 		# 	VALUE = yes
 		# }
@@ -202,7 +202,7 @@ tgp_japan_establish_house_fief_decision = {
 			add_character_flag = establish_house_fief
 			trigger_event = tgp_japan_decision.9001
 		}
-		#else = { trigger_event = tgp_japan_decision.9002 } #LotR
+		#else = { trigger_event = tgp_japan_decision.9002 } #WHG
 	}
 
 	ai_check_interval_by_tier = {
@@ -350,19 +350,19 @@ tgp_japan_establish_house_fief_decision = {
 				}
 			}
 		}
-		#modifier = { #LotR
+		#modifier = { #WHG
 		#	current_date <= 900.1.1
 		#	add = -75
 		#}
-		#modifier = { #LotR
+		#modifier = { #WHG
 		#	current_date <= 1000.1.1
 		#	add = -75
 		#}
-		#modifier = { #LotR
+		#modifier = { #WHG
 		#	current_date >= 1100.1.1
 		#	add = 75
 		#}
-		#modifier = { #LotR
+		#modifier = { #WHG
 		#	current_date >= 1200.1.1
 		#	add = 75
 		#}
@@ -654,7 +654,7 @@ tgp_japan_become_shogun_decision = {
 	}
 
 	is_shown = {
-		always = no # LotR - until we decide to adopt Soryô
+		always = no # WHG - until we decide to adopt Soryô
 		# has_tgp_dlc_trigger = yes
 		# tgp_is_in_ceremonial_house_trigger = no
 		# government_has_flag = government_is_japan_feudal
@@ -702,7 +702,7 @@ tgp_japan_become_shogun_decision = {
 	effect = {
 		trigger_event = tgp_japan_decision.9101
 		show_as_tooltip = { japanese_become_shogun_reward_effect = yes }
-		# if = { #LotR
+		# if = { #WHG
 		# 	limit = {
 		# 		is_ai = no
 		# 		this = character:japanese_minamoto_seiwa_10
@@ -1531,7 +1531,7 @@ tgp_japan_assert_regional_dominion_government_decision = {
 		}
 	}
 	is_shown = {
-		always = no # LotR - until we decide to adopt Soryô
+		always = no # WHG - until we decide to adopt Soryô
 		# has_tgp_dlc_trigger = yes
 		# is_landed = yes
 		# highest_held_title_tier = tier_county
