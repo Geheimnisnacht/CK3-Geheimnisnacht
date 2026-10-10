@@ -37,6 +37,7 @@ coat_of_arms_template_lists = {
 				scope:culture = { has_coa_gfx = imperial_general_coa_gfx }
 			}
 			9000 = imperial_general_coa_1
+			9000 = imperial_general_coa_1_metal
 		}
 		
 		# Crosses
