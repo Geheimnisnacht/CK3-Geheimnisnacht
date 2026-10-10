@@ -503,7 +503,7 @@ special_genes = {
 				girl = female
 			}
 
-			mena_royalty = {
+			wh_mena_royalty_legacy = {
 				index = 9
 				male = {
 					1 = male_headgear_secular_mena_royalty_01
@@ -4326,6 +4326,198 @@ special_genes = {
 				}
 				female = {
 					1 = f_headgear_sec_sp5_western_roy_02
+				}
+				boy = male
+				girl = female
+			}
+
+			pam_nun_crown_01 = {
+				index = 228
+				male = {
+				#	1 = m_headgear_rel_pam_crown_01
+				}
+				female = {
+					1 = f_headgear_rel_pam_crown_01
+				}
+
+				boy = male
+				girl = female
+			}
+
+			catholic_archbishop_mitre = {
+				index = 229
+				male = {
+					1 = male_headgear_religious_dde_catholic_high_01
+				}
+				female = {
+					1 = female_headgear_religious_catholic_high_01
+				}
+				boy = male
+				girl = female
+			}
+
+			catholic_bishop_mitre = {
+				index = 230
+				male = {
+					1 = male_headgear_religious_catholic_high_01
+				}
+				female = {
+					1 = female_headgear_religious_catholic_high_01
+				}
+				boy = male
+				girl = female
+			}
+
+			catholic_head_costume_prop_female = {
+				index = 231
+				male = {
+					1 = male_headgear_religious_catholic_head_01
+				}
+				female = {
+					1 = female_headgear_religious_catholic_head_01
+				}
+				boy = male
+				girl = female
+			}
+
+			catholic_cardinal_hat = {
+				index = 232
+				male = {
+					1 = m_headgear_rel_pam_cardinal
+				}
+				female = {
+					1 = f_headgear_rel_pam_cardinal
+				}
+				boy = male
+				girl = female
+			}
+
+			catholic_bishop_mitre_early = {
+				index = 233
+				male = {
+					1 = m_headgear_rel_pam_christian_priest_bishop_01
+				}
+				female = {
+					1 = f_headgear_rel_pam_christian_priest_bishop_01
+				}
+				boy = male
+				girl = female
+			}
+
+			catholic_bishop_mitre_late = {
+				index = 234
+				male = {
+					1 = m_headgear_rel_pam_christian_priest_bishop_02
+				}
+				female = {
+					1 = f_headgear_rel_pam_christian_priest_bishop_02
+				}
+				boy = male
+				girl = female
+			}
+
+			catholic_archbishop_mitre_pam_early = {
+				index = 235
+				male = {
+					25 = male_headgear_religious_dde_catholic_high_01
+					75 = m_headgear_rel_pam_christian_priest_bishop_01
+				}
+				female = {
+					1 = female_headgear_religious_catholic_high_01
+				}
+				boy = male
+				girl = female
+			}
+
+			catholic_archbishop_mitre_pam_late = {
+				index = 236
+				male = {
+					25 = male_headgear_religious_dde_catholic_high_01
+					75 = m_headgear_rel_pam_christian_priest_bishop_02
+				}
+				female = {
+					1 = female_headgear_religious_catholic_high_01
+				}
+				boy = male
+				girl = female
+			}
+
+			catholic_bishop_mitre_pam_early = {
+				index = 237
+				male = {
+					25 = male_headgear_religious_catholic_high_01
+					75 = m_headgear_rel_pam_christian_priest_bishop_01
+				}
+				female = {
+					1 = female_headgear_religious_catholic_high_01
+				}
+				boy = male
+				girl = female
+			}
+
+			catholic_bishop_mitre_pam_late = {
+				index = 238
+				male = {
+					25 = male_headgear_religious_catholic_high_01
+					75 = m_headgear_rel_pam_christian_priest_bishop_02
+				}
+				female = {
+					1 = female_headgear_religious_catholic_high_01
+				}
+				boy = male
+				girl = female
+			}
+
+			clergy_veils_western = {
+				index = 239
+				male = {
+				}
+				female = {
+					10 = female_headgear_secular_western_nobility_01
+					10 = female_headgear_secular_western_nobility_01_2
+					10 = female_headgear_secular_western_nobility_02
+					10 = female_headgear_secular_western_nobility_03
+				}
+				boy = male
+				girl = female
+			}
+
+			clergy_veils_ep2_western_era1 = {
+				index = 240
+				male = {
+				}
+				female = {
+					10 = f_headgear_sec_ep2_western_era1_com_01
+					10 = f_headgear_sec_ep2_western_era1_com_02
+					10 = f_headgear_sec_ep2_western_era1_nob_01
+					10 = f_headgear_sec_ep2_western_era1_nob_02
+				}
+				boy = male
+				girl = female
+			}
+
+			clergy_veils_ep2_western_era3 = {
+				index = 241
+				male = {
+				}
+				female = {
+					10 = female_headgear_secular_western_nobility_01
+					10 = female_headgear_secular_western_nobility_01_2
+					10 = female_headgear_secular_western_nobility_02
+					10 = female_headgear_secular_western_nobility_03
+					10 = female_headgear_secular_dde_hre_common_01
+					10 = female_headgear_secular_dde_hre_common_02
+				}
+				boy = male
+				girl = female
+			}
+
+			clergy_veils_orthodox = {
+				index = 242
+				male = {
+				}
+				female = {
+					10 = female_headgear_secular_byzantine_common_01
 				}
 				boy = male
 				girl = female

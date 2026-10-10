@@ -619,4 +619,12 @@ custom_hair = {
 	
 	
 	
+
+	add_accessory_modifiers = {
+		gene = hairstyles
+		template = pam_christian_hairstyles
+		is_valid_custom = {
+			has_pam_dlc_trigger = yes
+		}
+	}
 }

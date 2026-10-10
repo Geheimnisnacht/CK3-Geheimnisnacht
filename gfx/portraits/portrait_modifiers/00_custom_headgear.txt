@@ -1172,6 +1172,38 @@
 		}
 	}	
 		
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = pam_nun_crown_01
+		is_valid_custom = {
+			has_pam_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = catholic_cardinal_hat
+		is_valid_custom = {
+			has_pam_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = catholic_bishop_mitre_early
+		is_valid_custom = {
+			has_pam_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = catholic_bishop_mitre_late
+		is_valid_custom = {
+			has_pam_dlc_trigger = yes
+		}
+	}
 }
 
 

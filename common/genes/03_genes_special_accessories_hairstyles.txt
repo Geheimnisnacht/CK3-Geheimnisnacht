@@ -2920,6 +2920,56 @@ special_genes = {
 			# 	boy = male
 			# 	girl = female
 			# }			
+
+			pam_christian_hairstyles = {
+				index = 116
+				male = {
+					1 = m_hair_pam_christian_01
+					2 = m_hair_pam_christian_02
+					2 = m_hair_pam_christian_03
+				}
+				female = {
+				}
+				boy = male
+				girl = female
+			}
+
+			pam_catholic_hairstyles = {
+				index = 117
+				male = {
+					1 = m_hair_pam_christian_02
+					1 = m_hair_pam_christian_03
+				}
+				female = {
+					1 = female_hair_western_03
+					1 = female_hair_western_06
+					1 = female_hair_western_09
+
+				}
+				boy = male
+				girl = female
+			}
+
+			pam_orthodox_hairstyles = {
+				index = 118
+				male = {
+					1 = m_hair_pam_christian_01
+					1 = m_hair_pam_christian_04
+					1 = m_hair_pam_christian_05
+					1 = m_hair_ep3_byzantine_01
+					1 = m_hair_ep3_byzantine_03
+					1 = m_hair_ep3_byzantine_04
+
+				}
+				female = {
+					1 = female_hair_western_03
+					1 = f_hair_ep3_byzantine_01_common
+					1 = f_hair_ep3_byzantine_02_common
+
+				}
+				boy = male
+				girl = female
+			}
 		}
 	}
 }

@@ -175,4 +175,12 @@
 		template = afr_cloaks
 	}
 	
+
+	add_accessory_modifiers = {
+		gene = cloaks
+		template = pam_cloak_catholic_hi_01
+		is_valid_custom = {
+			has_pam_dlc_trigger = yes
+		}
+	}
 }

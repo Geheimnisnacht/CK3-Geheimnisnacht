@@ -3987,6 +3987,382 @@
 
 
 			
+
+			pam_benedictine_monks_01 = {
+				index = 161
+				male = {
+					1 = m_clothes_rel_pam_benedictine_monk_01_black_a
+					1 = m_clothes_rel_pam_benedictine_monk_01_black_b
+					1 = m_clothes_rel_pam_benedictine_monk_01_brown_a
+					1 = m_clothes_rel_pam_benedictine_monk_01_brown_b
+					1 = m_clothes_rel_pam_benedictine_monk_01_gray_a
+					1 = m_clothes_rel_pam_benedictine_monk_01_gray_b
+					1 = m_clothes_rel_pam_benedictine_monk_01_white_a
+					1 = m_clothes_rel_pam_benedictine_monk_01_white_b
+				}
+				female = {
+					1 = f_clothes_rel_pam_benedictine_monk_01_black_a
+					1 = f_clothes_rel_pam_benedictine_monk_01_black_b
+					1 = f_clothes_rel_pam_benedictine_monk_01_brown_a
+					1 = f_clothes_rel_pam_benedictine_monk_01_brown_b
+					1 = f_clothes_rel_pam_benedictine_monk_01_gray_a
+					1 = f_clothes_rel_pam_benedictine_monk_01_gray_b
+					1 = f_clothes_rel_pam_benedictine_monk_01_white_a
+					1 = f_clothes_rel_pam_benedictine_monk_01_white_b
+				}
+				boy = male
+				girl = female
+			}
+
+			pam_benedictine_monks_02 = {
+				index = 162
+				male = {
+					1 = m_clothes_rel_pam_benedictine_monk_02_black_a
+					1 = m_clothes_rel_pam_benedictine_monk_02_black_b
+					1 = m_clothes_rel_pam_benedictine_monk_02_black_white_a
+					1 = m_clothes_rel_pam_benedictine_monk_02_black_white_b
+					1 = m_clothes_rel_pam_benedictine_monk_02_brown_a
+					1 = m_clothes_rel_pam_benedictine_monk_02_brown_b
+					1 = m_clothes_rel_pam_benedictine_monk_02_brown_gray_a
+					1 = m_clothes_rel_pam_benedictine_monk_02_brown_gray_b
+					1 = m_clothes_rel_pam_benedictine_monk_02_gray_a
+					1 = m_clothes_rel_pam_benedictine_monk_02_gray_b
+					1 = m_clothes_rel_pam_benedictine_monk_02_white_a
+					1 = m_clothes_rel_pam_benedictine_monk_02_white_b
+				}
+				female = {
+					1 = f_clothes_rel_pam_benedictine_monk_02_black_a
+					1 = f_clothes_rel_pam_benedictine_monk_02_black_b
+					1 = f_clothes_rel_pam_benedictine_monk_02_black_white_a
+					1 = f_clothes_rel_pam_benedictine_monk_02_black_white_b
+					1 = f_clothes_rel_pam_benedictine_monk_02_brown_a
+					1 = f_clothes_rel_pam_benedictine_monk_02_brown_b
+					1 = f_clothes_rel_pam_benedictine_monk_02_brown_gray_a
+					1 = f_clothes_rel_pam_benedictine_monk_02_brown_gray_b
+					1 = f_clothes_rel_pam_benedictine_monk_02_gray_a
+					1 = f_clothes_rel_pam_benedictine_monk_02_gray_b
+					1 = f_clothes_rel_pam_benedictine_monk_02_white_a
+					1 = f_clothes_rel_pam_benedictine_monk_02_white_b
+				}
+				boy = male
+				girl = female
+			}
+
+			pam_camaldolese_monks_01 = {
+				index = 163
+				male = {
+					1 = m_clothes_rel_pam_camaldolese_monk_01_white_a
+					1 = m_clothes_rel_pam_camaldolese_monk_01_white_b
+				}
+				female = {
+					1 = f_clothes_rel_pam_camaldolese_monk_01_white_a
+					1 = f_clothes_rel_pam_camaldolese_monk_01_white_b
+				}
+				boy = male
+				girl = female
+			}
+
+			religious_catholic_bishop_clothes = {
+				index = 164
+
+				male = {
+					1 = male_clothes_religious_catholic_high_01
+				}
+
+				female = {
+					1 = female_clothes_religious_catholic_high_01
+				}
+
+				boy = male
+				girl = female
+			}
+
+			religious_catholic_archbishop_clothes = {
+				index = 165
+
+				male = {
+					1 = male_clothes_religious_catholic_high_01
+					3 = male_clothes_religious_dde_catholic_high_01
+				}
+
+				female = {
+					1 = female_clothes_religious_catholic_high_01
+					3 = female_clothes_religious_dde_catholic_high_01
+				}
+
+				boy = male
+				girl = female
+			}
+
+			religious_catholic_prince_bishop_clothes = {
+				index = 166
+
+				male = {
+					3 = male_clothes_religious_catholic_high_01
+					1 = male_clothes_religious_dde_catholic_high_01
+				}
+
+				female = {
+					3 = female_clothes_religious_catholic_high_01
+					1 = female_clothes_religious_dde_catholic_high_01
+				}
+
+				boy = male
+				girl = female
+			}
+
+			religious_catholic_cardinal_clothes = {
+				index = 167
+
+				male = {
+					1 = m_clothes_rel_pam_cardinal
+				}
+
+				female = {
+					1 = f_clothes_rel_pam_cardinal
+				}
+
+				boy = male
+				girl = female
+			}
+
+			pam_benedictine_monks_black = {
+				index = 168
+				male = {
+					1 = m_clothes_rel_pam_benedictine_monk_01_black_a
+					1 = m_clothes_rel_pam_benedictine_monk_01_black_b
+					1 = m_clothes_rel_pam_benedictine_monk_02_black_a
+					1 = m_clothes_rel_pam_benedictine_monk_02_black_b
+					1 = m_clothes_rel_pam_benedictine_monk_02_black_white_a
+					1 = m_clothes_rel_pam_benedictine_monk_02_black_white_b
+				}
+				female = {
+					1 = f_clothes_rel_pam_benedictine_monk_01_black_a
+					1 = f_clothes_rel_pam_benedictine_monk_01_black_b
+					1 = f_clothes_rel_pam_benedictine_monk_02_black_a
+					1 = f_clothes_rel_pam_benedictine_monk_02_black_b
+					1 = f_clothes_rel_pam_benedictine_monk_02_black_white_a
+					1 = f_clothes_rel_pam_benedictine_monk_02_black_white_b
+				}
+				boy = male
+				girl = female
+			}
+
+			pam_benedictine_monks_white = {
+				index = 169
+				male = {
+					1 = m_clothes_rel_pam_benedictine_monk_01_white_a
+					1 = m_clothes_rel_pam_benedictine_monk_01_white_b
+					1 = m_clothes_rel_pam_benedictine_monk_02_white_a
+					1 = m_clothes_rel_pam_benedictine_monk_02_white_b
+				}
+				female = {
+					1 = f_clothes_rel_pam_benedictine_monk_01_white_a
+					1 = f_clothes_rel_pam_benedictine_monk_01_white_b
+					1 = f_clothes_rel_pam_benedictine_monk_02_white_a
+					1 = f_clothes_rel_pam_benedictine_monk_02_white_b
+				}
+				boy = male
+				girl = female
+			}
+
+			pam_benedictine_monks_gray = {
+				index = 170
+				male = {
+					1 = m_clothes_rel_pam_benedictine_monk_01_gray_a
+					1 = m_clothes_rel_pam_benedictine_monk_01_gray_b
+					1 = m_clothes_rel_pam_benedictine_monk_02_gray_a
+					1 = m_clothes_rel_pam_benedictine_monk_02_gray_b
+				}
+				female = {
+					1 = f_clothes_rel_pam_benedictine_monk_01_gray_a
+					1 = f_clothes_rel_pam_benedictine_monk_01_gray_b
+					1 = f_clothes_rel_pam_benedictine_monk_02_gray_a
+					1 = f_clothes_rel_pam_benedictine_monk_02_gray_b
+				}
+				boy = male
+				girl = female
+			}
+
+			pam_benedictine_monks_brown = {
+				index = 171
+				male = {
+					1 = m_clothes_rel_pam_benedictine_monk_01_brown_a
+					1 = m_clothes_rel_pam_benedictine_monk_01_brown_b
+					1 = m_clothes_rel_pam_benedictine_monk_02_brown_a
+					1 = m_clothes_rel_pam_benedictine_monk_02_brown_b
+					1 = m_clothes_rel_pam_benedictine_monk_02_brown_gray_a
+					1 = m_clothes_rel_pam_benedictine_monk_02_brown_gray_b
+				}
+				female = {
+					1 = f_clothes_rel_pam_benedictine_monk_01_brown_a
+					1 = f_clothes_rel_pam_benedictine_monk_01_brown_b
+					1 = f_clothes_rel_pam_benedictine_monk_02_brown_a
+					1 = f_clothes_rel_pam_benedictine_monk_02_brown_b
+					1 = f_clothes_rel_pam_benedictine_monk_02_brown_gray_a
+					1 = f_clothes_rel_pam_benedictine_monk_02_brown_gray_b
+				}
+				boy = male
+				girl = female
+			}
+
+			pam_devoted_mixed_clothes = {
+				index = 172
+				male = {
+					1 = m_clothes_rel_pam_benedictine_monk_01_black_a
+					1 = m_clothes_rel_pam_benedictine_monk_01_black_b
+					1 = m_clothes_rel_pam_benedictine_monk_01_brown_a
+					1 = m_clothes_rel_pam_benedictine_monk_01_brown_b
+					1 = m_clothes_rel_pam_benedictine_monk_01_gray_a
+					1 = m_clothes_rel_pam_benedictine_monk_01_gray_b
+					1 = m_clothes_rel_pam_benedictine_monk_01_white_a
+					1 = m_clothes_rel_pam_benedictine_monk_01_white_b
+					1 = m_clothes_rel_pam_benedictine_monk_02_black_a
+					1 = m_clothes_rel_pam_benedictine_monk_02_black_b
+					1 = m_clothes_rel_pam_benedictine_monk_02_black_white_a
+					1 = m_clothes_rel_pam_benedictine_monk_02_black_white_b
+					1 = m_clothes_rel_pam_benedictine_monk_02_brown_a
+					1 = m_clothes_rel_pam_benedictine_monk_02_brown_b
+					1 = m_clothes_rel_pam_benedictine_monk_02_brown_gray_a
+					1 = m_clothes_rel_pam_benedictine_monk_02_brown_gray_b
+					1 = m_clothes_rel_pam_benedictine_monk_02_gray_a
+					1 = m_clothes_rel_pam_benedictine_monk_02_gray_b
+					1 = m_clothes_rel_pam_benedictine_monk_02_white_a
+					1 = m_clothes_rel_pam_benedictine_monk_02_white_b
+					1 = m_clothes_rel_pam_camaldolese_monk_01_white_a
+					1 = m_clothes_rel_pam_camaldolese_monk_01_white_b
+					1 = male_clothes_religious_catholic_devoted_01_dominican
+					1 = male_clothes_religious_catholic_devoted_02_franciscan
+					1 = male_clothes_religious_catholic_devoted_02_benedictine
+				}
+				female = {
+					1 = f_clothes_rel_pam_benedictine_monk_01_black_a
+					1 = f_clothes_rel_pam_benedictine_monk_01_black_b
+					1 = f_clothes_rel_pam_benedictine_monk_01_brown_a
+					1 = f_clothes_rel_pam_benedictine_monk_01_brown_b
+					1 = f_clothes_rel_pam_benedictine_monk_01_gray_a
+					1 = f_clothes_rel_pam_benedictine_monk_01_gray_b
+					1 = f_clothes_rel_pam_benedictine_monk_01_white_a
+					1 = f_clothes_rel_pam_benedictine_monk_01_white_b
+					1 = f_clothes_rel_pam_benedictine_monk_02_black_a
+					1 = f_clothes_rel_pam_benedictine_monk_02_black_b
+					1 = f_clothes_rel_pam_benedictine_monk_02_black_white_a
+					1 = f_clothes_rel_pam_benedictine_monk_02_black_white_b
+					1 = f_clothes_rel_pam_benedictine_monk_02_brown_a
+					1 = f_clothes_rel_pam_benedictine_monk_02_brown_b
+					1 = f_clothes_rel_pam_benedictine_monk_02_brown_gray_a
+					1 = f_clothes_rel_pam_benedictine_monk_02_brown_gray_b
+					1 = f_clothes_rel_pam_benedictine_monk_02_gray_a
+					1 = f_clothes_rel_pam_benedictine_monk_02_gray_b
+					1 = f_clothes_rel_pam_benedictine_monk_02_white_a
+					1 = f_clothes_rel_pam_benedictine_monk_02_white_b
+					1 = f_clothes_rel_pam_camaldolese_monk_01_white_a
+					1 = f_clothes_rel_pam_camaldolese_monk_01_white_b
+					1 = female_clothes_religious_catholic_devoted_01_dominican
+					1 = female_clothes_religious_catholic_devoted_02_franciscan
+					1 = female_clothes_religious_catholic_devoted_02_benedictine
+				}
+				boy = male
+				girl = female
+			}
+
+			religious_eastern_devoted_clothes = { # No Dominican robe: its black-and-white look is distinctly Latin
+				index = 173
+				male = {
+					1 = male_clothes_religious_catholic_devoted_02_franciscan
+					1 = male_clothes_religious_catholic_devoted_02_benedictine
+				}
+				female = {
+					1 = female_clothes_religious_catholic_devoted_02_franciscan
+					1 = female_clothes_religious_catholic_devoted_02_benedictine
+				}
+				boy = male
+				girl = female
+			}
+
+			pam_nestorian_monks = {
+				index = 174
+				male = {
+					1 = m_clothes_rel_pam_benedictine_monk_01_gray_a
+					1 = m_clothes_rel_pam_benedictine_monk_01_gray_b
+					1 = m_clothes_rel_pam_benedictine_monk_01_white_a
+					1 = m_clothes_rel_pam_benedictine_monk_01_white_b
+					1 = m_clothes_rel_pam_benedictine_monk_02_gray_a
+					1 = m_clothes_rel_pam_benedictine_monk_02_gray_b
+					1 = m_clothes_rel_pam_benedictine_monk_02_white_a
+					1 = m_clothes_rel_pam_benedictine_monk_02_white_b
+				}
+				female = {
+					1 = f_clothes_rel_pam_benedictine_monk_01_gray_a
+					1 = f_clothes_rel_pam_benedictine_monk_01_gray_b
+					1 = f_clothes_rel_pam_benedictine_monk_01_white_a
+					1 = f_clothes_rel_pam_benedictine_monk_01_white_b
+					1 = f_clothes_rel_pam_benedictine_monk_02_gray_a
+					1 = f_clothes_rel_pam_benedictine_monk_02_gray_b
+					1 = f_clothes_rel_pam_benedictine_monk_02_white_a
+					1 = f_clothes_rel_pam_benedictine_monk_02_white_b
+				}
+				boy = male
+				girl = female
+			}
+
+			pam_catholic_bishop = { # Customization only; the in-game pools are the three below
+				index = 175
+				male = {
+					1 = m_clothes_rel_pam_catholic_hi_01
+				}
+				female = {
+					1 = f_clothes_rel_pam_catholic_hi_01
+				}
+				boy = male
+				girl = female
+			}
+
+			pam_catholic_clergy_clothes = {
+				index = 176
+				male = {
+					1 = male_clothes_religious_catholic_high_01
+					1 = m_clothes_rel_pam_catholic_hi_01
+				}
+				female = {
+					1 = female_clothes_religious_catholic_high_01
+					1 = f_clothes_rel_pam_catholic_hi_01
+				}
+				boy = male
+				girl = female
+			}
+
+			pam_catholic_archbishop_clothes = {
+				index = 177
+				male = {
+					1 = male_clothes_religious_catholic_high_01
+					3 = male_clothes_religious_dde_catholic_high_01
+					1 = m_clothes_rel_pam_catholic_hi_01
+				}
+				female = {
+					1 = female_clothes_religious_catholic_high_01
+					3 = female_clothes_religious_dde_catholic_high_01
+					1 = f_clothes_rel_pam_catholic_hi_01
+				}
+				boy = male
+				girl = female
+			}
+
+			pam_catholic_prince_bishop_clothes = {
+				index = 178
+				male = {
+					3 = male_clothes_religious_catholic_high_01
+					1 = male_clothes_religious_dde_catholic_high_01
+					3 = m_clothes_rel_pam_catholic_hi_01
+				}
+				female = {
+					3 = female_clothes_religious_catholic_high_01
+					1 = female_clothes_religious_dde_catholic_high_01
+					3 = f_clothes_rel_pam_catholic_hi_01
+				}
+				boy = male
+				girl = female
+			}
 		}
 	}
 }

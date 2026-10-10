@@ -1027,4 +1027,44 @@
 	#		monarchs_journey_unlock = 1
 	#	}
 	#}
+
+    add_accessory_modifiers = {
+		gene = clothes
+		template = pam_benedictine_monks_01
+		is_valid_custom = {
+			has_pam_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = pam_benedictine_monks_02
+		is_valid_custom = {
+			has_pam_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = pam_camaldolese_monks_01
+		is_valid_custom = {
+			has_pam_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = religious_catholic_cardinal_clothes
+		is_valid_custom = {
+			has_pam_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = pam_catholic_bishop
+		is_valid_custom = {
+			has_pam_dlc_trigger = yes
+		}
+	}
 }
