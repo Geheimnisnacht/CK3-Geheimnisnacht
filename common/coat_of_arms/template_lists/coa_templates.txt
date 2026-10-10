@@ -31,12 +31,19 @@ coat_of_arms_template_lists = {
 		#1 = basic_ordinary_chief_02
 		
 
-		
+		#WHG CHANGED
+		special_selection = {
+			trigger = {
+				scope:culture = { has_coa_gfx = imperial_general_coa_gfx }
+			}
+			9000 = imperial_general_coa_1
+		}
 		
 		# Crosses
 		special_selection = {
 			trigger = {
-				always = yes
+				#WHG CHANGED
+				always = no
 			}
 			1 = basic_ordinary_cross_01
 			3 = basic_ordinary_cross_02
@@ -60,20 +67,20 @@ coat_of_arms_template_lists = {
 		# European Paganism - Single, Circle, Senester
 		special_selection = {
 			trigger = {
-				always = yes
+				#WHG CHANGED
 			}
 			# Weights are temps
-			16000 = basic_pagan_template
-			16000 = basic_pagan_template_inverted			
-			8000 = basic_pagan_template_senester
-			8000 = basic_pagan_template_senester_inverted
-			3000 = geometrical_pagan_template
-			4000 = geometrical_pagan_template_inverted				
-			3000 = geometrical_pagan_template_senester	
-			2000 = circled_pagan_template
-			2000 = circled_pagan_template_inverted
-			2000 = circled_pagan_template_offset	
-			2000 = circled_pagan_template_offset_inverted
+			1 = basic_pagan_template
+			1 = basic_pagan_template_inverted			
+			8 = basic_pagan_template_senester
+			8 = basic_pagan_template_senester_inverted
+			3 = geometrical_pagan_template
+			4 = geometrical_pagan_template_inverted				
+			3 = geometrical_pagan_template_senester	
+			2 = circled_pagan_template
+			2 = circled_pagan_template_inverted
+			2 = circled_pagan_template_offset	
+			2 = circled_pagan_template_offset_inverted
 		}				
 		# Germanic Paganism - No circle, more geometrical designs
 		special_selection = {

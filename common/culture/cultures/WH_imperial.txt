@@ -17,7 +17,7 @@
 
 	name_list = averlander_name_list
 
-	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	coa_gfx = { imperial_general_coa_gfx } #german_group_coa_gfx western_coa_gfx
 	building_gfx = { western_building_gfx } 
 	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
 	# clothing_gfx = { imperial_clothing_gfx } 
@@ -135,7 +135,7 @@ drakwalder = {
 	
 	name_list = drakwalder_name_list
 
-	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	coa_gfx = { imperial_general_coa_gfx } #german_group_coa_gfx western_coa_gfx
 	building_gfx = { western_building_gfx } 
 	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
 	# clothing_gfx = { imperial_clothing_gfx } 
@@ -252,7 +252,7 @@ hochlander = {
 
 	name_list = hochlander_name_list
 
-	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	coa_gfx = { imperial_general_coa_gfx } #german_group_coa_gfx western_coa_gfx
 	building_gfx = { western_building_gfx } 
 	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
 	# clothing_gfx = { imperial_clothing_gfx } 
@@ -369,7 +369,7 @@ middenlander = {
 
 	name_list = middenlander_name_list
 
-	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	coa_gfx = { imperial_general_coa_gfx } #german_group_coa_gfx western_coa_gfx
 	building_gfx = { western_building_gfx } 
 	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
 	# clothing_gfx = { imperial_clothing_gfx } 
@@ -490,7 +490,7 @@ nordlander = {
 
 	name_list = nordlander_name_list
 
-	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	coa_gfx = { imperial_general_coa_gfx } #german_group_coa_gfx western_coa_gfx
 	building_gfx = { western_building_gfx } 
 	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
 	# clothing_gfx = { imperial_clothing_gfx } 
@@ -569,7 +569,7 @@ neueslander = {
 
 	name_list = neueslander_name_list
 
-	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	coa_gfx = { imperial_general_coa_gfx } #german_group_coa_gfx western_coa_gfx
 	building_gfx = { western_building_gfx } 
 	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
 	# clothing_gfx = { imperial_clothing_gfx } 
@@ -686,7 +686,7 @@ ostermarker = {
 
 	name_list = ostermarker_name_list
 
-	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	coa_gfx = { imperial_general_coa_gfx } #german_group_coa_gfx western_coa_gfx
 	building_gfx = { western_building_gfx } 
 	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
 	# clothing_gfx = { imperial_clothing_gfx } 
@@ -733,7 +733,7 @@ ostlander = {
 
 	name_list = ostlander_name_list 
 
-	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	coa_gfx = { imperial_general_coa_gfx } #german_group_coa_gfx western_coa_gfx
 	building_gfx = { western_building_gfx } 
 	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
 	# clothing_gfx = { imperial_clothing_gfx } 
@@ -850,7 +850,7 @@ reiklander = {
 
 	name_list = reiklander_name_list
 
-	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	coa_gfx = { imperial_general_coa_gfx } #german_group_coa_gfx western_coa_gfx
 	building_gfx = { western_building_gfx } 
 	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
 	# clothing_gfx = { imperial_clothing_gfx } 
@@ -967,7 +967,7 @@ sollander = { #¡War on everything that lives. War on everything that burns with
 
 	name_list = sollander_name_list
 
-	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	coa_gfx = { imperial_general_coa_gfx } #german_group_coa_gfx western_coa_gfx
 	building_gfx = { western_building_gfx } 
 	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
 	# clothing_gfx = { imperial_clothing_gfx } 
@@ -1084,7 +1084,7 @@ stirlander = {
 
 	name_list = stirlander_name_list
 
-	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	coa_gfx = { imperial_general_coa_gfx } #german_group_coa_gfx western_coa_gfx 
 	building_gfx = { western_building_gfx } 
 	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
 	# clothing_gfx = { imperial_clothing_gfx } 
@@ -1161,7 +1161,7 @@ sylvanian = {
 	name_list = sylvanian_name_list
 
 
-	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	coa_gfx = { imperial_general_coa_gfx } #german_group_coa_gfx western_coa_gfx
 	building_gfx = { western_building_gfx } 
 	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
 	# clothing_gfx = { imperial_clothing_gfx } 
@@ -1237,7 +1237,7 @@ talabeclander = {
 
 	name_list = talabeclander_name_list
 
-	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	coa_gfx = { imperial_general_coa_gfx } #german_group_coa_gfx western_coa_gfx
 	building_gfx = { western_building_gfx } 
 	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
 	# clothing_gfx = { imperial_clothing_gfx } 
@@ -1354,7 +1354,7 @@ westerlander = {
 	
 	name_list = westerlander_name_list
 
-	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	coa_gfx = { imperial_general_coa_gfx } #german_group_coa_gfx western_coa_gfx
 	building_gfx = { western_building_gfx } 
 	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
 	# clothing_gfx = { imperial_clothing_gfx } 
@@ -1472,7 +1472,7 @@ wissenlander = {
 
 	name_list = wissenlander_name_list
 
-	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	coa_gfx = { imperial_general_coa_gfx } #german_group_coa_gfx western_coa_gfx
 	building_gfx = { western_building_gfx } 
 	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
 	# clothing_gfx = { imperial_clothing_gfx } 
@@ -1589,7 +1589,7 @@ sudenburger = {
 	
 	name_list = sudenburger_name_list
 
-	coa_gfx = { german_group_coa_gfx western_coa_gfx frisian_coa_gfx }
+	coa_gfx = { imperial_general_coa_gfx } #german_group_coa_gfx western_coa_gfx frisian_coa_gfx 
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
 	# clothing_gfx = { imperial_clothing_gfx } 
